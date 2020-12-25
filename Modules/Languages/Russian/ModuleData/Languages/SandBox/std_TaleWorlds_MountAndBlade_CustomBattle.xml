@@ -12,7 +12,7 @@
     <string id="SLZzfNPr" text="Выберите оружие дальнего боя"/>
     <string id="0s52GQJt" text="Scene Level"/>
     <string id="0xC75dN6" text="Enemy Party"/>
-    <string id="4IuXGSdc" text="Wall Hitpoints"/>
+    <string id="4IuXGSdc" text="Прочность стен"/>
     <string id="7i1vmgQ9" text="Select a Map"/>
     <string id="AiNXIt5N" text="Dual Breached"/>
     <string id="AmfIfeIc" text="Choose Attacker Siege Machines"/>
@@ -22,8 +22,8 @@
     <string id="dsMeB3vi" text="Solid"/>
     <string id="EcKMGoFv" text="Sallyout"/>
     <string id="f7vOVQb7" text="Summer"/>
-    <string id="g9VIbA9s" text="Sergeant"/>
-    <string id="JPimShCw" text="Game Type"/>
+    <string id="g9VIbA9s" text="Сержант"/>
+    <string id="JPimShCw" text="Тип игры"/>
     <string id="KASD0tnO" text="Attacker"/>
     <string id="Kvxo2jzJ" text="Single Breached"/>
     <string id="nWbp3o3H" text="Spring"/>
@@ -31,9 +31,9 @@
     <string id="P3rMg4uZ" text="Player Side"/>
     <string id="QAYngoNQ" text="Enemy Character"/>
     <string id="sSJSTe5p" text="Player Party"/>
-    <string id="Ua6CNLBZ" text="Village"/>
+    <string id="Ua6CNLBZ" text="Деревня"/>
     <string id="UoiSWe87" text="Choose Defender Siege Machines"/>
-    <string id="w9m11T1y" text="Map"/>
+    <string id="w9m11T1y" text="Карта"/>
     <string id="XEVFUaFj" text="Defender"/>
     <string id="xTzDM5XE" text="Season"/>
   </strings>

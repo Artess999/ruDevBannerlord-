@@ -27,7 +27,7 @@
     <string id="EHFibjkM" text="{TOWN_NAME} осаждается войском во главе с {LORD.LINK} из {FACTION_NAME}"/>
     <string id="ELFgdGJZ" text="{MOTHER.LINK} забеременела."/>
     <string id="eMRMptST" text="{MOTHER.LINK} родила."/>
-    <string id="ExbVzTZA" text="Клан {CLAN} заключил наёмничий контракт&#10;Теперь клан союзник {KINGDOM}"/>
+    <string id="ExbVzTZA" text="Клан {CLAN} заключил наёмничий контракт{newline}Теперь клан союзник {KINGDOM}"/>
     <string id="F3MPgmhR" text="{CLAIMANT.LINK} утверждает, что {SETTLEMENT_NAME} должен принадлежать {CLAIMANT_CLAN}, а не {CURRENT_OWNER_CLAN}"/>
     <string id="FZdiWaBs" text="Общая зона {HERO} захвачена"/>
     <string id="h5rkbVu3" text="Новым владельцем {SETTLEMENT} является {LORD.LINK}"/>

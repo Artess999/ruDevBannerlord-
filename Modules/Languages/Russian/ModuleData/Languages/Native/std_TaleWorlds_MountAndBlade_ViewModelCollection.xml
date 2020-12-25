@@ -75,7 +75,7 @@
     <string id="gzdNEM76" text="Создать игру"/>
     <string id="H1emUb6k" text="Возраст:"/>
     <string id="hazebV8x" text="Настройка персонажа"/>
-    <string id="hbwp3g3k" text="+{FRIEND_COUNT}&#10;{?PLURAL}друзья{?}друг{\?}"/>
+    <string id="hbwp3g3k" text="+{FRIEND_COUNT}{newline}{?PLURAL}друзья{?}друг{\?}"/>
     <string id="Hp2wp3et" text="Принять (F1)"/>
     <string id="HXxNfncd" text="Конец битвы"/>
     <string id="i0OEsfLt" text="Пользовательская битва отключена"/>
@@ -170,7 +170,7 @@
     <string id="wuKqRvc3" text="Игра: {GAME_TYPES}  |  Регион: {REGIONS}"/>
     <string id="wwr4V1jm" text="Выберите игрока для бана"/>
     <string id="xebFLnH2" text="Аудио"/>
-    <string id="XJTX8w8M" text="Разогрев - {GAME_MODE}&#10;Ожидание игроков"/>
+    <string id="XJTX8w8M" text="Разогрев - {GAME_MODE}{newline}Ожидание игроков"/>
     <string id="XLHkPwbb" text="Выберите игровую карту"/>
     <string id="xTv4tCbZ" text="Все! Слушайте меня"/>
     <string id="Y94H6XnK" text="Принять"/>

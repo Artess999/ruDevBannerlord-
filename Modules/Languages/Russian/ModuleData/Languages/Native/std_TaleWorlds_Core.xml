@@ -71,10 +71,10 @@
     <string id="YO5LUfiO" text="Хитрость - это способность предсказывать, что будут делать другие люди, и перехитрить их планы."/>
     <string id="YWkdD7Ki" text="Сила"/>
     <string id="2K0iVRkW" text="Ability to organize a group and manage logistics. This helps you to run an estate or administer a town, and can increase the size of a party that you lead or in which you serve as quartermaster."/>
-    <string id="controlskill" text="Control"/>
-    <string id="smithingskill" text="Smithing"/>
-    <string id="socialskill" text="Social"/>
-    <string id="ZBmz4niK" text="and"/>
+    <string id="controlskill" text="Ловкость"/>
+    <string id="smithingskill" text="Кузнечное дело"/>
+    <string id="socialskill" text="Харизма"/>
+    <string id="ZBmz4niK" text="и"/>
     <string id="ZvZN6UkU" text="Trash Item"/>
   </strings>
 </base>

@@ -40,7 +40,7 @@
     <string id="1Llb4gGw" text="Завершение"/>
     <string id="1MStGeRa" text="Повержено противников: {BEATEN_OPPONENT_COUNT}"/>
     <string id="1o1TyPib" text="Дополнительный лимит компаньонов"/>
-    <string id="1PwQxaOu" text="&#10;Похоже, идёт подготовка к турниру.&#10;Победитель получит приз:&#10;{ITEM}."/>
+    <string id="1PwQxaOu" text="{newline}Похоже, идёт подготовка к турниру.{newline}Победитель получит приз:{newline}{ITEM}."/>
     <string id="1pxLpZ4r" text="Склад ума:"/>
     <string id="1wHTYnxh" text="Вы поддержали заговор против Империи!"/>
     <string id="1wkANMRC" text="Наш план - попытаться удержать этот узкий проход."/>
@@ -237,10 +237,10 @@
     <string id="9EgIraI1" text="Активные указы"/>
     <string id="9esIWdDC" text="Тогда я сделаю из тебя чучело! И не моли о пощаде![ib:aggressive][rb:very_negative]"/>
     <string id="9FhdRKWu" text="Метательные ножи"/>
-    <string id="9gNjg4P0" text="Выход в главное меню без сохранения.&#10;Уверены, что хотите выйти?"/>
+    <string id="9gNjg4P0" text="Выход в главное меню без сохранения.{newline}Уверены, что хотите выйти?"/>
     <string id="9iycVtyV" text="Скорость обучения: x {COUNT}"/>
     <string id="9NjDfz5Z" text="({LEFT} / {RIGHT})"/>
-    <string id="9PLNQrWw" text="На улицах практически нет недовольных.&#10;В целом люди доверяют властям."/>
+    <string id="9PLNQrWw" text="На улицах практически нет недовольных.{newline}В целом люди доверяют властям."/>
     <string id="9pwIt4aa" text="Воск"/>
     <string id="9yffPYUl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}атакуют{?}атакует{\?}"/>
     <string id="a0mJ0cVV" text="Потребность(и)"/>
@@ -304,7 +304,7 @@
     <string id="aNSAaHk9" text="Bagh Chal - игра Овец (белый) против Волков (черный). {newline} У волков есть четыре пешки, которые начинаются на четырех углах доски. Каждый ход на доске размещается одна овца, и один волк делает ход или захватывает, пока все овцы не будут размещены на доске. {newline} После того, как все овцы были размещены, овцы теперь также могут двигаться на доске."/>
     <string id="AONnsaao" text="Вы лидер Империи!"/>
     <string id="aOvxxLZ8" text="Разнообразие пищи"/>
-    <string id="Aph8CcKO" text="Свободные очки атрибутов:&#10;Вы можете использовать эти очки для увеличения своих атрибутов. Вы получите очко атрибута за каждые {ATTRIBUTE_EVERY_LEVEL} уровня."/>
+    <string id="Aph8CcKO" text="Свободные очки атрибутов:{newline}Вы можете использовать эти очки для увеличения своих атрибутов. Вы получите очко атрибута за каждые {ATTRIBUTE_EVERY_LEVEL} уровня."/>
     <string id="ar2Y8Xs9" text="{LEFT}: "/>
     <string id="aR4e8B2A" text="II"/>
     <string id="arHXmqqc" text="Бэг"/>
@@ -352,9 +352,9 @@
     <string id="bfQLwMUp" text="Кланы"/>
     <string id="BfQrnvpC" text="Создание войска"/>
     <string id="bfsJfrtk" text="{LEFT}{RIGHT}"/>
-    <string id="BftxIurV" text="Вам необходимо принять решение:&#10;{DECISION_NAME}"/>
+    <string id="BftxIurV" text="Вам необходимо принять решение:{newline}{DECISION_NAME}"/>
     <string id="bg6x6Hbv" text="Шлем"/>
-    <string id="Bg83jhCR" text="Город явно переживает не лучшие времена."/>
+    <string id="Bg83jhCR" text="Город явно переживает не лучшие времена. Люди выглядят истощенными, а здания находятся в плохом состоянии."/>
     <string id="bg8co4he" text="Убой {newline} Вы не сможете отменить это действие."/>
     <string id="bgjiFSHZ" text="Баттании"/>
     <string id="bGyrPe8c" text="Производство"/>
@@ -485,8 +485,8 @@
     <string id="DqJG7bvh" text="Превышена ёмкость"/>
     <string id="dQRdP9eQ" text="Схватка"/>
     <string id="DRaJ7hoz" text="Победитель: "/>
-    <string id="Dtcv8XNu" text="&lt;b&gt;Осадная башня&lt;/b&gt;&#10;Используется для подъёма на стены. Это безопаснее и быстрее, чем подниматься с помощью простых лестниц"/>
-    <string id="DtKKtcws" text="Учтите, что скорость отряда заметно снизилась, так как вы перегрузили лошадей и солдат.&#10;Избавьтесь от всего лишнего, чтобы ускориться.&#10;Вы также можете увеличить грузоподъёмность своей группы, набирая больше войск или покупая лошадей, мулов, верблюдов."/>
+    <string id="Dtcv8XNu" text="&lt;b&gt;Осадная башня&lt;/b&gt;{newline}Используется для подъёма на стены. Это безопаснее и быстрее, чем подниматься с помощью простых лестниц"/>
+    <string id="DtKKtcws" text="Учтите, что скорость отряда заметно снизилась, так как вы перегрузили лошадей и солдат.{newline}Избавьтесь от всего лишнего, чтобы ускориться.{newline}Вы также можете увеличить грузоподъёмность своей группы, набирая больше войск или покупая лошадей, мулов, верблюдов."/>
     <string id="DTRwTvT4" text="Конные лучники, огонь!"/>
     <string id="DTt1aeSj" text="{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}"/>
     <string id="DTWem4V1" text="этот запас"/>
@@ -556,12 +556,12 @@
     <string id="eyMU7X0e" text="Вы из числа знати, и вносите свой голос. По итогу правитель проголосует последним, и определит исход."/>
     <string id="EZLs7hLL" text="ТЫ! СТОЯТЬ! Отдавай серебро! Мы тут не в игры играем!"/>
     <string id="EzrK2tnA" text="Вы не можете управлять своим войском, находясь в бою!"/>
-    <string id="F4RMyaR5" text="{PARTY} на вашем пути.&#10;Что предпримите?"/>
+    <string id="F4RMyaR5" text="{PARTY} на вашем пути.{newline}Что предпримите?"/>
     <string id="F5UPr9jh" text="Взять всё"/>
     <string id="f6gSyvnC" text="Стреляйте во врагов с помощью лука и стрел. Совершайте сложные выстрелы с большой дистанции."/>
     <string id="f6pjlKdz" text="Вчера"/>
     <string id="f7t4saJu" text="Цена"/>
-    <string id="F8g1TzoX" text="{SETTLEMENT_NAME} виднеется перед вами.&#10;{LORD.LINK} - {?LORD.GENDER}хозяйка{?}хозяин{\?} местных земель.&#10;Над вратами развевается {?LORD.GENDER}её{?}его{\?} знамя."/>
+    <string id="F8g1TzoX" text="{SETTLEMENT_NAME} виднеется перед вами.{newline}{LORD.LINK} - {?LORD.GENDER}хозяйка{?}хозяин{\?} местных земель.{newline}Над вратами развевается {?LORD.GENDER}её{?}его{\?} знамя."/>
     <string id="Fa16r8MN" text="Казнить пленника"/>
     <string id="Fa2nKXxI" text="Губернатор"/>
     <string id="faYiCHXK" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}выходят{?}выходят{\?} на дальность стрельбы"/>
@@ -592,7 +592,7 @@
     <string id="fRu5Y4OT" text="Я был ранен и брошен умирать"/>
     <string id="FRuzuVyO" text="Ни один клан не выбран"/>
     <string id="FRZfpryn" text="Предложить передать поселение кому-нибудь другому"/>
-    <string id="FS78CuPs" text="&#10;Навыки, которые связаны с {ATTRIBUTE_NAME}:"/>
+    <string id="FS78CuPs" text="{newline}Навыки, которые связаны с {ATTRIBUTE_NAME}:"/>
     <string id="FVEvjlis" text="Превышен размер отряда"/>
     <string id="FvYhaE3z" text="Знамя"/>
     <string id="fwbD1Jqo" text="Купить"/>
@@ -603,7 +603,7 @@
     <string id="FZBqNCvd" text="никто"/>
     <string id="G0AWk1rX" text="Лестница"/>
     <string id="g0gDsalr" text="Импульсивный"/>
-    <string id="g1KLcfxT" text="Деревня процветает. Люди выглядят довольными и сытыми. Здоровые, крепкие животные тянут плуг и перевозят урожай."/>
+    <string id="g1KLcfxT" text="Деревня процветает. Мешки с зерном, здоровые животные и груженые телеги свидетельствуют о щедрости полей."/>
     <string id="G4XXubLg" text="Эмира"/>
     <string id="g7zo28KR" text="{PARTY} бросают оружие. У них нет никаких шансов против вашей подавляющей силы. Они сдаются."/>
     <string id="g8nrakuu" text="Оружие ближ. боя I"/>
@@ -614,7 +614,7 @@
     <string id="GbbGlcMZ" text="Пешки могут перемещаться на любую клетку по вертикали или горизонтали, но они не могут перепрыгивать пешки оппонента.{newline}Пешки не могут двигаться по центральной клетке или по ней, как только король покидает центральную клетку он также не может вернуться на центральную клетку или пересечь ее."/>
     <string id="GbWWelfl" text="Лошади и упряжь"/>
     <string id="GD4aQgl7" text="Овца"/>
-    <string id="gdraqMso" text="Вы находитесь близ поселения {SETTLEMENT_NAME}.&#10;Вход сюда вам закрыт."/>
+    <string id="gdraqMso" text="Вы находитесь близ поселения {SETTLEMENT_NAME}.{newline}Вход сюда вам закрыт."/>
     <string id="GDugjWao" text="Здесь {MONEY}{GOLD_ICON}. Просто забирай эти деньги и дай нам спокойно уйти."/>
     <string id="gflnRhhe" text="({PRIMARY_ROLE})"/>
     <string id="gfQmYDRq" text="Когда вы пытаетесь заставить важных людей предоставить вам рекрутов, жители могут собраться и попытаться помешать."/>
@@ -686,7 +686,7 @@
     <string id="hSsS5xAa" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}ожидают{?}ожидает{\?} прибытия других осадных орудий"/>
     <string id="HuCClZqT" text="Выплаты"/>
     <string id="hVmamTJX" text="Повышайте боевой дух отряда за счет разнообразия продовольствия. Улучшайте поселения, стройте и улучшайте в них здания. Останавливайтесь на отдых в ваших поселениях."/>
-    <string id="HWSKCne0" text="Ускоряет строительство на {BOOST} очков&#10;Затраты - {COST}&lt;img src=&quot;Icons\Coin@2x&quot;&gt;в день"/>
+    <string id="HWSKCne0" text="Ускоряет строительство на {BOOST} очков{newline}Затраты - {COST}&lt;img src=&quot;Icons\Coin@2x&quot;&gt;в день"/>
     <string id="Hx47TGrA" text="Тяжёлый"/>
     <string id="hYgmzZJX" text="Динары"/>
     <string id="HYVQKIhh" text="Защита"/>
@@ -697,7 +697,7 @@
     <string id="I2YhWaIt" text="Товары"/>
     <string id="i30TCtj2" text="ПАУЗА"/>
     <string id="I42QtISB" text="Нельзя выгнать главного героя из клана."/>
-    <string id="I4BbOX46" text="Вы сейчас находитесь в составе войска.&#10;Ваш лидер - {ARMY_LEADER}."/>
+    <string id="I4BbOX46" text="Вы сейчас находитесь в составе войска.{newline}Ваш лидер - {ARMY_LEADER}."/>
     <string id="i4g81l3E" text="Отношение: {NUM}"/>
     <string id="I8xMpWxO" text="Отважный"/>
     <string id="IagYTD5O" text="Процветание"/>
@@ -825,7 +825,7 @@
     <string id="kgqCVvIb" text="мой брат {REFERING_HERO.LINK}"/>
     <string id="kHC5EjDJ" text="Городской бонус"/>
     <string id="kHC5EjEJ" text="Незначительный бонус фракции"/>
-    <string id="Khr5yETv" text="Асераи - жители пустыни Нахаса, потомки кочевых бедуинов и осёдлых земледельцев оазисов. Они славятся своим обращением с лошадьми, а также своей медициной. Каждый клан гордится своим происхождением и как правило, завидует другим, но под предводительством сильного лидера они становятся смертоносной силой юга."/>
+    <string id="Khr5yETv" text="Асераи - жители пустыни Нахасаа, потомки кочевых бедуинов и осёдлых земледельцев оазисов. Они славятся своим обращением с лошадьми, а также своей медициной. Каждый клан гордится своим происхождением и как правило, завидует другим, но под предводительством сильного лидера они становятся смертоносной силой юга."/>
     <string id="ki5DqTtC" text="+{BONUS_AMOUNT} процветанию поселения"/>
     <string id="kIAsKjp1" text="Welcome to Mount&amp;Blade II: Bannerlord Gamescom demo!{newline}This demo showcases the mid-game features of Bannerlord!{newline}You are free to resolve issues, conquer settlements, govern cities, join tournaments, trade or just hang around in the game world. {newline}Have fun and don't hesitate to ask if you have any questions."/>
     <string id="KiJd6Xik" text="Движение"/>
@@ -917,7 +917,7 @@
     <string id="Mc8ojOGn" text="Процветание"/>
     <string id="MciIqod6" text="Рыцарский удар"/>
     <string id="mDbaNQay" text="Скачите вперёд и попытайтесь ударить своего противника!"/>
-    <string id="MeQmoYb4" text="Этот человек недостаточно вам доверяет, и не согласится предоставить этот отряд{newline}Ваши отношения равны: {REL1}&#10;Для найма необходимо: {REL2}"/>
+    <string id="MeQmoYb4" text="Этот человек недостаточно вам доверяет, и не согласится предоставить этот отряд{newline}Ваши отношения равны: {REL1}{newline}Для найма необходимо: {REL2}"/>
     <string id="MFLAvq4Z" text="В этом убежище есть бандиты. Желаете напасть на них?"/>
     <string id="MfnYoLdc" text="Расходы"/>
     <string id="MGv4Uabd" text="Вы ставите {BET_AMOUNT} на себя, но терпите поражение."/>
@@ -1022,7 +1022,7 @@
     <string id="OJmC1Ckc" text="Осталось противников: {REMAINING_OPPONENT_COUNT}"/>
     <string id="okH55fbn" text="Новые подкрепления прибыли, чтобы помочь союзнику!"/>
     <string id="OKUTPdaa" text="Уровень"/>
-    <string id="ol0rBSrb" text="{STR1}&#10;{STR2}"/>
+    <string id="ol0rBSrb" text="{STR1}{newline}{STR2}"/>
     <string id="OLKGQGHU" text="Я владею {TOWNS}"/>
     <string id="OLyjbawD" text="[More]"/>
     <string id="ONGv27TH" text="А теперь убирайся с моих глаз, паршивая трусливая собака!"/>
@@ -1039,7 +1039,7 @@
     <string id="ou9asw1a" text="Доп. {SWING_DAMAGE_TYPE} урон: "/>
     <string id="OviaJ1tA" text="Другое"/>
     <string id="oVSS2Lp5" text="Снаряжение для лошади III"/>
-    <string id="OWCoBElc" text="Вас оглушили и связали.&#10;Вы в плену."/>
+    <string id="OWCoBElc" text="Вас оглушили и связали.{newline}Вы в плену."/>
     <string id="owg6SqHF" text="Эмир"/>
     <string id="OxiaKT0G" text="Стургия"/>
     <string id="ozYRUrum" text="Помогайте лечить раненых солдат."/>
@@ -1169,7 +1169,7 @@
     <string id="R7v2UD8b" text="Вы передвигаете пешку."/>
     <string id="R9DiQfax" text="Битва"/>
     <string id="RaAnj4On" text="Защитники"/>
-    <string id="rBieLPA7" text="Вы превысили лимит войск&#10; Вы временно сможете удерживать отряд в целостности, но через некоторое время ваши воины начнут покидать отряд. Кроме того, вы замедлитесь.{newline}Хотите продолжить?"/>
+    <string id="rBieLPA7" text="Вы превысили лимит войск{newline} Вы временно сможете удерживать отряд в целостности, но через некоторое время ваши воины начнут покидать отряд. Кроме того, вы замедлитесь.{newline}Хотите продолжить?"/>
     <string id="rbz1Bwbv" text="Инвентарь"/>
     <string id="rdbw9TVm" text="Щит II"/>
     <string id="rDnWQL87" text="Показать/Скрыть ножны"/>
@@ -1207,7 +1207,7 @@
     <string id="s5h0Yarn" text="Командуйте своим войском"/>
     <string id="s6ofDDii" text="Баррикада"/>
     <string id="s9oED1IR" text="Застрельщики"/>
-    <string id="SBp4Ja1u" text="Свободные очки фокуса:&#10;Вы можете использовать эти очки для увеличения своего предела обучения в отдельных навыках. Вы будете получать {FOCUS_PER_LEVEL} очко фокуса за каждое повышение уровня."/>
+    <string id="SBp4Ja1u" text="Свободные очки фокуса:{newline}Вы можете использовать эти очки для увеличения своего предела обучения в отдельных навыках. Вы будете получать {FOCUS_PER_LEVEL} очко фокуса за каждое повышение уровня."/>
     <string id="sbricRaZ" text="Доход от ставок: {BET}"/>
     <string id="SdcpdfaV" text="Эй, ты. Что у тебя в сумках? Что ты несёшь?"/>
     <string id="SdXS4lxN" text="Бонус лидера фракции"/>
@@ -1272,7 +1272,7 @@
     <string id="Tqa0r78j" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}атакуют и отступают{?}атакует и отступает{\?}"/>
     <string id="tQDbRfMs" text="Мы потерялись в пылу битвы"/>
     <string id="tqSODeKW" text="Вы сумели убить себя без сторонней помощи!"/>
-    <string id="trRLa9pi" text="{PARTY} приветствуют вас.&#10;Если вы нападёте на этих людей, то {KINGDOM} объявит вам войну"/>
+    <string id="trRLa9pi" text="{PARTY} приветствуют вас.{newline}Если вы нападёте на этих людей, то {KINGDOM} объявит вам войну"/>
     <string id="Tsn6bCft" text="Великодушный"/>
     <string id="TSw4tD02" text="В самом деле? Сегодня придётся замарать руки.[ib:aggressive][rb:very_negative]"/>
     <string id="TTWL7RLe" text="Арбалет"/>
@@ -1280,7 +1280,7 @@
     <string id="TVcqGJ1r" text="Главный герой в тюрьме!"/>
     <string id="TvmDFK6o" text="{REWARD}"/>
     <string id="TVQXa0y0" text="Битва выиграна!"/>
-    <string id="Txbga7js" text="На ваших глазах {ATTACKER} атакует {DEFENDER}.&#10;Помощь союзника была бы очень кстати."/>
+    <string id="Txbga7js" text="На ваших глазах {ATTACKER} атакует {DEFENDER}.{newline}Помощь союзника была бы очень кстати."/>
     <string id="Txbga7jx" text="Защитники отправляются в осадный лагерь, в котором вы находитесь"/>
     <string id="TxeKpK3Y" text="Ваши отношения с {HERO.NAME} улучшились на {MAGNITUDE} и теперь составляют {VALUE}"/>
     <string id="tXl9REtA" text="Ополчение"/>
@@ -1330,7 +1330,7 @@
     <string id="UX7reJ3K" text="Мы должны защитить наши осадные машины, пока враг их не уничтожил."/>
     <string id="UxacCAuS" text="У некоторых из ваших солдат теперь достаточно опыта для повышения. {newline} {newline} Готовность к улучшению обозначается небольшим индикатором над значком экрана отряда. {newline} {newline} Чтобы просмотреть и улучшить свои войска, нажмите на этот значок."/>
     <string id="UxAl9iyi" text="Личный"/>
-    <string id="UxD6lPXa" text="Вы получаете {INFLUENCE} влияния&#10;Теперь ваше влияние равно {NEW_INFLUENCE}"/>
+    <string id="UxD6lPXa" text="Вы получаете {INFLUENCE} влияния{newline}Теперь ваше влияние равно {NEW_INFLUENCE}"/>
     <string id="UxyIkWah" text="Наёмники не имеют права аннексировать поселения"/>
     <string id="uYFd4meY" text="Задание выдано"/>
     <string id="V03gbccF" text="Вы попали в дружественный отряд!"/>
