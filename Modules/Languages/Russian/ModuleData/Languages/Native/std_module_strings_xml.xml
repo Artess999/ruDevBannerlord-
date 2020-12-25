@@ -487,7 +487,7 @@
     <string id="DRaJ7hoz" text="Победитель: "/>
     <string id="Dtcv8XNu" text="&lt;b&gt;Осадная башня&lt;/b&gt;&#10;Используется для подъёма на стены. Это безопаснее и быстрее, чем подниматься с помощью простых лестниц"/>
     <string id="DtKKtcws" text="Учтите, что скорость отряда заметно снизилась, так как вы перегрузили лошадей и солдат.&#10;Избавьтесь от всего лишнего, чтобы ускориться.&#10;Вы также можете увеличить грузоподъёмность своей группы, набирая больше войск или покупая лошадей, мулов, верблюдов."/>
-    <string id="DTRwTvT4" text="Конные лучники"/>
+    <string id="DTRwTvT4" text="Конные лучники, огонь!"/>
     <string id="DTt1aeSj" text="{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}"/>
     <string id="DTWem4V1" text="этот запас"/>
     <string id="DU9SofaW" text="режущ."/>
@@ -515,7 +515,7 @@
     <string id="eb0nLx5E" text="Султанат Асерай"/>
     <string id="EbB9y2zZ" text="Объявить войну"/>
     <string id="eDVvDS1i" text="Сельские жители"/>
-    <string id="EegxpPka" text="+{BONUS_AMOUNT}% к строительству"/>
+    <string id="EegxpPka" text="+{BONUS_AMOUNT} к строительству"/>
     <string id="eEmbb1MR" text="Производство"/>
     <string id="EHkzaZBi" text="Турнир в городе {SETTLEMENT_NAME}"/>
     <string id="eIws123Z" text="Защита ног"/>
@@ -583,7 +583,7 @@
     <string id="Fp68NbYO" text="Королевства"/>
     <string id="fpdXZ0fl" text="Вербовка"/>
     <string id="FpI5JMZq" text="Сделка была отменена"/>
-    <string id="fpP2s7hX" text="+{BONUS_AMOUNT}% к сельской продукции"/>
+    <string id="fpP2s7hX" text="+{BONUS_AMOUNT} к сельской продукции"/>
     <string id="fQAGU9GW" text="Характер:"/>
     <string id="FqwHAxuM" text="Древковое двур. оружие"/>
     <string id="frBQ9mbP" text="Южная Империя"/>
@@ -629,7 +629,7 @@
     <string id="gKbGZObs" text="Общий запас"/>
     <string id="GKO2ogal" text="Подкуп"/>
     <string id="gKzLAjXr" text="Обратите внимание, что сплочённость войска упала до низкого уровня и возможно, ваше войско разойдётся.{newline}Вы можете нажать на клавишу управления войском и попытаться поднять сплочённость."/>
-    <string id="GNkrUdwb" text="Ваша помощь пришлась весьма кстати. Меня зовут {NPC.LINK}. А как ваше имя?"/>
+    <string id="GNkrUdwb" text="Ваша помощь пришлась весьма кстати. Меня зовут {CONVERSATION_CHARACTER.LINK}. А как ваше имя?"/>
     <string id="GnWy8WAW" text="Верность:"/>
     <string id="gNzXoCrq" text="Иди своей дорогой, мелочь, и не путайся под ногами."/>
     <string id="GopVkA1q" text="Разбойник"/>
@@ -676,7 +676,7 @@
     <string id="HmbvM9Na" text="Вы хотите пропустить текущий матч?"/>
     <string id="HMgrtLYa" text="Ваш чемпион проиграл дуэль. Войско обескуражено этим поражением. Боевой дух отряда снижается."/>
     <string id="hMIjbLjt" text="Мадам"/>
-    <string id="hmlUJaDa" text="Вот мы и встретились, {PLAYER.LINK}. Меня зовут {NPC.LINK}, и я перед вами в неоплатном долгу. Если есть что-то, в чем я могу помочь вам, дайте знать..."/>
+    <string id="hmlUJaDa" text="Вот мы и встретились, {PLAYER.LINK}. Меня зовут {CONVERSATION_CHARACTER.LINK}, и я перед вами в неоплатном долгу. Если есть что-то, в чем я могу помочь вам, дайте знать..."/>
     <string id="HNBAw1uO" text="{PARTY} получает {AMOUNT_TO_ADD} известности. Известность клана {CLAN} теперь составляет {NEW_RENOWN}."/>
     <string id="HNqy4Ctc" text="Нельзя выгнать спутника пока он выполняет ваше поручение"/>
     <string id="ho5EndaV" text="Решение"/>
@@ -711,7 +711,7 @@
     <string id="IdUKVyoF" text="{FIRST_NAME} {JOB_NAME}"/>
     <string id="IF7zS5ia" text="Вы превысили лимит пленных!{newline}Вы сможете некоторое время с ними совладать, но вскоре некоторые из них начнут сбегать. Кроме того, скорость передвижения отряда будет снижена.{newline}Вы уверены?"/>
     <string id="iFg5N7r3" text="Одноручное оружие"/>
-    <string id="Igoid3sR" text="Предложить изгнать этот клан из королевства"/>
+    <string id="Igoid3sR" text="Предложить изгнать этот клан из королевства ({SUPPORT}%)"/>
     <string id="ihVHfUFT" text="Построение"/>
     <string id="iisvVbDI" text="Купить всё"/>
     <string id="IjMel5eg" text="Вы можете продать всех пленников сразу.{newline}{newline}Чтобы продать каких-то конкретных пленников, поговорите с работорговцем."/>
@@ -761,7 +761,7 @@
     <string id="j9Weia10" text="Легко"/>
     <string id="jbQ3LYBl" text="Император"/>
     <string id="JbTCDDb0" text="Болты"/>
-    <string id="jCbYaCcg" text="Приветствую, {PLAYER.LINK}. Я {NPC.LINK}. Спасибо за вашу помощь. Надеюсь, мы еще встретимся."/>
+    <string id="jCbYaCcg" text="Приветствую, {PLAYER.LINK}. Я {CONVERSATION_CHARACTER.LINK}. Спасибо за вашу помощь. Надеюсь, мы еще встретимся."/>
     <string id="Jd0Kq9lD" text="Щит"/>
     <string id="jd4ULLGr" text="Активные задания"/>
     <string id="JdNTRtpJ" text="Поддерживайте высокий моральный дух в своём отряде. Соберите и возглавьте войско. "/>
@@ -785,7 +785,7 @@
     <string id="jnTQbSsH" text="Вы видите толпу озлобленных людей, которые вооружаются и покидают дома, чтобы противостоять вам. Что вы предпримете?"/>
     <string id="joICaqvo" text="Неназначенный"/>
     <string id="JP7LTAsa" text="Хорошо! Хорошо! А теперь вали отсюда![ib:closed][rb:positive]"/>
-    <string id="jpBpwgAs" text="Поселения"/>
+    <string id="jpBpwgAs" text="Замки"/>
     <string id="jPwa1oOm" text="Серебро"/>
     <string id="JQarnWiz" text="У вас недостаточно материалов для этого."/>
     <string id="jQGcUobB" text="Гражданский"/>
@@ -831,7 +831,7 @@
     <string id="KiJd6Xik" text="Движение"/>
     <string id="KiVCv1Bx" text="Осаждающий {SETTLEMENT_NAME}"/>
     <string id="KJDqOGEU" text="Наш план: медленно отступить, сохраняя строй, и занять оборонительную позицию."/>
-    <string id="KkaVpLXd" text="Текущее предложение будет вынесено на голосование при окончании"/>
+    <string id="KkaVpLXd" text="Вынести это предложение на рассмотрение (Support: {SUPPORT}%)"/>
     <string id="klZnvb15" text="Персонаж"/>
     <string id="kM1Y8XT0" text="Вы не разочаруетесь, {?PLAYER.GENDER}миледи{?}милорд{\?}. Более искусных и преданных воинов не найти во всей Кальрадии![rb:very_positive]"/>
     <string id="koX9okuG" text="Никто"/>
@@ -1060,7 +1060,7 @@
     <string id="PDdh1sBj" text="Имя"/>
     <string id="PdXqoa2W" text="Путешествие в {SETTLEMENT_NAME}"/>
     <string id="PE4nuMc7" text="На этой странице описаны игровые механики в Bannerlord"/>
-    <string id="PEKxMxal" text="STUB: Теперь вы можете сбежать."/>
+    <string id="PEKxMxal" text="Теперь вы можете сбежать."/>
     <string id="pEm60xEX" text="Ваш противник захватывает пешку."/>
     <string id="pERXhX7A" text="Вы нашли первый фрагмент знамени!"/>
     <string id="pftVKkgq" text="Чтобы отслеживать населённый пункт на карте кампании, нажмите кружок рядом с его названием."/>
@@ -1187,7 +1187,7 @@
     <string id="RO0a71EP" text="Ваш противник построил барьер против вас, но у вас осталось столько же пешек. Игра вничью!"/>
     <string id="ROB0VcsI" text="Ваш чемпион выиграл поединок. Войско воодушевлено блестящей победой. Боевой дух солдат растёт."/>
     <string id="RpfgdR45" text="мой господин"/>
-    <string id="rPvzZKFk" text="Слабый гарнизон "/>
+    <string id="rPvzZKFk" text="Слабый гарнизон"/>
     <string id="rQ5On2GL" text="Дополнительный размер отряда для каждого отряда в клане"/>
     <string id="RqnEjYVe" text="+{RECRUIT_AMOUNT} рекрутировал{?ISPLURAL}{?} {\?}"/>
     <string id="RTmDiT0l" text="Бонус за текущий размер отряда"/>
@@ -1268,7 +1268,7 @@
     <string id="TNLRC4Gf" text="Сражайтесь с помощью одноручного оружия."/>
     <string id="tolOqAaP" text="Лето {DAY}, {YEAR}"/>
     <string id="toQLHG6x" text="Доблестный"/>
-    <string id="tpjGRDHP" text="Дуэль закончилась. Удерживайте {leave_key}, чтобы уйти "/>
+    <string id="tpjGRDHP" text="Дуэль закончилась. Удерживайте {leave_key}, чтобы уйти."/>
     <string id="Tqa0r78j" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}атакуют и отступают{?}атакует и отступает{\?}"/>
     <string id="tQDbRfMs" text="Мы потерялись в пылу битвы"/>
     <string id="tqSODeKW" text="Вы сумели убить себя без сторонней помощи!"/>
@@ -1466,7 +1466,7 @@
     <string id="XxLCJb0W" text="Честный"/>
     <string id="xycMiCIq" text="Я не наталкивался на прибыльные сделки в последнее время."/>
     <string id="xZxbFuDI" text="В таком случае, шакалы сегодня вечером смогут набить брюха падалью. Жаль, вы уже не сможете насладиться этим зрелищем."/>
-    <string id="Y0GDVFiN" text="Разграбленные Деревни"/>
+    <string id="Y0GDVFiN" text="Разграбленные деревни"/>
     <string id="y0MmmV8C" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}формируют{?}формирует{\?} защитное кольцо вокруг стрелков"/>
     <string id="y1uH6Og1" text="Снаряжение для лошади IV"/>
     <string id="y3OKIfj0" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}ведут{?}ведут{\?} стрельбу под прикрытием пехоты"/>
