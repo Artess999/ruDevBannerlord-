@@ -1,40 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <tags>
-    <tag language="Русский"/>
+    <tag language="Русский" />
   </tags>
   <strings>
-    <string id="35IHscBa" text="Противник"/>
-    <string id="4gOGGbeQ" text="Своя битва"/>
-    <string id="BC7n6qxk" text="Игрок"/>
-    <string id="mxbq3InD" text="{ARMY_SIZE} воинов"/>
-    <string id="MVOWsP48" text="Выберите оружие ближнего боя"/>
-    <string id="SLZzfNPr" text="Выберите оружие дальнего боя"/>
-    <string id="0s52GQJt" text="Scene Level"/>
-    <string id="0xC75dN6" text="Вражеский отряд"/>
-    <string id="4IuXGSdc" text="Прочность стен"/>
-    <string id="7i1vmgQ9" text="Выберите карту"/>
-    <string id="bKg8Mmwb" text="Тип игрока"/>
-    <string id="bLXleed8" text="Персонаж игрока"/>
-    <string id="cZzfNlxd" text="Осень"/>
-    <string id="EcKMGoFv" text="Sallyout"/>
-    <string id="f7vOVQb7" text="Лето"/>
-    <string id="g9VIbA9s" text="Сержант"/>
-    <string id="JPimShCw" text="Тип игры"/>
-    <string id="KASD0tnO" text="Злоумышленник"/>
-    <string id="nWbp3o3H" text="Весна"/>
-    <string id="nwqUFaU8" text="Зима"/>
-    <string id="P3rMg4uZ" text="Сторона игрока"/>
-    <string id="QAYngoNQ" text="Вражеский персонаж"/>
-    <string id="sSJSTe5p" text="Отряд Игрока"/>
-    <string id="Ua6CNLBZ" text="Деревня"/>
-    <string id="w9m11T1y" text="Карта"/>
-    <string id="XEVFUaFj" text="Защитник"/>
-    <string id="xTzDM5XE" text="Сезон"/>
-    <string id="AiNXIt5N" text="Двойное нарушение"/>
-    <string id="AmfIfeIc" text="Выберите осадные машины атакующего"/>
-    <string id="dsMeB3vi" text="Solid"/>
-    <string id="Kvxo2jzJ" text="Single Breached"/>
-    <string id="UoiSWe87" text="Выберите осадные машины защитника "/>
+    <string id="35IHscBa" text="ВРАГ" />
+    <string id="4gOGGbeQ" text="Быстрая битва" />
+    <string id="BC7n6qxk" text="ИГРОК" />
+    <string id="fXhblsky" text="КАРТА" />
+    <string id="MVOWsP48" text="Выберите оружие ближнего боя" />
+    <string id="mxbq3InD" text="{ARMY_SIZE} человек" />
+    <string id="SLZzfNPr" text="Выберите оружие дальнего боя" />
   </strings>
 </base>
