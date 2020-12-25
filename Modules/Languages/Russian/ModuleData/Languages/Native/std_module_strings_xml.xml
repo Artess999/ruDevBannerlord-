@@ -81,7 +81,7 @@
     <string id="3E0ZXV7j" text="Итоги"/>
     <string id="3F35l4QF" text="Количество боеспособных защитников"/>
     <string id="3fAm8FaM" text="Да будет так... Как говаривал мой отец, путешествие не путешествие, если не раскроить кому-нибудь черепушку."/>
-    <string id="3FUaZk5A" text="Миледи,"/>
+    <string id="3FUaZk5A" text="Миледи"/>
     <string id="3Gb7tKgJ" text="{LEFT} и {RIGHT}"/>
     <string id="3IGjY8RG" text="Стрелять по усмотрению!"/>
     <string id="3IpiWM7H" text="Разбойник"/>
@@ -616,7 +616,7 @@
     <string id="GD4aQgl7" text="Овца"/>
     <string id="gdraqMso" text="Вы находитесь близ поселения {SETTLEMENT_NAME}.{newline}Вход сюда вам закрыт."/>
     <string id="GDugjWao" text="Здесь {MONEY}{GOLD_ICON}. Просто забирай эти деньги и дай нам спокойно уйти."/>
-    <string id="gflnRhhe" text="({PRIMARY_ROLE})"/>
+    <string id="gflnRhhe" text="({PRIMARY_ROLE}/{SECONDARY_ROLE})"/>
     <string id="gfQmYDRq" text="Когда вы пытаетесь заставить важных людей предоставить вам рекрутов, жители могут собраться и попытаться помешать."/>
     <string id="gFtu0j4T" text="Стрелы"/>
     <string id="ggMmjk31" text="Рубящ."/>
@@ -705,10 +705,10 @@
     <string id="IbkODMHV" text="Ищите следы и бандитские убежища. Путешествуйте по труднопроходимой местности."/>
     <string id="IcgVKFxZ" text="Правитель"/>
     <string id="iCirZbD8" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}обстреливают{?}обстреливают{\?} противника с крепостных стен"/>
-    <string id="icmyseoo" text="Милорд,"/>
+    <string id="icmyseoo" text="Милорд"/>
     <string id="IcQ2doLo" text="x{QUANTITY}"/>
     <string id="id62me1x" text="Нажмите &quot;Осаждать&quot;"/>
-    <string id="IdUKVyoF" text="{FIRST_NAME} {JOB_NAME}"/>
+    <string id="IdUKVyoF" text="{ERO.FIRSTNAME} {JOB_NAME}"/>
     <string id="IF7zS5ia" text="Вы превысили лимит пленных!{newline}Вы сможете некоторое время с ними совладать, но вскоре некоторые из них начнут сбегать. Кроме того, скорость передвижения отряда будет снижена.{newline}Вы уверены?"/>
     <string id="iFg5N7r3" text="Одноручное оружие"/>
     <string id="Igoid3sR" text="Предложить изгнать этот клан из королевства ({SUPPORT}%)"/>

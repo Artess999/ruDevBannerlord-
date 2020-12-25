@@ -1022,7 +1022,7 @@
     <string id="gqdsXVNi" text="{WEAPON} из {SETTLEMENT} попали в дальнобойные орудия {BESIEGER}!"/>
     <string id="gQK2IfoH" text="Каждое очко навыка после 250 увеличивает скорость атаки одноручным оружием на 0,2%"/>
     <string id="gS1noLvf" text="Я не знаю, считать ли это очаровательным или дерзким..."/>
-    <string id="GsIz1Ibk" text="У вас нет спутников с нужными навыками\nТребуется:\n{REQUIRED_SKILL_ONE}, {REQUIRED_SKILL_TWO} или {REQUIRED_SKILL_THREE} выше {REQUIRED_SKILL_LEVEL}"/>
+    <string id="GsIz1Ibk" text="У вас нет спутников с нужным навыком\nТребуется:\n{TRADE_SKILL} выше {REQUIRED_SKILL_LEVEL}"/>
     <string id="gSsQLGdS" text="{FIRST_NAME} Роза"/>
     <string id="gsVtO9A7" text="Ополченец"/>
     <string id="Gtbfm10o" text="У вас есть достаточно мешков зерна, чтобы завершить задание. Вернитесь к {QUEST_SETTLEMENT}, чтобы передать их."/>
@@ -2357,7 +2357,7 @@
     <string id="Y07OcP1T" text="Скорость лошади: +{a0}"/>
     <string id="Y20AQIvo" text="{PRISONER.NAME} был захвачен в плен {CAPTOR_NAME}!"/>
     <string id="y3cP8Etv" text="Задание больше недоступно: {QUEST_TITLE}"/>
-    <string id="Y3lGJT8H" text="{PARTY} не будет атаковать {FACTION} в течение {DURATION}"/>
+    <string id="Y3lGJT8H" text="{PARTY} не будет атаковать {FACTION} в течение {DURATION} {?DURATION&gt;1}дней{?}1 дня{\?}."/>
     <string id="y3xguaCc" text="Подумайте о выгоде... Выгода королевству и ваша личная выгода.... Слишком многое сейчас на кону."/>
     <string id="Yac7bSU3" text="Расскажи мне ещё раз, чем ты занимаешься."/>
     <string id="ybb0ToHE" text="Мы будем защищать нашу землю!"/>
