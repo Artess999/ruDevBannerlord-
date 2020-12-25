@@ -1,9 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <tags>
-    <tag language="Русский" />
+    <tag language="Русский"/>
   </tags>
   <strings>
-    <string id="ivKntfNA" text="Соединение уже запрошено, ожидание ответа сервера" />
+    <string id="ivKntfNA" text="Соединение уже запрошено, ожидание ответа сервера"/>
+    <string id="6doiovtH" text="Disambiguation: {CHATROOMS}"/>
+    <string id="dnKQbXIZ" text="Could not report player: Game does not exist."/>
+    <string id="taPBAd4c" text="Given command does not start with /"/>
+    <string id="YOYvBVu1" text="No chat room found matching {COMMAND}"/>
   </strings>
 </base>
