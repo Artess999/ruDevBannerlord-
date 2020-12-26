@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="5ypRJiWZ" text="Спасибо за информацию" />
+    <string id="62AkUCOw" text="Почему вы не защищаетесь?" />
+    <string id="8xvSu9fX" text="Похоже последняя чарка была лишней... Прошу меня простить, {?NPC.GENDER}миледи{?}милорд{\?}." />
+    <string id="fbM7drKO" text="Почему же вы не осаждаете это место?" />
+    <string id="fBt8X6Tw" text="А? Вы что-то хотели?" />
+    <string id="gBbIWuDW" text="TODO_OZAN_1 s43" />
+    <string id="GUIwjFKP" text="Хорошо, давайте сначала последуем вашему совету." />
+    <string id="gZSdus34" text="Всё просто, или сдавайся, или вы все покойники." />
+    <string id="HEJOdRwi" text="Похоже последняя чарка была лишней... Прошу меня простить, {?NPC.GENDER}миледи{?}милорд{\?}." />
+    <string id="hjZkoJbc" text="Я думаю, что {ACTION} {SETTLEMENT} более логично, на данный момент, не могли бы вы помочь мне в этом. {AMOUNT}{GOLD_ICON}" />
+    <string id="HKMdHYb7" text="Я настаиваю на своем. Приготовьтесь к бою!" />
+    <string id="JbWJ7Rxl" text="{POSSIBLE_TARGET}" />
+    <string id="ltS8zmH8" text="Ты в своём уме?! Мы не враги! За такое могут и голову отсечь!" />
+    <string id="M7O3AItb" text="Простите меня. Какой-то пустяк, забудьте." />
+    <string id="RJbrrM0K" text="{REASON}" />
+    <string id="s61RscYw" text="Где?" />
+    <string id="vsxVIDqT" text="В таком случае, уходи." />
+    <string id="WzipKNWN" text="{s43}" />
+    <string id="ztuhSo8h" text="Почему вы не совершаете набег..." />
+  </strings>
+</base>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+   <tag language="Русский" />
+  </tags>
+  <strings>
+<string id="0GKH29JG" text="Наёмный стражник" />
+<string id="0GkJB08d" text="Стургский бывалый охранник каравана" />
+<string id="0Xku0LQD" text="Стургский селянин" />
+<string id="1gAasy1t" text="Воин крыс" />
+<string id="1PsLlMaQ" text="Имперский эквит" />
+<string id="1sJcKkVP" text="Стражник" />
+<string id="1WfDVpya" text="Стургский лучник" />
+<string id="1zObCG2o" text="Баттанский страж чащи" />
+<string id="275LD0Gh" text="Рабочий" />
+<string id="2gUjKT5H" text="Баттанский всадник" />
+<string id="2HDPaohZ" text="Лесничий" />
+<string id="2w6jXVzJ" text="Баттанский шаблон" />
+<string id="3lNtvh9W" text="Охотник за головами" />
+<string id="3VosbFR0" text="Вландийский чемпион" />
+<string id="4BxUa4Sr" text="Асерайский застрельщик" />
+<string id="4C4WiTb2" text="Варяг" />
+<string id="5b6KjY5b" text="Вландийский гвизармер" />
+<string id="5JFkQn5U" text="Кузаитский опытный лучник ополчения" />>
+<string id="6C3OMP1X" text="Баттанский разведчик" />
+<string id="6hhspFvz" text="Кузаитский бывалый охранник каравана" />
+<string id="6j9iJMRr" text="Новобранец крыс" />
+<string id="6oc7CXbI" text="Асерайский закалённый фарис" />
+<string id="6UFEfIJV" text="Кузаитский копейщик" />
+<string id="79ElOr2x" text="Торговец лошадьми" />
+<string id="7aRhhGAs" text="Ушлый головорез" />
+<string id="7EUhAv8b" text="Гулям" />
+<string id="7JZPTbxB" text="Учёный" />
+<string id="7WWUxI6y" text="Стургский меткий лучник" />
+<string id="80plewQ1" text="Новобранец поклявшихся" />
+<string id="8bA4PvdG" text="Имперский меткий лучник" />
+<string id="8Gh8q1PX" text="Хранитель Бени Зилал" />
+<string id="8PLgCsiR" text="Вландийский боец авангарда" />
+<string id="8TdbKFa9" text="Асерайский вооруженный купец" />
+<string id="96pj2wxH" text="Стургский боец" />
+<string id="9Bw85Elg" text="Молодой кабан" />
+<string id="9Di0NfG2" text="Ребёнок" />
+<string id="9GIK6fnm" text="Крадус" />
+<string id="9Ylw5Spz" text="Опытный вепрь" />
+<string id="9zXXes9i" text="Страж Бени Зилал" />
+<string id="a9b2fKYR" text="Стургский берсерк" />
+<string id="abFIj4ZW" text="Баттанский конный застрельщик" />
+<string id="ac8MZYne" text="Баттанский фианн" />
+<string id="acubGB3g" text="Вландийский арбалетчик" />
+<string id="afhXdjBU" text="Кочевник" />
+<string id="AlmaRAib" text="RuralNotableNotary" />
+<string id="AloMryIU" text="Вландийский лёгкий всадник" />
+<string id="AoFZUbun" text="Асерайский фарис авангарда" />
+<string id="arb5nRri" text="Асерайский житель племени" />
+<string id="AssCCFew" text="Наёмный всадник" />
+<string id="aUHtqC9o" text="Вландийский копейщик ополчения" />
+<string id="auxU5OGA" text="Стургский сын битвы" />
+<string id="B4ls6R2b" text="Асерайский меткий лучник" />
+<string id="b4QPaEnA" text="Баттанский лучник ополчения" />
+<string id="B7oI7AZG" text="Кузаитский страж хана" />
+<string id="BBJKgKj2" text="Стургский новобранец" />
+<string id="BbTpfJ7G" text="Дрантон" />
+<string id="BC5YGna3" text="Воитель крыс" />
+<string id="bFyidmyK" text="Стургский шаблон" />
+<string id="bHx8jaeI" text="Воин" />
+<string id="bLMGbLF8" text="PreacherNotary" />
+<string id="bLq2HXMo" text="Имперский бывалый охранник каравана" />
+<string id="BmYpwIYi" text="Баттанский крестьянин" />
+<string id="bNnQt4jN" text="Кузнец" />
+<string id="bNZXcw3q" text="Баттанский клятвенник" />
+<string id="brlJJW5I" text="Стургский воин" />
+<string id="bTApMxWr" text="Вландийский рыцарь-знаменосец" />
+<string id="Btb7p3mD" text="Баттанский закалённый фианн" />
+<string id="bYn4ad1t" text="Воин поклявшихся" />
+<string id="c5rVdg75" text="Имперский опытный копейщик ополчения" />
+<string id="CAYZDsAj" text="Легионер" />
+<string id="Cc3knKFB" text="Дворцовый страж" />
+<string id="CDUvlu4d" text="Имперский дворцовый страж" />
+<string id="cEKbOxRA" text="Воин Элефтхерой" />
+<string id="CfO7eDsv" text="Стургский копейщик" />
+<string id="CKoq1wQa" text="Кузаитский лучник ополчения" />
+<string id="cMcGn6n3" text="Обученный стражник" />
+<string id="cOt1onbR" text="Триарий" />
+<string id="cP1bu5GK" text="Кузаитский тяжёлый улан" />
+<string id="CPcJ2gRF" text="Асерайский лучник ополчения" />
+<string id="cPQx1RXt" text="Стургский вооружённый купец" />
+<string id="CRzrHomf" text="Стургский дружинник" />
+<string id="cSdSSXsO" text="Закалённый боров" />
+<string id="CsjtWt1g" text="Трактирщик" />
+<string id="cte0zSCz" text="Имперский житель общины" />
+<string id="cZms8Ivb" text="Баттанский сын лесов" />
+<string id="d6vsgKnp" text="Асерайский селянин" />
+<string id="dfv7E49q" text="Асерайский наездник племени" />
+<string id="DIt9SuMb" text="Лесной брат" />
+<string id="DlIU2vJB" text="Кузаитский меткий лучник" />
+<string id="DNIa6a5p" text="Вландийский опытный лучник ополчения" />
+<string id="DNsbKR7B" text="Баттанский лесничий" />
+<string id="DNTUqbGo" text="Ксерина" />
+<string id="DvHR91Ca" text="Кузаитский Шаблон" />
+<string id="e8qbF7Ey" text="Имперский пикинёр" />
+<string id="ECxiXTbF" text="Ученик ремесленника" />
+<string id="ehACDRBk" text="Прихвостень Скрытой Длани" />
+<string id="eHVgfyPH" text="Кузаитский конный лучник" />
+<string id="eWRlQ4XU" text="Вор" />
+<string id="eYIMQafj" text="Имперский тяжёлый всадник" />
+<string id="f2a1fPca" text="Кузаитский опытный копейщик ополчения" />
+<string id="F54qLieU" text="Асерайский мамлюк-страж" />
+<string id="fdaZ3tri" text="Стургский разведчик" />
+<string id="fHQ8ifKM" text="Имперский опытный лучник" />
+<string id="FrTTT0G1" text="Стургский чемпион дружины" />
+<string id="fxGlBFPk" text="Разбойник" />
+<string id="g1zvdEE3" text="Асерайский закалённый пехотинец" />
+<string id="G9ByT85b" text="Гастат" />
+<string id="gBuGfUg3" text="Каракузаитский предводитель" />
+<string id="Gd0y7SxJ" text="Вландийский копейщик" />
+<string id="GEnwDYp1" text="Вландийский новобранец" />
+<string id="GGVehOu9" text="Оруженосец" />
+<string id="GopVkA1q" text="Преступник" />
+<string id="GUQ3zfg2" text="Баттанский новобранец" />
+<string id="Gvy2b4fa" text="Асерайский кочевник пустынь" />
+<string id="gyvXsXs8" text="Баттанский воитель" />
+<string id="gZ4JeEw4" text="Стургский опытный лучник ополчения" />
+<string id="H5HJUejD" text="Асерайский рекрут" />
+<string id="H5iWxbbl" text="Хильман" />
+<string id="H7eELtL6" text="Наёмник" />
+<string id="h7nGFImt" text="Лесник" />
+<string id="HMHzTNqJ" text="Баттанский опытный воин" />
+<string id="HsboF2mR" text="Имперский опытный лучник ополчения" />
+<string id="HZRKBDyB" text="Попрошайка" />
+<string id="i17zuvS4" text="Стургский охотник" />
+<string id="i5DfUz6D" text="Баттанский опытный лучник ополчения" />
+<string id="i5QgQbRi" text="Имперский солдат" />
+<string id="ieiqOaZp" text="Лучник" />
+<string id="IfjWyWjc" text="Имперский пехотинец" />
+<string id="IHczn7ti" text="Баттанский знатный лучник" />
+<string id="IHKXNP9H" text="Распорядитель турниров" />
+<string id="IKvwsCaJ" text="Баттанский налётчик" />
+<string id="IxcCmtxz" text="Баттанский опытный копейщик ополчения" />
+<string id="iXjMfCyp" text="Кузаитский всадник" />
+<string id="IZ8OmByJ" text="Имперский опытный пехотинец" />
+<string id="iZqYAIQy" text="Стургский ударный воин" />
+<string id="jaK1A7CI" text="Асерайский фарис" />
+<string id="jFQPRvLg" text="Стургский хускарл с мечом" />
+<string id="JGsUtBT3" text="Имперский легионер" />
+<string id="JMZiICD8" text="Вландийский крестьянин" />
+<string id="jRFfRZv2" text="Стургский лучник ополчения" />
+<string id="juBPAThy" text="Баттанский бывалый охранник каравана" />
+<string id="JVG0zC4e" text="Асерайский тяжёлый всадник-мамлюк" />
+<string id="jx8ohENz" text="Оружейник" />
+<string id="jxNe8lH2" text="Охранник каравана" />
+<string id="k4EiLrU0" text="Стургский ратник" />
+<string id="KAJKOooN" text="Кузаитский лучник тяжёлой кавалерии" />
+<string id="kih9DwL4" text="Вландийский арбалетчик-новобранец" />
+<string id="KnhpjA7Y" text="Кольман" />
+<string id="kPCcelVX" text="Торговец " />
+<string id="kppseK3N" text="Кузаитский воин племени" />
+<string id="KPrRxeC3" text="каждый с топором и щитом" />
+<string id="KqpiU4tH" text="с двуручными мечами" />
+<string id="KtqB640w" text="Имперский крестьянин" />
+<string id="L0cGAnWw" text="Баттанский копейщик ополчения" />
+<string id="l6NFOl8c" text="Кузаитский вооруженный торговец" />
+<string id="LbjxH9yp" text="Имперский лучник" />
+<string id="lduchnvD" text="Каракузаитский налётчик" />
+<string id="LEJukldW" text="Имперский вооруженный купец" />
+<string id="LFUaO6rG" text="Кузаитский селянин" />
+<string id="LKb8DXby" text="Баттанский караванщик" />
+<string id="lkrV8jZa" text="Кузаитский лучник" />
+<string id="LNNXiPyV" text="Телохранитель главаря банды" />
+<string id="Loc1XOIk" text="Кузаитский охотник" />
+<string id="lumFaIud" text="Кузаитский улан" />
+<string id="LVEU4se3" text="Стургский опытный копейщик ополчения" />
+<string id="lxU4pWsS" text="Баттанский опытный застрельщик" />
+<string id="LXybWXde" text="Воин Скольдерброда" />
+<string id="Mcbjdntz" text="Джаваллийский наездник на верблюде" />
+<string id="MDIuyBHP" text="Кузаитский копейщик ополчения" />
+<string id="Mgr6qv1j" text="Наёмный мечник" />
+<string id="mrBbsiPN" text="Волчёнок" />
+<string id="muu5cofb" text="Горожанин" />
+<string id="MVHawAEp" text="Посвящённый Скрытой Длани" />
+<string id="MYwUFMsz" text="Имперский закалённый катафракт" />
+<string id="mzyc3bms" text="Магистрат" />
+<string id="n41jlEa3" text="Имперский вигил" />
+<string id="nDoENDqD" text="Асерайский караванщик" />
+<string id="noTLVPDD" text="Целитель" />
+<string id="nPyqHxmf" text="Вландийский сержант" />
+<string id="nsyTIbtp" text="Воитель поклявшихся" />
+<string id="o077j2j5" text="Подросток" />
+<string id="o1jvmi9P" text="Кузаитский налётчик" />
+<string id="OQPDvtpk" text="Вландийский кавалерист" />
+<string id="oseSwa56" text="Вландийский рыцарь" />
+<string id="oXAbblBV" text="Основной персонаж" />
+<string id="P8EATvn8" text="Имперский лучник ополчения" />
+<string id="PCZ23wvW" text="Инженерное дело" />
+<string id="Pd9qAiOu" text="Асерайский опытный копейщик ополчения" />
+<string id="PgOknaEN" text="Наёмный стрелок" />
+<string id="PJNW1UWK" text="Продавец" />
+<string id="pOCOS8um" text="Ребёнок" />
+<string id="pooybAKI" text="Вландийский мечник" />
+<string id="pRbbJHkU" text="Имперский конный лучник" />
+<string id="PU2zIMu0" text="Кукловод Скрытой Длани" />
+<string id="pzKCIEaK" text="Вландийский дикарь" />
+<string id="pzmgMODE" text="Стургский охранник каравана" />
+<string id="q7b4pQc9" text="Матёрый волк" />
+<string id="q7VeZazL" text="Баттанский застрельщик" />
+<string id="qAsnj7vU" text="Имперский опытный пикинёр" />
+<string id="qAvxmnav" text="Джаваллийский бедуин" />
+<string id="QbSjMefR" text="Вландийский караванщик" />
+<string id="qBVNIhme" text="Воитель Элефтхерой" />
+<string id="qfaTMEBw" text="Батаннский охранник каравана" />
+<string id="QfVe3IVw" text="Наёмный арбалетчик" />
+<string id="QGPAEtj7" text="Бывалый варяг" />
+<string id="QhNpvW0Y" text="Кузаитский торгууд" />
+<string id="QlVeZvbv" text="Асерайский бывалый охранник каравана" />
+<string id="qMYpZKWo" text="Принцип" />
+<string id="QNKfXvuA" text="Имперский сигнальщик" />
+<string id="Qo2cc7bF" text="Крыс" />
+<string id="QvSmhaAV" text="Волкодав" />
+<string id="R74i2pQz" text="Наёмный клинок" />
+<string id="reoVAtrE" text="Бухгалтер" />
+<string id="rIqwYlSK" text="Кузаитский кочевник" />
+<string id="riT39wKu" text="Лесной атаман" />
+<string id="Rj0bNOOh" text="Нюхач" />
+<string id="RJNNsaSP" text="Стургский разбойник" />
+<string id="rQ0t0Wws" text="Вландийский охранник каравана" />
+<string id="rtOJNB6u" text="Новобранец стражи" />
+<string id="RYP9hzIy" text="Дозорный" />
+<string id="s3IJIFUw" text="Имперский новобранец" />
+<string id="S6BosJUq" text="Новобранец Элефтхерой" />
+<string id="S8ElYRrb" text="Асерайский Шаблон" />
+<string id="S9z09NaN" text="Опытный наёмный воин" />
+<string id="SAILNYbu" text="Вландийский опытный пехотинец" />
+<string id="SaqVvzyV" text="Наёмный кавалерист" />
+<string id="SDRIahK8" text="Сумасшедший" />
+<string id="Si5ZCb1O" text="Вландийский пикинёр" />
+<string id="sMI3wMZu" text="disguise_equipment_set" />
+<string id="strAI" text="AI" />
+<string id="SvAADOwm" text="Вландийский стрелок" />
+<string id="ta34CxLs" text="Вредитель" />
+<string id="TbBnWiao" text="Имперский охранник каравана" />
+<string id="tDYfuUuU" text="Асерайский мамлюк-страж дворца" />
+<string id="thbcgVVO" text="Торговец" />
+<string id="THOfB9DZ" text="Кузаитский охранник каравана" />
+<string id="THyv3q9f" text="Имперский бронированный арбалетчик" />
+<string id="tke6VCV6" text="Асерайский пехотинец" />
+<string id="tL6aGah4" text="Асерайский опытный лучник ополчения" />
+<string id="TpECDErA" text="Имперский караванщик" />
+<string id="tSc0mHy7" text="Баттанский воин с пикой" />
+<string id="twCIejxn" text="Ведущий игры" />
+<string id="u0UNwnw2" text="Имперский катафракт" />
+<string id="u3K1SozQ" text="Предводитель Лесных Братьев" />
+<string id="UaN2lfwi" text="Кузнец" />
+<string id="uca778lM" text="Воин Бени Зилал" />
+<string id="uDseaKcb" text="Стургский караванщик" />
+<string id="UdTc1PGo" text="Имперский арбалетчик" />
+<string id="ueasbGtd" text="Опытный егерь" />
+<string id="ugJfuabA" text="Конный лучник" />
+<string id="uh4rIbZ9" text="Всадник" />
+<string id="ULaNn3pp" text="Асерайский копейщик ополчения" />
+<string id="UrSjhs4x" text="Вландийский воин с вульжом" />
+<string id="uViDMxLC" text="Новобранец Скольдерброда" />
+<string id="UYPaQP2j" text="Кузаитский канкли" />
+<string id="uzwfybTH" text="Кузаитский пехотинец" />
+<string id="V1hoeBch" text="Главарь головорезов" />
+<string id="V7iJlSuT" text="меч к мечу" />
+<string id="v8hRrmY2" text="Баттанский вооруженный купец" />
+<string id="VbWtdAWn" text="Стургский матёрый разбойник" />
+<string id="vGFdbjFC" text="Вландийский опытный копейщик ополчения" />
+<string id="vkuJeNSa" text="Вландийский лучник ополчения" />
+<string id="VqrQ096u" text="Кузаитский кешик" />
+<string id="VtlvxEs7" text="Баттанский воин клана" />
+<string id="vxlAJIiU" text="Джаваллийский погонщик" />
+<string id="vZlMfmng" text="Асерайский мамлюк с топором" />
+<string id="W2WXkiAh" text="Посредник" />
+<string id="w6YwFaG7" text="Кузаитский пехотинец с копьём" />
+<string id="WEHDGbEE" text="Кузаитский караванщик" />
+<string id="WJbOQSiT" text="Асерайский конный мамлюк" />
+<string id="WNU7kE5N" text="Закалённый стражник" />
+<string id="wtmCSMrC" text="Асерайский пустынник" />
+<string id="X12lazIs" text="Вландийский вооруженный купец" />
+<string id="X3KYysuv" text="Танцор" />
+<string id="X4GvzDdW" text="Баттанский воин с фальксом" />
+<string id="X6CQ9CMZ" text="Вландийский меткий арбалетчик" />
+<string id="xaYwo9tM" text="Наёмный разведчик" />
+<string id="XgjXfmM1" text="Тюремный стражник" />
+<string id="xIFHLI66" text="Каракузаитский кочевник" />
+<string id="xiuAStPO" text="Стургский закалённый воин" />
+<string id="xnzpQbwQ" text="Стургский конный налётчик" />
+<string id="XzDObEiH" text="Вландийский оруженосец" />
+<string id="YE4RGuzU" text="Вландийский бывалый охранник каравана" />
+<string id="yG42k5GC" text="Асерайский караванный стражник" />
+<string id="YGexslSX" text="Воитель Скольдерброда" />
+<string id="yhBagy1Y" text="Асерайский лучник" />
+<string id="YIuBzk88" text="Воин" />
+<string id="yMqWnBfT" text="Баттанский воитель с фальксом" />
+<string id="yPF32fbh" text="Вландийский пехотинец" />
+<string id="yrGYZsQ7" text="Имперский молодой легионер" />
+<string id="YUCzyA8C" text="Асерайский всадник-мамлюк" />
+<string id="z4Ke6pJl" text="Чемпион" />
+<string id="z6RMWTaA" text="Служанка" />
+<string id="Za4B0blc" text="Опытный боец" />
+<string id="zEQTwpnv" text="Асерайский солдат-мамлюк" />
+<string id="zfCoeglY" text="Музыкант" />
+<string id="ZhKoCVby" text="Имперский копейщик ополчения" />
+<string id="ZK0GXYCx" text="Сестра меча" />
+<string id="ZKuabzhK" text="Кузаитский знатный воин" />
+<string id="zkVWALaF" text="Баттанский опытный копейщик" />
+<string id="Zmajp2o1" text="Стургский копейщик ополчения" />
+<string id="ZRkceJx3" text="Судья" />
+<string id="ZSU7sMYX" text="Кузаитский дархан" />
+  </strings>
+</base>

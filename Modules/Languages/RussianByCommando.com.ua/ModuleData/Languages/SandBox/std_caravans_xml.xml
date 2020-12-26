@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="7bjyJDaK" text="Лидер наемников Игрока" />
+    <string id="EsJ3Drv7" text="Стургский лидер наемников" />
+    <string id="GIRpmax8" text="Асерайский лидер наемников" />
+    <string id="jHVTqyI4" text="Имперский лидер наемников" />
+    <string id="ugbfHGZ3" text="Мировой лидер наемников" />
+    <string id="VPis3atP" text="Кузаитский лидер наемников" />
+    <string id="XhbgteUK" text="Вландийский лидер наемников" />
+    <string id="y6E1CTsv" text="Баттанский лидер наемников" />
+  </strings>
+</base>

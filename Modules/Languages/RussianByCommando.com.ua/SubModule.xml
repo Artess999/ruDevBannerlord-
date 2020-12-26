@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Russian by commando.com.ua"/>
+	<Id value = "RussianByCommando.com.ua"/>
+	<Version value = "e3.2.0"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="true"/>
+	<Author value="Commando" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls> 
+	</Xmls>
+</Module>

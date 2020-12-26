@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="09gOOa0h" text="Баттанский лучник" />
+    <string id="1sJcKkVP" text="Гвардеец" />
+    <string id="4C4WiTb2" text="Варяг" />
+    <string id="6aqDcMPr" text="Максимальная броня (55)" />
+    <string id="8qg72H8Z" text="Племенной воин" />
+    <string id="afhXdjBU" text="Кочевник" />
+    <string id="bHx8jaeI" text="Воин" />
+    <string id="CAYZDsAj" text="Легионер" />
+    <string id="cbnvgVhH" text="Налётчик" />
+    <string id="Cp7dI87a" text="Боец авангарда" />
+    <string id="DMxJJWxt" text="Новобранец" />
+    <string id="Dq1sCO1y" text="Арбалетчик" />
+    <string id="eFWJjaBC" text="Мультиплеерный персонаж" />
+    <string id="eIk6jaOG" text="Копьеносец" />
+    <string id="eM1qFKNs" text="Меткий стрелок" />
+    <string id="eU0uANvZ" text="Конный лучник" />
+    <string id="fS5BIf3J" text="Клятвенник" />
+    <string id="ft6QaIms" text="Катафракт" />
+    <string id="g9VIbA9s" text="Сержант" />
+    <string id="gLlheMwd" text="Ополченец" />
+    <string id="gytrdYMU" text="Мамлюк" />
+    <string id="hchDYAKL" text="Улан" />
+    <string id="HCzbW0hE" text="Воин клана" />
+    <string id="ieiqOaZp" text="Лучник" />
+    <string id="ixqTFMVA" text="Конный воин" />
+    <string id="j5I7tYSd" text="Фианн" />
+    <string id="k1Xr4rKn" text="Дружинник" />
+    <string id="lar4lfKR" text="Ханский страж" />
+    <string id="LLKreyq7" text="Одичалый" />
+    <string id="LNfQk4MM" text="Минимальная Броня (0)" />
+    <string id="My0a4Miq" text="Вульженосец" />
+    <string id="naBbiK9v" text="Смерд" />
+    <string id="NJRUb0C1" text="Палатинский гвардеец" />
+    <string id="nt7wUxIa" text="Бедуин" />
+    <string id="PoY2Vh7K" text="Степной лук" />
+    <string id="q1tbZIR9" text="Высшая средняя броня(37)" />
+    <string id="rdIGpLLh" text="Всадник" />
+    <string id="RjjIbn4V" text="Ветеран" />
+    <string id="RssJTUpL" text="Берсерк" />
+    <string id="s9oED1IR" text="Застрельщики" />
+    <string id="Tm3CY9tC" text="Низшая средняя броня (12)" />
+    <string id="TNQaD5p2" text="Лучник-ополчения" />
+    <string id="WtEoXblx" text="Рыцарь" />
+    <string id="XeXJAB6a" text="Тяжелый копейщик" />
+    <string id="xnDWqYKW" text="Охотник" />
+    <string id="yDiWi6SO" text="Дикарь" />
+    <string id="ZKdiaaFo" text="Разбойник" />
+  </strings>
+</base>

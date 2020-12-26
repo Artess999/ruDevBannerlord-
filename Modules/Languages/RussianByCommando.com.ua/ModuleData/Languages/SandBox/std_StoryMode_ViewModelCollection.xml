@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="8eYtra7T" text="Определите сложность игры" />
+    <string id="fz2kQjFS" text="Разбойник? Король? Охотник? У всех своя предначертанная судьба. Но начало всегда одно, ваши предки родом из..." />
+    <string id="K6GYskvJ" text="Культура" />
+    <string id="kek1czyb" text="Вы готовитесь отправиться в путь, со своим братом, за местью, и ради спасения ваших близких. Вот ваш персонаж. Нажмите Продолжить, если вы готовы, или вернитесь, чтобы внести изменения." />
+    <string id="MaHMOzL2" text="Локализация{newline}by commando.com.ua" />
+    <string id="mHVmrwRQ" text="Введите своё имя" />
+    <string id="PUjDWe5j" text="Культура" />
+    <string id="raD9MK3O" text="Сложность" />
+    <string id="txjiykNa" text="Обзор" />
+  </strings>
+</base>

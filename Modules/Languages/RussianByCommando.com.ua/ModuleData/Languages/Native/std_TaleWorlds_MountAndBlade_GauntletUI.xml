@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Вас выгнали из-за бездействия" />
+    <string id="2SEofGth" text="Смена команды" />
+    <string id="4mMySbxI" text="Неизвестная ошибка" />
+    <string id="a0IHtkoa" text="Вы были исключены администратором" />
+    <string id="AbEh2y8o" text="Сохранить и выйти" />
+    <string id="aKjpbRP5" text="Неизвестная причина" />
+    <string id="bV75iwKa" text="Сохранить" />
+    <string id="e0KdfaNe" text="Сохранить как" />
+    <string id="EzeFJo65" text="Вы были отключены от сервера!" />
+    <string id="hvaDkG4w" text="Нажмите любую клавишу" />
+    <string id="HzWaGn3y" text="Не все игроки используют анти-чит" />
+    <string id="InGwtrWt" text="Выйти" />
+    <string id="ivKntfNA" text="Запрос принят, ожидайте ответа от сервера" />
+    <string id="IzJ7f5SQ" text="Сервер заполнен" />
+    <string id="JluTW3Qw" text="Конец игры" />
+    <string id="JQVixeQs" text="Не удалось получить доступ к игровому серверу" />
+    <string id="KRNdlbkq" text="Пользовательская игра заканчивается" />
+    <string id="Mm1Kb1bS" text="Неверный пароль" />
+    <string id="mO9bh5sy" text="Не удалось присоединиться к пользовательской игре" />
+    <string id="n4UUrd1p" text="Уже используется" />
+    <string id="NqarFr4P" text="Настройки" />
+    <string id="OhF7NqSb" text="Вы забанены по голосованию" />
+    <string id="RamV6yLM" text="Выход в главное меню" />
+    <string id="RGzyUTzm" text="Переключение формаций на {ARRANGEMENT_ORDER}" />
+    <string id="srAJw3Tg" text="Игрок забанен на сервере" />
+    <string id="T8IniCKU" text="Игровой сервер недоступен" />
+    <string id="tKSxGy5p" text="Сервер не отвечает" />
+    <string id="tlsmbvQX" text="Не все игроки готовы присоединиться" />
+    <string id="TR1B2RWB" text="Античит выгнал вас из игры" />
+    <string id="vkpMgobZ" text="Ошибка игрового сервера" />
+    <string id="wbFB3N72" text="Вас выгнали из игры по голосованию" />
+    <string id="wLpJEkKY" text="Сервер не отвечает" />
+    <string id="WvGviFgt" text="Время ожидания соединения превышено" />
+    <string id="XnsAbUE3" text="Отменить" />
+    <string id="XzZFhRwr" text="Вернуться в игру" />
+  </strings>
+</base>

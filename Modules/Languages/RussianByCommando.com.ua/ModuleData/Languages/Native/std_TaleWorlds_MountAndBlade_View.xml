@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="2ZarUUbw" text="{KILLERPLAYERNAME} Убил {KILLEDPLAYERNAME}!" />
+    <string id="9CnRKZOb" text="{KILLEDPLAYERNAME} погиб!" />
+    <string id="NqarFr4P" text="Опции" />
+    <string id="ODQmOrIw" text="Благодарности" />
+    <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
+    <string id="YbpzLHzk" text="Покинуть игру" />
+    <string id="YDYnuBmC" text="Мультиплеер" />
+  </strings>
+</base>

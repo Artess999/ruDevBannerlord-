@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="7ZhNilg8" text="Легко (5% бонус)" />
+    <string id="8UBfIenN" text="Нормальный" />
+    <string id="9jSxo790" text="Реалистично" />
+    <string id="AQfVclN8" text="Счёт" />
+    <string id="B0uvwKae" text="Выберите, могут ли герои погибнуть на поле битвы." />
+    <string id="bLwIgxXa" text="Трудность найма" />
+    <string id="cA1D2Ua3" text="Коэффициент того, насколько сильно вам понадобится улучшать отношения с важными людьми, чтобы получить доступ ко всем их войскам." />
+    <string id="carorTAF" text="Уменьшено до 2/3 (Легко)" />
+    <string id="cUHlzCRx" text="Включить режим смерти" />
+    <string id="D9GkBqyW" text="Вы можете покинуть тренировочное поле, удерживая [{LEAVE_KEY}]{newline}Вы можете вернуться в любое время с карты кампании" />
+    <string id="DFMhzFGV" text="Хранение нескольких лошадей в инвентаре увеличит вашу грузоподъёмность, а так же ваши воины смогут ездить на запасных лошадях. Мулы, как и вьючные кони, могут только перевозить груз." />
+    <string id="EGwqzjpa" text="Вы можете удерживать клавишу TAB, чтобы покинуть текущую область." />
+    <string id="F8TaKnjh" text="Когда вы находитесь в городе или деревне, удерживая клавишу Alt, вы видите маркеры важных людей и точки интереса." />
+    <string id="fbaQp3ox" text="Включите автоматическое распределение навыков, для членов вашего клана." />
+    <string id="hEYfasE1" text="Коэффициент получаемого вашим персонажем урона" />
+    <string id="HVrobtL5" text="Имя нового королевства: {newline} - не может содержать цифры. {newline} - не может быть длиннее {MAX_LETTER_COUNT} символов. {newline} - не может быть короче {MIN_LETTER_COUNT} символов." />
+    <string id="IgeL6qHr" text="Коэффициент получаемого урона союзными воинами не под вашим управлением." />
+    <string id="IWD56KMc" text="Скорость передвижения по карте" />
+    <string id="JaHlwYmo" text="Когда вы смотрите на всплывающую подсказку, вы можете нажать клавишу Alt, чтобы увидеть расширенную версию всплывающей подсказки." />
+    <string id="JMhKt2W1" text="Испытание" />
+    <string id="k4CF68S6" text="Мы воздержимся" />
+    <string id="k71J6bVH" text="Побед" />
+    <string id="KbPD5cEw" text="Уменьшено до 1/3 (Очень легко)" />
+    <string id="KM7uAbL8" text="Урон по игроку" />
+    <string id="LfpteADn" text="Определите сложность боевого AI" />
+    <string id="mD89ih8N" text="Изменить название клана " />
+    <string id="N6fz1efb" text="Пропускает обучение в начале игры." />
+    <string id="Oea9a5nY" text="Урон по дружественным войскам" />
+    <string id="qc9Llr3x" text="Персонаж" />
+    <string id="QGA2TilH" text="В окнах игры вы можете щелкнуть правой кнопкой мыши по предмету, чтобы открыть для него запись в энциклопедии. Это работает для портретов войск, городских икон и большинства других элементов." />
+    <string id="QUZku1Jr" text="Коэффициент штрафов на скорость передвижения, за размер отряда." />
+    <string id="QzmJL5I7" text="Легко (1 доп.)" />
+    <string id="raD9MK3O" text="Сложность" />
+    <string id="ReNnVfEn" text="Изменить имя королевства" />
+    <string id="RjjIbn4V" text="Ветеран" />
+    <string id="RyNYEVYp" text="{RANK}." />
+    <string id="RZFAxCMp" text="Очень легко (10% бонус)" />
+    <string id="sp8Kred0" text="Участник должен быть в отряде игрока, чтобы совершить это действие." />
+    <string id="sYVFg9ai" text="Сложность боевого AI" />
+    <string id="TZ9ugd1p" text="Автомат. распределение навыков членам клана " />
+    <string id="UcgNVM0P" text="Очень легко (2 доп.)" />
+    <string id="UfQotsfo" text="Ранг #" />
+    <string id="vGF5S2hE" text="Лидеры" />
+    <string id="wip6jLEM" text="Коэффициент получаемого вашими воинами урона." />
+    <string id="ZcyJePFm" text="Урон по союзникам" />
+    <string id="ZWiFWA2W" text="Пропустить основное обучение" />
+  </strings>
+</base>

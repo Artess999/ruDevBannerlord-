@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="03mPaWum" text="Королевство" />
+    <string id="08oulGov" text="Выбросить экипированное оружие." />
+    <string id="0EDGnl1C" text="Только дальнобойный" />
+    <string id="0fLpwDzk" text="Установить режим отображения.{newline}Оконный: Запустить игру в оконном режиме.{newline}Полноэкранный: Запустить игру в полноэкранном режиме.{newline}Оконный без рамки: Запустить игру в окне без рамки." />
+    <string id="0hzYbsXD" text="Equip Weapon 1 DESC" />
+    <string id="0MvDMsEl" text="Затенение AO" />
+    <string id="0ot0eBzv" text="Режим камеры при езде от первого лица" />
+    <string id="0ufcpRUS" text="Подвинуть камеру вверх" />
+    <string id="0WrKbmfz" text="SMAA x2" />
+    <string id="0x44y8fb" text="Group 2 Hear DESC" />
+    <string id="0YV6wbsq" text="Пауза на карте кампании." />
+    <string id="16EUzfcH" text="Отрегулируйте уровень экспозиции, в соответствии с вашими предпочтениями с помощью ползунков." />
+    <string id="1awQTVqN" text="Количество рэгдолл моделей" />
+    <string id="1dQFNvhQ" text="Numpad +" />
+    <string id="1ebaa1Wf" text="Переключить режим бег/ходьба" />
+    <string id="1uCaibsd" text="Полный" />
+    <string id="1WsmBXkN" text="Ограничить частоту кадров" />
+    <string id="1zEr6Zs8" text="Левый стик вправо" />
+    <string id="25MeMNbP" text="Вправо" />
+    <string id="26r6Q8at" text="Правый стик вниз" />
+    <string id="2Ao5DCb6" text="Двигать отряд вниз" />
+    <string id="2AyPP3rw" text="Высокое" />
+    <string id="2bPTx7So" text="Ваш персонаж сел." />
+    <string id="2e8wI3EM" text="Экипировать оружие 2" />
+    <string id="2EjZcRgF" text="F5" />
+    <string id="2h2148cq" text="Послать сообщение всем" />
+    <string id="2qFVBblU" text="Toggle Weapon Mode DESC" />
+    <string id="2v1xw6JS" text="Правый стик" />
+    <string id="2ZJQylWo" text="Переключиться между режимами бега и ходьбы." />
+    <string id="3Dngsvya" text="Двигаться вперед" />
+    <string id="3Gb7tKgJ" text="{LEFT} и {RIGHT}" />
+    <string id="3MLvkSjw" text="Отчет о сложности выстрела" />
+    <string id="3nTeojbI" text="=" />
+    <string id="3oUbmqJY" text="Синхронизирует частоту кадров с частотой обновления монитора во избежание артефактов." />
+    <string id="3P7eDKEY" text="Экипировать предмет 4" />
+    <string id="3sRdGQou" text="Уйти" />
+    <string id="3V0bvyLC" text="{STR1}{STR2}" />
+    <string id="3YwMXbAT" text="Быстрая перемотка времени на карте кампании." />
+    <string id="3zk3mzG4" text="Leave DESC" />
+    <string id="41Na9Lg1" text="Левый стик" />
+    <string id="44akzqlm" text="Стрелка вправо" />
+    <string id="45yEpDdE" text="Масштаб разрешения" />
+    <string id="46vWdakp" text="Y" />
+    <string id="4aAvY4yO" text="Низкий" />
+    <string id="4AyPI1H9" text="Camera Toggle DESC" />
+    <string id="4e0ycN1Q" text="Все Слышат" />
+    <string id="4Gdng2Tt" text="Удерживайте для ускорения камеры на карте кампании." />
+    <string id="4NaOKslb" text="-" />
+    <string id="4Q9pzbqM" text="Включить у контроллера эффект вибрации" />
+    <string id="4Nw1hF2R" text="Атакуйте врагов, чтобы проломить их защиту, когда они не атакуют и не защищаются. Защищайтесь своим снаряжением во время вражеской атаки." />
+    <string id="4R4shVxp" text="Резкость" />
+    <string id="4SeC2VOQ" text="D-pad вправо" />
+    <string id="4spC1rcN" text="SelectOrder7 DESC" />
+    <string id="4v3kotBH" text="SelectOrder2 DESC" />
+    <string id="4x1wGwW9" text="Выбрать приказ 7" />
+    <string id="4Z2NBfW4" text="Командный чат" />
+    <string id="58eAHUQi" text="Group 4 Hear DESC" />
+    <string id="5B3ptxje" text="Персонаж" />
+    <string id="5c7l7r31" text="Левая кнопка мыши" />
+    <string id="5JwDMBlz" text="Move Left DESC" />
+    <string id="5jxcNYlU" text="Numpad 6" />
+    <string id="5QpTaCa0" text="W" />
+    <string id="5siWUJPw" text="Полный экран" />
+    <string id="5WDQLWCk" text="AI Кампании" />
+    <string id="6AnHiJGR" text="Выбранный монитор" />
+    <string id="6auWfPnA" text="SelectOrder6 DESC" />
+    <string id="6CeL6iOp" text="Выбрать группу 1" />
+    <string id="6g0y182U" text="Детали окружения" />
+    <string id="6HJxnF3G" text="Сохранение не удалось!" />
+    <string id="6QiPm27r" text="Двигать ваш отряд вверх на карте кампании." />
+    <string id="6sIFj7K9" text="Ускорение времени" />
+    <string id="6Uh76bYG" text="Карта Остановка времени" />
+    <string id="6uNvJbdx" text="Выбрать группу 4" />
+    <string id="7MU008BT" text="F11" />
+    <string id="7pBx0s07" text="Включить вибрацию контроллера" />
+    <string id="7phVPcDc" text="Установить качество шейдеров." />
+    <string id="7QKjVON8" text="Прыгнуть" />
+    <string id="7RV38Hoy" text="Group 7 Hear DESC"  />
+    <string id="7S1aCWFa" text="Прыгнуть когда вы передвигаетесь пешком или верхом." />
+    <string id="7SSytk7Z" text="U" />
+    <string id="7tYiV9Vw" text="Анизотропная 8X" />
+    <string id="7vl1ebVZ" text="Левый Ctrl" />
+    <string id="7X6fZ5kQ" text="Включить пространственные отражение изображения." />
+    <string id="7XmaJYuh" text="Двигать ваш отряд вправо на карте кампании." />
+    <string id="7zUWqY3O" text="Левый" />
+    <string id="8AiDqTFB" text="Карта Двигаться назад" />
+    <string id="8b45xcyL" text="Установить качество деревьев и травы." />
+    <string id="8b5HDBl9" text="Map Move Right DESC" />
+    <string id="8hArJQWf" text="Показывать прицел" />
+    <string id="8iwie5KL" text="SelectOrder5" />
+    <string id="8kO2jDVf" text="Влияет на качество текстур." />
+    <string id="8t4KDZfU" text="E" />
+    <string id="8UBfIenN" text="Нормальный" />
+    <string id="8WrQ9fnb" text="C" />
+    <string id="929oYf3G" text="Отдалить" />
+    <string id="92ZztgDd" text="Прорисовка деталей " />
+    <string id="9F323ez4" text="Трилинейная" />
+    <string id="9gAVbJAR" text="Время возобновления" />
+    <string id="9hRcH7kV" text="Солнечные лучи" />
+    <string id="9k4sahxA" text="Ножны экипированного оружия." />
+    <string id="9OHGqgjH" text="Приблизить чтобы прицелиться во врагов или вглядеться вдаль." />
+    <string id="9pEc15Sb" text="S" />
+    <string id="9QsTWOYN" text="Кнопка Старт" />
+    <string id="9qZw55vR" text="Общий уровень громкости." />
+    <string id="9Rr1iimX" text="D-pad влево" />
+    <string id="9xKCz9BE" text="Переключиться между видами от первого и третьего лица." />
+    <string id="A0bqGRQc" text="F" />
+    <string id="A4B0GTqw" text="FXAA" />
+     <string id="a8MvWaSN" text="Включение вертикальной синхронизации в различных меню (лобби, инвентарь, отряд, персонаж, задания и т.д)" />
+    <string id="Aa2Yokz3" text="Numpad *" />
+    <string id="aAaF9FWC" text="Правый Ctrl" />
+    <string id="accbLVWL" text="Установить метод сглаживания" />
+    <string id="acqAYxhr" text="," />
+    <string id="Ad8NUgpY" text="Group 5 Hear DESC" />
+    <string id="aFPK4kIi" text="Map Move Left DESC" />
+    <string id="AhrWBKx9" text="Экипировать предмет 1" />
+    <string id="AiYklNiQ" text="UI Двигать вправо" />
+    <string id="AJFpx99v" text="Регулировка экспозиции" />
+    <string id="aJxmDbur" text="Удерживайте, чтобы покинуть область. " />
+    <string id="aKghgqEl" text="SelectOrder1 DESC" />
+    <string id="aky3YmaT" text="Map Wait DESC" />
+    <string id="amdYLZ6o" text="Окно заданий" />
+    <string id="aNs2hcVi" text="UI Двигать вниз" />
+    <string id="aombIn07" text="Установите количество экспозиции." />
+    <string id="ap1wEfdW" text="V" />
+    <string id="aqcFXbir" text="Правый стик вверх" />
+    <string id="ar2Y8Xs9" text="{LEFT}: " />
+    <string id="asrbFBbn" text="Меню приказов" />
+    <string id="au7tXcD1" text="Стерео" />
+    <string id="aufrcNmq" text="Детализация частиц" />
+    <string id="avDb6Y66" text="СКМ" />
+    <string id="AVZ0zB0g" text="UI Переключиться на правый таб" />
+    <string id="aWDfG0RO" text="F3" />
+    <string id="aydCb7WA" text="Среднее" />
+    <string id="Az084VJK" text="Защита" />
+    <string id="b1OtYhnF" text="Фильтрация текстур" />
+    <string id="b9rDOY21" text="SelectOrder2" />
+    <string id="bdJv9dcm" text="Приблизить персонажа" />
+    <string id="BDSEgN41" text="Установить общий пресет качества графики." />
+    <string id="bEJsGiBK" text="Качество листвы" />
+    <string id="bFSxl4Vl" text="UI Move Up DESC" />
+    <string id="bGbIRSmD" text="." />
+    <string id="BgjaAUNf" text="Установить качество воды. Более высокое значение соответствует более детальной симуляции воды." />
+    <string id="bgwA4Pd8" text="2" />
+    <string id="BJJl0qam" text="Быстрее" />
+    <string id="bJRFVONJ" text="Кнопка X" />
+    <string id="Bl8cKwhL" text="Настройка экрана" />
+    <string id="bmpagYCb" text="Экипировать щит или взять следующий." />
+    <string id="BmSzvXlZ" text="Вверх" />
+    <string id="bNWx8Zqb" text="Banner Window DESC" />
+    <string id="bqb2K5b1" text="Двигаться вправо" />
+    <string id="br4J1TTA" text="Take Screenshot DESC" />
+    <string id="BSdIYN9F" text="P" />
+    <string id="bT77aWti" text="Переключение оружия" />
+    <string id="bvJUmRBd" text="Выбрать группу 2" />
+    <string id="bW2urPqE" text="SelectOrder6" />
+    <string id="bWV5BOyc" text="D-pad вниз" />
+    <string id="bYwwY9qh" text="Numpad 5" />
+    <string id="c49AY7yF" text="Низко (128)" />
+    <string id="C7zwur4k" text="Escape" />
+    <string id="cAkgnVr5" text="Num Lock" />
+    <string id="CbwmI1JY" text="Включить глубину резкости." />
+    <string id="cdaUUBFQ" text="UI двигать вверх" />
+    <string id="CnJQpaiK" text="Party Window DESC" />
+    <string id="combatkick" text="Пинок" />
+    <string id="cOuaMvNR" text="Temporal SMAA x2" />
+    <string id="cp80Mq2W" text=";" />
+    <string id="Crf6Z1S5" text="Page Up" />
+    <string id="CsEtp6Az" text="Группа 3 слушайте" />
+    <string id="ct0coyrR" text="A" />
+    <string id="cTHGQ62C" text="Group 1 Hear DESC" />
+    <string id="CTiemsyh" text="Numpad 3" />
+    <string id="Cvdaadvs" text="Очень высокое" />
+    <string id="cvhQOE38" text="Показывать направление удара" />
+    <string id="cWRA5VVr" text="Левый Alt" />
+    <string id="czYbd1vo" text="H" />
+    <string id="D008gyKC" text="Выбрать приказ 1" />
+    <string id="d5a3QdBR" text="Невозможно получить доступ к папке сохранений." />
+    <string id="d6DkPU2b" text="Пресет настроек" />
+    <string id="d75b5uSL" text="Билинейная" />
+    <string id="dB6cFDmz" text="/" />
+    <string id="dbkFMtJw" text="Карта Приблизить" />
+    <string id="DbpgZxxK" text="Дистанция камеры от третьего лица" />
+    <string id="dC1MBjrO" text="Влияет на размер кэша текстур. Высокое значения требует высоких затрат ресурсов видеокарты, но при этом сильно улучшает качество картинки." />
+    <string id="Dg0SKmCS" text="Combat Speed DESC" />
+    <string id="dg6yQU6z" text="Послать сообщение команде" />
+    <string id="DiK2cKUi" text="Звуковое устройство" />
+    <string id="DIvUcHY1" text="UI Выйти" />
+    <string id="dkLG4JC4" text="Войти" />
+    <string id="DqFxOjTp" text="Разрешение экрана" />
+    <string id="drbgOAqx" text="Включить отчеты о наборе опыта." />
+    <string id="drG1OL8d" text="Прокрутка вверх мышью" />
+    <string id="dRx9qWRO" text="Map Context Menu DESC" />
+    <string id="DTSHoHbu" text="Окно инветаря" />
+    <string id="Dw58UUua" text="Рассеяние на субповерхностях" />
+    <string id="dYu897GO" text="A кнопка" />
+    <string id="E5xbXlLB" text="Включить лучи солнца." />
+    <string id="ea8kNj32" text="Предпочитаемое устройство для вывода звука." />
+    <string id="EaOcWkH3" text="Открыть энциклопедию." />
+    <string id="EkzORIiZ" text="Открыть весь чат." />
+    <string id="evc8yBIy" text="M" />
+    <string id="EvOLbiqM" text="Выбрать группу 3" />
+    <string id="evzb1cmP" text="Экипировать предмет в четвёртом слоте." />
+    <string id="ewbUcb3N" text="UI Move Right DESC" />
+    <string id="eZsVkuQD" text="8" />
+    <string id="F7yNEXrV" text="Map Zoom In DESC" />
+    <string id="F8Q8mEak" text="UI Войти" />
+    <string id="fBXuMgdm" text="Campaign AI DESC" />
+    <string id="FEDEsbCx" text="Двигать ваш отряд вниз на карте кампании." />
+    <string id="ffHX9L80" text="Numpad 0" />
+    <string id="FHBoO2sp" text="6" />
+    <string id="fJnqJx8m" text="Окно персонажа" />
+    <string id="FLLnblfP" text="Отчет о потерях" />
+    <string id="FqvJUBRn" text="Очень низкое" />
+    <string id="fsI2wuHa" text="Группа 2 слушайте" />
+    <string id="fXKtZqmW" text="Двигать камеру вниз" />
+    <string id="G2e8xucc" text="Если узор не виден, попробуйте подвигать ползунки.{newline}Передвиньте ползунки в положение, когда узор почти виден." />
+    <string id="g4Iq82iw" text="Открыть командный чат." />
+    <string id="g4VjAbMG" text="J" />
+    <string id="G8ug5Bwx" text="Чат" />
+    <string id="gAJHtTK2" text="Включить отчет о сложности выстрела из дальнобойного оружия." />
+    <string id="GAWxyVgq" text="Удалить" />
+    <string id="gCDjIGB6" text="Показывать кровь" />
+    <string id="Gd2iUUHa" text="Установить качество рендера частиц. Более высокое значение соответствует более четким частицам." />
+    <string id="GgUBPvBH" text="Включить отображение знамени союзных войск." />
+    <string id="gIsqhwTs" text="FOV от первого лица" />
+    <string id="Gl2S6WEW" text="Установить монитор, на котором будет отображаться игра." />
+    <string id="Gl7wgtPQ" text="Двигать отряд вверх" />
+    <string id="glpNsbMs" text="Zoom DESC" />
+    <string id="GO6zrJwF" text="Inventory Window DESC" />
+    <string id="GPaZ8wOo" text="UI Switch To Right Tab DESC" />
+    <string id="GxHV8b1b" text="Numpad 1" />
+    <string id="gzMIzYTF" text="Окно журнала игры" />
+    <string id="h6wUbray" text="Количество трупов" />
+    <string id="haX0xRHa" text="Ускорение камеры" />
+    <string id="hdbb0Jjp" text="Окно энциклопедии" />
+    <string id="HDV63kra" text="4" />
+    <string id="hfpb4NaS" text="Group 0 Hear DESC" />
+    <string id="hHxSj7tY" text="SelectOrder3" />
+    <string id="Hj1bsSbW" text="Включить вертикальную синхронизацию в меню" />
+    <string id="hK9bkACI" text="UI Переключиться на левый таб" />
+    <string id="hL2Lnp6N" text="View Orders DESC" />
+    <string id="HmgPBPeq" text="Разрешение рабочего стола" />
+    <string id="HNTCnUYY" text="Окно отряда" />
+    <string id="HRTeeku9" text="D-pad вверх" />
+    <string id="Hs1CYfbc" text="Экипировать следующее оружие" />
+    <string id="hS4wYBa8" text="Обратная последовательность группы приказов" />
+    <string id="HsljR1NL" text="Экипировать оружие 1" />
+    <string id="HsYbuReS" text="PCF" />
+    <string id="hUyPaplJ" text="Размер битвы" />
+    <string id="HVa0okoe" text="F9" />
+    <string id="HxIqxjmk" text="Выбрать всех" />
+    <string id="HyDC937R" text="Map Time Fast Forward DESC" />
+    <string id="hZEAeoCk" text="Двигать ваш отряд влево на карте." />
+    <string id="I3eooo5c" text="Установить качество ландшафта" />
+    <string id="I3rTzBae" text="Детали персонажа" />
+    <string id="i5xbEcE3" text="Пауза на карте кампании." />
+    <string id="I6OJtaMT" text="Никогда" />
+    <string id="i6rQFv6i" text="Map Move Forward DESC" />
+    <string id="I9PN1qny" text="Numpad Войти" />
+    <string id="IahiWHHW" text="K" />
+    <string id="IaoVYeZi" text="Включить тесселяцию, обспечивающую иллюзию объёма у плоских текстур." />
+    <string id="IBEJPlEj" text="Дом" />
+    <string id="Ibl4avht" text="Правая боковая кнопка" />
+    <string id="iblHebbT" text="F1" />
+    <string id="IcEPmXxM" text="Установить тип AO затенения" />
+    <string id="ICgda8Is" text="Двойное нажатие вверх: бросится вперед" />
+    <string id="ID9lG6xg" text="Посмотреть приказы" />
+    <string id="IDKbw4Sw" text="UI Leave DESC" />
+    <string id="igGLkaf6" text="Экипировать предмет 2" />
+    <string id="iGi5HsGS" text="Левый Shift" />
+    <string id="IiioTamH" text="TSAO" />
+    <string id="IjhCSwNn" text="Двигать камеру дальше от персонажа в режиме от третьего лица." />
+    <string id="IjRHUbbN" text="Тесселяция" />
+    <string id="IKjxVh2N" text="Размытие движения" />
+    <string id="ikoUJQyl" text="Включить эффект бликов." />
+    <string id="IOZ4aWVp" text="Выбрать группу 8" />
+    <string id="IPbh2TvZ" text="Начать командный чат" />
+    <string id="iPx4jep6" text="Экспозиция" />
+    <string id="Irhxad7u" text="Качество воды" />
+    <string id="iTau5cxh" text="Среднее" />
+    <string id="iUFgqwkA" text="Средне (256)" />
+    <string id="iwO3g6Rz" text="Выберите сложность AI боя." />
+    <string id="IYLn67Xm" text="X" />
+    <string id="Iz2vu6xM" text="Прокрутка вниз мышью" />
+    <string id="iZq6c4bd" text="UI Move Left DESC" />
+    <string id="izZCwYNb" text="SMAA" />
+    <string id="j2g8BSOF" text="Статические и динамические" />
+    <string id="J2pcA6KR" text="Осмотреть персонажа" />
+    <string id="j3k8PiPo" text="Включить деформацию травы." />
+    <string id="j4F7tTzy" text="Клан" />
+    <string id="jaeLYPIG" text="Пауза" />
+    <string id="jafcz97A" text="Качество теней" />
+    <string id="JAzv5xYY" text="Включить отчеты об уроне." />
+    <string id="jbLwdd6z" text="Наушники" />
+    <string id="jbMwcl0G" text="Everyone Hear DESC" />
+    <string id="jd9ZG2CI" text="R" />
+    <string id="jgCb0sga" text="Включить прицел для дальнобойного." />
+    <string id="jIcGy6gI" text="{LEFT} : {RIGHT}" />
+    <string id="JLqe3lrb" text="Сложность AI боя" />
+    <string id="JLtTANZg" text="Двигаться влево" />
+    <string id="JmlrVqFz" text="Equip Weapon 2 DESC" />
+    <string id="jOGbGqOC" text="Вертикальная коррекция прицела" />
+    <string id="JP1y1i0A" text="Экипировать оружие 4" />
+    <string id="Js1lhJkk" text="Язык" />
+    <string id="Ju6btXsv" text="Контроль направление атаки" />
+    <string id="jvOYgHOe" text="Другое" />
+    <string id="JXdwIX8Q" text="Установить толщину следов от дальнобойного оружия." />
+    <string id="jZs8I1Uq" text="Включить зернистость изображения." />
+    <string id="JZYQGUF3" text="Двойное нажатие вниз: внезапный пролом" />
+    <string id="k2QXfBBn" text="Y нопка" />
+    <string id="k3CLKsrz" text="Движением мыши" />
+    <string id="k3LajvfJ" text="Редактор знамени" />
+    <string id="k4E1gylQ" text="Установить уровень эффекта резкости." />
+    <string id="k7gJYLLj" text="Numpad 8" />
+    <string id="K80z5onY" text="Определяет, как далеко будет камера в режиме от третьего лица." />
+    <string id="kak4GxOh" text="F6" />
+    <string id="KBSbXN5F" text="Левый стик влево" />
+    <string id="kF5FabLb" text="Defend DESC" />
+    <string id="kG4051e5" text="SelectOrder7" />
+    <string id="KHbdmIfF" text="Только статические" />
+    <string id="KjZas5Xs" text="Выбрать видеоадаптер." />
+    <string id="Kk0hMffJ" text="Чувствительность мыши" />
+    <string id="KKNmozPI" text="Стрелка влево" />
+    <string id="KO5zuUvN" text="Действие" />
+    <string id="KONClayU" text="\" />
+    <string id="koX9okuG" text="Пусто" />
+    <string id="KtYtBnvP" text="Ограничить FPS." />
+    <string id="KUEHAD4U" text="Задания" />
+    <string id="KUGomrhD" text="Не показывать снова" />
+    <string id="KwNTg7BT" text="Режим отображения" />
+    <string id="lC5xsoSh" text="Неограниченный" />
+    <string id="lCucoVwJ" text="Предполагаемое количество используемой видеопамяти" />
+    <string id="lgOBD6MF" text="Включить метки для направления атаки." />
+    <string id="lgzmPG6K" text="Присесть" />
+    <string id="lhHUGbnm" text="Начать чат для всех" />
+    <string id="LjNnWa7R" text="F10" />
+    <string id="LJZAvH8f" text="Качество текстур" />
+    <string id="ll2iP8yo" text="Использование большего количетсва видеопамяти, чем имеется у вашего видеоадаптера, может серьезно повлиять на производительность и стабильность игры. Будьте осторожны." />
+    <string id="LoZajra1" text="View Character DESC" />
+    <string id="Lp0byzGQ" text="I" />
+    <string id="LsX8rTwl" text="Открыть окно персонажа." />
+    <string id="lsxqkhy6" text="O" />
+    <string id="lxIeKgXe" text="Спрятать оружие" />
+    <string id="LYAeYPlT" text="Sheath Weapon DESC" />
+    <string id="m1PinhQd" text="Открыть окно отряда." />
+    <string id="M1ZFZR5I" text="Качество поверхности" />
+    <string id="M2LCpC4Z" text="Инвертировать Y ось мышки" />
+    <string id="m7B471Hw" text="Установить качество молний." />
+    <string id="Mf5qVgAv" text="Экипировать предмет 3" />
+    <string id="MFbBFDqx" text="Карта Быстрое перемещение" />
+    <string id="MfsNAPh6" text="Включить рассеяние на субповерхностях." />
+    <string id="MfunBOxF" text="Калибровать уровень контраста." />
+    <string id="mG4rCrfE" text="0" />
+    <string id="MkKL3Y4P" text="Numpad 7" />
+    <string id="mLtHlKzD" text="Правый Alt" />
+    <string id="MNsKxGzK" text="Запас потоковой передачи текстур" />
+    <string id="Mpl0oqe9" text="Map Zoom Out DESC" />
+    <string id="mueocuFG" text="Показать индикаторы" />
+    <string id="mWnA4X5D" text="Выбрать приказ 6" />
+    <string id="MXHkvySm" text="F7" />
+    <string id="MxmOWsHj" text="Энциклопедия" />
+    <string id="Mxnj08mB" text="Двигать отряд вправо" />
+    <string id="N5fmlTza" text="{LEFT}, {RIGHT}" />
+    <string id="n6cE42p9" text="Equip Secondary Weapon DESC" />
+    <string id="nD11hOsQ" text="Открыть лог заданий." />
+    <string id="nDjFBDvE" text="Установить максимальное количество юнитов в битвах. Более высокое количество требует хорошие CPU и GPU." />
+    <string id="NdZYJ8dO" text="SelectOrder5 DESC" />
+    <string id="NkgHkAlZ" text="SelectOrder8 DESC" />
+    <string id="nMeL96ib" text="(Удерживать) Выйти" />
+    <string id="NN7DHB1A" text="Группа 1 слушайте" />
+    <string id="nNBb8a9A" text="UI Вход DESC" />
+    <string id="NPBaJKwW" text="Equip Secondary Weapon DESC" />
+    <string id="nsM4izfn" text="Crouch DESC" />
+    <string id="o0QPZODk" text="Двигать отряд влево" />
+    <string id="o8WjGqS4" text="Z" />
+    <string id="ocNVbyPJ" text="Полный экран без рамки" />
+    <string id="odsVjkbO" text="Открыть инвентарь." />
+    <string id="oEdTBobd" text="Анизотропная 2X" />
+    <string id="oeXA4OpG" text="Move Forward DESC" />
+    <string id="OgXnrvcA" text="Включить симуляцию ткани. Использует много ресурсов видеокарты." />
+    <string id="oHaWR73d" text="Ок" />
+    <string id="OHs18aCS" text="Самое медленное" />
+    <string id="oI1gktYa" text="Громкость звуковых эффектов." />
+    <string id="OiB50fga" text="Карта Выбор" />
+    <string id="oMaTg568" text="Приблизить камеру к карте кампании." />
+    <string id="Oo7wQbfG" text="X2 кнопка мыши" />
+    <string id="Op68a8dO" text="Меню ярлыков" />
+    <string id="OqYO78Jb" text="SelectOrder9 DESC" />
+    <string id="OREWvYbi" text="Equip Weapon 4 DESC" />
+    <string id="otHjiYlN" text="Качество частиц" />
+    <string id="OtS4DYD1" text="T" />
+    <string id="OYaqdNAI" text="Выбрать приказ 2" />
+    <string id="P4rblFQN" text="Карта Отдалить" />
+    <string id="P5x1HU1u" text="Сглаживание" />
+    <string id="P63jJ5Jq" text="Кнопка назад" />
+    <string id="P7E3rS3m" text="Громкость музыки." />
+    <string id="pa8A2VG3" text="Включить красную границу по экрану, когда игрок получает урон." />
+    <string id="PACe9VHN" text="&lt;" />
+    <string id="PADeKaAu" text="Карта Контекстное меню" />
+    <string id="PjP4MktO" text="Equip Primary Weapon DESC" />
+    <string id="PksJtzwJ" text="Пробел" />
+    <string id="Pkw17hO0" text="Скорость боя" />
+    <string id="pLCcV4GU" text="UI Switch To Left Tab DESC" />
+    <string id="pMRw0fvV" text="Map Fast Move DESC" />
+    <string id="pnEeRPAk" text="Группа 7 слушайте" />
+    <string id="pNocZkrx" text="Включить визуальные эффекты получения урона" />
+    <string id="PPFFxlsX" text="Выберите, как выполнять блок." />
+    <string id="pQVSwtfn" text="Придвинуть камеру ближе к вашему персонажу в режиме от третьего лица." />
+    <string id="PRsSB9B8" text="Взаимодействие с оружием, лошадьми, дверьми, людьми и т.д." />
+    <string id="ps103cxD" text="Выполнить атаку вашим оружием." />
+    <string id="pshodFff" text="Видимость следов от оружия" />
+    <string id="PtI8voo3" text="F8" />
+    <string id="PvNGaexX" text="Удерживайте для показа меток важных людей, мест, названий и т.д." />
+    <string id="pVrv5hnp" text="B" />
+    <string id="py0auN0A" text="{ESTIMATED} MB / {TOTAL} MB" />
+    <string id="QaMie1KY" text="Только ближний бой" />
+    <string id="QBzjt1c4" text="Кнопка расширения 1" />
+    <string id="qggjceRq" text="Вывод звука" />
+    <string id="QIVW29Yw" text="Game Log Window DESC" />
+    <string id="QiYy3Ja4" text="Выбрать приказ возвращения" />
+    <string id="qnCZjP1H" text="Quests Window DESC" />
+    <string id="qnxJYAs7" text="Отряд" />
+    <string id="qOcw1xap" text="Page Down" />
+    <string id="QoGjzEwI" text="Двигаться назад" />
+    <string id="qR1j0Mu5" text="Encyclopedia Window DESC" />
+    <string id="qS0z458V" text="~" />
+    <string id="QsdUafoH" text="Выбрать приказ 5" />
+    <string id="qSJZyoro" text="F2" />
+    <string id="qsrqjK0B" text="Установить уровень детализации элементов окружения." />
+    <string id="qtgBKzY8" text="Установить количество видимых трупов." />
+    <string id="qvaJYO9c" text="Анизотропная 16X" />
+    <string id="qW1FWX0C" text="Стрелка вниз" />
+    <string id="qYTo5C4x" text="Quick Save DESC" />
+    <string id="r0tu2Y57" text="Вниз" />
+    <string id="R9cQCadq" text="Выберите как выполнять атаки." />
+    <string id="r9tGsO4Z" text="Требуется перезагрузка игры" />
+    <string id="RaijrIxP" text="Взаимодействовать" />
+    <string id="rbz1Bwbv" text="Инвентарь" />
+    <string id="rCstRmpZ" text="Левый стик вниз" />
+    <string id="RdARXWNw" text="Ускорение мыши по вертикали" />
+    <string id="rH6gEaNP" text="Drop Weapon DESC" />
+    <string id="Rh7aDJ3n" text="Окно знамени" />
+    <string id="Rhl5E2ut" text="Установить тип теней." />
+    <string id="rNiESgEo" text="]" />
+    <string id="ro0NhUnJ" text="Установить поле зрения для вида от первого лица." />
+    <string id="roJLc9oH" text="Половина" />
+    <string id="rP058aIm" text="Экипировать предмет из первого слота." />
+    <string id="rs0wImmD" text="Не удаётся создать данные сохранения." />
+    <string id="RSmsn6mb" text="Пауза" />
+    <string id="rwE0VVQX" text="Map Camera Follow Mode DESC" />
+    <string id="RX76Kfa8" text="Переключение камеры" />
+    <string id="rYCYUZu5" text="Группа 5 слушайте" />
+    <string id="s4QeCCDp" text="(Двойное нажатие) Внезапно повернуть вправо" />
+    <string id="s4r1xdg0" text="Группа 6 слушайте" />
+    <string id="s533kEjf" text="Громкость музыки" />
+    <string id="s6qTeIw1" text="Установить чувствительность мышки и управления камерой." />
+    <string id="s7yWjpeB" text="Выбранный адаптер" />
+    <string id="sAa2SIgO" text="Вы можете переключиться между различными режимами микширования для адаптации под ваши динамики." />
+    <string id="SaA3oKNB" text="Map Move Backward DESC" />
+    <string id="sAoWNAwZ" text="Оконный" />
+    <string id="Sb3L2QwL" text="Установить масштаб разрешения." />
+    <string id="sbUBtOTb" text="Отчет об уроне" />
+    <string id="SEucYSln" text="Numpad 2" />
+    <string id="ShDZ4GgG" text="Экипировать оружие 3" />
+    <string id="SN6IWnyb" text="Быстрейший" />
+    <string id="sQCP8t0U" text="Карта Ждать" />
+    <string id="sqPUaHTk" text="Action DESC" />
+    <string id="StaoHYba" text="Группа 4 слушайте" />
+    <string id="sTlHHQPs" text="Вам необходимо перезагрузить игру, чтобы эта настройка вступила в силу" />
+    <string id="SuYh3GtG" text="Переключить режим оружия" />
+    <string id="SWDHaFCK" text="SelectOrder4" />
+    <string id="sxFsZAeC" text="1" />
+    <string id="T3Ex0K1p" text="Конец" />
+    <string id="T6IJg6wq" text="Карта Режим камеры следования" />
+    <string id="T7VMJyYS" text="SelectOrder3 DESC" />
+    <string id="TAaxoNCf" text="Move Back DESC" />
+    <string id="tbGol5PT" text="F4" />
+    <string id="tbwhjsqS" text="Правая кнопка мыши" />
+    <string id="Tdf5AbRp" text="Открыть окно клана." />
+    <string id="TEuOMadV" text="Tab" />
+    <string id="tewykKdc" text="Контроль направления блока" />
+    <string id="TgIAHPHs" text="Выбрать приказ 4" />
+    <string id="tifiQGTa" text="Открыть окно королевства." />
+    <string id="TIYrYxpr" text="Выбрать группу 5" />
+    <string id="tkCbjgfx" text="Numpad -" />
+    <string id="TOebahlA" text="Быстрая перемотка времени на карте" />
+    <string id="TPEUvYDt" text="Правый стик вправо" />
+    <string id="TRmaxjal" text="Включить вертикальную коррекцию в режиме от третьего лица." />
+    <string id="ttCcMbwO" text="Стрелка вверх" />
+    <string id="TtusHm10" text="Медленнее" />
+    <string id="TtWjblNo" text="Переключить показ" />
+    <string id="TUWeNFOv" text="Сделать скриншот" />
+    <string id="TvGJqPGp" text="Включить отчет о смертях и нокаутах." />
+    <string id="TVXacQUJ" text="Общий чат" />
+    <string id="tw5Wxv3b" text="Numpad." />
+    <string id="TybJcG0A" text="Очень низко (64) " />
+    <string id="u2dQaVY2" text="Экипировать оружие из третьего слота." />
+    <string id="u5aqR1ys" text="Temporal SMAA" />
+    <string id="U5xKAHGi" text="Блики" />
+    <string id="u7FkCtRN" text="Группа 0 слушайте" />
+    <string id="U8NaF1bo" text="Калибровка яркости" />
+    <string id="Uaae1eBV" text="Двойное нажатие вправо: Внезапно вправо" />
+    <string id="UboDNGJw" text="Выбрать группу 7" />
+    <string id="uBRn8Je8" text="3" />
+    <string id="ucyy9Sc5" text="{LEFT} / {RIGHT}" />
+    <string id="UFHqkvah" text="Интерактивная трава" />
+    <string id="UixNc11t" text="Защищаться от атак вашим оружием или щитом." />
+    <string id="UjX1E56u" text="Обратным движением мыши" />
+    <string id="ukw0Zi1X" text="[" />
+    <string id="UNmUcizM" text="Выбрать приказ 3" />
+    <string id="Uojm77jP" text="Качество молний" />
+    <string id="UoxjMhfJ" text="SelectOrder1" />
+    <string id="UqB9zKfE" text="Экипировать основное оружие" />
+    <string id="uQfDuGem" text="Отдалить персонажа" />
+    <string id="urbLiiQJ" text="Настроить экспозицию" />
+    <string id="urSa4wQG" text="Показывать знамёна союзных войск" />
+    <string id="uRXlSUVh" text="N" />
+    <string id="uSGPBRFS" text="Зум" />
+    <string id="uSVfhkwj" text="B кнопка" />
+    <string id="UTU6yVsp" text="Возобновить течение времени на карте кампании." />
+    <string id="uUHUfeQr" text="Выбрать группу 6" />
+    <string id="UwJIMaRi" text="Качество шейдеров" />
+    <string id="UwuYCgIU" text="Осторожно" />
+    <string id="UwXP9UAR" text="Высокая" />
+    <string id="UY79LYHf" text="Низкая" />
+    <string id="UZUKtbSJ" text="(Двойное нажатие) Рывок вперед" />
+    <string id="v8GIxASM" text="V-Sync" />
+    <string id="vAnlshLW" text="9" />
+    <string id="VasVb9DK" text="Экипировать оружие или поменять на следующее." />
+    <string id="VAtNIoKC" text="L" />
+    <string id="Vb2KV9q1" text="Правый стик влево" />
+    <string id="Ve99pCSo" text="Симуляция ткани" />
+    <string id="VE9TavSl" text="Установить качество прорисовки деталей." />
+    <string id="Vn4uzMUH" text="Group 6 Hear DESC" />
+    <string id="Vo5lBwQA" text="Equip Weapon 3 DESC" />
+    <string id="Vpy2qEcN" text="Клавишами передвижения" />
+    <string id="vT3yIxmO" text="Numpad 4" />
+    <string id="vXvmeGhm" text="Тип теней" />
+    <string id="VzSerzva" text="Правый Shift" />
+    <string id="w4l8xA2Q" text="Карта Двигаться влево" />
+    <string id="waNCurZY" text="Включить размытие движений." />
+    <string id="wb84GjZw" text="Фильтрация теней" />
+    <string id="WBVMg0bd" text="Установить метод фильтрации текстур. Более высокое значение соответствует хорошей фильтрации наклонённых текстур." />
+    <string id="wdVrbMbQ" text="Kick DESC" />
+    <string id="wg5YeO4k" text="Карта кампании" />
+    <string id="wGa1SUop" text="Экипировать оружие из второго слота." />
+    <string id="whn4v32E" text="Установить разрешение теней." />
+    <string id="WiBlu6mE" text="SelectOrder9" />
+    <string id="wJWICbOg" text="Предпочитаемый язык игры." />
+    <string id="WldVAZhy" text="Установить уровень детализации моделей персонажей." />
+    <string id="wMe5p2HG" text="7" />
+    <string id="WMmGH9yp" text="Отдалить камеру карты кампании." />
+    <string id="wNOvkaRa" text="SelectOrder4 DESC" />
+    <string id="WOubRnjm" text="Отчёт об опыте" />
+    <string id="wWDHH5FK" text="Глубина резкости" />
+    <string id="WWEa79vw" text="UI Двигать влево" />
+    <string id="wYicqUa9" text="Карта Нормальное течение времени" />
+    <string id="X0N6Ij5Z" text="Attack DESC" />
+    <string id="X5cSNxHf" text="5" />
+    <string id="x7kYOUfi" text="Громкость эффектов" />
+    <string id="x7OgHYfc" text="{LEFT}" />
+    <string id="x7qfk550" text="Q" />
+    <string id="XdCZzFrV" text="Map Time Stop DESC" />
+    <string id="xEquRfRF" text="10" />
+    <string id="xhdIdzWK" text="Character Window DESC" />
+    <string id="xnGGas4h" text="Инвертировать ось Y для управления камерой." />
+    <string id="XnhBdHnS" text="Объёмное" />
+    <string id="XnoL375p" text="Jump DESC" />
+    <string id="xNprkuJl" text="Выбросить оружие" />
+    <string id="xnulLUFX" text="Быстро сохранить игру с помощью ярлыка." />
+    <string id="XoQ13rWc" text="UI Move Down DESC" />
+    <string id="xRbpqS2U" text="Group 3 Hear DESC" />
+    <string id="XrUGC7H4" text="Backspace" />
+    <string id="xtFZDect" text="(Двойное нажатий) Внезапный поворот влево" />
+    <string id="xuOz73hl" text="Отображение крови в битвах." />
+    <string id="XXbswuug" text="Reverse Order Group DESC" />
+    <string id="xyFNxwyH" text="(Двойное нажатие) Внезапный пролом" />
+    <string id="xZ84ujuu" text="Как много звуков может быть проигранно одновременно. Меньшее значение уменьшит использование CPU, большее создаст более приятную атмосферу" />
+    <string id="y4fZ1Gn7" text="Установить множитель вертикального движение мыши в отношении с горизонтальным движением." />
+    <string id="y7dx24ih" text="Поворачивать камеру при повороте лошади в режиме от первого лица." />
+    <string id="Y9Xqe21r" text="Левая сторона" />
+    <string id="YAHs7wBa" text="Выбрать приказ 8" />
+    <string id="ybHmTTyI" text="Левый стик вверх" />
+    <string id="YDccwh2x" text="Общая громкость" />
+    <string id="YDnWm5eI" text="Левый триггер" />
+    <string id="yDr2HCFR" text="Переключить на вид в 360 градусов." />
+    <string id="yfMN8wWN" text="Анизотропная 4X" />
+    <string id="Yg2jHH1M" text="Numpad /" />
+    <string id="yLCSTuBw" text="Установить разрешение игры. Более высокое разрешение требует больше видеопамяти" />
+    <string id="Yn8bh0qT" text="Экипировать следующий щит" />
+    <string id="YT6ljA5V" text="Двигаться по карте вправо" />
+    <string id="yV64UCaW" text="Приблизить" />
+    <string id="YZv1752W" text="D" />
+    <string id="yZvw7EQb" text="Пространственные отражения" />
+    <string id="z8XjxODK" text="Изменить на альтернативное использование оружия. Ближнее или дальнее, одноручное или двуручное." />
+    <string id="ZaaPPemL" text="SelectOrder8" />
+    <string id="ZBA0g1L8" text="Правый триггер" />
+    <string id="ZeIsxhk4" text="Установить метод фильтрации теней." />
+    <string id="ZewnkWoO" text="G" />
+    <string id="ZglliSpV" text="Move Right DESC" />
+    <string id="Zgs47DHB" text="Caps Lock" />
+    <string id="ZIKuUbUG" text="Установить число одновременных активных рэгдоллов{newline}(Тела со скелетной физикой)." />
+    <string id="znSZmZvV" text="Карта Двигаться вправо" />
+    <string id="Zo2ngsUk" text="Открыть генератор лица" />
+    <string id="zofULNb8" text="Экипировать второе оружие" />
+    <string id="ZP1tLaa1" text="Numpad 9" />
+    <string id="ZtDJrNz9" text="Зернистость изображения" />
+    <string id="zTFbqJ6R" text="'" />
+    <string id="ZtxvyzjY" text="Звуковые каналы" />
+    <string id="zUXxshZK" text="F12" />
+    <string id="zvD48rVQ" text="Быстрое сохранение" />
+    <string id="ZVLr4CMO" text="X1 кнопка мыши" />
+    <string id="ZvtKqPt3" text="Левое двойное нажатие: Внезапно влево" />
+    <string id="zwL5NFAr" text="Insert" />
+    <string id="zxMOqlhs" text="Атаковать" />
+    <string id="zzonsjpL" text="Высоко (512)" />
+  </strings>
+</base>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="6liU5Bts" text="Сургай" />
+    <string id="6LRFHHqT" text="Имулир" />
+    <string id="7UkzXWTQ" text="Осариос" />
+    <string id="7xQv3Np7" text="Ярка" />
+    <string id="b7PVGEFM" text="Лат" />
+    <string id="dP5A3wwT" text="Боскорик" />
+    <string id="G9eRRrc0" text="Хальдея" />
+    <string id="I8Iy6Jtv" text="Ферионн" />
+    <string id="jboLCImM" text="Деванос" />
+    <string id="jqaPJbpP" text="Ургил" />
+    <string id="KbdRplDL" text="Петрис" />
+    <string id="M1ORaYny" text="Пол" />
+    <string id="PhdzZKu0" text="Гер" />
+    <string id="QCiqeUHm" text="Сабила" />
+    <string id="RfxXnZ8Z" text="Кадуган" />
+    <string id="Ub0awU1n" text="Эвин" />
+    <string id="UgA0uoFA" text="Табур" />
+    <string id="W1yur1cf" text="Кхачин" />
+    <string id="w9fY8ab4" text="Ариган" />
+    <string id="y9nJNtNx" text="Зенон" />
+  </strings>
+</base>

@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="03YrcAtx" text="Двуручная кожаная рукоять" />
+    <string id="0gteBOD7" text="Навершие бердыша" />
+    <string id="0kP9bf7n" text="Рукоять серпа" />
+    <string id="0LJtoZtW" text="Гравированная гарда скимитара" />
+    <string id="0SpLcthg" text="Шипастая булава горца" />
+    <string id="0Y0kaTwm" text="Обычное лезвие" />
+    <string id="13lb5at6" text="Рукоять из секвойи обернутая кожей" />
+    <string id="19a3jJ1s" text="Большой заострённый клинок для сабли" />
+    <string id="1ajbJdao" text="Прямоугольное навершие" />
+    <string id="1auabxxv" text="Закруглённая плоская гарда" />
+    <string id="1e9OaUWk" text="Навершие восточной лёгкой булавы" />
+    <string id="1Ia3Wxbf" text="Лезвия фалькса из добротной стали" />
+    <string id="1nGcpiom" text="Закруглённое украшенное навершие" />
+    <string id="1NSafswc" text="Навершие галлоического топора" />
+    <string id="1pvLe1Mh" text="Простое навершие илда" />
+    <string id="wait0O6m" text="Оголовье боевого лезвия" />
+    <string id="9qaanOpL" text="Простое северное навершие" />
+    <string id="KeTioaJE" text="Рукоять боевого топора из красного дерева обтянутая кожей" />
+    <string id="kuROzU1J" text="Малый клинок боевого меча" />
+    <string id="lv9oJyKJ" text="Восточное плоское навершие" />
+    <string id="pX4nTZOI" text="Широкая каскара из качественной стали" />
+    <string id="sHwhgRzK" text="Навершие в форме полумесяца" />
+    <string id="SJssgxmf" text="Декоративный клинок илда" />
+    <string id="zAdloN6Y" text="Широкий ребристый клинок меча" />
+    <string id="1rGNXUaJ" text="Тонкое острие копья из добротной стали" />
+    <string id="1T0XBYlc" text="Укреплённая дубовая рукоять двуручного топора" />
+    <string id="1yEQNTG1" text="Длинное навершие шестопёра" />
+    <string id="1zRo3td4" text="Закрученная болтами рукоять" /> 
+    <string id="22f2NR2N" text="Длинный угловой стержень из ясеня" /> 
+    <string id="26KZ6S7F" text="Восточное украшенное навершие" />
+    <string id="29OXRdZu" text="Узкая коническая гарда" />
+    <string id="2FLWuksh" text="Батаннская рукоять" />
+    <string id="2Fq1t169" text="Северная двуручная рукоять" />
+    <string id="2LrkLq5M" text="Северная длинная гарда" />
+    <string id="2MNfdGZQ" text="Добротная усиленная кожей рукоять" />
+    <string id="2mo4gsuh" text="Боевое заостренное лезвие" />
+    <string id="2noNmMPc" text="Имперская широкая роскошная гарда " />
+    <string id="2OWBegq6" text="Толстая гарда с гравировкой для меча" />
+    <string id="2XBuTBru" text="Северная длинная ветхая рукоять" /> 
+    <string id="35tXR29a" text="Гладкая восточная двуручная рукоять" />
+    <string id="37DVF96v" text="Загнутая гарда для кинжала" />
+    <string id="38vt2VVz" text="Широкое навершие в форме барабана" />
+    <string id="3aXHbrFV" text="Длинная бамбуковая рукоять с металлическим наконечником" />
+    <string id="3cIsT4ZK" text="Широкоугольная гарда кинжала" />
+    <string id="3ged5Ozt" text="Исключительная восточная глефа" />
+    <string id="3Q3FFqu0" text="Легкое королевское навершие для булавы" />
+    <string id="3tCye4Iw" text="Обычное навершие длинного копья" />
+    <string id="3uUaFQ9Y" text="Фигурная гарда для молота с гравировкой" /> 
+    <string id="3VCyUu2h" text="Тонкая восточная гарда кинжала" />
+    <string id="3VoW9qZs" text="Позолоченная рукоять меча" />
+    <string id="3wn1WbIx" text="Заострённое длинное каскарское лезвие" />
+    <string id="3wXjMEwI" text="Рукоять меча обёрнутая сегментированной кожей" />
+    <string id="3Y7plSBX" text="Железное лезвие палаша" />
+    <string id="3ZyRhmke" text="Рукоять короткой сабли" />
+    <string id="4OefdTD1" text="Клинок короткого гладиуса всадника" />
+    <string id="45k6EEUu" text="Железное навершие для билля" />
+    <string id="47UEgMpD" text="Дубовая рукоять с заострённым концом" />
+    <string id="4FnOKgB6" text="Имперская загнутая гарда для кинжала" />
+    <string id="4Ilo91CO" text="Навершие западного боевого топора" />
+    <string id="4MZvoVyI" text="Круглое прикованное навершие копья" />
+    <string id="4Olvmpen" text="Грубая ветхая одноручная рукоять" />
+    <string id="4t0EyE1B" text="Обтянутая кожей двуручная рукоять" />
+    <string id="4TvA6YaC" text="Мраморная рукоять меча" />
+    <string id="4VIUHmbP" text="Украшенная стальная рукоять булавы" />
+    <string id="4XytssVk" text="Гарда в виде полумесяца" />
+    <string id="4z3U5ubo" text="Золотая гарда от боевого меча" />
+    <string id="57DBqJd1" text="Обернутая кожей толстая рукоять для булавы" />
+    <string id="5ALE9Joh" text="Навершие боевой косы" />
+    <string id="5GR6xb8a" text="Деревянная рукоять" />
+    <string id="5KvdG6ep" text="Рыцарская золотая фигурная гарда" />
+    <string id="5NeanDJM" text="Круглое навершие" />
+    <string id="5o5DaSHZ" text="Широкое лезвие для кинжала" />
+    <string id="5V0QR20o" text="Грубая обитая кожей рукоять одноручного меча" />
+    <string id="5Xoa1EFa" text="Гравированное лезвие для меча" />
+    <string id="61A1VUw8" text="Бронзовая гарда" />
+    <string id="61hjmt0T" text="Треугольное навершие" />
+    <string id="62biJ5O5" text="Добротная кожаная рукоять горцев" />
+    <string id="6BMAGMRu" text="Плоская гарда" />
+    <string id="6Da4uzZO" text="Гравированная широкая рыцарская гарда" />
+    <string id="6HybYLtu" text="Грубая покрытая кожей северная рукоять" />
+    <string id="6I4lZs47" text="Навершие для копья" />
+    <string id="6PD2rBbf" text="Покрытая кожей одноручная рукоять" />
+    <string id="6xkt7bxz" text="Тяжелое королевское навершие для булавы" />
+    <string id="6ZW9fOUJ" text="Золотая каскарская гарда" />
+    <string id="71588OX7" text="Бамбуковое древко" />
+    <string id="7EZbFRaG" text="Усиленный сосновый стержень" />
+    <string id="7JjctWr3" text="Гравированная гарда в форме молота" />
+    <string id="7lRnhAgf" text="Северная ветхая рукоять" />
+    <string id="7ZWtiHKj" text="Длинное лезвие для боевого меча" />
+    <string id="85jApGfe" text="Широкая северная гарда" />
+    <string id="87BmkiMO" text="Угловатая рукоять для булавы" />
+    <string id="89QyC7eD" text="Узкая северная гарда" />
+    <string id="8gW1o7iH" text="Западное навершие" />
+    <string id="8OaZSfaZ" text="Грубая кожаная рукоять для меча" />
+    <string id="8olqutaL" text="Северная двуручная рукоять" />
+    <string id="8S6ZYPFD" text="Круглое добротное стальное навершие для топорика" />
+    <string id="8T7gNbfM" text="Широкое листовидное навершие для копья" />
+    <string id="8x9klENe" text="Частично прикованный усиленный стержень" />
+    <string id="8yb60cDi" text="Длинный стержень для копья из красного дерева" />
+    <string id="8ZbL3exH" text="Стальное навершие" />
+    <string id="9aYBy1RN" text="Добротное стальное листовидное навершие для копья" />
+    <string id="9HgtH0Nb" text="Фигурная гарда для копья" />
+    <string id="9HMxA4AU" text="Железная рукоять для булавы" />
+    <string id="9JMatUNQ" text="Грубая северная двуручная рукоять" />
+    <string id="9JxsngjD" text="Гравированная серебряная каскарская гарда" />
+    <string id="9PgS5SzW" text="Железная усиленная одноручная рукоять" />
+    <string id="9phikaHT" text="Западная гарда для кинжала" />
+    <string id="9T2KA9sk" text="Позолоченная украшенная стальная рукоять" />
+    <string id="9Y1zUaE7" text="Имперское круглое навершие" />
+    <string id="A06HEqvF" text="Скрепленная часть для копья" />
+    <string id="a0erBuF1" text="Загнутое навершие для топора" />
+    <string id="A1m12E8N" text="Длинная гарда для кинжала" />
+    <string id="a4qSDsmb" text="Имперская золотая отличная гарда для меча" />
+    <string id="a860bQ4f" text="Плоское навершие" />
+    <string id="AA4WhCGw" text="Плоская гарда для кинжала" />
+    <string id="aaEv3sBU" text="Дубовый стержень для джавелина" />
+    <string id="aalvbENh" text="Пустынное навершие" />
+    <string id="abLXJ3L3" text="Навершие в форме булавы для копья" />
+    <string id="aBnaaaHv" text="Длинное сикское лезвие" />
+    <string id="Ac4kblsm" text="Северная двуручная рукоять покрытая шкурой" />
+    <string id="aFxc3ZVL" text="Вогнутая дисковая гарда" />
+    <string id="AGfMPOWB" text="Угловая добротная стальная рукоять для булавы" />
+    <string id="aGtEhibt" text="Северное круглое навершие" />
+    <string id="aj59KGOS" text="Грубая кожаная двуручная рукоять" />
+    <string id="ajVcY9v6" text="Маленькое стальное навершие для топорика" />
+    <string id="AkfEFzkk" text="Чашеобразная гарда" />
+    <string id="AKJzOQkF" text="Восточное лезвие для меча" />
+    <string id="aKpVHE2g" text="Спрятанный острый кончик" />
+    <string id="ALO9gw69" text="Навершие для двуручного топора" />
+    <string id="alti0PsZ" text="Заостренное лезвие для боевого меча" />
+    <string id="AM6iuDAv" text="Ромбовидная гарда" />
+    <string id="AO2BfABx" text="Грибовидное навершие" />
+    <string id="Ao7c1VrC" text="Северное треугольное навершие" />
+    <string id="AObgGzg9" text="Скрепленная болтами одноручная рукоять" />
+    <string id="aPr8NPdo" text="Западное железное навершие для алебарды" />
+    <string id="aQa3tp6Q" text="Украшенный сосновый длинный стержень" />
+    <string id="artqaNEi" text="Железная коническая гарда" />
+    <string id="ASGZJW85" text="Частично железная одноручная рукоять" />
+    <string id="aTnuOUCC" text="Стальное каскарское лезвие" />
+    <string id="AtNVVwTF" text="Короткий сосновый стержень" />
+    <string id="aUJaQmN1" text="Усиленная украшенная двуручная рукоять " />
+    <string id="aVBGVt7N" text="Коническая рукоять" />
+    <string id="Aw7Veoaa" text="Железная перевязанная кожей рукоять" />
+    <string id="az6t2tOm" text="Остроконечная западная гарда" />
+    <string id="azjW7lAg" text="Гравированная гарда для Ильда" />
+    <string id="aZp1ur9Q" text="Чашеобразное навершие" />
+    <string id="b1KGhVwD" text="Вогнутая северная гарда" />
+    <string id="b30mn7KF" text="Ханджарское лезвие" />
+    <string id="b994mQnI" text="Крылатая гарда для медного кинжала" />
+    <string id="b9bboB3v" text="Южное пехотное навершие для булавы" />
+    <string id="baQ99nza" text="Длинный стержень из ясеня" />
+    <string id="bCCYhnbY" text="Зеленая кожаная рукоять" />
+    <string id="bCZ6V3uY" text="Змеиная гарда для кинжала" />
+    <string id="bEbyObu7" text="Украшенная золотом одноручная рукоять" />
+    <string id="Bej5R7tP" text="Гарда для кинжала" />
+    <string id="bEQETxjB" text="Остроконечное навершие" />
+    <string id="bfE00BnK" text="Железная рукоять для булавы" />
+    <string id="bfueDx6s" text="Тяжелая усиленная дубовая рукоять" />
+    <string id="bGaOu7rO" text="Восточная плоская гарда для кинжала" />
+    <string id="bGfs8gNv" text="Северное лезвие для меча" />
+    <string id="bjQ8J71a" text="Длинное навершие глефы" />
+    <string id="BKHKQ15N" text="Серое навершие для меча" />
+    <string id="bki9u9FW" text="Лезвие для меча с золотой гравировкой" />
+    <string id="BL96pnde" text="Грубая кожаная одноручная рукоять" />
+    <string id="blaVlvm2" text="Украшенное лезвие для короткого меча" />
+    <string id="bM8kSewD" text="Остроконечная северная гарда" />
+    <string id="booEob1z" text="Дисковое навершие" />
+    <string id="bP6SBz4s" text="Имперская золотая гарда" />
+    <string id="bPUXlfs8" text="Украшенная восточная рукоять ильда" />
+    <string id="BQ3hMy9D" text="Навершие 'Голова лошади'" />
+    <string id="bQkJSHCt" text="Бронзовая двуручная рукоять с серебряным покрытием" />
+    <string id="bQzz8mc3" text="Легкая сосновая рукоять для метательного топора" />
+    <string id="BtXFrrVj" text="Толстая вогнутая гарда" />
+    <string id="BXW4LeQT" text="Широкое чеканное короткое лезвие" />
+    <string id="bZbW2UEE" text="Широкая восточная гарда" />
+    <string id="bzr1DEgS" text="Южная гарда для кинжала" />
+    <string id="c1YI2Nxt" text="Железное лезвие спаты" />
+    <string id="C2hTDlWq" text="Тяжелое лезвие для сабли" />
+    <string id="C89rbAz6" text="Рыцарское лезвие для меча" />
+    <string id="cag70E1F" text="Навершие для бердыша" />
+    <string id="cbHjFPEb" text="Добротная кожаная рукоять горцев" />
+    <string id="CdBAvJdP" text="Навершие Контоса" />
+    <string id="CE1IQiEU" text="Спиралевидная кожаная рукоять" />
+    <string id="cEU66ABf" text="Северное боевое лезвие для топора" />
+    <string id="cFTzptut" text="Махагонская рукоять" />
+    <string id="CiZRwdet" text="Восточная плоская гарда" />
+    <string id="cK6D7cyn" text="Большое навершие Франциски" />
+    <string id="CKKaarrY" text="Покрытая кожей  рукоять" />
+    <string id="CODGBskg" text="Длинное лезвие для сабли" />
+    <string id="cuxuEx40" text="Ограненная овальная гарда" />
+    <string id="czhTpYo8" text="Железное лезвие для сабли" />
+    <string id="d2kOHsY7" text="Украшенная рукоять для широкого меча" />
+    <string id="d4aLa7tz" text="Навершие с заостренным кончиком" />
+    <string id="d4bVwnK8" text="Кожаная двуручная рукоять" />
+    <string id="dafrn0mR" text="Стальное лезвие спаты" />
+    <string id="dbmuyJcf" text="Южное ограненное навершие" />
+    <string id="dBVMNui8" text="Железная усиленная двуручная рукоять" />
+    <string id="dCco8dRt" text="Дисковая гарда для кинжала" />
+    <string id="Dd7fJ9aL" text="Кожаная длинная рукоять для меча" />
+    <string id="DEpwMMql" text="Южная гарда для кинжала" />
+    <string id="dgjXkbuA" text="Овельское навершие" />
+    <string id="DiAHIRxm" text="Гравированная гарда для сабли" />
+    <string id="DID87A6l" text="Тканая кожаная рукоять" />
+    <string id="Dix4EYD8" text="Навершие для колотушки" />
+    <string id="DkhuNoTH" text="Деревянная одноручная рукоять" />
+    <string id="dlnciENS" text="Деревянная гарда" />
+    <string id="DLvSnz8U" text="Потертая гарда горцев" />
+    <string id="dnd2hafw" text="Грубая простая рукоять" />
+    <string id="do4vZhh4" text="Коническая гарда" />
+    <string id="dpft1I1B" text="Западная тонкая гарда" />
+    <string id="Dsf9JE8N" text="Деревянный крючок" />
+    <string id="dTkiV4i6" text="Навершие 'Рыбацкая лодка'" />
+    <string id="dtSrK9bs" text="Широкое сикское лезвие" />
+    <string id="DVe5SkQA" text="Обоюдоострый кончик в виде ромба" />
+    <string id="dvm8sTr9" text="Деревянное навершие" />
+    <string id="DXLlcbf9" text="Ясеневый стержень для джавелина" />
+    <string id="dXRt8jY4" text="Удлиненный наконечник пики" />
+    <string id="DzncFcGk" text="Кешгийское навершие" />
+    <string id="e1DF7wbz" text="Тяжелая основа из ясеня" />
+    <string id="E7cNp0rF" text="Прикованное навершие для копья" />
+    <string id="eapPaDKi" text="Толстая серебрянная гарда для меча " />
+    <string id="EBlx3VId" text="Железное лезвие горцев" />
+    <string id="EbucFMZq" text="Широкая вогнутая гарда для кинжала" />
+    <string id="eBxzZ1SW" text="Украшенная усиленная одноручная рукоять" />
+    <string id="edg8bnXX" text="Остроконечная северная гарда для кинжала" />
+    <string id="eeFrva8L" text="Округлое навершие " />
+    <string id="ELpWa0K5" text="Дубовый стержень для пики" />
+    <string id="eLrbkvTV" text="Северная отличная гарда" />
+    <string id="emryrbYV" text="Ребристое навершие" />
+    <string id="emUoygLE" text="Навершие для гарпуна" />
+    <string id="euI3vluL" text="Широкая гарда для сабли" />
+    <string id="f0syWNR7" text="Кинжальное лезвие" />
+    <string id="f4GSe3UB" text="Навершие для лопаты" />
+    <string id="faZasq1G" text="Восточное круглое навершие" />
+    <string id="fd6Lnv1l" text="Золотая гарда для гладиуса" />
+    <string id="fdR6zYiP" text="Навершие Франциски" />
+    <string id="fEkKXof4" text="Затянутое болтами грубое крыло" />
+    <string id="fhbGCsdC" text="Восточное тяжелое навершие для булавы" />
+     <string id="fuIxmJ2g" text="Тяжёлый деревянный клинок" />
+    <string id="fHKHwvsW" text="Бронзовое навершие" />
+    <string id="fnz6wUVy" text="Остроконечное куполообразное навершие" />
+    <string id="fo040lyg" text="Простая рукоять" />
+    <string id="fOrRdtNK" text="Малое навершие для топорика" />
+    <string id="fRVQzcoY" text="Грубая обтянутая кожей одноручная рукоять" />
+    <string id="Ft5A2Eb4" text="Восточная покрытая кожей усиленная двуручная рукоять" />
+    <string id="ftwNaFZh" text="Кончик в виде крюка" />
+    <string id="FxCfO3zN" text="Железная усиленная рукоять для булавы" />
+    <string id="FyaygeEx" text="Дубина с набалдашником" />
+    <string id="g2r3QKOB" text="Южное малое навершие для топора" />
+    <string id="g5Va1lfk" text="Коническая пустынная гарда" />
+    <string id="g60SQjOR" text="Обернутая кожей рукоять" />
+    <string id="G8Fb2RPa" text="Лезвие для фальшиона" />
+    <string id="G9cBw5sV" text="Круглое навершие горцев" />
+    <string id="GA4AaQQk" text="Усиленная одноручная деревянная рукоять" />
+    <string id="Gewh8Bzr" text="Перевязанная шерстью рукоять" />
+    <string id="GI6XD77j" text="Имперское украшенное навершие" />
+    <string id="gIm5Lnh8" text="Махогонский стержень для джавелина" />
+    <string id="GLnI8ozz" text="Рукоять из секвойи" />
+    <string id="GMwWb6SE" text="Деревянное навершие копья" />
+    <string id="gPXRnvas" text="Круглая гарда" />
+    <string id="GQ9JwKBt" text="Грубая обтянутая кожей рукоять для двуручного меча" />
+    <string id="GqwD99cu" text="Украшенное навершие" />
+    <string id="GsBQCQEF" text="Усиленный длинный сосновый стержень" />
+    <string id="gSdybwMN" text="Большое острое навершие" />
+    <string id="gTMThdRJ" text="Барское навершие" />
+    <string id="gTzMtKYu" text="Лезвие для фальшиона" />
+    <string id="GWJV4Vll" text="Кожаная круглая рукоять для меча" />
+    <string id="gwkR6TZL" text="Украшенное каскарское лезвие" />
+    <string id="GXhZ8NKv" text="Широкое чеканное северное лезвие" />
+    <string id="gXUXjtuL" text="Лезвие в виде пера" />
+    <string id="GyOxvJpB" text="Круглое навершие" />
+    <string id="gZzEkk5t" text="Добротная кожаная рукоять горцев" />
+    <string id="H2xibh6p" text="Обитая кожей имперская рукоять" />
+    <string id="h4DmfRfb" text="Рыцарское навершие" />
+    <string id="H6hlPsgV" text="Одноручная рукоять покрытая шкурой" />
+    <string id="HaNPlFBt" text="Длинный деревянный стержень" />
+    <string id="hD5LzC6b" text="Железная одноручная угловая рукоять" />
+    <string id="he3725oa" text="Коническое навершие для копья" />
+    <string id="HF2WJagx" text="Украшенная обернутая кожей рукоять" />
+    <string id="HHVH0IoH" text="Рукоять из секвойи покрытая мехом" />
+    <string id="Hj151a5b" text="Коническая гарда с гравировкой" />
+    <string id="hk3d4d35" text="Рукоять для булавы из секвойи" />
+    <string id="hKKIijPr" text="Вогнутая гарда для кинжала" />
+    <string id="HmsEarnz" text="Навершие в форме слезы" />
+    <string id="hN0kTfhB" text="Железная усиленная рукоять с кожей" />
+    <string id="hRfqLq4V" text="Лезвие для фальшиона" />
+    <string id="hRtzRR6C" text="Имперское легкое навершие для булавы" />
+    <string id="hSSk6tTn" text="Навершие метательного топора" />
+    <string id="huaGi2zw" text="Вогнутая гарда северного кинжала" />
+    <string id="HuYwPEmh" text="Навершие с орнаментами" />
+    <string id="hVBKOOY1" text="Обитая медью рукоять" />
+    <string id="hvCj5TID" text="Гарда с острыми концами" />
+    <string id="HwCYBWq2" text="Остроконечное лезвие" />
+    <string id="hWTFaw0E" text="Стальной торец" />
+    <string id="hyNitMsQ" text="Лезвие горцев из добротной стали" />
+    <string id="HysmKS5a" text="Остроконечное широкое кинжальное лезвие" />
+    <string id="i7d3En7L" text="Загнутое лезвие Фальшиона" />
+    <string id="i9Ja7Uib" text="Широкая кинжальная гарда с гравировкой" />
+    <string id="I9yrLqPc" text="Стальное навершие восточной булавы" />
+    <string id="IAltuLvf" text="Клиновидная северная одноручная рукоять" />
+    <string id="Ibaju3oe" text="Навершие в форме орла" />
+    <string id="ibU7mZKx" text="Древко из ясеня для двуручного топора " />
+    <string id="iFhr5nGq" text="Имперское навершие для топора" />
+    <string id="IftwekS7" text="Бронзовая гарда боевого меча с гравировкой" />
+    <string id="il1M66Z8" text="Обернутая кожей одноручная рукоять" />
+    <string id="iMbT3L4I" text="Лезвие от косы" />
+    <string id="In69b7aL" text="Наполовину обтянутая кожей металлическая украшенная одноручная рукоять" />
+    <string id="indl9fEW" text="Грубая переплетенная широкая кожаная одноручная рукоять" />
+    <string id="IR8UeIRp" text="Укреплённое навершие булавы" />
+    <string id="ittUjlRb" text="Ромбовидная гарда" />
+    <string id="IUlApNGp" text="Длинное серповидное лезвие" />
+    <string id="iuQE1xwL" text="Узкое чеканное лезвие спаты" />
+    <string id="IvUO8nJc" text="Широкая вогнутая кинжальная гарда" />
+    <string id="IWrTsX3V" text="Красная кожаная одноручная рукоять" />
+    <string id="IxCaIvUk" text="Большое северное широкое украшенное навершие" />
+    <string id="iznpu0ih" text="Придавленная кожаная одноручная каскарская рукоять" />
+    <string id="Izstbt9y" text="Украшенное лезвие горцев" />
+    <string id="IZw8FnwW" text="Большое аскийское навершие" />
+    <string id="j2pkA2Yr" text="Южная коронообразная гарда" />
+    <string id="J3ADekEw" text="Дубовое древко для двуручного топора" />
+    <string id="J5Tu73Mb" text="Укреплённое длинное сосновое древко для копья" />
+    <string id="JabA2SWF" text="Усиленная ясеневая рукоять" />
+    <string id="JanWod6k" text="Узкая гарда от боевого меча" />
+    <string id="JbP7zdes" text="Заостренная южная гарда" />
+    <string id="JCYmlrKF" text="Стальная усиленная рукоять для булавы" />
+    <string id="JdboLXbG" text="Навершие от молота" />
+    <string id="JfRydy7M" text="Остроконечная гарда от секача" />
+    <string id="jfyCVJya" text="Затемненная стальная двуручная рукоять" />
+    <string id="JIj91e96" text="Перевязанная кожей двуручная рукоять" />
+    <string id="jMRMazLr" text="Сосновая украшенная рукоять для булавы" />
+    <string id="jN4PPWjp" text="Гарда в форме полумесяца" />
+    <string id="joN8ZeJ6" text="Круглое навершие" />
+    <string id="jqiXcEyD" text="Длинная перевязанная рукоять" />
+    <string id="jre8aFdB" text="Заостренная западная гарда для кинжала" />
+    <string id="Js1FKwrL" text="Навершие для джавелина" />
+    <string id="JSba9OCN" text="Широкая железная кинжальная гарда" />
+    <string id="jupH2NfE" text="Инкрустированная золотом угловатая рукоять для меча бастарда" />
+    <string id="jZnVKvJN" text="Навершие в форме короны" />
+    <string id="jZTWkSDw" text="Медная перевязанная рукоять для меча бастарда" />
+    <string id="jzzZDEw7" text="Длинный проволочная рукоять" />
+    <string id="k2MQ9kL0" text="Стальная рукоять для булавы" />
+    <string id="k66YIIWR" text="Узкое добротное стальное каскарское лезвие" />
+    <string id="kaoSz0Cx" text="Скошенная кожаная двуручная рукоять" />
+    <string id="kbh6i0M7" text="Добротное навершие от гладиуса" />
+    <string id="Kcm4b7Qb" text="Медная крылообразная гарда" />
+    <string id="KFqa2uF1" text="Широкое двуручное лезвие" />
+    <string id="Kh7AB6a4" text="Северная одноручная рукоять в форме песочных часов" />
+    <string id="KhHXgQJb" text="Обычное железное навершие для топора" />
+    <string id="khO8Li1D" text="Очень длинная кожаная рукоять" />
+    <string id="kIbtwQRF" text="Добротное стальное лезвие спаты" />
+    <string id="kiEZmxjT" text="Добротная стальная двуручная рукоять в форме бутылочного горла" />
+    <string id="kjw9c4M2" text="Стальная угловатая рукоять для булавы" />
+    <string id="kNhcSC6i" text="Северное навершие" />
+    <string id="KNisROi1" text="Широкое лезвие в форме пера" />
+    <string id="Knv8oS4x" text="Обернутая кожей широкая одноручная рукоять" />
+    <string id="koX9okuG" text="Ничего" />
+    <string id="kp8hUsXA" text="Прямоугольная северная гарда" />
+    <string id="KyKh5jCE" text="Бамбуковая рукоять" />
+    <string id="l13RibeF" text="Стальная усиленная рукоять для двуручного топора" />
+    <string id="l1YxVZil" text="Бронзовая утолщенная гарда для кинжала " />
+    <string id="L3vLdPJT" text="Улучшенное шипастое навершие" />
+    <string id="L4PDF4MY" text="Гарда от боевого меча с золотой гравировкой" />
+    <string id="L9wMZ9HB" text="Гарда от моргенштерна для копья" />
+    <string id="lcjkq4bA" text="Южное украшенное навершие" />
+    <string id="Ld1nfdj4" text="Добротное стальное сабельное лезвие" />
+    <string id="LddmrrGM" text="Длинная восточная двуручная рукоять" />
+    <string id="Ldq6AOrb" text="Перевязанная кожей рукоять с железным кольцом" />
+    <string id="LDRnfLRh" text="Украшенное северное навершие" />
+    <string id="ldvppRXj" text="Узорчатое навершие" />
+    <string id="LEdJzFrZ" text="Скошенная угловатая одноручная рукоять" />
+    <string id="lF10mZnb" text="Одноручная рукоять с металлической нитью" />
+    <string id="LFfUtZrT" text="Навершие от молота" />
+    <string id="Lh1E9EsS" text="Имперская стальная усиленная двуручная рукоять" />
+    <string id="lLZfWq7i" text="Пустынная рукоять в форме бутылочного горлышка" />
+    <string id="lmxaWsmn" text="Завернутая в кожу длинная двуручная рукоять" />
+    <string id="LNDbMUK0" text="Навершие от вульжа" />
+    <string id="lOiyLjqK" text="Имперская гарда в форме полумесяца" />
+    <string id="lpqDjWsL" text="Железная укрепленная одноручная рукоять" />
+    <string id="lpVGz11R" text="Северная одноручная рукоять с мехом" />
+    <string id="LryUJnu7" text="Гладкое навершие" />
+    <string id="LSOXMCAW" text="Сосновое древко" />
+    <string id="LSrJljDL" text="Навершие тесло" />
+    <string id="ltbHzq5B" text="Усиленное кованое навершие для копья" />
+    <string id="LwM5byQG" text="Простое железное навершие для копья" />
+    <string id="lYEaqL9y" text="Перетянутая мехом одноручная рукоять" />
+    <string id="LYSMiV6V" text="Длинная кожаная рукоять" />
+    <string id="LzHkkphU" text="Грубая кожаная одноручная рукоять" />
+    <string id="lZoqaYmx" text="Шипастое навершие для дубины" />
+    <string id="M08i7S6M" text="Коническая пустынная кинжальная гарда" />
+    <string id="m0uOH4el" text="Изогнутая имперская кинжальная гарда" />
+    <string id="m2Xz2K5v" text="Северная меховая двуручная рукоять" />
+    <string id="m6CVEgTU" text="Зубчатое лезвие для боевого топора" />
+    <string id="m8eUrnVj" text="Тонкая западная кинжальная гарда" />
+    <string id="mak3naEe" text="Широкое чеканное двуручное лезвие" />
+    <string id="MCRppfbZ" text="Сосновое древко для джавелина" />
+    <string id="mcYSvJfA" text="Ветвь дерева" />
+    <string id="MDL2CcCH" text="Утяжеленные длинные шипы" />
+    <string id="MGD7zTLf" text="Ограненное навершие с круглой вставкой" />
+    <string id="Mh5MDpsk" text="Южная приплюснутая кожаная двуручная рукоять" />
+    <string id="MJRzaazz" text="Стальная хромированная двуручная рукоять" />
+    <string id="MKtMbBJD" text="Длинная восточная одноручная рукоять" />
+    <string id="mm24JNyb" text="Северная рукоять в форме песочных часов" />
+    <string id="mm6b54ZD" text="Широкая изогнутая гарда" />
+    <string id="MpVC0RXl" text="Северное треугольное копье" />
+    <string id="mQCQF6TL" text="Северная узкая кинжальная гарда" />
+    <string id="MRqIJXqv" text="Южная ромбовидная кинжальная гарда" />
+    <string id="mrTkURKV" text="Зубчатое навершие в форме вилки" />
+    <string id="mSNaSLiC" text="Лезвие из Тамасской стали для боевого меча" />
+    <string id="mSplbvgI" text="Острый крючок с двух сторон" />
+    <string id="mTDuVvVN" text="Широкая  рукоять с железным вкраплением" />
+    <string id="mU8oVsFW" text="Навершие от моргенштерна" />
+    <string id="muv8N0Wo" text="Бронзовая кинжальная гарда с гравировкой" />
+    <string id="mVjshtzg" text="Конусообразное навершие" />
+    <string id="mYP1ovEy" text="Проколотая пустынная гарда" />
+    <string id="N1qLYlxF" text="Добротное стальное каскарское лезвие" />
+    <string id="N3VXsh2z" text="Стальное лезвие парамирия" />
+    <string id="NAHHwS3G" text="Широкий листовидный фигурный наконечник" />
+    <string id="nazL7Z3e" text="Южная двуручная рукоять на болтах" />
+    <string id="NfPgejKk" text="Лезвие спаты с проколом" />
+    <string id="nGP3FlHm" text="Длинное древко из красного дерева" />
+    <string id="Nhhmj7bz" text="Укрепленное кленовое древко для копья" />
+    <string id="Nk924YlG" text="Украшенная добротная стальная одноручная рукоять" />
+    <string id="nKb9goqQ" text="Тонкая восточная гарда" />
+    <string id="NLs9M1D6" text="Восточная овальная гарда" />
+    <string id="NmkDgmWW" text="Стальная рукоять от булавы для всадника" />
+    <string id="NO6FhjbJ" text="Кожаная мандариновая рукоять" />
+    <string id="NQb8boHt" text="Укрепленное ясеневое древко" />
+    <string id="nr3K4od2" text="Навершие от пилума" />
+    <string id="nRKOX66b" text="Зазубренное добротное стальное навершие для копья" />
+    <string id="NS83CCvb" text="Простое железное навершие от топора" />
+    <string id="ntIEIQ0N" text="Легкое навершие от шестопёра" />
+    <string id="Num2tkFb" text="Длинная металлическая рукоять" />
+    <string id="NuXH8rip" text="Многослойная бронзовая гарда" />
+    <string id="nVrg9Uda" text="Обернутая кожей рукоять в форме рога для меча" />
+    <string id="Nz4mg7JT" text="Золотая гарда от ятагана" />
+    <string id="nZ5e678J" text="Простое круглое навершие" />
+    <string id="NzjHzhwC" text="Ромбовидная гарда" />
+    <string id="o2kFafbu" text="Восточное стальное навершие от булавы" />
+    <string id="O2kPKeuK" text="Лезвие для меча с золотой гравировкой" />
+    <string id="OBeOZ27b" text="Навершие от глефы" />
+    <string id="oGPHQt1J" text="Высокая двуручная рукоять от секача" />
+    <string id="OHHpwD0F" text="Прямое сабельное лезвие" />
+    <string id="OHl66gsX" text="Бронзовая яйцеобразная кинжальная гарда" />
+    <string id="OJ7iPw5M" text="Усиленный ясеневая рукоять для двуручного топора" />
+    <string id="OlnvawN6" text="Бронзовая гарда от двуручного меча" />
+    <string id="OlUuoUBe" text="Восточная обтянутая кожей железная рукоять" />
+    <string id="ooBWHpxP" text="Восточная обтянутая кожей угловатая рукоять" />
+    <string id="OPfm5y7W" text="Золотая гарда с львиными головами" />
+    <string id="OphcYYyN" text="Добротное стальное кованое навершие для копья" />
+    <string id="opUK4WmL" text="Плоская округлая кинжальная гарда" />
+    <string id="orwoyDlX" text="Навершие спаты для двуручного топора" />
+    <string id="OryiZr9d" text="Контарион" />
+    <string id="OTtMvvJK" text="Остроконечное лезвие" />
+    <string id="ow1aK4DJ" text="Длинное дубовое древко" />
+    <string id="oW5N04JL" text="Стальное лезвие горцев" />
+    <string id="OW7w3Mth" text="Навершие Фигана" />
+    <string id="Oxew9WCe" text="Простое имперское навершие для копья" />
+    <string id="Oz6xANFb" text="Навершие горцев с орнаментом" />
+    <string id="p1Uz3dqs" text="Кованая украшенная красная каскарская рукоять" />
+    <string id="p2aqirUu" text="Добротная кожаная рукоять от флиссы" />
+    <string id="p2xjr5Bp" text="Деревянное лезвие" />
+    <string id="p3jlcHNo" text="Длинное плоское навершие для копья" />
+    <string id="pb4zUxzA" text="Лезвие махайры" />
+    <string id="PbxZzhZx" text="Узкая гарда сакса" />
+    <string id="PjMeZcwO" text="Загнутая кинжальная гарда" />
+    <string id="pkmy6zB2" text="Южная звездообразная гарда" />
+    <string id="pocRP9dq" text="Длинный ясеневый посох" />
+    <string id="PQ8rR13R" text="Длинное добротное стальное лезвие от скимитара" />
+    <string id="PqoJ1ZeB" text="Украшенное лезвие от сабли" />
+    <string id="PQThPvP6" text="Украшенное короткое лезвие спаты" />
+    <string id="PsKP5j6A" text="Гарда с краями в виде лепестков" />
+    <string id="pT5C12yT" text="Обитое ясеневое двуручное древко для топора" />
+    <string id="PUAi75mb" text="Имперское кольцеобразное навершие" />
+    <string id="PuRJZS03" text="Двуручная рукоять в южном стиле" />
+    <string id="PvB0pW1Q" text="Широкое чеканное затупленное лезвие" />
+    <string id="pXxv7YJv" text="Длинная рукоять из красного дерева обёрнутая кожей" />
+    <string id="PZYq0hBO" text="Многослойная бронзовая кинжальная гарда" />
+    <string id="Q6kGQNzP" text="Двуручная железная рукоять" />
+    <string id="q7jHkLam" text="Чеканное узкое лезвие для меча" />
+    <string id="Q9Gfv68h" text="Двуручная сабельная рукоять" />
+    <string id="qbYoAvs6" text="Перевязанная кожаная одноручная рукоять" />
+    <string id="QCE1sAu3" text="Широкое лезвие для меча" />
+    <string id="QH0oIiIz" text="Длинное широкое кинжальное лезвие" />
+    <string id="QIo60ZKh" text="Чеканное длинное лезвие для меча" />
+    <string id="qjxXq3P5" text="Гравированная кинжальная гарда горцев" />
+    <string id="QNe7mQlZ" text="Навершие от граблей" />
+    <string id="Qqb0VZ1a" text="Обернутое кожей ясеневое двуручное древко" />
+    <string id="qQrmuHQ9" text="Тяжелое навершие для булавы всадника" />
+    <string id="qQtLUC7Q" text="Бронзовая серповидная гарда" />
+    <string id="qSV6C2tp" text="Мечевидное навершие" />
+    <string id="qtZNUUqG" text="Северная деревянная одноручная рукоять" />
+    <string id="Qw9HWSY7" text="Железное лезвие от флиссы" />
+    <string id="QwfDN06p" text="Рыцарское навершие на копье" />
+    <string id="QXqd6MLV" text="Медная перевязанная кожей рукоять меча" />
+    <string id="qYxzdFAa" text="Длинная дубовая рукоять с кожаными вкраплениями" />
+    <string id="qZYeu55z" text="Длинная железная рукоять для булавы" />
+    <string id="r1U1w2zp" text="Медная перевязанная кожей одноручная рукоять" />
+    <string id="r3R6RM9G" text="Короткое простое навершие для пики" />
+    <string id="R62maL2H" text="Навершие для билля" />
+    <string id="R7OBSozV" text="Короткое широкое лезвие для ильда" />
+    <string id="R8hEAwUZ" text="Грубая алая рукоять" />
+    <string id="r8KoZCBy" text="Ограненная овальная гарда для кинжала" />
+    <string id="RB3oxhaV" text="Длинная узкая гарда" />
+    <string id="RBoqow67" text="Круглое навершие высшего качества" />
+    <string id="RdVX1jC0" text="Гравированное каскарское лезвие" />
+    <string id="reHxxC6K" text="Рукоять для кузнечного молота" />
+    <string id="Rh3h5NIg" text="Короткая рукоять из дерева для метательного топора" />
+    <string id="rkEbLbYf" text="Восточная усиленная кожаная рукоять" />
+    <string id="rKnBJPfp" text="Добротное стальное лезвие для широкого меча" />
+    <string id="rL2zMQ2l" text="Широкая стальная гарда" />
+    <string id="rn6tttI2" text="Южное навершие с орнаментами" />
+    <string id="rSs1M2EJ" text="Спиралевидное навершие для булавы" />
+    <string id="RWljioj5" text="Железная перевязанная кожей рукоять" />
+    <string id="RWm1h40B" text="Навершие горцев" />
+    <string id="RXjhTS9s" text="Длинный стержень из дуба" />
+    <string id="S2MYKoII" text="Высокое восточное навершие" />
+    <string id="s50O60ed" text="Закрученная имперская гарда" />
+    <string id="S75vUGzK" text="Добротное стальное навершие для копья" />
+    <string id="S9zZO7qJ" text="Добротное стальное навершие для пики" />
+    <string id="SaPaeTr4" text="Деревянная двуручная рукоять " />
+    <string id="saYgR9C6" text="Двуручная рукоять горцев высшего качества" />
+    <string id="SEsx3kZz" text="Тяжелое навершие бердыша" />
+    <string id="SgJH5KtP" text="Лезвие сики" />
+    <string id="SgknWcu2" text="Северная спрятанная рукоять" />
+    <string id="SJiam61q" text="Короткая угловатая рукоять" />
+    <string id="sNJNDDKN" text="Маленькое навершие топора" />
+    <string id="sq7G99xP" text="Коронообразная гарда" />
+    <string id="SqR5K74b" text="Добротная рукоять горцев" />
+    <string id="SR7a3qlO" text="Круглое навершие боевого топора" />
+    <string id="SraI0yxb" text="Длинная дубовая рукоять" />
+    <string id="sUlksgjL" text="Закрученная гарда для копья" />
+    <string id="SVBYn9KW" text="Железные вилы" />
+    <string id="sw5rAz73" text="Легкое навершие южной булавы" />
+    <string id="swb45HVS" text="Отличное лезвие горцев" />
+    <string id="T1aiDuOp" text="Узкое навершие" />
+    <string id="T1xFTaOf" text="Украшенное длинное лезвие скимитара" />
+    <string id="T62Cmrrh" text="Ограненное навершие" />
+    <string id="tgJ3dSOx" text="Дубовое длинное копье" />
+    <string id="TKQl9boE" text="Золотая украшенная добротная рукоять" />
+    <string id="TKVxb6QD" text="Стальное листовидное навершие для копья" />
+    <string id="tLa3nYAQ" text="Ограненное навершие" />
+    <string id="TLtaGEcB" text="Широкое лезвие Макаира" />
+    <string id="tnaGywrE" text="Грубая кожаная ветхая рукоять" />
+    <string id="tNtulHAv" text="Широкое большое навершие" />
+    <string id="tq0eDwck" text="Гарда для кинжала" />
+    <string id="trGnmFsh" text="Кальрадское навершие для булавы" />
+    <string id="tRJC72Qh" text="Кожаная обернутая рукоять" />
+    <string id="tSaAzzYe" text="Остроконечное узкое лезвие" />
+    <string id="tSgZoxsu" text="Железная усиленная рукоять" />
+    <string id="tSQbGb4m" text="Дополнительно удлиннённый стержень" />
+    <string id="TUbTwW9U" text="Плоское остроконечное лезвие" />
+    <string id="Tui9qvOZ" text="Навершие центуриона" />
+    <string id="U30HpvtI" text="Треугольное железное навершие копья" />
+    <string id="u89rP5qY" text="Широкое навершие" />
+    <string id="uAfTaa3p" text="Восточная добротная кожаная рукоять" />
+    <string id="Udo97SZC" text="Западное украшенное навершие" />
+    <string id="ueCf3sde" text="Обернутая кожей тонкая рукоять" />
+    <string id="ugQrq53t" text="Ромбовидное навершие" />
+    <string id="Uhc0KIdz" text="Сосновое основание копья" />
+    <string id="uIciSK8t" text="Украшенная круглая южная рукоять" />
+    <string id="uKu7rTrW" text="Узкая одноручная рукоять" />
+    <string id="UKWwPPkx" text="Лезвие для меча с золотой гравировкой" />
+    <string id="ukYW8FVm" text="Навершие для сабли" />
+    <string id="uLqEw8LB" text="Обитая имперская длинная рукоять" />
+    <string id="uQsJQLJH" text="Короткая северная рукоять обтянутая шкурой" />
+    <string id="usVYZYYD" text="Северное навершие бояр" />
+    <string id="USWfzbuW" text="Северное широкое навершие для топора" />
+    <string id="uuover9F" text="Короткое лезвие для меча" />
+    <string id="uvmvs2SP" text="Длинная рукоять" />
+    <string id="uwG8iwBc" text="Длинный наконечник" />
+    <string id="V0khEGns" text="Западное плоское навершие" />
+    <string id="v22onVb2" text="Легкое остроконечное лезвие" />
+    <string id="V3JMuFEg" text="Плотная рукоять для булавы" />
+    <string id="V6YQykoc" text="Гравированная гарда для кинжала" />
+    <string id="V9Kbq6vj" text="Часть для практики" />
+    <string id="VbpiYB68" text="Украшенное чеканное широкое лезвие" />
+    <string id="VccYBtB0" text="Северное навершие" />
+    <string id="VeHazKzb" text="Деревянная рукоять с кожаной обтяжкой" />
+    <string id="Vf2wKojF" text="Длинный кончик" />
+    <string id="VfzFTGd8" text="Малое круглое навершие" />
+    <string id="vGda3CNV" text="Украшенное золотом и кожей рукоять меча" />
+    <string id="VgMDYLje" text="Грубая кожаная рукоять" />
+    <string id="vJieQpnH" text="Обтянутая кожей двуручная рукоять" />
+    <string id="VJmu4Yag" text="Декоративное основание копья" />
+    <string id="vJtBlaeS" text="Обернутая кожей длинная двуручная рукоять" />
+    <string id="VL00fQvj" text="Усиленная рукоять топора" />
+    <string id="vPMsDf85" text="Дубовая рукоять с кожаными вкраплениями" />
+    <string id="vx2VIbmb" text="Украшенное лезвие длинного меча" />
+    <string id="vxqrW5GN" text="Лезвие от серпа" />
+    <string id="W5tvNbjY" text="Восточное навершие с орнаментом" />
+    <string id="WAtAGKhV" text="Обоюдоострый кончик для копья" />
+    <string id="Wd3bU57P" text="Бронзовое навершие" />
+    <string id="we4ykbNe" text="Железная перевязанная рукоять" />
+    <string id="weIT4gUP" text="Чеканное узкое лезвие" />
+    <string id="wfK63ZQn" text="Навершие для сабли" />
+    <string id="wgWSJzGD" text="Скошенная кожаная рукоять" />
+    <string id="wHMdRIl6" text="Частично обтянутая грубой кожей рукоять" />
+    <string id="Wkhv9ESv" text="Тяжелая дубовая рукоять для метательного топора" />
+    <string id="wKJM541b" text="Гарда с заостренными краями" />
+    <string id="WkLj6xAo" text="Навершие в форме трапеции" />
+    <string id="WkTkxQfw" text="Навершие топора 'прямоугольное долото'" />
+    <string id="Wl1m0LbL" text="Серебряная гравированная усиленная рукоять" />
+    <string id="WNch6azL" text="Железное лезвие для скимитара" />
+    <string id="wQGWxeCc" text="Толстое лезвие для сабли" />
+    <string id="wsVbMK6L" text="Плоское турнирное лезвие" />
+    <string id="wVcrqv4p" text="Деревянная рукоять" />
+    <string id="wvLoXrFV" text="Западное отличное навершие" />
+    <string id="WXBkfAbb" text="Угловая северная гарда для кинжала" />
+    <string id="WxnqOG8s" text="Широкая вогнутая гарда" />
+    <string id="wXUjru6o" text="Широкая гарда для сабли" />
+    <string id="X7OrRebK" text="Узкое лезвие " />
+    <string id="xb6e2YaV" text="Восточная простая овальная гарда" />
+    <string id="XbaFle0M" text="Восточный кончик для копья" />
+    <string id="xbazdytG" text="Стальная двуручная рукоять" />
+    <string id="xbB9Ga5X" text="Коническое северное лезвие" />
+    <string id="XetKl5yO" text="Золотая гарда для сабли" />
+    <string id="XI5QgznO" text="Коническая гарда" />
+    <string id="xJaVK4D0" text="Кончик развернутый в обратную сторону" />
+    <string id="xKGpbQjJ" text="Длинный стержень с кожаными участками" />
+    <string id="Xo7l8eae" text="Грубое Лезвие" />
+    <string id="xoSaQWhX" text="Западная закругленная гарда" />
+    <string id="XSabsFbx" text="Утяжеленное навершие для пики" />
+    <string id="XtneitaD" text="Добротное стальное лезвие" />
+    <string id="xVHbBpb9" text="Частично стальная рукоять" />
+    <string id="xWZuE1aE" text="Толстая вогнутая гарда для кинжала" />
+    <string id="XxhFx0yw" text="Короткая обернутая кожей рукоять" />
+    <string id="xYgJN0Ja" text="Украшенное лезвие для скимитара" />
+    <string id="xZ70rbRt" text="Круглое деревянное навершие" />
+    <string id="Y0gbKTgZ" text="Стургское навершие для вил" />
+    <string id="Y4tIQnS4" text="Короткое легкое навершие для копья" />
+    <string id="y5A3HGua" text="Добротное стальное лезвие" />
+    <string id="ybjDbw8p" text="Длинная дубовая рукоять для булавы" />
+    <string id="ybk4YYeV" text="Навершие для одноручного топора" />
+    <string id="yD9v5GS0" text="Украшенный сосновый стержень" />
+    <string id="YDG2spCf" text="Восточная кожаная знатная рукоять" />
+    <string id="yFm0f44p" text="Западная гарда" />
+    <string id="YFy0t1NY" text="Чеканное западное навершие для булавы" />
+    <string id="Yi2PlMln" text="Прикованное длинное навершие для копья" />
+    <string id="yilLfxCc" text="Загнутая гарда" />
+    <string id="ykTYTbek" text="Лезвие для метательного ножа" />
+    <string id="YkWqmDEK" text="Широкое навершие для фальшиона" />
+    <string id="YKXNxxvY" text="Северная двуручная рукоять" />
+    <string id="ylUAAsQt" text="Грубая обернутая кожей рукоять" />
+    <string id="yMWzpgjz" text="Угловая двуручная рукоять" />
+    <string id="YQLEkXb7" text="Одиночный крюк для пики" />
+    <string id="ysby6FNF" text="Стальное прикованное навершие копья" />
+    <string id="YTZblGJ0" text="Покрытая кожей усиленная двуручная рукоять" />
+    <string id="YUDKID1R" text="Усиленная длинная рукоять" />
+    <string id="yUyJ39ot" text="Стальная рукоять" />
+    <string id="YwKrIR6s" text="Спрятанный в меху острый кончик" />
+    <string id="yWvSjlnb" text="Восточное добротное стальное навершие" />
+    <string id="YxoUpPRb" text="Прикованные и загнутое 'Крыло'" />
+    <string id="yzsneaL6" text="Круглое навершие" />
+    <string id="ZAoWK9Gt" text="Круглое имперское навершие" />
+    <string id="ZbSKazZG" text="Короткое лезвие сакса" />
+    <string id="ZJrqEfBF" text="Клиновидный клинок каскара" />
+    <string id="Zc2Mb991" text="Навершие шестопера" />
+    <string id="ZCJ0aNYt" text="Змеиная гарда" />
+    <string id="ZcUNAfKT" text="Длинное добротное стальное навершие" />
+    <string id="zCYuj3yr" text="Остроконечное лезвие меча" />
+    <string id="ZfEiEOsK" text="Гарда из южного королевства" />
+    <string id="ZgCUNieQ" text="Навершие для вил" />
+    <string id="Zgy40Qc4" text="Длинная рукоять из махагони" />
+    <string id="zIbAD527" text="Клинообразное навершие" />
+    <string id="ZJwQmyQR" text="Покрытая кожей медная рукоять" />
+    <string id="zKaNmT8r" text="Гарда в форме полумесяца" />
+    <string id="ZKrpvDu6" text="Стальная усиленная рукоять для меча" />
+    <string id="ZKsIpbg6" text="Наполовину покрытая кожей двуручная рукоять" />
+    <string id="ZmFx0XvN" text="Северная одноручная рукоять" />
+    <string id="Zmtfwmh1" text="Коническая тонкая гарда для кинжала" />
+    <string id="zoQhOBku" text="Круглое навершие с острым наконечником" />
+    <string id="zoxF4ikz" text="Длинная рукоять из ясеня с кожаной обтяжкой" />
+    <string id="Zp625kEP" text="Северная деревянная двуручная рукоять" />
+    <string id="ZUp9mm79" text="Зазубренное навершие для копья" />
+    <string id="ZxZ7AJ1r" text="Южное боевое лезвие для топора" />
+  </strings>
+</base>

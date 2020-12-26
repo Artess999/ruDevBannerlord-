@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="16hLiz40" text="Бета-тестер" />
+    <string id="1CxYPryo" text="Этим значком награждены те, кто выиграл 50 битв во время бета-теста" />
+    <string id="21oH4CWa" text="Багхантер" />
+    <string id="5IANKz8a" text="Альфа-тестер" />
+    <string id="5ZwXUBV5" text="Эта награда была вручена игрокам, которые выиграли 500 матчей в раннем доступе." />
+    <string id="9C9Nbgbt" text="V.I.P." />
+    <string id="aNsV4LOg" text="Участник EA " />
+    <string id="aubhe8Hk" text="Разработчик TaleWorlds" />
+    <string id="BCWVcO6k" text="Этот значок был вручен игрокам, участвовавшим в многопользовательском бета-тестировании." />
+    <string id="bKmVrmzG" text="Этот значок был вручен игрокам, выигравшим 100 матчей в бета-тестировании." />
+    <string id="Cbf52UqN" text="Этот значок был вручен игрокам, которые выиграли 50 матчей во время раннего доступа." />
+    <string id="DJY6qD0b" text="Текущие победы" />
+    <string id="DKAH6hMC" text="20 EA побед" />
+    <string id="dSWtiVLz" text="Этот значок был вручен членам сообщества, которые внесли свой вклад в игру и сообщество." />
+    <string id="DWb2zRsZ" text="100 Бета побед" />
+    <string id="ESOkYFiD" text="Этот значок был вручен игрокам, которые выиграли 750 матчей в раннем доступе." />
+    <string id="fAaorpa8" text="50 EA побед" />
+    <string id="FDvwGjni" text="50 Бета побед" />
+    <string id="gNiQcEa9" text="Этот значок был вручен игрокам, которые значительно помогли нам найти ошибки и проблемы, с которыми мы столкнулись в многопользовательском альфа и бета-тестировании." />
+    <string id="GTmPMoYe" text="Сотрудник TaleWorlds" />
+    <string id="H4Zlsiu1" text="250 Бета побед" />
+    <string id="IcPNgbtl" text="Этот значок был вручен игрокам, которые выиграли 100 матчей в раннем доступе." />
+    <string id="iGTJ4aQq" text="250 ЕА побед" />
+    <string id="KcPkbnu2" text="20 Бета побед" />
+    <string id="medMGVme" text="Этот значок был вручен игрокам, которые выиграли 250 матчей в раннем доступе." />
+    <string id="OasvPXuW" text="Этот значок был вручен игрокам, которые выиграли 20 матчей в раннем доступе." />
+    <string id="OGsa2aC1" text="Этот значок был вручен игрокам, которые участвовали в раннем доступе." />
+    <string id="qLpxrsFX" text="Этот значок был вручен игрокам, которые участвовали в многопользовательском альфа-тесте." />
+    <string id="qvYJuD83" text="100 ЕА побед" />
+    <string id="sli6QNV6" text="Этот значок был вручен игрокам, которые выиграли 250 матчей в бета-тестировании." />
+    <string id="tI5cj3Qz" text="Этот значок был вручен игрокам, выигравшим 20 матчей в бета-тестировании" />
+    <string id="Xws44eDL" text="500 ЕА побед" />
+    <string id="ZodCgSL5" text="750 ЕА побед" />
+  </strings>
+</base>
