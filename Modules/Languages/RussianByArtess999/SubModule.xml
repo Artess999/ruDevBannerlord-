@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "Russian by DOG729"/>
+	<Name value = "Russian by Artess999"/>
 	<Id value = "Russian"/>
-	<Version value = "e1.4.5"/>
+	<Version value = "e1.0.0"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="true"/>
+	<Author value="Artess999" />
 	<Author value="DOG729" />
+	<Author value="Commando" />
   	<Official value="false" />
 	<DependedModules>
 		<DependedModule Id="Native"/>
@@ -14,6 +16,6 @@
 		<DependedModule Id="Sandbox"/>
 	</DependedModules>
 	<SubModules/>
-	<Xmls> 
+	<Xmls>
 	</Xmls>
 </Module>
