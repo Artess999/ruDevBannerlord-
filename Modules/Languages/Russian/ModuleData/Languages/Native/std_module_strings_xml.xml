@@ -1585,7 +1585,7 @@
     <string id="5siAbi69" text="Му Торере"/>
     <string id="7pAZatbz" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
     <string id="8mBT44QK" text="Noble of {FACTION}"/>
-    <string id="aseraifaction" text="Aserai"/>
+    <string id="aseraifaction" text="Асерай"/>
     <string id="aseraimembers" text="Aserai"/>
     <string id="aZrbxdat" text="Hold [{KEY_NAME}] to do all"/>
     <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}Begum{?}Beg{\?}"/>
