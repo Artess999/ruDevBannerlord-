@@ -1584,13 +1584,13 @@
     <string id="5pGjYBFn" text="Дань получена"/>
     <string id="5siAbi69" text="Му Торере"/>
     <string id="7pAZatbz" text="{?RULER.GENDER}Императрица{?}Император{\?} {RULER.NAME}"/>
-    <string id="8mBT44QK" text="Дворянин {FACTION}"/>
+    <string id="8mBT44QK" text="Дворянин из {FACTION}"/>
     <string id="aseraifaction" text="Асерай"/>
     <string id="aseraimembers" text="Асераи"/>
     <!--TODO-->
     <string id="aZrbxdat" text="Hold [{KEY_NAME}] to do all"/>
     <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}Бегум{?}Бег{\?}"/>
-    <string id="captainasleader" text="Captain"/>
+    <string id="captainasleader" text="Капитан"/>
     <string id="d5RAufbd" text="Role"/>
     <string id="dd7Owiys" text="Make Peace with {FACTION}"/>
     <string id="empiremembers" text="Empire"/>
@@ -1603,16 +1603,16 @@
     <string id="exwifefatherinlaw" text="Former father-in-law"/>
     <string id="exwifemotherinlaw" text="Former mother-in-law"/>
     <string id="exwifesisterinlaw" text="Former sister-in-law"/>
-    <string id="forgeverb" text="Forge"/>
+    <string id="forgeverb" text="Ковать"/>
     <string id="fQ2RLaOa" text="Clan Does Not Own Any Fiefs"/>
     <string id="G5yvspkZ" text="Can't retreat, duel is ongoing!"/>
     <string id="gamefinance" text="Finance"/>
-    <string id="giftverb" text="Gift"/>
+    <string id="giftverb" text="Подарок"/>
     <string id="GmcgoiGy" text="Trade"/>
-    <string id="guardnoun" text="Guard"/>
+    <string id="guardnoun" text="Стражник"/>
     <string id="h8Bcd7NE" text="{FACTION} Ruler Election"/>
-    <string id="homesettlement" text="Home"/>
-    <string id="hometab" text="Home"/>
+    <string id="homesettlement" text="Дом"/>
+    <string id="hometab" text="Дом"/>
     <string id="husbandbrotherinlaw" text="brother-in-law"/>
     <string id="husbandfatherinlaw" text="father-in-law"/>
     <string id="husbandmotherinlaw" text="mother-in-law"/>
@@ -1645,9 +1645,9 @@
     <string id="rqWJL27J" text="Total Gold"/>
     <string id="s2vaPUdG" text="Spear Brace"/>
     <string id="settlementtrack" text="Track"/>
-    <string id="siegeevent" text="Siege"/>
-    <string id="smeltverb" text="Smelt"/>
-    <string id="smithingverb" text="Smithing"/>
+    <string id="siegeevent" text="Осада"/>
+    <string id="smeltverb" text="Плавить"/>
+    <string id="smithingverb" text="Ковка"/>
     <string id="tnZ7BfO9" text="Peace Proposal"/>
     <string id="u3c9M8vx" text="an archoness"/>
     <string id="uFDiRV1Z" text="({PRIMARY_ROLE})"/>
