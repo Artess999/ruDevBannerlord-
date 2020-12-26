@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский"/>
+  </tags>
+  <strings>
+    <string id="5qoYjNVs" text="Что еще ты хочешь поговорить, друг мой?"/>
+    <string id="A8VlEUMS" text="Приветствую {PLAYER.LINK}, приятно тебя видеть."/>
+    <string id="ah9SN1u0" text="Мы сдаемся!"/>
+    <string id="EBKrcDnY" text="Нет!"/>
+    <string id="jnJqjlnr" text="Я перережу твою глотку."/>
+    <string id="nZDF7yVq" text="Что-нибудь еще вы хотите сказать прежде, чем вы умрете?"/>
+    <string id="wTFjLsgq" text="Хорошо."/>
+    <string id="xkKMT083" text="Ты умрешь сегодня."/>
+    <string id="yUPOktil" text="Я не боюсь тебя, я буду бороться."/>
+    <string id="ZFqlqyci" text="[Уйти]"/>
+  </strings>
+</base>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский"/>
+  </tags>
+  <strings>
+    <string id="06V7fEV4" text="Нажмите ESC, чтобы вернуться"/>
+    <string id="2Q6Mm9Jo" text="Настройка геймпада"/>
+    <string id="2zcrC0h1" text="Геймплей"/>
+    <string id="3CpNUnVl" text="Отменить"/>
+    <string id="3CsACce8" text="Выход"/>
+    <string id="4Dd2xgPm" text="Вес"/>
+    <string id="4NaOKslb" text="-"/>
+    <string id="4OGDnOVE" text="с {OPPONENT_NAME}"/>
+    <string id="5baU17n0" text="В настоящее время матчмейкинг отключен"/>
+    <string id="5k4dxUEJ" text="Войска"/>
+    <string id="5Pea977J" text="Фракция:"/>
+    <string id="5UJJLzaL" text="Поиск игроков по вашим критериям:"/>
+    <string id="5Z0pvuNL" text="Уровень {LEVEL}"/>
+    <string id="61isYVW0" text="Игрок {USER_NAME} не найден"/>
+    <string id="6GSXsdeX" text="Скорость"/>
+    <string id="6MQaCah5" text="Присоединиться к игре"/>
+    <string id="6Pjb3Rya" text="Голосование не доступно"/>
+    <string id="6syoutpV" text="От {WHISPER_TARGET}"/>
+    <string id="74PKmRWJ" text="Перевернуть"/>
+    <string id="7qySRF2T" text="Пинг"/>
+    <string id="8nJFaJio" text="Пароль"/>
+    <string id="AaAcmalE" text="Вы были приглашены присоединиться в команду"/>
+    <string id="aB4Md0if" text="Есть игроки"/>
+    <string id="ahiBhAqU" text="Броня"/>
+    <string id="aO3avkK9" text="Матчмейкинг отключен"/>
+    <string id="ApD0xQXT" text="{STR1}: {STR2}"/>
+    <string id="aRzlp5XH" text="Создать"/>
+    <string id="aVixswW5" text="Выбор команды"/>
+    <string id="b31ITmm0" text="Размер группы"/>
+    <string id="b9PT1Yxc" text="Выберите тип игры "/>
+    <string id="BAaS5Dkc" text="Применить"/>
+    <string id="bIcFZT6L" text="Форма бровей "/>
+    <string id="bON4Kn6B" text="Автоматическое Назначение"/>
+    <string id="BrYUHFsg" text="ВЫБРАТЬ ИГРУ"/>
+    <string id="bsiRNJtk" text="{NAME}:"/>
+    <string id="cDzWYQrz" text="Сбросить до настроек по умолчанию?"/>
+    <string id="chfTxqZg" text="Неверная команда."/>
+    <string id="cK5DE88I" text="Н/Д"/>
+    <string id="cLJdeUWz" text="Рост:"/>
+    <string id="D0TbQm4r" text="Нарушил"/>
+    <string id="d5SNB0HV" text="Выбрать {ITEM_NAME}"/>
+    <string id="DAVb2Pzg" text="Обязанности Употр."/>
+    <string id="Dbkx4v90" text="Раунд проигран"/>
+    <string id="DKqLY1aJ" text="Экипировать"/>
+    <string id="DmaP2qaR" text="Тип кожи"/>
+    <string id="dMdmyb3Y" text="Защищены паролем "/>
+    <string id="DoDZGYf6" text="Выберите тип голосования"/>
+    <string id="DQvGNQ0g" text="Нет юнитов под командованием."/>
+    <string id="eCOJSSUH" text="({BOT_COUNT} ботов)"/>
+    <string id="eGuQKRhb" text="Вы покинули игровую зону!"/>
+    <string id="Etjqamlh" text="{PLAYER_COUNT} игроков"/>
+    <string id="EUAKPHek" text="Построить:"/>
+    <string id="F7dBjl83" text="В настоящее время пользовательские битвы отключены"/>
+    <string id="FD7EQDmW" text="Поиск игры"/>
+    <string id="ffjTMejn" text="Статистика"/>
+    <string id="fM9E7frB" text="Графика"/>
+    <string id="FRSGOfUJ" text="Включить боевой журнал"/>
+    <string id="ftoSCQ0x" text="Длина"/>
+    <string id="g1lgiwn1" text="Не вошли в"/>
+    <string id="G6hYIR5k" text="Тембр Голоса:"/>
+    <string id="gcl2duJH" text="Сбросить свой знак"/>
+    <string id="GGseMDd3" text="Прочность"/>
+    <string id="GMhOZGnb" text="Нельзя отдать приказ, пока вы мертвы"/>
+    <string id="GmU1to3Y" text="Статистика"/>
+    <string id="gqNxq11A" text="Цели"/>
+    <string id="GXosklej" text="Случайные"/>
+    <string id="gzdNEM76" text="Создать игру"/>
+    <string id="H1emUb6k" text="Возраст:"/>
+    <string id="hazebV8x" text="Настройка Персонажа"/>
+    <string id="hbwp3g3k" text="+{FRIEND_COUNT}  {?PLURAL}friends{?}friend{\?}"/>
+    <string id="Hp2wp3et" text="Принять (F1)"/>
+    <string id="HXxNfncd" text="Конец битвы"/>
+    <string id="i0OEsfLt" text="Пользовательские Битвы Отключены"/>
+    <string id="Ie9I2Bha" text="Сила удара"/>
+    <string id="iKtIhlbo" text="Раунды"/>
+    <string id="IlQnJsUp" text="Флагов захвачено:"/>
+    <string id="iLUiaRsj" text="Ваш"/>
+    <string id="iNqucBor" text="Войти в"/>
+    <string id="J0vjDOFO" text="Скорость удара"/>
+    <string id="Jd44GGJW" text="{TEAM} команда победила в тайм-ауте"/>
+    <string id="JPimShCw" text="Тип игры"/>
+    <string id="jy9orOJz" text="Играть"/>
+    <string id="jZ6GblZu" text="Избранные"/>
+    <string id="K1Gb5a5Q" text="Вам необходимо запускать игру с включенным анти-читом"/>
+    <string id="K9XhWUQi" text="Отклонить (F2)"/>
+    <string id="kftE5nvv" text="Броня лошади"/>
+    <string id="kG0xuyfE" text="Арсенал"/>
+    <string id="koX9okuG" text="Нет"/>
+    <string id="l2CNxPXG" text="Тип зубов"/>
+    <string id="LlrlE199" text="Вы всё ещё можете развернуть осадные машины{newline}Всё равно начать?"/>
+    <string id="LrE2cUnG" text="В настоящее время отключен"/>
+    <string id="lugGPVOb" text="Логин"/>
+    <string id="lWDq0Uss" text="Войти"/>
+    <string id="macpKFaG" text="Голос"/>
+    <string id="mAxXKaXp" text="Сброс"/>
+    <string id="meFS5F4V" text="-{DAMAGE}"/>
+    <string id="Met1U45t" text="Мышь и клавиатура"/>
+    <string id="MsAb6hed" text="{TEAM} команда была уничтожена"/>
+    <string id="NaZ6xg33" text="Не удалось найти подходящий сервер, чтобы присоединиться."/>
+    <string id="nFvVw68B" text="Пригласить в отряд"/>
+    <string id="NJolh9ye" text="Последние игры"/>
+    <string id="NLKmdNbt" text="Поиск"/>
+    <string id="NqarFr4P" text="Настройки"/>
+    <string id="NUSH5bJu" text="{EXPERIENCE} очков до следующего уровня"/>
+    <string id="oBbiVeKE" text="Здоровье"/>
+    <string id="oHaWR73d" text="ОК"/>
+    <string id="oibdTnXP" text="Обращение"/>
+    <string id="OSoAVlqc" text="Экипировано"/>
+    <string id="OVcoYxj1" text="Имя Сервера"/>
+    <string id="OwqFpPwa" text="Фильтры"/>
+    <string id="P7moPm3F" text="Установить в качестве лидера группы"/>
+    <string id="pguhTmXw" text="Результаты битвы"/>
+    <string id="pSheKLB4" text="Зритель"/>
+    <string id="Q50X65NB" text="Классы"/>
+    <string id="qaycA9YY" text="Итого Благодарностей:"/>
+    <string id="QDNcl3DH" text="Приглашение в отряд"/>
+    <string id="qe46yXVJ" text="ЗАБЛОКИРОВАНА ДЛЯ БАЛАНСА"/>
+    <string id="qFPBhVh4" text="Обновить"/>
+    <string id="QfTt7YRB" text="Скорострельность"/>
+    <string id="qXxpITdc" text="Цвет Глаз:"/>
+    <string id="R28ac5ij" text="{NUMBER} игроков"/>
+    <string id="r5WzivPb" text="Время Раунда"/>
+    <string id="Rc95Kq8r" text="Пожалуйста, подождите..."/>
+    <string id="RCuCoVgd" text="РАУНД ВЫИГРАН"/>
+    <string id="RfXJdNye" text="Игроки"/>
+    <string id="rg7OuWS2" text="Манёвр"/>
+    <string id="RNgWFLIO" text="Режущий урон"/>
+    <string id="Rzor6tbG" text="Скины"/>
+    <string id="S2bKbhTc" text="АВТОМАТИЧЕСКИЙ ПОИСК ИГРЫ"/>
+    <string id="s31DnnAf" text="Урон"/>
+    <string id="saZ1OvPt" text="Вы можете нажать кнопку входа, чтобы установить соединение"/>
+    <string id="SKjI2a8V" text="Выйти из группы"/>
+    <string id="SoQcsslF" text="НЫНЕШНЯЯ КОМАНДА"/>
+    <string id="sPmQz21k" text="Враг"/>
+    <string id="SxxxusWS" text="Выберите игрока, чтобы удалить его"/>
+    <string id="TAnabTdy" text="Точность"/>
+    <string id="tFLLx4J4" text="Наиболее популярные классы"/>
+    <string id="tjioq56N" text="Список Друзей"/>
+    <string id="TxphX8Uk" text="Развертывание"/>
+    <string id="TzYWE9tA" text="Последние игры не найдены"/>
+    <string id="U4dzbzNb" text="Пожалуйста, подождите, пока вы не подключитесь к серверу"/>
+    <string id="uNBpT3vs" text="Всего игроков в поиске: "/>
+    <string id="uUoSmCBS" text="В Bannerlord"/>
+    <string id="uvwLriAX" text="Использовать [{KEY_NAME}] для включения табло"/>
+    <string id="UYnLfaCY" text="Купить"/>
+    <string id="V305MaOP" text="Онлайн"/>
+    <string id="v6J8ILV3" text="Без пароля"/>
+    <string id="VOTau449" text="Заблокировано"/>
+    <string id="vZTWMqUp" text="Только лидеры пати могут принимать меры в отношении других членов."/>
+    <string id="w2yV4Wib" text="Голосование отклонено"/>
+    <string id="W4DLzPSb" text="Сервер не полон"/>
+    <string id="w9m11T1y" text="Карта"/>
+    <string id="wGjQgQlY" text="Следующая игра начнётся через:"/>
+    <string id="WiNRdfsm" text="Выполнить"/>
+    <string id="wkIVxzV6" text="Перезапустить"/>
+    <string id="WOQZBmMx" text="Сервера"/>
+    <string id="wTtyFa89" text="ИГРАТЬ"/>
+    <string id="wuKqRvc3" text="Игра: {GAME_TYPES}  |  Регион: {REGIONS}"/>
+    <string id="wwr4V1jm" text="Выберите игрока для бана"/>
+    <string id="xebFLnH2" text="Аудио"/>
+    <string id="XJTX8w8M" text="Фаза разогрева - {GAME_MODE}{newline}Ожидание подключения игроков"/>
+    <string id="XLHkPwbb" text="Выберите игровую карту"/>
+    <string id="xTv4tCbZ" text="Все!! Слушать меня"/>
+    <string id="Y94H6XnK" text="Принять"/>
+    <string id="yA45PqFc" text="НАЙТИ ИГРУ"/>
+    <string id="YAaAlbkX" text="Длительность игры"/>
+    <string id="yJsE4Ayo" text="Скорость замаха"/>
+    <string id="yjyJgRVt" text="{TEAM} команда потеряла моральный дух"/>
+    <string id="YK3nXtoM" text="Друзья"/>
+    <string id="yS7PvrTD" text="ОК"/>
+    <string id="yUpH2mQ4" text="Снаряды"/>
+    <string id="zBld61ck" text="Вес:"/>
+    <string id="zfN0N8xN" text="Общее время игры:"/>
+    <string id="zMbYCQa5" text="Средний Балл:"/>
+    <string id="Zv1lg272" text="Оффлайн"/>
+    <string id="zxBBzoTH" text="Дуэль {DUEL_NAME} начнётся через {DUEL_REMAINING_TIME} секунд."/>
+    <string id="aalbxe7z" text="Размер армии, установить параметр количества ботов в формирование {OPTION_VALUE}"/>
+    <string id="0B27RrYJ" text="Battania"/>
+    <string id="9jdHEa0N" text="Запросы в друзья"/>
+    <string id="aseraifaction" text="Асерай"/>
+    <string id="cw5QyeRU" text="Report Reason"/>
+    <string id="empirefaction" text="Империя"/>
+    <string id="FjwRsf1C" text="Вландия"/>
+    <string id="gamevideo" text="Видео"/>
+    <string id="hometab" text="Home"/>
+    <string id="nqYaiEo2" text="Мои награды"/>
+    <string id="partykick" text="Kick"/>
+    <string id="PjO7oY16" text="Стургия"/>
+    <string id="rLozutts" text="Запрос дружбы"/>
+    <string id="socialtab" text="Social"/>
+    <string id="sZLd6VHi" text="Кузаиты"/>
+    <string id="wnMT7R0K" text="Неподтверждённые заявки"/>
+    <string id="08KLQa3P" text="Waiting For Party Members"/>
+    <string id="0af2iQvw" text="Clan doesn't have any announcements"/>
+    <string id="1hnq3Kb1" text="Are you sure want to reset all properties? Your changes will be lost."/>
+    <string id="1pwQgr04" text="Matchmaking Request"/>
+    <string id="2YIVRuRa" text="Remove From Friends"/>
+    <string id="3sRdGQou" text="Leave"/>
+    <string id="4ZE6i9nW" text="Leave Clan"/>
+    <string id="5coyTZOI" text="Game is starting!"/>
+    <string id="65oGXBYQ" text="Create"/>
+    <string id="67hsZZor" text="Are you sure want to leave your clan?"/>
+    <string id="76HlhP7r" text="You have to give leadership to another member to leave"/>
+    <string id="7KWjQwp3" text="Bannerlord ID"/>
+    <string id="7R0i82Nw" text="Change Sigil"/>
+    <string id="89t1Bap8" text="This clan wants to join the clan match you created."/>
+    <string id="8pLf56db" text="Waiting for an opponent clan"/>
+    <string id="942B3LfA" text="Decline Friend Request"/>
+    <string id="a9TcHtVw" text="Faction B"/>
+    <string id="Agtv9l7S" text="This Name Already Exists"/>
+    <string id="aWzdkfvn" text="Currently you are not a member of a clan or you don't own a clan. You need to create a party from non-clan member players to form your own clan."/>
+    <string id="aZnS9ECC" text="Invite"/>
+    <string id="bExIl1A2" text="Name Length Is Invalid"/>
+    <string id="bfQLwMUp" text="Clans"/>
+    <string id="BrjpmaJH" text="Games Lost"/>
+    <string id="BSUteZmt" text="Accept Friend Request"/>
+    <string id="bynNUfSr" text="Your party does not have enough members to create a clan."/>
+    <string id="c0ZdKSkn" text="Waiting"/>
+    <string id="C7OHivNl" text="Your friend &lt;a style=&quot;Strong&quot;&gt;&lt;b&gt;{PLAYER_NAME}&lt;/b&gt;&lt;/a&gt; wants you to invite the player below to your party."/>
+    <string id="clxT9H4T" text="Type Your Name"/>
+    <string id="CW2JkWzC" text="Are you sure want to delete this announcement?"/>
+    <string id="d7ysGcsN" text="Remove Friend"/>
+    <string id="D9zIAw9y" text="Clan Invite"/>
+    <string id="dxlkHhw5" text="Games Won"/>
+    <string id="ECb8IPbA" text="Create Clan"/>
+    <string id="enhza8zr" text="Faction"/>
+    <string id="FgaORzy5" text="Declined"/>
+    <string id="FhnKJODX" text="Faction A"/>
+    <string id="FjmxNxZJ" text="Tag Has Invalid Characters In It"/>
+    <string id="fLddxLjh" text="Invite to Clan"/>
+    <string id="g5W32uf4" text="Type Your Announcement"/>
+    <string id="GRpGNYHW" text="Promote To Clan Leader"/>
+    <string id="hiKTvBgF" text="Are you sure want to reset changes done in this tab? Your changes will be lost."/>
+    <string id="hPbppi6E" text="Not At The Lobby"/>
+    <string id="IBEJPlEj" text="Home"/>
+    <string id="iCaRFZpG" text="along with these players"/>
+    <string id="iwugyB6z" text="{USERNAME}#{USERID}"/>
+    <string id="j35pgljM" text="Choose Faction"/>
+    <string id="j4F7tTzy" text="Clan"/>
+    <string id="jQJbU9Wl" text="Searching for a match"/>
+    <string id="JTMegIk4" text="Accepted"/>
+    <string id="JY2pBVHQ" text="Announcements"/>
+    <string id="K2gwwMCB" text="You have to be the leader of your party and all players in your party has to be in the same clan as you"/>
+    <string id="k7fJ7TF0" text="Has to be at least"/>
+    <string id="kF3b8cH1" text="Create Your Clan"/>
+    <string id="L3DJHTdY" text="Enter Bannerlord ID"/>
+    <string id="L6eaNe2q" text="Are you sure want to kick this member from clan?"/>
+    <string id="lBn2pSBL" text="Members"/>
+    <string id="lGbrWyEe" text="Cancel Friend Request"/>
+    <string id="LI0v8Zrr" text="Your Bannerlord ID Is"/>
+    <string id="lO1hok44" text="Name Has Invalid Characters In It"/>
+    <string id="MjnlWhih" text="Tag Length Is Invalid"/>
+    <string id="NwiYsUwm" text="Clan doesn't have a description"/>
+    <string id="nWJGjCgy" text="characters"/>
+    <string id="oFWcihyW" text="Disband Clan"/>
+    <string id="OiWquyWY" text="You have to be the leader of the party to create a clan"/>
+    <string id="oMiNaY1E" text="Posted By"/>
+    <string id="OUvFT99g" text="Tag"/>
+    <string id="oyVeCtlg" text="Roster"/>
+    <string id="ozREO8ev" text="Change Bannerlord ID"/>
+    <string id="P1MybNr7" text="Delete Announcement"/>
+    <string id="P5Z9owOy" text="Sigil"/>
+    <string id="PDdh1sBj" text="Имя"/>
+    <string id="Po8jNaXb" text="Can only contain letters"/>
+    <string id="q2Y7aHSF" text="Invite Suggestion"/>
+    <string id="q37arODj" text="Add friends with Bannerlord ID"/>
+    <string id="q7VcSSbp" text="Choose Sigil"/>
+    <string id="qa9aOxLm" text="Do you want to join this clan?"/>
+    <string id="qTYsYJ9V" text="Послать"/>
+    <string id="RN6zHak0" text="Player"/>
+    <string id="RPCjrF5X" text="You must select a faction"/>
+    <string id="rWm5udCd" text="You must enter a valid Bannerlord ID"/>
+    <string id="RzROgBkv" text="Invite To Party"/>
+    <string id="S8pZEPni" text="Kick From Clan"/>
+    <string id="SyklU5aP" text="Information"/>
+    <string id="tC9C8TLi" text="Add Friend"/>
+    <string id="tTwQsP6j" text="Player does not exist"/>
+    <string id="UfK6ztFl" text="Clan Matches"/>
+    <string id="ulzyykHO" text="This Tag Already Exists"/>
+    <string id="uOrwqeQl" text="You must select a sigil icon"/>
+    <string id="uoVKchoC" text="Регион"/>
+    <string id="uTXYEAOg" text="[{STR}]"/>
+    <string id="UwkpJq9N" text="Add As Friend"/>
+    <string id="V2lpn6dc" text="Your Bannerlord ID changing request has been successfully sent."/>
+    <string id="v4hVLpap" text="Invite Players to Clan"/>
+    <string id="VFqoa6vD" text="Do you want to invite this player to your party?"/>
+    <string id="vGF5S2hE" text="Таблица лидеров"/>
+    <string id="vW1VgmaP" text="Are you sure want to disband your clan?"/>
+    <string id="wJ70SgtB" text="Suggest This Player to Party"/>
+    <string id="wNAl9o4A" text="You received an invite from"/>
+    <string id="xkV9g4le" text="Do you accept them as your opponent?"/>
+    <string id="xXSFaGW8" text="Расформировать"/>
+    <string id="yQtzabbe" text="Закрыть"/>
+    <string id="Z0TW2cub" text="Are you sure want to promote this member as clan leader? You will lose your leadership."/>
+    <string id="ZAejS7WF" text="Select players to invite to your clan"/>
+    <string id="zEMWM4h3" text="Уже в клане"/>
+    <string id="zravuI1b" text="Тип Информация о клане"/>
+    <string id="zSXXfnYY" text="Сменить фракцию"/>
+    <string id="klkYFik9" text="You've already reported this player."/>
+  </strings>
+</base>
