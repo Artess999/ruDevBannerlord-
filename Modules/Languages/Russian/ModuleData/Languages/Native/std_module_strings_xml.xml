@@ -1582,7 +1582,7 @@
     <string id="0amC7X1h" text="War Declaration"/>
     <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} leading battle."/>
     <string id="5pGjYBFn" text="Tribute Received"/>
-    <string id="5siAbi69" text="Mu Torere"/>
+    <string id="5siAbi69" text="Му Торере"/>
     <string id="7pAZatbz" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
     <string id="8mBT44QK" text="Noble of {FACTION}"/>
     <string id="aseraifaction" text="Aserai"/>

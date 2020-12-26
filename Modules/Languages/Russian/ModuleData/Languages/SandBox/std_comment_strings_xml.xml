@@ -142,7 +142,7 @@
     <string id="NmlauVxB" text="Да, продолжай."/>
     <string id="Nq2dyiO1" text="Я {CONVERSATION_CHARACTER.LINK}, из клана {CLAN_NAME}, наш род воспевается во всех стургских сагах."/>
     <string id="nRnbBnFq" text="Я могу идти? Хорошо... Я... {?NPC.GENDER}Благодарна{?}Благодарен{\?} вам.[if:happy][rb:very_positive]"/>
-    <string id="NW1n9k45" text="Кузен."/>
+    <string id="NW1n9k45" text="Кузен"/>
     <string id="o2aKr8JD" text="Я знаю вас, приятно наконец-то познакомиться лично."/>
     <string id="O8wTipT2" text="Спасибо. Когда вы всё таки потерпите поражение, я попрошу, чтобы ваша смерть была быстрой и милосердной. Если вы только не захотите присоединиться к нам... До свидания, счастливо.[if:happy][rb:very_positive]"/>
     <string id="OgzAlCkk" text="Синяки, которые вы мне оставили, всё ещё не прошли."/>

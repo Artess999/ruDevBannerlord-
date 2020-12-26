@@ -33,7 +33,7 @@
     <string id="h5rkbVu3" text="Новым владельцем {SETTLEMENT} является {LORD.LINK}"/>
     <string id="h78oPYTs" text="{INSULTER.LINK} утверждает, что {INSULTEE.LINK} является еретиком"/>
     <string id="hJFCi1zu" text="{FACTION1} и {FACTION2} заключили мир"/>
-    <string id="hopvV6Ch" text="Правитель {FACTION1_NAME} объявляет войну {FACTION2_NAME}"/>
+    <string id="hopvV6Ch" text="{RULER_NAME}, правитель {FACTION1_NAME}, объявляет войну {FACTION2_NAME}"/>
     <string id="hP57Caab" text="{VICTOR_PARTY} из {VICTOR_FACTION} побеждают {DEFEATED_PARTY} из {DEFEATED_FACTION}"/>
     <string id="Jo3Lux3w" text="{HERO_1.LINK} несет ответственность за смерть {HERO_2.LINK}"/>
     <string id="jZcV4gI7" text="{INSULTER.LINK} утверждает, что {INSULTEE.LINK} вызвал неудачу на поле боя, действуя трусливо"/>
