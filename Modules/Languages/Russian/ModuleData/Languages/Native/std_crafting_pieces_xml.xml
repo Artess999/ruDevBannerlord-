@@ -4,6 +4,7 @@
     <tag language="Русский"/>
   </tags>
   <strings>
+    <!--TODO check blunt translation-->
     <string id="03YrcAtx" text="Двуручная кожаная рукоять"/>
     <string id="0gteBOD7" text="Навершие бердыша"/>
     <string id="0kP9bf7n" text="Рукоять серпа"/>
@@ -552,7 +553,7 @@
     <string id="tRJC72Qh" text="Кожаная обернутая рукоять"/>
     <string id="tSaAzzYe" text="Остроконечное узкое лезвие"/>
     <string id="tSgZoxsu" text="Железная усиленная рукоять"/>
-    <string id="tSQbGb4m" text="Дополнительно удлиннённый стержень"/>
+    <string id="tSQbGb4m" text="Дополнительно удлинённый стержень"/>
     <string id="TUbTwW9U" text="Плоское остроконечное лезвие"/>
     <string id="Tui9qvOZ" text="Навершие центуриона"/>
     <string id="U30HpvtI" text="Треугольное железное навершие копья"/>
@@ -677,7 +678,7 @@
     <string id="Zp625kEP" text="Северная деревянная двуручная рукоять"/>
     <string id="ZUp9mm79" text="Зазубренное навершие для копья"/>
     <string id="ZxZ7AJ1r" text="Южное боевое лезвие для топора"/>
-    <string id="27Oaoras" text="Long Blunt Seax Blade"/>
+    <string id="27Oaoras" text="Тупое длинное сикское лезвие"/>
     <string id="5l0PBFAe" text="Iron Flyssa Blunt Blade"/>
     <string id="AlIRh9mz" text="Tapered Blunt Northern Blade"/>
     <string id="c6aNuaDP" text="Jagged Blunt Spear Head"/>

@@ -498,19 +498,19 @@
     <string id="CfjTvLNl" text="Finalize Chat"/>
     <string id="controlgamekey" text="Control"/>
     <string id="deletekey" text="Delete"/>
-    <string id="fldPHfP6" text="Sets the refresh rate of the game."/>
+    <string id="fldPHfP6" text="Устанавливает частоту обновления игры."/>
     <string id="gu2JU5zq" text="Crosshair Type"/>
     <string id="homekey" text="Home"/>
     <string id="JZFXI1LK" text="UI Scale"/>
-    <string id="KGaaYZi1" text="Refresh Rate"/>
-    <string id="MhralfPz" text="Auto"/>
+    <string id="KGaaYZi1" text="Частота обновления"/>
+    <string id="MhralfPz" text="Авто"/>
     <string id="mS1cpD6w" text="Enable mouse while scoreboard is open."/>
     <string id="O9ed2AWr" text="Finalize message if chat box is active. Otherwise, activate chat box."/>
     <string id="PmbKYDON" text="Cheer"/>
     <string id="qmplQd0Q" text="Three Part"/>
     <string id="s5EnYLUp" text="Cheer on click. Open Cheer wheel on hold."/>
     <string id="u6QCWQvu" text="Four Part"/>
-    <string id="USKys6FV" text="Show Mouse"/>
+    <string id="USKys6FV" text="Показать мышь"/>
     <string id="Vea6bRUO" text="Enable interface elements that report players damage and casualities in center bottom."/>
     <string id="vJ41v8zh" text="Friendly Troops Banner Opacity"/>
     <string id="xboxAbutton" text="A Button"/>

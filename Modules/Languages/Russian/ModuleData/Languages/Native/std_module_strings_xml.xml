@@ -1579,16 +1579,17 @@
     <string id="ZXXNrvvg" text="Игрок выигрывает, если у его противника больше не осталось свободных пешек в руке или на доске."/>
     <string id="zyp2VGt4" text="Имеется доступное задание"/>
     <string id="zzUk6ZaA" text="Уйти"/>
-    <string id="0amC7X1h" text="War Declaration"/>
-    <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} leading battle."/>
-    <string id="5pGjYBFn" text="Tribute Received"/>
+    <string id="0amC7X1h" text="Объявление войны"/>
+    <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}возглавляют{?}возглавляет{\?} битву."/>
+    <string id="5pGjYBFn" text="Дань получена"/>
     <string id="5siAbi69" text="Му Торере"/>
-    <string id="7pAZatbz" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
-    <string id="8mBT44QK" text="Noble of {FACTION}"/>
+    <string id="7pAZatbz" text="{?RULER.GENDER}Императрица{?}Император{\?} {RULER.NAME}"/>
+    <string id="8mBT44QK" text="Дворянин {FACTION}"/>
     <string id="aseraifaction" text="Асерай"/>
-    <string id="aseraimembers" text="Aserai"/>
+    <string id="aseraimembers" text="Асераи"/>
+    <!--TODO-->
     <string id="aZrbxdat" text="Hold [{KEY_NAME}] to do all"/>
-    <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}Begum{?}Beg{\?}"/>
+    <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}Бегум{?}Бег{\?}"/>
     <string id="captainasleader" text="Captain"/>
     <string id="d5RAufbd" text="Role"/>
     <string id="dd7Owiys" text="Make Peace with {FACTION}"/>
