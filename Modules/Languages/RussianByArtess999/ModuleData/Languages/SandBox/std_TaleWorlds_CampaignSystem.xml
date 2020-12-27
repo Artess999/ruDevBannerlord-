@@ -2531,7 +2531,7 @@
     <string id="behOnSfK" text="У меня похожая проблема. Спасибо"/>
     <string id="bGbSbqTG" text="Вы принесли припасы?"/>
     <string id="BkFausb8" text="Навык повышает ваш конный урон от одноручного оружия на 5%"/>
-    <string id="bXrpRfcT" text="Пехота получают +2 ежедневного опыта."/>
+    <string id="bXrpRfcT" text="Пехота получает +2 ежедневного опыта."/>
     <string id="daJkC7ZG" text="Ваши очки здоровья повышаются на 2."/>
     <string id="Dd9bwAZL" text="В моих планах было дать вам немного воинов для решения этой задачи, но, похоже, под вашим командованием уже достаточно солдат."/>
     <string id="EfZaCzb0" text="{PLAYER.NAME}, пожалуйста, возвращайтесь в {QUEST_SETTLEMENT}, за вашей наградой."/>
@@ -3474,7 +3474,7 @@
     <string id="L9k4bovO" text="Drill Sergeant"/>
     <string id="L9weGfoX" text="Salea"/>
     <string id="lb0PZ6g8" text="Plague"/>
-    <string id="lB12FYqb" text="Governed settlements gain +1 security per day."/>
+    <string id="lB12FYqb" text="Ваши поселения получают +1 безопасности в день."/>
     <string id="LbaQ9HhN" text="Engineering, you said. Towers, domes and gates are marvels that we must never take for granted."/>
     <string id="lBaw3YAA" text="{SKILL_NAME} ({VALUE})"/>
     <string id="lbGa4ihC" text="Mighty Blow "/>
@@ -3563,7 +3563,7 @@
     <string id="mn5tQhyp" text="Counter Offensive"/>
     <string id="mNEljmbo" text="Random Event"/>
     <string id="MNQIIjLn" text="Fraichin"/>
-    <string id="MNuEtdvb" text="Increase garrison limit in the governed settlement by 30."/>
+    <string id="MNuEtdvb" text="Размер гарнизона ваших поселений повышается на 30."/>
     <string id="MofEdLXo" text="For as long as you can remember, your child asked you about the will of the Heavens and the duty of mankind. {?CHILD.GENDER}She{?}He{\?} could deliver a sermon on righteousness and justice that would stir even the most cynical audience."/>
     <string id="MoHbMLEa" text="Tier 2+ troops are recruited 20% cheaper"/>
     <string id="MOITVVNu" text="Aiming with your bow is 25% faster."/>
@@ -3663,7 +3663,7 @@
     <string id="Ov3b2b8p" text="I'll can help out myself."/>
     <string id="oVdoauUE" text="Skirmish Phase Master"/>
     <string id="ovnN3a4u" text="...rode very far afield"/>
-    <string id="oxqZJ0s9" text="Governed settlements gain 0.5 security per day."/>
+    <string id="oxqZJ0s9" text="Ваши поселения получают 0,5 безопасности в день."/>
     <string id="OY0Jwctd" text="Troops in your formation cause 10% more morale penalty when they kill an enemy"/>
     <string id="Oy5dH7gZ" text="Elea"/>
     <string id="oYJz4V0s" text="Governed settlements have increased militia recruitment by 0.5 per day."/>
@@ -3868,7 +3868,7 @@
     <string id="sqC0sWl4" text="Recruited troops start with bonus experience of 200 xp"/>
     <string id="SRncaw79" text="Urios"/>
     <string id="SSb6YmFa" text="You made sure that the artisan taught your child the basics of smithing, fletching and pole-turning, and that men who work with their hands take pride in their work."/>
-    <string id="sSTCcoiT" text="Garrison wages in the governed settlement reduced by 5%."/>
+    <string id="sSTCcoiT" text="Жалование гарнизона в ваших поселениях уменьшено на 5%"/>
     <string id="sUfSCLQx" text="Sadly, I've heard no news of an upcoming tournament. I am sure one will be held before too long."/>
     <string id="swggGckO" text="+1 party"/>
     <string id="SyuxD1aY" text="You delivered the prisoners to {QUEST_GIVER.LINK} as promised and you shared half of the profit with the headman and the villagers."/>
