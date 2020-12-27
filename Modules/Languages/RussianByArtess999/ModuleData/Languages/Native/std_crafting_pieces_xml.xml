@@ -485,7 +485,7 @@
     <string id="q7jHkLam" text="Чеканное узкое лезвие для меча"/>
     <string id="Q9Gfv68h" text="Двуручная сабельная рукоять"/>
     <string id="qbYoAvs6" text="Перевязанная кожаная одноручная рукоять"/>
-    <string id="QCE1sAu3" text="Широкое лезвие для меча"/>
+    <string id="QCE1sAu3" text="Лезвие палаша"/>
     <string id="QH0oIiIz" text="Длинное широкое кинжальное лезвие"/>
     <string id="QIo60ZKh" text="Чеканное длинное лезвие для меча"/>
     <string id="qjxXq3P5" text="Гравированная кинжальная гарда горцев"/>
@@ -614,7 +614,7 @@
     <string id="WXBkfAbb" text="Угловая северная гарда для кинжала"/>
     <string id="WxnqOG8s" text="Широкая вогнутая гарда"/>
     <string id="wXUjru6o" text="Широкая гарда для сабли"/>
-    <string id="X7OrRebK" text="Узкое лезвие "/>
+    <string id="X7OrRebK" text="Узкое лезвие спаты"/>
     <string id="xb6e2YaV" text="Восточная простая овальная гарда"/>
     <string id="XbaFle0M" text="Восточный кончик для копья"/>
     <string id="xbazdytG" text="Стальная двуручная рукоять"/>
@@ -680,20 +680,20 @@
     <string id="ZxZ7AJ1r" text="Южное боевое лезвие для топора"/>
     <string id="27Oaoras" text="Тупое длинное сикское лезвие"/>
     <string id="5l0PBFAe" text="Тупое железное лезвие флиссы"/>
-    <string id="AlIRh9mz" text="Tapered Blunt Northern Blade"/>
-    <string id="c6aNuaDP" text="Jagged Blunt Spear Head"/>
-    <string id="dNk7UZVD" text="Fullered Narrow Blunt Arming Sword Blade"/>
-    <string id="EjJl6bA4" text="Blunt Bill Head"/>
-    <string id="GFBFgA7R" text="Broad Blunt Dagger Blade"/>
-    <string id="HbCb0T6W" text="Blunt Broadsword Blade"/>
-    <string id="hbv5aCRX" text="Short Simple Blunt Spear Head"/>
-    <string id="lz8rSkzE" text="Thick Blunt Sabre Blade"/>
-    <string id="M9ACQeD6" text="Large Blunt Ascia Head"/>
-    <string id="NkV2CAmL" text="Iron Blunt Scimitar Blade"/>
-    <string id="NRhAqB5a" text="Long Grassland Blunt Spear"/>
-    <string id="nsjbWcmp" text="Narrow Blunt Sparth Blade"/>
-    <string id="oXXWEUYY" text="Iron Blunt Broadsword Blade"/>
-    <string id="pAqWQWJs" text="Blunt Kontarion"/>
+    <string id="AlIRh9mz" text="Тупое коническое северное лезвие"/>
+    <string id="c6aNuaDP" text="Тупое зазубренное навершие для копья"/>
+    <string id="dNk7UZVD" text="Тупое чеканное узкое лезвие для меча"/>
+    <string id="EjJl6bA4" text="Тупое навершие для билля"/>
+    <string id="GFBFgA7R" text="Тупое широкое лезвие для кинжала"/>
+    <string id="HbCb0T6W" text="Тупое лезвие палаша"/>
+    <string id="hbv5aCRX" text="Тупое короткое легкое навершие для копья"/>
+    <string id="lz8rSkzE" text="Тупое толстое лезвие для сабли"/>
+    <string id="M9ACQeD6" text="Тупое большое аскийское навершие"/>
+    <string id="NkV2CAmL" text="Тупое железное лезвие для скимитара"/>
+    <string id="NRhAqB5a" text="Тупой длинный наконечник"/>
+    <string id="nsjbWcmp" text="Тупое узкое лезвие спаты"/>
+    <string id="oXXWEUYY" text="Тупое железное лезвие палаша"/>
+    <string id="pAqWQWJs" text="Тупой контарион"/>
     <string id="PmPxx2gK" text="Bent Razor Head"/>
     <string id="pnS90zg8" text="Flat Ridged Blunt Spatha Blade"/>
     <string id="Wn4GjoXY" text="Square Bit Blunt Two Handed Axe Head"/>
