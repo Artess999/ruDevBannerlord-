@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
 	<Name value = "Russian by Artess999"/>
-	<Id value = "Russian"/>
+	<Id value = "RussianByArtess999"/>
 	<Version value = "e1.0.0"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
