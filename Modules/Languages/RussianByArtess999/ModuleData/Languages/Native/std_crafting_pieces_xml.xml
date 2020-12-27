@@ -4,7 +4,6 @@
     <tag language="Русский"/>
   </tags>
   <strings>
-    <!--TODO check blunt translation-->
     <string id="03YrcAtx" text="Двуручная кожаная рукоять"/>
     <string id="0gteBOD7" text="Навершие бердыша"/>
     <string id="0kP9bf7n" text="Рукоять серпа"/>
@@ -695,7 +694,7 @@
     <string id="oXXWEUYY" text="Затупленное железное лезвие палаша"/>
     <string id="pAqWQWJs" text="Затупленный контарион"/>
     <string id="PmPxx2gK" text="Изогнутое заостренное навершие"/>
-    <string id="pnS90zg8" text="Плоское затупленное лезвие спаты"/>
+    <string id="pnS90zg8" text="Затупленное плоское лезвие спаты"/>
     <string id="Wn4GjoXY" text="Затупленное навершие для двуручного топора"/>
     <string id="X1FY4VYe" text="Кузнечное навершие от молота"/>
   </strings>
