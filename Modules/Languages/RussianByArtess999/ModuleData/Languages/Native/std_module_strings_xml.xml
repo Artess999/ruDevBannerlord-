@@ -708,7 +708,7 @@
     <string id="icmyseoo" text="Милорд"/>
     <string id="IcQ2doLo" text="x{QUANTITY}"/>
     <string id="id62me1x" text="Нажмите &quot;Осаждать&quot;"/>
-    <string id="IdUKVyoF" text="{ERO.FIRSTNAME} {JOB_NAME}"/>
+    <string id="IdUKVyoF" text="{HERO.FIRSTNAME} {JOB_NAME}"/>
     <string id="IF7zS5ia" text="Вы превысили лимит пленных!{newline}Вы сможете некоторое время с ними совладать, но вскоре некоторые из них начнут сбегать. Кроме того, скорость передвижения отряда будет снижена.{newline}Вы уверены?"/>
     <string id="iFg5N7r3" text="Одноручное оружие"/>
     <string id="Igoid3sR" text="Предложить изгнать этот клан из королевства ({SUPPORT}%)"/>
