@@ -218,7 +218,7 @@
     <string id="Dsf9JE8N" text="Деревянный крючок"/>
     <string id="dTkiV4i6" text="Навершие 'Рыбацкая лодка'"/>
     <string id="dtSrK9bs" text="Широкое сикское лезвие"/>
-    <string id="DVe5SkQA" text="Обоюдоострый кончик в виде ромба"/>
+    <string id="DVe5SkQA" text="Обоюдоострые 'крылья' в виде ромба"/>
     <string id="dvm8sTr9" text="Деревянное навершие"/>
     <string id="DXLlcbf9" text="Ясеневый стержень для джавелина"/>
     <string id="dXRt8jY4" text="Удлиненный наконечник пики"/>
@@ -250,7 +250,7 @@
     <string id="fOrRdtNK" text="Малое навершие для топорика"/>
     <string id="fRVQzcoY" text="Грубая обтянутая кожей одноручная рукоять"/>
     <string id="Ft5A2Eb4" text="Восточная покрытая кожей усиленная двуручная рукоять"/>
-    <string id="ftwNaFZh" text="Кончик в виде крюка"/>
+    <string id="ftwNaFZh" text="'Крылья' в виде крюка"/>
     <string id="FxCfO3zN" text="Железная усиленная рукоять для булавы"/>
     <string id="FyaygeEx" text="Дубина с набалдашником"/>
     <string id="g2r3QKOB" text="Южное малое навершие для топора"/>
@@ -554,7 +554,7 @@
     <string id="tSaAzzYe" text="Остроконечное узкое лезвие"/>
     <string id="tSgZoxsu" text="Железная усиленная рукоять"/>
     <string id="tSQbGb4m" text="Дополнительно удлинённый стержень"/>
-    <string id="TUbTwW9U" text="Плоское остроконечное лезвие"/>
+    <string id="TUbTwW9U" text="Плоское остроконечное лезвие спаты"/>
     <string id="Tui9qvOZ" text="Навершие центуриона"/>
     <string id="U30HpvtI" text="Треугольное железное навершие копья"/>
     <string id="u89rP5qY" text="Широкое навершие"/>
@@ -578,11 +578,11 @@
     <string id="v22onVb2" text="Легкое остроконечное лезвие"/>
     <string id="V3JMuFEg" text="Плотная рукоять для булавы"/>
     <string id="V6YQykoc" text="Гравированная гарда для кинжала"/>
-    <string id="V9Kbq6vj" text="Часть для практики"/>
+    <string id="V9Kbq6vj" text="Затупленный наконечник для практики"/>
     <string id="VbpiYB68" text="Украшенное чеканное широкое лезвие"/>
     <string id="VccYBtB0" text="Северное навершие"/>
     <string id="VeHazKzb" text="Деревянная рукоять с кожаной обтяжкой"/>
-    <string id="Vf2wKojF" text="Длинный кончик"/>
+    <string id="Vf2wKojF" text="Затупленное 'Крыло'"/>
     <string id="VfzFTGd8" text="Малое круглое навершие"/>
     <string id="vGda3CNV" text="Украшенное золотом и кожей рукоять меча"/>
     <string id="VgMDYLje" text="Грубая кожаная рукоять"/>
@@ -623,7 +623,7 @@
     <string id="XI5QgznO" text="Коническая гарда"/>
     <string id="xJaVK4D0" text="Кончик развернутый в обратную сторону"/>
     <string id="xKGpbQjJ" text="Длинный стержень с кожаными участками"/>
-    <string id="Xo7l8eae" text="Грубое Лезвие"/>
+    <string id="Xo7l8eae" text="Затупленное лезвие"/>
     <string id="xoSaQWhX" text="Западная закругленная гарда"/>
     <string id="XSabsFbx" text="Утяжеленное навершие для пики"/>
     <string id="XtneitaD" text="Добротное стальное лезвие"/>
@@ -678,25 +678,25 @@
     <string id="Zp625kEP" text="Северная деревянная двуручная рукоять"/>
     <string id="ZUp9mm79" text="Зазубренное навершие для копья"/>
     <string id="ZxZ7AJ1r" text="Южное боевое лезвие для топора"/>
-    <string id="27Oaoras" text="Тупое длинное сикское лезвие"/>
-    <string id="5l0PBFAe" text="Тупое железное лезвие флиссы"/>
-    <string id="AlIRh9mz" text="Тупое коническое северное лезвие"/>
-    <string id="c6aNuaDP" text="Тупое зазубренное навершие для копья"/>
-    <string id="dNk7UZVD" text="Тупое чеканное узкое лезвие для меча"/>
-    <string id="EjJl6bA4" text="Тупое навершие для билля"/>
-    <string id="GFBFgA7R" text="Тупое широкое лезвие для кинжала"/>
-    <string id="HbCb0T6W" text="Тупое лезвие палаша"/>
-    <string id="hbv5aCRX" text="Тупое короткое легкое навершие для копья"/>
-    <string id="lz8rSkzE" text="Тупое толстое лезвие для сабли"/>
-    <string id="M9ACQeD6" text="Тупое большое аскийское навершие"/>
-    <string id="NkV2CAmL" text="Тупое железное лезвие для скимитара"/>
-    <string id="NRhAqB5a" text="Тупой длинный наконечник"/>
-    <string id="nsjbWcmp" text="Тупое узкое лезвие спаты"/>
-    <string id="oXXWEUYY" text="Тупое железное лезвие палаша"/>
-    <string id="pAqWQWJs" text="Тупой контарион"/>
-    <string id="PmPxx2gK" text="Bent Razor Head"/>
-    <string id="pnS90zg8" text="Flat Ridged Blunt Spatha Blade"/>
-    <string id="Wn4GjoXY" text="Square Bit Blunt Two Handed Axe Head"/>
-    <string id="X1FY4VYe" text="Smith Hammer Head"/>
+    <string id="27Oaoras" text="Затупленное длинное сикское лезвие"/>
+    <string id="5l0PBFAe" text="Затупленное железное лезвие флиссы"/>
+    <string id="AlIRh9mz" text="Затупленное коническое северное лезвие"/>
+    <string id="c6aNuaDP" text="Затупленное зазубренное навершие для копья"/>
+    <string id="dNk7UZVD" text="Затупленное чеканное узкое лезвие для меча"/>
+    <string id="EjJl6bA4" text="Затупленное навершие для билля"/>
+    <string id="GFBFgA7R" text="Затупленное широкое лезвие для кинжала"/>
+    <string id="HbCb0T6W" text="Затупленное лезвие палаша"/>
+    <string id="hbv5aCRX" text="Затупленное короткое легкое навершие для копья"/>
+    <string id="lz8rSkzE" text="Затупленное толстое лезвие для сабли"/>
+    <string id="M9ACQeD6" text="Затупленное большое аскийское навершие"/>
+    <string id="NkV2CAmL" text="Затупленное железное лезвие для скимитара"/>
+    <string id="NRhAqB5a" text="Затупленный длинный наконечник"/>
+    <string id="nsjbWcmp" text="Затупленное узкое лезвие спаты"/>
+    <string id="oXXWEUYY" text="Затупленное железное лезвие палаша"/>
+    <string id="pAqWQWJs" text="Затупленный контарион"/>
+    <string id="PmPxx2gK" text="Изогнутое заостренное навершие"/>
+    <string id="pnS90zg8" text="Плоское затупленное лезвие спаты"/>
+    <string id="Wn4GjoXY" text="Затупленное навершие для двуручного топора"/>
+    <string id="X1FY4VYe" text="Кузнечное навершие от молота"/>
   </strings>
 </base>
