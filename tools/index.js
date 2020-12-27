@@ -3,8 +3,15 @@ const path = require('path');
 const convert = require('xml-js');
 const cloneDeep = require('lodash.clonedeep');
 
-const TRANSLATION_PATH = path.resolve(__dirname, '../Modules/Languages/RussianByArtess999/ModuleData/Languages/');
-const SOURCE_PATH = path.resolve(__dirname, '../Modules/Languages/RussianByCommando.com.ua/ModuleData/Languages/');
+const DIRECTORIES = {
+    ARTESS999: '../Modules/Languages/RussianByArtess999/ModuleData/Languages/',
+    DOG729: '../Modules/Languages/Russian/ModuleData/Languages/',
+    COMMANDO: '../Modules/Languages/RussianByCommando.com.ua/ModuleData/Languages/',
+    EN: '../Obects/Languages/en/ModuleData/Languages/',
+}
+
+const TRANSLATION_PATH = path.resolve(__dirname, DIRECTORIES.ARTESS999);
+const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.COMMANDO);
 const RESULTS_PATH = path.resolve(__dirname, './results/');
 
 const convertToJsOptions = {
