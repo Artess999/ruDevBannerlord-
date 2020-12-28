@@ -490,6 +490,7 @@
     <string id="zwL5NFAr" text="Insert"/>
     <string id="zxMOqlhs" text="Атаковать"/>
     <string id="zzonsjpL" text="Высоко (512)"/>
+    <!--TODO-->
     <string id="2EnLU2ZC" text="Change UI Scaling"/>
     <string id="9bHr3oNj" text="Crosshair that shows when using a ranged weapon."/>
     <string id="ACIFg43o" text="Choose how to perform blocks. Auto will default to &quot;By Mouse Movement&quot; in Multiplayer."/>
@@ -513,30 +514,30 @@
     <string id="USKys6FV" text="Показать мышь"/>
     <string id="Vea6bRUO" text="Enable interface elements that report players damage and casualities in center bottom."/>
     <string id="vJ41v8zh" text="Friendly Troops Banner Opacity"/>
-    <string id="xboxAbutton" text="A Button"/>
-    <string id="xboxBackButton" text="Back Button"/>
-    <string id="xboxBbutton" text="B Button"/>
-    <string id="xboxDpadDown" text="D-pad Down"/>
-    <string id="xboxDpadLeft" text="D-pad Left"/>
-    <string id="xboxDpadRight" text="D-pad Right"/>
-    <string id="xboxDpadUp" text="D-pad Up"/>
-    <string id="xboxLeftBumper" text="Left Bumper"/>
-    <string id="xboxLeftStick" text="Left Stick"/>
-    <string id="xboxLeftStickDown" text="Left Stick Down"/>
-    <string id="xboxLeftStickLeft" text="Left Stick Left"/>
-    <string id="xboxLeftStickRight" text="Left Stick Right"/>
-    <string id="xboxLeftStickUp" text="Left Stick Up"/>
-    <string id="xboxLeftTrigger" text="Left Trigger"/>
-    <string id="xboxRightBumper" text="Right Bumper"/>
-    <string id="xboxRightStick" text="Right Stick"/>
-    <string id="xboxRightStickDown" text="Right Stick Down"/>
-    <string id="xboxRightStickLeft" text="Right Stick Left"/>
-    <string id="xboxRightStickRight" text="Right Stick Right"/>
-    <string id="xboxRightStickUp" text="Right Stick Up"/>
-    <string id="xboxRightTrigger" text="Right Trigger"/>
-    <string id="xboxStartButton" text="Start Button"/>
-    <string id="xboxXbutton" text="X Button"/>
-    <string id="xboxYbutton" text="Y Button"/>
+    <string id="xboxAbutton" text="Кнопка A"/>
+    <string id="xboxBackButton" text="Кнопка назад"/>
+    <string id="xboxBbutton" text="Кнопка B"/>
+    <string id="xboxDpadDown" text="D-pad вниз"/>
+    <string id="xboxDpadLeft" text="D-pad влево"/>
+    <string id="xboxDpadRight" text="D-pad вправо"/>
+    <string id="xboxDpadUp" text="D-pad вверх"/>
+    <string id="xboxLeftBumper" text="Левый бампер"/>
+    <string id="xboxLeftStick" text="Левый стик"/>
+    <string id="xboxLeftStickDown" text="Левый стик вниз"/>
+    <string id="xboxLeftStickLeft" text="Левый стик влево"/>
+    <string id="xboxLeftStickRight" text="Левый стик вправо"/>
+    <string id="xboxLeftStickUp" text="Левый стик вверх"/>
+    <string id="xboxLeftTrigger" text="Левый триггер"/>
+    <string id="xboxRightBumper" text="Правый бампер"/>
+    <string id="xboxRightStick" text="Правый стик"/>
+    <string id="xboxRightStickDown" text="Правый стик вниз"/>
+    <string id="xboxRightStickLeft" text="Правый стик влево"/>
+    <string id="xboxRightStickRight" text="Правый стик вправо"/>
+    <string id="xboxRightStickUp" text="Правый стик вверх"/>
+    <string id="xboxRightTrigger" text="Правый триггер"/>
+    <string id="xboxStartButton" text="Кнопка Старт"/>
+    <string id="xboxXbutton" text="Кнопка X"/>
+    <string id="xboxYbutton" text="Кнопка Y"/>
     <string id="z6ezjlkX" text="Shift"/>
     <string id="ZKg3DqbQ" text="Determines the opacity of the banners shown on top of the friendly troops."/>
   </strings>
