@@ -353,7 +353,7 @@
     <string id="8EsaVlSX" text="Isle of Deriad"/>
     <string id="8vXHhxPr" text="Toggle AI"/>
     <string id="aALNy4Es" text="Streets of Syllianon"/>
-    <string id="captainasgame" text="Captain"/>
+    <string id="captainasgame" text="Капитан"/>
     <string id="cSui4APH" text="Objective Destroyed"/>
     <string id="d1ogH1v1" text="Tsagaan Castle"/>
     <string id="EZRnvPJS" text="Face This Direction"/>
@@ -367,8 +367,8 @@
     <string id="KiJd6Xik" text="Movement"/>
     <string id="Lz6ggWch" text="Damage reduction from perks and effects: {MODIFIED_DAMAGE}"/>
     <string id="MnvK3eK2" text="Objective Completed"/>
-    <string id="mountnoun" text="Mount"/>
-    <string id="mountverb" text="Mount"/>
+    <string id="mountnoun" text="Конь"/>
+    <string id="mountverb" text="Оседлать"/>
     <string id="NdQZWHIy" text="·   Lead your own detachment of troops{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win"/>
     <string id="nx5W7jN0" text="Received braced polearm damage!"/>
     <string id="O5uDFhwu" text="Castle of fen Altai"/>

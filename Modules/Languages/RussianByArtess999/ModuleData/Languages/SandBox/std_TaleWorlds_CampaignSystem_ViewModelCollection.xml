@@ -306,7 +306,8 @@
     <string id="zWaCtOJU" text="{SETTLEMENTS}"/>
     <string id="zWaVxD6T" text="Скорость отряда"/>
     <string id="zZlWRZjO" text="Войны"/>
-    <string id="0mqdFC2x" text="Weapon Crafted!"/>
+    <string id="0mqdFC2x" text="Оружие изготовлено!"/>
+    <!--TODO-->
     <string id="2htkK82b" text="Available cultures are limited to the clan's culture as well as any owned settlements' cultures."/>
     <string id="2lFwF07j" text="Change Name"/>
     <string id="3PzgpFGq" text="Neutral"/>
@@ -314,7 +315,7 @@
     <string id="a4GDfSel" text="Reset Tutorials"/>
     <string id="BqLsZhhr" text="Select an item to refine"/>
     <string id="BV5exuPf" text="Remove From Bookmarks"/>
-    <string id="c6BtCIrX" text="{DAYS} days ago"/>
+    <string id="c6BtCIrX" text="{DAYS} дней назад"/>
     <string id="cJmI2poS" text="Info"/>
     <string id="d8jrv3nA" text="Add To Bookmarks"/>
     <string id="dD3kRDHi" text="This hero is a fugitive and running from their captors. They will will be available after some time."/>
@@ -341,7 +342,7 @@
     <string id="RuaA8t97" text="Kingdom Name"/>
     <string id="rUeWBOOi" text="Select an item to smelt"/>
     <string id="rwKBR4NE" text="Average Days Until Food Runs Out"/>
-    <string id="ScDj827c" text="Initial Capital"/>
+    <string id="ScDj827c" text="Стартовый капитал"/>
     <string id="tLh0VqN3" text="Choose Your Kingdom Culture"/>
     <string id="tYz4D8Or" text="Prisoner"/>
     <string id="uQgNPJnc" text="Manage Troops"/>

@@ -58,8 +58,8 @@
     <string id="y8WlfdqZ" text="{LORD.LINK}"/>
     <string id="yUaE3eeX" text="{SETTLEMENT} очищено"/>
     <string id="ZQ0bn7l7" text="{HERO_1} несёт ответственность за смерть {HERO_2}"/>
-    <string id="3aYSoETE" text="{MOTHER.LINK} has given birth to a healthy baby."/>
-    <string id="hbWhfoWH" text="{SETTLEMENT} is raided by {LORD.LINK} of the {FACTION_NAME}"/>
-    <string id="nbVW2cJ8" text="{SETTLEMENT} is raided by the army led by {LORD.LINK} of the {FACTION_NAME}"/>
+    <string id="3aYSoETE" text="{MOTHER.LINK} родила здорового ребенка."/>
+    <string id="hbWhfoWH" text="{LORD.LINK} из {FACTION_NAME} устраивает набег на {SETTLEMENT}"/>
+    <string id="nbVW2cJ8" text="Армия по управлением {LORD.LINK} из {FACTION_NAME} устраивает набег на {SETTLEMENT}"/>
   </strings>
 </base>

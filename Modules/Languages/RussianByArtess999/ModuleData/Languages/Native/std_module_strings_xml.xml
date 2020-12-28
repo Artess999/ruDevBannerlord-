@@ -1614,9 +1614,9 @@
     <string id="forgeverb" text="Ковать"/>
     <string id="fQ2RLaOa" text="Clan Does Not Own Any Fiefs"/>
     <string id="G5yvspkZ" text="Can't retreat, duel is ongoing!"/>
-    <string id="gamefinance" text="Finance"/>
+    <string id="gamefinance" text="Финансы"/>
     <string id="giftverb" text="Подарок"/>
-    <string id="GmcgoiGy" text="Trade"/>
+    <string id="GmcgoiGy" text="Торговать"/>
     <string id="guardnoun" text="Стражник"/>
     <string id="h8Bcd7NE" text="{FACTION} Ruler Election"/>
     <string id="homesettlement" text="Дом"/>
@@ -1632,7 +1632,7 @@
     <string id="LJ6Krlbr" text="Scouting"/>
     <string id="lockverb" text="Lock"/>
     <string id="lqm9PfF1" text="{?RULER.GENDER}Knyaginya{?}Knyaz{\?} {RULER.NAME}"/>
-    <string id="mountnoun" text="Mount"/>
+    <string id="mountnoun" text="Конь"/>
     <string id="NaAA5kjG" text="Consider making peace, receiving {TRIBUTE} tribute/day. (Support: {SUPPORT}%)"/>
     <string id="nAaT19CC" text="{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}"/>
     <string id="NbgeKwVr" text="Workshops"/>

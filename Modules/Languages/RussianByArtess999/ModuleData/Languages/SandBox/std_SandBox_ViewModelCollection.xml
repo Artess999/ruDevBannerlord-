@@ -49,8 +49,8 @@
     <string id="xzzSaN4b" text="Ожидаемо: {OVERALL_EXPECTED_DENARS}"/>
     <string id="yF5fpwNE" text="Всего: {TOTAL}"/>
     <string id="YgyHVu8S" text="Продано"/>
-    <string id="deleteaction" text="Delete"/>
-    <string id="nVGqjtaa" text="Campaign {ID}"/>
-    <string id="uncategorized_save" text="Uncategorized"/>
+    <string id="deleteaction" text="Удалить"/>
+    <string id="nVGqjtaa" text="Кампания {ID}"/>
+    <string id="uncategorized_save" text="Без категории"/>
   </strings>
 </base>
