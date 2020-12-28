@@ -11,7 +11,7 @@ const DIRECTORIES = {
 }
 
 const TRANSLATION_PATH = path.resolve(__dirname, DIRECTORIES.ARTESS999);
-const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.COMMANDO);
+const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.EN);
 const RESULTS_PATH = path.resolve(__dirname, './results/');
 
 const convertToJsOptions = {
@@ -47,6 +47,7 @@ folders.forEach((folder) => {
 
             const translationStrings = translationJs.base[0].strings[0].string;
             const sourceStrings = sourceJs.base[0].strings[0].string;
+            const resultsStrings = cloneDeep(translationStrings);
 
             const rudiments = translationStrings.filter(({_attributes}) => {
                 const { id } = _attributes;
@@ -69,6 +70,19 @@ folders.forEach((folder) => {
 
                 return isAbsent;
             });
+
+            const results = resultsStrings
+                .filter(({_attributes}) => {
+                    const { id } = _attributes;
+
+                    const isRudiment = !!rudiments.find(({_attributes}) => {
+                        const { id: rudimentId } = _attributes;
+                        return rudimentId === id;
+                    });
+
+                    return !isRudiment;
+                })
+                .concat(absents);
 
             if (!fs.existsSync(resultsPath)){
                 fs.mkdirSync(resultsPath);
@@ -114,6 +128,25 @@ folders.forEach((folder) => {
                 const rudimentsXml = convert.js2xml(rudimentsJs, convertToXmlOptions);
 
                 fs.writeFile(path.resolve(resultsFolderPath, file), rudimentsXml, function (err,data) {
+                    if (err) {
+                        return console.log(err);
+                    }
+                });
+            }
+
+            if (results.length > 0) {
+                const resultsFolderPath = path.resolve(resultsPath, folder);
+
+                if (!fs.existsSync(resultsFolderPath)){
+                    fs.mkdirSync(resultsFolderPath);
+                }
+
+                const resultsJs = cloneDeep(translationJs);
+                resultsJs.base[0].strings[0].string = results;
+
+                const resultsXml = convert.js2xml(resultsJs, convertToXmlOptions);
+
+                fs.writeFile(path.resolve(resultsFolderPath, file), resultsXml, function (err,data) {
                     if (err) {
                         return console.log(err);
                     }
