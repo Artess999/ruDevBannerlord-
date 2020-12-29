@@ -2565,6 +2565,7 @@
     <string id="z9pbB0K5" text="Вы успешно доставили припасы."/>
     <string id="ZR4RJdYS" text="Хм, звучит интересно..."/>
     <string id="Zs6L1aBL" text="Извиняюсь, меня это не интересует"/>
+    <!--TODO-->
     <string id=" VbU8Ue0O" text="After waiting for a while you find a good opportunity to close in undetected beneath the shroud of the night."/>
     <string id="00DQxO0Q" text="Training for adult life starts early for a child in Calradia. Every child will be assigned tutors and instructors throughout their childhood, and frequently one of them becomes a mentor for the child, filling in for parents who are busy with warfare and politics. You entrusted {CHILD.NAME} first and foremost to..."/>
     <string id="028iCb8B" text="Jythea"/>
@@ -3137,7 +3138,7 @@
     <string id="EaWTL62H" text="Your child was placed in command of a small group of militiamen, including some nearly twice his age, and earned their respect"/>
     <string id="Eazyj0P8" text="Troops deal 10% more damage in simulations in snow and forest terrain."/>
     <string id="EbFK5HXY" text="Infantry troops in the formation you are leading increase their damage by 2% and movement speed 2%."/>
-    <string id="ebNpaCDk" text="Bulba"/>
+    <string id="ebNpaCDk" text="Бульба"/>
     <string id="EbRDo6Lv" text="A hunter should be able to endure long treks over rough ground and pursue a wounded quarry until it drops."/>
     <string id="EbROfVJJ" text="Uplifting Spirit"/>
     <string id="EbSw2vj0" text="Increase mounted infantry campaign speed by 30%."/>
@@ -3145,8 +3146,8 @@
     <string id="EDEr2AtI" text="To find his own way"/>
     <string id="EDWcOdGI" text="Garrison wages are decreased by 20% for castles."/>
     <string id="EeHDUxf8" text="Increase your armor by 10% while on foot."/>
-    <string id="EGatdCLg" text="Alena"/>
-    <string id="egCbjHDT" text="Semnon"/>
+    <string id="EGatdCLg" text="Алёна"/>
+    <string id="egCbjHDT" text="Земнон"/>
     <string id="eGQtREii" text="The {CUNNING_PROFESSION}"/>
     <string id="EhaMPtRX" text="Encirclement"/>
     <string id="EHBkdRfV" text="Mounted Archers your formation gain +30 Bow skill."/>
@@ -4216,12 +4217,12 @@
     <string id="zQ2Ir1yM" text="If you start battle mounted you have +2 ammunition for throwing weapons."/>
     <string id="ZqRMPC7F" text="20% decrease in sell price penalty for food trade goods."/>
     <string id="zrc7fHf2" text="{QUEST_GIVER.LINK}'s village {QUEST_SETTLEMENT} was raided. Your agreement with {QUEST_GIVER.LINK} is canceled."/>
-    <string id="zrcxmEEG" text="Mleza"/>
+    <string id="zrcxmEEG" text="Млеза"/>
     <string id="zrYFYDfj" text="Surging Blow"/>
     <string id="zUK9JOlb" text="Law Keeper"/>
     <string id="ZUZKUe00" text="Playing board games"/>
     <string id="ZwOiAal9" text="...joined a hunting party"/>
-    <string id="zxZH2WbD" text="Zimena"/>
+    <string id="zxZH2WbD" text="Зимена"/>
     <string id="ZyeIno52" text="Increase escape chance by 30% from mobile parties"/>
     <string id="zYKeYZAo" text="All right. Don't rush this but also don't wait too long."/>
     <string id="ZZ7Q3VOG" text="Thank you my {?PLAYER.GENDER}lady{?}lord{\?}. I am indeed honored."/>
