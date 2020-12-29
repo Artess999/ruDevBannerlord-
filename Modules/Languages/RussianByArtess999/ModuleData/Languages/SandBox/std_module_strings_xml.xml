@@ -50,10 +50,10 @@
     <!--TODO-->
     <string id="9l5RgXiU" text="Choose if circle map notifications will be shown on the right side on campaign map."/>
     <string id="aEnXxe0a" text="Вы можете удерживать клавишу {LEAVE_AREA_KEY}, чтобы покинуть текущую область."/>
-    <string id="HMFb1gaq" text="Egalitarian"/>
-    <string id="hR6Zo6pD" text="Oligarchic"/>
-    <string id="lfDzgLTa" text="{PROFESSION} in {LOCATION}"/>
-    <string id="NaMPa4ML" text="Authoritarian"/>
+    <string id="HMFb1gaq" text="Эгалитарный"/>
+    <string id="hR6Zo6pD" text="Олигархический"/>
+    <string id="lfDzgLTa" text="{PROFESSION} в {LOCATION}"/>
+    <string id="NaMPa4ML" text="Авторитарный"/>
     <string id="SrkDqNdb" text="Enable Tutorial Popups"/>
     <string id="t47EzcbW" text="Enable Tutorial"/>
     <string id="veterandifficulty" text="Ветеран"/>
