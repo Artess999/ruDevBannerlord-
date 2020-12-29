@@ -192,14 +192,14 @@
     <string id="ZtKJgiRv" text="Предоставляет Дротики — хороши для изнурения, могут быть использованы в ближнем бою."/>
     <string id="zv9NXIZR" text="Обеспечивает вашего коня бронёй."/>
     <string id="ZvMcHde3" text="Кирка"/>
-    <string id="ZZ9p2E2g" text="Заменяет Щит на a усиленный Щит с повышенной износостойкостью."/>
-    <string id="C9ufRSsL" text="Sword and Shield"/>
-    <string id="DKsZqR8p" text="Replaces Pickaxe with Highland Two Handed Sword, effective at dueling and thrusting, two handed."/>
-    <string id="FfpqIuV8" text="Replaces Voulge with a Sword and Shield combination. Grants versatility and protection."/>
-    <string id="MnmUBlbL" text="Targe"/>
-    <string id="qENFMPqP" text="Grants Throwing Spear, longer than spears, throwable, can be used in melee."/>
-    <string id="QR4bNj8H" text="Grants Cavalry version of Menavlion."/>
-    <string id="r1Jp5c72" text="Grants a Pilum, longer, good for harrassing, can be used in melee."/>
-    <string id="rkqaCud5" text="Pilum"/>
+    <string id="ZZ9p2E2g" text="Заменяет Щит на усиленный Щит с повышенной износостойкостью."/>
+    <string id="C9ufRSsL" text="Меч и щит"/>
+    <string id="DKsZqR8p" text="Заменяет кирку на двуручный меч горцев. Эффективен во время дуэлей и нанесения колющих ударов."/>
+    <string id="FfpqIuV8" text="Заменяет Вульж на Щит и Меч. Обеспечивает подвижность и защиту."/>
+    <string id="MnmUBlbL" text="Тарджет"/>
+    <string id="qENFMPqP" text="Предоставляет Метательное Копье. Оно длиннее обычных копий, его можно метать, и оно может быть использовано в ближнем бою."/>
+    <string id="QR4bNj8H" text="Предоставляет кавалерийскую версию Менавлиона."/>
+    <string id="r1Jp5c72" text="Предоставляет Пилум. Он длиннее обычного копья, хорош для преследования, может быть использован в ближнем бою."/>
+    <string id="rkqaCud5" text="Пилум"/>
   </strings>
 </base>
