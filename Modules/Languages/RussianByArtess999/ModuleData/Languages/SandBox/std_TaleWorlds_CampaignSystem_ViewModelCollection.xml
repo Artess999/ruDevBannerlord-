@@ -72,7 +72,7 @@
     <string id="c7638a0869219ae845de0f660fd57a9d" text="Натиск: "/>
     <string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="Урон: "/>
     <string id="ca8b1e8956057b831dfc665f54bae4b0" text="Обращение: "/>
-    <string id="CaRbMaZY" text="Ежедневная плата:"/>
+    <string id="CaRbMaZY" text="Ежедневная плата"/>
     <string id="cbbUzYX3" text="Сложность: {DIFFICULTY}"/>
     <string id="CExQ40Ux" text="{PARTY_1S_MEMBERS}   "/>
     <string id="cf61cce254c7dca65be9bebac7fb9bf5" text="Защита рук: "/>
@@ -85,7 +85,7 @@
     <string id="dO95yR9b" text="Колющий урон"/>
     <string id="Dqydb21E" text=" {PARTY_SIZE}"/>
     <string id="dWYm9GsC" text="Требует"/>
-    <string id="DzviXC3W" text="Ранг:"/>
+    <string id="DzviXC3W" text="Ранг"/>
     <string id="e8390c3480028e34c370c7b60ebc41e2" text="Порода: "/>
     <string id="ebbyLN2i" text="Города"/>
     <string id="eHVq6yDa" text="Цена предмета"/>
