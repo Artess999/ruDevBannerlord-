@@ -670,13 +670,13 @@
     <string id="ZvMcHde3" text="Кирка"/>
     <string id="Zx4h7jDy" text="Лёгкая марианорская броня"/>
     <string id="zZ2G7uIO" text="Капеллина поверх кольчуги"/>
-    <string id="4aFPp5hj" text="Light Oval Shield"/>
-    <string id="8bH8n3Aq" text="Light Tall Heater Shield"/>
-    <string id="courserhorse" text="Courser"/>
-    <string id="hunterhorse" text="Hunter"/>
-    <string id="iE9JNuZI" text="Round Steppe Shield"/>
-    <string id="mbT1uNPa" text="Dagger"/>
+    <string id="4aFPp5hj" text="Легкий овальный щит"/>
+    <string id="8bH8n3Aq" text="Легкий высокий экю"/>
+    <string id="courserhorse" text="Рысак"/>
+    <string id="hunterhorse" text="Охотничья лошадь"/>
+    <string id="iE9JNuZI" text="Круглый степной щит"/>
+    <string id="mbT1uNPa" text="Кинжал"/>
     <string id="MnmUBlbL" text="Тарджет"/>
-    <string id="sZsOeSQ4" text="Cavalry Menavlion"/>
+    <string id="sZsOeSQ4" text="Кавалерийский менавлион"/>
   </strings>
 </base>
