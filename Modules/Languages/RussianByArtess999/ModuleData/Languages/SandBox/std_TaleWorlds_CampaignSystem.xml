@@ -1252,7 +1252,7 @@
     <string id="jQWgYr6r" text="Вы многое знаете об оружии и хорошо разбираетесь в тонкостях кузнечного ремесла.&#10;(Дает 10% шанс выковать 'Мастерское' оружие, если требования сложности выполнены)"/>
     <string id="JrT9bBEK" text="{FACTION_LIEGE} {ETHNIC_TERM}"/>
     <string id="JTfaqKyX" text="Ладно, постарайтесь принести это поскорее."/>
-    <string id="JuPUG5wX" text="{LORD.NAME} - {TITLE}, глава клана {CLAN_NAME}. Это {CLAN_DESCRIPTION} на службе у {FACTION_NAME}. В гражданской войне {LORD.NAME} и {RULER} выступают на одной стороне. {?LORD.GENDER}Она{?}Он{\?}{REPUTATION}"/>
+    <string id="JuPUG5wX" text="{LORD.NAME} - {TITLE}, глава клана {CLAN_NAME}, {CLAN_DESCRIPTION} на службе у {FACTION_NAME}. В гражданской войне {LORD.NAME} и {RULER} выступают на одной стороне. {?LORD.GENDER}Она{?}Он{\?}{REPUTATION}"/>
     <string id="JuwBb2Yg" text="Дезорганизованность"/>
     <string id="jWavM9AD" text="Вы не вчера родились, и должны знать, что наёмники далеко не святые."/>
     <string id="jwi4dH1f" text="{HERO.FIRSTNAME} Скорпион"/>
