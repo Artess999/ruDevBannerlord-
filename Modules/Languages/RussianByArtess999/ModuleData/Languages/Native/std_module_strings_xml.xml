@@ -1591,10 +1591,10 @@
     <string id="aZrbxdat" text="Hold [{KEY_NAME}] to do all"/>
     <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}Бегум{?}Бег{\?}"/>
     <string id="captainasleader" text="Капитан"/>
-    <string id="d5RAufbd" text="Role"/>
-    <string id="dd7Owiys" text="Make Peace with {FACTION}"/>
-    <string id="empiremembers" text="Empire"/>
-    <string id="ErnykQEH" text="Outputs"/>
+    <string id="d5RAufbd" text="Роль в клане"/>
+    <string id="dd7Owiys" text="Заключить мир с {FACTION}"/>
+    <string id="empiremembers" text="Имперцы"/>
+    <string id="ErnykQEH" text="Продукция"/>
     <string id="exhusbandbrotherinlaw" text="Бывший деверь"/>
     <string id="exhusbandfatherinlaw" text="Бывший свёкр"/>
     <string id="exhusbandmotherinlaw" text="Бывшая свекровь"/>
@@ -1612,52 +1612,55 @@
     <string id="wifemotherinlaw" text="тёща"/>
     <string id="wifesisterinlaw" text="свояченица"/>
     <string id="forgeverb" text="Ковать"/>
-    <string id="fQ2RLaOa" text="Clan Does Not Own Any Fiefs"/>
-    <string id="G5yvspkZ" text="Can't retreat, duel is ongoing!"/>
+    <string id="fQ2RLaOa" text="У клана нет феодов"/>
+    <string id="G5yvspkZ" text="Отступление не возможно, идет дуэль!"/>
     <string id="gamefinance" text="Финансы"/>
     <string id="giftverb" text="Подарок"/>
     <string id="GmcgoiGy" text="Торговать"/>
     <string id="guardnoun" text="Стражник"/>
-    <string id="h8Bcd7NE" text="{FACTION} Ruler Election"/>
+    <string id="h8Bcd7NE" text="Выборы правителя {FACTION}"/>
     <string id="homesettlement" text="Дом"/>
     <string id="hometab" text="Дом"/>
-    <string id="ioKwRFcj" text="Consider making peace (Support: {SUPPORT}%)"/>
-    <string id="izKWEAbY" text="Clan Does Not Have Any Additional Incomes"/>
+    <string id="ioKwRFcj" text="Рассмотрите возможность заключения мира (Поддержка: {SUPPORT}%)"/>
+    <string id="izKWEAbY" text="У клана нет дополнительных доходов"/>
     <string id="JAFIo7cM" text=":"/>
-    <string id="JKH59XNp" text="Medicine"/>
-    <string id="jM9KGCIa" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}"/>
-    <string id="K5uR5HVX" text="Press '{EXTEND_KEY}' for more info."/>
-    <string id="KafFddmO" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} protecting general."/>
-    <string id="lb13ceVM" text="{?RULER.GENDER}High Queen{?}High King{\?} {RULER.NAME}"/>
-    <string id="LJ6Krlbr" text="Scouting"/>
+    <string id="JKH59XNp" text="Медицина"/>
+    <string id="jM9KGCIa" text="{?RULER.GENDER}Эмира{?}Эмир{\?} {RULER.NAME}"/>
+    <string id="K5uR5HVX" text="Нажмите '{EXTEND_KEY}' для получения дополнительной информации."/>
+    <string id="KafFddmO" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}защищают{?}защищает{\?} генерала."/>
+    <string id="lb13ceVM" text="{?RULER.GENDER}Верховная королева{?}Верховный король{\?} {RULER.NAME}"/>
+    <string id="LJ6Krlbr" text="Разведка"/>
+    <!--TODO-->
     <string id="lockverb" text="Lock"/>
-    <string id="lqm9PfF1" text="{?RULER.GENDER}Knyaginya{?}Knyaz{\?} {RULER.NAME}"/>
+    <string id="lqm9PfF1" text="{?RULER.GENDER}Княгиня{?}Князь{\?} {RULER.NAME}"/>
     <string id="mountnoun" text="Конь"/>
-    <string id="NaAA5kjG" text="Consider making peace, receiving {TRIBUTE} tribute/day. (Support: {SUPPORT}%)"/>
-    <string id="nAaT19CC" text="{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}"/>
-    <string id="NbgeKwVr" text="Workshops"/>
-    <string id="nojcK4ia" text="{?RULER.GENDER}Grand Princess{?}Grand Prince{\?} {RULER.NAME}"/>
-    <string id="oTGDxKW7" text="Declare War Against {FACTION}"/>
-    <string id="PCZ23wvW" text="Engineering"/>
-    <string id="policypropose" text="Propose"/>
-    <string id="PYaUEZzn" text="Consider declaring war (Support: {SUPPORT}%)"/>
-    <string id="q6P6bdbC" text="Quick Talk"/>
-    <string id="rangedtroop" text="Ranged"/>
-    <string id="RdsbyNE2" text="Consider making peace, paying {TRIBUTE} tribute/day. (Support: {SUPPORT}%)"/>
-    <string id="rGNrtXSx" text="You have arrived at {SETTLEMENT} to defend the castle from attackers."/>
-    <string id="rHSjMjWX" text="Resolve Decision"/>
-    <string id="rqWJL27J" text="Total Gold"/>
+    <string id="NaAA5kjG" text="Рассмотрите возможность заключения мира. Вы будете получать дань в размере {TRIBUTE} в день. (Поддержка: {SUPPORT}%)"/>
+    <string id="nAaT19CC" text="{?RULER.GENDER}Архонесса{?}Архонт{\?} {RULER.NAME}"/>
+    <string id="NbgeKwVr" text="Мастерские"/>
+    <string id="nojcK4ia" text="{?RULER.GENDER}Великая княгиня{?}Великий князь{\?} {RULER.NAME}"/>
+    <string id="oTGDxKW7" text="Объявить войну {FACTION}"/>
+    <string id="PCZ23wvW" text="Инженерия"/>
+    <string id="policypropose" text="Предложить"/>
+    <string id="PYaUEZzn" text="Рассмотрите возможность объявления войны (Поддержка: {SUPPORT}%)"/>
+    <string id="q6P6bdbC" text="Быстрый разговор"/>
+    <string id="rangedtroop" text="Стрелки"/>
+    <string id="RdsbyNE2" text="Рассмотрите возможность заключения мира. Вы будете выплачивать дань в размере {TRIBUTE} в день. (Поддержка: {SUPPORT}%)"/>
+    <string id="rGNrtXSx" text="Вы прибыли в {SETTLEMENT} чтобы защитить замок от нападающих."/>
+    <string id="rHSjMjWX" text="Принять решение"/>
+    <string id="rqWJL27J" text="Всего золота"/>
+    <!--TODO-->
     <string id="s2vaPUdG" text="Spear Brace"/>
     <string id="settlementtrack" text="Track"/>
     <string id="siegeevent" text="Осада"/>
     <string id="smeltverb" text="Плавить"/>
     <string id="smithingverb" text="Ковка"/>
-    <string id="tnZ7BfO9" text="Peace Proposal"/>
-    <string id="u3c9M8vx" text="an archoness"/>
+    <string id="tnZ7BfO9" text="Предложение мира"/>
+    <string id="u3c9M8vx" text="архонесса"/>
     <string id="uFDiRV1Z" text="({PRIMARY_ROLE})"/>
-    <string id="veiFupWz" text="{?RULER.GENDER}Baroness{?}Baron{\?} {RULER.NAME}"/>
-    <string id="X4qO3jBf" text="{?RULER.GENDER}Banmormaer{?}Mormaer{\?} {RULER.NAME}"/>
-    <string id="XCz81XYm" text="Inputs"/>
+    <string id="veiFupWz" text="{?RULER.GENDER}Баронесса{?}Барон{\?} {RULER.NAME}"/>
+    <string id="X4qO3jBf" text="{?RULER.GENDER}Банмормэр{?}Мормэр{\?} {RULER.NAME}"/>
+    <string id="XCz81XYm" text="Ресурсы"/>
+    <!--TODO-->
     <string id="XgioIHv6" text="Resolve existing decision"/>
   </strings>
 </base>
