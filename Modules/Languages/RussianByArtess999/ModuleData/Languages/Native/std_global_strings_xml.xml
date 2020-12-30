@@ -31,7 +31,6 @@
     <string id="3oUbmqJY" text="Синхронизирует частоту кадров с частотой обновления монитора во избежание артефактов."/>
     <string id="3P7eDKEY" text="Экипировать предмет 4"/>
     <string id="3sRdGQou" text="Уйти"/>
-    <string id="3V0bvyLC" text="{STR1}{STR2}"/>
     <string id="3YwMXbAT" text="Быстрая перемотка времени на карте кампании."/>
     <string id="44akzqlm" text="Стрелка вправо"/>
     <string id="45yEpDdE" text="Масштаб разрешения"/>
@@ -447,7 +446,6 @@
     <string id="wYicqUa9" text="Карта Нормальное течение времени"/>
     <string id="X5cSNxHf" text="5"/>
     <string id="x7kYOUfi" text="Громкость эффектов"/>
-    <string id="x7OgHYfc" text="{LEFT}"/>
     <string id="x7qfk550" text="Q"/>
     <string id="xEquRfRF" text="10"/>
     <string id="xnGGas4h" text="Инвертировать ось Y для управления камерой."/>
@@ -540,5 +538,15 @@
     <string id="xboxYbutton" text="Кнопка Y"/>
     <string id="z6ezjlkX" text="Shift"/>
     <string id="ZKg3DqbQ" text="Determines the opacity of the banners shown on top of the friendly troops."/>
+    <string id="pialOblr" text="Order Hold"/>
+    <string id="qDVoGsb9" text="Hold to give orders with a gamepad."/>
+    <string id="qNPmVDmU" text="Sets the NVIDIA DLSS method if applicable. "/>
+    <string id="sCjtEbTF" text="These modules have been removed from the game:"/>
+    <string id="t0vgSn7D" text="Select Next Group"/>
+    <string id="TbCbHxeF" text="Toggle Group Selection"/>
+    <string id="Uc1n5MRj" text="NVIDIA DLSS"/>
+    <string id="vJDxgaOZ" text="These modules' versions are different:"/>
+    <string id="WVpVmbzC" text="These modules are new in the game:"/>
+    <string id="ZoDugJHP" text="Select Previous Group"/>
   </strings>
 </base>

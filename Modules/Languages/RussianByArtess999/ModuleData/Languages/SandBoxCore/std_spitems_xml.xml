@@ -167,7 +167,6 @@
     <string id="a1KxyGOj" text="Северное платье"/>
     <string id="A1zFbFta" text="Усиленный плоский каплевидный щит"/>
     <string id="BYPhysbH" text="Падение рыцаря"/>
-    <string id="A2I5SHCr" text="Северный шлем с забралом"/>
     <string id="a71fiml4" text="Имперская ламеллярная броня"/>
     <string id="A8MJWbhf" text="Шлем с забралом поверх плотной ткани"/>
     <string id="ccLDacS4" text="Баттанская чистокровная"/>
@@ -557,7 +556,6 @@
     <string id="LWbJKKK1" text="Северная дворянская упряжь"/>
     <string id="lXwaLAYP" text="Стальной боевой меч"/>
     <string id="lZ93DOrn" text="Стёганая безрукавка"/>
-    <string id="M00MeRJD" text="Хлопок"/>
     <string id="M2wvaObX" text="Спата"/>
     <string id="m3Nv9rt2" text="Шлем кочевника с плюмажем"/>
     <string id="mAEjSAlV" text="Северный закрытый шлем поверх кольчуги"/>
@@ -1037,5 +1035,12 @@
     <string id="ZeU1fvdz" text="Grapeshot Stack"/>
     <string id="zvrxBeqB" text="Northern Decorated Hauberk"/>
     <string id="ZYQrmlKH" text="Highland Chainmail"/>
+    <string id="6Ynb0K0f" text="Southern Reinforced Brass Scale Shoulders"/>
+    <string id="82GMEKy8" text="Scale Shoulders"/>
+    <string id="F7mWp9Ha" text="Imperial Googled Helmet"/>
+    <string id="OktZBAVC" text="Southern Brass Scale Shoulders"/>
+    <string id="SIdCIRfG" text="Brass Scale Pauldrons"/>
+    <string id="U0zBG3F9" text="Scale Pauldrons"/>
+    <string id="Vqu67a3b" text="Raw Silk"/>
   </strings>
 </base>

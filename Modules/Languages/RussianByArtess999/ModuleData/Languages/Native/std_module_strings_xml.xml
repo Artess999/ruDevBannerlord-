@@ -96,7 +96,6 @@
     <string id="3tJq5QyQ" text="{HEALTHY_NUM}+{WOUNDED_NUM}р"/>
     <string id="3TXGG01D" text="Хороший выбор, {?PLAYER.GENDER}миледи{?}милорд{\?}. Мои ребята знают, как сдержать свое слово и заработать деньжат.[rb:very_positive]"/>
     <string id="3uR8wLko" text="наш сеньор {REFERING_HERO.LINK}"/>
-    <string id="3V0bvyLC" text="{STR1}{STR2}"/>
     <string id="3vT6TQmF" text="{PLAYER.LINK}, вы в {SIDE_STRING} {CLASS_NAME}."/>
     <string id="3wS4uOvU" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}обстреливают{?}обстреливает{\?} с тыла"/>
     <string id="3xeuA9VP" text="+{TROOP_AMOUNT} Воинов{?ISPLURAL}{?} {\?} в гарнизон"/>
@@ -290,7 +289,6 @@
     <string id="aiX4b5kS" text="Завершённые задания"/>
     <string id="AIYWSAyK" text="Получайте прибыль от торговли. Управляйте караванами."/>
     <string id="aJoNj6JX" text="Сражайтесь с помощью двуручного оружия."/>
-    <string id="aJQQnshf" text="Налоги:"/>
     <string id="aJXhsjmT" text="Эй, странники. Если не хотите стать завтраком для шакалов и ужином для червей, отдайте то, что нам нужно."/>
     <string id="ajZTZoXQ" text="Двуручная булава"/>
     <string id="AkgIYqHT" text="султанша"/>
@@ -351,7 +349,6 @@
     <string id="bFpLKvcS" text="Хан"/>
     <string id="bfQLwMUp" text="Кланы"/>
     <string id="BfQrnvpC" text="Создание войска"/>
-    <string id="bfsJfrtk" text="{LEFT}{RIGHT}"/>
     <string id="BftxIurV" text="Вам необходимо принять решение:{newline}{DECISION_NAME}"/>
     <string id="bg6x6Hbv" text="Шлем"/>
     <string id="Bg83jhCR" text="Город явно переживает не лучшие времена. Люди выглядят истощенными, а здания находятся в плохом состоянии."/>
@@ -708,7 +705,6 @@
     <string id="icmyseoo" text="Милорд"/>
     <string id="IcQ2doLo" text="x{QUANTITY}"/>
     <string id="id62me1x" text="Нажмите &quot;Осаждать&quot;"/>
-    <string id="IdUKVyoF" text="{HERO.FIRSTNAME} {JOB_NAME}"/>
     <string id="IF7zS5ia" text="Вы превысили лимит пленных!{newline}Вы сможете некоторое время с ними совладать, но вскоре некоторые из них начнут сбегать. Кроме того, скорость передвижения отряда будет снижена.{newline}Вы уверены?"/>
     <string id="iFg5N7r3" text="Одноручное оружие"/>
     <string id="Igoid3sR" text="Предложить изгнать этот клан из королевства ({SUPPORT}%)"/>
@@ -900,7 +896,6 @@
     <string id="LZhRP3PM" text="Ждите другие осадные машины"/>
     <string id="Lzmtqif5" text="Размер войска"/>
     <string id="lznqF0oO" text="Расформировать"/>
-    <string id="M00MeRJD" text="Хлопок"/>
     <string id="M03MNN3T" text="Зубец"/>
     <string id="M2b5mtAE" text="Компаньон"/>
     <string id="m2YKBbdI" text="Приветик тебе, маленькая заблудшая овечка. Мы свирепые волки этих скалистых гор и хотим немного с тобой поразвлечься..."/>
@@ -1639,10 +1634,8 @@
     <string id="NbgeKwVr" text="Мастерские"/>
     <string id="nojcK4ia" text="{?RULER.GENDER}Великая княгиня{?}Великий князь{\?} {RULER.NAME}"/>
     <string id="oTGDxKW7" text="Объявить войну {FACTION}"/>
-    <string id="PCZ23wvW" text="Инженерия"/>
     <string id="policypropose" text="Предложить"/>
     <string id="PYaUEZzn" text="Рассмотрите возможность объявления войны (Поддержка: {SUPPORT}%)"/>
-    <string id="q6P6bdbC" text="Быстрый разговор"/>
     <string id="rangedtroop" text="Стрелки"/>
     <string id="RdsbyNE2" text="Рассмотрите возможность заключения мира. Вы будете выплачивать дань в размере {TRIBUTE} в день. (Поддержка: {SUPPORT}%)"/>
     <string id="rGNrtXSx" text="Вы прибыли в {SETTLEMENT} чтобы защитить замок от нападающих."/>
@@ -1662,5 +1655,15 @@
     <string id="XCz81XYm" text="Ресурсы"/>
     <!--TODO-->
     <string id="XgioIHv6" text="Resolve existing decision"/>
+    <string id="bh9U2fsZ" text="Son-in-law"/>
+    <string id="engineeringskill" text="Engineering"/>
+    <string id="IQ4bSdf5" text="Sister-in-law"/>
+    <string id="owTlJjJc" text="Brother-in-law"/>
+    <string id="pMb8Pe12" text="Daughter-in-law"/>
+    <string id="toK51MD4" text="Visit"/>
+    <string id="U7etPQA2" text="{HERO.FIRSTNAME} the {JOB_NAME}"/>
+    <string id="uhcIXeba" text="You are discarding items. Are you sure?"/>
+    <string id="Vqu67a3b" text="Raw Silk"/>
+    <string id="zE6OFPRu" text="Settlement Tax"/>
   </strings>
 </base>

@@ -303,5 +303,9 @@
     <string id="zEMWM4h3" text="Already In a Clan"/>
     <string id="zravuI1b" text="Type Clan Information"/>
     <string id="zSXXfnYY" text="Change Faction"/>
+    <string id="b2aqL7T2" text="Lost"/>
+    <string id="eQPSEUml" text="Abandoned"/>
+    <string id="gGa3ZhqN" text="This player will be muted automatically."/>
+    <string id="IS4SifJG" text="Won"/>
   </strings>
 </base>

@@ -47,7 +47,6 @@
     <string id="n3cjEB0X" text="Инструменты"/>
     <string id="NwTpATW5" text="Мастерство меткого и сильного метания снарядов."/>
     <string id="p9i3zRm9" text="Верховая езда"/>
-    <string id="PCZ23wvW" text="Инженерия"/>
     <string id="PHoxdReD" text="ХАР"/>
     <string id="PiHpR4QL" text="Одноручное"/>
     <string id="skZS2UlW" text="Атлетика"/>
@@ -76,5 +75,6 @@
     <string id="socialskill" text="Харизма"/>
     <string id="ZBmz4niK" text="и"/>
     <string id="ZvZN6UkU" text="Мусор"/>
+    <string id="engineeringskill" text="Engineering"/>
   </strings>
 </base>

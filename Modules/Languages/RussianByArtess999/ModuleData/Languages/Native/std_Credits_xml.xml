@@ -103,7 +103,6 @@
     <string id="OTXMIRE3" text="Сайт &amp; Разработчики форума"/>
     <string id="OU8xH8HP" text="Инженер платформы"/>
     <string id="OwWmriyd" text="Дополнительная звуковая поддержка"/>
-    <string id="PCZ23wvW" text="Инженерия"/>
     <string id="PGLl1PPt" text="Глава отдела качества"/>
     <string id="pIaFYfAS" text="This software product includes BattlEye(TM) anti-cheat technology, © 2020 BattlEye Innovations e.K.. All rights reserved."/>
     <string id="PKUclaUm" text="2D художники"/>
@@ -177,5 +176,6 @@
     <string id="creditsvideo" text="Видео"/>
     <string id="sVb7KTl6" text="“Outdoor Beautiful Land (Folk Version)” and “Travel Neutral (Folk Version)”"/>
     <string id="U3X6WqoH" text="“Tales by the Hearth” and “The Longest Road”"/>
+    <string id="engineeringcredits" text="Engineering"/>
   </strings>
 </base>
