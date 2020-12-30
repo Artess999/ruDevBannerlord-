@@ -12,15 +12,16 @@ const DIRECTORIES = {
 
 const TRANSLATION_PATH = path.resolve(__dirname, DIRECTORIES.ARTESS999);
 const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.EN);
-const RESULTS_PATH = path.resolve(__dirname, './results/');
+const RESULTS_PATH = path.resolve(__dirname, './results');
 
 const convertToJsOptions = {
-    compact: true,
+    compact: false,
     alwaysArray: true,
+    attributeValueFn: (value) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '&#10;'),
 }
 
 const convertToXmlOptions = {
-    compact: true,
+    compact: false,
     spaces: 2,
 }
 
@@ -41,46 +42,64 @@ folders.forEach((folder) => {
         const translationXml = fs.readFileSync(translationFilePath, 'utf8');
         const translationJs = convert.xml2js(translationXml, convertToJsOptions);
 
-        if (translationJs.base[0].strings && translationJs.base[0].strings[0]) {
+        if (translationJs.elements[0].elements[1].elements) {
             const sourceXml = fs.readFileSync(sourceFilePath, 'utf8');
             const sourceJs = convert.xml2js(sourceXml, convertToJsOptions);
 
-            const translationStrings = translationJs.base[0].strings[0].string;
-            const sourceStrings = sourceJs.base[0].strings[0].string;
-            const resultsStrings = cloneDeep(translationStrings);
+            const translationElements = (translationJs.elements[0].elements[1].elements);
+            const sourceElements = (sourceJs.elements[0].elements[1].elements);
 
-            const rudiments = translationStrings.filter(({_attributes}) => {
-                const { id } = _attributes;
+            const resultsElements = cloneDeep(translationElements);
 
-                const isRudiment = !sourceStrings.find(({_attributes}) => {
-                    const { id: sourceId } = _attributes;
-                    return sourceId === id;
-                });
+            const rudiments = translationElements.filter(({name, attributes}) => {
+                if (name === 'string') {
+                    const { id } = attributes;
 
-                return isRudiment;
-            });
-
-            const absents = sourceStrings.filter(({_attributes}) => {
-                const { id } = _attributes;
-
-                const isAbsent = !translationStrings.find(({_attributes}) => {
-                    const { id: translationId } = _attributes;
-                    return translationId === id;
-                });
-
-                return isAbsent;
-            });
-
-            const results = resultsStrings
-                .filter(({_attributes}) => {
-                    const { id } = _attributes;
-
-                    const isRudiment = !!rudiments.find(({_attributes}) => {
-                        const { id: rudimentId } = _attributes;
-                        return rudimentId === id;
+                    const isRudiment = !sourceElements.find(({attributes}) => {
+                        if (attributes) {
+                            const {id: sourceId} = attributes;
+                            return sourceId === id;
+                        }
                     });
 
-                    return !isRudiment;
+                    return isRudiment;
+                }
+
+                return false;
+            });
+
+            const absents = sourceElements.filter(({name, attributes}) => {
+                if (name === 'string') {
+                    const { id } = attributes;
+
+                    const isAbsent = !translationElements.find(({attributes}) => {
+                        if (attributes) {
+                            const { id: translationId } = attributes;
+                            return translationId === id;
+                        }
+                    });
+
+                    return isAbsent;
+                }
+
+                return false;
+            });
+
+            const results = resultsElements
+                .filter(({name, attributes}) => {
+                    if (name === 'string') {
+                        const { id } = attributes;
+
+                        const isRudiment = !!rudiments.find(({attributes}) => {
+                            if (attributes) {
+                                const {id: rudimentId} = attributes;
+                                return rudimentId === id;
+                            }
+                        });
+
+                        return !isRudiment;
+                    }
+                    return true;
                 })
                 .concat(absents);
 
@@ -104,7 +123,7 @@ folders.forEach((folder) => {
                 }
 
                 const absentsJs = cloneDeep(translationJs);
-                absentsJs.base[0].strings[0].string = absents;
+                absentsJs.elements[0].elements[1].elements = absents;
 
                 const absentsXml = convert.js2xml(absentsJs, convertToXmlOptions);
 
@@ -123,7 +142,7 @@ folders.forEach((folder) => {
                 }
 
                 const rudimentsJs = cloneDeep(translationJs);
-                rudimentsJs.base[0].strings[0].string = rudiments;
+                rudimentsJs.elements[0].elements[1].elements = rudiments;
 
                 const rudimentsXml = convert.js2xml(rudimentsJs, convertToXmlOptions);
 
@@ -142,7 +161,7 @@ folders.forEach((folder) => {
                 }
 
                 const resultsJs = cloneDeep(translationJs);
-                resultsJs.base[0].strings[0].string = results;
+                resultsJs.elements[0].elements[1].elements = results;
 
                 const resultsXml = convert.js2xml(resultsJs, convertToXmlOptions);
 
