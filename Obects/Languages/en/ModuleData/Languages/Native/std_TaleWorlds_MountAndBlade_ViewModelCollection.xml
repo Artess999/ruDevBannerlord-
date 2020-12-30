@@ -56,6 +56,7 @@
     <string id="aVixswW5" text="Team Selection" />
     <string id="aWzdkfvn" text="Currently you are not a member of a clan or you don't own a clan. You need to create a party from non-clan member players to form your own clan." />
     <string id="aZnS9ECC" text="Invite" />
+    <string id="b2aqL7T2" text="Lost" />
     <string id="b31ITmm0" text="Stack Amnt." />
     <string id="b9PT1Yxc" text="Select a game type" />
     <string id="BAaS5Dkc" text="Apply" />
@@ -94,6 +95,7 @@
     <string id="eGuQKRhb" text="You are leaving the area!" />
     <string id="empirefaction" text="Empire" />
     <string id="enhza8zr" text="Faction" />
+    <string id="eQPSEUml" text="Abandoned" />
     <string id="Etjqamlh" text="{PLAYER_COUNT} Players" />
     <string id="EUAKPHek" text="Build:" />
     <string id="F7dBjl83" text="Custom Battle feature is currently disabled" />
@@ -112,6 +114,7 @@
     <string id="G6hYIR5k" text="Voice Pitch:" />
     <string id="gamevideo" text="Video" />
     <string id="gcl2duJH" text="Reset your badge" />
+    <string id="gGa3ZhqN" text="This player will be muted automatically." />
     <string id="GGseMDd3" text="Durability" />
     <string id="GMhOZGnb" text="Cannot issue order while dead." />
     <string id="GmU1to3Y" text="Statistics" />
@@ -135,6 +138,7 @@
     <string id="IlQnJsUp" text="Flags Captured:" />
     <string id="iLUiaRsj" text="Your" />
     <string id="iNqucBor" text="Logging In" />
+    <string id="IS4SifJG" text="Won" />
     <string id="iwugyB6z" text="{USERNAME}#{USERID}" />
     <string id="J0vjDOFO" text="Thrust Spd." />
     <string id="j35pgljM" text="Choose Faction" />

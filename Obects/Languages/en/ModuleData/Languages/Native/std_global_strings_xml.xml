@@ -32,7 +32,6 @@
     <string id="3oUbmqJY" text="Synchronizes the game to the monitor's refresh rate. Eliminates tearing artifacts." />
     <string id="3P7eDKEY" text="Equip Item 4" />
     <string id="3sRdGQou" text="Leave" />
-    <string id="3V0bvyLC" text="{STR1}{STR2}" />
     <string id="3YwMXbAT" text="Fastforward time in campaign map." />
     <string id="44akzqlm" text="Right Arrow" />
     <string id="45yEpDdE" text="Resolution Scale" />
@@ -332,6 +331,7 @@
     <string id="pa8A2VG3" text="Enable the red border around the screen when the player takes damage." />
     <string id="PACe9VHN" text="&lt;" />
     <string id="PADeKaAu" text="Map Context Menu" />
+    <string id="pialOblr" text="Order Hold" />
     <string id="PksJtzwJ" text="Space" />
     <string id="Pkw17hO0" text="Combat Speed" />
     <string id="PmbKYDON" text="Cheer" />
@@ -347,9 +347,11 @@
     <string id="py0auN0A" text="{ESTIMATED} MB / {TOTAL} MB" />
     <string id="QaMie1KY" text="Melee Only" />
     <string id="QBzjt1c4" text="Extended Key 1" />
+    <string id="qDVoGsb9" text="Hold to give orders with a gamepad." />
     <string id="qggjceRq" text="Sound Output" />
     <string id="QiYy3Ja4" text="Select Order Return" />
     <string id="qmplQd0Q" text="Three Part" />
+    <string id="qNPmVDmU" text="Sets the NVIDIA DLSS method if applicable. " />
     <string id="qnxJYAs7" text="Party" />
     <string id="qOcw1xap" text="Page Down" />
     <string id="QoGjzEwI" text="Move Back" />
@@ -385,6 +387,7 @@
     <string id="sAoWNAwZ" text="Windowed" />
     <string id="Sb3L2QwL" text="Sets the resolution scale." />
     <string id="sbUBtOTb" text="Report Damage" />
+    <string id="sCjtEbTF" text="These modules have been removed from the game:" />
     <string id="SEucYSln" text="Numpad 2" />
     <string id="ShDZ4GgG" text="Equip Weapon 3" />
     <string id="sQCP8t0U" text="Map Wait" />
@@ -393,8 +396,10 @@
     <string id="SuYh3GtG" text="Toggle Weapon Mode" />
     <string id="SWDHaFCK" text="SelectOrder4" />
     <string id="sxFsZAeC" text="1" />
+    <string id="t0vgSn7D" text="Select Next Group" />
     <string id="T3Ex0K1p" text="End" />
     <string id="T6IJg6wq" text="Map Camera Follow Mode" />
+    <string id="TbCbHxeF" text="Toggle Group Selection" />
     <string id="tbGol5PT" text="F4" />
     <string id="tbwhjsqS" text="Right Mouse Button" />
     <string id="Tdf5AbRp" text="Open Clan Screen." />
@@ -421,6 +426,7 @@
     <string id="Uaae1eBV" text="Right Double Press: Sudden Right" />
     <string id="UboDNGJw" text="Select Group 7" />
     <string id="uBRn8Je8" text="3" />
+    <string id="Uc1n5MRj" text="NVIDIA DLSS" />
     <string id="ucyy9Sc5" text="{LEFT} / {RIGHT}" />
     <string id="UFHqkvah" text="Interactive Grass" />
     <string id="UixNc11t" text="Defend attacks with your weapon or shield." />
@@ -449,6 +455,7 @@
     <string id="VE9TavSl" text="Sets the decal quality." />
     <string id="Vea6bRUO" text="Enable interface elements that report players damage and casualities in center bottom." />
     <string id="vJ41v8zh" text="Friendly Troops Banner Opacity" />
+    <string id="vJDxgaOZ" text="These modules' versions are different:" />
     <string id="Vpy2qEcN" text="By Movement Keys" />
     <string id="vT3yIxmO" text="Numpad 4" />
     <string id="vXvmeGhm" text="Shadow Type" />
@@ -466,11 +473,11 @@
     <string id="wMe5p2HG" text="7" />
     <string id="WMmGH9yp" text="Get camera further from campaign map." />
     <string id="WOubRnjm" text="Report Experience" />
+    <string id="WVpVmbzC" text="These modules are new in the game:" />
     <string id="wWDHH5FK" text="Depth of Field" />
     <string id="wYicqUa9" text="Map Time Normal" />
     <string id="X5cSNxHf" text="5" />
     <string id="x7kYOUfi" text="Effects Volume" />
-    <string id="x7OgHYfc" text="{LEFT}" />
     <string id="x7qfk550" text="Q" />
     <string id="xboxAbutton" text="A Button" />
     <string id="xboxBackButton" text="Back Button" />
@@ -527,6 +534,7 @@
     <string id="ZKg3DqbQ" text="Determines the opacity of the banners shown on top of the friendly troops." />
     <string id="znSZmZvV" text="Map Move Right" />
     <string id="Zo2ngsUk" text="Open Face Generation." />
+    <string id="ZoDugJHP" text="Select Previous Group" />
     <string id="zofULNb8" text="Equip Secondary Weapon" />
     <string id="ZP1tLaa1" text="Numpad 9" />
     <string id="ZtDJrNz9" text="Film Grain" />

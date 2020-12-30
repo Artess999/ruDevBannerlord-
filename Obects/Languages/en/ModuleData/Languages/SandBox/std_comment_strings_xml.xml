@@ -45,7 +45,7 @@
     <string id="A40Z3egp" text="That job you did for me... Nice work." />
     <string id="a55SAS18" text="We have the advantage of you. Yield, and you will be well-treated.[ib:warrior][if:idle_angry]" />
     <string id="a5LChqbr" text="The common folk of these lands need someone looking after them. That's where our Brotherhood comes in. You'll hear us called bandits or robbers. Don't believe a word of it." />
-    <string id="a8584KD0" text="I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. I am sure you have heard the name of our clan in the epics of the steppe. We carry the name of one the ten sons of the great she-wolf, mother of the Khuzaits." />
+    <string id="a8584KD0" text="I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. I am sure you have heard the name of our clan in the epics of the steppe. We carry the name of one the 12 sons of the great she-wolf, mother of the Khuzaits." />
     <string id="aaadHoIb" text="May {?GENDER}she{?}he{\?} crush all {?GENDER}her{?}his{\?} foes!" />
     <string id="aagGt8pX" text="Your lordship" />
     <string id="aFbkjgVe" text="So, you weren't able to complete that task... Well, sometimes these things are out of our hands... and sometimes not. But let us not dwell on this." />

@@ -118,6 +118,7 @@
     <string id="6WcZ5Tr0" text="Blacksmith Hammer" />
     <string id="6Wkq14uk" text="Highland Peasant Dress" />
     <string id="6YCbEaHK" text="Northern Round Shield" />
+    <string id="6Ynb0K0f" text="Southern Reinforced Brass Scale Shoulders" />
     <string id="77RIGK7B" text="Mail Coif" />
     <string id="7D3jvAfS" text="Hide Cap" />
     <string id="7dAy51ln" text="Cervelliere Over Arming Coif" />
@@ -129,6 +130,7 @@
     <string id="7sgW3eHd" text="Eastern Dress with Fur" />
     <string id="7yGwvnUA" text="Light Tunic" />
     <string id="7ysOvo7H" text="Northern Sparing Blade" />
+    <string id="82GMEKy8" text="Scale Shoulders" />
     <string id="85q9uY76" text="Highland Half Scaled Harness" />
     <string id="89bCqb0Z" text="Wicker Square Tournament Shield" />
     <string id="89OWzLBb" text="Bamboo Handled Ascia Axe" />
@@ -171,7 +173,6 @@
     <string id="a1BGHdaU" text="Guarded Armwraps" />
     <string id="a1KxyGOj" text="Northern Dress" />
     <string id="A1zFbFta" text="Reinforced Flat Kite Shield" />
-    <string id="A2I5SHCr" text="Northern Visored Helmet" />
     <string id="a2XnhQ3V" text="Northern Helmet Closed" />
     <string id="a71fiml4" text="Imperial Lamellar" />
     <string id="a775acEf" text="Sparing Iron Spatha" />
@@ -341,6 +342,7 @@
     <string id="EXLY9mEb" text="Reinforced Large Round Shield" />
     <string id="f2O1XjYd" text="Dog" />
     <string id="F4xD8gjJ" text="Franceska" />
+    <string id="F7mWp9Ha" text="Imperial Googled Helmet" />
     <string id="f7RmWqJ2" text="Western Head Scarf" />
     <string id="F9GB8lMZ" text="Tattered Rags" />
     <string id="F9HQABfN" text="Reinforced Wicker Square Shield" />
@@ -578,7 +580,6 @@
     <string id="lyGvQPJb" text="Jagged Sparing Spear" />
     <string id="lZ93DOrn" text="Sleeveless Padded Coat" />
     <string id="LzqugHen" text="The Scalpel" />
-    <string id="M00MeRJD" text="Cotton" />
     <string id="M2wvaObX" text="Spatha" />
     <string id="m3Nv9rt2" text="Plumed Nomad Helmet" />
     <string id="mAEjSAlV" text="Northern Closed Helmet Over Mail" />
@@ -660,6 +661,7 @@
     <string id="OIcwZGmC" text="Reinforced Wicker Shield" />
     <string id="oIOYBIbv" text="Northern Closed Helmet" />
     <string id="ojhEwC8M" text="Northern Brass Lamellar Over Mail" />
+    <string id="OktZBAVC" text="Southern Brass Scale Shoulders" />
     <string id="olamAwhb" text="Nasal Helmet Over Cloth Headwrap" />
     <string id="OLTUHPaD" text="Fine Steel Paramerion" />
     <string id="OM9achAa" text="Reinforced Oaken Kite Shield" />
@@ -768,6 +770,7 @@
     <string id="SGdY9jmK" text="Fullered Narrow Warsword" />
     <string id="sgfKrAaZ" text="Battanian Pony" />
     <string id="SHZ0P7Iu" text="Padded Leather Cape" />
+    <string id="SIdCIRfG" text="Brass Scale Pauldrons" />
     <string id="siuuhU6b" text="Bronze Nasalhelm Over Imperial Mail" />
     <string id="sJ1R62Tn" text="Plumed Helmet" />
     <string id="smHA8Apa" text="Decorated Nomad Cap" />
@@ -819,6 +822,7 @@
     <string id="txgUxMYw" text="Heater Shield With Cutout" />
     <string id="tYVrECy7" text="Makeshift Horsemans Kite Shield" />
     <string id="tZN9H492" text="Battanian Warmount" />
+    <string id="U0zBG3F9" text="Scale Pauldrons" />
     <string id="U4n0uSlg" text="Tight Head Scarf" />
     <string id="u6c9yIXF" text="Southern Short Padded Robe" />
     <string id="U8QfF3Gw" text="Long Woolen Tunic" />
@@ -846,7 +850,7 @@
     <string id="UWvOndG0" text="Khuzait Light Lance" />
     <string id="uZ1sIlSQ" text="Eastern Plated Leather Vest" />
     <string id="v1I2K4ab" text="Northern Broad Axe" />
-    <string id="v3lIxLvX" text="Pila" />
+    <string id="v3lIxLvX" text="Pilum" />
     <string id="V4b2ZRTH" text="Rhomphalia" />
     <string id="v6W9XaDI" text="Old Fur Armor" />
     <string id="V7U0fFU9" text="Highland Scale Mail" />
@@ -873,6 +877,7 @@
     <string id="VpxmlDyY" text="Turndown Leather Boots" />
     <string id="vPXWpJTP" text="Highland Dagger" />
     <string id="VqFV9LS4" text="Red Dress" />
+    <string id="Vqu67a3b" text="Raw Silk" />
     <string id="vRIpgxhi" text="Fortunas Choice" />
     <string id="VRP5Q4mU" text="Southern Ring Mail" />
     <string id="vsavMoLZ" text="Segmented Cervelliere Over Padded Cloth" />

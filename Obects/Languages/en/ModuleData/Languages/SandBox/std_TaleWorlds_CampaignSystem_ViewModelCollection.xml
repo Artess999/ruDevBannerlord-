@@ -12,6 +12,8 @@
     <string id="13wo3QQB" text="Secondary" />
     <string id="154a34f8caccfc833238cc89d38861e8" text="Requires: " />
     <string id="1CXlqb2U" text="Pick:" />
+    <string id="1JlzQIXE" text="Disabled" />
+    <string id="1UbocG5B" text="Denounce your rights and responsibilities from this fief by giving it back to the realm." />
     <string id="2abtb4xu" text="Independent" />
     <string id="2ckyCKR7" text="Reserve" />
     <string id="2Cq3tViJ" text="Party Troop Size Limit" />
@@ -104,6 +106,7 @@
     <string id="e8390c3480028e34c370c7b60ebc41e2" text="Horse Type: " />
     <string id="ebbyLN2i" text="Towns" />
     <string id="eHVq6yDa" text="Item Properties" />
+    <string id="eIGFuGOx" text="Give Settlement" />
     <string id="eIws123Z" text="Leg Armor" />
     <string id="EkFDvG7z" text="Settlement Food Stocks" />
     <string id="eoVW9z54" text="Average Morale" />
@@ -122,6 +125,7 @@
     <string id="fI7a7RoE" text="Inventory Capacity" />
     <string id="FjJi1DJb" text="This hero is already a part of an another party." />
     <string id="fOSGakix" text="You cannot manage an army while you're a prisoner." />
+    <string id="G2h0V10w" text="Gift this settlement to a clan in your kingdom." />
     <string id="g4XqKGUr" text="Party already has a member with this role." />
     <string id="G6cCjixe" text="{COMPLETION_PERCENT} (Approximately {DAYS} days to complete)" />
     <string id="g9VIbA9s" text="Sergeant" />
@@ -260,6 +264,8 @@
     <string id="rgqA29b8" text="You don't have enough {SKILL_NAME} skill to equip this item" />
     <string id="rGy8vjOv" text="Defending {TARGET_SETTLEMENT}." />
     <string id="Rkh2k1OA" text="Completion:" />
+    <string id="rkubGa4K" text="Are you sure want to give this settlement back to your kingdom?" />
+    <string id="rOKAvjtT" text="Gift Settlement" />
     <string id="rsHPaaYZ" text="Cohesion needs to be lower than {MINAMOUNT} to boost" />
     <string id="rThSy9ed" text="Required: {UPGRADE_ITEM} (You have none)" />
     <string id="RuaA8t97" text="Kingdom Name" />
@@ -272,6 +278,7 @@
     <string id="S9tmCkHz" text="This hero is clearing a common area" />
     <string id="sa2TQu1G" text="This hero is busy with an issue." />
     <string id="ScDj827c" text="Initial Capital" />
+    <string id="sffGeQ1g" text="Gift" />
     <string id="Sls0KQVn" text="Elections" />
     <string id="slzfQzl3" text="This hero is lost" />
     <string id="sqdzHOPe" text="Class" />
@@ -294,6 +301,7 @@
     <string id="twtbH1zv" text="Stack Amount" />
     <string id="tYz4D8Or" text="Prisoner" />
     <string id="TzLtVzdg" text="Wounded Troops" />
+    <string id="U3ksQXD3" text="Give Away" />
     <string id="UbZL2BJQ" text="Hitpoints" />
     <string id="UHLcmf9A" text="Party Prisoner Size Limit" />
     <string id="uJro3Bua" text="Over Limit" />

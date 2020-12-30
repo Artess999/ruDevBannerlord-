@@ -97,7 +97,6 @@
     <string id="3tJq5QyQ" text="{HEALTHY_NUM}+{WOUNDED_NUM}w" />
     <string id="3TXGG01D" text="You chose well, {?PLAYER.GENDER}madam{?}sir{\?}. My lads know how to keep their word and earn their pay.[rb:very_positive]" />
     <string id="3uR8wLko" text="our liege {REFERING_HERO.LINK}" />
-    <string id="3V0bvyLC" text="{STR1}{STR2}" />
     <string id="3vT6TQmF" text="{PLAYER.LINK}, you are in {SIDE_STRING} {CLASS_NAME}." />
     <string id="3wS4uOvU" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} skirmishing from behind." />
     <string id="3xeuA9VP" text="+{TROOP_AMOUNT} Troop{?ISPLURAL}s{?} {\?} to Settlement" />
@@ -296,7 +295,6 @@
     <string id="aiX4b5kS" text="Completed Quests" />
     <string id="AIYWSAyK" text="Make profit from trading. Operate caravans." />
     <string id="aJoNj6JX" text="Fight with a two handed short weapon." />
-    <string id="aJQQnshf" text="Settlement Tax:" />
     <string id="aJXhsjmT" text="Greetings, traveller. Unless you wish your bones to be left in the sand to be gnawed upon by jackals, give us what we want." />
     <string id="ajZTZoXQ" text="Two Handed Mace" />
     <string id="AkgIYqHT" text="sultana" />
@@ -361,7 +359,6 @@
     <string id="bFpLKvcS" text="khan" />
     <string id="bfQLwMUp" text="Clans" />
     <string id="BfQrnvpC" text="Creating Army" />
-    <string id="bfsJfrtk" text="{LEFT}{RIGHT}" />
     <string id="BftxIurV" text="You need to resolve {DECISION_NAME} decision." />
     <string id="bg6x6Hbv" text="Helm" />
     <string id="Bg83jhCR" text="The town is clearly going through hard times. People look malnourished and buildings are poorly maintained." />
@@ -369,6 +366,7 @@
     <string id="bgjiFSHZ" text="Battanians" />
     <string id="bGyrPe8c" text="Production" />
     <string id="bh2v8n4K" text="Garment" />
+    <string id="bh9U2fsZ" text="Son-in-law" />
     <string id="BhGlPxqx" text="You can only disband mobile parties" />
     <string id="bIiBytSB" text="Archers" />
     <string id="bj0Ko5uX" text="The Calradian Empire is in decline. Even before the murder of the Emperor Arenicos, the once united realm was torn by political rivalries. Today, those factions are in open war. Yet Calradians endure. They are technologically more advanced than their neighbors and their mastery of engineering is not just evident in their aqueducts, beautiful architecture and massive city walls. It also makes them experts in siege warfare." />
@@ -540,6 +538,7 @@
     <string id="empiremembers" text="Empire" />
     <string id="eMsA4Vk0" text="This party will grow in size. It's current size target is {TARGET_SIZE}" />
     <string id="eMwbzp49" text="Battle lost..." />
+    <string id="engineeringskill" text="Engineering" />
     <string id="enhza8zr" text="Faction" />
     <string id="eNQgzubm" text="Fight on foot. Move on map on foot." />
     <string id="ENzvOHsA" text="{ASKED_LORD.LINK} is in the field and {?ASKED_LORD.GENDER}she{?}he{\?} should be close to {SETTLEMENT_NAME} at the moment." />
@@ -722,7 +721,7 @@
     <string id="husbandfatherinlaw" text="father-in-law" />
     <string id="husbandmotherinlaw" text="mother-in-law" />
     <string id="husbandsisterinlaw" text="sister-in-law" />
-    <string id="hVmamTJX" text="Gain party morale from food variety (Quartermaster). Improve settlement prosperity and build projects (Governor). Spend time in your settlements (Clan Leader)." />
+    <string id="hVmamTJX" text="Gain party morale from food variety (Quartermaster). Improve settlement prosperity and build projects (Governor)." />
     <string id="HWSKCne0" text="Boosting a project adds +{BOOST} construction and costs {COST}&lt;img src=&quot;Icons\Coin@2x&quot;&gt; / day." />
     <string id="Hx47TGrA" text="Hard" />
     <string id="hYgmzZJX" text="Denars" />
@@ -745,7 +744,6 @@
     <string id="icmyseoo" text="My lord" />
     <string id="IcQ2doLo" text="x{QUANTITY}" />
     <string id="id62me1x" text="Press &quot;Besiege&quot;" />
-    <string id="IdUKVyoF" text="{HERO.FIRSTNAME} the {JOB_NAME}" />
     <string id="IF7zS5ia" text="You're over your prisoners limit.{newline}You will temporarily keep your prisoners but after some time they will quickly escape your party. You will also slow down.{newline}Are you sure?" />
     <string id="iFg5N7r3" text="One Handed Weapon" />
     <string id="Igoid3sR" text="Propose to expel this clan from the kingdom ({SUPPORT}%)" />
@@ -771,6 +769,7 @@
     <string id="iORENG5d" text="Mercenaries cannot propose policies." />
     <string id="IOtAJCVw" text="Total Influence: {TOTAL_INFLUENCE}" />
     <string id="IPjqLEdQ" text="{DAY} days ago" />
+    <string id="IQ4bSdf5" text="Sister-in-law" />
     <string id="iQao7Ct6" text="Starving Parties" />
     <string id="iRo4meJR" text="Can't access encyclopedia right now!" />
     <string id="Is3O8NXW" text=" ({NUMBER_OF_MEN}+{NUMBER_OF_WOUNDED_MEN}w)" />
@@ -948,7 +947,6 @@
     <string id="LZhRP3PM" text="Wait for other siege machines" />
     <string id="Lzmtqif5" text="Army Size" />
     <string id="lznqF0oO" text="Disbanding" />
-    <string id="M00MeRJD" text="Cotton" />
     <string id="M03MNN3T" text="Merlon" />
     <string id="M2b5mtAE" text="Companion of" />
     <string id="m2YKBbdI" text="Hello there, little lost sheep. We are wolves of the mountains, and we would like a moment of your time..." />
@@ -1095,6 +1093,7 @@
     <string id="oVSS2Lp5" text="Horse Equipment III" />
     <string id="OWCoBElc" text="You are taken captive by {PARTY_NAME}." />
     <string id="owg6SqHF" text="an emir" />
+    <string id="owTlJjJc" text="Brother-in-law" />
     <string id="OxiaKT0G" text="Sturgian" />
     <string id="ozYRUrum" text=" Help wounded soldiers heal in settlements." />
     <string id="P2CRzfV7" text="Shops in Settlement" />
@@ -1111,7 +1110,6 @@
     <string id="pbdrFqb3" text="Force this army to disband" />
     <string id="Pc0zpaGa" text="Aye, what have we here? There's a tax for passage in these parts, traveler, paid either in coin or in blood." />
     <string id="pcy8IXDf" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-    <string id="PCZ23wvW" text="Engineering" />
     <string id="PDdh1sBj" text="Name" />
     <string id="PdXqoa2W" text="Travelling to {SETTLEMENT_NAME}" />
     <string id="PE4nuMc7" text="This page explains the game concepts in Bannerlord" />
@@ -1132,6 +1130,7 @@
     <string id="pJR9zz06" text="Troops that are ready to upgrade are marked with a special icon.{newline}{newline}Some troops may have two possible upgrade paths." />
     <string id="pLZeP6L6" text="Assault walls{?IS_GENERAL_SIDE}{?} from {SIDE_STRING} side{\?}" />
     <string id="pm0yiOmv" text="Earned: {DENAR_AMOUNT}{GOLD_ICON}" />
+    <string id="pMb8Pe12" text="Daughter-in-law" />
     <string id="PMnSk81U" text="So you intend to fight, little sheep? Let's see your horns then." />
     <string id="PN4Edq9W" text="Melee Weapons III" />
     <string id="pn9KNMxb" text="You are trapped by enemies. But your men are in no condition to fight. Your only option is to surrender." />
@@ -1168,7 +1167,6 @@
     <string id="Q3KrMlLd" text="CHARGE!" />
     <string id="q3mOBLFn" text="Choosing Skill Focus" />
     <string id="Q67Wys0i" text="Patrolling around {SETTLEMENT_NAME}" />
-    <string id="q6P6bdbC" text="Quick Talk" />
     <string id="Q7ONA10T" text="&lt;b&gt;Trebuchet&lt;/b&gt;{NEWLINE}Somewhat inaccurate but devastating against walls." />
     <string id="Q8mI3b4K" text="No Policy Selected" />
     <string id="QA8Gm9PY" text="A hot day, is it not? Don't tire yourself fighting. Give us what we want and we'll leave." />
@@ -1335,6 +1333,7 @@
     <string id="TmKbTxQy" text="khatun" />
     <string id="TNLRC4Gf" text="Fight with a one handed short weapon." />
     <string id="tnZ7BfO9" text="Peace Proposal" />
+    <string id="toK51MD4" text="Visit" />
     <string id="tolOqAaP" text="Summer {DAY}, {YEAR}" />
     <string id="toQLHG6x" text="Valor" />
     <string id="tpjGRDHP" text="Duel has ended. Hold {leave_key} to leave." />
@@ -1356,6 +1355,7 @@
     <string id="Tyc4aAdz" text="Join the battle without leading any men." />
     <string id="u3c9M8vx" text="an archoness" />
     <string id="U7er3V9s" text="Items" />
+    <string id="U7etPQA2" text="{HERO.FIRSTNAME} the {JOB_NAME}" />
     <string id="U7Z7f7ZT" text="Spouse" />
     <string id="U8TPlwW9" text="Well met {PLAYER.LINK}. I am in your debt for what you just did. I hope one day I will find a way to repay it." />
     <string id="U8VHRdwF" text="Leg Armor: " />
@@ -1377,6 +1377,7 @@
     <string id="UgMbCUMO" text="my father {REFERING_HERO.LINK}" />
     <string id="ugX2RRDY" text="I was taken and held for ransom" />
     <string id="Uh057UUb" text="Puluc" />
+    <string id="uhcIXeba" text="You are discarding items. Are you sure?" />
     <string id="UI0q8rWw" text="Livestock" />
     <string id="uinDitbl" text="We must breach the walls." />
     <string id="UIqPXN62" text="Strike enemies with thrown weapons." />
@@ -1445,6 +1446,7 @@
     <string id="VPYazFVH" text="Thrust Speed: " />
     <string id="vqHDX6hf" text="+{BONUS_AMOUNT} increase to settlement loyalty" />
     <string id="VqpmXU1m" text="Shoot enemies with a crossbow." />
+    <string id="Vqu67a3b" text="Raw Silk" />
     <string id="VRdy76RQ" text="Skirmish" />
     <string id="VSZGbSEO" text="No matching items." />
     <string id="vt1IbBFt" text="You have spotted an enemy army. Be cautious of it." />
@@ -1576,7 +1578,7 @@
     <string id="YifFZaG7" text="Party Owner" />
     <string id="Yj0cQVLH" text="Charge!" />
     <string id="YJaNtktT" text="Recruit All" />
-    <string id="yjXoftYs" text="Last seen {?IS_IN_SETTLEMENT}at{?}near{\?} {SETTLEMENT} {?IS_TODAY}today{?}{DAY_VALUE} ago{\?}." />
+    <string id="yjXoftYs" text="Last seen {?IS_IN_SETTLEMENT}at{?}near{\?} {SETTLEMENT} {?IS_TODAY}today{?}{DAY_VALUE} {?IS_MORE_THAN_ONE_DAY}days {?}day {\?} ago{\?}." />
     <string id="YK3nXtoM" text="Friends" />
     <string id="YkagFP1z" text="my mother {REFERING_HERO.LINK}" />
     <string id="ykZLXKH3" text="Renown: {RENOWN}" />
@@ -1621,6 +1623,7 @@
     <string id="ZdeswYbM" text="Trader doesn't have enough money! Are you sure?" />
     <string id="zDHbQtm9" text="You've been killed by a stray horse!" />
     <string id="ZdqbU2gw" text="Accept" />
+    <string id="zE6OFPRu" text="Settlement Tax" />
     <string id="zEbvDH7V" text="You cannot support your own clan." />
     <string id="zeGAw2IE" text="Killed by" />
     <string id="ZEzxHLaH" text="Cannot recruit prisoner heroes" />

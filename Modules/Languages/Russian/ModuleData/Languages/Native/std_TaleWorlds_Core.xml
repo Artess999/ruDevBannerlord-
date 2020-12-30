@@ -47,10 +47,8 @@
     <string id="n3cjEB0X" text="Инструменты"/>
     <string id="NwTpATW5" text="Точное метание оружия с большой силой."/>
     <string id="p9i3zRm9" text="Езда"/>
-    <string id="PCZ23wvW" text="Инженерия"/>
     <string id="PHoxdReD" text="СОЦ"/>
     <string id="PiHpR4QL" text="Одноручное"/>
-    <string id="qwEJSBaH" text="Ваше знание о том, как сделать поселение процветающим. Это поможет вам управлять поместьем или городом."/>
     <string id="skZS2UlW" text="Атлетика"/>
     <string id="sOrJoxiC" text="Интеллект"/>
     <string id="t78atYqH" text="Двуручное"/>
@@ -75,5 +73,8 @@
     <string id="socialskill" text="Общественный"/>
     <string id="ZBmz4niK" text="и"/>
     <string id="controlskill" text="Контроль"/>
+    <string id="2K0iVRkW" text="Способность сплачивать группу и управлять логистикой. Это поможет вам управлять поместьем, или же городом, а также может увеличить размер отряда, который вы возглавляете или в котором вы являетесь квартирмейстером."/>
+    <string id="ZvZN6UkU" text="Мусор"/>
+    <string id="engineeringskill" text="Инженерия"/>
   </strings>
 </base>

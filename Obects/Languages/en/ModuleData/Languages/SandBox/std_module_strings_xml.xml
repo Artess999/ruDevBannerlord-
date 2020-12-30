@@ -10,11 +10,11 @@
     <string id="9l5RgXiU" text="Choose if circle map notifications will be shown on the right side on campaign map." />
     <string id="aEnXxe0a" text="You can hold the {LEAVE_AREA_KEY} key to leave the current area." />
     <string id="AQfVclN8" text="Prize" />
-    <string id="B0uvwKae" text="Choose if the heroes are able to die on the battlefield." />
+    <string id="B0uvwKae" text="Choose if the heroes are not able to age and reproduce. This option cannot be changed later." />
     <string id="bLwIgxXa" text="Recruitment Difficulty" />
     <string id="cA1D2Ua3" text="You will need better relations with notables to access all of their troops." />
     <string id="carorTAF" text="Reduced to 2/3 (Easy)" />
-    <string id="cUHlzCRx" text="Enable Death in Battle" />
+    <string id="cUHlzCRx" text="Enable Birth and Death" />
     <string id="D9GkBqyW" text="You can leave the training field by holding [{LEAVE_KEY}]{newline}You can return at any time from the campaign map." />
     <string id="DFMhzFGV" text="Keeping a number of horses in your inventory may speed up your party considerably, since they'll increase your carrying capacity and footmen will ride spare horses. Pack horses and mules are only useful for carrying cargo though." />
     <string id="F8TaKnjh" text="When you are in a town or village scene,  holding down the Alt key shows markers on important people and interest points." />
@@ -24,9 +24,11 @@
     <string id="hR6Zo6pD" text="Oligarchic" />
     <string id="HVrobtL5" text="New kingdom name:{newline} - Cannot include digits.{newline} - Cannot be longer than {MAX_LETTER_COUNT} characters.{newline} - Cannot be shorter than {MIN_LETTER_COUNT} characters." />
     <string id="IgeL6qHr" text="Received damage ratio to your allies that are not under your command." />
+    <string id="irBV6UE4" text="{MINUTE} {?IS_PLURAL}minutes{?}minute{\?}" />
     <string id="IWD56KMc" text="Map Movement Speed" />
     <string id="JaHlwYmo" text="When you are looking at tooltip, you can press Alt key to see an extended version of the tooltip." />
     <string id="JMhKt2W1" text="Challenging" />
+    <string id="k0nSlwe9" text="Auto Save Interval" />
     <string id="k4CF68S6" text="We abstain" />
     <string id="k71J6bVH" text="Victories" />
     <string id="KbPD5cEw" text="Reduced to 1/3 (Very Easy)" />
@@ -55,6 +57,7 @@
     <string id="vGF5S2hE" text="Leaderboard" />
     <string id="wip6jLEM" text="Received damage ratio to your troops." />
     <string id="yKJ9c8IV" text="Enable Right Side Circle Map Notifications" />
+    <string id="yLa9ftit" text="Sets the interval of time between autosaves." />
     <string id="ZcyJePFm" text="Friendly Parties Received Damage" />
     <string id="ZWiFWA2W" text="Skip Main Storyline Tutorial" />
   </strings>
