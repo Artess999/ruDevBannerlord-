@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocationComplexTemplates>
+  <LocationComplexTemplate id="training_field_complex">
+    <Location id="training_field"
+              name="{=rQge8OSi}Training Field"
+              scene_name="training_field_test"
+              indoor="false"
+              max_prosperity="500"
+              ai_can_enter="CanNever"
+              ai_can_exit="CanNever"
+              player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+              player_can_see="CanAlways" />
+    <Passages></Passages>
+  </LocationComplexTemplate>
+</LocationComplexTemplates>

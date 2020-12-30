@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="sound">
+  <bank_files>
+    <file name="ambient.bank" decompress_samples="false"/>
+    <file name="campaign.bank" decompress_samples="false"/>
+    <file name="combat.bank" decompress_samples="true"/>
+    <file name="foley.bank" decompress_samples="false"/>
+    <file name="footsteps.bank" decompress_samples="false"/>
+    <file name="MasterBank.bank" decompress_samples="false"/>
+    <file name="MasterBank.strings.bank" decompress_samples="false"/>
+    <file name="music.bank" decompress_samples="false"/>
+    <file name="physics.bank" decompress_samples="false"/>
+    <file name="siege.bank" decompress_samples="false"/>
+    <file name="ui.bank" decompress_samples="false"/>
+    <file name="voice.bank" decompress_samples="true"/>
+  </bank_files>
+  <asset_files>
+    <file name="ambient.assets.bank" decompress_samples="false"/>
+    <file name="campaign.assets.bank" decompress_samples="false"/>
+    <file name="combat.assets.bank" decompress_samples="true"/>
+    <file name="foley.assets.bank" decompress_samples="false"/>
+    <file name="footsteps.assets.bank" decompress_samples="false"/>
+    <file name="MasterBank.assets.bank" decompress_samples="false"/>
+    <file name="music.assets.bank" decompress_samples="false"/>
+    <file name="physics.assets.bank" decompress_samples="false"/>
+    <file name="siege.assets.bank" decompress_samples="false"/>
+    <file name="ui.assets.bank" decompress_samples="false"/>
+    <file name="voice.assets.bank" decompress_samples="true"/>
+  </asset_files>
+</base>

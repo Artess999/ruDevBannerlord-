@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="conversation" default_priority="20">
+  <Conversations>
+    <conversation id="encounter_talk" utterer="0xFFF" istate="start" on_condition="conversation_encounter_talk_on_condition" text="{=xkKMT083}You will die today." ostate="encounter_talk" />
+    <conversation id="encounter_talk_1" is_player="true" utterer="0xFFF" istate="encounter_talk" text="{=wTFjLsgq}Ok." ostate="close_window" on_consequence="conversation_encounter_talk_1_on_consequence" />
+    <conversation id="encounter_talk_2" is_player="true" utterer="0xFFF" istate="encounter_talk" text="{=EBKrcDnY}No!" ostate="close_window" on_consequence="conversation_encounter_talk_2_on_consequence" />
+    <conversation id="talk_common_to_main" utterer="0x40FFF" istate="talk_common" text="{=!}" ostate="talk_main_enter" on_condition="conversation_talk_common_to_main_on_condition" />
+    <conversation id="talk_common_to_hostile" utterer="0x40FFF" istate="talk_common" text="{=!}" ostate="talk_hostile_enter" />
+    <conversation id="talk_common_return_to_main" utterer="0x40FFF" istate="talk_common_return" text="{=!}" ostate="talk_main_return" on_condition="conversation_talk_common_return_to_main_on_condition" />
+    <conversation id="talk_common_return_to_hostile" utterer="0x40FFF" istate="talk_common_return" text="{=!}" ostate="talk_hostile_return" />
+    <conversation id="talk_main_enter" utterer="0xFFF" istate="talk_main_enter" text="{=A8VlEUMS}Hello {PLAYER.LINK}, nice to see you." ostate="talk_main" />
+    <conversation id="talk_hostile_enter" utterer="0xFFF" istate="talk_hostile_enter" text="{=jnJqjlnr}I will cut your throat." ostate="talk_hostile" />
+    <conversation id="talk_main_return" utterer="0xFFF" istate="talk_main_return" text="{=5qoYjNVs}What else do you want to talk, my friend?" ostate="talk_main" />
+    <conversation id="talk_hostile_return" utterer="0xFFF" istate="talk_hostile_return" text="{=nZDF7yVq}Anything else you want to say before you die?" ostate="talk_hostile" />
+    <conversation id="talk_main_leave" is_player="true" utterer="0x10FFF" istate="talk_main" text="{=ZFqlqyci}[Leave]" ostate="close_window" />
+    <conversation id="talk_hostile_battle" is_player="true" utterer="0x10FFF" istate="talk_hostile" text="{=yUPOktil}I am not afraid of you, I will fight." ostate="close_window" />
+    <conversation id="talk_hostile_surrender" is_player="true" utterer="0x10FFF" istate="talk_hostile" text="{=ah9SN1u0}We surrender!" ostate="close_window" on_consequence="conversation_talk_hostile_surrender_on_consequence" />
+    <conversation id="14" utterer="0xFFF" istate="start" text="{=!}{CONVERSATION_STUB}" on_condition="conversation_default_conversation_stub_on_condition" ostate="close_window" />
+  </Conversations>
+</base>

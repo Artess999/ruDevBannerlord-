@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <string id="str_dont_show_again" text="{=KUGomrhD}Don't Show Again" />
+    <string id="str_STR1_STR2" text="{=!}{STR1}{STR2}" />
+    <string id="str_LEFT_ONLY" text="{=!}{LEFT}" />
+    <string id="str_LEFT_colon" text="{=ar2Y8Xs9}{LEFT}: " />
+    <string id="str_LEFT_comma_RIGHT" text="{=N5fmlTza}{LEFT}, {RIGHT}" />
+    <string id="str_LEFT_over_RIGHT" text="{=ucyy9Sc5}{LEFT} / {RIGHT}" />
+    <string id="str_LEFT_colon_RIGHT" text="{=jIcGy6gI}{LEFT} : {RIGHT}" />
+    <string id="str_LEFT_and_RIGHT" text="{=3Gb7tKgJ}{LEFT} and {RIGHT}" />
+    <string id="str_gpu_memory_usage_value_text" text="{=py0auN0A}{ESTIMATED} MB / {TOTAL} MB" />
+    <string id="str_gpu_memory_usage" text="{=lCucoVwJ}Estimated GPU Memory Usage" />
+    <string id="str_gpu_memory_caution_title" text="{=UwuYCgIU}Caution" />
+    <string id="str_gpu_memory_caution_text" text="{=ll2iP8yo}Using more than your available GPU memory can result in serious performance drops and stability issues. Proceed with caution." />
+    <string id="str_ok" text="{=oHaWR73d}Ok" />
+    <string id="str_save_unsuccessful_title" text="{=6HJxnF3G}Save Failed!" />
+    <string id="str_save_unsuccessful_unauthorized" text="{=d5a3QdBR}Cannot access save folder." />
+    <string id="str_save_unsuccessful_cannot_create_save_data" text="{=rs0wImmD}Cannot create save data." />
+    <string id="str_load_module_error.VersionMismatch" text="{=vJDxgaOZ}These modules' versions are different:" />
+    <string id="str_load_module_error.ModuleAdded" text="{=WVpVmbzC}These modules are new in the game:" />
+    <string id="str_load_module_error.ModuleRemoved" text="{=sCjtEbTF}These modules have been removed from the game:" />
+    <string id="str_option_restart_required_desc" text="{=sTlHHQPs}You will need to restart Bannerlord for this setting to take effect" />
+    <string id="str_option_restart_required" text="{=r9tGsO4Z}Game Restart Required" />
+    <string id="str_options_type.Language" text="{=Js1lhJkk}Language" />
+    <string id="str_options_type.MasterVolume" text="{=YDccwh2x}Master Volume" />
+    <string id="str_options_type.MusicVolume" text="{=s533kEjf}Music Volume" />
+    <string id="str_options_type.SoundVolume" text="{=x7kYOUfi}Effects Volume" />
+    <string id="str_options_type.SoundDevice" text="{=DiK2cKUi}Sound Device" />
+    <string id="str_options_type.MaxSimultaneousSoundEventCount" text="{=ZtxvyzjY}Sound Channels" />
+    <string id="str_options_type.SoundOutput" text="{=qggjceRq}Sound Output" />
+    <string id="str_options_type.MouseSensitivity" text="{=Kk0hMffJ}Mouse Sensitivity" />
+    <string id="str_options_type.InvertMouseYAxis" text="{=M2LCpC4Z}Invert Mouse Y Axis" />
+    <string id="str_options_type.MouseYMovementScale" text="{=*}Vertical Movement Scale for Direction Gestures" />
+    <string id="str_options_type.ControlBlockDirection" text="{=tewykKdc}Control Block Direction" />
+    <string id="str_options_type.ControlAttackDirection" text="{=Ju6btXsv}Control Attack Direction" />
+    <string id="str_options_type.EnableVibration" text="{=7pBx0s07}Enable Controller Vibration" />
+    <string id="str_options_type.CombatAI" text="{=JLqe3lrb}Combat AI Difficulty" />
+    <string id="str_options_type.CampaignAI" text="{=5WDQLWCk}Campaign AI" />
+    <string id="str_options_type.CombatSpeed" text="{=Pkw17hO0}Combat Speed" />
+    <string id="str_options_type.BattleSize" text="{=hUyPaplJ}Battle Size" />
+    <string id="str_options_type.CombatCameraDistance" text="{=DbpgZxxK}Third Person Camera Distance" />
+    <string id="str_options_type.TurnCameraWithHorseInFirstPerson" text="{=0ot0eBzv}Turn Camera With Horse In First Person" />
+    <string id="str_options_type.ShowAttackDirection" text="{=cvhQOE38}Show Attack Direction" />
+    <string id="str_options_type.ShowTargetingReticle" text="{=8hArJQWf}Show Targeting Reticle" />
+    <string id="str_options_type.FriendlyTroopsBannerOpacity" text="{=vJ41v8zh}Friendly Troops Banner Opacity" />
+    <string id="str_options_type.ReportDamage" text="{=sbUBtOTb}Report Damage" />
+    <string id="str_options_type.ReportPersonalDamage" text="{=ayYYRfPP}Report Personal Damage" />
+    <string id="str_options_type.ReportCasualties" text="{=FLLnblfP}Report Casualties" />
+    <string id="str_options_type.ReportExperience" text="{=WOubRnjm}Report Experience" />
+    <string id="str_options_type.ClothSimulation" text="{=Ve99pCSo}Cloth Simulation" />
+    <string id="str_options_type.InteractiveGrass" text="{=UFHqkvah}Interactive Grass" />
+    <string id="str_options_type.OverAll" text="{=d6DkPU2b}Overall" />
+    <string id="str_options_type.ScreenResolution" text="{=DqFxOjTp}Screen Resolution" />
+    <string id="str_options_type.RefreshRate" text="{=KGaaYZi1}Refresh Rate" />
+    <string id="str_options_type.ResolutionScale" text="{=45yEpDdE}Resolution Scale" />
+    <string id="str_options_type.FrameLimiter" text="{=1WsmBXkN}Frame Limiter" />
+    <string id="str_options_type.Antialiasing" text="{=P5x1HU1u}Anti-aliasing" />
+    <string id="str_options_type.DLSS" text="{=Uc1n5MRj}NVIDIA DLSS" />
+    <string id="str_options_type.Occlusion" text="{=0MvDMsEl}Occlusion Method" />
+    <string id="str_options_type.Brightness" text="{=Bl8cKwhL}Display Calibration" />
+    <string id="str_options_type.ExposureCompensation" text="{=iPx4jep6}Exposure" />
+    <string id="str_options_type.SharpenAmount" text="{=4R4shVxp}Sharpen Amount" />
+    <string id="str_options_type.ShadowmapResolution" text="{=jafcz97A}Shadow Quality" />
+    <string id="str_options_type.ShadowmapType" text="{=vXvmeGhm}Shadow Type" />
+    <string id="str_options_type.ShadowmapFiltering" text="{=wb84GjZw}Shadow Filtering" />
+    <string id="str_options_type.ParticleQuality" text="{=otHjiYlN}Particle Quality" />
+    <string id="str_options_type.ParticleDetail" text="{=aufrcNmq}Particle Detail" />
+    <string id="str_options_type.FoliageQuality" text="{=bEJsGiBK}Foliage Quality" />
+    <string id="str_options_type.TextureBudget" text="{=MNsKxGzK}Texture Streaming Budget" />
+    <string id="str_options_type.TextureQuality" text="{=LJZAvH8f}Texture Quality" />
+    <string id="str_options_type.TrailAmount" text="{=pshodFff}Weapon Trail Visibility" />
+    <string id="str_options_type.ShaderQuality" text="{=UwJIMaRi}Shader Quality" />
+    <string id="str_options_type.Bloom" text="{=U5xKAHGi}Bloom" />
+    <string id="str_options_type.DepthOfField" text="{=wWDHH5FK}Depth of Field" />
+    <string id="str_options_type.SunShafts" text="{=9hRcH7kV}Sun Shafts" />
+    <string id="str_options_type.MotionBlur" text="{=IKjxVh2N}Motion Blur" />
+    <string id="str_options_type.SSSSS" text="{=Dw58UUua}Subsurface Scattering" />
+    <string id="str_options_type.SSR" text="{=yZvw7EQb}Screen Space Reflection" />
+    <string id="str_options_type.Tesselation" text="{=IjRHUbbN}Tesselation" />
+    <string id="str_options_type.CharacterDetail" text="{=I3rTzBae}Character Detail" />
+    <string id="str_options_type.EnvironmentDetail" text="{=6g0y182U}Environment Detail" />
+    <string id="str_options_type.TerrainQuality" text="{=M1ZFZR5I}Terrain Quality" />
+    <string id="str_options_type.NumberOfCorpses" text="{=h6wUbray}Number Of Corpses" />
+    <string id="str_options_type.NumberOfRagDolls" text="{=1awQTVqN}Number Of Ragdolls" />
+    <string id="str_options_type.ShowBlood" text="{=gCDjIGB6}Show Blood" />
+    <string id="str_options_type.TextureFiltering" text="{=b1OtYhnF}Texture Filtering" />
+    <string id="str_options_type.DisplayMode" text="{=KwNTg7BT}Display Mode" />
+    <string id="str_options_type.SelectedMonitor" text="{=6AnHiJGR}Selected Monitor" />
+    <string id="str_options_type.SelectedAdapter" text="{=s7yWjpeB}Selected Adapter" />
+    <string id="str_options_type.VSync" text="{=v8GIxASM}V-Sync" />
+    <string id="str_options_type.FilmGrain" text="{=ZtDJrNz9}Film Grain" />
+    <string id="str_options_type.WaterQuality" text="{=Irhxad7u}Water Quality" />
+    <string id="str_options_type.LightingQuality" text="{=Uojm77jP}Lighting Quality" />
+    <string id="str_options_type.DecalQuality" text="{=92ZztgDd}Decal Quality" />
+    <string id="str_options_type.MoveForward" text="{=3Dngsvya}Move Forward" />
+    <string id="str_options_type.MoveBack" text="{=QoGjzEwI}Move Back" />
+    <string id="str_options_type.MoveLeft" text="{=JLtTANZg}Move Left" />
+    <string id="str_options_type.MoveRight" text="{=bqb2K5b1}Move Right" />
+    <string id="str_options_type.Action" text="{=KO5zuUvN}Action" />
+    <string id="str_options_type.Jump" text="{=7QKjVON8}Jump" />
+    <string id="str_options_type.Crouch" text="{=lgzmPG6K}Crouch" />
+    <string id="str_options_type.Attack" text="{=zxMOqlhs}Attack" />
+    <string id="str_options_type.Defend" text="{=Az084VJK}Defend" />
+    <string id="str_options_type.Kick" text="{=combatkick}Kick" />
+    <string id="str_options_type.ToggleWeaponMode" text="{=SuYh3GtG}Toggle Weapon Mode" />
+    <string id="str_options_type.EquipWeapon1" text="{=HsljR1NL}Equip Weapon 1" />
+    <string id="str_options_type.EquipWeapon2" text="{=2e8wI3EM}Equip Weapon 2" />
+    <string id="str_options_type.EquipWeapon3" text="{=ShDZ4GgG}Equip Weapon 3" />
+    <string id="str_options_type.EquipWeapon4" text="{=JP1y1i0A}Equip Weapon 4" />
+    <string id="str_options_type.EquipPrimaryWeapon" text="{=UqB9zKfE}Equip Primary Weapon" />
+    <string id="str_options_type.EquipSecondaryWeapon" text="{=zofULNb8}Equip Secondary Weapon" />
+    <string id="str_options_type.DropWeapon" text="{=xNprkuJl}Drop Weapon" />
+    <string id="str_options_type.SheathWeapon" text="{=lxIeKgXe}Sheath Weapon" />
+    <string id="str_options_type.Leave" text="{=3sRdGQou}Leave" />
+    <string id="str_options_type.Zoom" text="{=uSGPBRFS}Zoom" />
+    <string id="str_options_type.ViewCharacter" text="{=J2pcA6KR}View Character" />
+    <string id="str_options_type.LockTarget" text="{=*}Lock Target" />
+    <string id="str_options_type.CameraToggle" text="{=RX76Kfa8}Camera Toggle" />
+    <string id="str_options_type.ViewOrders" text="{=ID9lG6xg}View Orders" />
+    <string id="str_options_type.SelectOrder1" text="{=UoxjMhfJ}SelectOrder1" />
+    <string id="str_options_type.SelectOrder2" text="{=b9rDOY21}SelectOrder2" />
+    <string id="str_options_type.SelectOrder3" text="{=hHxSj7tY}SelectOrder3" />
+    <string id="str_options_type.SelectOrder4" text="{=SWDHaFCK}SelectOrder4" />
+    <string id="str_options_type.SelectOrder5" text="{=8iwie5KL}SelectOrder5" />
+    <string id="str_options_type.SelectOrder6" text="{=bW2urPqE}SelectOrder6" />
+    <string id="str_options_type.SelectOrder7" text="{=kG4051e5}SelectOrder7" />
+    <string id="str_options_type.SelectOrder8" text="{=ZaaPPemL}SelectOrder8" />
+    <string id="str_options_type.SelectOrderReturn" text="{=WiBlu6mE}SelectOrder9" />
+    <string id="str_options_type.EveryoneHear" text="{=4e0ycN1Q}Everyone Hear" />
+    <string id="str_options_type.Group0Hear" text="{=u7FkCtRN}Group 0 Hear" />
+    <string id="str_options_type.Group1Hear" text="{=NN7DHB1A}Group 1 Hear" />
+    <string id="str_options_type.Group2Hear" text="{=fsI2wuHa}Group 2 Hear" />
+    <string id="str_options_type.Group3Hear" text="{=CsEtp6Az}Group 3 Hear" />
+    <string id="str_options_type.Group4Hear" text="{=StaoHYba}Group 4 Hear" />
+    <string id="str_options_type.Group5Hear" text="{=rYCYUZu5}Group 5 Hear" />
+    <string id="str_options_type.Group6Hear" text="{=s4r1xdg0}Group 6 Hear" />
+    <string id="str_options_type.Group7Hear" text="{=pnEeRPAk}Group 7 Hear" />
+    <string id="str_options_type.ReverseOrderGroup" text="{=hS4wYBa8}Reverse Order Group" />
+    <string id="str_options_type.SendMessageToEveryone" text="{=2h2148cq}Send Message To Everyone" />
+    <string id="str_options_type.SendMessageToTeam" text="{=dg6yQU6z}Send Message To Team" />
+    <string id="str_options_type.BannerWindow" text="{=Rh7aDJ3n}Banner Window" />
+    <string id="str_options_type.CharacterWindow" text="{=fJnqJx8m}Character Window" />
+    <string id="str_options_type.InventoryWindow" text="{=DTSHoHbu}Inventory Window" />
+    <string id="str_options_type.EncyclopediaWindow" text="{=hdbb0Jjp}Encyclopedia Window" />
+    <string id="str_options_type.PartyWindow" text="{=HNTCnUYY}Party Window" />
+    <string id="str_options_type.QuestsWindow" text="{=amdYLZ6o}Quests Window" />
+    <string id="str_options_type.GameLogWindow" text="{=gzMIzYTF}Game Log Window" />
+    <string id="str_options_type.QuickSave" text="{=zvD48rVQ}Quick Save" />
+    <string id="str_options_type.TakeScreenshot" text="{=TUWeNFOv}Take Screenshot" />
+    <string id="str_options_type.MapMoveForward" text="{=YT6ljA5V}Map Move Forward" />
+    <string id="str_options_type.MapMoveBackward" text="{=8AiDqTFB}Map Move Backward" />
+    <string id="str_options_type.MapMoveLeft" text="{=w4l8xA2Q}Map Move Left" />
+    <string id="str_options_type.MapMoveRight" text="{=znSZmZvV}Map Move Right" />
+    <string id="str_options_type.MapFastMove" text="{=MFbBFDqx}Map Fast Move" />
+    <string id="str_options_type.MapZoomIn" text="{=dbkFMtJw}Map Zoom In" />
+    <string id="str_options_type.MapZoomOut" text="{=P4rblFQN}Map Zoom Out" />
+
+    <string id="str_options_type.MapCameraFollowMode" text="{=*}Map Camera Follow Mode" />
+    <string id="str_options_type.MapExtendInfoBar" text="{=*}Map Extend Info Bar" />
+    <string id="str_options_type.MapTrackSettlement" text="{=*}Map Track Settlement" />
+    <string id="str_options_type.MapGoToEncylopedia" text="{=*}Map Open Encyclopedia" />
+    
+
+
+    <string id="str_options_type.MapWait" text="{=sQCP8t0U}Map Wait" />
+    <string id="str_options_type.MapSelect" text="{=OiB50fga}Map Select" />
+    <string id="str_options_type.MapContextMenu" text="{=PADeKaAu}Map Context Menu" />
+    <string id="str_options_type.MapCameraFollowMode" text="{=T6IJg6wq}Map Camera Follow Mode" />
+    <string id="str_options_type.MapTimeStop" text="{=6Uh76bYG}Map Time Stop" />
+    <string id="str_options_type.MapTimeNormal" text="{=wYicqUa9}Map Time Normal" />
+    <string id="str_options_type.MapTimeFastForward" text="{=TOebahlA}Map Time Fast Forward" />
+    <string id="str_options_type.MenuSwitchToLeftTab" text="{=!}UI Switch To Left Tab" />
+    <string id="str_options_type.MenuSwitchToRightTab" text="{=!}UI Switch To Right Tab" />
+    <string id="str_options_type.MenuMoveUp" text="{=!}UI Move Up" />
+    <string id="str_options_type.MenuMoveDown" text="{=!}UI Move Down" />
+    <string id="str_options_type.MenuMoveLeft" text="{=!}UI Move Left" />
+    <string id="str_options_type.MenuMoveRight" text="{=!}UI Move Right" />
+    <string id="str_options_type.MenuEnter" text="{=!}UI Enter" />
+    <string id="str_options_type.MenuLeave" text="{=!}UI Leave" />
+    <string id="str_options_type.FirstPersonFov" text="{=gIsqhwTs}First Person Field of View" />
+    <string id="str_options_type.UIScale" text="{=JZFXI1LK}UI Scale" />
+    <string id="str_options_type.EnableDamageTakenVisuals" text="{=pNocZkrx}Enable Damage Taken Visuals" />
+    <string id="str_options_type.ForceVSyncInMenus" text="{=Hj1bsSbW}Force VSync in Menus" />
+    <string id="str_options_type.EnableVerticalAimCorrection" text="{=jOGbGqOC}Enable Vertical Aim Correction" />
+    <string id="str_options_type.CrosshairType" text="{=gu2JU5zq}Crosshair Type" />
+    <string id="str_options_type_CrosshairType_0" text="{=u6QCWQvu}Four Part" />
+    <string id="str_options_type_CrosshairType_1" text="{=qmplQd0Q}Three Part" />
+    <string id="str_options_type.OrderType" text="{=*}Order Visuals Type" />
+    <string id="str_options_type_OrderType_0" text="{=*}Bar" />
+    <string id="str_options_type_OrderType_1" text="{=*}Radial" />
+    <string id="str_options_type_MaxSimultaneousSoundEventCount_0" text="{=TybJcG0A}Very Low (64) " />
+    <string id="str_options_type_MaxSimultaneousSoundEventCount_1" text="{=c49AY7yF}Low (128)" />
+    <string id="str_options_type_MaxSimultaneousSoundEventCount_2" text="{=iUFgqwkA}Medium (256)" />
+    <string id="str_options_type_MaxSimultaneousSoundEventCount_3" text="{=zzonsjpL}High (512)" />
+    <string id="str_options_type_SoundOutput_0" text="{=au7tXcD1}Stereo" />
+    <string id="str_options_type_SoundOutput_1" text="{=XnhBdHnS}Surround" />
+    <string id="str_options_type_SoundOutput_2" text="{=jbLwdd6z}Headphones" />
+    <string id="str_options_type_ControlBlockDirection_0" text="{=k3CLKsrz}By Mouse Movement" />
+    <string id="str_options_type_ControlBlockDirection_1" text="{=Vpy2qEcN}By Movement Keys" />
+    <string id="str_options_type_ControlBlockDirection_2" text="{=MhralfPz}Auto" />
+    <string id="str_options_type_ControlAttackDirection_0" text="{=UjX1E56u}By Inverse Mouse Movement" />
+    <string id="str_options_type_ControlAttackDirection_1" text="{=k3CLKsrz}By Mouse Movement" />
+    <string id="str_options_type_ControlAttackDirection_2" text="{=Vpy2qEcN}By Movement Keys" />
+    <string id="str_options_type_TextureBudget_0" text="{=FqvJUBRn}Low" />
+    <string id="str_options_type_TextureBudget_1" text="{=4aAvY4yO}Medium" />
+    <string id="str_options_type_TextureBudget_2" text="{=aydCb7WA}High" />
+    <string id="str_options_type_TextureBudget_3" text="{=2AyPP3rw}Very High" />
+    <string id="str_options_type_TextureQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_TextureQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_TextureQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_WaterQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_WaterQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_WaterQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_CombatAI_0" text="{=UwXP9UAR}Good" />
+    <string id="str_options_type_CombatAI_1" text="{=iTau5cxh}Average" />
+    <string id="str_options_type_CombatAI_2" text="{=UY79LYHf}Poor" />
+    <string id="str_options_type_CampaignAI_0" text="{=UwXP9UAR}Good" />
+    <string id="str_options_type_CampaignAI_1" text="{=iTau5cxh}Average" />
+    <string id="str_options_type_CampaignAI_2" text="{=UY79LYHf}Poor" />
+    <string id="str_options_type_CombatSpeed_0" text="{=!}Slowest" />
+    <string id="str_options_type_CombatSpeed_1" text="{=!}Slower" />
+    <string id="str_options_type_CombatSpeed_2" text="{=!}Normal" />
+    <string id="str_options_type_CombatSpeed_3" text="{=!}Faster" />
+    <string id="str_options_type_CombatSpeed_4" text="{=!}Fastest" />
+    <string id="str_options_type_TurnCameraWithHorseInFirstPerson_0" text="{=I6OJtaMT}Never" />
+    <string id="str_options_type_TurnCameraWithHorseInFirstPerson_1" text="{=0EDGnl1C}Ranged Only" />
+    <string id="str_options_type_TurnCameraWithHorseInFirstPerson_2" text="{=QaMie1KY}Melee Only" />
+    <string id="str_options_type_OverAll_0" text="{=FqvJUBRn}Very Low" />
+    <string id="str_options_type_OverAll_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_OverAll_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_OverAll_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_OverAll_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_OverAll_5" text="{=jvOYgHOe}Custom" />
+    <string id="str_options_type_ScreenResolution_Desktop" text="{=HmgPBPeq}Desktop Resolution" />
+    <string id="str_options_type_ScreenResolution_Custom" text="{=jvOYgHOe}Custom" />
+    <string id="str_options_type_Antialiasing_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_Antialiasing_1" text="{=!}FXAA" />
+    <string id="str_options_type_Antialiasing_2" text="{=!}SMAA" />
+    <string id="str_options_type_Antialiasing_3" text="{=!}SMAA x2" />
+    <string id="str_options_type_Antialiasing_4" text="{=!}Temporal SMAA" />
+    <string id="str_options_type_Antialiasing_5" text="{=!}Temporal SMAA x2" />
+    <string id="str_options_type_DLSS_0" text="{=!}None" />
+    <string id="str_options_type_DLSS_1" text="{=!}DLSS Performance" />
+    <string id="str_options_type_DLSS_2" text="{=!}DLSS Balanced" />
+    <string id="str_options_type_DLSS_3" text="{=!}DLSS Quality" />
+    <string id="str_options_type_DLSS_4" text="{=!}DLSS Ultra Performance" />
+    <!-- <string id="str_options_type_DLSS_5" text="{=!}DLSS Ultra Quality" />-->
+    <string id="str_options_type_Occlusion_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_Occlusion_1" text="{=!}TSAO" />
+    <string id="str_options_type_ShadowmapResolution_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_ShadowmapResolution_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_ShadowmapResolution_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_ShadowmapResolution_3" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_ShadowmapType_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_ShadowmapType_1" text="{=KHbdmIfF}Static Only" />
+    <string id="str_options_type_ShadowmapType_2" text="{=j2g8BSOF}Static and Dynamic" />
+    <string id="str_options_type_ShadowmapFiltering_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_ShadowmapFiltering_1" text="{=!}PCF" />
+    <string id="str_options_type_ParticleQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_ParticleQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_ParticleQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_ParticleDetail_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_ParticleDetail_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_ParticleDetail_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_FoliageQuality_0" text="{=FqvJUBRn}Very Low" />
+    <string id="str_options_type_FoliageQuality_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_FoliageQuality_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_FoliageQuality_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_FoliageQuality_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_DecalQuality_0" text="{=FqvJUBRn}Very Low" />
+    <string id="str_options_type_DecalQuality_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_DecalQuality_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_DecalQuality_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_DecalQuality_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_ShaderQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_ShaderQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_ShaderQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_LightingQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_LightingQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_LightingQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_NumberOfCorpses_5" text="{=lC5xsoSh}Unlimited" />
+    <string id="str_options_type_NumberOfCorpses_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_NumberOfCorpses_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_NumberOfCorpses_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_NumberOfCorpses_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_NumberOfCorpses_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_NumberOfRagDolls_5" text="{=lC5xsoSh}Unlimited" />
+    <string id="str_options_type_NumberOfRagDolls_4" text="{=xEquRfRF}10" />
+    <string id="str_options_type_NumberOfRagDolls_3" text="{=X5cSNxHf}5" />
+    <string id="str_options_type_NumberOfRagDolls_2" text="{=uBRn8Je8}3" />
+    <string id="str_options_type_NumberOfRagDolls_1" text="{=sxFsZAeC}1" />
+    <string id="str_options_type_NumberOfRagDolls_0" text="{=mG4rCrfE}0" />
+    <string id="str_options_type_CharacterDetail_0" text="{=FqvJUBRn}Very Low" />
+    <string id="str_options_type_CharacterDetail_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_CharacterDetail_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_CharacterDetail_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_CharacterDetail_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_EnvironmentDetail_4" text="{=Cvdaadvs}Very High" />
+    <string id="str_options_type_EnvironmentDetail_3" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_EnvironmentDetail_2" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_EnvironmentDetail_1" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_EnvironmentDetail_0" text="{=FqvJUBRn}Very Low" />
+    <string id="str_options_type_TerrainQuality_2" text="{=2AyPP3rw}High" />
+    <string id="str_options_type_TerrainQuality_1" text="{=aydCb7WA}Medium" />
+    <string id="str_options_type_TerrainQuality_0" text="{=4aAvY4yO}Low" />
+    <string id="str_options_type_TextureFiltering_0" text="{=d75b5uSL}Bilinear" />
+    <string id="str_options_type_TextureFiltering_1" text="{=9F323ez4}Trilinear" />
+    <string id="str_options_type_TextureFiltering_2" text="{=oEdTBobd}Anisotropic 2X" />
+    <string id="str_options_type_TextureFiltering_3" text="{=yfMN8wWN}Anisotropic 4X" />
+    <string id="str_options_type_TextureFiltering_4" text="{=7tYiV9Vw}Anisotropic 8X" />
+    <string id="str_options_type_TextureFiltering_5" text="{=qvaJYO9c}Anisotropic 16X" />
+    <string id="str_options_type_DisplayMode_0" text="{=sAoWNAwZ}Windowed" />
+    <string id="str_options_type_DisplayMode_1" text="{=ocNVbyPJ}Borderless Fullscreen" />
+    <string id="str_options_type_DisplayMode_2" text="{=5siWUJPw}Fullscreen" />
+    <string id="str_options_type_VSync_0" text="{=koX9okuG}None" />
+    <string id="str_options_type_VSync_1" text="{=1uCaibsd}Full" />
+    <string id="str_options_type_VSync_2" text="{=roJLc9oH}Half" />
+    <string id="str_options_type_action.Brightness" text="{=U8NaF1bo}Calibrate" />
+    <string id="str_options_type_action.ExposureCompensation" text="{=urbLiiQJ}Configure Exposure" />
+    <string id="str_options_description.Language" text="{=wJWICbOg}Your preferred game language." />
+    <string id="str_options_description.MasterVolume" text="{=9qZw55vR}Master volume level." />
+    <string id="str_options_description.MusicVolume" text="{=P7E3rS3m}Music volume level." />
+    <string id="str_options_description.SoundVolume" text="{=oI1gktYa}Sound effects volume level." />
+    <string id="str_options_description.SoundDevice" text="{=ea8kNj32}Your preferred sound output device." />
+    <string id="str_options_description.MaxSimultaneousSoundEventCount" text="{=xZ84ujuu}How many sounds could be played at once. Lower values will lower your CPU usage while higher values delivers better atmosphere." />
+    <string id="str_options_description.SoundOutput" text="{=sAa2SIgO}You can switch between different mix modes better suited to your speaker configuration." />
+    <string id="str_options_description.MouseSensitivity" text="{=s6qTeIw1}Set sensitivity for mouse movement and camera control." />
+    <string id="str_options_description.InvertMouseYAxis" text="{=xnGGas4h}Invert y-axis of the mouse for camera control." />
+    <string id="str_options_description.MouseYMovementScale" text="{=*}Set your vertical movement multiplier for direction gestures, compared to horizontal movement. Does not affect camera movement." />
+    <string id="str_options_description.TrailAmount" text="{=JXdwIX8Q}Set thickness for trails of ranged weapons." />
+    <string id="str_options_description.EnableVibration" text="{=4Q9pzbqM}Enable the controller vibration effect." />
+    <string id="str_options_description.ControlBlockDirection" text="{=ACIFg43o}Choose how to perform blocks. Auto will default to &quot;By Mouse Movement&quot; in Multiplayer." />
+    <string id="str_options_description.ControlAttackDirection" text="{=R9cQCadq}Choose how to perform attacks." />
+    <string id="str_options_description.CombatAI" text="{=iwO3g6Rz}Select how challenging the combat AI will be." />
+    <string id="str_options_description.CampaignAI" text="{=fBXuMgdm}Campaign AI DESC" />
+    <string id="str_options_description.CombatSpeed" text="{=Dg0SKmCS}Combat Speed DESC" />
+    <string id="str_options_description.BattleSize" text="{=nDjFBDvE}Sets the maximum number of units on battles. A higher value requires better CPU and GPU." />
+    <string id="str_options_description.TurnCameraWithHorseInFirstPerson" text="{=y7dx24ih}Turn camera as you change direction on a horse in first person view." />
+    <string id="str_options_description.ShowAttackDirection" text="{=lgOBD6MF}Enable marks for direction of attack." />
+    <string id="str_options_description.ShowTargetingReticle" text="{=jgCb0sga}Enable crosshair for ranged weapons." />
+    <string id="str_options_description.FriendlyTroopsBannerOpacity" text="{=ZKg3DqbQ}Determines the opacity of the banners shown on top of the friendly troops." />
+    <string id="str_options_description.ReportDamage" text="{=JAzv5xYY}Enable text reports for damage dealt." />
+    <string id="str_options_description.ReportPersonalDamage" text="{=Vea6bRUO}Enable interface elements that report players damage and casualities in center bottom." />
+    <string id="str_options_description.ReportCasualties" text="{=TvGJqPGp}Enable reports for deaths and knock outs." />
+    <string id="str_options_description.CombatCameraDistance" text="{=K80z5onY}Determines how far will the camera be in third-person." />
+    <string id="str_options_description.ReportExperience" text="{=drbgOAqx}Enable reports for experience gain." />
+    <string id="str_options_description.ClothSimulation" text="{=OgXnrvcA}Enables the cloth simulation. Uses GPU resources." />
+    <string id="str_options_description.InteractiveGrass" text="{=j3k8PiPo}Enables the deformable grass." />
+    <string id="str_options_description.OverAll" text="{=BDSEgN41}Sets the overall graphics quality preset." />
+    <string id="str_options_description.ScreenResolution" text="{=yLCSTuBw}Sets the resolution of the game. Higher resolution requires a more powerful display adapter." />
+    <string id="str_options_description.RefreshRate" text="{=fldPHfP6}Sets the refresh rate of the game." />
+    <string id="str_options_description.ResolutionScale" text="{=Sb3L2QwL}Sets the resolution scale." />
+    <string id="str_options_description.FrameLimiter" text="{=KtYtBnvP}Sets the frame limiter." />
+    <string id="str_options_description.Antialiasing" text="{=accbLVWL}Sets the anti-aliasing technique. " />
+    <string id="str_options_description.DLSS" text="{=qNPmVDmU}Sets the NVIDIA DLSS method if applicable. " />
+    <string id="str_options_description.Occlusion" text="{=IcEPmXxM}Sets the ambient occlusion technique." />
+    <string id="str_options_description.Brightness" text="{=MfunBOxF}Calibrate contrast levels." />
+    <string id="str_options_description.ExposureCompensation" text="{=aombIn07}Set the exposure amount." />
+    <string id="str_options_description.SharpenAmount" text="{=k4E1gylQ}Sets the amount of sharpen effect." />
+    <string id="str_options_description.ShadowmapResolution" text="{=whn4v32E}Sets the resolution of shadows." />
+    <string id="str_options_description.ShadowmapType" text="{=Rhl5E2ut}Sets the type of shadows." />
+    <string id="str_options_description.ShadowmapFiltering" text="{=ZeIsxhk4}Sets the shadow filtering technique." />
+    <string id="str_options_description.ParticleDetail" text="{=Gd2iUUHa}Sets the quality of particles. A higher value means more detailed particles." />
+    <string id="str_options_description.ParticleQuality" text="{=Gd2iUUHa}Sets the render quality of particles. A higher value means sharper particles." />
+    <string id="str_options_description.TextureBudget" text="{=dC1MBjrO}Affects the size of the texture streaming cache. A higher value requires more video memory but provides a smoother experience." />
+    <string id="str_options_description.TextureQuality" text="{=8kO2jDVf}Affects the quality of textures." />
+    <string id="str_options_description.ShaderQuality" text="{=7phVPcDc}Sets the quality of shaders. A higher value means better graphical effects." />
+    <string id="str_options_description.Bloom" text="{=ikoUJQyl}Enables the bloom effect." />
+    <string id="str_options_description.DepthOfField" text="{=CbwmI1JY}Enables the depth of field." />
+    <string id="str_options_description.SunShafts" text="{=E5xbXlLB}Enables the sun shafts." />
+    <string id="str_options_description.MotionBlur" text="{=waNCurZY}Enables the motion blur." />
+    <string id="str_options_description.SSSSS" text="{=MfsNAPh6}Enables the subsurface scattering." />
+    <string id="str_options_description.SSR" text="{=7X6fZ5kQ}Enables the screen space reflections." />
+    <string id="str_options_description.Tesselation" text="{=IaoVYeZi}Enables the tesselation." />
+    <string id="str_options_description.FoliageQuality" text="{=8b45xcyL}Sets the quality of trees and grass." />
+    <string id="str_options_description.CharacterDetail" text="{=WldVAZhy}Sets the detail level of character models." />
+    <string id="str_options_description.NumberOfCorpses" text="{=qtgBKzY8}Sets the number of visible corpses." />
+    <string id="str_options_description.NumberOfRagDolls" text="{=ZIKuUbUG}Sets the number of simultaneous ragdoll simulations." />
+    <string id="str_options_description.ShowBlood" text="{=xuOz73hl}Choose whether blood is visible in battles." />
+    <string id="str_options_description.TextureFiltering" text="{=WBVMg0bd}Sets the texture filtering technique. A higher value means more detailed and sharp textures." />
+    <string id="str_options_description.DisplayMode" text="{=0fLpwDzk}Sets the window mode.{newline}Windowed: Runs the game on a window.{newline}Fullscreen: Runs the game in full screen.{newline}Borderless Fullscreen: Runs the game on a borderless maximized window." />
+    <string id="str_options_description.SelectedMonitor" text="{=Gl2S6WEW}Sets the monitor that the game window will be displayed." />
+    <string id="str_options_description.SelectedAdapter" text="{=KjZas5Xs}Sets the display adapter that the game will run on." />
+    <string id="str_options_description.VSync" text="{=3oUbmqJY}Synchronizes the game to the monitor's refresh rate. Eliminates tearing artifacts." />
+    <string id="str_options_description.FilmGrain" text="{=jZs8I1Uq}Enables the film grain." />
+    <string id="str_options_description.LightingQuality" text="{=m7B471Hw}Sets the lighting quality." />
+    <string id="str_options_description.EnvironmentDetail" text="{=qsrqjK0B}Sets the detail level of environment props." />
+    <string id="str_options_description.TerrainQuality" text="{=I3eooo5c}Sets the terrain quality." />
+    <string id="str_options_description.DecalQuality" text="{=VE9TavSl}Sets the decal quality." />
+    <string id="str_options_description.WaterQuality" text="{=BgjaAUNf}Sets the quality of water. A higher value means more detailed water simulation." />
+    <string id="str_options_description.MoveForward" text="{=!}Move Forward DESC" />
+    <string id="str_options_description.MoveBack" text="{=!}Move Back DESC" />
+    <string id="str_options_description.MoveLeft" text="{=!}Move Left DESC" />
+    <string id="str_options_description.MoveRight" text="{=!}Move Right DESC" />
+    <string id="str_options_description.Action" text="{=!}Action DESC" />
+    <string id="str_options_description.Jump" text="{=!}Jump DESC" />
+    <string id="str_options_description.Crouch" text="{=!}Crouch DESC" />
+    <string id="str_options_description.Attack" text="{=!}Attack DESC" />
+    <string id="str_options_description.Defend" text="{=!}Defend DESC" />
+    <string id="str_options_description.Kick" text="{=!}Kick DESC" />
+    <string id="str_options_description.ToggleWeaponMode" text="{=!}Toggle Weapon Mode DESC" />
+    <string id="str_options_description.EquipWeapon1" text="{=!}Equip Weapon 1 DESC" />
+    <string id="str_options_description.EquipWeapon2" text="{=!}Equip Weapon 2 DESC" />
+    <string id="str_options_description.EquipWeapon3" text="{=!}Equip Weapon 3 DESC" />
+    <string id="str_options_description.EquipWeapon4" text="{=!}Equip Weapon 4 DESC" />
+    <string id="str_options_description.EquipPrimaryWeapon" text="{=!}Equip Primary Weapon DESC" />
+    <string id="str_options_description.EquipSecondaryWeapon" text="{=!}Equip Secondary Weapon DESC" />
+    <string id="str_options_description.DropWeapon" text="{=!}Drop Weapon DESC" />
+    <string id="str_options_description.SheathWeapon" text="{=!}Sheath Weapon DESC" />
+    <string id="str_options_description.Leave" text="{=!}Leave DESC" />
+    <string id="str_options_description.Zoom" text="{=!}Zoom DESC" />
+    <string id="str_options_description.ViewCharacter" text="{=!}View Character DESC" />
+    <string id="str_options_description.LockTarget" text="{=!}Lock Target DESC" />
+    <string id="str_options_description.CameraToggle" text="{=!}Camera Toggle DESC" />
+    <string id="str_options_description.ViewOrders" text="{=!}View Orders DESC" />
+    <string id="str_options_description.SelectOrder1" text="{=!}SelectOrder1 DESC" />
+    <string id="str_options_description.SelectOrder2" text="{=!}SelectOrder2 DESC" />
+    <string id="str_options_description.SelectOrder3" text="{=!}SelectOrder3 DESC" />
+    <string id="str_options_description.SelectOrder4" text="{=!}SelectOrder4 DESC" />
+    <string id="str_options_description.SelectOrder5" text="{=!}SelectOrder5 DESC" />
+    <string id="str_options_description.SelectOrder6" text="{=!}SelectOrder6 DESC" />
+    <string id="str_options_description.SelectOrder7" text="{=!}SelectOrder7 DESC" />
+    <string id="str_options_description.SelectOrder8" text="{=!}SelectOrder8 DESC" />
+    <string id="str_options_description.SelectOrderReturn" text="{=!}SelectOrder9 DESC" />
+    <string id="str_options_description.EveryoneHear" text="{=!}Everyone Hear DESC" />
+    <string id="str_options_description.Group0Hear" text="{=!}Group 0 Hear DESC" />
+    <string id="str_options_description.Group1Hear" text="{=!}Group 1 Hear DESC" />
+    <string id="str_options_description.Group2Hear" text="{=!}Group 2 Hear DESC" />
+    <string id="str_options_description.Group3Hear" text="{=!}Group 3 Hear DESC" />
+    <string id="str_options_description.Group4Hear" text="{=!}Group 4 Hear DESC" />
+    <string id="str_options_description.Group5Hear" text="{=!}Group 5 Hear DESC" />
+    <string id="str_options_description.Group6Hear" text="{=!}Group 6 Hear DESC" />
+    <string id="str_options_description.Group7Hear" text="{=!}Group 7 Hear DESC" />
+    <string id="str_options_description.HoldOrder" text="{=qDVoGsb9}Hold to give orders with a gamepad." />
+    <string id="str_options_description.ReverseOrderGroup" text="{=!}Reverse Order Group DESC" />
+    <string id="str_options_description.SendMessageToEveryone" text="{=EkzORIiZ}Open all chat." />
+    <string id="str_options_description.SendMessageToTeam" text="{=g4Iq82iw}Open team chat." />
+    <string id="str_options_description.BannerWindow" text="{=!}Banner Window DESC" />
+    <string id="str_options_description.CharacterWindow" text="{=!}Character Window DESC" />
+    <string id="str_options_description.InventoryWindow" text="{=!}Inventory Window DESC" />
+    <string id="str_options_description.EncyclopediaWindow" text="{=!}Encyclopedia Window DESC" />
+    <string id="str_options_description.PartyWindow" text="{=!}Party Window DESC" />
+    <string id="str_options_description.QuestsWindow" text="{=!}Quests Window DESC" />
+    <string id="str_options_description.GameLogWindow" text="{=!}Game Log Window DESC" />
+    <string id="str_options_description.QuickSave" text="{=!}Quick Save DESC" />
+    <string id="str_options_description.TakeScreenshot" text="{=!}Take Screenshot DESC" />
+    <string id="str_options_description.MapMoveForward" text="{=!}Map Move Forward DESC" />
+    <string id="str_options_description.MapMoveBackward" text="{=!}Map Move Backward DESC" />
+    <string id="str_options_description.MapMoveLeft" text="{=!}Map Move Left DESC" />
+    <string id="str_options_description.MapMoveRight" text="{=!}Map Move Right DESC" />
+    <string id="str_options_description.MapFastMove" text="{=!}Map Fast Move DESC" />
+    <string id="str_options_description.MapZoomIn" text="{=!}Map Zoom In DESC" />
+    <string id="str_options_description.MapZoomOut" text="{=!}Map Zoom Out DESC" />
+    <string id="str_options_description.MapWait" text="{=!}Map Wait DESC" />
+    <string id="str_options_description.MapSelect" text="{=!}Map Select DESC" />
+    <string id="str_options_description.MapContextMenu" text="{=!}Map Context Menu DESC" />
+    <string id="str_options_description.MapCameraFollowMode" text="{=!}Map Camera Follow Mode DESC" />
+    <string id="str_options_description.MapTimeStop" text="{=!}Map Time Stop DESC" />
+    <string id="str_options_description.MapTimeNormal" text="{=!}Map Time Normal" />
+    <string id="str_options_description.MapTimeFastForward" text="{=!}Map Time Fast Forward DESC" />
+    <string id="str_options_description.MenuSwitchToLeftTab" text="{=!}UI Switch To Left Tab DESC" />
+    <string id="str_options_description.MenuSwitchToRightTab" text="{=!}UI Switch To Right Tab DESC" />
+    <string id="str_options_description.MenuMoveUp" text="{=!}UI Move Up DESC" />
+    <string id="str_options_description.MenuMoveDown" text="{=!}UI Move Down DESC" />
+    <string id="str_options_description.MenuMoveLeft" text="{=!}UI Move Left DESC" />
+    <string id="str_options_description.MenuMoveRight" text="{=!}UI Move Right DESC" />
+    <string id="str_options_description.MenuEnter" text="{=!}UI Enter DESC" />
+    <string id="str_options_description.MenuLeave" text="{=!}UI Leave DESC" />
+    <string id="str_options_description.FirstPersonFov" text="{=ro0NhUnJ}Set field of view for first person camera." />
+    <string id="str_options_description.UIScale" text="{=2EnLU2ZC}Change UI Scaling" />
+    <string id="str_options_description.EnableDamageTakenVisuals" text="{=pa8A2VG3}Enable the red border around the screen when the player takes damage." />
+    <string id="str_options_description.ForceVSyncInMenus" text="{=a8MvWaSN}Force VSync in Menus (i.e. Lobby, Inventory, Party, Character, Quest etc.)" />
+    <string id="str_options_description.EnableVerticalAimCorrection" text="{=TRmaxjal}Enable vertical aim correction while in third person mode." />
+    <string id="str_options_description.CrosshairType" text="{=9bHr3oNj}Crosshair that shows when using a ranged weapon." />
+    <string id="str_options_description.OrderType" text="{=*}Order visuals that are visible while giving orders in battles." />
+    <string id="str_brightness_option_title" text="{=Bl8cKwhL}Display Calibration" />
+    <string id="str_brightness_option_explainer" text="{=G2e8xucc}If the checkered patterns are not visible inside the frames, try moving the sliders.{newline}Adjust the sliders to the point where patterns are barely visible." />
+    <string id="str_exposure_option_title" text="{=AJFpx99v}Exposure Adjustment" />
+    <string id="str_exposure_option_explainer" text="{=16EUzfcH}Adjust the exposure level according to your preference using the slider." />
+    <string id="str_key_name.CombatHotKeyCategory_Attack" text="{=zxMOqlhs}Attack" />
+    <string id="str_key_name.CombatHotKeyCategory_Defend" text="{=Az084VJK}Defend" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipPrimaryWeapon" text="{=Hs1CYfbc}Equip Next Weapon" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipSecondaryWeapon" text="{=Yn8bh0qT}Equip Next Shield" />
+    <string id="str_key_name.CombatHotKeyCategory_Action" text="{=RaijrIxP}Interact" />
+    <string id="str_key_name.CombatHotKeyCategory_Jump" text="{=7QKjVON8}Jump" />
+    <string id="str_key_name.CombatHotKeyCategory_Crouch" text="{=lgzmPG6K}Crouch" />
+    <string id="str_key_name.CombatHotKeyCategory_Kick" text="{=combatkick}Kick / Bash" />
+    <string id="str_key_name.CombatHotKeyCategory_ToggleWeaponMode" text="{=bT77aWti}Switch Weapon Usage" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipWeapon1" text="{=AhrWBKx9}Equip Item 1" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipWeapon2" text="{=igGLkaf6}Equip Item 2" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipWeapon3" text="{=Mf5qVgAv}Equip Item 3" />
+    <string id="str_key_name.CombatHotKeyCategory_EquipWeapon4" text="{=3P7eDKEY}Equip Item 4" />
+    <string id="str_key_name.CombatHotKeyCategory_DropWeapon" text="{=xNprkuJl}Drop Weapon" />
+    <string id="str_key_name.CombatHotKeyCategory_SheathWeapon" text="{=lxIeKgXe}Sheath Weapon" />
+    <string id="str_key_name.CombatHotKeyCategory_Zoom" text="{=uSGPBRFS}Zoom" />
+    <string id="str_key_name.CombatHotKeyCategory_ViewCharacter" text="{=J2pcA6KR}View Character" />
+    <string id="str_key_name.CombatHotKeyCategory_LockTarget" text="{=*}Lock target" />
+    <string id="str_key_name.CombatHotKeyCategory_CameraToggle" text="{=RX76Kfa8}Camera Toggle" />
+    <string id="str_key_name.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomIn" text="{=bdJv9dcm}Character Zoom In" />
+    <string id="str_key_name.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomOut" text="{=uQfDuGem}Character Zoom Out" />
+    <string id="str_key_name.CombatHotKeyCategory_ToggleWalkMode" text="{=1ebaa1Wf}Toggle Walk/Run Mode" />
+    <string id="str_key_name.CombatHotKeyCategory_Cheer" text="{=PmbKYDON}Cheer" />
+    <string id="str_key_name.ScoreboardHotKeyCategory_ShowMouse" text="{=USKys6FV}Show Mouse" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_BannerWindow" text="{=k3LajvfJ}Banner Editor" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_CharacterWindow" text="{=5B3ptxje}Character Developer" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_InventoryWindow" text="{=rbz1Bwbv}Inventory" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_EncyclopediaWindow" text="{=MxmOWsHj}Encyclopedia" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_PartyWindow" text="{=qnxJYAs7}Party" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_KingdomWindow" text="{=03mPaWum}Kingdom" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_ClanWindow" text="{=j4F7tTzy}Clan" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_QuestsWindow" text="{=KUEHAD4U}Quests" />
+    <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_FacegenWindow" text="{=Zo2ngsUk}Face Generation" />
+    <string id="str_key_name.Generic_Up" text="{=BmSzvXlZ}Up" />
+    <string id="str_key_name.Generic_Down" text="{=r0tu2Y57}Down" />
+    <string id="str_key_name.Generic_Left" text="{=7zUWqY3O}Left" />
+    <string id="str_key_name.Generic_Right" text="{=25MeMNbP}Right" />
+    <string id="str_key_name.Generic_Leave" text="{=3sRdGQou}Leave" />
+    <string id="str_key_name.Generic_ShowIndicators" text="{=mueocuFG}Show Indicators" />
+    <string id="str_key_name.MapHotKeyCategory_QuickSave" text="{=zvD48rVQ}Quick Save" />
+    <string id="str_key_name.MapHotKeyCategory_PartyMoveUp" text="{=Gl7wgtPQ}Move Party Up" />
+    <string id="str_key_name.MapHotKeyCategory_PartyMoveDown" text="{=2Ao5DCb6}Move Party Down" />
+    <string id="str_key_name.MapHotKeyCategory_PartyMoveRight" text="{=Mxnj08mB}Move Party Right" />
+    <string id="str_key_name.MapHotKeyCategory_PartyMoveLeft" text="{=o0QPZODk}Move Party Left" />
+    <string id="str_key_name.MapHotKeyCategory_MapFastMove" text="{=haX0xRHa}Camera Speed Up" />
+    <string id="str_key_name.MapHotKeyCategory_MapZoomIn" text="{=yV64UCaW}Zoom In" />
+    <string id="str_key_name.MapHotKeyCategory_MapZoomOut" text="{=929oYf3G}Zoom Out" />
+    <string id="str_key_name.MapHotKeyCategory_MapCameraFollowMode" text="{=*}Camera Follow Mode" />
+    <string id="str_key_name.MapHotKeyCategory_MapExtendInfoBar" text="{=*}Extend Info Bar" />
+    <string id="str_key_name.MapHotKeyCategory_MapTrackSettlement" text="{=*}Track Settlement" />
+    <string id="str_key_name.MapHotKeyCategory_MapGoToEncylopedia" text="{=*}Open Encyclopedia" />
+    <string id="str_key_name.MapHotKeyCategory_MapTimeStop" text="{=jaeLYPIG}Pause Time" />
+    <string id="str_key_name.MapHotKeyCategory_MapTimeNormal" text="{=9gAVbJAR}Resume Time" />
+    <string id="str_key_name.MapHotKeyCategory_MapTimeFastForward" text="{=6sIFj7K9}Fast-Forward Time" />
+    <string id="str_key_name.MapHotKeyCategory_MapTimeTogglePause" text="{=RSmsn6mb}Resume/Pause Time" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_ViewOrders" text="{=ID9lG6xg}View Orders" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder1" text="{=D008gyKC}Select Order 1" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder2" text="{=OYaqdNAI}Select Order 2" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder3" text="{=UNmUcizM}Select Order 3" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder4" text="{=TgIAHPHs}Select Order 4" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder5" text="{=QsdUafoH}Select Order 5" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder6" text="{=mWnA4X5D}Select Order 6" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder7" text="{=4x1wGwW9}Select Order 7" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrder8" text="{=YAHs7wBa}Select Order 8" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectOrderReturn" text="{=QiYy3Ja4}Select Order Return" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_EveryoneHear" text="{=HxIqxjmk}Select Everyone" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group0Hear" text="{=6CeL6iOp}Select Group 1" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group1Hear" text="{=bvJUmRBd}Select Group 2" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group2Hear" text="{=EvOLbiqM}Select Group 3" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group3Hear" text="{=6uNvJbdx}Select Group 4" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group4Hear" text="{=TIYrYxpr}Select Group 5" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group5Hear" text="{=uUHUfeQr}Select Group 6" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group6Hear" text="{=UboDNGJw}Select Group 7" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_Group7Hear" text="{=IOZ4aWVp}Select Group 8" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_HoldOrder" text="{=pialOblr}Order Hold" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectNextGroup" text="{=t0vgSn7D}Select Next Group" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_SelectPreviousGroup" text="{=ZoDugJHP}Select Previous Group" />
+    <string id="str_key_name.MissionOrderHotkeyCategory_ToggleGroupSelection" text="{=TbCbHxeF}Toggle Group Selection" />
+    <string id="str_key_name.ChatLogHotKeyCategory_InitiateAllChat" text="{=TVXacQUJ}All Chat" />
+    <string id="str_key_name.ChatLogHotKeyCategory_InitiateTeamChat" text="{=4Z2NBfW4}Team Chat" />
+    <string id="str_key_name.ChatLogHotKeyCategory_FinalizeChat" text="{=CfjTvLNl}Finalize Chat" />
+    <string id="str_key_name.Generic_ToggleShow" text="{=TtWjblNo}Toggle Show" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_HideUI" text="{=*}Hide UI" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_CameraRollLeft" text="{=*}Roll Camera Left" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_CameraRollRight" text="{=*}Roll Camera Right" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_ToggleCameraFollowMode" text="{=*}Toggle Camera Follow Mode" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_TakePicture" text="{=*}Take Picture" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_ToggleMouse" text="{=*}Toggle Mouse" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_ToggleVignette" text="{=*}Toggle Vignette" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocus" text="{=*}Increase Focus" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocus" text="{=*}Decrease Focus" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusStart" text="{=*}Increase FocusStart" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusStart" text="{=*}Decrease FocusStart" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusEnd" text="{=*}Increase FocusEnd" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusEnd" text="{=*}Decrease FocusEnd" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_Reset" text="{=*}Reset" />
+    <string id="str_key_description.CombatHotKeyCategory_Attack" text="{=ps103cxD}Perform an attack with your weapon." />
+    <string id="str_key_description.CombatHotKeyCategory_Defend" text="{=UixNc11t}Defend attacks with your weapon or shield." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipPrimaryWeapon" text="{=VasVb9DK}Equip your weapon or change to the next one." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipSecondaryWeapon" text="{=bmpagYCb}Equip your shield or change to the next one." />
+    <string id="str_key_description.CombatHotKeyCategory_Action" text="{=PRsSB9B8}Interact with weapons, mounts, doors, people etc." />
+    <string id="str_key_description.CombatHotKeyCategory_Jump" text="{=7S1aCWFa}Jump while on foot or mounted." />
+    <string id="str_key_description.CombatHotKeyCategory_Crouch" text="{=2bPTx7So}Your character goes to crouching state." />
+    <string id="str_key_description.CombatHotKeyCategory_Kick" text="{=4Nw1hF2R}Kick your enemies to break their guard when not attacking or defending. Bash your enemies with your equipment while defending." />
+    <string id="str_key_description.CombatHotKeyCategory_ToggleWeaponMode" text="{=z8XjxODK}Change to alternative usage for a weapon. Melee or ranged, one handed or two handed." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipWeapon1" text="{=rP058aIm}Equip the item in your first slot." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipWeapon2" text="{=wGa1SUop}Equip the item in your second slot." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipWeapon3" text="{=u2dQaVY2}Equip the item in your third slot." />
+    <string id="str_key_description.CombatHotKeyCategory_EquipWeapon4" text="{=evzb1cmP}Equip the item in your fourth slot." />
+    <string id="str_key_description.CombatHotKeyCategory_DropWeapon" text="{=08oulGov}Drop your equipped weapon." />
+    <string id="str_key_description.CombatHotKeyCategory_SheathWeapon" text="{=9k4sahxA}Sheath your equipped weapon." />
+    <string id="str_key_description.CombatHotKeyCategory_Zoom" text="{=9OHGqgjH}Zoom in to aim at enemies or to look further." />
+    <string id="str_key_description.CombatHotKeyCategory_ViewCharacter" text="{=yDr2HCFR}Switch to 360 degree view mode around your character." />
+    <string id="str_key_description.CombatHotKeyCategory_LockTarget" text="{=*}Switch between locking and unlocking the view to the enemy currently focused at. Press longer to see the detailed display." />
+    <string id="str_key_description.CombatHotKeyCategory_CameraToggle" text="{=9xKCz9BE}Switch between first and third person view." />
+    <string id="str_key_description.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomIn" text="{=pQVSwtfn}Move camera closer to your character in third person view." />
+    <string id="str_key_description.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomOut" text="{=IjhCSwNn}Move camera further from your character in third person view." />
+    <string id="str_key_description.CombatHotKeyCategory_ToggleWalkMode" text="{=2ZJQylWo}Switch between run and walk modes." />
+    <string id="str_key_description.CombatHotKeyCategory_Cheer" text="{=s5EnYLUp}Cheer on click. Open Cheer wheel on hold." />
+    <string id="str_key_description.ScoreboardHotKeyCategory_ShowMouse" text="{=mS1cpD6w}Enable mouse while scoreboard is open." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_BannerWindow" text="{=k3LajvfJ}Open Banner Editor screen." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_CharacterWindow" text="{=LsX8rTwl}Open Character Development screen." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_InventoryWindow" text="{=odsVjkbO}Open Inventory." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_EncyclopediaWindow" text="{=EaOcWkH3}Open Encyclopedia." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_PartyWindow" text="{=m1PinhQd}Open Party Screen." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_KingdomWindow" text="{=tifiQGTa}Open Kingdom Screen." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_ClanWindow" text="{=Tdf5AbRp}Open Clan Screen." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_QuestsWindow" text="{=nD11hOsQ}Open Quest Log." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_FacegenWindow" text="{=Zo2ngsUk}Open Face Generation." />
+    <string id="str_key_description.Generic_Up" text="{=ICgda8Is}Up Double Press: Charge Forward" />
+    <string id="str_key_description.Generic_Down" text="{=JZYQGUF3}Down Double Press: Sudden Break" />
+    <string id="str_key_description.Generic_Left" text="{=ZvtKqPt3}Left Double Press: Sudden Left" />
+    <string id="str_key_description.Generic_Right" text="{=Uaae1eBV}Right Double Press: Sudden Right" />
+    <string id="str_key_description.Generic_Leave" text="{=aJxmDbur}Hold to leave an area. " />
+    <string id="str_key_description.Generic_ShowIndicators" text="{=PvNGaexX}Hold to show marks for important people, places, nameplates etc." />
+    <string id="str_key_description.MapHotKeyCategory_QuickSave" text="{=xnulLUFX}Save your game quickly with a shortcut." />
+    <string id="str_key_description.MapHotKeyCategory_PartyMoveUp" text="{=6QiPm27r}Move your party upward in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_PartyMoveDown" text="{=FEDEsbCx}Move your party downward in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_PartyMoveRight" text="{=7XmaJYuh}Move your party to right in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_PartyMoveLeft" text="{=hZEAeoCk}Move your party to left in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapFastMove" text="{=4Gdng2Tt}Hold for faster camera sliding on campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapZoomIn" text="{=oMaTg568}Get camera closer to campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapZoomOut" text="{=WMmGH9yp}Get camera further from campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapCameraFollowMode" text="{=*}Change Camera Follow Mode" />
+    <string id="str_key_description.MapHotKeyCategory_MapExtendInfoBar" text="{=*}Toggle Info Bar" />
+    <string id="str_key_description.MapHotKeyCategory_MapTrackSettlement" text="{=*}Track Settlement currently hovered over settlement" />
+    <string id="str_key_description.MapHotKeyCategory_MapGoToEncylopedia" text="{=*}Open Encyclopedia on the campaign map" />
+    <string id="str_key_description.MapHotKeyCategory_MapTimeStop" text="{=0YV6wbsq}Pause time in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapTimeNormal" text="{=UTU6yVsp}Resume time in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapTimeFastForward" text="{=3YwMXbAT}Fastforward time in campaign map." />
+    <string id="str_key_description.MapHotKeyCategory_MapTimeTogglePause" text="{=i5xbEcE3}Resume or pause time in campaign map." />
+    <string id="str_key_description.MissionOrderHotkeyCategory_ViewOrders" text="{=ID9lG6xg}View Orders" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder1" text="{=D008gyKC}Select Order 1" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder2" text="{=OYaqdNAI}Select Order 2" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder3" text="{=UNmUcizM}Select Order 3" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder4" text="{=TgIAHPHs}Select Order 4" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder5" text="{=QsdUafoH}Select Order 5" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder6" text="{=mWnA4X5D}Select Order 6" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder7" text="{=4x1wGwW9}Select Order 7" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrder8" text="{=YAHs7wBa}Select Order 8" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectOrderReturn" text="{=QiYy3Ja4}Select Order Return" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_EveryoneHear" text="{=HxIqxjmk}Select Everyone" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group0Hear" text="{=6CeL6iOp}Select Group 1" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group1Hear" text="{=bvJUmRBd}Select Group 2" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group2Hear" text="{=EvOLbiqM}Select Group 3" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group3Hear" text="{=6uNvJbdx}Select Group 4" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group4Hear" text="{=TIYrYxpr}Select Group 5" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group5Hear" text="{=uUHUfeQr}Select Group 6" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group6Hear" text="{=UboDNGJw}Select Group 7" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_Group7Hear" text="{=IOZ4aWVp}Select Group 8" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectNextGroup" text="{=t0vgSn7D}Select Next Group" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_SelectPreviousGroup" text="{=ZoDugJHP}Select Previous Group" />
+    <string id="str_key_description.MissionOrderHotkeyCategory_ToggleGroupSelection" text="{=TbCbHxeF}Toggle Group Selection" />
+    <string id="str_key_description.ChatLogHotKeyCategory_InitiateAllChat" text="{=lhHUGbnm}Initiate All Chat" />
+    <string id="str_key_description.ChatLogHotKeyCategory_InitiateTeamChat" text="{=IPbh2TvZ}Initiate Team Chat" />
+    <string id="str_key_description.ChatLogHotKeyCategory_FinalizeChat" text="{=O9ed2AWr}Finalize message if chat box is active. Otherwise, activate chat box." />
+    <string id="str_key_description.PhotoModeHotKeyCategory_HideUI" text="{=*}Hide the User Inferface" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_CameraRollLeft" text="{=*}Roll the Camera Left (Counterclockwise)" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_CameraRollRight" text="{=*}Roll the Camera Right (Clockwise)" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_ToggleCameraFollowMode" text="{=*}Toggle Camera Follow Mode. Toggle between &quot;Focus on player&quot; or &quot;Free cam&quot;" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_TakePicture" text="{=*}Take Picture" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_ToggleMouse" text="{=*}Toggle Mouse Visibility" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_ToggleVignette" text="{=*}Toggle Vignette" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_IncreaseFocus" text="{=*}Increase Camera Focus" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_DecreaseFocus" text="{=*}Decrease Camera Focus" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_Reset" text="{=*}Reset changes" />
+    <string id="str_key_category_name.ActionCategory" text="{=KO5zuUvN}Action" />
+    <string id="str_key_category_name.CampaignMapCategory" text="{=wg5YeO4k}Campaign Map" />
+    <string id="str_key_category_name.MenuShortcutCategory" text="{=Op68a8dO}Menu Shortcuts" />
+    <string id="str_key_category_name.OrderMenuCategory" text="{=asrbFBbn}Order Menu" />
+    <string id="str_key_category_name.ChatCategory" text="{=G8ug5Bwx}Chat" />
+    <string id="str_key_category_name.PhotoModeCategory" text="{=*}Photo Mode" />
+    <string id="str_game_key_text.d1" text="{=sxFsZAeC}1" />
+    <string id="str_game_key_text.d2" text="{=bgwA4Pd8}2" />
+    <string id="str_game_key_text.d3" text="{=uBRn8Je8}3" />
+    <string id="str_game_key_text.d4" text="{=HDV63kra}4" />
+    <string id="str_game_key_text.d5" text="{=X5cSNxHf}5" />
+    <string id="str_game_key_text.d6" text="{=FHBoO2sp}6" />
+    <string id="str_game_key_text.d7" text="{=wMe5p2HG}7" />
+    <string id="str_game_key_text.d8" text="{=eZsVkuQD}8" />
+    <string id="str_game_key_text.d9" text="{=vAnlshLW}9" />
+    <string id="str_game_key_text.d0" text="{=mG4rCrfE}0" />
+    <string id="str_game_key_text.1" text="{=sxFsZAeC}1" />
+    <string id="str_game_key_text.2" text="{=bgwA4Pd8}2" />
+    <string id="str_game_key_text.3" text="{=uBRn8Je8}3" />
+    <string id="str_game_key_text.4" text="{=HDV63kra}4" />
+    <string id="str_game_key_text.5" text="{=X5cSNxHf}5" />
+    <string id="str_game_key_text.6" text="{=FHBoO2sp}6" />
+    <string id="str_game_key_text.7" text="{=wMe5p2HG}7" />
+    <string id="str_game_key_text.8" text="{=eZsVkuQD}8" />
+    <string id="str_game_key_text.9" text="{=vAnlshLW}9" />
+    <string id="str_game_key_text.0" text="{=mG4rCrfE}0" />
+    <string id="str_game_key_text.a" text="{=ct0coyrR}A" />
+    <string id="str_game_key_text.b" text="{=pVrv5hnp}B" />
+    <string id="str_game_key_text.c" text="{=8WrQ9fnb}C" />
+    <string id="str_game_key_text.d" text="{=YZv1752W}D" />
+    <string id="str_game_key_text.e" text="{=8t4KDZfU}E" />
+    <string id="str_game_key_text.f" text="{=A0bqGRQc}F" />
+    <string id="str_game_key_text.g" text="{=ZewnkWoO}G" />
+    <string id="str_game_key_text.h" text="{=czYbd1vo}H" />
+    <string id="str_game_key_text.i" text="{=Lp0byzGQ}I" />
+    <string id="str_game_key_text.j" text="{=g4VjAbMG}J" />
+    <string id="str_game_key_text.k" text="{=IahiWHHW}K" />
+    <string id="str_game_key_text.l" text="{=VAtNIoKC}L" />
+    <string id="str_game_key_text.m" text="{=evc8yBIy}M" />
+    <string id="str_game_key_text.n" text="{=uRXlSUVh}N" />
+    <string id="str_game_key_text.o" text="{=lsxqkhy6}O" />
+    <string id="str_game_key_text.p" text="{=BSdIYN9F}P" />
+    <string id="str_game_key_text.q" text="{=x7qfk550}Q" />
+    <string id="str_game_key_text.r" text="{=jd9ZG2CI}R" />
+    <string id="str_game_key_text.s" text="{=9pEc15Sb}S" />
+    <string id="str_game_key_text.t" text="{=OtS4DYD1}T" />
+    <string id="str_game_key_text.u" text="{=7SSytk7Z}U" />
+    <string id="str_game_key_text.v" text="{=ap1wEfdW}V" />
+    <string id="str_game_key_text.w" text="{=5QpTaCa0}W" />
+    <string id="str_game_key_text.x" text="{=IYLn67Xm}X" />
+    <string id="str_game_key_text.y" text="{=46vWdakp}Y" />
+    <string id="str_game_key_text.z" text="{=o8WjGqS4}Z" />
+    <string id="str_game_key_text.numpad0" text="{=ffHX9L80}Numpad 0" />
+    <string id="str_game_key_text.numpad1" text="{=GxHV8b1b}Numpad 1" />
+    <string id="str_game_key_text.numpad2" text="{=SEucYSln}Numpad 2" />
+    <string id="str_game_key_text.numpad3" text="{=CTiemsyh}Numpad 3" />
+    <string id="str_game_key_text.numpad4" text="{=vT3yIxmO}Numpad 4" />
+    <string id="str_game_key_text.numpad5" text="{=bYwwY9qh}Numpad 5" />
+    <string id="str_game_key_text.numpad6" text="{=5jxcNYlU}Numpad 6" />
+    <string id="str_game_key_text.numpad7" text="{=MkKL3Y4P}Numpad 7" />
+    <string id="str_game_key_text.numpad8" text="{=k7gJYLLj}Numpad 8" />
+    <string id="str_game_key_text.numpad9" text="{=ZP1tLaa1}Numpad 9" />
+    <string id="str_game_key_text.numlock" text="{=cAkgnVr5}Num Lock" />
+    <string id="str_game_key_text.numpadslash" text="{=Yg2jHH1M}Numpad /" />
+    <string id="str_game_key_text.numpadmultiply" text="{=Aa2Yokz3}Numpad *" />
+    <string id="str_game_key_text.numpadminus" text="{=tkCbjgfx}Numpad -" />
+    <string id="str_game_key_text.numpadplus" text="{=1dQFNvhQ}Numpad +" />
+    <string id="str_game_key_text.numpadenter" text="{=I9PN1qny}Numpad Enter" />
+    <string id="str_game_key_text.numpadperiod" text="{=tw5Wxv3b}Numpad ." />
+    <string id="str_game_key_text.insert" text="{=zwL5NFAr}Insert" />
+    <string id="str_game_key_text.delete" text="{=deletekey}Delete" />
+    <string id="str_game_key_text.home" text="{=homekey}Home" />
+    <string id="str_game_key_text.end" text="{=T3Ex0K1p}End" />
+    <string id="str_game_key_text.pageup" text="{=Crf6Z1S5}Page Up" />
+    <string id="str_game_key_text.pagedown" text="{=qOcw1xap}Page Down" />
+    <string id="str_game_key_text.up" text="{=ttCcMbwO}Up Arrow" />
+    <string id="str_game_key_text.down" text="{=qW1FWX0C}Down Arrow" />
+    <string id="str_game_key_text.left" text="{=KKNmozPI}Left Arrow" />
+    <string id="str_game_key_text.right" text="{=44akzqlm}Right Arrow" />
+    <string id="str_game_key_text.f1" text="{=iblHebbT}F1" />
+    <string id="str_game_key_text.f2" text="{=qSJZyoro}F2" />
+    <string id="str_game_key_text.f3" text="{=aWDfG0RO}F3" />
+    <string id="str_game_key_text.f4" text="{=tbGol5PT}F4" />
+    <string id="str_game_key_text.f5" text="{=2EjZcRgF}F5" />
+    <string id="str_game_key_text.f6" text="{=kak4GxOh}F6" />
+    <string id="str_game_key_text.f7" text="{=MXHkvySm}F7" />
+    <string id="str_game_key_text.f8" text="{=PtI8voo3}F8" />
+    <string id="str_game_key_text.f9" text="{=HVa0okoe}F9" />
+    <string id="str_game_key_text.f10" text="{=LjNnWa7R}F10" />
+    <string id="str_game_key_text.f11" text="{=7MU008BT}F11" />
+    <string id="str_game_key_text.f12" text="{=zUXxshZK}F12" />
+    <string id="str_game_key_text.space" text="{=PksJtzwJ}Space" />
+    <string id="str_game_key_text.escape" text="{=C7zwur4k}Escape" />
+    <string id="str_game_key_text.enter" text="{=dkLG4JC4}Enter" />
+    <string id="str_game_key_text.tab" text="{=TEuOMadV}Tab" />
+    <string id="str_game_key_text.backspace" text="{=XrUGC7H4}Backspace" />
+    <string id="str_game_key_text.openbraces" text="{=ukw0Zi1X}[" />
+    <string id="str_game_key_text.closebraces" text="{=rNiESgEo}]" />
+    <string id="str_game_key_text.comma" text="{=acqAYxhr}," />
+    <string id="str_game_key_text.period" text="{=bGbIRSmD}." />
+    <string id="str_game_key_text.slash" text="{=dB6cFDmz}/" />
+    <string id="str_game_key_text.backslash" text="{=KONClayU}\" />
+    <string id="str_game_key_text.equals" text="{=3nTeojbI}=" />
+    <string id="str_game_key_text.minus" text="{=4NaOKslb}-" />
+    <string id="str_game_key_text.semicolon" text="{=cp80Mq2W};" />
+    <string id="str_game_key_text.apostrophe" text="{=zTFbqJ6R}'" />
+    <string id="str_game_key_text.tilde" text="{=qS0z458V}~" />
+    <string id="str_game_key_text.capslock" text="{=Zgs47DHB}Caps Lock" />
+    <string id="str_game_key_text.extended1" text="{=QBzjt1c4}Extended Key 1" />
+    <string id="str_game_key_text.extended2" text="{=PACe9VHN}&lt;" />
+    <string id="str_game_key_text.leftshift" text="{=iGi5HsGS}Left Shift" />
+    <string id="str_game_key_text.rightshift" text="{=VzSerzva}Right Shift" />
+    <string id="str_game_key_text.leftcontrol" text="{=7vl1ebVZ}Left Control" />
+    <string id="str_game_key_text.rightcontrol" text="{=aAaF9FWC}Right Control" />
+    <string id="str_game_key_text.leftalt" text="{=cWRA5VVr}Left Alt" />
+    <string id="str_game_key_text.rightalt" text="{=mLtHlKzD}Right Alt" />
+    <string id="str_game_key_text.leftmousebutton" text="{=5c7l7r31}Left Mouse Button" />
+    <string id="str_game_key_text.rightmousebutton" text="{=tbwhjsqS}Right Mouse Button" />
+    <string id="str_game_key_text.middlemousebutton" text="{=avDb6Y66}Middle Mouse Button" />
+    <string id="str_game_key_text.x1mousebutton" text="{=ZVLr4CMO}X1 Mouse Button" />
+    <string id="str_game_key_text.x2mousebutton" text="{=Oo7wQbfG}X2 Mouse Button" />
+    <string id="str_game_key_text.mousescrollup" text="{=drG1OL8d}Mouse Scroll Up" />
+    <string id="str_game_key_text.mousescrolldown" text="{=Iz2vu6xM}Mouse Scroll Down" />
+    <!--Gamepad Buttons-->
+    <string id="str_game_key_text.controllerrdown" text="{=xboxAbutton}A Button" />
+    <string id="str_game_key_text.controllerrright" text="{=xboxBbutton}B Button" />
+    <string id="str_game_key_text.controllerrleft" text="{=xboxXbutton}X Button" />
+    <string id="str_game_key_text.controllerrup" text="{=xboxYbutton}Y Button" />
+    <string id="str_game_key_text.controllerlup" text="{=xboxDpadUp}D-pad Up" />
+    <string id="str_game_key_text.controllerldown" text="{=xboxDpadDown}D-pad Down" />
+    <string id="str_game_key_text.controllerlright" text="{=xboxDpadRight}D-pad Right" />
+    <string id="str_game_key_text.controllerlleft" text="{=xboxDpadLeft}D-pad Left" />
+    <string id="str_game_key_text.controllerroption" text="{=xboxStartButton}Start Button" />
+    <string id="str_game_key_text.controllerloption" text="{=xboxBackButton}Back Button" />
+    <string id="str_game_key_text.controllerrbumper" text="{=xboxRightBumper}Right Bumper" />
+    <string id="str_game_key_text.controllerlbumper" text="{=xboxLeftBumper}Left Bumper" />
+    <string id="str_game_key_text.controllerrtrigger" text="{=xboxRightTrigger}Right Trigger" />
+    <string id="str_game_key_text.controllerltrigger" text="{=xboxLeftTrigger}Left Trigger" />
+    <string id="str_game_key_text.controllerrthumb" text="{=xboxRightStick}Right Stick" />
+    <string id="str_game_key_text.controllerlthumb" text="{=xboxLeftStick}Left Stick" />
+    <string id="str_game_key_text.controllerlstickup" text="{=xboxLeftStickUp}Left Stick Up" />
+    <string id="str_game_key_text.controllerlstickdown" text="{=xboxLeftStickDown}Left Stick Down" />
+    <string id="str_game_key_text.controllerlstickleft" text="{=xboxLeftStickLeft}Left Stick Left" />
+    <string id="str_game_key_text.controllerlstickright" text="{=xboxLeftStickRight}Left Stick Right" />
+    <string id="str_game_key_text.controllerrstickup" text="{=xboxRightStickUp}Right Stick Up" />
+    <string id="str_game_key_text.controllerrstickdown" text="{=xboxRightStickDown}Right Stick Down" />
+    <string id="str_game_key_text.controllerrstickleft" text="{=xboxRightStickLeft}Right Stick Left" />
+    <string id="str_game_key_text.controllerrstickright" text="{=xboxRightStickRight}Right Stick Right" />
+    <!--these keys are currently not defined as keys TODO_EMRE-->
+    <string id="str_game_key_text.anyshift" text="{=z6ezjlkX}Shift" />
+    <string id="str_game_key_text.anycontrol" text="{=controlgamekey}Control" />
+    <string id="str_game_key_text.anyalt" text="{=altgamekey}Alt" />
+  </strings>
+</base>

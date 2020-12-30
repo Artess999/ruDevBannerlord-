@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="tutorial_training_field" name="{=rQge8OSi}Training Field" posX="480" posY="290" gate_posX="480" gate_posY="290" culture="Culture.empire" prosperity="557" text="{=!}This is the training field." owner="Faction.neutral">
+    <Components>
+      <TrainingField id="tutorial_training_field_1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_forest" gate_rotation="6.283" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.training_field_complex">
+      <Location id="training_field" scene_name="training_field_2" max_prosperity="70" />
+    </Locations>
+  </Settlement>
+</Settlements>

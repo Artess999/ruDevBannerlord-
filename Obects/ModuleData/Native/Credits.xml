@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Credits>
+  <Category Text="{=bmLOhQHE}Studio Heads">
+    <Entry Text="Armağan Yavuz &amp; İpek Yavuz" />
+  </Category>
+  <Category Text="{=9Qnsmtnk}Lead Designers">
+    <Section Text="{=j4zzGaNK}Development Lead">
+      <Entry Text="Armağan Yavuz" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=r5hNDcB0}Writing">
+      <Entry Text="Steve Negus" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=engineeringcredits}Engineering">
+    <Section Text="{=GgNXPtra}Game Systems Team Lead">
+      <Entry Text="Cem Çimenbiçer" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=QXK9yaMb}Game Systems Programmers">
+      <Entry Text="Emircan Koç" />
+      <Entry Text="Oğuzhan Şirin" />
+      <Entry Text="Burak Uyan" />
+      <Entry Text="Mehmet Can Altıgül" />
+      <Entry Text="Erkam Dutoğlu" />
+      <Entry Text="Ateş Akaydın" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=opGawi8D}AI Programmers">
+      <Entry Text="Burak Uyan" />
+      <Entry Text="Mehmet Can Altıgül" />
+      <Entry Text="Cem Çimenbiçer" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=DT32QT8j}Engine Team Lead ">
+      <Entry Text="Murat Türe" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Yb1mppcs}Engine Programmers">
+      <Entry Text="Gökhan Uras" />
+      <Entry Text="Burak Dermanlı" />
+      <Entry Text="Gökay Özaktürk" />
+      <Entry Text="Mustafa Korkmaz" />
+      <Entry Text="Özgür Eraslan" />
+      <Entry Text="Abdüllatif Ağca" />
+      <Entry Text="Ahmet Alperen Akçay" />
+      <Entry Text="Cem Aslan" />
+      <Entry Text="Mustafa Rasimoğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Yri61YnN}Campaign Gameplay Team Leads">
+      <Entry Text="Ömer Sarı" />
+      <Entry Text="Berat Ceren Üstündağ" />
+      <Entry Text="Ozan Gümüş" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=UQflxYtU}Campaign Gameplay Programmers">
+      <Entry Text="Rabia Adıgüzel" />
+      <Entry Text="Abdullah Selim Çam" />
+      <Entry Text="Ertuğrul Akay" />
+      <Entry Text="Hakan Soyözen" />
+      <Entry Text="Oğuzhan Şirin" />
+      <Entry Text="Halil Şahiner" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=xLkrk2SX}UI &amp; Backend Team Lead">
+      <Entry Text="Koray Kıyakoğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Gz6ZWpny}UI Programmers">
+      <Entry Text="Emre Özdemir" />
+      <Entry Text="Ahmet Alperen Akçay" />
+      <Entry Text="Ömer Sarı" />
+      <Entry Text="Yasir Nacak" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=FPdGPPtD}Backend Programmers">
+      <Entry Text="Ahmet Dündar Ünsal" />
+      <Entry Text="Halil İbrahim Azak" />
+      <Entry Text="Cemre Doğa Uzunali" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=xq6ODvln}Additional Programmers">
+      <Entry Text="Alper Daş" />
+      <Entry Text="Başak Ece Can" />
+      <Entry Text="Yarkın Deniz Çetin" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=q9buyaE5}Art">
+    <Section Text="{=q1u6Pmt3}Art Director">
+      <Entry Text="Özgür Saral" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=ctc5D9FL}Art Team Lead">
+      <Entry Text="Tamer Karataş" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=KZaLQD23}3D Artists">
+      <Entry Text="Ümit Singil" />
+      <Entry Text="Tuncay Horasan" />
+      <Entry Text="Mert Mimaroğlu" />
+      <Entry Text="Ülker Dikmen" />
+      <Entry Text="Fatma Nadide Öçba" />
+      <Entry Text="Andaç Bingöl" />
+      <Entry Text="Osman Kaan Özköktem" />
+      <Entry Text="Ömer Zeren" />
+      <Entry Text="Gündüzhan Gündüz" />
+      <Entry Text="Deniz Köklü" />
+      <Entry Text="Emrullah Topçu" />
+      <Entry Text="Gökhan Şahin" />
+      <Entry Text="Bora Altay" />
+      <Entry Text="Süleyman Umut Fındık" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=PKUclaUm}2D Artists">
+      <Entry Text="Fatma Nadide Öçba" />
+      <Entry Text="İlker Serdar Yıldız" />
+      <Entry Text="Emrullah Topçu" />
+      <Entry Text="Ali Eser" />
+      <Entry Text="Meva Eyüboğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=oMVL32vx}Technical Artists">
+      <Entry Text="Gökalp Doğan" />
+      <Entry Text="Erdem Yeni" />
+      <Entry Text="Fatih Başar Yüzer" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=pU9xe3hJ}Lighting &amp; Particles">
+      <Entry Text="Gökalp Doğan" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=N2rnSKY0}Character Artists">
+      <Entry Text="Ülker Dikmen" />
+      <Entry Text="Andaç Bingöl" />
+      <Entry Text="Tuncay Horasan" />
+      <Entry Text="Ömer Zeren" />
+      <Entry Text="Emrullah Topçu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=RWtetmX9}Concept Artists">
+      <Entry Text="Ali Eser" />
+      <Entry Text="Fatma Nadide Öçba" />
+      <Entry Text="Tamer Karataş" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=mjiPGeaA}Illustration">
+      <Entry Text="İlker Serdar Yıldız" />
+      <Entry Text="Ali Eser" />
+      <Entry Text="Ganbat Badamkhand" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=sVHkEE3E}UI Artists">
+      <Entry Text="Osman Kaan Özköktem" />
+      <Entry Text="Ali Eser" />
+      <Entry Text="Hasan Karakoyak" />
+      <Entry Text="Merve Varışlı" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=0iqsdT4L}Additional Art">
+      <Entry Text="Mustafa Öztürk" />
+      <Entry Text="Mehmet Peyda Karabulut" />
+      <Entry Text="Tuna Tolga Gülşen" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=bEVvtWDo}Game Design">
+    <Section Text="{=XGozLzmb}Design Team">
+      <Entry Text="Armağan Yavuz" />
+      <Entry Text="Steve Negus" />
+      <Entry Text="Ozan Gümüş" />
+      <Entry Text="Gökçen Karaağaç" />
+      <Entry Text="Hikmet Cihan Şekercioğlu" />
+      <Entry Text="Casper Paul Boris Kaloff" />
+      <Entry Text="Alp Karaata" />
+      <Entry Text="Ali Sezgin" />
+      <Entry Text="Ahmet Terzioğlu" />
+      <Entry Text="Meriç Neşeli" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Lmi0RnrQ}Assistant Producers">
+      <Entry Text="Tamer Karataş" />
+      <Entry Text="Falk Otto Engel" />
+      <Entry Text="Kartal Seçkin Birdar" />
+      <Entry Text="Taygun Arda Öztürk " />
+      <Entry Text="Cevat Kağan Eskici" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=PpLloLh4}Level Designers">
+      <Entry Text="Andaç Bingöl" />
+      <Entry Text="Gündüzhan Gündüz" />
+      <Entry Text="Deniz Köklü" />
+      <Entry Text="Emrullah Topçu" />
+      <Entry Text="Gökçen Karaağaç" />
+      <Entry Text="Bora Altay" />
+      <Entry Text="Casper Paul Boris Kaloff" />
+      <Entry Text="Güney İnal" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=creditsvideo}Video">
+    <Section Text="{=k5hLPEvV}Cinematics">
+      <Entry Text="Gündüzhan Gündüz" />
+      <Entry Text="Gökalp Doğan" />
+      <Entry Text="Abdullah Nakipoğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=EzpUaovY}Motion Capture">
+      <Entry Text="Gökalp Doğan" />
+      <Entry Text="Abdullah Nakipoğlu" />
+      <Entry Text="Olcay Mancılıkçılar" />
+      <Entry Text="Sten David Oom" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=r2HFpefP}Motion Capture Talents">
+      <Entry Text="Durukan Ordu" />
+      <Entry Text="Duygu Aslan" />
+      <Entry Text="Abdullah Nakipoğlu" />
+      <Entry Text="Olcay Mancılıkçılar" />
+      <Entry Text="Sten Oom" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=ugDQBlJe}Motion Capture Acting Consultant">
+      <Entry Text="Gamze Özlem Tezbaşaran" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=WjOj9cc2}Quality Assurance">
+    <Section Text="{=PGLl1PPt}QA Lead">
+      <Entry Text="Meriç Neşeli" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=X6t9Qcea}QA Team">
+      <Entry Text="Onurcan Dönmez" />
+      <Entry Text="Melike Selcen Kovuk" />
+      <Entry Text="Ömer Ergem" />
+      <Entry Text="Deniz Erozan" />
+      <Entry Text="Ahmet Babaoğlu" />
+      <Entry Text="Durmuş Mertcan Kökcür" />
+      <Entry Text="Furkan Akın" />
+      <Entry Text="Tarık Çağlayan" />
+      <Entry Text="Tolga Çelik" />
+      <Entry Text="Enes Kürşat Kaan Altay" />
+      <Entry Text="Mehmet Cem Baran" />
+      <Entry Text="Ufuk Kula" />
+      <Entry Text="Kubilay Çıtır " />
+      <Entry Text="Mehmet Yaşar Altunsoy" />
+      <Entry Text="Ali Can Eren Çelik" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=1sSyroGW}Platforms">
+    <Section Text="{=OU8xH8HP}Platform Engineer">
+      <Entry Text="Mustafa Korkmaz" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=BVkruRfe}Platform Coordinator">
+      <Entry Text="Vishnu Vijayakumar" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=mcwsvqeV}Website">
+    <Section Text="{=OTXMIRE3}Website &amp; Forum designers">
+      <Entry Text="Mustafa Öztürk" />
+      <Entry Text="Hasan Karakoyak" />
+      <Entry Text="Merve Varışlı" />
+      <Entry Text="Callum Patrick George McGlinchey" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=y7TbndRb}Website backend">
+      <Entry Text="Ahmet Dündar Ünsal" />
+      <Entry Text="Koray Kıyakoğlu" />
+      <Entry Text="Halil İbrahim Azak" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=Vj8QgrqE}Marketing">
+    <Section Text="{=buLA3an1}Product Marketing">
+      <Entry Text="Vishnu Vijayakumar" />
+      <Entry Text="Yelda Şekercioğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=8W319Y82}PR Specialist ">
+      <Entry Text="Callum Patrick George McGlinchey" />
+      <Entry Text="Antonio Santo Orcero" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=KavlbhOa}Brand Designs">
+      <Entry Text="Merve Varışlı" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Ugff1qj4}2D - 3D artists">
+      <Entry Text="Mustafa Öztürk" />
+      <Entry Text="İlker Serdar Yıldız" />
+      <Entry Text="Ali Eser" />
+      <Entry Text="Hasan Karakoyak" />
+      <Entry Text="Merve Varışlı" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=xebFLnH2}Audio">
+    <Section Text="{=1TA2ok5f}Audio Director">
+      <Entry Text="Uğurcan Orçun" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=6KLTgVjs}Music Production">
+      <Entry Text="Synthesis Deutschland GmbH" />
+      <Entry Text="{=W5c9l9Zh}Finn Seliger (Composer)" />
+      <EmptyLine />
+      <Entry Text="{=YzfjQ2Tv}Medieval Live Ensemble Recordings by" />
+      <Entry Text="Frölich Geschray" />
+      <EmptyLine />
+      <Entry Text="{=NdlwtaGj}Additional Instrument Recordings" />
+      <Entry Text="{=ujYlJTrN}Thorsten Stoye (Nyckelharpa, Duduk, Flutes and Pipes)" />
+      <Entry Text="{=j0XlgbXO}Sulamith Bowinkelmann (Violin)" />
+      <Entry Text="{=Zy27mbj0}Marcus Weseloh (Drehleier)" />
+      <Entry Text="{=WDK5MTya}Rodrigo Reichel (Violin, Viola)" />
+      <Entry Text="{=dyJTXTrH}Ali Shiby (Oud)" />
+      <Entry Text="{=s45CdRMU}Malte Meibauer (Cello)" />
+      <Entry Text="{=MQa7CgqF}Ferren Freitas (Percussions)" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=yq91XwbN}Ensemble Galatia">
+      <Entry Text="Kaan Bahadır" />
+      <Entry Text="Gökhan Bulut" />
+      <Entry Text="Selçuk Dalar" />
+      <Entry Text="Senem Gökçe Okullu" />
+      <Entry Text="Serkan Özçifci" />
+      <Entry Text="Nevin Şahin" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=CbzAMeSf}Additional Exclusive and Non-exclusive Music">
+      <Entry Text="Dynamedion GbR" />
+      <Entry Text="Uğurcan Orçun" />
+      <EmptyLine />
+      <Entry Text="{=U3X6WqoH}“Tales by the Hearth” and “The Longest Road”" />
+      <Entry Text="{=cLVGvJRV}Composed and performed by Daniel Fredriksson" />
+      <EmptyLine />
+      <Entry Text="{=7ts7yUDj}Music from Mount &amp; Blade: Warband" />
+      <Entry Text="{=G0ocXSx0}Composed by J. S. Hopkins" />
+      <EmptyLine />
+      <Entry Text="{=sVb7KTl6}“Outdoor Beautiful Land (Folk Version)” and “Travel Neutral (Folk Version)”" />
+      <Entry Text="{=SJIpBDxo}Composed By J. S. Hopkins" />
+      <Entry Text="{=BS9Lqja4}Arranged by Finn Seliger" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=a5VEvbBS}PSAI music Authoring">
+      <Entry Text="Hannes Böc" />
+      <Entry Text="Lukas Brandes" />
+      <Entry Text="Julian Fischer" />
+      <Entry Text="Martin Kruse" />
+      <Entry Text="Malte Meibauer" />
+      <Entry Text="Finn Seliger" />
+      <Entry Text="Jannik Werner" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=EtnQWZkE}Voice Production Cast">
+      <Entry Text="Shiromi Arserio" />
+      <Entry Text="Andaç Bingöl" />
+      <Entry Text="Dave Jackson" />
+      <Entry Text="Tamara Linke" />
+      <Entry Text="Rick Murphy" />
+      <Entry Text="Keith Leo O'Brien " />
+      <Entry Text="Nadide Öçba" />
+      <Entry Text="Ryan Rhodes" />
+      <Entry Text="Lisa Sowden" />
+      <Entry Text="Melissa Sinden" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=3wIV0yeG}Additional Voice Production">
+      <Entry Text="{=sDT3ugyp}Bad Words Lab (Additional Voices)" />
+      <Entry Text="{=AbeJXITr}Helene Rousse Total Casting (Additional Voices Casting)" />
+      <Entry Text="{=lft1JGnv}Gregg Jonasson (Producer)" />
+      <Entry Text="{=87hekX7g}Jesse Connell (Director and Recording Engineer)" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=PNjeYVAE}Bad Words Lab Cast">
+      <Entry Text="Julie Norman" />
+      <Entry Text="Misty Rivers" />
+      <Entry Text="Ellis Redding" />
+      <Entry Text="Susan Tackenberg" />
+      <Entry Text="Michael Vickerage" />
+      <Entry Text="James Walker Reid" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=OwWmriyd}Additional Voice Support">
+      <Entry Text="Power Up Audio" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=V7GFGz3b}Special Thanks To">
+      <Entry Text="Rick Murphy" />
+      <Entry Text="Timothy McHugh (Sonniss Ltd.)" />
+      <Entry Text="Giordano Ceccotti" />
+      <Entry Text="Güneş Uyanık" />
+      <Entry Text="Jan-Peter Pflug" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=wPh3h854}Additional Writing">
+      <Entry Text="David Evans" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=NjgkbvaY}Localization">
+    <Section Text="{=I9KEqapI}Project Managers">
+      <Entry Text="Yelda Şekercioğlu" />
+      <Entry Text="Ömer Sarı" />
+      <Entry Text="Onurcan Dönmez" />
+      <Entry Text="Melike Selcen Kovuk" />
+      <Entry Text="Mehmet Arda Gündüz" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=ZLWQaEbN}IT">
+    <Section Text="{=rpZOQyFT}IT Manager">
+      <Entry Text="Mustafa Orkun Çoban" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=gc3ZaCea}IT Assistant">
+      <Entry Text="Emre Şişman" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=gU8aYXYV}Community">
+    <Section Text="{=QA5PTOVx}Community Management">
+      <Entry Text="Callum Patrick George McGlinchey" />
+      <Entry Text="Mehmet Arda Gündüz" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=N63XYX2r}Support">
+      <Entry Text="Bilgen Dilbaz Elpek" />
+      <Entry Text="Callum Patrick George McGlinchey" />
+      <Entry Text="Mehmet Arda Gündüz" />
+      <Entry Text="Kadir Fatih Sözbir" />
+      <Entry Text="Neslişah Gökçe" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=FbvKfN2j}Forum Programming">
+      <Entry Text="Brett &quot;Janus&quot; Flannigan" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=DxzisJKO}Operations">
+    <Section Text="{=VaAPDVLa}Publishing &amp; Director of Business Development">
+      <Entry Text="Vishnu Vijayakumar" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=creditsfinance}Finance">
+      <Entry Text="Yelda Şekercioğlu" />
+      <Entry Text="Mine Ermantaş Eskici" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=hDIgNVBV}Purchasing">
+      <Entry Text="Mustafa Orkun Çoban" />
+      <Entry Text="Mine Ermantaş Eskici" />
+      <Entry Text="Vishnu Vijayakumar" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AwKkvVWB}Human Resources">
+      <Entry Text="Bilgen Dilbaz Elpek" />
+      <Entry Text="Mine Ermantaş Eskici" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=NXpjWNys}Studio Administration &amp; Operations">
+      <Entry Text="Bilgen Dilbaz Elpek" />
+      <Entry Text="Mine Ermantaş Eskici" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=qUajaG6E}Reception">
+      <Entry Text="Şule Sayar" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=kjsaMvYK}Office Support">
+      <Entry Text="Selda Değirmenci" />
+      <Entry Text="Çağatay Emrah Yayla" />
+      <Entry Text="Elife Güngör Şahin" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=124SWOY7}Additional Development">
+    <Section Text="{=sabEi8fE}Additional Programming">
+      <Entry Text="Serdar Şahin Koçdemir " />
+      <Entry Text="Bahar Şevket" />
+      <Entry Text="Sena Tabak" />
+      <Entry Text="Korneel Guns" />
+      <Entry Text="Yasir Yazıcı" />
+      <Entry Text="Abdullah Görkem Gençay" />
+      <Entry Text="Aykut Burak Şafak" />
+      <Entry Text="Berk Eserol" />
+      <Entry Text="Bilal Yaylak" />
+      <Entry Text="Doğanalp Ergenç" />
+      <Entry Text="Emre Avcı" />
+      <Entry Text="Emre Çağlar" />
+      <Entry Text="Engin Mercan" />
+      <Entry Text="Erdinç Kaya" />
+      <Entry Text="Evren Ergen" />
+      <Entry Text="Gökalp Maviş" />
+      <Entry Text="Hüseyin Olgaç" />
+      <Entry Text="Mesut Kırcı" />
+      <Entry Text="Mustafa Mert Karaöz" />
+      <Entry Text="Mustafa Ozan Çelik" />
+      <Entry Text="Mustafa Önder" />
+      <Entry Text="Ozan Emirhan Bayyurt" />
+      <Entry Text="Oğuz Kaan Ağaç" />
+      <Entry Text="Sefa Başer" />
+      <Entry Text="Umut Ertürk" />
+      <Entry Text="Zafer Gençkaya" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=0iqsdT4L}Additional Art">
+      <Entry Text="Gökhan Karadayı" />
+      <Entry Text="Altan Sam" />
+      <Entry Text="Barış Ünsal" />
+      <Entry Text="Yiğit Savtur" />
+      <Entry Text="Ozan Ünlü" />
+      <Entry Text="Oğuz Tunceli" />
+      <Entry Text="Pınar Çekiç" />
+      <Entry Text="Sinan Ayyorgun" />
+      <Entry Text="Ufuk Can" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=WW5f0mMt}Interns">
+      <Entry Text="Aydın Akyol" />
+      <Entry Text="Barış Çelik" />
+      <Entry Text="Batuhan Yaman" />
+      <Entry Text="Can Avcı" />
+      <Entry Text="Doruk Hasdoğan" />
+      <Entry Text="Gökalp Maviş" />
+      <Entry Text="Gökçenur Yeşilyurt" />
+      <Entry Text="Göksu Güvendiren" />
+      <Entry Text="Kübra Sezer" />
+      <Entry Text="Merve Tuncel" />
+      <Entry Text="Oğuz Kaan Karahan" />
+      <Entry Text="Oğuzhan Issı" />
+      <Entry Text="Orçun Ağca" />
+      <Entry Text="Ozan Karaayak" />
+      <Entry Text="Süleyman Yasir Kula" />
+      <Entry Text="Alex Loughran" />
+      <Entry Text="Kemal Çağlar Güler" />
+      <Entry Text="Bahar Tural" />
+      <Entry Text="Anıl Dağdelen" />
+      <Entry Text="Ali Şevket" />
+      <Entry Text="Furkan Demirkan" />
+      <Entry Text="Sezai Artun Özyeğin" />
+      <Entry Text="Berkan Özkan" />
+      <Entry Text="Yadigar Pınar" />
+      <Entry Text="İbrahim Aysan" />
+      <Entry Text="Barış Doğa Yavaş" />
+      <Entry Text="Alp Güldür" />
+      <Entry Text="Alperen Erkek" />
+      <Entry Text="Irmak Türköz" />
+      <Entry Text="Berkay Dursun" />
+      <Entry Text="Hüseyin Çalışkan" />
+      <Entry Text="David Van Scheppingen" />
+      <Entry Text="Gülsüm Güdükbay" />
+      <Entry Text="Oğuzhan Uğur" />
+      <Entry Text="Anıl Sert" />
+      <Entry Text="Ali Onur Geven" />
+      <Entry Text="Yunus Kılıç" />
+      <Entry Text="Ferhat Abul" />
+      <Entry Text="Semih Şen" />
+      <Entry Text="Reyyan Balak" />
+      <Entry Text="Ali Altan" />
+      <Entry Text="Louis Gruniaux" />
+      <Entry Text="İrem Özkal" />
+      <Entry Text="Şekip Kaan Ekin" />
+      <Entry Text="Oğulhan Bozkır" />
+      <Entry Text="Anıl Yarış" />
+      <Entry Text="Gökay Atay" />
+      <Entry Text="Doğa Oruç" />
+      <Entry Text="Aybar Ural" />
+      <Entry Text="Mert Öztürk" />
+      <Entry Text="Joel Helin" />
+      <Entry Text="Begüm Mutluer" />
+      <Entry Text="Berke Kıran" />
+      <Entry Text="Alper Şahıstan" />
+      <Entry Text="Ekin Topanoğlu" />
+      <Entry Text="Deniz Dalkılıç" />
+      <Entry Text="Alperen Taha Koçak" />
+      <Entry Text="Yağmur Serra Turan" />
+      <Entry Text="Berkay Taşçı" />
+      <Entry Text="Ömer Faruk Şenel" />
+      <Entry Text="Mert Dönmezyürek" />
+      <Entry Text="Ahmet Dara Vefa" />
+      <Entry Text="Atakan Ateş" />
+      <Entry Text="İskender Akyüz" />
+      <Entry Text="Doruk Coşkun" />
+      <Entry Text="Erdem Ege Maraşlı" />
+      <Entry Text="Yeter Tuğba Çetin" />
+      <Entry Text="Kaan Ünlü" />
+      <Entry Text="Bartu Yurtseven" />
+      <Entry Text="Ünsal Öztürk" />
+      <Entry Text="Utku Kırnapçı" />
+      <Entry Text="Erdem Ulusoy" />
+      <Entry Text="Yiğit Kutay Gülben" />
+      <Entry Text="Oğuzhan Ballı" />
+      <Entry Text="Oğuzhan Baran" />
+      <Entry Text="Batuhan Balcı" />
+      <Entry Text="Özge Kocaoğlu" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=tstxOBWA}Additional Support and Administration">
+      <Entry Text="Ali Erkin" />
+      <Entry Text="Frank Elliott" />
+      <Entry Text="Dirim Dikol" />
+      <Entry Text="Sultan Duraneli" />
+      <Entry Text="Mikail Yazbeck" />
+      <Entry Text="Ece Köksal" />
+      <Entry Text="Ferhat Püsküllü" />
+      <Entry Text="Özlem Başak Yenice" />
+      <Entry Text="Merve Güleroğlu" />
+      <Entry Text="Sevim Duygu Balamir" />
+      <Entry Text="Ayşegül Çimendağ" />
+      <Entry Text="Bora Erdoğan" />
+      <Entry Text="Fatih Mert Uyaner" />
+      <Entry Text="Hakan Yücel" />
+      <Entry Text="Sergenç Akbulut" />
+      <Entry Text="Hasan Tümay Güllüoğlu" />
+      <Entry Text="Ayşegül Sürücü" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=OtgIVbBo}Volunteers">
+    <Section Text="{=4YGPcAex}Forum Administration">
+      <Entry Text="Brett &quot;Janus&quot; Flannigan" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=fEnidUaD}Forum Moderation Team">
+      <Entry Text="Alex &quot;Shiroin&quot; G." />
+      <Entry Text="Alexander &quot;Reus&quot; H." />
+      <Entry Text="Andrea &quot;Jab di Melborn&quot; Biagiotti" />
+      <Entry Text="Cpt. Nemo" />
+      <Entry Text="Doriann &quot;Ra'Jiska&quot; Corlouër" />
+      <Entry Text="Elias &quot;monty&quot; G." />
+      <Entry Text="Jesper &quot;MaHuD&quot; Boudesteijn" />
+      <Entry Text="Joaquin &quot;Count Delinard&quot; M." />
+      <Entry Text="Louis &quot;Orion&quot; M." />
+      <Entry Text="Marko G." />
+      <Entry Text="Max &quot;NoVa&quot; K." />
+      <Entry Text="Moritz &quot;Darwin&quot; B." />
+      <Entry Text="Muhammed &quot;Kiron&quot; Behram" />
+      <Entry Text="Murat &quot;Courage&quot; Bilgin" />
+      <Entry Text="Nathan &quot;Fietta&quot; P." />
+      <Entry Text="Niccolò &quot;Nikephoros&quot; Fattori" />
+      <Entry Text="Nicola &quot;Jostino&quot; Corradin" />
+      <Entry Text="Onur &quot;Hobeto13&quot; Mermer" />
+      <Entry Text="Stefan &quot;DoF_Erminas&quot; J." />
+      <Entry Text="Sven &quot;SvÄn&quot; A." />
+      <Entry Text="Thomas &quot;Brandis&quot; D." />
+      <Entry Text="WilliamTheBear" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=myaC3BZR}Steam Community Moderation Team">
+      <Entry Text="Aeronwen Trewent" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=xgZ2Gbcv}Subreddit Moderation Team">
+      <Entry Text="Addison &quot;Herp&quot; G." />
+      <Entry Text="Alex &quot;Avagantamos&quot; G." />
+      <Entry Text="Anthony &quot;RookishKnight&quot; D." />
+      <Entry Text="Birgitte G." />
+      <Entry Text="Meph " />
+      <Entry Text="SuicidalCake" />
+      <Entry Text="Turnaround/Wandering__Bard" />
+      <Entry Text="William &quot;Saultnami&quot; D." />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=po94Llpu}Community Notables">
+      <Entry Text="Alene" />
+      <Entry Text="Jace Greywool" />
+      <Entry Text="Jaime &quot;Terco_Viejo&quot; Muntaner Sanchez" />
+      <Entry Text="Kadir Göker Yıldırım" />
+      <Entry Text="Mad Dawg" />
+      <Entry Text="Nenad &quot;Piconi&quot; Jerinić" />
+      <Entry Text="Pharaoh Llandy" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=L3iyUeut}External Partners">
+      <Entry Text="Koch Media GmbH" />
+      <Entry Text="NetEase, Inc." />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=54pMbaF2}End Notes">
+      <Entry Text="FMod Lisans " />
+      <Entry Text="{=cKhUXNAk}Interactive music middleware psai by Periscope Studio UG &amp; Co. KG" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=i4bYuyGT}Website frontend">
+      <Entry Text="Designneuro" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=y7TbndRb}Website backend">
+      <Entry Text="Cheng Zhe" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=yhTfnDB2}Game Localization">
+    <Section Text="{=BgbbQQxP}Turkish ">
+      <Entry Text="Özge Altundağ" />
+      <Entry Text="Oğuz Altundağ" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c4uLbAk2}Simplified Chinese &amp; Traditional Chinese:">
+      <Entry Text="Netease Fever Team" />
+      <Entry Text="Wiitrans Team" />
+      <Entry Text="Yang Jinglin" />
+      <Entry Text="Li Kai" />
+      <Entry Text="Qiu ZhiHong" />
+      <Entry Text="Tan Liang" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=bvbTt1C3}Japanese, Korean, Polish and Russian">
+      <Entry Text="QLOC S.A" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=bmv8GFKD}French, German, Italian, Portuguese - Brazilian and Spanish - LatAM. ">
+      <Entry Text="Synthesis Deutschland GmbH" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=9xYBf6iD}Head of Translation ">
+      <Entry Text="Jan Werkmeister" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=hRJrv2sB}Multilanguage Project Management ">
+      <Entry Text="Michael Denkers" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=hdh8DSHk}German Localization">
+      <Entry Text="Synthesis Deutschland GmbH" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AzT61ffc}Project Management">
+      <Entry Text="Michael Denkers" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=umXyQK7A}Translation Team">
+      <Entry Text="Johannes Irmer" />
+      <Entry Text="Lorenz Hommers" />
+      <Entry Text="Studio Umlaut (Güven Altun + Stefan Hertrich)" />
+      <Entry Text="Roland Strube" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c3oPbuE0}Review &amp; Editing">
+      <Entry Text="Transcript GbR (Ulrich Onken + Constanze Vogl)" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=rYfkudiO}French Localization">
+      <Entry Text="Keywords Studios France" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AzT61ffc}Project Management">
+      <Entry Text="Valentin Borraccino" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=umXyQK7A}Translation Team">
+      <Entry Text="Valentin Borraccino" />
+      <Entry Text="Antoine Jarlégant" />
+      <Entry Text="Ismaël Messaoudi-Bazile " />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c3oPbuE0}Review &amp; Editing">
+      <Entry Text="Anthony Fragoso" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=jGXauhYH}Italian Localization">
+      <Entry Text="Keywords Studios Italy" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AzT61ffc}Project Management">
+      <Entry Text="Laura Mazzolini" />
+      <Entry Text="Pasquale Stacchiotti" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=umXyQK7A}Translation Team">
+      <Entry Text="Andrea Ferrari" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c3oPbuE0}Review &amp; Editing">
+      <Entry Text="Claudia Mangione" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=Up6XJntn}Spanish Localization (Latinamerican)">
+      <Entry Text="Keywords Studios Spain" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AzT61ffc}Project Management">
+      <Entry Text="José Luis Águila" />
+      <Entry Text="Kilian Ribera" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=umXyQK7A}Translation Team">
+      <Entry Text="José Luis Estrada Delgado" />
+      <Entry Text="Paula Quijada Fortuño" />
+      <Entry Text="Natalia Gaspari" />
+      <Entry Text="Mariana Steffen Prieto" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c3oPbuE0}Review &amp; Editing">
+      <Entry Text="Eugenia Jiménez" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=O03UudTV}Portuguese Localization (Brazilian)">
+      <Entry Text="Keywords Studios Brazil" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=AzT61ffc}Project Management">
+      <Entry Text="João Eduardo Gleich Lopes" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=umXyQK7A}Translation Team">
+      <Entry Text="Adriana Garrido" />
+      <Entry Text="Bruno Galiza" />
+      <Entry Text="Julia Henriques" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=c3oPbuE0}Review &amp; Editing">
+      <Entry Text="Higor Branco" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=88epcrzC}Technical Partners">
+      <Entry Text="Intel Corporation" />
+      <Entry Text="Nvidia Corporation" />
+      <Entry Text="Zumidian" />
+      <Entry Text="Digital Ocean" />
+      <Entry Text="Razer Inc" />
+      <Entry Text="Microsoft Azure" />
+      <Entry Text="Amazon Web Services " />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=nbN8JdQt}Public Relations Partners">
+      <Entry Text="SetiPR (Turkey)" />
+      <Entry Text="Tuğbek Ölek" />
+      <Entry Text="Deniz Gormez" />
+      <Entry Text="Ayda Tangüner" />
+      <EmptyLine />
+      <Entry Text="Reset PR" />
+      <Entry Text="Victor Perez" />
+      <EmptyLine />
+      <Entry Text="Visibility Communications (Germany)" />
+      <Entry Text="Gunnar Lott" />
+      <EmptyLine />
+      <Entry Text="Mi5 Communications (Nordics)" />
+      <Entry Text="Marcus Legler" />
+      <EmptyLine />
+      <Entry Text="Bastion (United Kingdom)" />
+      <Entry Text="Dean Barrett" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=aOwwPVPz}Legal">
+      <Entry Text="Taylor Wessing Partnerschaftsgesellschaft mbB" />
+      <Entry Text="Dr. Tobias Schelinski" />
+      <Entry Text="Dr. Thomas Pattloch" />
+      <Entry Text="Bo Fu" />
+      <EmptyLine />
+      <Entry Text="Baker &amp; McKenzie Advokatbyrå KB" />
+      <Entry Text="Peder Oxhammar" />
+      <Entry Text="Alexandra Presson" />
+      <EmptyLine />
+      <Entry Text="Rivacy GmbH" />
+      <Entry Text="Tim Haufe" />
+      <EmptyLine />
+      <Entry Text="Mete Tevetoğlu" />
+      <Entry Text="Emi Zhao" />
+      <Entry Text="Frederick Fierst" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=IDSuJSgW}Special Thanks">
+    <Section Text="{=Wdb5iCSj}From China">
+      <Entry Text="Yang Jinglin" />
+      <Entry Text="Li Kai" />
+      <Entry Text="Xu JingZhi" />
+      <Entry Text="Li GuangXing" />
+      <Entry Text="Qiu ZhiHong" />
+      <Entry Text="Tan Liang" />
+      <Entry Text="Fan ZuDe" />
+      <Entry Text="Dong An" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=h2byL281}From Lithuania">
+      <Entry Text="Sergei Klimov" />
+      <Entry Text="Ekaterina Nemova" />
+      <Entry Text="Inga Baranauskiene" />
+      <Entry Text="Alma Giedraitienė" />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=sxesAYHl}From Turkey">
+      <Entry Text="Serkan Karatosun" />
+      <Entry Text="Gülcan Şahbaz" />
+      <Entry Text="Yeter Yıldırım" />
+    </Section>
+    <EmptyLine />
+  </Category>
+  <Category Text="{=niSw5MFS}Legal Notices">
+    <Image Text="intel" />
+    <EmptyLine />
+    <Entry Text="{=ZhD2lnYL}© 2020 Intel Corporation. All rights reserved. Intel® and the Intel logo are trademarks of Intel Corporation in the U.S. and/or other countries." />
+    <EmptyLine />
+    <EmptyLine />
+    <Image Text="nvidia" />
+    <EmptyLine />
+    <Image Text="nvidia_physx" />
+    <EmptyLine />
+    <Entry Text="{=uUYGfzKJ}NVIDIA® and PhysX® are trademarks of NVIDIA Corporation and are used under license." />
+    <EmptyLine />
+    <EmptyLine />
+    <Image Text="battleye" />
+    <EmptyLine />
+    <Entry Text="{=pIaFYfAS}This software product includes BattlEye(TM) anti-cheat technology, © 2020 BattlEye Innovations e.K.. All rights reserved." />
+    <EmptyLine />
+    <EmptyLine />
+    <Image Text="simplygon" />
+    <EmptyLine />
+    <Entry Text="{=1o8XTS6h}© 2020 Microsoft. All rights reserved." />
+    <EmptyLine />
+    <EmptyLine />
+    <Image Text="speedtree" />
+    <EmptyLine />
+    <Entry Text="{=V9ZkjlcN}Portions of this software utilize SpeedTree® technology (©2019 Interactive Data Visualization, Inc.). SpeedTree® is a registered trademark of Interactive Data Visualization, Inc. All rights reserved." />
+    <EmptyLine />
+    <EmptyLine />
+    <Image Text="telemetry" />
+    <EmptyLine />
+    <Entry Text="{=ia6lOF0f}Uses Telemetry.  Copyright (C)  2009-2020 by RAD Game Tools, Inc." />
+    <EmptyLine />
+    <EmptyLine />
+    <Entry Text="Graphine" />
+    <Entry Text="{=XUpFZTKs}Portions of this software are included under license. © 2017 Graphine NV. All rights reserved." />
+    <EmptyLine />
+    <EmptyLine />
+    <Entry Text="Fmod" />
+    <Entry Text="{=bDxhbyBg}Made with FMOD Studio by Firelight Technologies Pty Ltd." />
+    <EmptyLine />
+    <EmptyLine />
+    <Section Text="{=G5ERyhKK}MIT License">
+      <Entry Text="{=vJbENFBJ}The following middleware is licensed under the MIT license: Mono Copyright 2001-2003 Ximian Inc. Copyright 2003-2010 Novell Inc. Copyright (C) 2012 Xamarin Inc, CSteamWorks Copyright (c) 2013-2016 Riley Labrecque, Newtonsoft.Json Copyright (c) 2007 James Newton-King, Steamworks.Net Copyright (c) 2013-2019 Riley Labrecque, System.Numerics.Vectors Copyright (c) .NET Foundation and Contributors, System.Management Copyright © .NET Foundation and Contributors, imgui Copyright (c) 2014-2020 Omar Cornut, mimalloc Copyright (c) 2019 Microsoft Corporation Daan Leijen, rapidxml Copyright (c) 2006, 2007 Marcin Kalicinski, SMAA Copyright (C) 2013 Jorge Jimenez (jorge@iryoku.com) Jose I. Echevarria (joseignacioechevarria@gmail.com) Belen Masia (bmasia@unizar.es) Fernando Navarro (fernandn@microsoft.com) Diego Gutierrez (diegog@unizar.es), SSSS Copyright (C) 2012 Jorge Jimenez (jorge@iryoku.com), Diego Gutierrez (diegog@unizar.es), Scalable Ambient Obscurance Copyright (c) 2011-2012, NVIDIA. ForwardPlus11 Copyright (c) 2016 Advanced Micro Devices, Inc, dxt-decompress Copyright (C) 2009 Benjamin Dobell, Glass Echidna 2012 - 2015 Matthäus G. &quot;Anteru&quot; Chajdas. All rights reserved." />
+      <Entry Text="{=kmTHnu7N}Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:" />
+      <Entry Text="{=ynfjbXRh}1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer." />
+      <Entry Text="{=dujedylV}2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution." />
+      <Entry Text="{=F4PvNJrS}3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission." />
+      <Entry Text="{=QiXNr6ec}THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=rPLbPekK}Simplified BSD License">
+      <Entry Text="{=xDhbNGyW}The following middleware is licensed under the Simplified BSD License: LZ4 Copyright (C) 2011-present Yann Collet, xxHash Copyright (c) 2012-present, Yann Collet, moodycamel::ConcurrentQueue Copyright (c) 2013-2016 Cameron Desrochers, moodycamel::ReaderWriterQueue Copyright (c) 2013-2020 Cameron Desrochers, Screen Space Ray Tracing Morgan McGuire and Michael Mara at Williams College 2014. All rights reserved." />
+      <Entry Text="{=kmTHnu7N}Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:" />
+      <Entry Text="{=ynfjbXRh}1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer." />
+      <Entry Text="{=dujedylV}2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution." />
+      <Entry Text="{=QiXNr6ec}THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=VZF1xTc8}Modified BSD License">
+      <Entry Text="{=0zLob1Uu}The following middleware is licensed under the Modified BSD License: EASTL Copyright (c) 2019 Electronic Arts, Google Protobuf Copyright (c) 2008 Google Inc., libvpx Copyright (c) 2010, The WebM Project authors. All rights reserved." />
+      <Entry Text="{=kmTHnu7N}Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:" />
+      <Entry Text="{=rzpWUcUp}Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer." />
+      <Entry Text="{=W0OOibCY}Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the Distribution" />
+      <Entry Text="{=gdhSuMiM}Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission." />
+      <Entry Text="{=puGce4U8}THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
+    </Section>
+    <EmptyLine />
+    <Section Text="{=rLkaodJw}Apache BSD License">
+      <Entry Text="{=g9A0YLeG}The following middleware is licensed under the Apache License, Version 2.0: JetBrains.Annotations Copyright 2007-2011 JetBrains s.r.o. Software Occlusion Culling Copyright 2017 Intel Corporation, GCE-Math Copyright (C) 2016-2019 Keith O'Hara." />
+      <Entry Text="{=J6roOUmV}Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);" />
+      <Entry Text="{=J63KwTme}you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License." />
+    </Section>
+    <EmptyLine />
+    <Entry Text="{=4lLLxfsS}Recast Navigation Copyright (c) 2009 Mikko Mononen memon@inside.org" />
+    <Entry Text="{=AgVIPVAB}This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software." />
+    <Entry Text="{=waxCsuhs}Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:" />
+    <Entry Text="{=oebbeWtK}1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required." />
+    <Entry Text="{=6ILbDR4E}2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software." />
+    <Entry Text="{=BQTgNsay}3. This notice may not be removed or altered from any source distribution." />
+    <EmptyLine />
+    <EmptyLine />
+    <EmptyLine />
+    <Entry Text="Mount &amp; Blade II: Bannerlord" />
+    <Entry Text="{=6Zh3MbFr}© 2005 - 2020 TaleWorlds Entertainment, Mount &amp; Blade, Bannerlord and related logos are trademarks of TaleWorlds Entertainment. All rights reserved. All other trademarks, logos and copyrights are the property of their respective owners." />
+    <Entry Text="{=RUO61OPl}WARNING: IT IS A VIOLATION OF FEDERAL COPYRIGHT LAW TO COPY, DUPLICATE OR REPRODUCE THIS PROGRAM OR ANY PORTIONS OF THIS PROGRAM WITHOUT THE EXPRESS WRITTEN PERMISSION OF THE COPYRIGHT OWNER" />
+  </Category>
+</Credits>

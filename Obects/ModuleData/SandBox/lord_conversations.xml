@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="conversation" default_priority="80">
+  <Conversations>
+    <conversation id="1109" utterer="0xFFF" istate="lord_predemand" text="{=fBt8X6Tw}Eh? What do you want?" ostate="lord_demand" />
+    <conversation id="1110" is_player="true" utterer="0x10FFF" istate="lord_demand" text="{=gZSdus34}I offer you one chance to surrender or die." ostate="lord_ultimatum_surrender" />
+    <conversation id="1119" is_player="true" utterer="0x10FFF" istate="lord_demand" text="{=M7O3AItb}Forgive me. It's nothing." ostate="lord_pretalk" />
+    <conversation id="1111" utterer="0xFFF" istate="lord_ultimatum_surrender" text="{=ltS8zmH8}Are you mad? I'm not your enemy." ostate="lord_attack_verify" />
+    <conversation id="1112" is_player="true" utterer="0x10FFF" istate="lord_attack_verify" text="{=HEJOdRwi}Forgive me, {?NPC.GENDER}madame{?}sir{\?}. I don't know what I was thinking." on_consequence="conversation_lord_attack_verify_cancel_on_consequence" ostate="lord_attack_verify_cancel" />
+    <conversation id="1113" utterer="0xFFF" istate="lord_attack_verify_cancel" text="{=vsxVIDqT}Be gone, then." ostate="close_window" />
+    <conversation id="1115" utterer="0xFFF" istate="lord_ultimatum_surrender" text="{=WzipKNWN}{s43}" ostate="lord_attack_verify_b" />
+    <conversation id="1116" is_player="true" utterer="0x10FFF" istate="lord_attack_verify_b" text="{=8xvSu9fX}Forgive me {?NPC.GENDER}madame{?}sir{\?}. I don't know what I was thinking." ostate="lord_attack_verify_cancel" />
+    <conversation id="1117" is_player="true" utterer="0x10FFF" istate="lord_attack_verify_b" text="{=HKMdHYb7}I stand my ground. Prepare to fight!" ostate="lord_attack_verify_commit" />
+    <conversation id="1118" utterer="0xFFF" istate="lord_attack_verify_commit" text="{=!}You should not see this." ostate="close_window" />
+    <conversation id="1148" is_player="true" utterer="0xFFF" istate="lord_tell_objective_player_answer" text="{=fbM7drKO}Why do not you besiege..." ostate="lord_tell_objective_player_answer_options_pre" on_condition="lord_is_in_same_faction_on_condition" on_consequence="lord_tell_objective_player_answer_besiege_options_on_consequence" />
+    <conversation id="1148" is_player="true" utterer="0xFFF" istate="lord_tell_objective_player_answer" text="{=ztuhSo8h}Why do not you raid..." ostate="lord_tell_objective_player_answer_options_pre" on_condition="lord_is_in_same_faction_on_condition" on_consequence="lord_tell_objective_player_answer_raid_options_on_consequence" />
+    <conversation id="1148" is_player="true" utterer="0xFFF" istate="lord_tell_objective_player_answer" text="{=62AkUCOw}Why do not you defend..." ostate="lord_tell_objective_player_answer_options_pre" on_condition="lord_tell_objective_player_answer_defend_options_on_condition" on_consequence="lord_tell_objective_player_answer_defend_options_on_consequence" />
+    <conversation id="1148" utterer="0xFFF" istate="lord_tell_objective_player_answer_options_pre" text="{=s61RscYw}Where?" ostate="lord_tell_objective_player_answer_options" />
+    <conversation id="1148" is_player="true" utterer="0xFFF" istate="lord_tell_objective_player_answer" text="{=5ypRJiWZ}Thanks for information" ostate="lord_pretalk" />
+    <conversation id="1148" is_player="true" utterer="0x13FFF" is_repeatable="true" istate="lord_tell_objective_player_answer_options" text="{=JbWJ7Rxl}{POSSIBLE_TARGET}" ostate="lord_tell_objective_player_answer_options_reason" on_condition="lord_tell_objective_player_answer_options_on_condition" on_consequence="lord_tell_objective_player_answer_options_on_consequence" />
+    <conversation id="1148" utterer="0xFFF" istate="lord_tell_objective_player_answer_options_reason" text="{=RJbrrM0K}{REASON}" ostate="lord_tell_objective_player_try_to_convince" on_condition="lord_tell_objective_player_answer_options_reason_on_condition" />
+    <conversation id="1149" is_player="true" utterer="0x13FFF" istate="lord_tell_objective_player_try_to_convince" text="{=hjZkoJbc}I think {ACTION} {SETTLEMENT} is more logical currently, can you help me in doing this. {AMOUNT}{GOLD_ICON}" ostate="lord_tell_objective_player_try_to_convince_lord_answer" on_condition="lord_tell_objective_player_try_to_convince_on_condition" />
+    <conversation id="1150" is_player="true" utterer="0x13FFF" istate="lord_tell_objective_player_try_to_convince" text="{=5ypRJiWZ}Thanks for information" ostate="lord_pretalk" />
+    <conversation id="1148" utterer="0xFFF" istate="lord_tell_objective_player_try_to_convince_lord_answer" text="{=GUIwjFKP}Ok, let's follow your advice first." ostate="lord_pretalk" on_condition="lord_tell_objective_player_try_to_convince_lord_answer_on_condition" on_consequence="lord_tell_objective_player_try_to_convince_lord_answer_on_consequence" />
+  </Conversations>
+</base>

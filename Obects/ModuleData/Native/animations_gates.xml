@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--dvec="x, y, z"-->
+<!--for horse movements, dvec x is speed of forward walk, y is pace limit for reducing it, z is pace limit for increasing it.-->
+<!--leave around a speed of 0.1 between pace limits, such as if pace 1 has 3.0 for increasing to the next pace, pace 2 should have 2.9 for decreasing back to pace 1.-->
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="animation">
+  <animations>
+
+    <animation id="door_hit" param1="0.4" duration="0.56" anim_data_name="towerdoor_anim_animation" source1="54" source2="72" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="door_break" duration="1.63" anim_data_name="towerdoor_anim_animation" source1="230" source2="279" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="door_opening" duration="3.2" anim_data_name="towerdoor_anim_animation" source1="133" source2="228" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="door_closing" duration="3.2" anim_data_name="towerdoor_anim_animation" source1="228" source2="133" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="european_castle_gate_outer_l2_l3_idle" param1="0.4" duration="0.01" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="0" source2="1" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_hit" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_hit_melee" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_plank_hit" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l2_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_break" duration="0.53" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_opening" duration="3" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l2_l3_closing" duration="3" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
+    <animation id="european_castle_gate_outer_l1_idle" param1="0.4" duration="0.01" anim_data_name="european_castle_gate_outer_l1_animation" source1="0" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_hit" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l1_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_hit_melee" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l1_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_plank_hit" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l1_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_break" duration="0.53" anim_data_name="european_castle_gate_outer_l1_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_opening" duration="3" anim_data_name="european_castle_gate_outer_l1_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="european_castle_gate_outer_l1_closing" duration="3" anim_data_name="european_castle_gate_outer_l1_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="battania_castle_gate_outer_l3_idle" param1="0.4" duration="0.01" anim_data_name="battania_castle_gate_outer_l3_animation" source1="0" source2="1" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_hit" param1="0.4" duration="1" anim_data_name="battania_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_hit_melee" param1="0.4" duration="1" anim_data_name="battania_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_plank_hit" param1="0.4" duration="1" anim_data_name="battania_castle_gate_outer_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_break" duration="0.53" anim_data_name="battania_castle_gate_outer_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_opening" duration="3" anim_data_name="battania_castle_gate_outer_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_outer_l3_closing" duration="3" anim_data_name="battania_castle_gate_outer_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="battania_castle_gate_inner_l3_idle" param1="0.4" duration="0.01" anim_data_name="battania_castle_gate_inner_l3_animation" source1="0" source2="1" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_hit" param1="0.4" duration="1" anim_data_name="battania_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_hit_melee" param1="0.4" duration="1" anim_data_name="battania_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_plank_hit" param1="0.4" duration="1" anim_data_name="battania_castle_gate_inner_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_break" duration="0.53" anim_data_name="battania_castle_gate_inner_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_opening" duration="3" anim_data_name="battania_castle_gate_inner_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="battania_castle_gate_inner_l3_closing" duration="3" anim_data_name="battania_castle_gate_inner_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="empire_castle_gate_outer_l3_idle" param1="0.4" duration="0.01" anim_data_name="empire_castle_gate_outer_l3_animation" source1="0" source2="1" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_hit_melee" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_plank_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_break" duration="0.53" anim_data_name="empire_castle_gate_outer_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_opening" duration="3" anim_data_name="empire_castle_gate_outer_l3_animation" source1="30" source2="104" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l3_closing" duration="3" anim_data_name="empire_castle_gate_outer_l3_animation" source1="104" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="empire_castle_gate_inner_l3_idle" param1="0.4" duration="0.01" anim_data_name="empire_castle_gate_inner_l3_animation" source1="0" source2="0" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_hit_melee" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_plank_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_break" duration="0.53" anim_data_name="empire_castle_gate_inner_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_opening" duration="3" anim_data_name="empire_castle_gate_inner_l3_animation" source1="30" source2="104" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l3_closing" duration="3" anim_data_name="empire_castle_gate_inner_l3_animation" source1="104" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="aserai_castle_gate_inner_l1_idle" param1="0.4" duration="0.01" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="0" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_hit" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_hit_melee" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_plank_hit" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_inner_l1_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_break" duration="0.53" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_opening" duration="3" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="30" source2="104" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_inner_l1_closing" duration="3" anim_data_name="aserai_castle_gate_inner_l1_animation" source1="104" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="aserai_castle_gate_outer_l1_idle" param1="0.4" duration="0.01" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="0" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_hit" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_hit_melee" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_plank_hit" param1="0.4" duration="1" anim_data_name="aserai_castle_gate_outer_l1_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_break" duration="0.53" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_opening" duration="3" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="30" source2="104" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="aserai_castle_gate_outer_l1_closing" duration="3" anim_data_name="aserai_castle_gate_outer_l1_animation" source1="104" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="khuzait_castlegate_l1_inner_plank_hit" param1="0.4" duration="1" anim_data_name="khuzait_castlegate_l1_inner_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="khuzait_castle_gate_outer_l1_idle" param1="0.4" duration="1" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="0" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>    
+	<animation id="khuzait_castle_gate_outer_l1_hit" param1="0.4" duration="1" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="khuzait_castle_gate_outer_l1_hit_melee" param1="0.4" duration="1" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="khuzait_castle_gate_outer_l1_plank_hit" param1="0.4" duration="1" anim_data_name="khuzait_castlegate_l1_outer_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="khuzait_castle_gate_outer_l1_break" duration="0.53" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="khuzait_castle_gate_outer_l1_opening" duration="3" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="khuzait_castle_gate_outer_l1_closing" duration="3" anim_data_name="khuzait_castlegate_l1_outer_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->		
+    <animation id="sturgia_castle_gate_inner_l3_opening" duration="3" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_inner_l3_closing" duration="3" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+	<animation id="sturgia_castle_gate_inner_l3_hit" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_inner_l3_plank_hit" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_inner_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_inner_l3_hit_melee" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_inner_l3_break" duration="0.53" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_inner_l3_idle" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_inner_l3_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>   
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="sturgia_castle_gate_outer_l3_opening" duration="3" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_outer_l3_closing" duration="3" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> 
+	<animation id="sturgia_castle_gate_outer_l3_hit" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_outer_l3_plank_hit" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_outer_l3_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_outer_l3_hit_melee" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_outer_l3_break" duration="0.53" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="sturgia_castle_gate_outer_l3_idle" param1="0.4" duration="1" anim_data_name="sturgia_castle_gate_outer_l3_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>   
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->		
+    <animation id="empire_castle_gate_outer_l2_opening" duration="3" anim_data_name="empire_castle_gate_outer_l2_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l2_closing" duration="3" anim_data_name="empire_castle_gate_outer_l2_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> 
+	<animation id="empire_castle_gate_outer_l2_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l2_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l2_plank_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l2_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l2_hit_melee" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l2_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l2_break" duration="0.53" anim_data_name="empire_castle_gate_outer_l2_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_outer_l2_idle" param1="0.4" duration="1" anim_data_name="empire_castle_gate_outer_l2_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>   
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->		
+    <animation id="empire_castle_gate_inner_l2_opening" duration="3" anim_data_name="empire_castle_gate_inner_l2_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l2_closing" duration="3" anim_data_name="empire_castle_gate_inner_l2_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> 
+	<animation id="empire_castle_gate_inner_l2_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l2_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l2_plank_hit" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l2_plank_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l2_hit_melee" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l2_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l2_break" duration="0.53" anim_data_name="empire_castle_gate_inner_l2_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="empire_castle_gate_inner_l2_idle" param1="0.4" duration="1" anim_data_name="empire_castle_gate_inner_l2_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>   
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="castle_gate_idle" param1="0.4" duration="0.01" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="0" source2="1" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="castle_gate_hit" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="1" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="castle_gate_hit_melee" param1="0.4" duration="1" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="1" source2="30" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="castle_gate_break" duration="0.53" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="140" source2="160" blend_in_period="0" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="castle_gate_opening" duration="3" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="30" source2="130" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="castle_gate_closing" duration="3" anim_data_name="european_castle_gate_outer_l2_l3_animation" source1="130" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <animation id="sally_door_a_idle" param1="0.4" duration="0.01" anim_data_name="european_sally_door_a_animation" source1="0" source2="1" blend_in_period="0" >
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sally_door_a_hit_melee" param1="0.4" duration="1" anim_data_name="european_sally_door_a_animation" source1="1" source2="30" blend_in_period="0" >
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="sally_door_a_opening" duration="2.27" anim_data_name="european_sally_door_a_animation" source1="30" source2="98" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/door/open">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="sally_door_a_closing" duration="2.27" anim_data_name="european_sally_door_a_animation" source1="98" source2="30" blend_in_period="0">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>  
+  
+  </animations>
+</base>

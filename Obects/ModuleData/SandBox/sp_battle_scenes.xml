@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPBattleScenes>
+  <Scene id="battle_terrain_a"
+         terrain="Plain"
+         forest_density="Low">
+  </Scene>
+  <Scene id="battle_terrain_e"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_f"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_g"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Canyon"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_h"
+         terrain="Plain"
+         forest_density="High">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_i"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_k"
+         terrain="Plain"
+         forest_density="High">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_O"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_p"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_s"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_v"
+         terrain="Plain"
+         forest_density="High">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_y"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_001"
+         terrain="Plain"
+         forest_density="High">
+    <TerrainTypes>
+      <TerrainType name="Lake"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_004"
+         terrain="Plain"
+         forest_density="High">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_006"
+         terrain="Steppe">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_010"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_011"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_012"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_013"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_014"
+         terrain="Steppe"
+         forest_density="Low">
+  </Scene>
+  <Scene id="battle_terrain_018"
+         terrain="Steppe"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_020"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_021"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_027"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_029"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_030"
+         terrain="Plain"
+         forest_density="Low">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_031"
+         terrain="Plain">
+    <TerrainTypes>
+      <TerrainType name="Canyon"/>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_b"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_d"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_e"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_J"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_L"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_m"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_n"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_r"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_t"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_u"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_z"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_003"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_005"
+         terrain="Swamp">
+  </Scene>
+  <Scene id="battle_terrain_007"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_008"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_009"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_015"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_016"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_017"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_019"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_022"
+         terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_023"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_024"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_025"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_026"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_028"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_032"
+         terrain="Plain">
+  </Scene>
+  <Scene id="battle_terrain_033"
+         terrain="Steppe">
+  </Scene>
+  <Scene id="battle_terrain_034"
+         terrain="Swamp">
+  </Scene>
+  <!--<Scene id="battle_terrain_008"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_022"
+         terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_031" terrain="Plain">
+  </Scene>-->
+
+  <!--<Scene id="battle_terrain_b" terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_c" terrain="Steppe" >
+  </Scene>
+  <Scene id="battle_terrain_d" terrain="Desert">
+  </Scene>
+  <Scene id="battle_terrain_e" terrain="Desert">
+    <TerrainTypes>
+      <TerrainType name="Dune"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_f" terrain="Swamp">
+  </Scene>
+  <Scene id="battle_terrain_g" terrain="Desert" >
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_h" terrain="Plain" forest_density="low">
+  </Scene>-->
+  <!--<Scene id="battle_terrain_i" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_j" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_k" terrain="Plain" forest_density="low">
+  </Scene>-->
+  <!--<Scene id="battle_terrain_L" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_m" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_n" terrain="Plain" forest_density="low">
+  </Scene>-->
+  <!--<Scene id="battle_terrain_O" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_p" terrain="Plain" >
+    <TerrainTypes>
+      <TerrainType name="Water"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_r" terrain="Plain" >
+    <TerrainTypes>
+      <TerrainType name="Mountain"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_s" terrain="Plain" >
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_t" terrain="Plain" forest_density="low">
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>
+  <Scene id="battle_terrain_001" terrain="Plain" forest_density="low">
+  </Scene>-->
+  <!--<Scene id="battle_terrain_002" terrain="Plain" >
+    <TerrainTypes>
+      <flag name="IsAmbush" value="true"/>
+    </TerrainTypes>
+  </Scene>-->
+  <!--<Scene id="battle_terrain_003" terrain="Plain" >
+  </Scene>
+  <Scene id="battle_terrain_004" terrain="Plain" >
+  </Scene>
+  <Scene id="battle_terrain_006" terrain="Steppe" >
+  </Scene>
+  <Scene id="battle_terrain_012" terrain="Steppe" >
+  </Scene>
+  <Scene id="battle_terrain_016" terrain="Plain" >
+    <TerrainTypes>
+      <TerrainType name="River"/>
+    </TerrainTypes>
+  </Scene>-->
+</SPBattleScenes>

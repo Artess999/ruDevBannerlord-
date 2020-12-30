@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+<MBPartyTemplate id="conspiracy_anti_imperial_special_raider_party_template" >
+  <stacks>
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_wilder" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_warmonger" />
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_trained_bowman" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_longbowman" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_kern" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_battlerider" />
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_horse_archer" />
+  </stacks>
+</MBPartyTemplate>
+
+<MBPartyTemplate id="conspiracy_imperial_special_raider_party_template" >
+  <stacks>
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_fighter" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_veteran_fighter" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_warworn_crossbowman" />
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_trained_huntsman" />
+    <PartyTemplateStack min_value="12" max_value="24" troop="NPCCharacter.conspiracy_noble_horseman" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_mounted_fighter" />
+    <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.conspiracy_knight" />
+  </stacks>
+</MBPartyTemplate>
+</partyTemplates>

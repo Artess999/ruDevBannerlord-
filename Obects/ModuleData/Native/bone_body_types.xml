@@ -1,0 +1,32 @@
+<bone_body_types>
+  <bone_body_type type="abdomen"
+                  priority="3"/>
+  <bone_body_type type="chest"
+                  priority="3"/>
+  <bone_body_type type="shoulder_left"
+                  priority="3"/>
+  <bone_body_type type="shoulder_right"
+                  priority="3"/>
+  <bone_body_type type="bipedal_arm_left"
+                  priority="1"
+                  activate_sweep="true" />
+  <bone_body_type type="bipedal_arm_right"
+                  priority="1"
+                  activate_sweep="true" />
+  <bone_body_type type="bipedal_legs"
+                  priority="2"
+                  activate_sweep="true" />
+  <bone_body_type type="quadrupedal_arm_left"
+                  priority="1" />
+  <bone_body_type type="quadrupedal_arm_right"
+                  priority="1" />
+  <bone_body_type type="quadrupedal_legs"
+                  priority="2" />
+  <bone_body_type type="head"
+                  priority="4" />
+  <bone_body_type type="neck"
+                  priority="4" />
+</bone_body_types>
+
+
+

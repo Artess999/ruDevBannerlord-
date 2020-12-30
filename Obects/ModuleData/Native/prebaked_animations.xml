@@ -1,0 +1,92 @@
+<!--
+While opening the game we are baking entitial transforms of these bones into a cache
+to reduce run-time allocations and memory fragmentations.
+
+use memory.dump_animation_cache_memory console command to dump the detailed usage.
+
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="prebaked_animation">
+<prebaked_animations>
+	<animation id="horse_rider_stand_1" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_stand_2" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_stand_3" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_stand_4" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_idle_1" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_idle_2" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_idle_3" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="horse_rider_idle_4" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_stand_pike" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_forward_walk_stand" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_turn_left" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_turn_right" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_walk_pike" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_forward_trot_stand" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_trot_pike" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_trot_bow" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_forward_canter_stand" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_forward_gallop_right_foot" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_canter_bow" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+	<animation id="rider_canter_pike" skeleton_name="human_skeleton" >
+		<bone index="11" />
+		<bone index="19" />
+	</animation>
+</prebaked_animations>
+</base>

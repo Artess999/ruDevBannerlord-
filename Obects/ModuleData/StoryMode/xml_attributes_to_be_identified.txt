@@ -1,0 +1,4 @@
+StoryMode/ModuleData/storymode_characters.xml: NPCCharacters.NPCCharacter.name
+StoryMode/ModuleData/module_strings.xml: base.strings.string.text
+StoryMode/ModuleData/location_complex_templates.xml: LocationComplexTemplates.LocationComplexTemplate.Location.name
+StoryMode/ModuleData/story_mode_settlements.xml: Settlements.Settlement.name

@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--dvec="x, y, z"-->
+<!--for horse movements, dvec x is speed of forward walk, y is pace limit for reducing it, z is pace limit for increasing it.-->
+<!--leave around a speed of 0.1 between pace limits, such as if pace 1 has 3.0 for increasing to the next pace, pace 2 should have 2.9 for decreasing back to pace 1.-->
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="animation">
+  <animations>
+    <!--������������������������������������������������������������������������������������������� SHEEP ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+ 
+    <!-- <animation id="anim_sheep_graze_long" param1="0" duration="13.5" anim_data_name="anim_sheep_all" source1="139" source2="546" blend_in_period="0.3" step_points="0.6, -1.0, -1.0, -1.0" voice_code="Idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="randomization_weight" value="1" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_get_hit" param1="0" duration="1.2" anim_data_name="anim_sheep_all" source1="743" source2="777" blend_in_period="0.05" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Pain">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="anim_sheep_graze_short_for_movement_data" param1="0" duration="5.5" anim_data_name="anim_sheep_all" source1="380" source2="545" blend_in_period="0.03">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="0.0" pace_switch_limit_max="0.0" />
+    </animation>
+    <animation id="anim_sheep_graze_short" param1="0" duration="5.5" anim_data_name="anim_sheep_all" source1="380" source2="545" blend_in_period="0.03">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="randomization_weight" value="1" />
+      </flags>
+    </animation>
+	<animation id="sheep_walkforward" param1="0" duration="0.66" anim_data_name="anim_sheep_all" source1="1" source2="21" step_points="0.0, 0.5, -1.0, -1.0"> 
+    <animation id="sheep_walkforward_stand" param1="0" duration="0.66" anim_data_name="anim_sheep_all" source1="580" source2="600">
+	</animation>
+
+    <animation id="sheep_walk_left" param1="0" duration="0.66" anim_data_name="anim_sheep_all" source1="1" source2="21" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_walk_right" param1="0" duration="0.66" anim_data_name="anim_sheep_all" source1="43" source2="63" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_walkleft_stand" duration="2" anim_data_name="anim_sheep_all" source1="601" source2="621" blend_in_period="0.6" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="synch_with_movement" />
+      </flags>
+    </animation>
+    <animation id="sheep_walkright_stand" duration="2" anim_data_name="anim_sheep_all" source1="622" source2="642" blend_in_period="0.6" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="synch_with_movement" />
+      </flags>
+    </animation>
+	<animation id="sheep_die" param1="0.2" duration="1.1" anim_data_name="anim_sheep_all" source1="85" source2="119" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+	    <!--Commented out because animation not used
+<animation id="sheep_walkbackward_left" param1="0" duration="1" anim_data_name="anim_sheep_all" source1="681" source2="711">
+  <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.8" pace_switch_limit_min="0.1" pace_switch_limit_max="1" />
+</animation>-->
+    <!--Commented out because animation not used
+<animation id="sheep_walkbackward_right" param1="0" duration="1.1" anim_data_name="anim_sheep_all" source1="681" source2="711">
+  <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.8" pace_switch_limit_min="0.1" pace_switch_limit_max="1" />
+</animation>
+	
+    <animation id="sheep_jump" param1="0" duration="1" anim_data_name="anim_sheep_all" source1="712" source2="741" blend_in_period="0.2"></animation>
+    <animation id="sheep_jump_start" param1="0" duration="1" anim_data_name="anim_sheep_all" source1="712" source2="725" blend_in_period="0.3"></animation>
+    <animation id="sheep_jump_loop" param1="0" duration="1" anim_data_name="anim_sheep_all" source1="725" source2="728" blend_in_period="0.3"></animation>
+    <animation id="sheep_jump_end" param1="0" duration="1" anim_data_name="anim_sheep_all" source1="729" source2="741" blend_in_period="0.3"></animation>
+
+    <animation id="sheep_walkfast_stand" param1="0" duration="0.5" anim_data_name="anim_sheep_all" source1="643" source2="663">
+	</animation>
+	
+    <animation id="sheep_walk_fast" param1="0" duration="0.66" anim_data_name="anim_sheep_all" source1="64" source2="84" step_points="0.0, 0.27, 0.5, 0.76" blend_in_period="0.2">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1" pace_switch_limit_min="1" pace_switch_limit_max="2" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_run_forward" param1="0" duration="0.5" anim_data_name="anim_sheep_all" source1="85" source2="100" step_points="0.0, -1.0, -1.0, -1.0" blend_in_period="0.2">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2" pace_switch_limit_min="1.9" pace_switch_limit_max="5" />
+      <flags>
+        <flag name="make_walk_sound" />
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+		
+    <animation id="sheep_walkbackward" param1="0" duration="1.0" anim_data_name="anim_sheep_all" source1="681" source2="711">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1" />
+    </animation>
+	
+	-->
+
+    <animation id="anim_sheep_idle" param1="0" duration="17" anim_data_name="sheep_idle" source1="1" source2="400" blend_in_period="0.3" step_points="0.6, -1.0, -1.0, -1.0" voice_code="Idle">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="1" />
+      </flags>
+    </animation>
+    <animation id="anim_sheep_idle_2" param1="0" duration="9" anim_data_name="sheep_idle_2" source1="1" source2="200" blend_in_period="0.3" step_points="0.6, -1.0, -1.0, -1.0" voice_code="Idle">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="1" />
+      </flags>
+    </animation>
+    <animation id="sheep_stand_for_movement_data" param1="0" duration="2.3" anim_data_name="sheep_stand_movement" source1="1" source2="64" blend_in_period="0.3">
+	  <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.4" pace_switch_limit_max="0.4" />
+    </animation>
+	
+    <animation id="sheep_strike" param1="0" duration="1" anim_data_name="sheep_damage_take" source1="1" source2="30" blend_in_period="0.05" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Pain">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+
+    <animation id="sheep_walkforward" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="1" source2="33" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_walkforward_stand" param1="0" duration="1.06" anim_data_name="sheep_walk_forward_stand" source1="1" source2="33">
+	</animation>
+
+	<animation id="sheep_walkbackward" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="33" source2="1" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="-1.1" pace_switch_limit_max="-0.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+	<animation id="sheep_walkbackward_stand" param1="0" duration="1.06" anim_data_name="sheep_walk_forward_stand" source1="33" source2="1">
+	</animation>
+	
+	<animation id="sheep_trot_forward" param1="0" duration="0.57" anim_data_name="sheep_trot_forward" source1="1" source2="17" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.7" pace_switch_limit_min="0.7" pace_switch_limit_max="2" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>	
+	<animation id="sheep_trot_forward_stand" param1="0" duration="0.57" anim_data_name="sheep_trot_forward_stand" source1="1" source2="17">
+    </animation>
+	
+	<animation id="sheep_canter_forward" param1="0" duration="0.5" anim_data_name="sheep_gallop_forward" source1="1" source2="15" step_points="0.0, 0.5, -1.0, -1.0">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.5" pace_switch_limit_min="1.9" pace_switch_limit_max="5" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+	<animation id="sheep_canter_forward_stand" param1="0" duration="0.5" anim_data_name="sheep_gallop_forward_stand" source1="1" source2="15">
+    </animation>
+	
+	<animation id="sheep_death" param1="0.2" duration="1.6" anim_data_name="sheep_death" source1="1" source2="40" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+
+	<animation id="sheep_walk_left" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="1" source2="33" step_points="0.0, 0.5, -1.0, -1.0">
+	  <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_walk_right" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="1" source2="33" step_points="0.0, 0.5, -1.0, -1.0">
+	<clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.5" pace_switch_limit_min="0.1" pace_switch_limit_max="1.1" />
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+	<animation id="sheep_walkleft_stand" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="1" source2="33" step_points="0.0, 0.5, -1.0, -1.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+		<flag name="synch_with_movement" />
+      </flags>
+    </animation>
+    <animation id="sheep_walkright_stand" param1="0" duration="1.06" anim_data_name="sheep_walk_forward" source1="1" source2="33" step_points="0.0, 0.5, -1.0, -1.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+		<flag name="synch_with_movement" />
+      </flags>
+    </animation>
+
+    <animation id="anim_sheep_inventory_start" param1="0" duration="9" anim_data_name="sheep_idle_2" source1="1" source2="200" blend_in_period="0.0" step_points="0.6, -1.0, -1.0, -1.0" voice_code="Idle" continue_to_action="act_inventory_idle" />
+    <animation id="anim_sheep_inventory" param1="0" duration="9" anim_data_name="sheep_idle_2" source1="1" source2="200" blend_in_period="0.3" step_points="0.6, -1.0, -1.0, -1.0" voice_code="Idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+
+    <!--������������������������������������������������������������������������������������������� SHEEP ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+    <!--������������������������������������������������������������������������������������������� HARE ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+    <!--
+    <animation id="hare_idle_1" param1="0" duration="6.1" anim_data_name="hare_animation" source1="0" source2="151" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="randomization_weight" value="5" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.06" pace_switch_limit_max="0.06" />
+    </animation>
+    <animation id="hare_jump" param1="0" duration="0.7" anim_data_name="hare_animation" source1="151" source2="184" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="hare_walk_as_back" param1="0" duration="0.64" anim_data_name="hare_animation" source1="188" source2="206" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+-->
+    <!--<flag name="make_walk_sound" />-->
+    <!--
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.0" pace_switch_limit_min="-3.0" pace_switch_limit_max="-0.055" />
+    </animation>
+    <animation id="hare_walk" param1="0" duration="0.64" anim_data_name="hare_animation" source1="188" source2="206" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+-->
+    <!--<flag name="make_walk_sound" />-->
+    <!--
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.7" pace_switch_limit_min="0.055" pace_switch_limit_max="1.0" />
+    </animation>
+    <animation id="hare_run" param1="0" duration="0.64" anim_data_name="hare_animation" source1="213" source2="230" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+-->
+    <!--<flag name="make_walk_sound" />-->
+    <!--
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.0" pace_switch_limit_min="0.9" pace_switch_limit_max="2.4" />
+    </animation>
+    <animation id="hare_sprint" param1="0" duration="0.64" anim_data_name="hare_animation" source1="233" source2="249" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+-->
+    <!--<flag name="make_walk_sound" />-->
+    <!--
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.5" pace_switch_limit_min="2.3" pace_switch_limit_max="200.0" />
+    </animation>
+-->
+    <!--Commented out because animation not used
+    <animation id="hare_death_left" param1="0" duration="0.6" anim_data_name="hare_animation" source1="251" source2="267" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="lock_movement" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>-->
+    <!--
+    <animation id="hare_death_right" param1="0" duration="0.6" anim_data_name="hare_animation" source1="270" source2="286" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="hare_death_run" param1="0" duration="1.4" anim_data_name="hare_animation" source1="293" source2="325" blend_in_period="0.3">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="anim_hare_inventory" param1="0" duration="0.6" anim_data_name="hare_animation" source1="270" source2="286" blend_in_period="0.3">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="10" />
+      </flags>
+    </animation>
+-->
+    <!--������������������������������������������������������������������������������������������� HARE ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+    <!--������������������������������������������������������������������������������������������� CROW ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+    <animation id="anim_bird_landing" param1="0" duration="6.5" anim_data_name="anim_crow_landing" source1="1" source2="195" blend_in_period="0.0" blend_out_period="0.0" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/crow/landing">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="update_bounding_volume" />
+      </flags>
+    </animation>
+    <animation id="anim_bird_idle" param1="0" duration="16" anim_data_name="anim_crow_idle" source1="1" source2="500" blend_in_period="0.1" blend_out_period="0.0" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/crow/idle_01">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <!--Commented out because animation not used
+    <animation id="anim_bird_idle_2" param1="0" duration="5" anim_data_name="anim_crow_idle_2" source1="1" source2="150" blend_in_period="0.1" blend_out_period="0.1" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/crow/idle_02">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>-->
+    <animation id="anim_bird_flying" param1="6.5" duration="3" anim_data_name="anim_crow_flying" source1="1" source2="200" blend_in_period="0.1" blend_out_period="0.0" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/crow/flying">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="update_bounding_volume" />
+      </flags>
+    </animation>
+    <animation id="anim_bird_cycle" param1="0" duration="0.3" anim_data_name="anim_crow_cycle" source1="1" source2="20" blend_in_period="0.0" blend_out_period="0.0" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/crow/cycle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� CROW ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+    <!--������������������������������������������������������������������������������������������� CHICKEN ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+    <!-- <animation id="chicken_walk_forward" param1="0" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32" blend_in_period="0.2" blend_out_period="0.2"> -->
+    <!-- <flags> -->
+    <!-- <flag name="client_prediction" /> -->
+    <!-- <flag name="keep" /> -->
+    <!-- <flag name="update_bounding_volume" /> -->
+    <!-- <flag name="cyclic" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <!-- <animation id="chicken_run_forward" param1="0" duration="0.6" anim_data_name="chicken_run_forward" source1="1" source2="18" blend_in_period="0.2" blend_out_period="0.2"> -->
+    <!-- <flags> -->
+    <!-- <flag name="client_prediction" /> -->
+    <!-- <flag name="keep" /> -->
+    <!-- <flag name="update_bounding_volume" /> -->
+    <!-- <flag name="cyclic" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <!-- <animation id="chicken_run_forward_fast" param1="0" duration="0.4" anim_data_name="chicken_run_forward_fast" source1="1" source2="15" blend_in_period="0.2" blend_out_period="0.2"> -->
+    <!-- <flags> -->
+    <!-- <flag name="client_prediction" /> -->
+    <!-- <flag name="keep" /> -->
+    <!-- <flag name="update_bounding_volume" /> -->
+    <!-- <flag name="cyclic" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <!-- <animation id="chicken_fly" param1="0" duration="0.5" anim_data_name="chicken_fly" source1="1" source2="15" blend_in_period="0.2" blend_out_period="0.2" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/fly"> -->
+    <!-- <flags> -->
+    <!-- <flag name="client_prediction" /> -->
+    <!-- <flag name="keep" /> -->
+    <!-- <flag name="update_bounding_volume" /> -->
+    <!-- <flag name="cyclic" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <!-- <animation id="chicken_idle" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.2" blend_out_period="0.2" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/idle"> -->
+    <!-- <flags> -->
+    <!-- <flag name="client_prediction" /> -->
+    <!-- <flag name="keep" /> -->
+    <!-- <flag name="update_bounding_volume" /> -->
+    <!-- <flag name="cyclic" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <animation id="chicken_stand_for_movement_data" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.3" blend_out_period="0.3">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.4" pace_switch_limit_max="0.4" />
+    </animation>
+    <animation id="chicken_walk_forward" param1="0" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="chicken_run_forward" param1="0" duration="0.6" anim_data_name="chicken_run_forward" source1="1" source2="18" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/fly">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="chicken_run_forward_fast" param1="0" duration="0.4" anim_data_name="chicken_run_forward_fast" source1="1" source2="15" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/fly">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="chicken_walk_strafe_left" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="chicken_walk_strafe_right" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="chicken_run_strafe_left" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="chicken_run_strafe_right" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="chicken_run_fast_strafe_left" duration="0.4" anim_data_name="chicken_run_forward_fast" source1="1" source2="15">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="chicken_run_fast_strafe_right" duration="0.4" anim_data_name="chicken_run_forward_fast" source1="1" source2="15">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="chicken_walk_gait" duration="1.0" anim_data_name="chicken_walk_forward" source1="1" source2="32">
+      <flags></flags>
+    </animation>
+    <animation id="chicken_run_gait" duration="0.6" anim_data_name="chicken_run_forward" source1="1" source2="18">
+      <flags></flags>
+    </animation>
+    <animation id="chicken_run_fast_gait" duration="0.4" anim_data_name="chicken_run_forward_fast" source1="1" source2="15" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/fly">
+      <flags></flags>
+    </animation>
+    <animation id="chicken_idle" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="7" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="chicken_idle_1" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="10" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="chicken_idle_2" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="12" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="chicken_death" param1="0.1" duration="2.5" anim_data_name="chicken_death" source1="1" source2="100" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/chicken/death">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="anim_chicken_inventory_start" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.0" blend_out_period="0.0" continue_to_action="act_inventory_idle" />
+    <animation id="anim_chicken_inventory" param1="0" duration="7.0" anim_data_name="chicken_idle" source1="1" source2="210" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� CHICKEN ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+    <animation id="goose_stand_for_movement_data" param1="0" duration="10.0" anim_data_name="goose_idle" source1="1" source2="320" blend_in_period="0.3" blend_out_period="0.3">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.4" pace_switch_limit_max="0.4" />
+    </animation>
+    <animation id="goose_test" duration="0.6" anim_data_name="goose_skeleton" source1="1" source2="18">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="goose_walk_forward" param1="0" duration="0.83" anim_data_name="goose_walk" source1="1" source2="25" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/walk">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="goose_run_forward" param1="0" duration="0.6" anim_data_name="goose_run" source1="1" source2="18" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="goose_run_forward_fast" param1="0" duration="0.46" anim_data_name="goose_run_fast" source1="1" source2="15" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run_fast">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="update_bounding_volume" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="goose_walk_strafe_left" duration="0.83" anim_data_name="goose_walk" source1="1" source2="25" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/walk">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="goose_walk_strafe_right" duration="0.83" anim_data_name="goose_walk" source1="1" source2="25" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/walk">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.52" pace_switch_limit_min="0.1" pace_switch_limit_max="0.8" />
+    </animation>
+    <animation id="goose_run_strafe_left" duration="0.6" anim_data_name="goose_walk" source1="1" source2="18" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="goose_run_strafe_right" duration="0.6" anim_data_name="goose_walk" source1="1" source2="18" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.7" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="goose_run_fast_strafe_left" duration="0.46" anim_data_name="goose_run_fast_gait" source1="1" source2="15" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run_fast">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="goose_run_fast_strafe_right" duration="0.46" anim_data_name="goose_run_fast_gait" source1="1" source2="15" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run_fast">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="1.8" pace_switch_limit_max="5.0" />
+    </animation>
+    <animation id="goose_walk_gait" duration="0.83" anim_data_name="goose_walk_gait" source1="1" source2="25" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/walk">
+      <flags></flags>
+    </animation>
+    <animation id="goose_run_gait" duration="0.6" anim_data_name="goose_run_gait" source1="1" source2="18" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run">
+      <flags></flags>
+    </animation>
+    <animation id="goose_run_fast_gait" duration="0.46" anim_data_name="goose_run_gait" source1="1" source2="15" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run_fast">
+      <flags></flags>
+    </animation>
+    <animation id="goose_idle" param1="0" duration="10" anim_data_name="goose_idle" source1="1" source2="320" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="7" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="goose_idle_1" param1="0" duration="4.5" anim_data_name="goose_idle" source1="186" source2="320" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="10" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="goose_idle_2" param1="0" duration="6.9" anim_data_name="goose_idle_2" source1="1" source2="205" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/idle_02">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="12" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="goose_death" param1="0.3" duration="0.8" anim_data_name="goose_death" source1="1" source2="25" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/death">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="anim_goose_inventory_start" param1="0" duration="10" anim_data_name="goose_idle" source1="1" source2="320" blend_in_period="0.0" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/idle" continue_to_action="act_inventory_idle" />
+    <animation id="anim_goose_inventory" param1="0" duration="10" anim_data_name="goose_idle" source1="1" source2="320" blend_in_period="0.2" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� CAT ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+    <animation id="cat_walk_gait" duration="1" anim_data_name="cat_walk" source1="1138" source2="1163"></animation>
+    <animation id="cat_trot_gait" duration="1" anim_data_name="cat_walk" source1="1165" source2="1188"></animation>
+    <animation id="cat_walk_backward" duration="1" anim_data_name="cat_walk" source1="1029" source2="983">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.40" pace_switch_limit_min="-2.25" pace_switch_limit_max="-0.15" />
+    </animation>
+    <animation id="cat_walk" param1="0" duration="0.8" anim_data_name="cat_walk" source1="1029" source2="1055">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.35" pace_switch_limit_min="0.01" pace_switch_limit_max="0.5" />
+    </animation>
+    <animation id="cat_pace" param1="0" duration="0.7" anim_data_name="cat_walk" source1="1056" source2="1083">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.40" pace_switch_limit_min="0.45" pace_switch_limit_max="0.80" />
+    </animation>
+    <animation id="cat_trot" param1="0" duration="0.6" anim_data_name="cat_walk" source1="1084" source2="1107">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.70" pace_switch_limit_max="2.25" />
+    </animation>
+    <animation id="cat_canter" param1="0" duration="0.5" anim_data_name="cat_walk" source1="950" source2="982">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.96" pace_switch_limit_min="2.20" pace_switch_limit_max="4.00" />
+    </animation>
+    <animation id="cat_run" param1="0" duration="0.4" anim_data_name="cat_walk" source1="1108" source2="1137">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.0" pace_switch_limit_min="3.95" pace_switch_limit_max="5.55" />
+    </animation>
+    <animation id="cat_turn_strafe_left" duration="0.75" anim_data_name="cat_walk" source1="622" source2="632">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.01" pace_switch_limit_max="2.15" />
+    </animation>
+    <animation id="cat_turn_strafe_right" duration="0.75" anim_data_name="cat_walk" source1="633" source2="643">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.01" pace_switch_limit_max="2.15" />
+    </animation>
+    <animation id="cat_trot_strafe_left" duration="0.75" anim_data_name="cat_walk" source1="600" source2="610">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="2.05" pace_switch_limit_max="5.55" />
+    </animation>
+    <animation id="cat_trot_strafe_right" duration="0.75" anim_data_name="cat_walk" source1="611" source2="621">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="2.05" pace_switch_limit_max="5.55" />
+    </animation>
+    <animation id="cat_trot_backward_strafe_left" duration="0.75" anim_data_name="cat_walk" source1="610" source2="600">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="-4.45" pace_switch_limit_max="-0.01" />
+    </animation>
+    <animation id="cat_trot_backward_strafe_right" duration="0.75" anim_data_name="cat_walk" source1="621" source2="611">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="-4.55" pace_switch_limit_max="-0.01" />
+    </animation>
+    <animation id="cat_turn_right_head" duration="0.6" anim_data_name="cat_walk" source1="850" source2="861" blend_in_period="0.6" blend_out_period="0.6">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.01" pace_switch_limit_max="1.55" />
+    </animation>
+    <animation id="cat_turn_left_head" duration="0.6" anim_data_name="cat_walk" source1="862" source2="874" blend_in_period="0.6" blend_out_period="0.6">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.70" pace_switch_limit_min="0.01" pace_switch_limit_max="1.55" />
+    </animation>
+    <animation id="cat_idle_1" param1="0" duration="18" anim_data_name="cat_walk" source1="107" source2="410" blend_in_period="0.9" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="8" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cat_idle_2" param1="0" duration="10" anim_data_name="cat_walk" source1="410" source2="525" blend_in_period="0.9" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="11" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cat_idle_3" param1="0" duration="2" anim_data_name="cat_walk" source1="713" source2="737" blend_in_period="0.9" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="7" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cat_idle_4" param1="0" duration="4" anim_data_name="cat_walk" source1="740" source2="800" blend_in_period="0.8" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="9" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cat_idle_5" param1="0" duration="4" anim_data_name="cat_walk" source1="525" source2="599" blend_in_period="0.8" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="9" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cat_stand_for_movement_data" param1="0" duration="3" anim_data_name="cat_walk" source1="740" source2="800" blend_in_period="0.05" blend_out_period="0.05">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.1" pace_switch_limit_max="0.1" />
+    </animation>
+    <!--<animation id="cat_rearup" param1="0" duration="2" anim_data_name="cat_walk" source1="801" source2="850" blend_in_period="0.05" blend_out_period="0.05">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>-->
+    <animation id="cat_strike" duration="1" anim_data_name="cat_walk" source1="666" source2="705" blend_in_period="0.05" blend_out_period="0.1">
+      <flags>
+        <flag name="enforce_all" />
+        <flag name="lock_movement" />
+        <flag name="client_prediction" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="cat_death" param1="0.55" duration="0.8" anim_data_name="cat_walk" source1="880" source2="911" blend_in_period="0.05" blend_out_period="0.0">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="cat_jump_loop" param1="0" duration="1" anim_data_name="cat_walk" source1="645" source2="655" blend_in_period="0.05">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="ignore_slope" />
+        <flag name="cyclic" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="81" />
+      </flags>
+    </animation>
+    <animation id="cat_jump_end" param1="0" duration="0.5" anim_data_name="cat_walk" source1="656" source2="665" blend_in_period="0.05">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="lock_movement" />
+        <flag name="client_prediction" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="82" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� HOG ANIMATIONS - BEGIN ������������������������������������������������������������������������������������������������������������/-->
+    <animation id="hog_stand_for_movement_data" param1="0" duration="8.0" anim_data_name="hog_idle_graze" source1="1" source2="240" blend_in_period="0.8" blend_out_period="0.8">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="-0.4" pace_switch_limit_max="0.4" />
+    </animation>
+    <animation id="hog_idle_graze" param1="0" duration="8.0" anim_data_name="hog_idle_graze" source1="1" source2="240" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="10" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="hog_idle_look_around" param1="0" duration="5.66" anim_data_name="hog_idle_look_around" source1="1" source2="170" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="randomization_weight" value="5" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="hog_jump" param1="0" duration="0.93" anim_data_name="hog_walk" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.2">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.86" pace_switch_limit_min="0.2" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="hog_walk_forward" param1="0" duration="0.7" anim_data_name="hog_walk" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.0" step_points="0.221, 0.45, 0.71, 0.95">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.1" pace_switch_limit_min="0.1" pace_switch_limit_max="2.3" />
+    </animation>
+    <animation id="hog_walk_forward_strafe_left" param1="0" duration="0.7" anim_data_name="hog_walk" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.0" step_points="0.221, 0.45, 0.71, 0.95">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.1" pace_switch_limit_min="0.1" pace_switch_limit_max="2.3" />
+    </animation>
+    <animation id="hog_walk_forward_strafe_right" param1="0" duration="0.7" anim_data_name="hog_walk" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.1" pace_switch_limit_min="0.1" pace_switch_limit_max="2.3" />
+    </animation>
+    <animation id="hog_gait_walk_forward" param1="0" duration="0.7" anim_data_name="hog_gait_walk" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.2">
+      <!-- <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.1" pace_switch_limit_min="0.1" pace_switch_limit_max="2.3" /> -->
+    </animation>
+    <animation id="hog_trot" param1="0" duration="0.43" anim_data_name="hog_trot" source1="1" source2="13" blend_in_period="0.2" blend_out_period="0.0" step_points="0.221, 0.45, 0.71, 0.95">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.529" pace_switch_limit_min="2.1" pace_switch_limit_max="3.55" />
+    </animation>
+    <animation id="hog_trot_strafe_right" param1="0" duration="0.43" anim_data_name="hog_trot" source1="1" source2="13" blend_in_period="0.2" blend_out_period="0.0" step_points="0.03, 0.09, 0.53, 0.54">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.529" pace_switch_limit_min="2.1" pace_switch_limit_max="3.55" />
+    </animation>
+    <animation id="hog_trot_strafe_left" param1="0" duration="0.43" anim_data_name="hog_trot" source1="1" source2="13" blend_in_period="0.2" blend_out_period="0.0" step_points="0.03, 0.09, 0.53, 0.54">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.529" pace_switch_limit_min="2.1" pace_switch_limit_max="3.55" />
+    </animation>
+    <animation id="hog_gait_trot" param1="0" duration="0.43" anim_data_name="hog_gait_trot" source1="1" source2="13" blend_in_period="0.2" blend_out_period="0.2">
+      <!-- <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.529" pace_switch_limit_min="2.1" pace_switch_limit_max="3.55" /> -->
+    </animation>
+    <animation id="hog_canter" param1="0" duration="0.45" anim_data_name="hog_canter" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.47, 0.56, 0.83">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.26" pace_switch_limit_min="3.45" pace_switch_limit_max="5.49" />
+    </animation>
+    <animation id="hog_canter_strafe_right" param1="0" duration="0.45" anim_data_name="hog_canter" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.47, 0.56, 0.83">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.26" pace_switch_limit_min="3.45" pace_switch_limit_max="5.49" />
+    </animation>
+    <animation id="hog_canter_strafe_left" param1="0" duration="0.45" anim_data_name="hog_canter" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.47, 0.56, 0.83">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.26" pace_switch_limit_min="3.45" pace_switch_limit_max="5.49" />
+    </animation>
+    <animation id="hog_gait_canter" param1="0" duration="0.45" anim_data_name="hog_gait_canter" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.2">
+      <!-- <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.26" pace_switch_limit_min="3.45" pace_switch_limit_max="5.49" /> -->
+    </animation>
+    <animation id="hog_gallop" param1="0" duration="0.36" anim_data_name="hog_gallop" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.38, 0.47, 0.92">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.0" pace_switch_limit_min="5.39" pace_switch_limit_max="6.55" />
+    </animation>
+    <animation id="hog_gallop_strafe_right" param1="0" duration="0.36" anim_data_name="hog_gallop" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.38, 0.47, 0.92">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.0" pace_switch_limit_min="5.39" pace_switch_limit_max="6.55" />
+    </animation>
+    <animation id="hog_gallop_strafe_left" param1="0" duration="0.36" anim_data_name="hog_gallop" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.0" step_points="0.02, 0.38, 0.47, 0.92">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="make_walk_sound" />
+        <flag name="cyclic" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.0" pace_switch_limit_min="5.39" pace_switch_limit_max="6.55" />
+    </animation>
+    <animation id="hog_gait_gallop" param1="0" duration="0.36" anim_data_name="hog_gait_gallop" source1="1" source2="11" blend_in_period="0.2" blend_out_period="0.2">
+      <!-- <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.0" pace_switch_limit_min="5.39" pace_switch_limit_max="6.55" /> -->
+    </animation>
+    <animation id="hog_death" param1="0.3" duration="1.66" anim_data_name="hog_death" source1="1" source2="50" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="hog_get_hit_front" param1="0" duration="0.5" anim_data_name="hog_get_hit" source1="8" source2="32" blend_in_period="0.1" blend_out_period="0.2">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <animation id="hog_get_hit_back" param1="0" duration="0.5" anim_data_name="hog_get_hit" source1="8" source2="32" blend_in_period="0.1" blend_out_period="0.2">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <animation id="hog_walk_get_hit_front" param1="0" duration="0.7" anim_data_name="hog_walk_get_hit" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.2">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <animation id="hog_walk_get_hit_back" param1="0" duration="0.7" anim_data_name="hog_walk_get_hit" source1="1" source2="28" blend_in_period="0.2" blend_out_period="0.2">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <animation id="anim_hog_inventory_start" param1="0" duration="5.66" anim_data_name="hog_idle_look_around" source1="1" source2="170" blend_in_period="0.0" blend_out_period="0.0" continue_to_action="act_inventory_idle" />
+    <animation id="anim_hog_inventory" param1="0" duration="5.66" anim_data_name="hog_idle_look_around" source1="1" source2="170" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� HOG ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+    <!--������������������������������������������������������������������������������������������� DOG ANIMATIONS - START ������������������������������������������������������������������������������������������������������������/-->
+    <animation id="dog_idle" param1="0" duration="14.3" anim_data_name="dog_idle" source1="1" source2="430" blend_in_period="0.3" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/idle">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="randomization_weight" value="7" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="dog_idle_a" param1="0" duration="2" anim_data_name="dog_idle_a" source1="1" source2="60" blend_in_period="0.3" blend_out_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/idle_2">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="randomization_weight" value="7" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="anim_dog_inventory_start" param1="0" duration="14.3" anim_data_name="dog_idle" source1="1" source2="430" blend_in_period="0.0" blend_out_period="0.0" continue_to_action="act_inventory_idle" />
+    <animation id="anim_dog_inventory" param1="0" duration="14.3" anim_data_name="dog_idle" source1="1" source2="430" blend_in_period="0.8" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <animation id="dog_stand_for_movement_data" param1="0" duration="2" anim_data_name="dog_idle_a" source1="1" source2="60" blend_in_period="0.3" blend_out_period="0.3">
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.0" pace_switch_limit_min="0.0" pace_switch_limit_max="0.0" />
+    </animation>
+    <animation id="dog_walk_forward" duration="1.0" anim_data_name="dog_walk_forward" source1="1" source2="31" blend_in_period="0.2" blend_out_period="0.2" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.60" pace_switch_limit_min="0.1" pace_switch_limit_max="1.5" />
+    </animation>
+    <animation id="dog_walk_forward_gait" duration="1.0" anim_data_name="dog_walk_forward_gait" source1="1" source2="31" blend_in_period="0.1" blend_out_period="0.1" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant"></animation>
+    <animation id="dog_walk_strafe_left" duration="1.0" anim_data_name="dog_walk_forward" source1="1" source2="31">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.60" pace_switch_limit_min="0.1" pace_switch_limit_max="1.5" />
+    </animation>
+    <animation id="dog_walk_strafe_right" duration="1.0" anim_data_name="dog_walk_forward" source1="1" source2="31">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.60" pace_switch_limit_min="0.1" pace_switch_limit_max="1.5" />
+    </animation>
+    <animation id="dog_turn_left" duration="1.0" anim_data_name="dog_turn" source1="1" source2="39" blend_in_period="0.2" blend_out_period="0.2">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.95" pace_switch_limit_min="0" pace_switch_limit_max="0" />
+    </animation>
+    <animation id="dog_turn_right" duration="1.0" anim_data_name="dog_turn" source1="40" source2="78" blend_in_period="0.2" blend_out_period="0.2">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.95" pace_switch_limit_min="0" pace_switch_limit_max="0" />
+    </animation>
+    <animation id="dog_trot" duration="0.66" anim_data_name="dog_trot" source1="1" source2="21" blend_in_period="0.2" blend_out_period="0.2" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.82" pace_switch_limit_min="1.4" pace_switch_limit_max="2.5" />
+    </animation>
+    <animation id="dog_trot_gait" duration="0.66" anim_data_name="dog_trot_gait" source1="1" source2="21" blend_in_period="0.1" blend_out_period="0.1" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/goose/run"></animation>
+    <animation id="dog_trot_strafe_left" duration="0.66" anim_data_name="dog_trot" source1="1" source2="21">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.82" pace_switch_limit_min="1.4" pace_switch_limit_max="2.5" />
+    </animation>
+    <animation id="dog_trot_strafe_right" duration="0.66" anim_data_name="dog_trot" source1="1" source2="21">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="0.82" pace_switch_limit_min="1.4" pace_switch_limit_max="2.5" />
+    </animation>
+    <animation id="dog_canter" duration="0.5" anim_data_name="dog_canter" source1="1" source2="16" blend_in_period="0.2" blend_out_period="0.2" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.20" pace_switch_limit_min="2.4" pace_switch_limit_max="4" />
+    </animation>
+    <animation id="dog_canter_gait" duration="0.5" anim_data_name="dog_canter_gait" source1="1" source2="16" blend_in_period="0.1" blend_out_period="0.1"></animation>
+    <animation id="dog_canter_strafe_right" duration="0.5" anim_data_name="dog_canter" source1="1" source2="16">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.20" pace_switch_limit_min="2.4" pace_switch_limit_max="4" />
+    </animation>
+    <animation id="dog_canter_strafe_left" duration="0.5" anim_data_name="dog_canter" source1="1" source2="16">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.20" pace_switch_limit_min="2.4" pace_switch_limit_max="4" />
+    </animation>
+    <animation id="dog_gallop" duration="0.43" anim_data_name="dog_gallop" source1="1" source2="14" blend_in_period="0.2" blend_out_period="0.2" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.20" pace_switch_limit_min="3.9" pace_switch_limit_max="25" />
+    </animation>
+    <animation id="dog_gallop_gait" duration="0.43" anim_data_name="dog_gallop_gait" source1="1" source2="14" blend_in_period="0.1" blend_out_period="0.1" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/animals/dog/pant"></animation>
+    <animation id="dog_gallop_strafe_right" duration="0.43" anim_data_name="dog_gallop" source1="1" source2="14">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.20" pace_switch_limit_min="3.9" pace_switch_limit_max="25" />
+    </animation>
+    <animation id="dog_gallop_strafe_left" duration="0.43" anim_data_name="dog_gallop" source1="1" source2="14">
+      <flags></flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="2.20" pace_switch_limit_min="3.9" pace_switch_limit_max="25" />
+    </animation>
+    <animation id="dog_death" param1="0.3" duration="1.3" anim_data_name="dog_death" source1="1" source2="40" blend_in_period="0.2" blend_out_period="0.0">
+      <flags>
+        <flag name="update_bounding_volume" />
+        <flag name="client_prediction" />
+        <flag name="keep" />
+        <flag name="enforce_all" />
+        <flag name="priority" value="80" />
+      </flags>
+    </animation>
+    <animation id="dog_strike_back" duration="0.6" anim_data_name="dog_death" source1="1" source2="10" blend_in_period="0.1" blend_out_period="0.3">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <animation id="dog_strike_front" duration="0.6" anim_data_name="dog_death" source1="1" source2="10" blend_in_period="0.1" blend_out_period="0.3">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="25" />
+      </flags>
+    </animation>
+    <!--������������������������������������������������������������������������������������������� DOG ANIMATIONS - END ������������������������������������������������������������������������������������������������������������/-->
+  </animations>
+</base>

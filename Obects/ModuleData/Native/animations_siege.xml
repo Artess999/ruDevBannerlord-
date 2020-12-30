@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--dvec="x, y, z"-->
+<!--for horse movements, dvec x is speed of forward walk, y is pace limit for reducing it, z is pace limit for increasing it.-->
+<!--leave around a speed of 0.1 between pace limits, such as if pace 1 has 3.0 for increasing to the next pace, pace 2 should have 2.9 for decreasing back to pace 1.-->
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="animation">
+  <animations>
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ MANGONEL ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="mangonel_fire" param1="0.4" duration="3.3" anim_data_name="mangonel_body_animation" source1="1" source2="100" blend_in_period="0.3" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/mangonel/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="mangonel_set_up" param1="0.4" duration="7.0" anim_data_name="mangonel_body_animation" source1="100" source2="215" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/mangonel/reload">
+      <flags>
+        <flag name="keep" />
+        <flag name="update_bounding_volume" />
+      </flags>
+    </animation>
+    <animation id="mangonel_holder_fire" param1="0.4" duration="3.3" anim_data_name="mangonel_holder_animation" source1="1" source2="100" blend_in_period="0.3">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="mangonel_holder_set_up" param1="0.4" duration="7.0" anim_data_name="mangonel_holder_animation" source1="100" source2="215" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_fire" param1="0.4" duration="3.3" anim_data_name="mangonel_b_body_animation" source1="1" source2="100" blend_in_period="0.3" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/mangonel/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_set_up" param1="0.4" duration="7.0" anim_data_name="mangonel_b_body_animation" source1="100" source2="215" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/mangonel/reload">
+      <flags>
+        <flag name="keep" />
+        <flag name="update_bounding_volume" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_holder_fire" param1="0.4" duration="3.3" anim_data_name="mangonel_b_rope_animation" source1="1" source2="100" blend_in_period="0.3">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_holder_set_up" param1="0.4" duration="7.0" anim_data_name="mangonel_b_rope_animation" source1="100" source2="215" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_idle" param1="0" duration="2" anim_data_name="anim_mangonel" source1="300" source2="320" blend_in_period="0.5" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+        <flag name="allow_head_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_shoot" param1="0" duration="3.3" anim_data_name="anim_mangonel" source1="1" source2="92" blend_in_period="0.3" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="allow_head_movement" />
+        <flag name="disable_hand_ik" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_reload" param1="0" duration="7.0" anim_data_name="anim_mangonel" source1="100" source2="215" blend_in_period="0.3" blend_out_period="0.3" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_angry">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_big_idle" param1="0" duration="2" anim_data_name="anim_mangonel_big" source1="300" source2="320" blend_in_period="0.5" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+        <flag name="allow_head_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_big_shoot" param1="0" duration="3.3" anim_data_name="anim_mangonel_big" source1="1" source2="92" blend_in_period="0.3" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="allow_head_movement" />
+        <flag name="disable_hand_ik" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_big_reload" param1="0" duration="7.0" anim_data_name="anim_mangonel_big" source1="100" source2="215" blend_in_period="0.3" blend_out_period="0.3" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_angry">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_reload_2" param1="0" duration="7.0" anim_data_name="anim_mangonel_alternate" source1="100" source2="215" blend_in_period="0.3" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_angry">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_reload_2_idle" param1="0" duration="2" anim_data_name="anim_mangonel_alternate" source1="232" source2="262" blend_in_period="0.3" left_hand_pose="1" right_hand_pose="1">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="72" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_rotate_right" param1="0" duration="6" anim_data_name="anim_mangonel" source1="425" source2="524" blend_in_period="0.3" left_hand_pose="0" right_hand_pose="0" facial_anim_id="idle_scared">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="lock_movement" />
+        <flag name="priority" value="72" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_rotate_left" param1="0" duration="6" anim_data_name="anim_mangonel" source1="325" source2="424" blend_in_period="0.3" left_hand_pose="0" right_hand_pose="0" facial_anim_id="idle_scared">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="lock_movement" />
+        <flag name="priority" value="72" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_load_ammo_begin" param1="0" duration="1" anim_data_name="anim_mangonel" source1="230" source2="259" blend_in_period="0.3" blend_out_period="0.1" left_hand_pose="0" right_hand_pose="0" facial_anim_id="angry" continue_to_action="act_usage_mangonel_load_ammo_end">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_hand_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_load_ammo_end" param1="0" duration="0.5" anim_data_name="anim_mangonel" source1="265" source2="284" blend_in_period="0.1" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="lock_movement" />
+        <flag name="enforce_lowerbody" />
+        <flag name="client_prediction" />
+        <flag name="disable_hand_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_big_load_ammo_begin" param1="0" duration="1" anim_data_name="anim_mangonel_big" source1="230" source2="259" blend_in_period="0.3" blend_out_period="0.1" left_hand_pose="0" right_hand_pose="0" facial_anim_id="angry" continue_to_action="act_usage_mangonel_big_load_ammo_end">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_hand_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_mangonel_big_load_ammo_end" param1="0" duration="0.5" anim_data_name="anim_mangonel_big" source1="265" source2="284" blend_in_period="0.1" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_concentration">
+      <flags>
+        <flag name="priority" value="72" />
+        <flag name="lock_movement" />
+        <flag name="enforce_lowerbody" />
+        <flag name="client_prediction" />
+        <flag name="disable_hand_ik" />
+      </flags>
+    </animation>
+    <animation id="mangonel_a_anglearm_state" duration="1" anim_data_name="mangonel_aim_animation" source1="100" source2="1" blend_in_period="0.0" />
+    <animation id="mangonel_b_anglearm_state" duration="1" anim_data_name="mangonel_b_aim_animation" source1="100" source2="1" blend_in_period="0.0" />
+    <animation id="mangonel_a_mapicon_fire" param1="0.26" duration="1" anim_data_name="mangonel_a_mapicon_animation" source1="1" source2="30" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_a_mapicon_reload" param1="0.4" duration="1.5" anim_data_name="mangonel_a_mapicon_animation" source1="40" source2="139" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_a_fire_mapicon_fire" param1="0.26" duration="1" anim_data_name="mangonel_a_mapicon_animation" source1="1" source2="30" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_a_fire_mapicon_reload" param1="0.4" duration="1.5" anim_data_name="mangonel_a_mapicon_animation" source1="40" source2="139" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_mapicon_fire" param1="0.26" duration="1" anim_data_name="mangonel_b_mapicon_animation" source1="1" source2="30" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_mapicon_reload" param1="0.4" duration="1.5" anim_data_name="mangonel_b_mapicon_animation" source1="40" source2="139" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_fire_mapicon_fire" param1="0.26" duration="1" anim_data_name="mangonel_b_mapicon_animation" source1="1" source2="30" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="mangonel_b_fire_mapicon_reload" param1="0.4" duration="1.5" anim_data_name="mangonel_b_mapicon_animation" source1="40" source2="139" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ MANGONEL ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ BRICOLE ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="bricole_fire" param1="0.4" duration="6.7" anim_data_name="bricole_animation" source1="1" source2="200" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="bricole_set_up" param1="0.4" duration="4.3" anim_data_name="bricole_animation" source1="210" source2="340" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/reload">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ BRICOLE ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ TREBUCHET A ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="trebuchet_a_body_before_reload" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_body_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_sling_before_reload" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_sling_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_rope_before_reload" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_rope_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_body_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_body_animation" source1="2" source2="407" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_body_setup" param1="0.4" duration="10" anim_data_name="trebuchet_a_body_animation" source1="408" source2="707" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/reload">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_sling_idle_emtpy" param1="0.4" duration="0.03" anim_data_name="trebuchet_a_sling_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_sling_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_sling_animation" source1="2" source2="407" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_sling_idle_with_ammo" param1="0.4" duration="13.26" anim_data_name="trebuchet_a_sling_animation" source1="2" source2="2" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_sling_setup" param1="0.4" duration="10" anim_data_name="trebuchet_a_sling_animation" source1="408" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_rope_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_a_rope_animation" source1="1" source2="407" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_rope_setup" param1="0.4" duration="10" anim_data_name="trebuchet_a_rope_animation" source1="408" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_body_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_b_body_animation" source1="2" source2="407" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_sling_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_b_sling_animation" source1="2" source2="407" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_rope_fire" param1="0.4" duration="13.5" anim_data_name="trebuchet_b_rope_animation" source1="2" source2="407" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_sling_setup" param1="0.4" duration="10" anim_data_name="trebuchet_b_sling_animation" source1="408" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_rope_setup" param1="0.4" duration="10" anim_data_name="trebuchet_b_rope_animation" source1="408" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_body_setup" param1="0.4" duration="10" anim_data_name="trebuchet_b_body_animation" source1="408" source2="707" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/bricole/reload">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_sling_idle_emtpy" param1="0.4" duration="0.03" anim_data_name="trebuchet_b_sling_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_sling_idle_with_ammo" param1="0.4" duration="13.26" anim_data_name="trebuchet_b_sling_animation" source1="2" source2="2" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_anglearm_state" duration="1" anim_data_name="trebuchet_a_aim_animation" source1="100" source2="1" blend_in_period="0.0" />
+    <animation id="trebuchet_b_anglearm_state" duration="1" anim_data_name="trebuchet_b_aim_animation" source1="100" source2="1" blend_in_period="0.0" />
+    <animation id="freedom_animation" param1="0.4" duration="5" anim_data_name="bone_freedom_animation" source1="1" source2="90" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_mapicon_fire" param1="0.41" duration="2.5" anim_data_name="trebuchet_a_mapicon_animation" source1="1" source2="138" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_mapicon_reload" param1="0.0" duration="2.0" anim_data_name="trebuchet_a_mapicon_animation" source1="150" source2="250" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_fire_mapicon_fire" param1="0.41" duration="2.5" anim_data_name="trebuchet_a_mapicon_animation" source1="1" source2="138" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_a_fire_mapicon_reload" param1="0.0" duration="2.0" anim_data_name="trebuchet_a_mapicon_animation" source1="150" source2="250" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_mapicon_fire" param1="0.075" duration="4.0" anim_data_name="trebuchet_b_mapicon_animation" source1="1" source2="280" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_mapicon_reload" param1="0.0" duration="2.0" anim_data_name="trebuchet_b_mapicon_animation" source1="440" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_fire_mapicon_fire" param1="0.075" duration="4.0" anim_data_name="trebuchet_b_mapicon_animation" source1="1" source2="400" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="trebuchet_b_fire_mapicon_reload" param1="0.0" duration="2.0" anim_data_name="trebuchet_b_mapicon_animation" source1="440" source2="707" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ TREBUCHET A ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ SIEGE TOWER and SIEGE LADDER ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <!--Commented out because animation not used
+<animation id="siege_push_walk" param1="0" duration="2.23" dvec="1.14, 0, 0" anim_data_name="anim_siege_push_walk" source1="1" source2="68" blend_in_period="0.3" left_hand_pose="0" right_hand_pose="0" step_points="0.4, 0.8980392, -1.0, -1.0" />-->
+    <!--Commented out because animation not used
+<animation id="siege_push_walk_unarmed" param1="0" duration="2.23" anim_data_name="anim_siege_push_walk" source1="1" source2="68" blend_in_period="0.3" left_hand_pose="0" right_hand_pose="0" step_points="0.4, 0.8980392, -1.0, -1.0" />-->
+    <animation id="usage_siege_machine_push" param1="0" duration="1.17" anim_data_name="anim_siege_push_walk" source1="1" source2="68" blend_in_period="0.3" step_points="0.0, 0.52, -1.0, -1.0" left_hand_pose="3" right_hand_pose="3">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+        <flag name="make_walk_sound" />
+        <flag name="priority" value="71" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <animation id="usage_siege_tower_open_gate_begin" duration="2.6" anim_data_name="anim_siege_tower_handle_usage" source1="1" source2="80" blend_in_period="0.3" continue_to_action="act_usage_siege_tower_open_gate_end">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <animation id="usage_siege_tower_open_gate_end" duration="0.9" anim_data_name="anim_siege_tower_handle_usage" source1="81" source2="109" blend_in_period="0" blend_out_period="0.2">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="priority" value="71" />
+        <flag name="enforce_lowerbody" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_rise" duration="6" anim_data_name="ladder_6m_animation" source1="1001" source2="1140" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_rise_wo_rootbone" duration="6" anim_data_name="ladder_6m_animation" source1="1201" source2="1340" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_push_back" duration="10" anim_data_name="ladder_6m_animation" source1="1" source2="300" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_push_back_wo_rootbone" duration="10" anim_data_name="ladder_6m_animation" source1="501" source2="800" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_stop_wall_heavy" duration="1.5" anim_data_name="ladder_6m_animation" source1="1401" source2="1471" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_heavy">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_stop_wall_light" duration="0.67" anim_data_name="ladder_6m_animation" source1="1501" source2="1521" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_light">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_stop_ground_heavy" duration="1.0" anim_data_name="ladder_6m_animation" source1="1601" source2="1636" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/down">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_6m_idle" duration="1" anim_data_name="ladder_6m_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_rise" duration="6" anim_data_name="ladder_8m_animation" source1="1001" source2="1140" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_rise_wo_rootbone" duration="6" anim_data_name="ladder_8m_animation" source1="1201" source2="1340" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_push_back" duration="10" anim_data_name="ladder_8m_animation" source1="1" source2="300" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_push_back_wo_rootbone" duration="10" anim_data_name="ladder_8m_animation" source1="501" source2="800" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_stop_wall_heavy" duration="1.5" anim_data_name="ladder_8m_animation" source1="1401" source2="1471" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_heavy">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_stop_wall_light" duration="0.67" anim_data_name="ladder_8m_animation" source1="1501" source2="1521" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_light">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_stop_ground_heavy" duration="1.0" anim_data_name="ladder_8m_animation" source1="1601" source2="1636" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/down">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_8m_idle" duration="1" anim_data_name="ladder_8m_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_rise" duration="6" anim_data_name="ladder_11m_animation" source1="1001" source2="1140" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_rise_wo_rootbone" duration="6" anim_data_name="ladder_11m_animation" source1="1201" source2="1340" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_push_back" duration="10" anim_data_name="ladder_11m_animation" source1="1" source2="300" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_push_back_wo_rootbone" duration="10" anim_data_name="ladder_11m_animation" source1="501" source2="800" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_stop_wall_heavy" duration="1.5" anim_data_name="ladder_11m_animation" source1="1401" source2="1471" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_heavy">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_stop_wall_light" duration="0.67" anim_data_name="ladder_11m_animation" source1="1501" source2="1521" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_light">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_stop_ground_heavy" duration="1.0" anim_data_name="ladder_11m_animation" source1="1601" source2="1636" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/down">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_11m_idle" duration="1" anim_data_name="ladder_11m_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_rise" duration="6" anim_data_name="ladder_14m_animation" source1="1001" source2="1140" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_rise_wo_rootbone" duration="6" anim_data_name="ladder_14m_animation" source1="1201" source2="1340" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_push_back" duration="10" anim_data_name="ladder_14m_animation" source1="1" source2="300" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/up">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_push_back_wo_rootbone" duration="10" anim_data_name="ladder_14m_animation" source1="501" source2="800" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_stop_wall_heavy" duration="1.5" anim_data_name="ladder_14m_animation" source1="1401" source2="1471" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_heavy">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_stop_wall_light" duration="0.67" anim_data_name="ladder_14m_animation" source1="1501" source2="1521" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/land_light">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_stop_ground_heavy" duration="1.0" anim_data_name="ladder_14m_animation" source1="1601" source2="1636" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ladder/down">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siege_ladder_14m_idle" duration="1" anim_data_name="ladder_14m_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_handle_release" duration="2.86" anim_data_name="siegetower_a_handle_animation" source1="1" source2="86" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_door_stop" duration="2.86" anim_data_name="siegetower_a_door_animation" source1="0" source2="86" blend_in_period="0" step_points="0.7, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/siegetower/doorland">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_door_idle" duration="1" anim_data_name="siegetower_a_door_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_5m_door_stop" duration="1.25" anim_data_name="siegetower_5m_door_animation" source1="1" source2="60" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/siegetower/doorland">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_5m_door_idle" duration="1" anim_data_name="siegetower_5m_door_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l3_door_stop_proto" duration="2.0" anim_data_name="siege_tower_l3_door_proto_animation" source1="1" source2="60" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/siegetower/doorland">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l3_door_idle_proto" duration="1" anim_data_name="siege_tower_l3_door_proto_animation" source1="1" source2="1" blend_in_period="0.4">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l2_door_stop" duration="2.0" anim_data_name="siege_tower_l2_door_animation" source1="1" source2="60" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/siegetower/doorland">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l2_door_idle" duration="1" anim_data_name="siege_tower_l2_door_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l3_door_stop" duration="2.0" anim_data_name="siege_tower_l3_door_animation" source1="1" source2="60" blend_in_period="0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/siegetower/doorland">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="siegetower_l3_door_idle" duration="1" anim_data_name="siege_tower_l3_door_animation" source1="1" source2="1" blend_in_period="0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ SIEGE TOWER and SIEGE LADDER ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ BATTERINGRAM ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="batteringram_idle" duration="1" anim_data_name="batteringram_a_animation" source1="99" source2="99" blend_in_period="0.6">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="batteringram_fire" param1="0.4" duration="3.3" anim_data_name="batteringram_a_animation" source1="1" source2="99" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/batteringram/swing">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="batteringram_fire_weak" param1="0.4" duration="3.3" anim_data_name="batteringram_a_animation" source1="100" source2="207" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/batteringram/swing_weak">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="batteringram_fire_weakest" param1="0.4" duration="3.3" anim_data_name="batteringram_a_animation" source1="208" source2="317" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/batteringram/swing_weak">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="usage_batteringram_left" duration="3.3" anim_data_name="anim_batteringram_usage" source1="1" source2="99" blend_in_period="0.0" step_points="0.3, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_batteringram_left_slower" duration="3.3" anim_data_name="anim_batteringram_usage" source1="377" source2="484" blend_in_period="0.0" step_points="0.25, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_batteringram_left_slowest" duration="3.3" anim_data_name="anim_batteringram_usage" source1="593" source2="703" blend_in_period="0.0" step_points="0.25, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <!--<animation id="batteringram_idle_left" duration="3.3" anim_data_name="anim_batteringram_usage" source1="277" source2="376" blend_in_period="0.4">
+      <flags>
+	    <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="2" />
+        <flag name="enforce_all" />
+      </flags>
+    </animation>-->
+    <animation id="usage_batteringram_right" duration="3.3" anim_data_name="anim_batteringram_usage" source1="100" source2="198" blend_in_period="0.0" step_points="0.25, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_batteringram_right_slower" duration="3.3" anim_data_name="anim_batteringram_usage" source1="485" source2="592" blend_in_period="0.0" step_points="0.25, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_batteringram_right_slowest" duration="3.3" anim_data_name="anim_batteringram_usage" source1="704" source2="814" blend_in_period="0.0" step_points="0.25, -1.0, -1.0, -1.0" voice_code="Grunt">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <!--<animation id="batteringram_idle_right" duration="3" anim_data_name="anim_batteringram_usage" source1="200" source2="275" blend_in_period="0.4">
+      <flags>
+	    <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="2" />
+        <flag name="enforce_all" />
+      </flags>
+    </animation>-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ BATTERINGRAM ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Trebuchet ANIMATIONS - START ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <animation id="usage_trebuchet_reload" duration="10" anim_data_name="anim_trebuchet_usage" source1="408" source2="707" blend_in_period="0.3">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_trebuchet_reload_idle" param1="0" duration="4.6" anim_data_name="anim_stand_non_combat" source1="1" source2="141" blend_in_period="0.8" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_normal">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="allow_head_movement" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <!--    <animation id="usage_trebuchet_reload_idle" duration="10" anim_data_name="anim_trebuchet_usage" source1="1" source2="1" blend_in_period="0.5">
+      <flags>
+        <flag name="priority" value="2" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>  -->
+    <!-- 	<animation id="usage_trebuchet_reload" duration="10" anim_data_name="anim_trebuchet_usage" source1="1" source2="300" blend_in_period="0.3">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> -->
+    <animation id="usage_trebuchet_reload_right" duration="10" anim_data_name="anim_trebuchet_usage_right" source1="408" source2="707" left_hand_pose="4" right_hand_pose="4" blend_in_period="0.3">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <!-- <animation id="usage_trebuchet_reload_right_idle" duration="7.7" anim_data_name="trebuchet_right_idle" source1="1" source2="232" left_hand_pose="4" right_hand_pose="4" blend_in_period="0.3"> -->
+    <!-- <flags> -->
+    <!-- <flag name="priority" value="2" /> -->
+    <!-- </flags> -->
+    <!-- </animation> -->
+    <!--<animation id="usage_trebuchet_reload_right_idle" duration="4.6" anim_data_name="anim_stand_non_combat" source1="1" source2="141" blend_in_period="0.3" left_hand_pose="2" right_hand_pose="3" facial_anim_id="idle_normal">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="allow_head_movement" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>-->
+    <animation id="usage_trebuchet_shoot" duration="1" anim_data_name="anim_trebuchet_release" source1="1" source2="30" blend_in_period="0.1">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_trebuchet_idle" param1="0" duration="1.0" anim_data_name="anim_trebuchet_release" source1="1" source2="1" left_hand_pose="3" right_hand_pose="3" blend_in_period="0.4">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_trebuchet_load_ammo" duration="2.7" anim_data_name="anim_trebuchet_reload" source1="1" source2="80" blend_in_period="0.3">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Trebuchet ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ LADDER ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <!--Commented out because animation not used
+<animation id="ladder_climb" param1="0.5" duration="0.627" anim_data_name="anim_human_mocap_ladder" source1="1257" source2="1287" blend_in_period="0.3" step_points="0.4, 0.8, -1.0, -1.0" sound_code="event:/mission/movement/footsteps/infantry/step/ladder">
+  <flags>
+    <flag name="client_prediction" />
+    <flag name="cyclic" />
+    <flag name="enforce_lowerbody" />
+    <flag name="priority" value="2" />
+    <flag name="synch_with_ladder_movement" />
+  </flags>
+</animation>-->
+    <animation id="climb_ladder" param1="0.5" duration="0.627" anim_data_name="anim_ladder_climb" source1="1" source2="31" blend_in_period="0.3" step_points="0.1, 0.56, -1.0, -1.0" sound_code="event:/mission/movement/footsteps/human/ladder">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+        <flag name="disable_foot_ik" />
+        <flag name="priority" value="2" />
+        <flag name="synch_with_ladder_movement" />
+      </flags>
+    </animation>
+    <!--     <animation id="usage_ladder_hold_from_right" duration="0.7" anim_data_name="anim_hold_ladder" source1="1" source2="23" blend_in_period="0.3" continue_to_action="act_usage_ladder_lift_from_right_1_end">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> -->
+    <animation id="usage_ladder_lift_from_right_1_start" duration="4.55" anim_data_name="anim_usage_ladder_lift_char_a" source1="1" source2="110" blend_in_period="0.3" continue_to_action="act_usage_ladder_lift_from_right_1_end">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_right_1_end" duration="1.45" anim_data_name="anim_usage_ladder_lift_char_a" source1="110" source2="145" blend_in_period="0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="priority" value="71" />
+        <flag name="update_bounding_volume" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_right_2_start" duration="2.82" anim_data_name="anim_usage_ladder_lift_char_b" source1="1" source2="70" blend_in_period="0.3" continue_to_action="act_usage_ladder_lift_from_right_2_end">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_right_2_end" duration="3.18" anim_data_name="anim_usage_ladder_lift_char_b" source1="70" source2="149" blend_in_period="0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="displace_position" />
+        <flag name="priority" value="71" />
+        <flag name="update_bounding_volume" />
+        <flag name="lock_movement" />
+      </flags>
+      <clip_usage_data type="displacement_data" displacement_vector="3.094,0,0" />
+    </animation>
+    <!--     <animation id="usage_ladder_hold_from_left" duration="0.7" anim_data_name="anim_hold_ladder" source1="31" source2="54" blend_in_period="0.2" continue_to_action="act_usage_ladder_lift_from_left_1_end">
+      <flags>
+        <flag name="priority" value="2" />
+      </flags>
+    </animation> -->
+    <animation id="usage_ladder_lift_from_left_1_start" duration="4.55" anim_data_name="anim_usage_ladder_lift_char_a" source1="146" source2="255" blend_in_period="0.2" continue_to_action="act_usage_ladder_lift_from_left_1_end">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_left_1_end" duration="1.45" anim_data_name="anim_usage_ladder_lift_char_a" source1="256" source2="290" blend_in_period="0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="priority" value="71" />
+        <flag name="update_bounding_volume" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_left_2_start" duration="2.82" anim_data_name="anim_usage_ladder_lift_char_b_left" source1="1" source2="70" blend_in_period="0.2" blend_out_period="0" continue_to_action="act_usage_ladder_lift_from_left_2_end">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_lift_from_left_2_end" duration="3.18" anim_data_name="anim_usage_ladder_lift_char_b_left" source1="71" source2="149" blend_in_period="0.2" blend_out_period="0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="displace_position" />
+        <flag name="priority" value="71" />
+        <flag name="update_bounding_volume" />
+        <flag name="lock_movement" />
+      </flags>
+      <clip_usage_data type="displacement_data" displacement_vector="-3.094,0,0" />
+    </animation>
+    <animation id="usage_ladder_push_back" duration="10" anim_data_name="anim_usage_ladder_push" source1="1" source2="300" blend_in_period="0.3">
+      <flags>
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_push_back_stopped" duration="1.1" anim_data_name="anim_usage_ladder_push" source1="235" source2="290" blend_in_period="0.2" blend_out_period="0.2">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="priority" value="72" />
+        <flag name="lock_movement" />
+        <flag name="enforce_all" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ LADDER ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ SIEGE FORK ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="usage_ladder_pick_up_fork_begin" duration="0.56" anim_data_name="anim_pick_up_fork" source1="1" source2="18" blend_in_period="0.3" left_hand_pose="1" right_hand_pose="0" continue_to_action="act_usage_ladder_pick_up_fork_end">
+      <flags>
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="71" />
+      </flags>
+    </animation>
+    <animation id="usage_ladder_pick_up_fork_end" duration="0.5" anim_data_name="anim_pick_up_fork" source1="19" source2="34" blend_in_period="0" left_hand_pose="3" right_hand_pose="3" blend_out_period="0.2">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="enforce_lowerbody" />
+        <flag name="priority" value="72" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ SIEGE FORK ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ BALLISTA ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="usage_ballista_reload" duration="3" anim_data_name="anim_balista_reload" source1="1" source2="180" blend_in_period="0.3" continue_to_action="act_usage_ballista_ammo_pick_up_start">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_start" duration="0.73" anim_data_name="anim_balista_reload" source1="181" source2="202" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_pick_up_end">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_end" duration="1.0" anim_data_name="anim_balista_reload" source1="203" source2="242" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_start">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_start" duration="1.2" anim_data_name="anim_balista_reload" source1="243" source2="300" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_end">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_end" duration="1.0" anim_data_name="anim_balista_reload" source1="301" source2="350" blend_in_period="0.0" blend_out_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_idle" duration="3.3" anim_data_name="anim_balista_idle" source1="1" source2="101" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_idle_defender" duration="3.3" anim_data_name="anim_balista_idle_defender" source1="1" source2="101" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_reload_defender" duration="3" anim_data_name="anim_balista_reload_defender" source1="1" source2="180" blend_in_period="0.3" continue_to_action="act_usage_ballista_ammo_pick_up_start_defender">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_start_defender" duration="0.73" anim_data_name="anim_balista_reload_defender" source1="181" source2="202" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_pick_up_end_defender">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_end_defender" duration="1.0" anim_data_name="anim_balista_reload_defender" source1="203" source2="242" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_start_defender">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_start_defender" duration="1.2" anim_data_name="anim_balista_reload_defender" source1="243" source2="300" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_end_defender">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_end_defender" duration="1.0" anim_data_name="anim_balista_reload_defender" source1="301" source2="350" blend_in_period="0.0" blend_out_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_idle_attacker" duration="3.3" anim_data_name="anim_balista_idle_attacker" source1="1" source2="101" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_reload_attacker" duration="3" anim_data_name="anim_balista_reload_attacker" source1="1" source2="180" blend_in_period="0.3" continue_to_action="act_usage_ballista_ammo_pick_up_start_attacker">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_start_attacker" duration="0.73" anim_data_name="anim_balista_reload_attacker" source1="181" source2="202" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_pick_up_end_attacker">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_pick_up_end_attacker" duration="1.0" anim_data_name="anim_balista_reload_attacker" source1="203" source2="242" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_start_attacker">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="disable_hand_ik" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_start_attacker" duration="1.2" anim_data_name="anim_balista_reload_attacker" source1="243" source2="300" blend_in_period="0.0" continue_to_action="act_usage_ballista_ammo_place_end_attacker">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="usage_ballista_ammo_place_end_attacker" duration="1.0" anim_data_name="anim_balista_reload_attacker" source1="301" source2="350" blend_in_period="0.0" blend_out_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="priority" value="71" />
+        <flag name="lock_movement" />
+      </flags>
+    </animation>
+    <animation id="ballista_set_up" param1="0.4" duration="3" anim_data_name="ballista_animation" source1="1" source2="180" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="ballista_fire" param1="0.4" duration="0.26" anim_data_name="ballista_animation" source1="200" source2="208" blend_in_period="0.0" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/siege/ballista/fire">
+      <flags>
+        <flag name="keep" />
+      </flags>
+    </animation>
+    <animation id="ballista_a_mapicon_fire" param1="0.0" duration="0.2" anim_data_name="ballista_a_mapicon_animation" source1="180" source2="186" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_a_mapicon_reload" param1="0.4" duration="1.0" anim_data_name="ballista_a_mapicon_animation" source1="1" source2="170" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_a_fire_mapicon_fire" param1="0.0" duration="0.2" anim_data_name="ballista_a_mapicon_animation" source1="180" source2="186" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_a_fire_mapicon_reload" param1="0.4" duration="1.0" anim_data_name="ballista_a_mapicon_animation" source1="1" source2="170" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_b_mapicon_fire" param1="0.0" duration="0.2" anim_data_name="ballista_b_mapicon_animation" source1="180" source2="186" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_b_mapicon_reload" param1="0.4" duration="1.0" anim_data_name="ballista_b_mapicon_animation" source1="1" source2="170" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_b_fire_mapicon_fire" param1="0.0" duration="0.2" anim_data_name="ballista_b_mapicon_animation" source1="180" source2="186" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <animation id="ballista_b_fire_mapicon_reload" param1="0.4" duration="1.0" anim_data_name="ballista_b_mapicon_animation" source1="1" source2="170" blend_in_period="0.0">
+      <flags>
+        <flag name="keep" />
+        <flag name="disable_auto_increment_progress" />
+      </flags>
+    </animation>
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ BALLISTA ANIMATIONS - END ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑/-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ FLAG ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="usage_attach_flag_to_pole_placeholder" duration="4.00" anim_data_name="anim_usage_ladder_lift_char_b" source1="1" source2="70" blend_in_period="0.3" continue_to_action="act_usage_ladder_pick_up_fork_end">
+      <flags>
+        <flag name="priority" value="71" />
+        <flag name="enforce_all" />
+      </flags>
+    </animation>
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ FLAG ANIMATIONS - END ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="anim_merchant_smithing_machine_loop" param1="0.4" duration="2" anim_data_name="merchant_smithing_machine" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="2" />
+      </flags>
+    </animation>
+    <animation id="anim_merchant_smithing_machine_idle_with_blend_in" param1="0.4" duration="1" anim_data_name="merchant_smithing_machine" source1="1" source2="1" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+    <animation id="anim_merchant_smithing_machine_idle" param1="0.4" duration="1" anim_data_name="merchant_smithing_machine" source1="1" source2="1" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+    <animation id="use_smithing_machine_loop" param1="0.4" duration="2" anim_data_name="anim_merchant_smithing_machine_character" source1="1" source2="60" blend_in_period="0.3" step_points="0.0, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/blacksmith/bellows">
+      <flags>
+        <flag name="enforce_all" />
+        <flag name="lock_movement" />
+        <flag name="disable_foot_ik" />
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+        <flag name="ignore_all_collisions" />
+        <flag name="client_prediction" />
+      </flags>
+    </animation>
+    <animation id="use_smithing_machine_ready" param1="0.4" duration="1" anim_data_name="anim_merchant_smithing_machine_character" source1="1" source2="1" blend_in_period="0.3" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="enforce_all" />
+        <flag name="lock_movement" />
+        <flag name="disable_foot_ik" />
+        <flag name="keep" />
+        <flag name="priority" value="1" />
+        <flag name="ignore_all_collisions" />
+        <flag name="client_prediction" />
+      </flags>
+    </animation>
+    <animation id="use_smithing_machine_leave" param1="0.4" duration="1" anim_data_name="anim_merchant_smithing_machine_character" source1="1" source2="1" blend_in_period="0.3" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="enforce_all" />
+        <flag name="lock_movement" />
+        <flag name="disable_foot_ik" />
+        <flag name="priority" value="23" />
+        <flag name="ignore_all_collisions" />
+        <flag name="client_prediction" />
+      </flags>
+    </animation>
+    <animation id="anim_merchant_shop_idle" param1="0.4" duration="8" anim_data_name="anim_merchant_shop_idle" source1="1" source2="256" blend_in_period="0.3" step_points="-1.0, -1.0, -1.0, -1.0">
+      <flags>
+        <flag name="enforce_all" />
+        <flag name="cyclic" />
+        <flag name="priority" value="3" />
+        <flag name="lock_movement" />
+        <flag name="disable_foot_ik" />
+      </flags>
+    </animation>
+    <!-- (-87.195, 0, 59.108) -->
+  </animations>
+</base>

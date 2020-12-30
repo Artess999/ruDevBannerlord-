@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base type="game_menu">
+  <GameMenus>
+    <!-- 
+            possible game_menu sections:
+                    id
+                    on_init
+                    color
+                    auto_enter
+                    flags  //That one not in use, will be deleted.
+                    default_text
+                    mesh_name
+            possible game_menu_item sections:
+                    id
+                    text
+                    on_condition
+                    on_consequence
+                    is_leave
+    -->
+    <game_menu id="minor_faction_base" on_init="game_menu_minor_faction_base_on_init" flags="0x200" color="0x0" default_text="{=9OaaK18j}Minor Faction Base" mesh_name="amb_attack_scene_bg">
+      <menu_option id="talk_with_minor_faction_leader" text="{=hm4FQCE1}Talk with leader." on_condition="talk_with_minor_faction_leader_on_condition" on_consequence="talk_with_minor_faction_leader_on_consequence" />
+      <menu_option id="leave" text="{=2YYRyrOO}Leave..." on_consequence="game_menu_minor_faction_base_on_consequence" />
+    </game_menu>
+    <game_menu id="encounter_win" on_init="game_menu_encounter_win_on_consequence" flags="0x0" color="0" default_text="{=!}" mesh_name="none">
+      <!--<menu_option id="str_continue" text="Continue." on_consequence="game_menu_encounter_win_continue_on_consequence" />-->
+    </game_menu>
+    <game_menu id="menu_sneak_into_town_succeeded" flags="0x0" color="0x0" default_text="{=pSSDfAjR}Disguised in the garments of a poor pilgrim, you fool the guards and make your way into the town." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_condition="menu_sneak_into_town_succeeded_continue_on_condition" on_consequence="menu_sneak_into_town_succeeded_continue_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_sneak_into_town_caught" on_init="game_menu_sneak_into_town_caught_on_init" flags="0x0" color="0x0" default_text="{=RrM7800A}As you try to sneak in, one of the guards recognizes you and raises the alarm! You must flee back through the gates before all the guards in the town come down on you!" mesh_name="none">
+      <menu_option id="mno_sneak_caught_surrender" text="{=3nT5wWzb}Surrender." on_consequence="mno_sneak_caught_surrender_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_captivity_castle_taken_prisoner" flags="0x0" color="0x0" default_text="{=AFJ3BvTH}You are quickly surrounded by guards who take away your weapons. With curses and insults, they throw you into the dungeon where you must while away the miserable days of your captivity." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_menu_captivity_castle_taken_prisoner_cont_on_consequence" />
+      <menu_option id="cheat_continue" text="{=!}Cheat : Leave." on_condition="game_menu_captivity_taken_prisoner_cheat_on_condition" on_consequence="game_menu_captivity_taken_prisoner_cheat_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_successfully_escaped" flags="0x0" color="0x0" default_text="{=8k6AXNW8}You successfully escaped." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_menu_successfully_escaped_cont_on_consequence" />\
+    </game_menu>
+    <game_menu id="menu_sneak_into_town_caught_dispersed_guards" flags="0x0" color="0x0" default_text="{=LGHFBwQU}You drive off the guards and cover your trail before running off, easily losing your pursuers in the maze of streets." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="mno_continue_sneak_into_town_caught_dispersed_guards_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_castle_entry_granted" flags="0x1000" color="0x0" default_text="{=Mg1PotzO}After a brief wait, the guards open the gates for you and allow your party inside." mesh_name="none">
+      <menu_option id="str_continue" text="{=bLNocKd1}Continue.." on_condition="game_request_entry_to_castle_approved_continue_on_condition" on_consequence="game_request_entry_to_castle_approved_continue_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_castle_entry_denied" flags="0x1000" color="0x0" on_init="menu_castle_entry_denied_on_init" default_text="{=QpQQJjD6}The lord of this castle has forbidden you from coming inside these walls, and the guard sergeant informs you that his men will fire if you attempt to come any closer." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_request_entry_to_castle_rejected_continue_on_consequence" />
+    </game_menu>
+    <game_menu id="menu_settlement_taken" flags="0x200" color="0x0" on_init="menu_settlement_taken_on_init" default_text="{=!}{SETTLEMENT_TAKEN_TEXT}" mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="menu_requested_settlement_granted_continue_on_consequence" />
+    </game_menu>
+    <game_menu id="village_loot_defeat" on_init="game_menu_village_menu_on_init" flags="0x1000" color="0x0" default_text="{=F3Bi3R6J}Fighting with courage and determination, the villagers manage to hold together and drive off your forces." mesh_name="none">
+      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_menu_village_loot_defeat_mno_continue_on_consequence" />
+    </game_menu>
+    <game_menu id="village_loot_continue" on_init="game_menu_village_menu_on_init" flags="0x0" color="0x0" default_text="{=49qjBLr4}Do you wish to continue looting this village?" mesh_name="none">
+      <menu_option id="yes" text="{=kB65SzbF}Yes." on_consequence="game_menu_village_loot_continue_yes_on_consequence" />
+      <menu_option id="no" text="{=znDzVxVJ}No." on_consequence="game_menu_village_loot_continue_no_on_consequence" />
+    </game_menu>
+  </GameMenus>
+</base>

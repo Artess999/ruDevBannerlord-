@@ -1,0 +1,3 @@
+SandBoxCore/ModuleData/spcultures.xml: Cultures.Culture.name, Cultures.Culture.text
+SandBoxCore/ModuleData/spitems: Items.Item.name, Items.CraftedItem.name
+SandBoxCore/ModuleData/spnpccharacters.xml: NPCCharacters.NPCCharacter.name

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--dvec="x, y, z"-->
+<!--for horse movements, dvec x is speed of forward walk, y is pace limit for reducing it, z is pace limit for increasing it.-->
+<!--leave around a speed of 0.1 between pace limits, such as if pace 1 has 3.0 for increasing to the next pace, pace 2 should have 2.9 for decreasing back to pace 1.-->
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="animation">
+  <animations>
+  
+  
+  
+  <!--GREETINGS POOR-->
+  <!--
+  dialog _ relation _ status _ gender _ type
+  
+  -->
+  
+  <animation id="dialog_friendly_poor_male_greeting_01" param1="0" duration="3.4" anim_data_name="anim_convo_greeting_surprise" source1="1120" source2="1220" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+  <animation id="dialog_friendly_poor_male_greeting_02" param1="0" duration="4" anim_data_name="anim_convo_greeting_surprise" source1="1230" source2="1350" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+
+  <animation id="dialog_friendly_poor_male_greeting_03" param1="0" duration="4.7" anim_data_name="anim_convo_greeting_surprise" source1="1360" source2="1500" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+	
+	
+	
+  <animation id="dialog_indifferent_poor_male_greeting_01" param1="0" duration="2.8" anim_data_name="anim_convo_greeting_surprise" source1="1850" source2="1935" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="3" right_hand_pose="3" continue_to_action="act_dialog_indifferent_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+	
+	
+	
+	<animation id="dialog_unfriendly_poor_male_greeting_01" param1="0" duration="2.4" anim_data_name="anim_convo_sad_indifferent" source1="8" source2="80" blend_in_period="0.8" blend_out_period="1" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+	<animation id="dialog_unfriendly_poor_male_greeting_02" param1="0" duration="1.8" anim_data_name="anim_convo_greeting_surprise" source1="2138" source2="2195" blend_in_period="0.8" blend_out_period="1" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+
+	<animation id="dialog_unfriendly_poor_male_greeting_03" param1="0" duration="3.6" anim_data_name="anim_convo_greeting_surprise" source1="1730" source2="1840" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+
+
+	
+
+	
+  <animation id="dialog_enemy_poor_male_greeting_02" param1="0" duration="3" anim_data_name="anim_convo_intimidate_happy" source1="190" source2="280" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="4" right_hand_pose="4" continue_to_action="act_dialog_enemy_poor_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+
+	
+	
+	
+  <!--GREETINGS RICH-->
+  
+  
+    <animation id="dialog_indifferent_rich_male_greeting_01" param1="0" duration="3.5" anim_data_name="anim_convo_greeting_surprise" source1="475" source2="610" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="3" right_hand_pose="3" continue_to_action="act_dialog_indifferent_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation> 
+  
+   <animation id="dialog_indifferent_rich_male_greeting_02" param1="0" duration="2.8" anim_data_name="anim_convo_greeting_surprise" source1="1850" source2="1935" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="3" right_hand_pose="3" continue_to_action="act_dialog_indifferent_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	 
+  
+  
+  <animation id="dialog_friendly_rich_male_greeting_01" param1="0" duration="4.2" anim_data_name="anim_convo_greeting_surprise" source1="760" source2="886" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+  <animation id="dialog_friendly_rich_male_greeting_02" param1="0" duration="6" anim_data_name="anim_convo_greeting_surprise" source1="920" source2="1100" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+
+  <animation id="dialog_friendly_rich_male_greeting_03" param1="0" duration="4.7" anim_data_name="anim_convo_greeting_surprise" source1="1360" source2="1500" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2" continue_to_action="act_dialog_friendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+	
+	
+	
+	
+  <animation id="dialog_unfriendly_rich_male_greeting_01" param1="0" duration="1.4" anim_data_name="anim_convo_happy_angry" source1="360" source2="400" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+       <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+  <animation id="dialog_unfriendly_rich_male_greeting_02" param1="0" duration="1.9" anim_data_name="anim_convo_happy_angry" source1="290" source2="347" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+     
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+	
+  <animation id="dialog_unfriendly_rich_male_greeting_03" param1="0" duration="2" anim_data_name="anim_convo_greeting_surprise" source1="2407" source2="2468" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+     
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+  <animation id="dialog_unfriendly_rich_male_greeting_04" param1="0" duration="1" anim_data_name="anim_convo_greeting_surprise" source1="2108" source2="2430" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_unfriendly_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+     
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>		
+	
+	
+
+	<animation id="dialog_enemy_rich_male_greeting_01" param1="0" duration="1.8" anim_data_name="anim_convo_greeting_surprise" source1="2138" source2="2195" blend_in_period="0.8" blend_out_period="1" left_hand_pose="1" right_hand_pose="2" continue_to_action="act_dialog_enemy_rich_male_idle">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+
+
+	
+	
+	
+  <!--MALE POOR IDLES-->
+
+  
+  
+ <!--MALE POOR IDLES	
+  <animation id="dialog_indifferent_poor_male_idle_02" param1="0" duration="4.8" anim_data_name="anim_convo_intimidate_happy" source1="1570" source2="1714" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	-->
+  
+  <animation id="dialog_indifferent_poor_male_idle" param1="0" duration="10" anim_data_name="anim_convo_intimidate_happy" source1="937" source2="1121" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+
+  <animation id="dialog_sad_poor_male_idle" param1="0" duration="27.8" anim_data_name="anim_convo_sad_indifferent" source1="1056" source2="1891" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+  <animation id="dialog_unfriendly_poor_male_idle" param1="0" duration="10" anim_data_name="anim_convo_sad_indifferent" source1="480" source2="800" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+  <animation id="dialog_enemy_poor_male_idle" param1="0" duration="4" anim_data_name="anim_convo_intimidate_happy" source1="10" source2="100" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="4" right_hand_pose="4">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>		
+	
+  <animation id="dialog_friendly_poor_male_idle" param1="0" duration="6" anim_data_name="anim_convo_greeting_surprise" source1="2200" source2="2248" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+		
+	
+	
+	
+	<!--MALE RICH IDLES-->	
+	
+	
+	<!--
+	
+  <animation id="dialog_indifferent_rich_male_idle" param1="0" duration="4.8" anim_data_name="anim_convo_intimidate_happy" source1="1570" source2="1714" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	-->		
+	
+ <animation id="dialog_indifferent_rich_male_idle" param1="0" duration="6" anim_data_name="anim_convo_greeting_surprise" source1="2250" source2="2299" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="3" right_hand_pose="3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+	
+	<animation id="dialog_sad_rich_male_idle" param1="0" duration="24.5" anim_data_name="anim_convo_sad_fiest" source1="1" source2="732" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>	
+	
+  <animation id="dialog_enemy_rich_male_idle" param1="0" duration="10" anim_data_name="anim_convo_intimidate_happy" source1="937" source2="1121" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+  <animation id="dialog_unfriendly_rich_male_idle" param1="0" duration="7" anim_data_name="anim_convo_happy_angry" source1="407" source2="530" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>		
+	
+  <animation id="dialog_friendly_rich_male_idle" param1="0" duration="4.8" anim_data_name="anim_convo_intimidate_happy" source1="1570" source2="1714" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>		
+
+		
+	
+	
+  <!--MALE POOR FRIENDLY REACTIONS-->
+  
+  
+  
+  
+    <animation id="dialog_friendly_poor_male_responce_01" param1="0" duration="3.6" anim_data_name="anim_convo_intimidate_happy" source1="1737" source2="1845" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+    <animation id="dialog_friendly_poor_male_responce_02" param1="0" duration="2.6" anim_data_name="anim_convo_intimidate_happy" source1="2310" source2="2385" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+
+    <animation id="dialog_friendly_poor_male_responce_03" param1="0" duration="4" anim_data_name="anim_convo_intimidate_happy" source1="2080" source2="2200" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+	
+    <animation id="dialog_friendly_poor_male_responce_04" param1="0" duration="6" anim_data_name="anim_convo_intimidate_happy" source1="1871" source2="2050" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>		
+
+  <!--MALE POOR UNFRIENDLY REACTIONS-->
+  
+    <animation id="dialog_unfriendly_poor_male_responce_01" param1="0" duration="3.2" anim_data_name="anim_convo_intimidate_happy" source1="1456" source2="1551" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+
+    <animation id="dialog_unfriendly_poor_male_responce_02" param1="0" duration="5.2" anim_data_name="anim_convo_intimidate_happy" source1="1284" source2="1442" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+
+    <animation id="dialog_unfriendly_poor_male_responce_03" param1="0" duration="4.3" anim_data_name="anim_convo_intimidate_happy" source1="1136" source2="1265" blend_in_period="0.8" blend_out_period="0.8" left_hand_pose="2" right_hand_pose="2">
+      <flags>
+        <flag name="priority" value="12" />
+        <flag name="allow_head_movement" />
+        <flag name="ignore_all_collisions" />
+      </flags>
+    </animation>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </animations>
+</base>

@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--dvec="x, y, z"-->
+<!--for horse movements, dvec x is speed of forward walk, y is pace limit for reducing it, z is pace limit for increasing it.-->
+<!--leave around a speed of 0.1 between pace limits, such as if pace 1 has 3.0 for increasing to the next pace, pace 2 should have 2.9 for decreasing back to pace 1.-->
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="animation">
+  <animations>
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ MAIN MAP ATTACK ANIMATIONS - BEGIN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓/-->
+    <animation id="map_attack_unarmed" param1="0.5" duration="3.5" anim_data_name="anim_mainmap_attack_fist" source1="1" source2="105" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_attack_unarmed_without_banner" param1="0.5" duration="6" anim_data_name="anim_mainmap_attack_fist_without_banner" source1="1" source2="184" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_attack_1h" param1="0.5" duration="6.6" anim_data_name="anim_mainmap_attack_1h" source1="1" source2="201" blend_in_period="0.3">
+      <flags>
+        <!--<flag name="client_prediction" />
+				<flag name="cyclic" />-->
+        <flag name="cyclic" />
+        <!--<flag name="enforce_lowerbody" />-->
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_attack_1h_without_banner" param1="0.5" duration="6.6" anim_data_name="anim_mainmap_attack_1h_without_banner" source1="1" source2="201" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_attack_2h" param1="0.5" duration="4.2" anim_data_name="anim_mainmap_attack_2h" source1="1" source2="126" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_attack_1h_spear" param1="0.5" duration="6" anim_data_name="anim_mainmap_attack_spear" source1="1" source2="188" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <!--<animation id="map_attack_2h_spear" param1="0.5" duration="6" anim_data_name="anim_mainmap_attack_spear" source1="1" source2="188" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>-->
+    <animation id="map_attack_2h_spear_without_banner" param1="0.5" duration="6" anim_data_name="anim_mainmap_attack_spear_without_banner" source1="1" source2="188" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_raid_without_banner" param1="0.5" duration="3" anim_data_name="anim_mainmap_raid_without_banner" source1="1" source2="88" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <animation id="map_raid" param1="0.5" duration="3" anim_data_name="anim_mainmap_raid" source1="1" source2="88" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="40" />
+      </flags>
+    </animation>
+    <!--Commented out because animation not used
+	<animation id="mainmap_ambush" param1="0.5" duration="5.3" anim_data_name="anim_mainmap_ambush" source1="1" source2="157" blend_in_period="0.3">
+	<flags>
+    <flag name="cyclic" />
+    <flag name="priority" value="2" />
+	</flags>
+	</animation>-->
+    <!--Commented out because animation not used
+	<animation id="mainmap_defend_2h" param1="0.5" duration="6" anim_data_name="anim_mainmap_defend_2h" source1="1" source2="181" blend_in_period="0.3">
+	<flags>
+    <flag name="cyclic" />
+    <flag name="priority" value="2" />
+	</flags>
+	</animation>-->
+    <animation id="map_rider_walk_with_banner" param1="0" duration="1" anim_data_name="anim_rider_walk_withbanner" source1="1" source2="31" blend_in_period="0.3" blend_out_period="0.3" />
+    <animation id="map_rider_trot_with_banner" param1="0" duration="0.63" anim_data_name="anim_rider_trot_withbanner" source1="1" source2="20" blend_in_period="0.3" blend_out_period="0.3" />
+    <animation id="map_rider_canter_with_banner" param1="0" duration="0.6" anim_data_name="anim_rider_canter_withbanner" source1="1" source2="18" blend_in_period="0.3" blend_out_period="0.3" />
+    <animation id="map_rider_gallop_with_banner" param1="0" duration="0.53" anim_data_name="anim_rider_gallop_withbanner" source1="1" source2="17" blend_in_period="0.3" blend_out_period="0.3" />
+    <animation id="map_rider_horse_attack_unarmed" param1="0.5" duration="3.6" anim_data_name="anim_mainmap_rider_fist_attack" source1="1" source2="110" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_unarmed_without_banner" param1="0.5" duration="6" anim_data_name="anim_mainmap_rider_fist_attack_without_banner" source1="1" source2="184" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_horse_attack_unarmed" param1="0.5" duration="3.6" anim_data_name="anim_mainmap_mounted_fist_attack" source1="1" source2="110" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h" param1="0.5" duration="2.4" anim_data_name="anim_mainmap_rider_swordattack" source1="1" source2="70" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h_without_banner" param1="0.5" duration="2.4" anim_data_name="anim_mainmap_rider_swordattack_without_banner" source1="1" source2="70" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_horse_attack_1h" param1="0.5" duration="2.4" anim_data_name="anim_mainmap_mounted_swordattack" source1="1" source2="70" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h_spear" param1="0.5" duration="3.6" anim_data_name="anim_mainmap_rider_spearattack" source1="1" source2="109" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h_spear_without_banner" param1="0.5" duration="3.6" anim_data_name="anim_mainmap_rider_spearattack_without_banner" source1="1" source2="109" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_horse_attack_spear" param1="0.5" duration="3.6" anim_data_name="anim_mainmap_mounted_spearattack" source1="1" source2="109" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_mount_attack_swing" param1="0.5" duration="3.3" anim_data_name="anim_map_mount_attack_swing" source1="1" source2="100" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h_swing_without_banner" param1="0.5" duration="3.3" anim_data_name="anim_mainmap_raider_glaveattack_withoutbanner" source1="1" source2="100" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_1h_swing" param1="0.5" duration="2.4" anim_data_name="anim_mainmap_rider_swordattack_without_banner" source1="1" source2="70" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_horse_attack_2h_swing_without_banner" param1="0.5" duration="3.3" anim_data_name="anim_mainmap_raider_attack_2h_swing_without_banner" source1="1" source2="100" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h" param1="0.5" duration="2.0" anim_data_name="camel_rider_attack1h_mainmap" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_camel_attack_1h" param1="0.5" duration="2.0" anim_data_name="camel_attack1h_mainmap" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h_without_banner" param1="0.5" duration="2.0" anim_data_name="camel_rider_attack1h_mainmap_without_flag" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_2h_swing_without_banner" param1="0.5" duration="2.0" anim_data_name="map_rider_camel_attack_2h_without_banner" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h_swing" param1="0.5" duration="2.0" anim_data_name="map_rider_camel_attack_glave" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h_swing_without_banner" param1="0.5" duration="2.0" anim_data_name="map_rider_camel_attack_glave_without_flag" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_camel_attack_swing" param1="0.5" duration="2.0" anim_data_name="camel_attack1h_mainmap" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_unarmed" param1="0.5" duration="2.0" anim_data_name="camel_rider_attack_unarmed_mainmap" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_camel_attack_unarmed" param1="0.5" duration="2.0" anim_data_name="camel_attack_unarmed_mainmap" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_unarmed_without_banner" param1="0.5" duration="2.0" anim_data_name="camel_rider_attack_unarmed_mainmap_without_flag" source1="1" source2="60" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h_spear" param1="0.5" duration="1.7" anim_data_name="camel_rider_attack_spear_mainmap" source1="1" source2="53" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_camel_attack_spear" param1="0.5" duration="1.7" anim_data_name="camel_attack_spear_mainmap" source1="1" source2="53" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="map_rider_camel_attack_1h_spear_without_banner" param1="0.5" duration="1.7" anim_data_name="camel_rider_attack_spear_mainmap_without_flag" source1="1" source2="53" blend_in_period="0.3">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="50" />
+      </flags>
+    </animation>
+    <animation id="sheep_farm_animation" param1="0.5" duration="5" anim_data_name="anim_sheep_farm_mainmap" source1="02" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_farm_sheep_a" param1="0.5" duration="5" anim_data_name="sheep_farm_sheep_a" source1="02" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_farm_sheep_b" param1="0.5" duration="5" anim_data_name="sheep_farm_sheep_b" source1="02" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="sheep_farm_sheep_c" param1="0.5" duration="5" anim_data_name="sheep_farm_sheep_c" source1="02" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="horse_ranch_animation" param1="0.5" duration="5" anim_data_name="anim_horse_ranch_export" source1="0" source2="150">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="horse_ranch_horse_a_anim" param1="0.5" duration="5" anim_data_name="horse_ranch_horse_a" source1="0" source2="150">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="horse_ranch_horse_b_anim" param1="0.5" duration="5" anim_data_name="horse_ranch_horse_b" source1="0" source2="150">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="horse_ranch_horse_c_anim" param1="0.5" duration="5" anim_data_name="horse_ranch_horse_c" source1="0" source2="150">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="europe_horse_ranch_animation" param1="0.5" duration="5" anim_data_name="anim_europe_horse_ranch_export" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="steppe_horse_ranch_animation" param1="0.5" duration="5" anim_data_name="anim_steppe_horse_ranch_export" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="desert_horse_ranch_animation" param1="0.5" duration="5" anim_data_name="anim_desert_horse_ranch_export" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cattle_farm_animation" param1="0.5" duration="5" anim_data_name="anim_cattle_farm_export" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cattle_farm_cow_anim_01" param1="0.5" duration="5" anim_data_name="cattle_farm_cow_01" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cattle_farm_cow_anim_02" param1="0.5" duration="5" anim_data_name="cattle_farm_cow_02" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="cattle_farm_cow_anim_03" param1="0.5" duration="5" anim_data_name="cattle_farm_cow_03" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="fisherman_animation" param1="0.5" duration="6.7" anim_data_name="anim_fisherman_export_1" source1="0" source2="200">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="fisherman_seagulls" param1="0.5" duration="6.7" anim_data_name="fisherman_mainmap_seagulls_anim" source1="0" source2="200">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="fisherman_boat_a" param1="0.5" duration="6.7" anim_data_name="fisherman_mainmap_boat_a_anim" source1="0" source2="200">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="fisherman_boat_b" param1="0.5" duration="6.7" anim_data_name="fisherman_mainmap_boat_b_anim" source1="0" source2="200">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="wheat_farm_animation" param1="0.5" duration="5.5" anim_data_name="anim_wheat_farm_mainmap" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="wheat_farm_wheat_animated" param1="0.5" duration="5.5" anim_data_name="wheat_farm_wheat_animated" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="wheat_farm_villager_animated" param1="0.5" duration="5.5" anim_data_name="wheat_farm_villager_animated" source1="0" source2="150">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="lumberjack_animation" param1="0.5" duration="5.5" anim_data_name="anim_lumberjack_mainmap" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="anim_aserai_lumberjack_mainmap_animation" param1="0.5" duration="5.5" anim_data_name="anim_aserai_lumberjack_mainmap" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="aserai_lumberjack_mainmap_icon" param1="0.5" duration="5.5" anim_data_name="aserai_lumberjack_animated" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="iron_mine_animation" param1="0.5" duration="5.5" anim_data_name="anim_iron_mine_mainmap" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="iron_mine_pulley" param1="0.5" duration="5.5" anim_data_name="iron_mine_pulley_mainmap" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="map_icon_siege_camp_3_animation" param1="0.5" duration="4.5" anim_data_name="anim_siege_camp_mainmap" source1="1" source2="130">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="clay_mine_animation" param1="0.5" duration="5.5" anim_data_name="anim_clay_mine_mainmap" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="clay_mine_animation_mainmap_icon" param1="0.5" duration="5.5" anim_data_name="clay_mine_mainmap_animated" source1="1" source2="166">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="map_icon_hammer_construction" param1="0.5" duration="1.1" anim_data_name="map_icon_hammer_construction" source1="1" source2="33">
+      <flags>
+        <flag name="cyclic" />
+      </flags>
+    </animation>
+    <animation id="mainmap_run_with_banner" param1="0.4" duration="0.8" anim_data_name="anim_run_forward_mainmap" source1="1" source2="25" blend_in_period="0.4" step_points="0.4, 0.8980392, -1.0, -1.0">
+      <flags>
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="bipedal_movement_and_ik_data" loop_displacement="3.0" snapping_duration_right="0.19" snapping_duration_left="0.17" snapping_period_right="0.1" snapping_period_left="0.63" adjusting_period_right="0.74" adjusting_period_left="0.24" />
+    </animation>
+    <animation id="stand_mainmap" param1="0" duration="6.1" anim_data_name="anim_stand_mainmap" source1="1" source2="155" blend_in_period="0.5" left_hand_pose="0" right_hand_pose="0" facial_anim_id="idle_normal">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="allow_head_movement" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+    <animation id="camel_rider_stand_mainmap" param1="0" duration="26.0" anim_data_name="camel_rider_idle_mainmap" source1="1" source2="800" blend_in_period="0.4" blend_out_period="0.0" facial_anim_id="idle_normal">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+        <flag name="synch_with_horse" />
+        <flag name="allow_head_movement" />
+      </flags>
+    </animation>
+    <animation id="camel_stand_mainmap" param1="0" duration="26.0" anim_data_name="camel_idle" source1="1" source2="800" blend_in_period="0.8" blend_out_period="0.0">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="enforce_lowerbody" />
+      </flags>
+    </animation>
+    <animation id="camel_rider_walk_forward_mainmap" duration="1.15" anim_data_name="camel_rider_walk_forward_mainmap" source1="1" source2="45" step_points="0.05098039, 0.3019608, 0.5529412, 0.8039216">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+        <flag name="allow_head_movement" />
+        <flag name="synch_with_movement" />
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="1.8" pace_switch_limit_min="0.1" pace_switch_limit_max="2.0" />
+    </animation>
+    <animation id="camel_rider_canter_mainmap" duration="0.5" anim_data_name="camel_rider_canter_mainmap" source1="1" source2="18" step_points="0.05098039, 0.3019608, 0.5529412, 0.8039216">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+        <flag name="allow_head_movement" />
+        <flag name="synch_with_movement" />
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="3.6" pace_switch_limit_min="4.8" pace_switch_limit_max="7.2" />
+    </animation>
+    <animation id="camel_rider_trot_mainmap" duration="0.6" anim_data_name="camel_rider_trot_mainmap" source1="1" source2="16" step_points="0.05098039, 0.3019608, 0.5529412, 0.8039216">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+        <flag name="allow_head_movement" />
+        <flag name="synch_with_movement" />
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="3.2" pace_switch_limit_min="1.9" pace_switch_limit_max="4.9" />
+    </animation>
+    <animation id="camel_gallop_mainmap" duration="0.5" anim_data_name="camel_gallop" source1="1" source2="14" step_points="0.0, -1, -1, -1">
+      <flags>
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="4.21" pace_switch_limit_min="7.1" pace_switch_limit_max="8.8" />
+    </animation>
+    <animation id="camel_rider_gallop_mainmap" duration="0.5" anim_data_name="camel_rider_gallop_mainmap" source1="1" source2="14" step_points="0.05098039, 0.3019608, 0.5529412, 0.8039216">
+      <flags>
+        <flag name="client_prediction" />
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+        <flag name="allow_head_movement" />
+        <flag name="synch_with_movement" />
+        <flag name="make_walk_sound" />
+      </flags>
+      <clip_usage_data type="quadrupedal_movement_data" loop_displacement="4.21" pace_switch_limit_min="7.1" pace_switch_limit_max="8.8" />
+    </animation>
+  </animations>
+</base>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="animation">
+  <animations>
+    <animation id="anim_stand_1_UNUSED" flags="0x280040000" dvec="0.000000, 0.000000, 0.000000" param1="0.25" duration="3" anim_data_name="anim_human" source1="50" source2="52" blend_in_period="3" />
+    <animation id="anim_stand_2" flags="0x280040000" dvec="0.000000, 0.000000, 0.000000" param1="0.75" duration="3" anim_data_name="anim_human" source1="60" source2="62" blend_in_period="3" />
+    <animation id="anim_stand_3" flags="0x280040000" dvec="0.000000, 0.000000, 0.000000" param1="0.25" duration="3" anim_data_name="anim_human" source1="70" source2="72" blend_in_period="3" />
+    <animation id="anim_stand_4" flags="0x290040000" dvec="0.000000, 0.000000, 0.000000" param1="0.5" duration="3" anim_data_name="anim_human" source1="80" source2="82" blend_in_period="3" />
+	<animation id="anim_stand_man" flags="0x280040000" dvec="0.000000, 0.000000, 0.000000" param1="0.25" duration="11" anim_data_name="stand_man" source1="0" source2="315" blend_in_period="3" />	
+	<animation id="anim_walk_forward" flags="0x4000184044000" dvec="0.000000, 0.000000, 0.000000" param1="0" duration="1" anim_data_name="man_walk" source1="0" source2="32" blend_in_period="3" />		
+  </animations>
+</base>
