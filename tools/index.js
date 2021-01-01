@@ -1,31 +1,13 @@
-const fs = require('fs');
-const path = require('path');
-const convert = require('xml-js');
-const cloneDeep = require('lodash.clonedeep');
+import fs from 'fs';
+import path from 'path';
+import convert from 'xml-js';
+import cloneDeep from 'lodash.clonedeep';
 
-const DIRECTORIES = {
-    ARTESS999: '../Modules/Languages/RussianByArtess999/ModuleData/Languages/',
-    DOG729: '../Modules/Languages/Russian/ModuleData/Languages/',
-    COMMANDO: '../Modules/Languages/RussianByCommando.com.ua/ModuleData/Languages/',
-    EN: '../Obects/Languages/en/ModuleData/Languages/',
-}
+import { DIRECTORIES, folders, convertToJsOptions, convertToXmlOptions } from "./constants";
 
 const TRANSLATION_PATH = path.resolve(__dirname, DIRECTORIES.ARTESS999);
 const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.EN);
 const RESULTS_PATH = path.resolve(__dirname, './results');
-
-const convertToJsOptions = {
-    compact: false,
-    alwaysArray: true,
-    attributeValueFn: (value) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '&#10;'),
-}
-
-const convertToXmlOptions = {
-    compact: false,
-    spaces: 2,
-}
-
-const folders = ['Native', 'SandBox', 'SandBoxCore', 'StoryMode'];
 
 folders.forEach((folder) => {
     const resultsPath = path.resolve(RESULTS_PATH);

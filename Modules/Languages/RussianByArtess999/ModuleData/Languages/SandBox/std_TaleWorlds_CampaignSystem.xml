@@ -802,7 +802,7 @@
     <string id="eJuvk4om" text="Мудрое решение.[ib:closed][rb:positive]"/>
     <string id="EkkNQb5N" text="Мне нравится воин, который вселяет страх в сердца своих врагов. Вы такой человек?"/>
     <string id="elJCacQO" text="Я работаю над этим."/>
-    <string id="emH1yQAs" text="Вы можете дать несколько хороших уроков начинающим бойцам, но не более того.&#10;(+3 XP ежедневный бонус для войск ранга 1-2)"/>
+    <string id="emH1yQAs" text="Вы можете дать несколько хороших уроков начинающим бойцам, но не более того.&#10;(+30 XP ежедневный бонус для войск ранга 1-2-3)"/>
     <string id="emLBsWj6" text="Мне очень жаль. Свадьба между нами практически невозможна."/>
     <string id="EMVLtu5L" text="{HERO.LINK} повышает навык {SKILL_NAME} на {?PLURAL}{GAINED_POINTS} очков{?}1 очко{\?} и сейчас он равен {UPDATED_SKILL_LEVEL}"/>
     <string id="EmXai6dm" text="обесценивание валюты"/>
@@ -1303,7 +1303,7 @@
     <string id="lGUmdW9n" text="Да будет так. Я испытаю твою отвагу!"/>
     <string id="lHaaE9pO" text="{ROMANCE_PERSUADE_ATTEMPT_3}"/>
     <string id="lhnuawq3" text="Вы знаете, что в политике клятвы даются так же легко, как и нарушаются."/>
-    <string id="LIjN3rYD" text="Кланы 5 ранга (и выше) получают 1 единицу влияния ежедневно, а лимит размера их отрядов увеличивается на 40."/>
+    <string id="LIjN3rYD" text="Кланы 5 ранга (и выше) теряют 1 единицу влияния ежедневно, а лимит размера их отрядов увеличивается на 40."/>
     <string id="Lj5Lghww" text="Что? Нет..."/>
     <string id="LjiYq9cH" text="Мне жаль. Я не смогу полюбить тебя."/>
     <string id="LjUhEJxz" text="Караван {OWNER}"/>
@@ -1638,7 +1638,7 @@
     <string id="qasqX0rn" text="У этого спутника недостаточный уровень навыка для этого задания."/>
     <string id="qaZDUknZ" text="Лидер"/>
     <string id="QazTA60M" text="Распоряжаться гарнизоном"/>
-    <string id="Qb7N6txQ" text="{BRIBE_COST} динар будет достаточно..."/>
+    <string id="Qb7N6txQ" text="Хм. За {BRIBE_COST}{GOLD_ICON} динар меня можно убедить, что это просто безобидный кусок металла..."/>
     <string id="QBeL819N" text="союзники"/>
     <string id="QbKbGu2h" text="Фермы овец"/>
     <string id="qBKmIyYx" text="Сильные руки"/>
@@ -1910,7 +1910,7 @@
     <string id="TrQzYwVD" text="Да, {?PLAYER.GENDER}миледи{?}милорд{\?} после нашего последнего разговора я переосмыслил своё понимание дальнего боя. Теперь я лучше понимаю, как дышать, оценивать расстояние до цели и выслеживать её."/>
     <string id="Ts5dZih4" text="Вы не можете передать весь {REQUESTED_GOOD} {?QUEST_GIVER.GENDER}ей{?}ему{\?} за раз."/>
     <string id="TsbjAsxs" text="Ваша жена {MOTHER.NAME} родила на свет {DELIVERED_CHILDREN}."/>
-    <string id="TsvBHBdX" text="Кланы с рангом 3+ получают 0.5 единицу влияния в день, influence cost of inviting lower tier clans to army are increased by 10%"/>
+    <string id="TsvBHBdX" text="Кланы с рангом 3+ получают 0.5 единиц влияния в день, influence cost of inviting lower tier clans to army are increased by 10%"/>
     <string id="TtGJqRI5" text="Отправить солдат на штурм"/>
     <string id="tTM6nPul" text="Чем я могу вам помочь, {?ISSUE_OWNER.GENDER}миледи{?}милорд{\?}?"/>
     <string id="ttpan5jp" text="{CURRENT_LIEGE.LINK} и я через многое прошли вместе."/>
@@ -2324,7 +2324,7 @@
     <string id="Zb3EdxDT" text="Такого лорда трудно найти."/>
     <string id="zBfB5vw8" text="Надеюсь, вы не против, чтобы я это сказал, но... Ваши люди проливали за вас кровь, и свою и чужую. Мне неприятно слышать, что их жалованье задерживается."/>
     <string id="ZbvbsA4i" text="Я могу только надеяться, что если они узнают мои достоинства, они примут меня."/>
-    <string id="ZCLVOXgM" text="Сады и огороды за стенами города или замка обеспечивают еду до тех пор, пока он не попадёт в осаду"/>
+    <string id="ZCLVOXgM" text="Сады и огороды за стенами города или замка обеспечивают еду до тех пор, пока он не попадёт в осаду."/>
     <string id="zCQaPTOK" text="Наёмник"/>
     <string id="zeKvSEpN" text="Продолжить осаду"/>
     <string id="zEoHYEUS" text="Подождите здесь некоторое время"/>
