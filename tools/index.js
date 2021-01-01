@@ -1,9 +1,13 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import convert from 'xml-js';
 import cloneDeep from 'lodash.clonedeep';
 
-import { DIRECTORIES, folders, convertToJsOptions, convertToXmlOptions } from "./constants";
+import { DIRECTORIES, folders, convertToJsOptions, convertToXmlOptions } from "./constants.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const TRANSLATION_PATH = path.resolve(__dirname, DIRECTORIES.ARTESS999);
 const SOURCE_PATH = path.resolve(__dirname, DIRECTORIES.EN);
