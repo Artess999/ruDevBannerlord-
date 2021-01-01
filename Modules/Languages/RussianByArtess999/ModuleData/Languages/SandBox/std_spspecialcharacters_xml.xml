@@ -25,7 +25,7 @@
     <string id="azCSz9QH" text="из Скрытой Длани"/>
     <string id="bgH96Pqw" text="{FIRSTNAME} винодел"/>
     <string id="bpw8fOs5" text="из рода Карахергитов"/>
-    <string id="bvjFhiDr" text="{HERO.FIRSTNAME} Эрудит"/>
+    <string id="bvjFhiDr" text="{HERO.FIRSTNAME} Ученый"/>
     <string id="C1CM5ejx" text="Торговец вином {FIRSTNAME}"/>
     <string id="c5Kjcxsa" text="{HERO.FIRSTNAME} Странница"/>
     <string id="CePmep0z" text="Браконьер"/>
@@ -89,7 +89,7 @@
     <string id="sk64gxdw" text="Достойный соперник"/>
     <string id="t9e34kgH" text="{HERO.FIRSTNAME} Разбойник"/>
     <string id="TXUOeT7L" text="{FIRSTNAME} Чеканщик"/>
-    <string id="TyxXbqVw" text="Сокол"/>
+    <string id="TyxXbqVw" text="{HERO.FIRSTNAME} Сокол"/>
     <string id="VKhh9i1l" text="из Лэйкпайка"/>
     <string id="vmwCdada" text="Джихан"/>
     <string id="vtXRptVa" text="{HERO.FIRSTNAME} Золотой"/>

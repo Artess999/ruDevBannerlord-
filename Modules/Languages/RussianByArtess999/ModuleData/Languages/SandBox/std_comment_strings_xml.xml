@@ -165,7 +165,7 @@
     <string id="qSF2z6Wa" text="Я не {?NPC.GENDER}слышала{?}слышал{\?} о вас. Но вы производите впечатление человека, который сможет многого добиться самостоятельно."/>
     <string id="qvwfev22" text="Вы загнаны в угол. Сдавайтесь или умрёте.[ib:warrior][if:idle_angry]"/>
     <string id="R6sTYEaz" text="Вы не сможете уболтать меня и спастись."/>
-    <string id="RajD4RC1" text="Я никогда о вас не {?NPC.GENDER}слышала{?}слышал{\?}."/>
+    <string id="RajD4RC1" text="Никогда о вас не {?NPC.GENDER}слышала{?}слышал{\?}."/>
     <string id="rCNUXFTN" text="Я сдаюсь! Поздравляем с победой.[rf:angry][rb:trivial]"/>
     <string id="reg1AUxr" text="Мой ребёнок"/>
     <string id="rhTUDKhJ" text="Я {CONVERSATION_CHARACTER.LINK}, из клана {CLAN_NAME}. За нашим столом сидят представители каждого знатного рода Баттании, их чемпионы, правда, в виде пивных кружек из их черепушек."/>
