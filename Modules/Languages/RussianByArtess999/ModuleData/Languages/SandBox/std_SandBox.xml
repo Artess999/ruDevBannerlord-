@@ -1288,7 +1288,7 @@
     <string id="Mr2rt8g8" text="Prodigal son of {CLAN_NAME}"/>
     <string id="MTxuTZDA" text="I'll be here, your {?PLAYER.GENDER}ladyship{?}lordship{\?}.[rb:positive]"/>
     <string id="NVvfxdIc" text="You best talk to the boss."/>
-    <string id="nZhPS83J" text="You lost your horse and its harness."/>
+    <string id="nZhPS83J" text="You lost your horse."/>
     <string id="O15PyNUK" text="With the help of your scouting skill, you were able to trace their tracks."/>
     <string id="O2GBEzci" text="Do you have any idea about how stupid it is to kidnap a nobleman's son?"/>
     <string id="OybG76Kf" text="Thank you for saving me, sir. I won't forget what you did here today."/>

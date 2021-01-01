@@ -682,7 +682,7 @@
     <string id="hqIIEur1" text="Вы повстречались с {ARMY}."/>
     <string id="hSsS5xAa" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}ожидают{?}ожидает{\?} прибытия других осадных орудий"/>
     <string id="HuCClZqT" text="Выплаты"/>
-    <string id="hVmamTJX" text="Повышайте боевой дух отряда за счет разнообразия продовольствия. Улучшайте поселения, стройте и улучшайте в них здания. Останавливайтесь на отдых в ваших поселениях."/>
+    <string id="hVmamTJX" text="Повышайте боевой дух отряда за счет разнообразия продовольствия. Улучшайте поселения, стройте и улучшайте в них здания."/>
     <string id="HWSKCne0" text="Ускоряет строительство на {BOOST} очков{newline}Затраты - {COST}&lt;img src=&quot;Icons\Coin@2x&quot;&gt;в день"/>
     <string id="Hx47TGrA" text="Тяжёлый"/>
     <string id="hYgmzZJX" text="Динары"/>
@@ -1492,7 +1492,7 @@
     <string id="YifFZaG7" text="Глава отряда"/>
     <string id="Yj0cQVLH" text="В атаку!"/>
     <string id="YJaNtktT" text="Завербовать всех"/>
-    <string id="yjXoftYs" text="Последний раз видели {?IS_TODAY}сегодня{?}{DAY_VALUE} назад{\?} {?IS_IN_SETTLEMENT}в{?}возле{\?} {SETTLEMENT}"/>
+    <string id="yjXoftYs" text="Последний раз видели {?IS_TODAY}сегодня{?}{DAY_VALUE} {?IS_MORE_THAN_ONE_DAY}суток {?}день {\?} назад{\?} {?IS_IN_SETTLEMENT}в{?}возле{\?} {SETTLEMENT}"/>
     <string id="YK3nXtoM" text="Друзья"/>
     <string id="YkagFP1z" text="моя мать {REFERING_HERO.LINK}"/>
     <string id="ykZLXKH3" text="Слава: {RENOWN}"/>
@@ -1660,10 +1660,10 @@
     <string id="IQ4bSdf5" text="Sister-in-law"/>
     <string id="owTlJjJc" text="Brother-in-law"/>
     <string id="pMb8Pe12" text="Daughter-in-law"/>
-    <string id="toK51MD4" text="Visit"/>
+    <string id="toK51MD4" text="Посетить"/>
     <string id="U7etPQA2" text="{HERO.FIRSTNAME} {JOB_NAME}"/>
     <string id="uhcIXeba" text="You are discarding items. Are you sure?"/>
-    <string id="Vqu67a3b" text="Raw Silk"/>
+    <string id="Vqu67a3b" text="Шелк-сырец"/>
     <string id="zE6OFPRu" text="Settlement Tax"/>
   </strings>
 </base>
