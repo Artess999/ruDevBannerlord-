@@ -881,7 +881,7 @@
     <string id="fjj0pJXV" text="Землевладельцы часто отстаивают свое законное право на общие зоны и могут взымать с деревень налог за аренду земли. Тем не менее, если простой люд хадатайствует правителю, землевладелец может предоставить землю для выпаса скота и охоты на безвозмездной основе."/>
     <string id="Fjnw9ooa" text="Указывает на члена банды, специализирующегося на вымогательстве"/>
     <string id="Fk03aAWk" text="{SIEGE_LEAVE_TEXT}"/>
-    <string id="FK3W0SKk" text="Вожак стаи"/>
+    <string id="FK3W0SKk" text="Безоговорочный лидер"/>
     <string id="fk4ewfQh" text="{QUEST_GIVER.LINK} из {SETTLEMENT}, {?ISSUE_GIVER.GENDER}рассказала{?}рассказал{\?} вам о том, что браконьеры бывшие ранее под {?ISSUE_GIVER.GENDER}её{?}его{\?} управлением, теперь вышли из под контроля. {?ISSUE_GIVER.GENDER}Она{?}Он{\?} просит вас около полуночи явиться в {VILLAGE} и убить всех браконьеров."/>
     <string id="fKbpY5vG" text="Вы решили издать указ, который запрещает фиксировать цены на рынках."/>
     <string id="fKnkkWH1" text="Вы принесли {REQUESTED_GOOD}? Мои запасы заканчиваются, и мне срочно нужно их пополнить."/>
@@ -2450,7 +2450,7 @@
     <string id="0Ep8B8be" text="In adolescence, your child began to take on serious responsibilities, and also compete with adults as a near-equal. {?CHILD.GENDER}She{?}He{\?} became to known as..."/>
     <string id="0ewaZnfe" text="Very good. Keep them coming."/>
     <string id="0g4R557I" text="Negotiation for safe passage barter is 50% cheaper."/>
-    <string id="0g7MZCAK" text="Workshop income"/>
+    <string id="0g7MZCAK" text="Доход мастерских"/>
     <string id="0gmShKuy" text="Even children have obligations to the family... Your child excelled at..."/>
     <string id="0iF5sNNZ" text="Increase your ranged damage while mounted by 10%."/>
     <string id="0iJYvgaN" text="A well-tempered bow"/>

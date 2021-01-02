@@ -4,6 +4,7 @@
     <tag language="Русский"/>
   </tags>
   <strings>
+    <!-- TODO проверить корректность перевода policy - предложение -->
     <string id="02c5bQSM" text="Выбросить"/>
     <string id="02E0oSJm" text="Чёрт! Ваш оппонент играет не по правилам. {?OPPONENT_GENDER}Он{?}Она{\?} подвергается дисквалификации!"/>
     <string id="03mPaWum" text="Королевство"/>
@@ -580,7 +581,7 @@
     <string id="Fp68NbYO" text="Королевства"/>
     <string id="fpdXZ0fl" text="Вербовка"/>
     <string id="FpI5JMZq" text="Сделка была отменена"/>
-    <string id="fpP2s7hX" text="+{BONUS_AMOUNT} к сельской продукции"/>
+    <string id="fpP2s7hX" text="+{BONUS_AMOUNT} бонус к росту деревни."/>
     <string id="fQAGU9GW" text="Характер:"/>
     <string id="FqwHAxuM" text="Древковое двур. оружие"/>
     <string id="frBQ9mbP" text="Южная Империя"/>
@@ -1077,7 +1078,7 @@
     <string id="pn9KNMxb" text="Вы попали во вражескую засаду, но ваши люди не в состоянии вести бой. Остаётся лишь одно - сложить оружие и молить о пощаде."/>
     <string id="PNZmPprx" text="Двуручный меч"/>
     <string id="pOCOS8um" text="Ребёнок"/>
-    <string id="porKAP64" text="Вновь внести это предложение на рассмотрение"/>
+    <string id="porKAP64" text="Рассмотрите возможность отмены этого предложения ({SUPPORT}%)"/>
     <string id="PpPbWYPB" text="Право на наёмничество"/>
     <string id="pPRYdrk7" text="Управление войском"/>
     <string id="pq48aN8d" text="Мораль:{reg1}"/>
@@ -1387,7 +1388,7 @@
     <string id="W1seGc3t" text="Натиск"/>
     <string id="W2WXkiAh" text="Посредник"/>
     <string id="w3v2S03V" text="Ваши отношения с {HERO_NAME} &lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;улучшились&lt;/b&gt;&lt;/a&gt;"/>
-    <string id="W4iKIM2s" text="Маленький Щит"/>
+    <string id="W4iKIM2s" text="Малый Щит"/>
     <string id="W5gPypVY" text="Используйте кузницу для создания снаряжения, обрабатывайте материалы и переплавляйте ненужное оружие."/>
     <string id="w758X31N" text="Предмет"/>
     <string id="w9C43LhX" text="Вы хотите принять решение по вопросу: {DECISION_NAME}?"/>

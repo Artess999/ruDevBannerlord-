@@ -49,9 +49,9 @@
     <string id="a241aacb1780599430c79fd9f667b67f" text="Боевой дух отряда: "/>
     <string id="a8nRxITn" text="Пленники {PARTY_NAME}"/>
     <string id="aadiCuDe" text="{COMPLETION_PERCENT} (Примерно {DAYS} дней до завершения)"/>
-    <string id="AcMayd1p" text="Бежит от {TARGET_PARTY}"/>
+    <string id="AcMayd1p" text="Бежит от {TARGET_PARTY}."/>
     <string id="aE4ZRbB6" text=" {HEALTH}%"/>
-    <string id="aFYwbosi" text="Этот герой уже возглавляет какой-либо отряд"/>
+    <string id="aFYwbosi" text="Этот герой уже возглавляет какой-либо отряд."/>
     <string id="aGFxIvqx" text="Оставить товарища(ей)"/>
     <string id="aRhQzJca" text="Наемники не могут создавать войско или управлять им."/>
     <string id="armorTier" text="Ранг брони: "/>
@@ -120,14 +120,14 @@
     <string id="hr4MuPnt" text="Необходимые материалы"/>
     <string id="hTzTMLsf" text="Дальность видимости"/>
     <string id="hylxyNtU" text="У вас нет нужного количества."/>
-    <string id="Hz8XO8wk" text="Губернаторы не могут одновременно возглавлять мобильный отряд и быть губернатором"/>
+    <string id="Hz8XO8wk" text="Губернаторы не могут одновременно возглавлять мобильный отряд и быть губернатором."/>
     <string id="IagYTD5O" text="Процветание"/>
     <string id="IcgVKFxZ" text="Правитель"/>
     <string id="idRXFzQ6" text="Уже добавлен в войско"/>
     <string id="IJdjwXvn" text="Текущий уровень: "/>
     <string id="Ioiqzz4E" text="Вы должны быть в войске чтобы повысить его сплоченность"/>
     <string id="ipLqVv1f" text="Вы не можете призвать правящий клан в своё войско"/>
-    <string id="it8oPzb1" text="CriminalRating"/>
+    <string id="it8oPzb1" text="Criminal Rating"/>
     <string id="iXXTONWb" text=" ({PARTY_SIZE})"/>
     <string id="iZ3w6opW" text="Сплоченность"/>
     <string id="j12VrGKz" text="Войско"/>
