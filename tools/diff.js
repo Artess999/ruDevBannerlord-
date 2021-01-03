@@ -56,6 +56,24 @@ folders.forEach((folder) => {
                         return false;
                     });
 
+                    const current = currentEnElements.filter(({name, attributes}) => {
+                        if (name === 'string') {
+                            const {id, text} = attributes;
+
+                            const isDiff = !!prevEnElements.find(({attributes}) => {
+                                if (attributes) {
+                                    const {id: prevEnId, text: prevText} = attributes;
+
+                                    return prevEnId === id && text !== prevText;
+                                }
+                            });
+
+                            return isDiff;
+                        }
+
+                        return false;
+                    });
+
                     if (!fs.existsSync(resultsPath)) {
                         fs.mkdirSync(resultsPath);
                     }
@@ -77,6 +95,17 @@ folders.forEach((folder) => {
                         const diffXml = convert.js2xml(diffJs, convertToXmlOptions);
 
                         fs.writeFile(path.resolve(resultsFolderPath, file), diffXml, function (err, data) {
+                            if (err) {
+                                return console.log(err);
+                            }
+                        });
+
+                        const currentJs = cloneDeep(currentEnJs);
+                        currentJs.elements[0].elements[1].elements = current;
+
+                        const currentXml = convert.js2xml(currentJs, convertToXmlOptions);
+
+                        fs.writeFile(path.resolve(resultsFolderPath, `current_${file}`), currentXml, function (err, data) {
                             if (err) {
                                 return console.log(err);
                             }
