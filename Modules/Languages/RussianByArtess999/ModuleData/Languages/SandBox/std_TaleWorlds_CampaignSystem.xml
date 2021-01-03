@@ -290,7 +290,7 @@
     <string id="7DCzgGNP" text="{ARMY} было расформировано, так как новый лидер не может быть выбран"/>
     <string id="7EP0NgzU" text="Дворяне самого высокого ранга имеют право собирать большие по размеру войска."/>
     <string id="7fr8QDYi" text="{QUEST_GIVER.LINK} посылает {?QUEST_GIVER.GENDER}ей{?}ему{\?} поклон за хорошо проделанную работу и {REWARD}{GOLD_ICON} {?QUEST_GIVER.GENDER}которые она обещала{?}которые он обещал{\?} ."/>
-    <string id="7H4HQNvF" text="Некоторым семьям в этой деревне нужно заработать немного денег. Они собрали стадо из {ANIMAL_COUNT_TO_DELIVER} {HERD_TYPE_TO_DELIVER}, и хотели бы перегнать их в {TARGET_SETTLEMENT}, но со всеми этими бандитами на дорогах, они не могут вести стадо без защиты..."/>
+    <string id="7H4HQNvF" text="Некоторым семьям в этой деревне нужно заработать немного денег. Они собрали стадо для продажи из {ANIMAL_COUNT_TO_DELIVER} {HERD_TYPE_TO_DELIVER}, и хотели бы перегнать их в {TARGET_SETTLEMENT}, но со всеми этими бандитами на дорогах, они не могут вести стадо без защиты..."/>
     <string id="7h6cXdW7" text="Инженер"/>
     <string id="7J9KNFTz" text="Отдать войска в гарнизон"/>
     <string id="7j9uHxLM" text="Текущий эффект ранга"/>
@@ -971,7 +971,7 @@
     <string id="gqdsXVNi" text="{WEAPON} из {SETTLEMENT} попали в дальнобойные орудия {BESIEGER}!"/>
     <string id="gQK2IfoH" text="Каждое очко навыка после 250 увеличивает скорость атаки одноручным оружием на 0,2%"/>
     <string id="gS1noLvf" text="Я не знаю, считать ли это очаровательным или дерзким..."/>
-    <string id="GsIz1Ibk" text="У вас нет спутников с нужным навыком&#10;Требуется:&#10;{TRADE_SKILL} выше {REQUIRED_SKILL_LEVEL}"/>
+    <string id="GsIz1Ibk" text="У вас нет спутников с нужным навыком&#10;Требуется:&#10;{TRADE_SKILL} выше {REQUIRED_SKILL_LEVEL}."/>
     <string id="gsVtO9A7" text="Ополченец"/>
     <string id="Gtbfm10o" text="У вас есть достаточно мешков зерна, чтобы завершить задание. Вернитесь к {QUEST_SETTLEMENT}, чтобы передать их."/>
     <string id="GtIpsut6" text="Ты мне даже не нравишься. Ожидаешь, что я буду обсуждать что-то подобное?"/>
@@ -1597,7 +1597,7 @@
     <string id="Pp3koSqA" text="Серебра? Вина? Ну попробуй взять сам!"/>
     <string id="ppi6eVos" text="Как пожелаете."/>
     <string id="pqfz386V" text="Глава клана"/>
-    <string id="PQIYPCDn" text="Очень хорошо. Тогда я буду ждать новостей. Как только вы вернётесь, получите вознаграждение в размере {REWARD_GOLD} динар. Просто проследите, чтобы эти {BRIGAND_TYPE} отправились в мир иной. Просто напомню, их несколько отрядов ({TROOP_COUNT})."/>
+    <string id="PQIYPCDn" text="Очень хорошо. Тогда я буду ждать новостей. Как только вы вернётесь, получите вознаграждение в размере {REWARD_GOLD} динар. Просто проследите, чтобы эти {BRIGAND_TYPE} (также подходят грабители) отправились в мир иной. Необходимо их уничтожить в пределах одного дня конной езды. Напомню, их несколько отрядов ({TROOP_COUNT})."/>
     <string id="pQmUIjOQ" text="Что я вам говорил о налётах на деревни..."/>
     <string id="PQVZPO2a" text="Хорошо, {STR_SALUTATION}!"/>
     <string id="prcBBqMR" text="{HIDEOUT_DESCRIPTION} Вы видите, как вокруг движутся вооруженные люди. Когда вы прислушиваетесь, вы слышите обрывки разговоров о набегах, выкупах и лучших местах для засад на путешественников."/>
@@ -2484,7 +2484,7 @@
     <string id="1q2dxlol" text="You have failed to pay {TOTAL_DENAR}{GOLD_ICON} denars to {QUEST_GIVER.LINK}. {QUEST_GIVER_VILLAGE} and its locals are aware of your misdemeanor."/>
     <string id="1q3FKY1s" text="Have you made your trip yet? I presume you were able to make a sale?"/>
     <string id="1sbbbOyr" text="Excellent... The caravan will be leaving soon. I'm counting on you!"/>
-    <string id="1sbJQR4H" text="Looters"/>
+    <string id="1sbJQR4H" text="Мародеры"/>
     <string id="1TX57OIu" text="Decrease your party food consumption by 20%."/>
     <string id="1YxFYg3s" text="Energetic"/>
     <string id="1z3oRPQu" text="Mounted Patrols"/>
