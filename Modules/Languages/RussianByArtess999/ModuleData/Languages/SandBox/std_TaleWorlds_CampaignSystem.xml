@@ -241,7 +241,7 @@
     <string id="6bQIRaIl" text="Смотреть турнир"/>
     <string id="6bvJSIqh" text="Да, я помогу найти лорда, который примет их на службу."/>
     <string id="6d4ZTvGv" text="{LORD.NAME} - {TITLE} из {FACTION_NAME} и глава клана {CLAN_NAME}. {?LORD.GENDER}Она{?}Он{\?}{REPUTATION}"/>
-    <string id="6DQjKwt2" text="Влияние стоимости предложения об аннексии поселения снижена на 50% для клана правителя"/>
+    <string id="6DQjKwt2" text="Стоимость влияния предложения об аннексии поселения снижена на 50% для клана правителя"/>
     <string id="6ETg3maz" text="Любимый командир"/>
     <string id="6f9Hs5zp" text="{CLAN_NAME} закончил свою карьеру наёмника и стал вассалом в {NEW_FACTION_NAME}"/>
     <string id="6IKKFH3A" text="Вы получили послание и большой кошель серебра от {QUEST_GIVER.LINK}. Послание гласит: Стадо в безопасности. Спасибо вам за помощь! Пожалуйста, в качестве благодарности примите {REWARD}{GOLD_ICON}"/>
@@ -969,7 +969,7 @@
     <string id="gOsori1b" text="Ваши похитители больше не нуждаются в вас и не собираются вас убивать, поэтому они вас отпустили."/>
     <string id="gq8sgb2J" text="{TARGET_HERO.LINK} попал в плен к {OTHER_HERO.LINK}."/>
     <string id="gqdsXVNi" text="{WEAPON} из {SETTLEMENT} попали в дальнобойные орудия {BESIEGER}!"/>
-    <string id="gQK2IfoH" text="Каждое очко навыка после 250 увеличивает скорость атаки одноручным оружием на 0,2%"/>
+    <string id="gQK2IfoH" text="Каждое очко навыка после 250 увеличивает скорость атаки одноручным оружием на 0,2%."/>
     <string id="gS1noLvf" text="Я не знаю, считать ли это очаровательным или дерзким..."/>
     <string id="GsIz1Ibk" text="У вас нет спутников с нужным навыком&#10;Требуется:&#10;{TRADE_SKILL} выше {REQUIRED_SKILL_LEVEL}."/>
     <string id="gsVtO9A7" text="Ополченец"/>
@@ -1574,7 +1574,7 @@
     <string id="pF92DagG" text="Выгнать {CLAN_NAME} из {KINGDOM_NAME}"/>
     <string id="pf9jQ2aO" text="Ваши люди выполнили поручение и скоро вернутся"/>
     <string id="PfbT40mI" text="{ROBBERY_START_FIGHT}[if:idle_angry]"/>
-    <string id="PFNXodyo" text="Какой тип инструментов?"/>
+    <string id="PFNXodyo" text="Какого рода инструменты?"/>
     <string id="pfxG5Ubu" text="Ладно, успокойтесь. Забирайте наше оружие!"/>
     <string id="pFzj52dE" text="Вы проводите многие часы в тёмной камере. Неожиданно, один из ваших пленителей входит в вашу камеру с одним предложением; он отпустит вас взамен {MONEY_AMOUNT}{GOLD_ICON}. Вы решаете..."/>
     <string id="PG8anNca" text="Верность поселений увеличивается на 1 ежедневно&#10;Рекрутирование ополченцев возрастает на 1"/>
