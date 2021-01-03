@@ -273,7 +273,7 @@
     <string id="6XdHP9Pv" text="Нам не нужны проблемы."/>
     <string id="6XRt8101" text="{ARMY} было распущено, так как задача была выполнена."/>
     <string id="6XvszYj2" text="Вы привезли {REQUESTED_AMOUNT} {REQUESTED_GOOD} как и было оговорено."/>
-    <string id="6y59FBgL" text="{ISSUEGIVER.LINK}, торговец из {SETTLEMENT}, рассказал вам о {?ISSUEGIVER.GENDER}ее{?}его{\?} недавних проблемах с бандитами. {?ISSUEGIVER.GENDER}Она{?}Он{\?} просит вас защитить {?ISSUEGIVER.GENDER}ее{?}его{\?} караван во время путешествия и разобраться с любыми врагами.{newline}Вы согласились одолжить {?ISSUEGIVER.GENDER}ей{?}ему{\?} {NEEDED_MEN_COUNT} человек. Их должно хватить для решения любых проблем. Ваши люди должны вернутся через {RETURN_DAYS} дней."/>
+    <string id="6y59FBgL" text="{ISSUE_GIVER.LINK}, торговец из {SETTLEMENT}, рассказал вам о {?ISSUE_GIVER.GENDER}ее{?}его{\?} недавних проблемах с бандитами. {?ISSUE_GIVER.GENDER}Она{?}Он{\?} просит вас защитить {?ISSUE_GIVER.GENDER}ее{?}его{\?} караван во время путешествия и разобраться с любыми врагами.{newline}Вы согласились одолжить {?ISSUE_GIVER.GENDER}ей{?}ему{\?} {NEEDED_MEN_COUNT} человек. Их должно хватить для решения любых проблем. Ваши люди должны вернутся через {RETURN_DAYS} дней."/>
     <string id="6yEeYNRu" text="Задира"/>
     <string id="6ZCAQ1S9" text="Отлично. Я скоро отправляюсь."/>
     <string id="6ZTNuF30" text="Это правильное решение. Спасибо за то, что прислушались к голосу разума."/>
@@ -774,7 +774,7 @@
     <string id="E57VFXqU" text="Да, пожалуй."/>
     <string id="E8wdxbui" text="Хорошо, согласен. Я отпущу тебя, но сначала заплати мне."/>
     <string id="E9s2bjqw" text="Я могу только надеяться, что когда-нибудь ты изменишь свое мнение."/>
-    <string id="EA9YX6BQ" text="Ваша фракция сейчас находится в состоянии войны с фракцией {ISSUEGIVER.LINK}. Ваше соглашение с {ISSUEGIVER.LINK} отменено."/>
+    <string id="EA9YX6BQ" text="Ваша фракция сейчас находится в состоянии войны с фракцией {ISSUE_GIVER.LINK}. Ваше соглашение с {ISSUE_GIVER.LINK} отменено."/>
     <string id="eabR87ne" text="Войдите в поселение"/>
     <string id="EaifHOao" text="Конечно, {?PLAYER.GENDER}миледи{?}милорд{\?}, Я так и сделаю."/>
     <string id="eALf5d30" text="Спасибо!"/>
@@ -1432,7 +1432,7 @@
     <string id="NC0eK5D8" text="Я делаю всё, что в моих силах."/>
     <string id="NC2VGafO" text="Они убивают зверей в лесу, а после полуночи идут в деревню, чтобы спрятать шкуры. Мне кажется, что жители запуганы угрозами. Если вы отправитесь ночью в деревню, есть шанс застать их врасплох."/>
     <string id="nc9KELFA" text="торговые товары"/>
-    <string id="NCC4VUOc" text="{ISSUE_GIVER.LINK} хочет избавиться от браконьеров, которые когда-то служили {?ISSUEGIVER.GENDER}ей{?}ему{\?}, но вскоре вышли из под контроля."/>
+    <string id="NCC4VUOc" text="{ISSUE_GIVER.LINK} хочет избавиться от браконьеров, которые когда-то служили {?ISSUE_GIVER.GENDER}ей{?}ему{\?}, но вскоре вышли из под контроля."/>
     <string id="NcQZz4N2" text="Это мое последнее предупреждение, милорд! Для обеих сторон будет лучше, если вы не будете сопротивляться.[ib:closed]"/>
     <string id="nG750jQB" text="Зерно решит наши проблемы. Если бы у нас было {GRAIN_AMOUNT} мешков, мы могли бы использовать их для засева наших полей. Но я сомневаюсь, что в {NEARBY_TOWN} имеется такое количество на продажу..."/>
     <string id="NGDa8KpY" text="Известный род"/>
@@ -2301,7 +2301,7 @@
     <string id="yWXtcxqb" text="Построить жильё, чтобы больше людей смогли жить в поселении."/>
     <string id="yX1RycON" text="Ускорение от резерва"/>
     <string id="yXb8bphB" text="Дворяне из знатных семей могут собирать значительную свиту."/>
-    <string id="YXbKXUDu" text="{ISSUEGIVER.LINK} из города {SETTLEMENT}, {?ISSUEGIVER.GENDER}рассказала{?}рассказал{\?} вам о проблемах с бандитами, что грабят {?ISSUEGIVER.GENDER}её{?}его{\?} караваны. {?ISSUEGIVER.GENDER}Она попросила{?}Он попросил{\?} вас охранять караван, и защищать его от любых нападений.&#10;Вы согласились охранять караван, пока он не прибудет в {NUMBER_OF_SETTLEMENTS} поселения."/>
+    <string id="YXbKXUDu" text="{ISSUE_GIVER.LINK} из города {SETTLEMENT}, {?ISSUE_GIVER.GENDER}рассказала{?}рассказал{\?} вам о проблемах с бандитами, что грабят {?ISSUE_GIVER.GENDER}её{?}его{\?} караваны. {?ISSUE_GIVER.GENDER}Она попросила{?}Он попросил{\?} вас охранять караван, и защищать его от любых нападений.&#10;Вы согласились охранять караван, пока он не прибудет в {NUMBER_OF_SETTLEMENTS} поселения."/>
     <string id="YXCGUSYd" text="Хмм, ты бы сделал очень необычную партию. Но, в общем, я этого не исключаю."/>
     <string id="YYl1W2jU" text="Лесник"/>
     <string id="yYTotiqW" text="Говорить с..."/>
@@ -3902,7 +3902,7 @@
     <string id="XzW7k9NW" text="Doing physical labor"/>
     <string id="XZxIpCQH" text="Phorys"/>
     <string id="Y2a6yycL" text="Decrease your bow accuracy loss due to rotating by 50%."/>
-    <string id="y62dyzH6" text="You have lost the track of caravan. Your agreement with {ISSUEGIVER.LINK} is failed."/>
+    <string id="y62dyzH6" text="You have lost the track of caravan. Your agreement with {ISSUE_GIVER.LINK} is failed."/>
     <string id="y6DWG9xQ" text="3% more damage bonus in all battle simulations."/>
     <string id="Y9LNbRho" text="Thank you. I will put your men to good use."/>
     <string id="Yan3ZG1w" text="Disbanding Army!"/>
