@@ -1644,7 +1644,7 @@
     <string id="rqWJL27J" text="Всего золота"/>
     <!--TODO-->
     <string id="s2vaPUdG" text="Spear Brace"/>
-    <string id="settlementtrack" text="Track"/>
+    <string id="settlementtrack" text="Отслеживать"/>
     <string id="siegeevent" text="Осада"/>
     <string id="smeltverb" text="Плавить"/>
     <string id="smithingverb" text="Ковка"/>
@@ -1654,17 +1654,17 @@
     <string id="veiFupWz" text="{?RULER.GENDER}Баронесса{?}Барон{\?} {RULER.NAME}"/>
     <string id="X4qO3jBf" text="{?RULER.GENDER}Банмормэр{?}Мормэр{\?} {RULER.NAME}"/>
     <string id="XCz81XYm" text="Ресурсы"/>
-    <!--TODO-->
-    <string id="XgioIHv6" text="Resolve existing decision"/>
-    <string id="bh9U2fsZ" text="Son-in-law"/>
+    <string id="XgioIHv6" text="Принять имеющееся решение"/>
+    <string id="bh9U2fsZ" text="Зять"/>
     <string id="engineeringskill" text="Инженерия"/>
+    <!--TODO-->
     <string id="IQ4bSdf5" text="Sister-in-law"/>
     <string id="owTlJjJc" text="Brother-in-law"/>
     <string id="pMb8Pe12" text="Daughter-in-law"/>
     <string id="toK51MD4" text="Посетить"/>
     <string id="U7etPQA2" text="{HERO.FIRSTNAME} {JOB_NAME}"/>
-    <string id="uhcIXeba" text="You are discarding items. Are you sure?"/>
+    <string id="uhcIXeba" text="Вы выбрасываете предметы. Вы уверены?"/>
     <string id="Vqu67a3b" text="Шелк-сырец"/>
-    <string id="zE6OFPRu" text="Settlement Tax"/>
+    <string id="zE6OFPRu" text="Налог с поселения"/>
   </strings>
 </base>

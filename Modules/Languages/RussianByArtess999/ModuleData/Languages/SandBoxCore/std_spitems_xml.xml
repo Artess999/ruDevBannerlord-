@@ -985,7 +985,7 @@
     <string id="GaejleDJ" text="Iron Sparing Arming Sword"/>
     <string id="h1YIrekl" text="Simple Sparing Javelin"/>
     <string id="hGyxZwPz" text="Iron Sparing Broadsword"/>
-    <string id="hunterhorse" text="Hunter"/>
+    <string id="hunterhorse" text="Охотничья лошадь"/>
     <string id="HVcwvRMF" text="Reinforced Highland Spear"/>
     <string id="hyagO05b" text="Sparring Targe"/>
     <string id="iCy5h0Y9" text="Northern Lamellar Over Hauberk"/>
@@ -1013,8 +1013,8 @@
     <string id="rhWOdhjr" text="Highland War Spear"/>
     <string id="sMUmaE8z" text="Northern Sparing Spear"/>
     <string id="SnbK7ygh" text="Sparing Billhook"/>
-    <string id="steppebowitem" text="Степной лук"/>
-    <string id="sturgianhunterhorse" text="Sturgian Hunter"/>
+    <string id="steppebowitem" text="Лук степняка"/>
+    <string id="sturgianhunterhorse" text="Стургская охотничья лошадь"/>
     <string id="tpUzcdY6" text="Tall Gripped Ild Sword"/>
     <string id="UEestBsE" text="Northern Bronze Scale Vest"/>
     <string id="uHIVkxVt" text="Northern Bronze Scale Vest Over Gambeson"/>
@@ -1041,6 +1041,6 @@
     <string id="OktZBAVC" text="Southern Brass Scale Shoulders"/>
     <string id="SIdCIRfG" text="Brass Scale Pauldrons"/>
     <string id="U0zBG3F9" text="Scale Pauldrons"/>
-    <string id="Vqu67a3b" text="Raw Silk"/>
+    <string id="Vqu67a3b" text="Шелк-сырец"/>
   </strings>
 </base>
