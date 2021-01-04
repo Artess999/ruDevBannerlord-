@@ -294,14 +294,14 @@
     <string id="ZRkceJx3" text="Судья"/>
     <string id="ZSU7sMYX" text="Кузаитский дархан"/>
     <string id="1i0Ttr8H" text="Стургский отрок"/>
-    <string id="byPNCb5e" text="Sturgian Heavy Spearman"/>
-    <string id="C8hwcOdF" text="Mounted Pillager"/>
-    <string id="CJxF6fky" text="Sturgian Heroic Line Breaker"/>
-    <string id="guardnoun" text="Guard"/>
-    <string id="Gwba5yPA" text="Sturgian Heavy Axeman"/>
-    <string id="J6Yksji5" text="Mounted Ransacker"/>
-    <string id="Sc1d2lsH" text="Sturgian Line Breaker"/>
-    <string id="sturgianhuntertroop" text="Sturgian Hunter"/>
-    <string id="WH7EGGIg" text="Barber"/>
+    <string id="byPNCb5e" text="Стургский тяжелый копейщик"/>
+    <string id="C8hwcOdF" text="Конный мародер"/>
+    <string id="CJxF6fky" text="Стургский героический разрушитель строя"/>
+    <string id="guardnoun" text="Стражник"/>
+    <string id="Gwba5yPA" text="Стургский тяжелый топорщик"/>
+    <string id="J6Yksji5" text="Конный грабитель"/>
+    <string id="Sc1d2lsH" text="Стургский разрушитель строя"/>
+    <string id="sturgianhuntertroop" text="Стургский охотник"/>
+    <string id="WH7EGGIg" text="Цирюльник"/>
   </strings>
 </base>
