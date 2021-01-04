@@ -45,7 +45,7 @@
     <string id="ac8MZYne" text="Баттанский фианн"/>
     <string id="acubGB3g" text="Вландийский арбалетчик"/>
     <string id="afhXdjBU" text="Кочевник"/>
-    <string id="AlmaRAib" text="Rural Notable Notary"/>
+    <string id="AlmaRAib" text="Секретарь сельской знати"/>
     <string id="AloMryIU" text="Вландийский лёгкий всадник"/>
     <string id="AoFZUbun" text="Асерайский фарис авангарда"/>
     <string id="arb5nRri" text="Асерайский житель племени"/>
@@ -58,7 +58,7 @@
     <string id="BbTpfJ7G" text="Дрантон"/>
     <string id="BC5YGna3" text="Воитель озерных крыс"/>
     <string id="bHx8jaeI" text="Воин"/>
-    <string id="bLMGbLF8" text="Preacher Notary"/>
+    <string id="bLMGbLF8" text="Секретарь проповедника"/>
     <string id="bLq2HXMo" text="Имперский бывалый охранник каравана"/>
     <string id="BmYpwIYi" text="Баттанский крестьянин"/>
     <string id="bNnQt4jN" text="Кузнец"/>
@@ -92,7 +92,7 @@
     <string id="DNsbKR7B" text="Баттанский лесничий"/>
     <string id="DNTUqbGo" text="Ксерина"/>
     <string id="e8qbF7Ey" text="Имперский пикинёр"/>
-    <string id="ECxiXTbF" text="Ученик ремесленника"/>
+    <string id="ECxiXTbF" text="Секретарь ремесленника"/>
     <string id="ehACDRBk" text="Прихвостень Скрытой Длани"/>
     <string id="eHVgfyPH" text="Кузаитский конный лучник"/>
     <string id="eWRlQ4XU" text="Вор"/>
@@ -206,7 +206,7 @@
     <string id="Qo2cc7bF" text="Крыс"/>
     <string id="QvSmhaAV" text="Волкодав"/>
     <string id="R74i2pQz" text="Наёмный клинок"/>
-    <string id="reoVAtrE" text="Бухгалтер"/>
+    <string id="reoVAtrE" text="Секретарь торговца"/>
     <string id="rIqwYlSK" text="Кузаитский кочевник"/>
     <string id="riT39wKu" text="Лесной атаман"/>
     <string id="Rj0bNOOh" text="Нюхач"/>
@@ -293,7 +293,7 @@
     <string id="Zmajp2o1" text="Стургский копейщик ополчения"/>
     <string id="ZRkceJx3" text="Судья"/>
     <string id="ZSU7sMYX" text="Кузаитский дархан"/>
-    <string id="1i0Ttr8H" text="Sturgian Otroki"/>
+    <string id="1i0Ttr8H" text="Стургский отрок"/>
     <string id="byPNCb5e" text="Sturgian Heavy Spearman"/>
     <string id="C8hwcOdF" text="Mounted Pillager"/>
     <string id="CJxF6fky" text="Sturgian Heroic Line Breaker"/>
