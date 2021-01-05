@@ -280,7 +280,7 @@
     <string id="u8j8nN5U" text="Повернуться к врагу"/>
     <string id="UbMCCh8L" text="Переносица"/>
     <string id="uCyQNvq1" text="Клин"/>
-    <string id="uGM8DWrm" text="По коням"/>
+    <string id="uGM8DWrm" text="Оседлать"/>
     <string id="UHIZLFBn" text="Убит {TROOP_NAME}"/>
     <string id="Umb8XsZH" text="колющ."/>
     <string id="umhwsoqb" text="Выберите нужный вам отряд в начале раунда, и для дальнейшего возрождения используйте золото."/>
@@ -346,59 +346,64 @@
     <string id="ZZMbAjSU" text="Пробитие насквозь!"/>
     <!--TODO-->
     <string id="05loYcST" text="Hit shield on back"/>
-    <string id="0HTNYQz2" text="Toggle"/>
+    <string id="0HTNYQz2" text="Переключить"/>
     <string id="4jv2sW4U" text="Торговый пост"/>
+    <!--TODO-->
     <string id="52YN6m2B" text="Delivered braced polearm damage!"/>
-    <string id="6usZYAVm" text="Communication Abuse"/>
+    <string id="6usZYAVm" text="Нарушение правил общения"/>
     <string id="8bnYsGu6" text="Гавань Овска (Зима)"/>
     <string id="8EsaVlSX" text="Остров Дериад"/>
-    <string id="8vXHhxPr" text="Toggle AI"/>
+    <string id="8vXHhxPr" text="Переключить AI"/>
     <string id="aALNy4Es" text="Улицы Силлианона"/>
     <string id="captainasgame" text="Капитан"/>
-    <string id="cSui4APH" text="Objective Destroyed"/>
-    <string id="d1ogH1v1" text="Tsagaan Castle"/>
-    <string id="EZRnvPJS" text="Face This Direction"/>
-    <string id="F6l8hFEA" text="Cliffs of Akkalat"/>
-    <string id="fJHsYtKu" text="Echerion"/>
-    <string id="GQOS4d9g" text="Toggle Facing"/>
-    <string id="IBAaKSbp" text="Port at Omor"/>
-    <string id="iBk2wbn3" text="Form"/>
-    <string id="jpeq1gF0" text="Nord Town"/>
-    <string id="Ke7eAS5B" text="Perk Bonus"/>
-    <string id="KiJd6Xik" text="Movement"/>
-    <string id="Lz6ggWch" text="Damage reduction from perks and effects: {MODIFIED_DAMAGE}"/>
-    <string id="MnvK3eK2" text="Objective Completed"/>
+    <string id="cSui4APH" text="Цель уничтожена"/>
+    <string id="d1ogH1v1" text="Замок Тсагаан"/>
+    <string id="EZRnvPJS" text="Повернуться в указанном направлении"/>
+    <string id="F6l8hFEA" text="Скалы Аккалата"/>
+    <string id="fJHsYtKu" text="Эхерион"/>
+    <string id="GQOS4d9g" text="Переключить поворот"/>
+    <string id="IBAaKSbp" text="Порт Омора"/>
+    <string id="iBk2wbn3" text="Построение"/>
+    <string id="jpeq1gF0" text="Город Нордов"/>
+    <string id="Ke7eAS5B" text="Бонус за навык"/>
+    <string id="KiJd6Xik" text="Движение"/>
+    <string id="Lz6ggWch" text="Снижение урона от навыков и эффектов: {MODIFIED_DAMAGE}"/>
+    <string id="MnvK3eK2" text="Задача выполнена"/>
     <string id="mountnoun" text="Конь"/>
     <string id="mountverb" text="Оседлать"/>
-    <string id="NdQZWHIy" text="·   Lead your own detachment of troops{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win"/>
+    <string id="NdQZWHIy" text="·   Возглавьте собственный отряд{newline}·   Удерживайте контрольные точки на карте, чтобы подорвать боевой дух врага{newline}·   Убейте всю вражескую команду или истощите их боевой дух для победы"/>
+    <!--TODO-->
     <string id="nx5W7jN0" text="Received braced polearm damage!"/>
-    <string id="O5uDFhwu" text="Castle of fen Altai"/>
-    <string id="oGAzC0Ob" text="Game Mode"/>
-    <string id="Ok03egKG" text="Move To Position"/>
-    <string id="OviaJ1tA" text="Other"/>
-    <string id="OzifZbSB" text="Match Type"/>
+    <string id="O5uDFhwu" text="Замок фен Алтай"/>
+    <string id="oGAzC0Ob" text="Режим игры"/>
+    <string id="Ok03egKG" text="Передвинуться на указанную позицию"/>
+    <string id="OviaJ1tA" text="Другое"/>
+    <string id="OzifZbSB" text="Тип боя"/>
+    <!--TODO-->
     <string id="pMmmfvkN" text="Inappropriate Play"/>
-    <string id="Pzvtcbk6" text="Xauna"/>
-    <string id="RDsOaEtS" text="Extra damage from perks and effects: {MODIFIED_DAMAGE}"/>
-    <string id="RJEHDWmu" text="·   Buy limited respawns using gold{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win"/>
-    <string id="rLozutts" text="Request Friendship"/>
+    <string id="Pzvtcbk6" text="Ксауна"/>
+    <string id="RDsOaEtS" text="Дополнительный урон от навыков и эффектов: {MODIFIED_DAMAGE}"/>
+    <string id="RJEHDWmu" text="·   Покупайте ограниченное возрождение за золото{newline}·   Удерживайте контрольные точки на карте, чтобы подорвать боевой дух врага{newline}·   Убейте всю вражескую команду или истощите их боевой дух, чтобы победить"/>
+    <string id="rLozutts" text="Запрос на дружбу"/>
+    <!--TODO-->
     <string id="scoreboardkick" text="Kick"/>
-    <string id="siegemultiplayergametype" text="Siege"/>
+    <string id="siegemultiplayergametype" text="Осада"/>
+    <!--TODO-->
     <string id="sisK3HPI" text="You are muted."/>
     <string id="sXAATSgd" text="Гавань Овска"/>
     <string id="t8lAbdCk" text="Остров Дериад (Зима)"/>
-    <string id="UJaQuEpD" text="Toggle Mount"/>
-    <string id="uqzA4Q4a" text="Imperial Villa"/>
-    <string id="V1kxYbRp" text="Toggle Fire"/>
-    <string id="VecPWliR" text="Excessive reporting of a player may result in a ban."/>
-    <string id="vM7CssWE" text="Ruins of Jawwali"/>
-    <string id="WxM16s2Y" text="Druimmor Forest"/>
+    <string id="UJaQuEpD" text="Спешиться/оседлать"/>
+    <string id="uqzA4Q4a" text="Императорская Вилла"/>
+    <string id="V1kxYbRp" text="Переключить режим огня"/>
+    <string id="VecPWliR" text="Чрезмерные жалобы на игрока могут привести к бану."/>
+    <string id="vM7CssWE" text="Руины Джаввали"/>
+    <string id="WxM16s2Y" text="Лес Друиммор"/>
     <string id="xhnV76OL" text="Skala Landing"/>
-    <string id="xoXWGYVI" text="·   Use various siege engines to attack or defend control points{newline}·   Spawn points advance as control points are captured{newline}·   Successfully assault and hold the keep flag or repel the enemy to win"/>
-    <string id="xuo8gmaL" text="·   Buy respawns using gold{newline}·   Earn gold by killing enemies and assisting teammates{newline}·   Outkill the enemy team to win the game"/>
-    <string id="YNkPy4ta" text="Clan Match"/>
-    <string id="YRabuUqx" text="Baravenos Encirclement"/>
-    <string id="YvK6gI6q" text="Town Outskirts"/>
-    <string id="ztGHtRNf" text="Cheating"/>
+    <string id="xoXWGYVI" text="·   Используйте различные осадные машины, чтобы атаковать или защищать контрольные точки{newline}·   Точки появления увеличиваются по мере захвата контрольных точек{newline}·   Успешно атакуйте и удерживайте флаг крепости или отражайте нападение врага, чтобы победить"/>
+    <string id="xuo8gmaL" text="·   Покупайте возрождения за золото{newline}·   Зарабатывайте золото, убивая врагов и помогая товарищам по команде{newline}·   Убейте вражескую команду, чтобы выиграть игру"/>
+    <string id="YNkPy4ta" text="Клановый бой"/>
+    <string id="YRabuUqx" text="Окружение Баравеноса"/>
+    <string id="YvK6gI6q" text="Окраина города"/>
+    <string id="ztGHtRNf" text="Читерство"/>
   </strings>
 </base>
