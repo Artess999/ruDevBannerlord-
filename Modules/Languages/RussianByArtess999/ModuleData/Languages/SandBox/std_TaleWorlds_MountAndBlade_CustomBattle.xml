@@ -10,37 +10,38 @@
     <string id="MVOWsP48" text="Выберите оружие ближнего боя"/>
     <string id="mxbq3InD" text="{ARMY_SIZE} человек"/>
     <string id="SLZzfNPr" text="Выберите оружие дальнего боя"/>
+    <!--TODO-->
     <string id="0s52GQJt" text="Scene Level"/>
-    <string id="0xC75dN6" text="Enemy Party"/>
+    <string id="0xC75dN6" text="Вражеский отряд"/>
     <string id="4IuXGSdc" text="Прочность стен"/>
-    <string id="7i1vmgQ9" text="Select a Map"/>
+    <string id="7i1vmgQ9" text="Выберите карту"/>
     <string id="AiNXIt5N" text="Dual Breached"/>
-    <string id="AmfIfeIc" text="Choose Attacker Siege Machines"/>
-    <string id="bKg8Mmwb" text="Player Type"/>
-    <string id="bLXleed8" text="Player Character"/>
-    <string id="cZzfNlxd" text="Fall"/>
+    <string id="AmfIfeIc" text="Выберите осадные машины атакующего"/>
+    <string id="bKg8Mmwb" text="Тип игрока"/>
+    <string id="bLXleed8" text="Персонаж игрока"/>
+    <string id="cZzfNlxd" text="Осень"/>
     <string id="dsMeB3vi" text="Solid"/>
     <string id="EcKMGoFv" text="Sallyout"/>
-    <string id="f7vOVQb7" text="Summer"/>
+    <string id="f7vOVQb7" text="Лето"/>
     <string id="g9VIbA9s" text="Сержант"/>
     <string id="JPimShCw" text="Тип игры"/>
-    <string id="KASD0tnO" text="Attacker"/>
+    <string id="KASD0tnO" text="Атакующий"/>
     <string id="Kvxo2jzJ" text="Single Breached"/>
-    <string id="nWbp3o3H" text="Spring"/>
-    <string id="nwqUFaU8" text="Winter"/>
-    <string id="P3rMg4uZ" text="Player Side"/>
-    <string id="QAYngoNQ" text="Enemy Character"/>
-    <string id="sSJSTe5p" text="Player Party"/>
+    <string id="nWbp3o3H" text="Весна"/>
+    <string id="nwqUFaU8" text="Зима"/>
+    <string id="P3rMg4uZ" text="Сторона игрока"/>
+    <string id="QAYngoNQ" text="Вражеский персонаж"/>
+    <string id="sSJSTe5p" text="Отряд Игрока"/>
     <string id="Ua6CNLBZ" text="Деревня"/>
-    <string id="UoiSWe87" text="Choose Defender Siege Machines"/>
+    <string id="UoiSWe87" text="Выберите осадные машины защитника"/>
     <string id="w9m11T1y" text="Карта"/>
-    <string id="XEVFUaFj" text="Defender"/>
-    <string id="xTzDM5XE" text="Season"/>
-    <string id="CTtjSwRb" text="Noon"/>
-    <string id="DszSWnc3" text="Time of Day"/>
-    <string id="fAxjyMt5" text="Night"/>
-    <string id="gENb9SSW" text="Evening"/>
-    <string id="J2gvnexb" text="Afternoon"/>
-    <string id="X3gcUz7C" text="Morning"/>
+    <string id="XEVFUaFj" text="Защитник"/>
+    <string id="xTzDM5XE" text="Сезон"/>
+    <string id="CTtjSwRb" text="Полдень"/>
+    <string id="DszSWnc3" text="Время суток"/>
+    <string id="fAxjyMt5" text="Ночь"/>
+    <string id="gENb9SSW" text="Вечер"/>
+    <string id="J2gvnexb" text="После полудня"/>
+    <string id="X3gcUz7C" text="Утро"/>
   </strings>
 </base>
