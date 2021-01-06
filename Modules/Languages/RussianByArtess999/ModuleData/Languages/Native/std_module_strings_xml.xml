@@ -4,7 +4,7 @@
     <tag language="Русский"/>
   </tags>
   <strings>
-    <!-- TODO проверить корректность перевода policy - предложение -->
+    <!-- TODO проверить корректность перевода policy - предложение / указ / политика -->
     <string id="02c5bQSM" text="Выбросить"/>
     <string id="02E0oSJm" text="Чёрт! Ваш оппонент играет не по правилам. {?OPPONENT_GENDER}Он{?}Она{\?} подвергается дисквалификации!"/>
     <string id="03mPaWum" text="Королевство"/>
@@ -828,7 +828,7 @@
     <string id="KiJd6Xik" text="Движение"/>
     <string id="KiVCv1Bx" text="Осаждающий {SETTLEMENT_NAME}"/>
     <string id="KJDqOGEU" text="Наш план: медленно отступить, сохраняя строй, и занять оборонительную позицию."/>
-    <string id="KkaVpLXd" text="Вынести это предложение на рассмотрение (Support: {SUPPORT}%)"/>
+    <string id="KkaVpLXd" text="Вынести этот указ на рассмотрение (Support: {SUPPORT}%)"/>
     <string id="klZnvb15" text="Персонаж"/>
     <string id="kM1Y8XT0" text="Вы не разочаруетесь, {?PLAYER.GENDER}миледи{?}милорд{\?}. Более искусных и преданных воинов не найти во всей Кальрадии![rb:very_positive]"/>
     <string id="koX9okuG" text="Никто"/>
@@ -1078,7 +1078,7 @@
     <string id="pn9KNMxb" text="Вы попали во вражескую засаду, но ваши люди не в состоянии вести бой. Остаётся лишь одно - сложить оружие и молить о пощаде."/>
     <string id="PNZmPprx" text="Двуручный меч"/>
     <string id="pOCOS8um" text="Ребёнок"/>
-    <string id="porKAP64" text="Рассмотрите возможность отмены этого предложения ({SUPPORT}%)"/>
+    <string id="porKAP64" text="Рассмотрите возможность отмены этого указа ({SUPPORT}%)"/>
     <string id="PpPbWYPB" text="Право на наёмничество"/>
     <string id="pPRYdrk7" text="Управление войском"/>
     <string id="pq48aN8d" text="Мораль:{reg1}"/>

@@ -4081,7 +4081,7 @@
     <string id="MaK0r9as" text="{HERO.FIRSTNAME} Дубина"/>
     <string id="MRJ06SU7" text="{HERO.FIRSTNAME} Заноза"/>
     <string id="N6DvC4hN" text="{HERO.FIRSTNAME} Зеркало"/>
-    <string id="NH5N3kP5" text="No governor"/>
+    <string id="NH5N3kP5" text="Нет губернатора"/>
     <string id="nNUZOwhb" text="Красный Глаз {HERO.FIRSTNAME}"/>
     <string id="npuC7IBM" text="{HERO.FIRSTNAME} Красильщик"/>
     <string id="NTPVzs9z" text="{?HERO.GENDER}Никудышная{?}Никудышный{\?} {HERO.FIRSTNAME}"/>
@@ -4090,10 +4090,10 @@
     <string id="PakhagOy" text="Your clan is now at war with {QUEST_GIVER.LINK}'s lord. Your agreement with {QUEST_GIVER.LINK} was canceled."/>
     <string id="pbDr5JFs" text="{HERO.FIRSTNAME} Кастелян"/>
     <string id="pL3s39hv" text="{?HERO.GENDER}Умная{?}Умный{\?} {HERO.FIRSTNAME}"/>
-    <string id="PMio7set" text="Marital Status"/>
+    <string id="PMio7set" text="Семейный статус"/>
     <string id="qezuzVuY" text="{HERO.FIRSTNAME} {?HERO.GENDER}Коза{?}Козёл{\?}"/>
     <string id="qhe6SGa3" text="{HERO.FIRSTNAME} Тушеные кости"/>
-    <string id="qIAgh9VL" text="Not Married"/>
+    <string id="qIAgh9VL" text="Не в браке"/>
     <string id="qmwv27To" text="{HERO.FIRSTNAME} Мышь"/>
     <string id="QskefraA" text="{?HERO.GENDER}Упёртая{?}Упёртый{\?} {HERO.FIRSTNAME}"/>
     <string id="QUFmBtbk" text="{HERO.FIRSTNAME} из Сандала"/>
@@ -4142,7 +4142,7 @@
     <string id="wuMJobac" text="{HERO.FIRSTNAME} Комиссионер"/>
     <string id="WzBo28iT" text="{HERO.FIRSTNAME} Коса"/>
     <string id="xdmhzukY" text="{HERO.FIRSTNAME} Очаг"/>
-    <string id="xeawD38S" text="Married"/>
+    <string id="xeawD38S" text="В браке"/>
     <string id="xTtHdTsS" text="{?HERO.GENDER}Отравительница{?}Отравитель{\?} {HERO.FIRSTNAME}"/>
     <string id="xudfzjgJ" text="{?HERO.GENDER}Маленькая{?}Маленький{\?} {HERO.FIRSTNAME}"/>
     <string id="xWbSbNqy" text="Infantry in your party increase melee weapon skills by 30 while in shield wall formation."/>

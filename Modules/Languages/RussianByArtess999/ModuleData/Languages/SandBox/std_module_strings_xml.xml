@@ -47,19 +47,18 @@
     <string id="wip6jLEM" text="Коэффициент получаемого вашими воинами урона."/>
     <string id="ZcyJePFm" text="Урон по союзникам"/>
     <string id="ZWiFWA2W" text="Пропустить основное обучение"/>
-    <!--TODO-->
-    <string id="9l5RgXiU" text="Choose if circle map notifications will be shown on the right side on campaign map."/>
+    <string id="9l5RgXiU" text="Выберите, отображать ли круглые уведомления на правой стороне карты компании."/>
     <string id="aEnXxe0a" text="Вы можете удерживать клавишу {LEAVE_AREA_KEY}, чтобы покинуть текущую область."/>
     <string id="HMFb1gaq" text="Эгалитарный"/>
     <string id="hR6Zo6pD" text="Олигархический"/>
     <string id="lfDzgLTa" text="{PROFESSION} в {LOCATION}"/>
     <string id="NaMPa4ML" text="Авторитарный"/>
-    <string id="SrkDqNdb" text="Enable Tutorial Popups"/>
-    <string id="t47EzcbW" text="Enable Tutorial"/>
+    <string id="SrkDqNdb" text="Включить всплывающие окна обучения"/>
+    <string id="t47EzcbW" text="Включить обучение"/>
     <string id="veterandifficulty" text="Ветеран"/>
-    <string id="yKJ9c8IV" text="Enable Right Side Circle Map Notifications"/>
-    <string id="irBV6UE4" text="{MINUTE} {?IS_PLURAL}minutes{?}minute{\?}"/>
-    <string id="k0nSlwe9" text="Auto Save Interval"/>
-    <string id="yLa9ftit" text="Sets the interval of time between autosaves."/>
+    <string id="yKJ9c8IV" text="Включить уведомления на правой стороне карты компании"/>
+    <string id="irBV6UE4" text="{MINUTE} {?IS_PLURAL}минут{?}минута{\?}"/>
+    <string id="k0nSlwe9" text="Интервал автосохранения"/>
+    <string id="yLa9ftit" text="Устанавливает интервал времени между автосохранениями."/>
   </strings>
 </base>
