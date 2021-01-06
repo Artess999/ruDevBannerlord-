@@ -307,46 +307,47 @@
     <string id="zWaVxD6T" text="Скорость отряда"/>
     <string id="zZlWRZjO" text="Войны"/>
     <string id="0mqdFC2x" text="Оружие изготовлено!"/>
+    <string id="2htkK82b" text="Доступные культуры ограничиваются культурой клана, а также культурой любых принадлежащих ему поселений"/>
+    <string id="2lFwF07j" text="Изменить имя"/>
+    <string id="3PzgpFGq" text="Нейтральный"/>
+    <string id="9huJZblF" text="Простой начался"/>
     <!--TODO-->
-    <string id="2htkK82b" text="Available cultures are limited to the clan's culture as well as any owned settlements' cultures."/>
-    <string id="2lFwF07j" text="Change Name"/>
-    <string id="3PzgpFGq" text="Neutral"/>
-    <string id="9huJZblF" text="Last Run"/>
     <string id="a4GDfSel" text="Reset Tutorials"/>
     <string id="BqLsZhhr" text="Select an item to refine"/>
-    <string id="BV5exuPf" text="Remove From Bookmarks"/>
+    <string id="BV5exuPf" text="Удалить из закладок"/>
     <string id="c6BtCIrX" text="{DAYS} дней назад"/>
-    <string id="cJmI2poS" text="Info"/>
-    <string id="d8jrv3nA" text="Add To Bookmarks"/>
+    <string id="cJmI2poS" text="Информация"/>
+    <string id="d8jrv3nA" text="Добавить в закладки"/>
+    <!--TODO-->
     <string id="dD3kRDHi" text="This hero is a fugitive and running from their captors. They will will be available after some time."/>
     <string id="DNXD37JL" text="Settlement's Days Until Food Runs Out"/>
-    <string id="DPTPuyip" text="And {NUMBER} more..."/>
-    <string id="DXczLzml" text="Status"/>
-    <string id="EkFDvG7z" text="Settlement Food Stocks"/>
-    <string id="eoVW9z54" text="Average Morale"/>
-    <string id="F6GhrriD" text="Create Kingdom"/>
-    <string id="g4XqKGUr" text="Party already has a member with this role."/>
+    <string id="DPTPuyip" text="И {NUMBER} еще..."/>
+    <string id="DXczLzml" text="Состояние"/>
+    <string id="EkFDvG7z" text="Запасы еды в поселении"/>
+    <string id="eoVW9z54" text="Средняя мораль"/>
+    <string id="F6GhrriD" text="Создать Королевство"/>
+    <string id="g4XqKGUr" text="В отряде уже есть участник с этой ролью."/>
     <string id="HURdAXDQ" text="Hideout Crew"/>
     <string id="I2sZ7K28" text="Are you sure want to reset tutorials?"/>
     <string id="i9OsCshW" text="This kingdom decision is not relevant anymore."/>
-    <string id="IbqRyrKo" text="This will determine the initial active policies of the Kingdom. Choose Maximum 4 Policies."/>
+    <string id="IbqRyrKo" text="Это определит начальные активные указы Королевства. Выберите максимум 4 указа."/>
     <string id="Iefr8Fra" text="Tutorials have been reset."/>
-    <string id="jxypVgl2" text="Relation Changes"/>
+    <string id="jxypVgl2" text="Изменения отношений"/>
     <string id="laznt9ZK" text="Settlement Food Change"/>
-    <string id="mHXujEVw" text="Choose Your Kingdom's Active Policies"/>
+    <string id="mHXujEVw" text="Выберите активные указы вашего Королевства"/>
     <string id="OhNYkblK" text="This hero has just escaped from captors and will be available after some time."/>
     <string id="OSsSBHKe" text="Settlement's Food"/>
     <string id="oUz16Nav" text="Reset Tutorial"/>
     <string id="Q8dhryRX" text="Parties' Food"/>
     <string id="QBB0KQ2Z" text="Parties' Average Morale"/>
-    <string id="RuaA8t97" text="Kingdom Name"/>
-    <string id="rUeWBOOi" text="Select an item to smelt"/>
-    <string id="rwKBR4NE" text="Average Days Until Food Runs Out"/>
+    <string id="RuaA8t97" text="Имя Королевства"/>
+    <string id="rUeWBOOi" text="Выберите предмет для расплавки"/>
+    <string id="rwKBR4NE" text="Среднее количество дней до того, как закончится еда"/>
     <string id="ScDj827c" text="Стартовый капитал"/>
-    <string id="tLh0VqN3" text="Choose Your Kingdom Culture"/>
-    <string id="tYz4D8Or" text="Prisoner"/>
-    <string id="uQgNPJnc" text="Manage Troops"/>
-    <string id="Y7qbwrWE" text="{HERO_NAME}'s Skills"/>
+    <string id="tLh0VqN3" text="Выберите культуру вашего Королевства"/>
+    <string id="tYz4D8Or" text="Заключенный"/>
+    <string id="uQgNPJnc" text="Управлять Войсками"/>
+    <string id="Y7qbwrWE" text="Навыки {HERO_NAME}"/>
     <string id="zrhr4rDA" text="Are you sure you want to disband this army? This will result in relation loss."/>
     <string id="1JlzQIXE" text="Disabled"/>
     <string id="1UbocG5B" text="Denounce your rights and responsibilities from this fief by giving it back to the realm."/>
