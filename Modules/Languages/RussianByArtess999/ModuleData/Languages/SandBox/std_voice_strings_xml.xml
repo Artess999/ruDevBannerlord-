@@ -10,7 +10,6 @@
     <string id="3bW5jWJ1" text="{STR_SALUTATION}... Любой может проявить себя не с самой лучшей стороны, но я считаю, что каждый заслуживает второго шанса. Поэтому, я готов выслушать вас."/>
     <string id="3WtZ4AKa" text="Ваше лицо мне не знакомо... В любом случае, если хотите что-то сказать - делайте это быстрее. Вороны изголодались, и я не заставлю их ждать."/>
     <string id="43KLZl7D" text="{STR_SALUTATION}... Если мы скоро скрестим мечи... Знайте, я бы {?CONVERSATION_NPC.GENDER}хотела{?}хотел{\?} обойтись без этого."/>
-    <string id="4Lfz6ux4" text="{STR_SALUTATION}... Давненько мы не общались."/>
     <string id="4RbOYBQb" text="Стойте. Скажете, кто вы, или может сразу приступим к делу?"/>
     <string id="4RMGcBuj" text="{STR_SALUTATION}... Мир вам... Я {?CONVERSATION_NPC.GENDER}рада{?}рад{\?} нашей встрече."/>
     <string id="5C1seeEM" text="Стойте! Есть что сказать, перед тем как я отдам приказ об атаке?"/>
@@ -21,7 +20,6 @@
     <string id="8kCCsahd" text="{STR_SALUTATION}... Ха! Мы знаем все уловки друг друга. Так что нам придется или сражаться, или договариваться..."/>
     <string id="97bAooa5" text="Небеса святые... Это вино на вкус, как моча. Ладно... Так, кто вы {?PLAYER.GENDER}такая{?}такой{\?}?"/>
     <string id="9emUaMsx" text="{STR_SALUTATION}... Я к вашим услугам."/>
-    <string id="9MZ1SaXt" text="Что ж... Кажется мы незнакомы. Назовите ваше славное имя."/>
     <string id="A3eeOUZH" text="Вы знаете, какого я о вас мнения. Не забывайте об этом."/>
     <string id="a67lBQad" text="Вы кто {?PLAYER.GENDER}такая{?}такой{\?}? Говорите быстро, пока я не {?CONVERSATION_NPC.GENDER}отдала{?}отдал{\?} приказ об атаке."/>
     <string id="AoBIFXZH" text="{STR_SALUTATION}... Так-так, очень любопытно, что вы скажете."/>
@@ -139,5 +137,14 @@
     <string id="P3o4r7cB" text="Чего ты хочешь, незнакомец? Кто ты?"/>
     <string id="xtCrabo9" text="Я тебя не знаю. Хочешь сказать мне свое имя перед боем?"/>
     <string id="zfWpSLfd" text="Итак... И кто тут у нас? Не могли бы вы назвать мне свое доброе имя?"/>
+    <string id="1VBiVUBz" text="{STR_SALUTATION}... Allow me to introduce myself."/>
+    <string id="2Uuwrvmw" text="{STR_SALUTATION}... Let me introduce myself."/>
+    <string id="aGP9qTGp" text="{STR_SALUTATION}... I offer you my loyalty."/>
+    <string id="Es1MRkbS" text="{STR_SALUTATION}... This is truly an honor. Let me introduce myself."/>
+    <string id="Ia4zfagK" text="{STR_SALUTATION}... It's an honor to meet you."/>
+    <string id="imbZKZIZ" text="{STR_SALUTATION}... It is my great honor to introduce myself to you."/>
+    <string id="pbQjBNT3" text="{STR_SALUTATION}... May I introduce myself..."/>
+    <string id="pff33rZl" text="{STR_SALUTATION}. I am at your service."/>
+    <string id="WACwhm8r" text="{STR_SALUTATION}! I am honored to meet you. Let me introduce myself."/>
   </strings>
 </base>

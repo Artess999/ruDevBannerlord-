@@ -87,7 +87,6 @@
     <string id="dWYm9GsC" text="Требует"/>
     <string id="DzviXC3W" text="Ранг"/>
     <string id="e8390c3480028e34c370c7b60ebc41e2" text="Порода: "/>
-    <string id="ebbyLN2i" text="Города"/>
     <string id="eHVq6yDa" text="Цена предмета"/>
     <string id="eIws123Z" text="Защита ног"/>
     <string id="EQHq3bHM" text="Путешествует в {TARGET_PARTY}"/>
@@ -357,5 +356,15 @@
     <string id="rOKAvjtT" text="Gift Settlement"/>
     <string id="sffGeQ1g" text="Gift"/>
     <string id="U3ksQXD3" text="Give Away"/>
+    <string id="68IlDbA2" text="You need to have {PERK_NAME} perk to upgrade a bandit troop to a normal troop."/>
+    <string id="Bcs9s2tC" text="Right Click to Remove"/>
+    <string id="Ck9HT8fQ" text="Summary"/>
+    <string id="F0a7hyp0" text="Risk of rebellion"/>
+    <string id="flxDkoMh" text="Stage Complete"/>
+    <string id="hOVPiG3z" text="Recently rebelled"/>
+    <string id="m1Yynagz" text="Page {NUMBER}"/>
+    <string id="NxEy5Nbt" text="High risk of rebellion"/>
+    <string id="Rvr1bcu8" text="Next"/>
+    <string id="WXAaWZVf" text="Previous"/>
   </strings>
 </base>

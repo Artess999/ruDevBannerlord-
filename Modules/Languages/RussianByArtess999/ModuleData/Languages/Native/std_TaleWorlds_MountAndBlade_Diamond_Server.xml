@@ -153,5 +153,6 @@
     <string id="ywVYMhiF" text="You must be the clan leader to change clan information text."/>
     <string id="z40g0BmW" text="Could not update Bannerlord ID"/>
     <string id="ZtktMXDw" text="You are not in a clan."/>
+    <string id="X6N9nSn0" text="You are not allowed to login into this server. Please try official public servers."/>
   </strings>
 </base>

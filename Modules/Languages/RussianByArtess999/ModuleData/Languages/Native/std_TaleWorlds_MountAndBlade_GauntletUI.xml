@@ -8,10 +8,7 @@
     <string id="2SEofGth" text="Смена команды"/>
     <string id="4mMySbxI" text="Неизвестная ошибка"/>
     <string id="a0IHtkoa" text="Вы были исключены администратором"/>
-    <string id="AbEh2y8o" text="Сохранить и выйти"/>
     <string id="aKjpbRP5" text="Неизвестная причина"/>
-    <string id="bV75iwKa" text="Сохранить"/>
-    <string id="e0KdfaNe" text="Сохранить как"/>
     <string id="EzeFJo65" text="Вы были отключены от сервера!"/>
     <string id="hvaDkG4w" text="Нажмите любую клавишу"/>
     <string id="HzWaGn3y" text="Не все игроки используют анти-чит"/>
@@ -39,5 +36,7 @@
     <string id="WvGviFgt" text="Время ожидания соединения превышено"/>
     <string id="XnsAbUE3" text="Отменить"/>
     <string id="XzZFhRwr" text="Вернуться в игру"/>
+    <string id="1e12bdjj" text="Screenshot has been saved in {PATH}"/>
+    <string id="VklN5Wm6" text="Photo Mode"/>
   </strings>
 </base>

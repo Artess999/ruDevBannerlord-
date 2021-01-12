@@ -60,7 +60,6 @@
     <string id="4AfHO0BA" text="Клёпаная шерстяная броня без рукавов"/>
     <string id="4BfbPgkY" text="Цервельер с наносником поверх подбитой шапки"/>
     <string id="4CPxahsU" text="Восточная кавалерийская булава"/>
-    <string id="4DiJ8dfj" text="Западный полутора-ручный топор"/>
     <string id="4gNT4MYk" text="Охотничьи стрелы"/>
     <string id="4KYF5iCd" text="Стёганная кожаная туника"/>
     <string id="4n6n3KL7" text="Пустынный головной убор"/>
@@ -484,7 +483,6 @@
     <string id="radJHwRW" text="Каплевидный щит тяжелого всадника"/>
     <string id="RCq6DcvS" text="Северное длинное копьё"/>
     <string id="RF7uVEGp" text="Бамбуковое копье"/>
-    <string id="rifv0h0H" text="Северный кавалерийский каплевидный щит"/>
     <string id="rOpxDHXL" text="Восточная кожаная пластинчатая броня"/>
     <string id="RsIImqXA" text="Восточная пехотная дубинка"/>
     <string id="RTIzskq1" text="Шлем лендмана поверх закрытой кольчуги"/>
@@ -678,5 +676,8 @@
     <string id="mbT1uNPa" text="Кинжал"/>
     <string id="MnmUBlbL" text="Тарджет"/>
     <string id="sZsOeSQ4" text="Кавалерийский менавлион"/>
+    <string id="GrfnpDxu" text="Highland Throwing Axe"/>
+    <string id="QArSPrAV" text="Northern Kite Shield"/>
+    <string id="ZJweh5Oh" text="Bastard Axe"/>
   </strings>
 </base>

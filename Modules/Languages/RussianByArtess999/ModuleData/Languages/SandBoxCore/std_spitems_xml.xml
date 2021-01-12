@@ -968,23 +968,12 @@
     <string id="06Qoh8AO" text="Позолоченный короткий боевой меч"/>
     <string id="0lNp3f76" text="Заостренная (Angular) каскара с гравировкой"/>
     <string id="27IgGO81" text="Укрепленные кольчужные наплечники горца"/>
-    <string id="3ezms1gB" text="Железная тренировочная сабля"/>
-    <string id="6dkgVwlg" text="Южные тренировочные метательные кинжалы"/>
-    <string id="7ysOvo7H" text="Северный тренировочный клинок"/>
-    <string id="8Y7XA1Pv" text="Тренировочный двуручный топор"/>
-    <string id="9fomPqAm" text="Западное тренировочное копье"/>
-    <string id="a775acEf" text="Тренировочная железная спата"/>
     <string id="bohbzGjg" text="Узорчатый скимитар с широкой рукояткой"/>
     <string id="Bv068ziR" text="Северная узорчатая кольчуга"/>
     <string id="camFHYrN" text="Кожаная броня с железными пластинами"/>
     <string id="Cr5ak47X" text="Узорчатый широкий меч"/>
-    <string id="cyzMruZJ" text="Восточный тренировочный джавелин"/>
     <string id="duIWCjdD" text="Копье со стальным наконечником"/>
-    <string id="e8zpXpmO" text="Тренировочный топор с бамбуковой рукояткой"/>
     <string id="EezWSI6v" text="Укрепленная броня наемника"/>
-    <string id="GaejleDJ" text="Железный тренировочный боевой меч"/>
-    <string id="h1YIrekl" text="Простой тренировочный джавелин"/>
-    <string id="hGyxZwPz" text="Железный тренировочный широкий меч"/>
     <string id="hunterhorse" text="Охотничья лошадь"/>
     <string id="HVcwvRMF" text="Усиленное копье горца"/>
     <string id="hyagO05b" text="Тренировочный тарджет"/>
@@ -993,7 +982,6 @@
     <string id="JzZJpbTB" text="Укрепленный тарджет"/>
     <string id="k3dvbLDi" text="Седло Энея"/>
     <string id="L4HOZUSU" text="Южное копье с закругленным навершием"/>
-    <string id="lyGvQPJb" text="Зазубренное тренировочное копье"/>
     <string id="mmc3tBVN" text="Заточенная спата с закругленным наконечником"/>
     <string id="MnmUBlbL" text="Тарджет"/>
     <string id="Mt24PoKF" text="Северный короткий ламеллярный жилет"/>
@@ -1002,23 +990,18 @@
     <string id="NbdbCwIB" text="Затупленный железный широкий меч"/>
     <string id="nTc20R1R" text="Самодельная кувалда"/>
     <string id="nTjEUF9z" text="Грубый большой круглый щит"/>
-    <string id="ofOxjPtf" text="Железная тренировочная флисса"/>
     <string id="ojhEwC8M" text="Северная латунная ламелярная броня поверх кольчуги"/>
     <string id="przGGaVm" text="Бронзовый усиленный большой щит горца"/>
     <string id="QA5zGCKf" text="Узорчатый усиленный меч"/>
     <string id="QQGLKQVL" text="Тренировочный сакс"/>
     <string id="QXHqOFYf" text="Западное легкое копье"/>
-    <string id="qYKwFEXb" text="Тренировочный галлогаический топор"/>
     <string id="RddFH0BA" text="Большой круглый щит в железной оправе"/>
     <string id="rhWOdhjr" text="Боевое копье горца"/>
-    <string id="sMUmaE8z" text="Северное тренировочное копье"/>
-    <string id="SnbK7ygh" text="Тренировочный Билль"/>
     <string id="steppebowitem" text="Лук степняка"/>
     <string id="sturgianhunterhorse" text="Стургская охотничья лошадь"/>
     <string id="tpUzcdY6" text="Илд с длинной рукоятью"/>
     <string id="UEestBsE" text="Северный бронзовый чешуйчатый жилет"/>
     <string id="uHIVkxVt" text="Северный бронзовый чешуйчатый жилет поверх гамбезона"/>
-    <string id="umRAKqO3" text="Императорское тренировочное копье"/>
     <string id="V7yH6vyz" text="Баттанская броня дикаря"/>
     <string id="vRIpgxhi" text="Выбор фортуны"/>
     <string id="vsI4M5oq" text="Железный укрепленный большой щит горца"/>
@@ -1026,7 +1009,6 @@
     <string id="wAcc9SX4" text="Большой щит горца"/>
     <string id="WbjNNE8Z" text="Укрепленная фианская кольчуга горца"/>
     <string id="WdZTrPpG" text="Кольчужные наплечники горца"/>
-    <string id="WkB0tJRU" text="Железный тренировочный скимитар"/>
     <string id="WUasz2kP" text="Хороший двуручный меч горца"/>
     <!--TODO-->
     <string id="XGytILlt" text="Grapeshot Ammo"/>
@@ -1044,5 +1026,27 @@
     <string id="SIdCIRfG" text="Латунные чешуйчатые наплечники"/>
     <string id="U0zBG3F9" text="Чешуйчатые наплечники"/>
     <string id="Vqu67a3b" text="Шелк-сырец"/>
+    <string id="1zbxYGLM" text="Jagged Sparring Spear"/>
+    <string id="5dQdBOTa" text="Sparring Gallogaich Axe"/>
+    <string id="6BwYAfyI" text="Bamboo Handled Sparring Axe"/>
+    <string id="8v4lSHdr" text="Iron Sparring Scimitar"/>
+    <string id="aaAV8Nni" text="Iron Sparring Broadsword"/>
+    <string id="aLAgamW4" text="Northern Sparring Blade"/>
+    <string id="APO9YcBv" text="Sparring Two Handed Axe"/>
+    <string id="EbWA5mcO" text="Sparring Billhook"/>
+    <string id="HfdMRTdk" text="Southern Sparring Throwing Daggers"/>
+    <string id="kE0b93nV" text="Imperial Sparring Lance"/>
+    <string id="Nk3pHXgj" text="Highland Cured Leather Shoulders"/>
+    <string id="OduQaxEX" text="Sparing Iron Spatha"/>
+    <string id="oJKXjRJ3" text="Highland Scale Armor Over Cloth"/>
+    <string id="pBVVSMWy" text="Eastern Sparring Javelin"/>
+    <string id="QlvnKQbc" text="Highland Scale Armor Over Mail Armor"/>
+    <string id="slF6Ibdh" text="Iron Sparring Sabre"/>
+    <string id="SuRXfLAK" text="Iron Sparring Arming Sword"/>
+    <string id="TAczhIzX" text="Northern Fur Trimmed Tunic"/>
+    <string id="VxbtKGPk" text="Western Sparring Lance"/>
+    <string id="wIot5ohD" text="Iron Sparring Flyssa"/>
+    <string id="yiQrbOuJ" text="Simple Sparring Javelin"/>
+    <string id="YNabqvLK" text="Northern Sparring Spear"/>
   </strings>
 </base>
