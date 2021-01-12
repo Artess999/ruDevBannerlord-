@@ -6068,8 +6068,10 @@
     <action type="act_walk_left_to_right_unarmed" animation="villager_walk_unarmed" />
 
     <!--
-    <action type="act_sit_down_from_front" animation="child_sit_down_from_front" />
-    <action type="act_stand_up_to_front" animation="child_stand_up_to_front_female" />
+      <action type="act_sit_down_from_front" animation="anim_sit_down_front_child" />
+      <action type="act_stand_up_to_front" animation="anim_stand_up_to_front_child" />
+	  <action type="act_sit_1" animation="anim_sit_child_1" />  
+	  
     <action type="act_sit_down_from_left" animation="child_sit_down_from_left" />
     <action type="act_stand_up_to_right" animation="child_stand_up_to_right" />
     <action type="act_sit_down_from_right" animation="child_sit_down_from_right" />
@@ -6175,6 +6177,53 @@
     <action type="act_childhood_clever" animation="anim_childhood_clever" />
     <action type="act_childhood_book" animation="anim_childhood_book" />
 
+      <action type="act_childhood_arms" animation="anim_childhood_arms" />	  
+      <action type="act_childhood_artisan" animation="anim_childhood_artisan" />	 
+      <action type="act_childhood_polearm" animation="anim_childhood_polearm" />		  
+      <action type="act_childhood_roguery" animation="anim_childhood_roguery" />
+      <action type="act_childhood_spotting" animation="anim_childhood_spotting" />
+      <action type="act_childhood_clever_2" animation="anim_childhood_clever_2" />	
+      <action type="act_childhood_manners_2" animation="anim_childhood_manners_2" />
+      <action type="act_childhood_arms_2" animation="anim_childhood_arms_2" />	  
+	  
+      <action type="act_childhood_ready_bow" animation="anim_childhood_bowready" />
+      <action type="act_childhood_guard_up_staff" animation="anim_childhood_guard_up_staff" />
+	  
+      <action type="act_childhood_spoiled" animation="anim_childhood_spoiled" />		  
+      <action type="act_childhood_explorer" animation="anim_childhood_explorer" />		  
+      <action type="act_childhood_explorer2" animation="anim_childhood_explorer2" />			  
+      <action type="act_childhood_manners_3" animation="anim_childhood_manners_3" />		  
+      <action type="act_childhood_play" animation="anim_childhood_play" />		  		  
+      <action type="act_childhood_play_2" animation="anim_childhood_play_2" />				  
+      <action type="act_childhood_genius" animation="anim_childhood_genius" />		  
+      <action type="act_childhood_honor" animation="anim_childhood_honor" />		  
+      <action type="act_childhood_hardened" animation="anim_childhood_hardened" />		  
+      <action type="act_childhood_grit" animation="anim_childhood_grit" />		  
+      <action type="act_childhood_defend" animation="anim_childhood_defend" />		  		  
+      <action type="act_childhood_focus" animation="anim_childhood_focus" />				  
+      <action type="act_childhood_strenght" animation="anim_childhood_strenght" />	
+      <action type="act_childhood_leader_2" animation="anim_childhood_leader_2" />		  
+      <action type="act_childhood_contemplate" animation="anim_childhood_contemplate" />		  		  
+      <action type="act_childhood_tactician" animation="anim_childhood_tactician" />				  
+      <action type="act_childhood_appearances" animation="anim_childhood_appearances" />	
+      <action type="act_childhood_sceptic" animation="anim_childhood_sceptic" />		    	  
+      <action type="act_childhood_ready_throw" animation="anim_childhood_ready_throw" />		  	   
+	  <action type="act_childhood_riding_2" animation="anim_childhood_rider_2" />	
+
+      <action type="act_stand_1" animation="stand_female_10" />
+      <action type="act_stand_2" animation="anim_stand_with_baby" />		  
+      <action type="act_sit_1" animation="anim_sit_idle_female_3" />
+	  
+      <action type="act_childhood_toddler_sleep" animation="anim_childhood_toddler_sleep" />	
+      <action type="act_childhood_toddler_vigor" animation="anim_childhood_toddler_vigor" />		  		  
+      <action type="act_childhood_toddler_social" animation="anim_childhood_toddler_social" />				  
+      <action type="act_childhood_toddler_endurance" animation="anim_childhood_toddler_endurance" />	
+      <action type="act_childhood_toddler_intelligence" animation="anim_childhood_toddler_intelligence" />				  
+      <action type="act_childhood_toddler_control" animation="anim_childhood_toddler_control" />		 
+      <action type="act_childhood_toddler_cunning" animation="anim_childhood_toddler_cunning" />
+      <action type="act_childhood_toddler_tantrum" animation="anim_childhood_toddler_tantrum" />		 
+
+	  
     <action type="act_character_creation_male_default_0" animation="anim_father_0" />
     <action type="act_character_creation_male_default_1" animation="anim_father_1" />
     <action type="act_character_creation_male_default_2" animation="anim_father_2" />
@@ -6237,6 +6286,54 @@
     <action type="act_childhood_clever" animation="anim_childhood_clever" />
     <action type="act_childhood_book" animation="anim_childhood_book" />
 
+      <action type="act_childhood_arms" animation="anim_childhood_arms" />	  
+      <action type="act_childhood_artisan" animation="anim_childhood_artisan" />	 
+      <action type="act_childhood_polearm" animation="anim_childhood_polearm" />		  
+      <action type="act_childhood_roguery" animation="anim_childhood_roguery" />
+      <action type="act_childhood_spotting" animation="anim_childhood_spotting" />
+      <action type="act_childhood_clever_2" animation="anim_childhood_clever_2" />	
+      <action type="act_childhood_manners_2" animation="anim_childhood_manners_2" />
+      <action type="act_childhood_arms_2" animation="anim_childhood_arms_2" />		  
+	  
+      <action type="act_childhood_spoiled" animation="anim_childhood_spoiled" />		  
+      <action type="act_childhood_explorer" animation="anim_childhood_explorer" />		  
+      <action type="act_childhood_explorer2" animation="anim_childhood_explorer2" />			  
+      <action type="act_childhood_manners_3" animation="anim_childhood_manners_3" />		  
+      <action type="act_childhood_play" animation="anim_childhood_play" />		  		  
+      <action type="act_childhood_play_2" animation="anim_childhood_play_2" />				  
+      <action type="act_childhood_genius" animation="anim_childhood_genius" />	
+
+      <action type="act_childhood_toddler_sleep" animation="anim_childhood_toddler_sleep" />	
+      <action type="act_childhood_toddler_vigor" animation="anim_childhood_toddler_vigor" />		  		  
+      <action type="act_childhood_toddler_social" animation="anim_childhood_toddler_social" />				  
+      <action type="act_childhood_toddler_endurance" animation="anim_childhood_toddler_endurance" />		  	  	  
+      <action type="act_childhood_toddler_intelligence" animation="anim_childhood_toddler_intelligence" />				  
+      <action type="act_childhood_toddler_control" animation="anim_childhood_toddler_control" />		 
+      <action type="act_childhood_toddler_cunning" animation="anim_childhood_toddler_cunning" />		 
+      <action type="act_childhood_toddler_tantrum" animation="anim_childhood_toddler_tantrum" />		 
+	  
+
+      <action type="act_childhood_ready_bow" animation="anim_childhood_bowready" />
+      <action type="act_childhood_guard_up_staff" animation="anim_childhood_guard_up_staff" />	  
+      <action type="act_childhood_honor" animation="anim_childhood_honor" />		  
+      <action type="act_childhood_hardened" animation="anim_childhood_hardened" />		  
+      <action type="act_childhood_grit" animation="anim_childhood_grit" />		  
+      <action type="act_childhood_defend" animation="anim_childhood_defend" />		  		  
+      <action type="act_childhood_focus" animation="anim_childhood_focus" />				  
+      <action type="act_childhood_strenght" animation="anim_childhood_strenght" />	
+      <action type="act_childhood_leader_2" animation="anim_childhood_leader_2" />		  
+      <action type="act_childhood_contemplate" animation="anim_childhood_contemplate" />		  		  
+      <action type="act_childhood_tactician" animation="anim_childhood_tactician" />				  
+      <action type="act_childhood_appearances" animation="anim_childhood_appearances" />	
+      <action type="act_childhood_sceptic" animation="anim_childhood_sceptic" />		  	  	  
+      <action type="act_childhood_ready_throw" animation="anim_childhood_ready_throw" />		  	   
+	  <action type="act_childhood_riding_2" animation="anim_childhood_rider_2" />	  
+
+      <action type="act_stand_1" animation="stand_female_10" />
+      <action type="act_stand_2" animation="anim_stand_with_baby" />	  
+      <action type="act_sit_1" animation="anim_sit_caretaker" />
+	  
+	  
     <action type="act_character_creation_female_default_0" animation="anim_mother_0" />
     <action type="act_character_creation_female_default_1" animation="anim_mother_1" />
     <action type="act_character_creation_female_default_2" animation="anim_mother_2" />

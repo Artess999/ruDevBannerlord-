@@ -551,9 +551,6 @@
         <input index="8" type="texture" source="bluenoise" />
         <input index="9" type="provided" source="color_grade" />
         <input index="10" type="provided" source="color_grade_blend" />
-        <input index="12" type="provided" source="gbuffer_motion_vectors" />
-        <input index="13" type="provided" source="gbuffer_depth" />
-        <input index="14" type="provided" source="gbuffer_normals" />
         <input index="11" type="texture" source="default_random32" />
       </postfx_node>
       

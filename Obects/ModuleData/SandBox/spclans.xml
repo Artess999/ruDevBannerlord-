@@ -29,7 +29,7 @@
   <!--bandit factions-->
   <Faction id="looters"
            owner="Hero.lord_looters_1"
-           banner_key="24.95.116.1536.1536.768.768.1.0.0"
+           banner_key="24.116.95.1536.1536.768.768.1.0.0"
            label_color="FF8B7C73"
            color="FF8B7C73"
            color2="FF8B7C73"
@@ -106,7 +106,7 @@
            tier="1"></Faction>
   <Faction id="steppe_bandits"
            owner="Hero.lord_steppe_bandits_1"
-           banner_key="20.18.116.1536.1536.768.768.1.0.0"
+           banner_key="20.116.18.1536.1536.768.768.1.0.0"
            label_color="FF8B7C73"
            color="FF8B7C73"
            color2="FF8B7C73"
@@ -334,7 +334,7 @@
   <Faction id="karakhuzaits"
            initial_posX="700.0"
            initial_posY="515.0"
-           banner_key="34.10.25.1536.1536.768.768.1.0.0.314.35.0.390.390.770.762.0.0.269"
+           banner_key="34.25.10.1536.1536.768.768.1.0.0.314.22.35.390.390.770.762.0.0.269"
            label_color="FF72583B"
            color="FF72583B"
            color2="FF72583B"
@@ -432,7 +432,7 @@
 		-->
   <Faction id="clan_empire_north_3"
            name="{=txCNVmSV}Neretzes"
-           tier="5"
+           tier="4"
            owner="Hero.lord_1_5"
            culture="Culture.empire"
            super_faction="Kingdom.empire"
@@ -479,12 +479,12 @@
            super_faction="Kingdom.empire"
            banner_key="11.71.4.8690.8690.590.796.1.0.0.401.5.0.335.335.769.775.0.0.15.401.5.0.170.170.769.775.0.0.29.503.5.0.59.57.769.775.0.0.15.423.5.0.500.511.767.784.0.0.0" />
   <Faction id="clan_empire_north_9"
-           name="{=*}Serapides"
+           name="{=nclQqoam}Serapides"
            tier="2"
            owner="Hero.lord_NE9_l"
            culture="Culture.empire"
            super_faction="Kingdom.empire"
-           banner_key="11.71.4.8690.8690.590.796.1.0.0.401.5.0.335.335.769.775.0.0.15.401.5.0.170.170.769.775.0.0.29.503.5.0.59.57.769.775.0.0.15.423.5.0.500.511.767.784.0.0.0" />  
+           banner_key="11.71.4.8690.8690.590.796.1.0.0.401.5.0.335.335.769.775.0.0.15.401.5.0.170.170.769.775.0.0.29.503.5.0.59.57.769.775.0.0.15.423.5.0.500.511.767.784.0.0.0" />
   <!-- Populist starting kingdom - WEST-->
   <Faction id="clan_empire_west_1"
            name="{=OVQoC9fn}Comnos"
@@ -521,7 +521,7 @@
 	-->
   <Faction id="clan_empire_west_4"
            name="{=xqkKtWqa}Elaches"
-           tier="3"
+           tier="4"
            owner="Hero.lord_1_40"
            culture="Culture.empire"
            super_faction="Kingdom.empire_w"
@@ -542,7 +542,7 @@
            banner_key="11.71.4.4922.4922.776.777.1.0.0.336.5.0.486.486.761.813.0.0.0.340.5.0.279.279.763.566.0.0.0" />
   <Faction id="clan_empire_west_7"
            name="{=bjemmmcF}Corenios"
-           tier="2"
+           tier="3"
            owner="Hero.lord_1_53"
            culture="Culture.empire"
            super_faction="Kingdom.empire_w"
@@ -580,7 +580,7 @@
 	Patriarch #15 - Old-school aristocrat, doing something he finds distasteful to maintain his family's position
 	Cunning, pragmatist heir
 		"The empire is beset on all sides, it defeat its foes, it must absorb them."
-	-->  
+	-->
   <Faction id="clan_empire_south_2"
            name="{=UQHUu2bj}Leonipardes"
            tier="4"
@@ -604,7 +604,7 @@
 	-->
   <Faction id="clan_empire_south_4"
            name="{=4Dbwdjbe}Hongeros"
-           tier="3"
+           tier="4"
            owner="Hero.lord_1_30"
            culture="Culture.empire"
            super_faction="Kingdom.empire_s"
@@ -618,14 +618,14 @@
            banner_key="11.71.4.4922.4922.776.777.1.0.0.119.5.0.398.398.766.706.0.0.0.217.5.0.351.351.769.855.0.0.0.512.5.0.156.156.934.866.0.0.0.512.5.0.156.156.603.864.0.0.0" />
   <Faction id="clan_empire_south_6"
            name="{=BxCRDt5m}Vizartos"
-           tier="2"
+           tier="3"
            owner="Hero.lord_1_54"
            culture="Culture.empire"
            super_faction="Kingdom.empire_s"
            banner_key="11.71.4.4922.4922.776.777.1.0.0.435.5.0.508.508.767.759.0.0.0.423.5.0.507.507.754.718.0.0.0" />
   <Faction id="clan_empire_south_7"
            name="{=Ds2vQVwr}Avlonos"
-           tier="2"
+           tier="3"
            owner="Hero.lord_1_55"
            culture="Culture.empire"
            super_faction="Kingdom.empire_s"
@@ -688,7 +688,7 @@
            banner_key="11.101.75.4345.4345.776.777.1.0.0.446.1.0.452.452.764.763.0.0.359.309.1.0.386.386.640.767.0.0.320.309.1.0.383.383.900.778.0.0.146" />
   <Faction id="clan_aserai_4"
            name="{=lUfFxWlk}Banu Qaraz"
-           tier="3"
+           tier="4"
            owner="Hero.lord_3_16"
            culture="Culture.aserai"
            super_faction="Kingdom.aserai"
@@ -702,7 +702,7 @@
            banner_key="11.101.75.4345.4345.776.777.1.0.0.425.1.0.500.500.768.829.0.0.359.400.1.0.162.162.776.944.0.0.0.411.1.0.260.260.775.640.0.0.0" />
   <Faction id="clan_aserai_6"
            name="{=l6JtB97p}Banu Atij"
-           tier="2"
+           tier="4"
            owner="Hero.lord_3_18"
            culture="Culture.aserai"
            super_faction="Kingdom.aserai"
@@ -794,7 +794,7 @@
 	-->
   <Faction id="clan_vlandia_5"
            name="{=9qAUWcfa}dey Gunric"
-           tier="1"
+           tier="2"
            owner="Hero.lord_4_21"
            culture="Culture.vlandia"
            super_faction="Kingdom.vlandia"
@@ -836,7 +836,7 @@
            banner_key="11.71.14.4922.4922.580.740.1.0.0.305.15.0.444.444.759.762.0.0.0.206.15.0.480.480.653.760.0.0.17.206.15.0.480.480.872.768.0.0.194" />
   <Faction id="clan_vlandia_11"
            name="{=DeSGiCgF}dey Rothad"
-           tier="2"
+           tier="4"
            owner="Hero.lord_V11_l"
            culture="Culture.vlandia"
            super_faction="Kingdom.vlandia"
@@ -984,7 +984,7 @@
            banner_key="11.25.10.4345.4345.780.802.1.0.0.427.11.0.438.438.767.854.0.0.359.503.11.0.211.211.762.809.0.0.358.218.11.0.243.243.752.625.0.0.0" />
   <Faction id="clan_khuzait_6"
            name="{=kbGk2so8}Baltait"
-           tier="3"
+           tier="4"
            owner="Hero.lord_6_18"
            culture="Culture.khuzait"
            super_faction="Kingdom.khuzait"
@@ -1056,7 +1056,7 @@
 	-->
   <Faction id="clan_sturgia_4"
            name="{=AppNvfPv}Ormidoving"
-           tier="5"
+           tier="4"
            owner="Hero.lord_2_16"
            culture="Culture.sturgia"
            super_faction="Kingdom.sturgia"
@@ -1077,7 +1077,7 @@
            banner_key="11.71.12.4922.4922.580.740.1.0.0.441.111.0.511.511.770.767.0.0.359" />
   <Faction id="clan_sturgia_7"
            name="{=xw0eTkkb}Vezhoving"
-           tier="3"
+           tier="4"
            owner="Hero.lord_2_19"
            culture="Culture.sturgia"
            super_faction="Kingdom.sturgia"

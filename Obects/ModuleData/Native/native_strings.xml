@@ -416,7 +416,8 @@
     <string id="str_multiplayer_no_region_query_description" text="{=1zveWQFg}Go to matchmaking tab and select a region in order to queue for a battle" />
     <string id="str_multiplayer_region_name_none" text="{=koX9okuG}None" />
     <string id="str_multiplayer_region_name.EU" text="{=1fFnE9Vk}Europe" />
-    <string id="str_multiplayer_region_name.US" text="{=0nRbr6Z9}North America" />
+    <string id="str_multiplayer_region_name.USE" text="{=GYc0Dcbn}North America East" />
+    <string id="str_multiplayer_region_name.USW" text="{=gUQI0PLa}North America West" />
     <string id="str_multiplayer_region_name.CN" text="{=tp6B2QGw}East Asia" />
     <string id="str_multiplayer_region_connection_quality.Unknown" text="{=cK5DE88I}N/A" />
     <string id="str_multiplayer_region_connection_quality.Poor" text="{=UY79LYHf}Poor" />

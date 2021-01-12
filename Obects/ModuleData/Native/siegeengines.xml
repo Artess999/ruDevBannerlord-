@@ -5,7 +5,7 @@
                    name ="{=pa3E7810}Siege Preparations"
                    description ="{=*}Fill in ditches, level the terrain and set up aracher positions in preparation of the assault."
                    is_constructible="false"
-                   man_day_cost="24"/>
+                   man_day_cost="32"/>
   <SiegeEngineType id="ladder"
                    name ="{=G0AWk1rX}Ladder"
                    description ="{=*}Ladders are simple and quick to produce but offer no protection for the assailants."

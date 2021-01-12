@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <strings>
-    <string id="skolderbrotva_encounter_hostile" text="{=cm3s2SRr}Greetings. Fate has decreed that you are to cross spears today with the skolderbrotva. Fear not - all mortals must die. Put up a good fight, and your name will live on after you." />
+    <string id="skolderbrotva_encounter_hostile" text="{=cm3s2SRr}Greetings. Fate has decreed that you are to cross spears today with the Skolderbroda. Fear not - all mortals must die. Put up a good fight, and your name will live on after you." />
     <string id="skolderbrotva_encounter_neutral" text="{=2JDctkZH}Greetings. As far as I know we have no quarrel with you, so unless you have something to tell us, you may be on your way." />
     <string id="skolderbrotva_selfdescription" text="{=!}... self description..." />
     <string id="skolderbrotva_how_to_befriend" text="{=!}... self description..." />

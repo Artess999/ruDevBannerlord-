@@ -140,7 +140,11 @@
         <flag name="do_blink" />
       </flags>
     </face_animation_record>
-
+    <face_animation_record id="talking_engaged" animation_name="talking_engaged">
+      <flags>
+        <flag name="do_blink" />
+      </flags>
+    </face_animation_record>
     <!--GREETINGS-->
 
     <!--GAMEPLAY REACTIONS-->
@@ -255,6 +259,13 @@
       </flags>
     </face_animation_record>
 
+
+    <face_animation_record id="cry" animation_name="cry">
+      <flags>
+
+      </flags>
+    </face_animation_record>
+
     <face_animation_record id="scared" animation_name="scared">
       <flags>
         <flag name="look_at_player" />
@@ -313,6 +324,10 @@
     </face_animation_record>
 
     <face_animation_record id="hard_laugh" animation_name="hard_laugh">
+      <flags>
+      </flags>
+    </face_animation_record>
+    <face_animation_record id="laugh" animation_name="laugh">
       <flags>
       </flags>
     </face_animation_record>
@@ -473,7 +488,7 @@
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="idle_condescend" animation_name="idle_condescend">
+    <face_animation_record id="idle_condescend" animation_name="idle_condescend"> <!-- could also be pleasant -->
       <flags>
 
         <flag name="do_blink" />
@@ -499,6 +514,12 @@
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
+
+    <face_animation_record id="idle_sleep" animation_name="idle_sleep">
+      <flags>
+
+      </flags>
+    </face_animation_record>	
 	
     <face_animation_record id="idle_lookaround" animation_name="idle_lookaround">
       <flags>
@@ -565,6 +586,12 @@
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
+    <face_animation_record id="eat_all" animation_name="eat_all">
+      <flags>
+        <flag name="do_blink" />
+      </flags>
+    </face_animation_record>	
+	
 
     <face_animation_record id="lookdown" animation_name="lookdown">
       <flags>
@@ -593,7 +620,7 @@
       </flags>
     </face_animation_record>		
 	
-    <face_animation_record id="convo_bored" animation_name="convo_bored">
+    <face_animation_record id="convo_bored" animation_name="convo_bored"> <!-- looks sidelong -->
       <flags>
         <flag name="look_at_player" />	  
       </flags>
@@ -606,118 +633,127 @@
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_nonchalant" animation_name="convo_nonchalant">
+    <face_animation_record id="convo_nonchalant" animation_name="convo_nonchalant"> <!-- attentive, slightly nervous -->
       <flags>
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_irritable" animation_name="convo_irritable">
+    <face_animation_record id="convo_irritable" animation_name="convo_irritable"> <!-- really angry -->
       <flags>
         <flag name="look_at_player" />
 
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_astonished" animation_name="convo_astonished">
+    <face_animation_record id="convo_astonished" animation_name="convo_astonished"> <!-- very nervous, eyebrows lifted a lot -->
       <flags>
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_charitable" animation_name="convo_charitable">
+    <face_animation_record id="convo_charitable" animation_name="convo_charitable"> <!-- shows teeth -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_insidious" animation_name="convo_insidious">
+    <face_animation_record id="convo_insidious" animation_name="convo_insidious"> <!-- really wicked smile, exaggerated -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_curious" animation_name="convo_curious">
+    <face_animation_record id="convo_curious" animation_name="convo_curious"> <!-- slightly twisted smile, looks nervous -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_composed" animation_name="convo_composed">
+    <face_animation_record id="convo_composed" animation_name="convo_composed"> <!-- attentive, blinks a little -->
       <flags>
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_friendly" animation_name="convo_friendly">
+    <face_animation_record id="convo_friendly" animation_name="convo_friendly"> <!-- Open-mouthed, probably best to use for initial greeting only-->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_bewildered" animation_name="convo_bewildered">
+    <face_animation_record id="convo_bewildered" animation_name="convo_bewildered"> <!-- nervous smile -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_bent" animation_name="convo_bent">
+    <face_animation_record id="convo_bent" animation_name="convo_bent"> <!-- twisted smile -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_grave" animation_name="convo_grave">
+    <face_animation_record id="convo_grave" animation_name="convo_grave"> <!-- scowls -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_grim" animation_name="convo_grim">
+    <face_animation_record id="convo_grim" animation_name="convo_grim"> <!-- snarls -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_merry" animation_name="convo_merry">
+    <face_animation_record id="convo_merry" animation_name="convo_merry"> <!--huge overbite -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_genuine" animation_name="convo_genuine">
+    <face_animation_record id="convo_genuine" animation_name="convo_genuine"> <!-- slightly twisted smile, pops eyes a bit-->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
-    <face_animation_record id="convo_stonefaced" animation_name="convo_stonefaced">
+    <face_animation_record id="convo_stonefaced" animation_name="convo_stonefaced"> <!-- really hard stare -->
       <flags>
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
-    <face_animation_record id="convo_mocking" animation_name="convo_mocking">
+    <face_animation_record id="convo_mocking" animation_name="convo_mocking"> <!-- malevolent, pops eyes a bit -->
       <flags>
         <flag name="do_blink" />
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
 
-    <face_animation_record id="convo_happy" animation_name="convo_happy">
+    <face_animation_record id="convo_happy" animation_name="convo_happy"> <!-- closed smile -->
       <flags>
         <flag name="look_at_player" />
       </flags>
     </face_animation_record>
-
+    <face_animation_record id="convo_nervous" animation_name="convo_nervous">
+      <flags>
+        <flag name="do_blink" />
+      </flags>
+    </face_animation_record>
+    <face_animation_record id="convo_excited" animation_name="convo_excited">
+      <flags>
+        <flag name="do_blink" />
+      </flags>
+    </face_animation_record>
 
 	<!--GAMEPLAY IDLES-->
 

@@ -8179,7 +8179,7 @@
   <CraftedItem multiplayer_item="true"
                id="mp_empire_battle_axe"
                name="{=cQMDVJnE}Imperial Battle Axe"
-               crafting_template="OneHandedAxe"
+               crafting_template="TwoHandedAxe"
                value="999"
                is_merchandise="false"
                culture="Culture.neutral_culture">
@@ -8432,7 +8432,7 @@
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
                id="mp_vlandian_bastard_axe"
-               name="{=*}Bastard Axe"
+               name="{=ZJweh5Oh}Bastard Axe"
                crafting_template="TwoHandedAxe"
                value="999"
                is_merchandise="false"
@@ -9109,7 +9109,7 @@
              Type="Guard" />
       <Piece id="mp_empire_lance_handle"
              Type="Handle"
-             scale_factor="107" />
+             scale_factor="108" />
       <Piece id="mp_default_polearm_pommel"
              Type="Pommel" />
     </Pieces>
@@ -9142,6 +9142,25 @@
     <Pieces>
       <Piece id="mp_khuzait_lance_blade"
              Type="Blade" />
+      <Piece id="mp_khuzait_lance_handle"
+             Type="Handle"
+             scale_factor="103" />
+    </Pieces>
+    <!-- Length: 192 Weight: 2.15 SwingSpeed: 52 ThrustSpeed: 96 SwingDamage: 25B, 0S ThrustDamage: 11B, 40S -->
+  </CraftedItem>
+  <CraftedItem multiplayer_item="true"
+             id="mp_khuzait_lance_long"
+             name="{=?}Long Eastern Lance"
+             crafting_template="TwoHandedPolearm"
+             culture="Culture.neutral_culture"
+             value="999"
+             is_merchandise="false">
+    <Pieces>
+      <Piece id="mp_khuzait_lance_blade"
+             Type="Blade"
+             scale_factor="106" />
+      <Piece id="mp_spear_guard_14"
+             Type="Guard" />
       <Piece id="mp_khuzait_lance_handle"
              Type="Handle"
              scale_factor="103" />
@@ -9187,8 +9206,8 @@
     <!-- Length: 21600 Weight: 2.46 -->
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
-               id="mp_sturgia_lance"
-               name="{=xjrQHxnO}Northern Lance"
+               id="mp_sturgia_long_lance"
+               name="{=?}Northern Long Lance"
                crafting_template="TwoHandedPolearm"
                value="999"
                is_merchandise="false"
@@ -9200,6 +9219,23 @@
       <Piece id="mp_sturgia_lance_handle"
              Type="Handle"
              scale_factor="110"></Piece>
+    </Pieces>
+    <!-- Length: 191 Weight: 1.41 SwingSpeed: 64 ThrustSpeed: 103 -->
+  </CraftedItem>
+  <CraftedItem multiplayer_item="true"
+             id="mp_sturgia_heavy_lance"
+             name="{=?}Northern Heavy Lance"
+             crafting_template="TwoHandedPolearm"
+             value="999"
+             is_merchandise="false"
+             culture="Culture.neutral_culture">
+    <Pieces>
+      <Piece id="mp_sturgia_heavy_lance_blade"
+             Type="Blade"
+             scale_factor="100"></Piece>
+      <Piece id="mp_sturgia_lance_handle"
+             Type="Handle"
+             scale_factor="98"></Piece>
     </Pieces>
     <!-- Length: 191 Weight: 1.41 SwingSpeed: 64 ThrustSpeed: 103 -->
   </CraftedItem>
@@ -10747,16 +10783,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_hunting_bow_faster_arrows"
-       name="{=wltdyF2j}Hunting Bow"
-       body_name="bo_composite_shotbow_h"
-       mesh="shortbow_h"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="1.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+        name="{=wltdyF2j}Hunting Bow"
+        body_name="bo_composite_shotbow_h"
+        mesh="shortbow_h"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="1.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -10783,16 +10819,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_fast_hunting_bow"
-       name="{=wltdyF2j}Fast Hunting Bow"
-       body_name="bo_composite_shotbow_h"
-       mesh="shortbow_h"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="1.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+        name="{=wltdyF2j}Fast Hunting Bow"
+        body_name="bo_composite_shotbow_h"
+        mesh="shortbow_h"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="1.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -11070,16 +11106,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_long_bow_fast_arrows"
-       name="{=KBrDpNxO}Long Bow"
-       body_name="bo_composite_longbow_a"
-       mesh="longbow_b"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="2.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+        name="{=KBrDpNxO}Long Bow"
+        body_name="bo_composite_longbow_a"
+        mesh="longbow_b"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="2.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -11240,7 +11276,6 @@
     </Pieces>
     <!-- Length: 34 Weight: 0.75 SwingSpeed: 135 ThrustSpeed: 109 -->
   </CraftedItem>
-  
   <CraftedItem multiplayer_item="true"
                id="mp_vlandian_throwing_axe"
                name="{=F4xD8gjJ}Franceska"
@@ -12750,7 +12785,7 @@
         culture="Culture.sturgia"
         using_tableau="true"
         is_merchandise="false"
-        weight="4"
+        weight="2.8"
         difficulty="0"
         appearance="0.7"
         Type="Shield"
@@ -12929,7 +12964,7 @@
            ForceAttachOffHandSecondaryItemBone="true" />
   </Item>
   <Item id="mp_northern_scouts_shield"
-        name="{=*}Northern Kite Shield"
+        name="{=QArSPrAV}Northern Kite Shield"
         body_name="bo_cap_shield_sturgia_cavalary_a"
         shield_body_name="bo_cap_shield_sturgia_cavalary_a"
         recalculate_body="false"
@@ -13081,7 +13116,7 @@
         using_tableau="true"
         value="999"
         is_merchandise="false"
-        weight="3"
+        weight="2.7"
         Type="Shield"
         item_holsters="shield:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
@@ -13121,7 +13156,7 @@
         Type="Shield"
         item_holsters="shield_kite:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
-        holster_position_shift="-0.1,0.0,0">
+        holster_position_shift="0.0,0.0,0">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
               body_armor="8"
@@ -13130,8 +13165,8 @@
               speed_rating="82"
               physics_material="wood_shield"
               item_usage="shield"
-              position="0.0, 0.00, 0.00"
-              rotation="0.0,10.0,40.00"
+              position="0.18, -0.04, 0.00"
+              rotation="-5.90,19.00,38.50"
               weapon_length="77"
               center_of_mass="-0.035,0.1,0.05"
               hit_points="130">
@@ -13489,7 +13524,7 @@
         culture="Culture.neutral_culture"
         value="999"
         is_merchandise="false"
-        weight="5"
+        weight="3.2"
         Type="Shield"
         item_holsters="shield_oval:shield_4:shield_3:shield_2"
         has_lower_holster_priority="true"
@@ -13707,7 +13742,7 @@
         mesh="kite_shield_d"
         using_tableau="true"
         is_merchandise="false"
-        weight="5.8"
+        weight="3.5"
         appearance="0.7"
         Type="Shield"
         item_holsters="shield_kite:shield_2:shield_3:shield_4"
@@ -13879,7 +13914,7 @@
   <!-- #region Horses -->
   <Item multiplayer_item="true"
         id="mp_vlandia_horse"
-        name="{=hunterhorse}Hunter"
+        name="{=?}Saddle Horse"
         mesh="horse_brown"
         subtype="horse"
         item_category="sumpter_horse"
@@ -13891,7 +13926,58 @@
       <Horse monster="Monster.horse"
              maneuver="62"
              speed="43"
-             charge_damage="2"
+             charge_damage="5"
+             body_length="104"
+             is_mountable="true"
+             extra_health="20"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_white_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_vlandia_horse_faster"
+        name="{=hunterhorse}Hunter"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="sumpter_horse"
+        is_merchandise="false"
+        weight="400"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="65"
+             speed="47"
+             charge_damage="4"
              body_length="103"
              is_mountable="true"
              extra_health="20"
@@ -13941,8 +14027,8 @@
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="70"
-             speed="47"
-             charge_damage="2"
+             speed="44"
+             charge_damage="4"
              body_length="103"
              is_mountable="true"
              extra_health="20"
@@ -13993,7 +14079,7 @@
       <Horse monster="Monster.horse"
              maneuver="65"
              speed="41"
-             charge_damage="13"
+             charge_damage="12"
              body_length="113"
              is_mountable="true"
              extra_health="30"
@@ -14038,7 +14124,7 @@
       <Horse monster="Monster.horse"
              maneuver="63"
              speed="40"
-             charge_damage="9"
+             charge_damage="12"
              body_length="113"
              is_mountable="true"
              extra_health="70"
@@ -14081,12 +14167,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="67"
-             speed="44"
-             charge_damage="13"
-             body_length="113"
+             maneuver="68"
+             speed="45"
+             charge_damage="12"
+             body_length="111"
              is_mountable="true"
-             extra_health="20"
+             extra_health="30"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14128,7 +14214,7 @@
       <Horse monster="Monster.horse"
              maneuver="60"
              speed="45"
-             charge_damage="4"
+             charge_damage="5"
              body_length="100"
              is_mountable="true"
              extra_health="10"
@@ -14165,6 +14251,53 @@
       </Horse>
     </ItemComponent>
     <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_sturgia_horse_agile" 
+        name="{=sturgianhunterhorse}Sturgian Hunter" 
+        mesh="horse_brown" 
+        subtype="horse" 
+        item_category="horse" 
+        culture="Culture.sturgia" 
+        weight="400" 
+        difficulty="0" 
+        appearance="1" 
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse" 
+             maneuver="71" 
+             speed="43" 
+             charge_damage="8" 
+             body_length="102" 
+             is_mountable="true" 
+             extra_health="45" 
+             skeleton_scale="sturgia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2" 
+                affected_by_cover="true" />
+          <Mesh name="horse_trotter" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101" 
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090" 
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030" 
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090" 
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
   </Item>
   <Item multiplayer_item="true"
         id="mp_sturgia_horse_war"
@@ -14224,9 +14357,9 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="66"
+             maneuver="64"
              speed="41"
-             charge_damage="12"
+             charge_damage="11"
              body_length="112"
              is_mountable="true"
              extra_health="70"
@@ -14272,7 +14405,7 @@
       <Horse monster="Monster.horse"
              maneuver="64"
              speed="39"
-             charge_damage="2"
+             charge_damage="3"
              body_length="92"
              is_mountable="true"
              extra_health="0"
@@ -14317,7 +14450,7 @@
       <Horse monster="Monster.horse"
              maneuver="65"
              speed="38"
-             charge_damage="3"
+             charge_damage="4"
              body_length="95"
              is_mountable="true"
              extra_health="25"
@@ -14362,7 +14495,7 @@
       <Horse monster="Monster.horse"
              maneuver="68"
              speed="41"
-             charge_damage="2"
+             charge_damage="5"
              body_length="95"
              is_mountable="true"
              extra_health="-10"
@@ -14413,12 +14546,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="75"
-             speed="46"
-             charge_damage="2"
-             body_length="97"
+             maneuver="74"
+             speed="43"
+             charge_damage="5"
+             body_length="95"
              is_mountable="true"
-             extra_health="20"
+             extra_health="-10"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14466,8 +14599,8 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="68"
-             speed="40"
+             maneuver="69"
+             speed="41"
              charge_damage="8"
              body_length="100"
              is_mountable="true"
@@ -14601,12 +14734,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="74"
-             speed="43"
-             charge_damage="13"
+             maneuver="68"
+             speed="42"
+             charge_damage="10"
              body_length="100"
              is_mountable="true"
-             extra_health="20"
+             extra_health="-10"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14686,6 +14819,57 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
+        id="mp_empire_horse_agile"
+        name="{=?}Midlands Palfrey"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="horse"
+        is_merchandise="false"
+        weight="400"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="69"
+             speed="46"
+             charge_damage="7"
+             body_length="112"
+             is_mountable="true"
+             extra_health="20"
+             skeleton_scale="empire_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_white_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
         id="mp_empire_horse_faster"
         name="{=kOV5t7Yx}Danustica Horse"
         mesh="horse_brown"
@@ -14697,9 +14881,9 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="68"
-             speed="48"
-             charge_damage="8"
+             maneuver="63"
+             speed="49"
+             charge_damage="7"
              body_length="112"
              is_mountable="true"
              extra_health="20"
@@ -14743,14 +14927,14 @@
         subtype="horse"
         item_category="horse"
         is_merchandise="false"
-        weight="430"
+        weight="400"
         difficulty="0"
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="62"
              speed="40"
-             charge_damage="13"
+             charge_damage="10"
              body_length="120"
              is_mountable="true"
              extra_health="65"
@@ -14782,7 +14966,7 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_empire_horse_agile"
+        id="mp_empire_horse_war_agile"
         name="{=Cw5N7rK6}War Courser"
         mesh="horse_brown"
         subtype="horse"
@@ -14793,12 +14977,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="66"
+             maneuver="67"
              speed="45"
-             charge_damage="10"
+             charge_damage="8"
              body_length="118"
              is_mountable="true"
-             extra_health="45"
+             extra_health="50"
              skeleton_scale="empire_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14833,8 +15017,53 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
+      id="mp_empire_horse_war_charger"
+      name="{=?}Imperial Charger"
+      mesh="horse_brown"
+      subtype="horse"
+      item_category="horse"
+      is_merchandise="false"
+      weight="400"
+      difficulty="0"
+      Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="62"
+             speed="42"
+             charge_damage="13"
+             body_length="118"
+             is_mountable="true"
+             extra_health="55"
+             skeleton_scale="empire_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
         id="mp_aserai_horse"
-        name="{=yPeC0Vgs}Nahasan"
+        name="{=?}Desert horse"
         mesh="horse_brown"
         subtype="horse"
         item_category="horse"
@@ -14846,8 +15075,62 @@
       <Horse monster="Monster.horse"
              maneuver="55"
              speed="50"
-             charge_damage="4"
+             charge_damage="5"
              body_length="105"
+             is_mountable="true"
+             extra_health="0"
+             skeleton_scale="aserai_horse"
+             modifier_group="horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF08080B"
+                              percentage="1.0" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_aserai_horse_agile"
+        name="{=yPeC0Vgs}Nahasan"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="horse"
+        is_merchandise="false"
+        weight="400"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="60"
+             speed="51"
+             charge_damage="5"
+             body_length="103"
              is_mountable="true"
              extra_health="0"
              skeleton_scale="aserai_horse"
@@ -14933,6 +15216,44 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
+        id="mp_aserai_horse_war_faster"
+        name="{=?}Tough Nahasan"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="war_horse"
+        is_merchandise="false"
+        weight="400"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="59"
+             speed="51"
+             charge_damage="7"
+             body_length="105"
+             is_mountable="true"
+             extra_health="30"
+             skeleton_scale="aserai_horse"
+             modifier_group="horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
         id="mp_aserai_horse_war_agile"
         name="{=O4agNHhn}Agile Barb Horse"
         mesh="horse_brown"
@@ -14983,9 +15304,9 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.camel"
-             maneuver="70"
-             speed="45"
-             charge_damage="13"
+             maneuver="74"
+             speed="43"
+             charge_damage="7"
              body_length="95"
              extra_health="80" />
     </ItemComponent>
@@ -15004,9 +15325,53 @@
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="62"
-             speed="44"
-             charge_damage="2"
+             speed="43"
+             charge_damage="5"
              body_length="96"
+             is_mountable="true"
+             extra_health="15"
+             skeleton_scale="battania_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+          <Mesh name="horse_trotter" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="dales_pony_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF08080B"
+                              percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="dales_pony_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_battania_pony_agile"
+        name="{=?}Agile Dale Pony"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="horse"
+        is_merchandise="false"
+        weight="360"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="69"
+             speed="46"
+             charge_damage="5"
+             body_length="95"
              is_mountable="true"
              extra_health="15"
              skeleton_scale="battania_horse">
@@ -15047,9 +15412,9 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="69"
+             maneuver="67"
              speed="41"
-             charge_damage="11"
+             charge_damage="9"
              body_length="100"
              is_mountable="true"
              extra_health="60"
@@ -15120,6 +15485,23 @@
              material_type="Chainmail" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_northern_light_harness" 
+        name="{=8Oi89KRn}Northern Light Harness" 
+        mesh="horse_harness_roman_b_new" 
+        weight="10" 
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor 
+        body_armor="15" 
+        mane_cover_type="none" 
+        family_type="1" 
+        modifier_group="leather" 
+        reins_mesh="horse_harness_roman_b_new_rein" 
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags />
   </Item>
   <Item multiplayer_item="true"
         id="mp_steppe_fur_harness"
@@ -15607,7 +15989,7 @@
         <WeaponFlags Consumable="true"
                      AmmoSticksWhenShot="true"
                      MultiplePenetration="true"
-                     CanPenetrateShield="true"/>
+                     CanPenetrateShield="true" />
       </Weapon>
     </ItemComponent>
     <Flags CannotBePickedUp="true" />
@@ -15649,7 +16031,7 @@
                      Burning="true"
                      MultiplePenetration="true"
                      LeavesTrail="true"
-                     CanPenetrateShield="true"/>
+                     CanPenetrateShield="true" />
       </Weapon>
     </ItemComponent>
     <Flags CannotBePickedUp="true" />

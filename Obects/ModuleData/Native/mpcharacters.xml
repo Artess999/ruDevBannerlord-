@@ -32,14 +32,16 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Body"
                  id="Item.mp_layered_leather_tunic" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_scarf" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="dummy_no_armor"
                 name="{=!}Min Armor (0)"
@@ -56,15 +58,12 @@
                       build="0.2654"
                       key="000B5C0E55BC34423BA3A9598495DD786927950D8394A37E6BD97A7C65E1865600045005043B8488000000000000000000000000000000000000000000C81001" />
     </face>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Body"
                  id="Item.mp_dummy_armor_min" />
-      <!--
-      <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
-      <equipment slot="Leg" id="Item.leather_shoes" />
-      <equipment slot="Head" id="Item.imperial_cloth_coif" />
-      -->
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="dummy_light_armor"
                 name="{=!}Lower Average Armor (12)"
@@ -81,15 +80,12 @@
                       build="0.2654"
                       key="000B5C0E55BC34423BA3A9598495DD786927950D8394A37E6BD97A7C65E1865600045005043B8488000000000000000000000000000000000000000000C81001" />
     </face>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Body"
                  id="Item.mp_dummy_armor_lower_average" />
-      <!--
-      <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
-      <equipment slot="Leg" id="Item.leather_shoes" />
-      <equipment slot="Head" id="Item.imperial_cloth_coif" />
-      -->
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="dummy_medium_armor"
                 name="{=!}Higher Average Armor (37)"
@@ -106,15 +102,12 @@
                       build="0.2654"
                       key="000B5C0E55BC34423BA3A9598495DD786927950D8394A37E6BD97A7C65E1865600045005043B8488000000000000000000000000000000000000000000C81001" />
     </face>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Body"
                  id="Item.mp_dummy_armor_higher_average" />
-      <!--
-      <equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
-      <equipment slot="Leg" id="Item.empire_horseman_boots" />
-      <equipment slot="Head" id="Item.imperial_open_mail_coif" />
-      -->
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="dummy_heavy_armor"
                 name="{=!}Max Armor (55)"
@@ -131,16 +124,12 @@
                       build="0.2654"
                       key="000B5C0E55BC34423BA3A9598495DD786927950D8394A37E6BD97A7C65E1865600045005043B8488000000000000000000000000000000000000000000C81001" />
     </face>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Body"
                  id="Item.mp_dummy_armor_max" />
-      <!-- 
-      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
-      <equipment slot="Leg" id="Item.lamellar_plate_boots" />
-      <equipment slot="Head" id="Item.empire_jewelled_helmet" />
-      <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
-      -->
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!-- Vlandian Heros -->
   <NPCCharacter id="mp_light_infantry_vlandia_hero"
@@ -178,7 +167,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_sickle" />
       <equipment slot="Body"
@@ -187,7 +177,8 @@
                  id="Item.mp_leather_cap" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_vlandia_hero"
                 default_group="Infantry"
@@ -224,7 +215,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_polearm" />
       <equipment slot="Head"
@@ -235,7 +227,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_padded_mitten" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_vlandia_hero"
                 default_group="Infantry"
@@ -272,7 +265,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_long_sword" />
       <equipment slot="Item1"
@@ -287,7 +281,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_mail_mitten" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_vlandia_hero"
                 default_group="Ranged"
@@ -324,7 +319,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_light_crossbow" />
       <equipment slot="Item1"
@@ -339,7 +335,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_vlandia_hero"
                 default_group="Ranged"
@@ -376,7 +373,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_crossbow" />
       <equipment slot="Item1"
@@ -393,7 +391,8 @@
                  id="Item.mp_leather_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_vlandia_hero"
                 default_group="Cavalry"
@@ -430,11 +429,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_vlandian_long_sword" />
+                 id="Item.mp_vlandian_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_nasal_helmet_over_laced_coif" />
       <equipment slot="Body"
@@ -445,7 +445,8 @@
                  id="Item.mp_vlandia_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_vlandia_hero"
                 default_group="Cavalry"
@@ -482,7 +483,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_lance" />
       <equipment slot="Item1"
@@ -501,7 +503,8 @@
                  id="Item.mp_vlandia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_chain_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!-- Empire Heros -->
   <NPCCharacter id="mp_skirmisher_empire_hero"
@@ -539,7 +542,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item2"
@@ -550,7 +554,8 @@
                  id="Item.mp_wrapped_shoes" />
       <equipment slot="Head"
                  id="Item.mp_laced_coif" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_empire_hero"
                 default_group="Infantry"
@@ -587,7 +592,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_menavlion" />
       <equipment slot="Item1"
@@ -596,7 +602,8 @@
                  id="Item.mp_empire_warrior_padded_armor_g" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_empire_hero"
                 default_group="Infantry"
@@ -633,7 +640,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_spatha" />
       <equipment slot="Item1"
@@ -648,7 +656,8 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_plated_strip_gauntlets" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_empire_hero"
                 default_group="Ranged"
@@ -685,7 +694,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -698,7 +708,8 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Head"
                  id="Item.mp_imperial_leather_coif" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_empire_hero"
                 default_group="Ranged"
@@ -735,7 +746,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -752,7 +764,8 @@
                  id="Item.mp_decorated_imperial_gauntlets" />
       <equipment slot="Leg"
                  id="Item.mp_decorated_imperial_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_empire_hero"
                 default_group="Cavalry"
@@ -789,7 +802,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
@@ -806,7 +820,8 @@
                  id="Item.mp_empire_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_stripped_leather_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_empire_hero"
                 default_group="Cavalry"
@@ -843,7 +858,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_long_spear" />
       <equipment slot="Item1"
@@ -862,7 +878,8 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_imperial_scale_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Khuzait Heros-->
   <NPCCharacter id="mp_light_infantry_khuzait_hero"
@@ -900,7 +917,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_mace" />
       <equipment slot="Head"
@@ -911,7 +929,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_buttoned_leather_bracers" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_khuzait_hero"
                 default_group="Infantry"
@@ -948,9 +967,10 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.mp_khuzait_spear" />
+                   id="Item.mp_khuzait_spear" />
       <equipment slot="Item1"
                  id="Item.mp_eastern_wicker_shield" />
       <equipment slot="Item2"
@@ -961,7 +981,8 @@
                  id="Item.mp_khuzait_curved_boots" />
       <equipment slot="Head"
                  id="Item.mp_steppe_helmet" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_khuzait_hero"
                 default_group="Ranged"
@@ -998,7 +1019,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -1013,7 +1035,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_khuzait_hero"
                 default_group="Ranged"
@@ -1050,11 +1073,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_heavy_sabre" />
+                   id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Item2"
                  id="Item.mp_arrows_steppe" />
       <equipment slot="Head"
@@ -1067,7 +1091,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_khuzait_hero"
                 default_group="Cavalry"
@@ -1104,9 +1129,10 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.mp_khuzait_long_spear" />
+                   id="Item.mp_khuzait_long_spear" />
       <equipment slot="Item1"
                  id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Body"
@@ -1123,7 +1149,8 @@
                  id="Item.mp_khuzait_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_fur_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_khuzait_hero"
                 default_group="Cavalry"
@@ -1160,11 +1187,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_lance" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_cavalry_sabre" />
+                 id="Item.mp_khuzait_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_spiked_helmet" />
       <equipment slot="Cape"
@@ -1177,7 +1205,8 @@
                  id="Item.mp_khuzait_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_studded_steppe_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_horse_archer_khuzait_hero"
                 default_group="HorseArcher"
@@ -1214,7 +1243,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -1233,7 +1263,8 @@
                  id="Item.mp_khuzait_horse_saddle" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Aserai Heros-->
   <NPCCharacter id="mp_light_infantry_aserai_hero"
@@ -1271,7 +1302,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_sword" />
       <equipment slot="Item1"
@@ -1282,7 +1314,8 @@
                  id="Item.mp_long_padded_robe" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_aserai_hero"
                 default_group="Infantry"
@@ -1319,7 +1352,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_twohanded_axe" />
       <equipment slot="Item1"
@@ -1330,7 +1364,8 @@
                  id="Item.mp_southern_lamellar_armor" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_aserai_hero"
                 default_group="Infantry"
@@ -1367,7 +1402,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -1380,7 +1416,8 @@
                  id="Item.mp_aserai_civil_b" />
       <equipment slot="Leg"
                  id="Item.mp_eastern_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_aserai_hero"
                 default_group="Ranged"
@@ -1417,7 +1454,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -1430,7 +1468,8 @@
                  id="Item.mp_aserai_civil_e" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_aserai_hero"
                 default_group="Ranged"
@@ -1467,7 +1506,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -1482,7 +1522,8 @@
                  id="Item.mp_plated_strip_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_aserai_hero"
                 default_group="Cavalry"
@@ -1519,7 +1560,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_spear" />
       <equipment slot="Item1"
@@ -1534,7 +1576,8 @@
                  id="Item.mp_aserai_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_aserai_hero"
                 default_group="Cavalry"
@@ -1571,11 +1614,14 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_noble_curved_long_sword" />
       <equipment slot="Item1"
                  id="Item.mp_bound_adarga" />
+      <equipment slot="Item2"
+                 id="Item.mp_aserai_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_aserai_lord_helmet_a" />
       <equipment slot="Body"
@@ -1588,7 +1634,8 @@
                  id="Item.mp_aserai_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_half_mail_and_plate_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Sturgia Heros-->
   <NPCCharacter id="mp_light_infantry_sturgia_hero"
@@ -1626,7 +1673,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_woodsplitter_axe" />
       <equipment slot="Body"
@@ -1635,7 +1683,8 @@
                  id="Item.mp_highland_leg_wrappings" />
       <equipment slot="Head"
                  id="Item.mp_nordic_fur_cap" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_sturgia_hero"
                 default_group="Infantry"
@@ -1672,7 +1721,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Item1"
@@ -1685,7 +1735,8 @@
                  id="Item.mp_battania_fur_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_plated_strip_gauntlets" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_sturgia_hero"
                 default_group="Infantry"
@@ -1722,7 +1773,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_twohanded_axe" />
       <equipment slot="Item1"
@@ -1735,7 +1787,8 @@
                  id="Item.mp_fur_hat" />
       <equipment slot="Cape"
                  id="Item.mp_rough_bearskin" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_sturgia_hero"
                 default_group="Infantry"
@@ -1772,7 +1825,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_harpoon" />
       <equipment slot="Item1"
@@ -1785,7 +1839,8 @@
                  id="Item.mp_nordic_padded_cloth" />
       <equipment slot="Leg"
                  id="Item.mp_battania_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_sturgia_hero"
                 default_group="Ranged"
@@ -1822,7 +1877,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -1839,7 +1895,8 @@
                  id="Item.mp_battania_woodland_cloak" />
       <equipment slot="Gloves"
                  id="Item.mp_buttoned_leather_bracers" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_sturgia_hero"
                 default_group="Cavalry"
@@ -1876,11 +1933,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_sturgia_axe" />
+                 id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Head"
                  id="Item.mp_nasalhelm_over_leather" />
       <equipment slot="Cape"
@@ -1892,8 +1950,9 @@
       <equipment slot="Horse"
                  id="Item.mp_sturgia_horse" />
       <equipment slot="HorseHarness"
-                 id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
+                 id="Item.mp_northern_light_harness" />
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_sturgia_hero"
                 default_group="Cavalry"
@@ -1930,11 +1989,14 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_cavalry_axe" />
       <equipment slot="Item1"
                  id="Item.mp_worn_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                  id="Item.mp_sturgia_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Cape"
@@ -1949,7 +2011,8 @@
                  id="Item.mp_northern_ring_barding" />
       <equipment slot="Gloves"
                  id="Item.mp_plated_strip_gauntlets" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Battanian Heros-->
   <NPCCharacter id="mp_light_infantry_battania_hero"
@@ -1987,7 +2050,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Body"
@@ -1996,7 +2060,8 @@
                  id="Item.mp_highland_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_civil_cloak" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_battania_hero"
                 default_group="Infantry"
@@ -2033,7 +2098,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Item1"
@@ -2048,7 +2114,8 @@
                  id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_battania_woodland_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_battania_hero"
                 default_group="Infantry"
@@ -2085,7 +2152,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_falx" />
       <equipment slot="Item1"
@@ -2098,7 +2166,8 @@
                  id="Item.mp_armwraps" />
       <equipment slot="Cape"
                  id="Item.mp_battania_cloak" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_battania_hero"
                 default_group="Infantry"
@@ -2135,7 +2204,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -2150,9 +2220,8 @@
                  id="Item.mp_hauberk" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-      <equipment slot="Gloves"
-                 id="Item.mp_highland_gloves" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_battania_hero"
                 default_group="Ranged"
@@ -2189,7 +2258,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_short_bow" />
       <equipment slot="Item1"
@@ -2206,7 +2276,8 @@
                  id="Item.mp_guarded_armwraps" />
       <equipment slot="Leg"
                  id="Item.mp_wrapped_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_battania_hero"
                 default_group="Ranged"
@@ -2243,7 +2314,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_long_bow" />
       <equipment slot="Item1"
@@ -2260,7 +2332,8 @@
                  id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_battania_hero"
                 default_group="Cavalry"
@@ -2297,11 +2370,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_battania_long_sword" />
+                 id="Item.mp_battania_cavalry_sword" />
       <equipment slot="Item2"
                  id="Item.mp_highland_riders_shield" />
       <equipment slot="Body"
@@ -2314,7 +2388,8 @@
                  id="Item.mp_battania_pony" />
       <equipment slot="HorseHarness"
                  id="Item.mp_battania_horse_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!-- Troops -->
   <!-- Vlandian Troops -->
@@ -2353,7 +2428,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_sickle" />
       <equipment slot="Body"
@@ -2362,16 +2438,16 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Head"
                  id="Item.mp_leather_cap" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_sickle" />
       <equipment slot="Body"
                  id="Item.mp_bandit_leather_water_flask" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_sickle" />
       <equipment slot="Body"
@@ -2380,7 +2456,8 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Head"
                  id="Item.mp_leather_cap" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_vlandia_troop"
                 default_group="Infantry"
@@ -2417,7 +2494,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_polearm" />
       <equipment slot="Head"
@@ -2426,8 +2504,8 @@
                  id="Item.mp_sleeveless_padded_short_coat" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_polearm" />
       <equipment slot="Body"
@@ -2436,8 +2514,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Head"
                  id="Item.mp_segmented_skullcap_over_laced_coif" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_polearm" />
       <equipment slot="Head"
@@ -2446,7 +2524,8 @@
                  id="Item.mp_padded_coat" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_vlandia_troop"
                 default_group="Infantry"
@@ -2483,7 +2562,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_long_sword" />
       <equipment slot="Item1"
@@ -2498,8 +2578,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_long_sword" />
       <equipment slot="Item1"
@@ -2514,8 +2594,8 @@
                  id="Item.mp_mail_mitten" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_vlandian_long_sword" />
       <equipment slot="Item1"
@@ -2530,7 +2610,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_vlandia_troop"
                 default_group="Ranged"
@@ -2567,7 +2648,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_light_crossbow" />
       <equipment slot="Item1"
@@ -2582,8 +2664,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_light_crossbow" />
       <equipment slot="Item1"
@@ -2596,8 +2678,8 @@
                  id="Item.mp_vlandia_bandit_a" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_light_crossbow" />
       <equipment slot="Item1"
@@ -2612,7 +2694,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_vlandia_troop"
                 default_group="Ranged"
@@ -2649,7 +2732,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_crossbow" />
       <equipment slot="Item1"
@@ -2666,8 +2750,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_crossbow" />
       <equipment slot="Item1"
@@ -2684,8 +2768,8 @@
                  id="Item.mp_leather_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_crossbow" />
       <equipment slot="Item1"
@@ -2702,7 +2786,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Cape"
                  id="Item.mp_hood" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_vlandia_troop"
                 default_group="Cavalry"
@@ -2739,11 +2824,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_vlandian_long_sword" />
+                 id="Item.mp_vlandian_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_nasal_helmet_over_laced_coif" />
       <equipment slot="Body"
@@ -2756,12 +2842,12 @@
                  id="Item.mp_vlandia_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_vlandian_long_sword" />
+                 id="Item.mp_vlandian_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_nasal_helmet_over_laced_coif" />
       <equipment slot="Body"
@@ -2774,12 +2860,12 @@
                  id="Item.mp_vlandia_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_vlandian_long_sword" />
+                 id="Item.mp_vlandian_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_nasal_helmet_over_laced_coif" />
       <equipment slot="Body"
@@ -2792,7 +2878,8 @@
                  id="Item.mp_vlandia_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_vlandia_troop"
                 default_group="Cavalry"
@@ -2829,7 +2916,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_lance" />
       <equipment slot="Item1"
@@ -2848,8 +2936,8 @@
                  id="Item.mp_vlandia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_chain_barding" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_lance" />
       <equipment slot="Item1"
@@ -2868,8 +2956,8 @@
                  id="Item.mp_vlandia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_chain_barding" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_lance" />
       <equipment slot="Item1"
@@ -2888,7 +2976,8 @@
                  id="Item.mp_vlandia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_chain_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!-- Empire Troops -->
   <NPCCharacter id="mp_heavy_infantry_empire_troop"
@@ -2926,7 +3015,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_spatha" />
       <equipment slot="Item1"
@@ -2939,8 +3029,8 @@
                  id="Item.mp_empire_warrior_padded_armor_shoulder" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_spatha" />
       <equipment slot="Item1"
@@ -2951,8 +3041,8 @@
                  id="Item.mp_empire_helmet_with_metal_strips" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_spatha" />
       <equipment slot="Item1"
@@ -2965,7 +3055,8 @@
                  id="Item.mp_imperial_mail_over_stripped_leather" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_empire_troop"
                 default_group="Infantry"
@@ -3002,7 +3093,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_menavlion" />
       <equipment slot="Head"
@@ -3013,8 +3105,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_guarded_padded_vambrace" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_menavlion" />
       <equipment slot="Head"
@@ -3023,8 +3115,8 @@
                  id="Item.mp_empire_warrior_padded_armor_g" />
       <equipment slot="Leg"
                  id="Item.mp_leather_cavalier_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_empire_menavlion" />
       <equipment slot="Head"
@@ -3035,7 +3127,8 @@
                  id="Item.mp_leather_cavalier_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_guarded_padded_vambrace" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_empire_troop"
                 default_group="Infantry"
@@ -3072,7 +3165,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item2"
@@ -3083,8 +3177,8 @@
                  id="Item.mp_wrapped_shoes" />
       <equipment slot="Head"
                  id="Item.mp_merchants_hat" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item2"
@@ -3093,8 +3187,8 @@
                  id="Item.mp_tunic_with_shoulder_pads" />
       <equipment slot="Leg"
                  id="Item.mp_wrapped_shoes" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item2"
@@ -3105,7 +3199,8 @@
                  id="Item.mp_wrapped_shoes" />
       <equipment slot="Head"
                  id="Item.mp_merchants_hat" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_empire_troop"
                 default_group="Ranged"
@@ -3142,7 +3237,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3155,8 +3251,8 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Head"
                  id="Item.mp_imperial_leather_coif" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3167,8 +3263,8 @@
                  id="Item.mp_footmans_tunic" />
       <equipment slot="Leg"
                  id="Item.mp_empire_horseman_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3181,7 +3277,8 @@
                  id="Item.mp_empire_horseman_boots" />
       <equipment slot="Head"
                  id="Item.mp_imperial_leather_coif" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_empire_troop"
                 default_group="Ranged"
@@ -3218,7 +3315,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -3235,8 +3333,8 @@
                  id="Item.mp_decorated_imperial_gauntlets" />
       <equipment slot="Leg"
                  id="Item.mp_decorated_imperial_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -3253,8 +3351,8 @@
                  id="Item.mp_decorated_imperial_gauntlets" />
       <equipment slot="Leg"
                  id="Item.mp_decorated_imperial_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -3271,7 +3369,8 @@
                  id="Item.mp_decorated_imperial_gauntlets" />
       <equipment slot="Leg"
                  id="Item.mp_decorated_imperial_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_empire_troop"
                 default_group="Cavalry"
@@ -3308,7 +3407,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
@@ -3325,8 +3425,8 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_stripped_leather_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
@@ -3343,8 +3443,8 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_imperial_riding_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_spear" />
       <equipment slot="Item1"
@@ -3361,7 +3461,8 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_empire_troop"
                 default_group="Cavalry"
@@ -3398,7 +3499,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_long_spear" />
       <equipment slot="Item1"
@@ -3417,8 +3519,28 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_imperial_scale_barding" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.mp_western_long_spear" />
+      <equipment slot="Item1"
+                 id="Item.mp_empire_cavalry_mace" />
+      <equipment slot="Head"
+                 id="Item.mp_imperial_goggled_helmet" />
+      <equipment slot="Body"
+                 id="Item.mp_imperial_lamellar" />
+      <equipment slot="Gloves"
+                 id="Item.mp_lamellar_plate_gauntlets" />
+      <equipment slot="Leg"
+                 id="Item.mp_lamellar_plate_boots" />
+      <equipment slot="Cape"
+                 id="Item.mp_imperial_lamellar_shoulders" />
+      <equipment slot="Horse"
+                 id="Item.mp_empire_horse_war" />
+      <equipment slot="HorseHarness"
+                 id="Item.mp_imperial_scale_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_western_long_spear" />
       <equipment slot="Item1"
@@ -3437,27 +3559,8 @@
                  id="Item.mp_empire_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_imperial_scale_barding" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.mp_western_long_spear" />
-      <equipment slot="Item1"
-                 id="Item.mp_empire_paramerion" />
-      <equipment slot="Head"
-                 id="Item.mp_imperial_goggled_helmet" />
-      <equipment slot="Body"
-                 id="Item.mp_imperial_lamellar" />
-      <equipment slot="Gloves"
-                 id="Item.mp_lamellar_plate_gauntlets" />
-      <equipment slot="Leg"
-                 id="Item.mp_lamellar_plate_boots" />
-      <equipment slot="Cape"
-                 id="Item.mp_imperial_lamellar_shoulders" />
-      <equipment slot="Horse"
-                 id="Item.mp_empire_horse_war" />
-      <equipment slot="HorseHarness"
-                 id="Item.mp_imperial_scale_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Khuzait Troops-->
   <NPCCharacter id="mp_light_infantry_khuzait_troop"
@@ -3495,7 +3598,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_mace" />
       <equipment slot="Body"
@@ -3506,8 +3610,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_mace" />
       <equipment slot="Body"
@@ -3518,8 +3622,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_mace" />
       <equipment slot="Body"
@@ -3530,7 +3634,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_khuzait_troop"
                 default_group="Infantry"
@@ -3567,7 +3672,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_spear" />
       <equipment slot="Item1"
@@ -3580,8 +3686,8 @@
                  id="Item.mp_eastern_stitched_leather_coat" />
       <equipment slot="Leg"
                  id="Item.mp_khuzait_curved_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_spear" />
       <equipment slot="Item1"
@@ -3594,8 +3700,8 @@
                  id="Item.mp_eastern_stitched_leather_coat" />
       <equipment slot="Leg"
                  id="Item.mp_khuzait_curved_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_spear" />
       <equipment slot="Item1"
@@ -3608,7 +3714,8 @@
                  id="Item.mp_eastern_stitched_leather_coat" />
       <equipment slot="Leg"
                  id="Item.mp_khuzait_curved_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_khuzait_troop"
                 default_group="Ranged"
@@ -3645,7 +3752,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3660,8 +3768,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3676,8 +3784,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -3692,7 +3800,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_khuzait_troop"
                 default_group="Ranged"
@@ -3729,11 +3838,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_heavy_sabre" />
+                   id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Item2"
                  id="Item.mp_arrows_steppe" />
       <equipment slot="Head"
@@ -3746,12 +3856,12 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_heavy_sabre" />
+                   id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Item2"
                  id="Item.mp_arrows_steppe" />
       <equipment slot="Head"
@@ -3764,7 +3874,8 @@
                  id="Item.mp_woven_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_eastern_plated_leather_vambraces" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_khuzait_troop"
                 default_group="Cavalry"
@@ -3801,9 +3912,10 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.mp_khuzait_long_spear" />
+                   id="Item.mp_khuzait_long_spear" />
       <equipment slot="Item1"
                  id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Head"
@@ -3820,10 +3932,10 @@
                  id="Item.mp_khuzait_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_fur_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.mp_khuzait_long_spear" />
+                   id="Item.mp_khuzait_long_spear" />
       <equipment slot="Item1"
                  id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Head"
@@ -3838,10 +3950,10 @@
                  id="Item.mp_khuzait_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_aseran_village_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.mp_khuzait_long_spear" />
+                   id="Item.mp_khuzait_long_spear" />
       <equipment slot="Item1"
                  id="Item.mp_khuzait_heavy_sabre" />
       <equipment slot="Head"
@@ -3856,7 +3968,8 @@
                  id="Item.mp_khuzait_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_desert_cloth_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_khuzait_troop"
                 default_group="Cavalry"
@@ -3893,11 +4006,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_lance" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_cavalry_sabre" />
+                 id="Item.mp_khuzait_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_spiked_helmet" />
       <equipment slot="Cape"
@@ -3910,12 +4024,12 @@
                  id="Item.mp_khuzait_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_half_barding" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_khuzait_lance" />
       <equipment slot="Item1"
-                 id="Item.mp_khuzait_cavalry_sabre" />
+                 id="Item.mp_khuzait_cavalry_mace" />
       <equipment slot="Head"
                  id="Item.mp_spiked_helmet" />
       <equipment slot="Cape"
@@ -3928,7 +4042,8 @@
                  id="Item.mp_khuzait_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_studded_steppe_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_horse_archer_khuzait_troop"
                 default_group="HorseArcher"
@@ -3965,7 +4080,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -3984,8 +4100,8 @@
                  id="Item.mp_khuzait_horse_saddle" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item1"
@@ -4004,7 +4120,8 @@
                  id="Item.mp_khuzait_horse_saddle" />
       <equipment slot="HorseHarness"
                  id="Item.mp_steppe_fur_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Aserai Troops-->
   <NPCCharacter id="mp_light_infantry_aserai_troop"
@@ -4042,7 +4159,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_sword" />
       <equipment slot="Item1"
@@ -4055,8 +4173,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_desert_leather_shoulderpad" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_sword" />
       <equipment slot="Item1"
@@ -4067,8 +4185,8 @@
                  id="Item.mp_aserai_civil_c" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_sword" />
       <equipment slot="Item1"
@@ -4079,7 +4197,8 @@
                  id="Item.mp_aserai_civil_e" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_aserai_troop"
                 default_group="Infantry"
@@ -4116,7 +4235,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_twohanded_axe" />
       <equipment slot="Head"
@@ -4127,8 +4247,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_buttoned_leather_bracers" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_twohanded_axe" />
       <equipment slot="Head"
@@ -4139,8 +4259,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_buttoned_leather_bracers" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_twohanded_axe" />
       <equipment slot="Head"
@@ -4153,7 +4273,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Cape"
                  id="Item.mp_wrapped_scarf" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_aserai_troop"
                 default_group="Infantry"
@@ -4190,7 +4311,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4203,8 +4325,8 @@
                  id="Item.mp_aserai_civil_b" />
       <equipment slot="Leg"
                  id="Item.mp_eastern_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4215,8 +4337,8 @@
                  id="Item.mp_desert_robe" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4229,7 +4351,8 @@
                  id="Item.mp_desert_robe" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_aserai_troop"
                 default_group="Ranged"
@@ -4266,7 +4389,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4281,8 +4405,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_wrapped_scarf" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4297,8 +4421,8 @@
                  id="Item.mp_long_padded_robe" />
       <equipment slot="Leg"
                  id="Item.mp_steppe_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4313,7 +4437,8 @@
                  id="Item.mp_steppe_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_wrapped_scarf" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_aserai_troop"
                 default_group="Ranged"
@@ -4350,7 +4475,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item2"
@@ -4365,8 +4491,8 @@
                  id="Item.mp_plated_strip_boots" />
       <equipment slot="Cape"
                  id="Item.mp_desert_fabric_shoulderpad" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item2"
@@ -4379,8 +4505,8 @@
                  id="Item.mp_desert_robe_over_mail" />
       <equipment slot="Leg"
                  id="Item.mp_plated_strip_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_recurve_bow" />
       <equipment slot="Item2"
@@ -4393,7 +4519,8 @@
                  id="Item.mp_desert_robe_over_mail" />
       <equipment slot="Leg"
                  id="Item.mp_plated_strip_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_aserai_troop"
                 default_group="Cavalry"
@@ -4430,7 +4557,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_spear" />
       <equipment slot="Item1"
@@ -4447,8 +4575,8 @@
                  id="Item.mp_aserai_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_spear" />
       <equipment slot="Item1"
@@ -4465,8 +4593,8 @@
                  id="Item.mp_aserai_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_spear" />
       <equipment slot="Item1"
@@ -4483,7 +4611,8 @@
                  id="Item.mp_aserai_horse" />
       <equipment slot="HorseHarness"
                  id="Item.mp_light_harness" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_aserai_troop"
                 default_group="Cavalry"
@@ -4520,11 +4649,14 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_noble_curved_long_sword" />
       <equipment slot="Item1"
                  id="Item.mp_bound_adarga" />
+      <equipment slot="Item2"
+                 id="Item.mp_aserai_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_closed_desert_helmet_with_mail" />
       <equipment slot="Cape"
@@ -4541,12 +4673,14 @@
                  id="Item.mp_half_mail_and_plate_barding" />
       <equipment slot="Cape"
                  id="Item.mp_desert_fabric_shoulderpad" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_noble_curved_long_sword" />
       <equipment slot="Item1"
                  id="Item.mp_bound_adarga" />
+      <equipment slot="Item2"
+                 id="Item.mp_aserai_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Body"
@@ -4557,12 +4691,14 @@
                  id="Item.mp_aserai_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_half_mail_and_plate_barding" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_aserai_noble_curved_long_sword" />
       <equipment slot="Item1"
                  id="Item.mp_bound_adarga" />
+      <equipment slot="Item2"
+                 id="Item.mp_aserai_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Body"
@@ -4577,7 +4713,8 @@
                  id="Item.mp_half_mail_and_plate_barding" />
       <equipment slot="Cape"
                  id="Item.mp_desert_fabric_shoulderpad" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Sturgia Troops-->
   <NPCCharacter id="mp_light_infantry_sturgia_troop"
@@ -4615,7 +4752,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_woodsplitter_axe" />
       <equipment slot="Body"
@@ -4624,8 +4762,8 @@
                  id="Item.mp_battania_leather_boots" />
       <equipment slot="Head"
                  id="Item.mp_nordic_fur_cap" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_woodsplitter_axe" />
       <equipment slot="Body"
@@ -4634,15 +4772,16 @@
                  id="Item.mp_battania_leather_boots" />
       <equipment slot="Head"
                  id="Item.mp_nordic_fur_cap" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_woodsplitter_axe" />
       <equipment slot="Body"
                  id="Item.mp_northern_padded_gambeson" />
       <equipment slot="Leg"
                  id="Item.mp_battania_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_sturgia_troop"
                 default_group="Infantry"
@@ -4679,7 +4818,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Item1"
@@ -4690,8 +4830,8 @@
                  id="Item.mp_nordic_hauberk" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Item1"
@@ -4702,8 +4842,8 @@
                  id="Item.mp_nordic_hauberk" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Item1"
@@ -4714,7 +4854,8 @@
                  id="Item.mp_nordic_hauberk" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_sturgia_troop"
                 default_group="Infantry"
@@ -4751,7 +4892,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_twohanded_axe" />
       <equipment slot="Body"
@@ -4762,8 +4904,8 @@
                  id="Item.mp_fur_hat" />
       <equipment slot="Cape"
                  id="Item.mp_rough_bearskin" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_twohanded_axe" />
       <equipment slot="Body"
@@ -4772,8 +4914,8 @@
                  id="Item.mp_battania_fur_boots" />
       <equipment slot="Head"
                  id="Item.mp_fur_hat" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_twohanded_axe" />
       <equipment slot="Body"
@@ -4782,7 +4924,8 @@
                  id="Item.mp_battania_fur_boots" />
       <equipment slot="Cape"
                  id="Item.mp_rough_bearskin" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_sturgia_troop"
                 default_group="Infantry"
@@ -4819,7 +4962,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4832,8 +4976,8 @@
                  id="Item.mp_nordic_padded_cloth" />
       <equipment slot="Leg"
                  id="Item.mp_battania_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4846,8 +4990,8 @@
                  id="Item.mp_nordic_padded_cloth" />
       <equipment slot="Leg"
                  id="Item.mp_battania_leather_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -4860,7 +5004,8 @@
                  id="Item.mp_nordic_padded_cloth" />
       <equipment slot="Leg"
                  id="Item.mp_battania_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_sturgia_troop"
                 default_group="Ranged"
@@ -4897,7 +5042,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4914,8 +5060,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Cape"
                  id="Item.mp_battania_woodland_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4932,8 +5078,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Cape"
                  id="Item.mp_battania_woodland_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_hunting_bow" />
       <equipment slot="Item1"
@@ -4950,7 +5096,8 @@
                  id="Item.mp_buttoned_leather_bracers" />
       <equipment slot="Cape"
                  id="Item.mp_battania_woodland_cloak" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_sturgia_troop"
                 default_group="Cavalry"
@@ -4987,11 +5134,32 @@
       <skill id="Throwing"
              value="100" />
     </skills>
+    <Equipments>
+     <EquipmentRoster>
+	  <equipmentSet>
+			  
+ 	   <equipment slot="Item0"
+ 		            id="Item.mp_sturgia_spear" />
+ 	   <equipment slot="Item1"
+ 		            id="Item.mp_sturgia_heavy_axe" />
+ 	   <equipment slot="Head"
+ 		            id="Item.mp_nasalhelm_over_leather" />
+ 	   <equipment slot="Body"
+ 		            id="Item.mp_nordic_lamellar_armor" />
+ 	   <equipment slot="Gloves"
+ 		            id="Item.mp_studded_vambraces" />
+ 	   <equipment slot="Leg"
+ 		            id="Item.mp_battania_leather_boots" />
+ 	   <equipment slot="Horse"
+ 		            id="Item.mp_sturgia_horse" />
+ 	   <equipment slot="HorseHarness"
+                    id="Item.mp_northern_light_harness" />
+    </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_sturgia_axe" />
+                 id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Head"
                  id="Item.mp_nasalhelm_over_leather" />
       <equipment slot="Body"
@@ -5003,31 +5171,14 @@
       <equipment slot="Horse"
                  id="Item.mp_sturgia_horse" />
       <equipment slot="HorseHarness"
-                 id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
-    <equipmentSet>
+                   id="Item.mp_northern_light_harness" />
+	  </equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_sturgia_axe" />
-      <equipment slot="Head"
-                 id="Item.mp_nasalhelm_over_leather" />
-      <equipment slot="Body"
-                 id="Item.mp_nordic_lamellar_armor" />
-      <equipment slot="Gloves"
-                 id="Item.mp_studded_vambraces" />
-      <equipment slot="Leg"
-                 id="Item.mp_battania_leather_boots" />
-      <equipment slot="Horse"
-                 id="Item.mp_sturgia_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.mp_sturgia_spear" />
-      <equipment slot="Item1"
-                 id="Item.mp_sturgia_axe" />
+                 id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Head"
                  id="Item.mp_goggled_helmet_over_mail" />
       <equipment slot="Cape"
@@ -5041,8 +5192,9 @@
       <equipment slot="Horse"
                  id="Item.mp_sturgia_horse" />
       <equipment slot="HorseHarness"
-                 id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
+                   id="Item.mp_northern_light_harness" />
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_cavalry_sturgia_troop"
                 default_group="Cavalry"
@@ -5079,11 +5231,14 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_cavalry_axe" />
       <equipment slot="Item1"
                  id="Item.mp_worn_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.mp_sturgia_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Cape"
@@ -5098,12 +5253,14 @@
                  id="Item.mp_sturgia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_cavalry_axe" />
       <equipment slot="Item1"
                  id="Item.mp_worn_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.mp_sturgia_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Cape"
@@ -5118,12 +5275,14 @@
                  id="Item.mp_sturgia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_northern_noble_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_cavalry_axe" />
       <equipment slot="Item1"
                  id="Item.mp_worn_horsemans_kite_shield" />
+      <equipment slot="Item2"
+                 id="Item.mp_sturgia_long_spear" />
       <equipment slot="Head"
                  id="Item.mp_eastern_vendel_helmet" />
       <equipment slot="Cape"
@@ -5138,7 +5297,8 @@
                  id="Item.mp_sturgia_horse_war" />
       <equipment slot="HorseHarness"
                  id="Item.mp_northern_ring_barding" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <!--Battanian Troops-->
   <NPCCharacter id="mp_light_infantry_battania_troop"
@@ -5176,7 +5336,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Body"
@@ -5187,8 +5348,8 @@
                  id="Item.mp_highland_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_civil_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Body"
@@ -5197,8 +5358,8 @@
                  id="Item.mp_armwraps" />
       <equipment slot="Leg"
                  id="Item.mp_highland_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Body"
@@ -5207,7 +5368,8 @@
                  id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_highland_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_infantry_battania_troop"
                 default_group="Infantry"
@@ -5244,7 +5406,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Item1"
@@ -5259,8 +5422,8 @@
                  id="Item.mp_battania_woodland_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_shoulder_furr" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Item1"
@@ -5273,8 +5436,8 @@
                  id="Item.mp_leather_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_battania_woodland_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_long_sword" />
       <equipment slot="Item1"
@@ -5289,7 +5452,8 @@
                  id="Item.mp_battania_woodland_boots" />
       <equipment slot="Cape"
                  id="Item.mp_armored_bearskin" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_shock_infantry_battania_troop"
                 default_group="Infantry"
@@ -5326,7 +5490,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_falx" />
       <equipment slot="Body"
@@ -5335,8 +5500,8 @@
                  id="Item.mp_highland_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_falx" />
       <equipment slot="Body"
@@ -5345,8 +5510,8 @@
                  id="Item.mp_highland_boots" />
       <equipment slot="Gloves"
                  id="Item.mp_armwraps" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_falx" />
       <equipment slot="Body"
@@ -5357,7 +5522,8 @@
                  id="Item.mp_armwraps" />
       <equipment slot="Cape"
                  id="Item.mp_battania_cloak" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_skirmisher_battania_troop"
                 default_group="Infantry"
@@ -5394,7 +5560,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -5405,14 +5572,12 @@
                  id="Item.mp_plumed_helmet" />
       <equipment slot="Body"
                  id="Item.mp_hauberk" />
-      <equipment slot="Gloves"
-                 id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_wrapped_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_cloak_furr" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -5423,14 +5588,12 @@
                  id="Item.mp_plumed_helmet" />
       <equipment slot="Body"
                  id="Item.mp_hauberk" />
-      <equipment slot="Gloves"
-                 id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_wrapped_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_cloak_furr" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_javelin" />
       <equipment slot="Item1"
@@ -5441,11 +5604,10 @@
                  id="Item.mp_plumed_helmet" />
       <equipment slot="Body"
                  id="Item.mp_rough_fur_armor" />
-      <equipment slot="Gloves"
-                 id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_wrapped_leather_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_ranged_battania_troop"
                 default_group="Ranged"
@@ -5482,7 +5644,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_short_bow" />
       <equipment slot="Item1"
@@ -5499,8 +5662,8 @@
                  id="Item.mp_battania_civil_hood" />
       <equipment slot="Cape"
                  id="Item.mp_battania_civil_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_short_bow" />
       <equipment slot="Item1"
@@ -5517,8 +5680,8 @@
                  id="Item.mp_battania_leather_boots" />
       <equipment slot="Cape"
                  id="Item.mp_battania_civil_cloak" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_short_bow" />
       <equipment slot="Item1"
@@ -5537,7 +5700,8 @@
                  id="Item.mp_battania_civil_hood" />
       <equipment slot="Cape"
                  id="Item.mp_battania_civil_cloak" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_heavy_ranged_battania_troop"
                 default_group="Ranged"
@@ -5574,7 +5738,8 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_long_bow" />
       <equipment slot="Item1"
@@ -5589,26 +5754,8 @@
                  id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.mp_long_bow" />
-      <equipment slot="Item1"
-                 id="Item.mp_arrows_bodkin" />
-      <equipment slot="Item2"
-                 id="Item.mp_battania_two_handed_sword" />
-      <equipment slot="Head"
-                 id="Item.mp_helmet_with_faceguard" />
-      <equipment slot="Cape"
-                 id="Item.mp_battania_cloak" />
-      <equipment slot="Body"
-                 id="Item.mp_battania_woodland_chainmail" />
-      <equipment slot="Gloves"
-                 id="Item.mp_highland_gloves" />
-      <equipment slot="Leg"
-                 id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_long_bow" />
       <equipment slot="Item1"
@@ -5625,7 +5772,26 @@
                  id="Item.mp_highland_gloves" />
       <equipment slot="Leg"
                  id="Item.mp_battania_fur_boots" />
-    </equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.mp_long_bow" />
+      <equipment slot="Item1"
+                 id="Item.mp_arrows_bodkin" />
+      <equipment slot="Item2"
+                 id="Item.mp_battania_two_handed_sword" />
+      <equipment slot="Head"
+                 id="Item.mp_helmet_with_faceguard" />
+      <equipment slot="Cape"
+                 id="Item.mp_battania_cloak" />
+      <equipment slot="Body"
+                 id="Item.mp_battania_woodland_chainmail" />
+      <equipment slot="Gloves"
+                 id="Item.mp_highland_gloves" />
+      <equipment slot="Leg"
+                 id="Item.mp_battania_fur_boots" />
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
   <NPCCharacter id="mp_light_cavalry_battania_troop"
                 default_group="Cavalry"
@@ -5662,11 +5828,12 @@
       <skill id="Throwing"
              value="100" />
     </skills>
-    <equipmentSet>
+    <Equipments>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_battania_long_sword" />
+                 id="Item.mp_battania_cavalry_sword" />
       <equipment slot="Item2"
                  id="Item.mp_highland_riders_shield" />
       <equipment slot="Body"
@@ -5681,12 +5848,12 @@
                  id="Item.mp_battania_pony" />
       <equipment slot="HorseHarness"
                  id="Item.mp_battania_horse_harness" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_battania_long_sword" />
+                 id="Item.mp_battania_cavalry_sword" />
       <equipment slot="Item2"
                  id="Item.mp_highland_riders_shield" />
       <equipment slot="Body"
@@ -5701,12 +5868,12 @@
                  id="Item.mp_battania_pony" />
       <equipment slot="HorseHarness"
                  id="Item.mp_bandit_saddle_highland" />
-    </equipmentSet>
-    <equipmentSet>
+      </EquipmentRoster>
+      <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_battania_spear" />
       <equipment slot="Item1"
-                 id="Item.mp_battania_long_sword" />
+                 id="Item.mp_battania_cavalry_sword" />
       <equipment slot="Item2"
                  id="Item.mp_highland_riders_shield" />
       <equipment slot="Body"
@@ -5719,6 +5886,7 @@
                  id="Item.mp_battania_pony" />
       <equipment slot="HorseHarness"
                  id="Item.mp_bandit_saddle_highland" />
-    </equipmentSet>
+      </EquipmentRoster>
+    </Equipments>
   </NPCCharacter>
 </MPCharacters>

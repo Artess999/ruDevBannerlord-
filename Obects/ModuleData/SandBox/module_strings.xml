@@ -148,7 +148,7 @@
     <string id="str_campaign_options_type_PlayerMapMovementSpeed.Realistic"
             text="{=9jSxo790}Realistic" />
     <string id="str_campaign_options_description.EnableTutorial"
-        text="{=SrkDqNdb}Enable Tutorial Popups" />
+            text="{=SrkDqNdb}Enable Tutorial Popups" />
     <string id="str_campaign_options_description.DamageToPlayer"
             text="{=hEYfasE1}Received damage ratio to your character." />
     <string id="str_campaign_options_description.DamageToFriends"

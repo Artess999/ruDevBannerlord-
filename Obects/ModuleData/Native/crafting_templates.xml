@@ -1330,8 +1330,6 @@
       <UsablePiece piece_id="mp_empire_axe_handle" mp_piece="true"/>
       <UsablePiece piece_id="mp_empire_heavy_axe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_empire_heavy_axe_handle" mp_piece="true"/>
-      <UsablePiece piece_id="mp_empire_battle_axe_head" mp_piece="true"/>
-      <UsablePiece piece_id="mp_empire_battle_axe_handle" mp_piece="true"/>
       <UsablePiece piece_id="mp_vlandian_axe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_vlandian_axe_handle" mp_piece="true"/>
       <UsablePiece piece_id="mp_sturiga_woodsplitter_axe_head" mp_piece="true"/>
@@ -1343,6 +1341,8 @@
 
       <UsablePiece piece_id="mp_vlandia_bastard_axe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_vlandia_bastard_axe_handle" mp_piece="true"/>
+      <UsablePiece piece_id="mp_empire_battle_axe_head" mp_piece="true"/>
+      <UsablePiece piece_id="mp_empire_battle_axe_handle" mp_piece="true"/>
 
       <UsablePiece piece_id="mp_test_axe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_test_axe_handle" mp_piece="true"/>
@@ -1419,6 +1419,8 @@
 
       <UsablePiece piece_id="mp_vlandia_bastard_axe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_vlandia_bastard_axe_handle" mp_piece="true"/>
+      <UsablePiece piece_id="mp_empire_battle_axe_head" mp_piece="true"/>
+      <UsablePiece piece_id="mp_empire_battle_axe_handle" mp_piece="true"/>
 
       <UsablePiece piece_id="mp_test_2haxe_head" mp_piece="true"/>
       <UsablePiece piece_id="mp_test_2haxe_handle" mp_piece="true"/>
@@ -1695,6 +1697,7 @@
       <UsablePiece piece_id="mp_sturgia_great_spear_handle" mp_piece="true"/>
 
       <UsablePiece piece_id="mp_sturgia_lance_blade" mp_piece="true"/>
+      <UsablePiece piece_id="mp_sturgia_heavy_lance_blade" mp_piece="true"/>
       <UsablePiece piece_id="mp_sturgia_lance_handle" mp_piece="true"/>
       <UsablePiece piece_id="mp_battania_lance_blade" mp_piece="true"/>
       <UsablePiece piece_id="mp_battania_lance_handle" mp_piece="true"/>

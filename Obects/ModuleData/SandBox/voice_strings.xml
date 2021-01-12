@@ -2,7 +2,7 @@
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <strings>
     <!--
-The voiced lines are divided into 12 voicegroups. This is down from 32, to make things manageable. There will, however, be 32 different actors
+The voiced lines are divided into 12 voicegroups. This is down from 32, to make things manageable. There may, however, be 32 different voices
 There are four personas (curt, earnest, ironic, and softspoken) and three social registers (upper, lower, and tribal.)
 
 Each voice group is divided into two, male and female, except tribal, which also has two subdivisions = eastern and northern
@@ -71,28 +71,13 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="FirstMeetingTag" />
       </tags>
     </string>
-    <string id="str_context_line.met_before" text="{=4Lfz6ux4}{STR_SALUTATION}... It's been a while..">
+    <string id="str_context_line.met_before" text="{=!}{STR_SALUTATION}... It's been a while. (Default - should not appear)">
       <tags>
         <tag tag_name="DefaultTag" />
         <tag tag_name="MetBeforeTag" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting_under_command_female" text="{=!}My lady... Allow me to introduce myself.">
-      <tags>
-        <tag tag_name="UnderCommandTag" weight="15" />
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="PlayerIsFemaleTag" weight="+1" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_under_command" text="{=!}Sir... Allow me to introduce myself.">
-      <tags>
-        <tag tag_name="UnderCommandTag" weight="15" />
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="PlayerIsFemaleTag" weight="-1" />
-      </tags>
-    </string>
-    <!-- curt UPPERWEST MALE
-    -->
+    <!-- CURT UPPER CLASS -->
     <string id="str_context_line.first_meeting_cu" text="{=B05S6Fw4}Who are you, and what do you want?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -100,9 +85,17 @@ attacking (common variations - attacking_gloating) -->
       </tags>
     </string>
     <string id="str_context_line.first_meeting_wary_cu" text="{=IU3KjVbT}That's close enough. Who are you?">
+      <!-- irritable fills in for watchful -->
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="WaryTag" />
+        <tag tag_name="VoiceGroupPersonaCurtUpperTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_cu" text="{=pbQjBNT3}{STR_SALUTATION}... May I introduce myself...">
+      <tags>
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaCurtUpperTag" />
       </tags>
     </string>
@@ -224,17 +217,17 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaCurtUpperTag" />
       </tags>
     </string>
-    <!-- voice ironic upperwest male: First meeting. -->
+    <!-- IRONIC UPPER CLASS. -->
     <string id="str_context_line.first_meeting_iu_default" text="{=zfWpSLfd}Well... And who do we have here? Would you care to tell me your good name?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaIronicUpperTag" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting_iu" text="{=9MZ1SaXt}Well... I don't believe we've met. Would you care to tell me your good name?">
+    <string id="str_context_line.first_meeting_under_command_iu" text="{=imbZKZIZ}{STR_SALUTATION}... It is my great honor to introduce myself to you.">
       <tags>
+        <tag tag_name="UnderCommandTag" weight="15" />
         <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="AttackingTag" weight="-1" />
         <tag tag_name="VoiceGroupPersonaIronicUpperTag" />
       </tags>
     </string>
@@ -370,7 +363,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaIronicUpperTag" />
       </tags>
     </string>
-    <!-- EARNEST UPPERWEST MALE-->
+    <!-- EARNEST UPPER CLASS-->
     <string id="str_context_line.first_meeting_earnest_eu" text="{=k8gI5Ix3}Your pardon - I did not catch your name.">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -381,6 +374,13 @@ attacking (common variations - attacking_gloating) -->
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="WaryTag" />
+        <tag tag_name="VoiceGroupPersonaEarnestUpperTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_eu" text="{=1VBiVUBz}{STR_SALUTATION}... Allow me to introduce myself.">
+      <tags>
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaEarnestUpperTag" />
       </tags>
     </string>
@@ -528,6 +528,13 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
       </tags>
     </string>
+    <string id="str_context_line.first_meeting_under_command_su" text="{=1VBiVUBz}{STR_SALUTATION}... Allow me to introduce myself.">
+      <tags>
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+      </tags>
+    </string>
     <string id="str_context_line.first_meeting_wary_v1_su" text="{=pf3LDFVp}Leave your sword in its scabbard for a moment longer, stranger. Who might you be?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -634,6 +641,66 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
       </tags>
     </string>
+    <!-- CURT LOWER CLASS-->
+    <string id="str_context_line.first_meeting_default_cl" text="{=ay0tHozl}Aye? So who're you, then?">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_attracted_male_cl" text="{=RNfnK0Vv}Em.... Greetings, my lady. I do not believe that we've met.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+        <tag tag_name="AttractedToPlayerTag" weight="1" />
+        <tag tag_name="PlayerIsFemaleTag" weight="1" />
+        <tag tag_name="AttackingTag" weight="-1" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_wary_cl" text="{=mkFfE4Pm}That's close enough, now. Who are you?">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="WaryTag" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_cl" text="{=2Uuwrvmw}{STR_SALUTATION}... Let me introduce myself.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_tavern_cl" text="{=97bAooa5}God.. Wine here tastes like piss. Right... So who're you?">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+        <tag tag_name="UncharitableTag" />
+        <tag tag_name="DrinkingInTavernTag" weight="+3" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_gang_leader_cl" text="{=aZeMzNXf}Yeah? You want something from me? Who're you?">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+        <tag tag_name="GangLeaderNotableTypeTag" />
+        <tag tag_name="InHomeSettlementTag" weight="1" />
+      </tags>
+    </string>
+    <string id="str_context_line.attacking_unmet_cl" text="{=Kp0Mc35d}Halt. Who're you?">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="AttackingTag" weight="+4" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.attacking_unmet_cruel_cl" text="{=7dqD89gR}Stop there. You can tell me who you are, or save your breath for what comes next.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="AttackingTag" weight="+4" />
+        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
+      </tags>
+    </string>
     <string id="str_context_line.default_cl" text="{=q3WvWFD1}{STR_SALUTATION}. It's been a while.">
       <tags>
         <tag tag_name="MetBeforeTag" />
@@ -665,58 +732,6 @@ attacking (common variations - attacking_gloating) -->
     <string id="str_context_line.flirtatious_cl" text="{=GgERkyDL}My lady...">
       <tags>
         <tag tag_name="RomanticallyInvolvedTag" weight="+5" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_default_cl" text="{=ay0tHozl}Aye? So who're you, then?">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_attracted_male_cl" text="{=RNfnK0Vv}Em.... Greetings, my lady. I do not believe that we've met.">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-        <tag tag_name="AttractedToPlayerTag" weight="1" />
-        <tag tag_name="PlayerIsFemaleTag" weight="1" />
-        <tag tag_name="AttackingTag" weight="-1" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_wary_cl" text="{=mkFfE4Pm}That's close enough, now. Who are you?">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="WaryTag" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_tavern_cl" text="{=97bAooa5}God.. Wine here tastes like piss. Right... So who're you?">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-        <tag tag_name="UncharitableTag" />
-        <tag tag_name="DrinkingInTavernTag" weight="+3" />
-      </tags>
-    </string>
-    <string id="str_context_line.first_meeting_gang_leader_cl" text="{=aZeMzNXf}Yeah? You want something from me? Who're you?">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-        <tag tag_name="GangLeaderNotableTypeTag" />
-        <tag tag_name="InHomeSettlementTag" weight="1" />
-      </tags>
-    </string>
-    <string id="str_context_line.attacking_unmet_cl" text="{=Kp0Mc35d}Halt. Who're you?">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="AttackingTag" weight="+4" />
-        <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
-      </tags>
-    </string>
-    <string id="str_context_line.attacking_unmet_cruel_cl" text="{=7dqD89gR}Stop there. You can tell me who you are, or save your breath for what comes next.">
-      <tags>
-        <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="AttackingTag" weight="+4" />
         <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
       </tags>
     </string>
@@ -753,6 +768,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaCurtLowerTag" />
       </tags>
     </string>
+    <!-- IRONIC LOWER CLASS-->
     <string id="str_context_line.first_meeting_il" text="{=aOkilS3H}Right. So who might you be, then?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -761,10 +777,10 @@ attacking (common variations - attacking_gloating) -->
     </string>
     <string id="str_context_line.first_meeting_tavern_il" text="{=z3zTyNru}Come any closer, stranger, and I'll stick a knife in your belly. But if you stay where you are, we may have a pleasant enough chat.">
       <tags>
+        <tag tag_name="FirstMeetingTag" />
         <tag tag_name="CombatantTag" />
         <tag tag_name="AmoralTag" />
         <tag tag_name="DrinkingInTavernTag" weight="+3" />
-        <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaIronicLowerTag" />
       </tags>
     </string>
@@ -780,6 +796,13 @@ attacking (common variations - attacking_gloating) -->
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="AttackingTag" />
+        <tag tag_name="VoiceGroupPersonaIronicLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_cl" text="{=Es1MRkbS}{STR_SALUTATION}... This is truly an honor. Let me introduce myself.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
         <tag tag_name="VoiceGroupPersonaIronicLowerTag" />
       </tags>
     </string>
@@ -825,7 +848,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaIronicLowerTag" />
       </tags>
     </string>
-    <!-- EARNEST lower MALE-->
+    <!-- EARNEST LOWER CLASS-->
     <string id="str_context_line.first_meeting_el" text="{=WAK8lSaW}Well, good day to you. So who might you be?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -842,12 +865,19 @@ attacking (common variations - attacking_gloating) -->
     <string id="str_context_line.first_meeting_gang_leader_el" text="{=YzBDQ8J3}So... Just so you know, this here is my turf. Now, who might you be?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
-        <tag tag_name="VoiceGroupPersonaEarnestLowerTag" />
         <tag tag_name="GangLeaderNotableTypeTag" />
         <tag tag_name="InHomeSettlementTag" weight="1" />
+        <tag tag_name="VoiceGroupPersonaEarnestLowerTag" />
       </tags>
     </string>
-    <string id="str_context_line.attacking_el" text="{=CcPZbyiv}Stop there, mate. So, you might want to tell me your name, before we cross swords.">
+    <string id="str_context_line.first_meeting_under_command_el" text="{=Ia4zfagK}{STR_SALUTATION}... It's an honor to meet you.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="VoiceGroupPersonaEarnestLowerTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.attacking_unmet_el" text="{=CcPZbyiv}Stop there, mate. So, you might want to tell me your name, before we cross swords.">
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="AttackingTag" />
@@ -896,7 +926,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaEarnestLowerTag" />
       </tags>
     </string>
-    <!-- SOFTSPOKEN lowerwest MALE-->
+    <!-- SOFTSPOKEN LOWER CLASS-->
     <string id="str_context_line.first_meeting_sl" text="{=YGAYp0pO}Aye? Sorry, I don't think I know you.">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -923,6 +953,13 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
         <tag tag_name="GangLeaderNotableTypeTag" />
         <tag tag_name="InHomeSettlementTag" weight="1" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_sl" text="{=2Uuwrvmw}{STR_SALUTATION}... Let me introduce myself.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
       </tags>
     </string>
     <string id="str_context_line.metbefore_sl" text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
@@ -967,7 +1004,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
       </tags>
     </string>
-    <!-- TRIBAL AND MISC-->
+    <!-- CURT TRIBAL -->
     <string id="str_context_line.first_meeting_ct" text="{=PvxtpJaY}Yours is not a face I know. What is your name, stranger?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -991,12 +1028,19 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="DrinkingInTavernTag" weight="1" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting_gang_leader" text="{=cOEodlOB}You wanted to see me for something?">
+    <string id="str_context_line.first_meeting_gang_leader_ct" text="{=cOEodlOB}You wanted to see me for something?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaCurtTribalTag" />
         <tag tag_name="GangLeaderNotableTypeTag" />
         <tag tag_name="DrinkingInTavernTag" weight="1" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_ct" text="{=aGP9qTGp}{STR_SALUTATION}... I offer you my loyalty.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="VoiceGroupPersonaCurtTribalTag" />
       </tags>
     </string>
     <string id="str_context_line.attacking_ct" text="{=8i2Z7jJa}Halt there. So, tell me who I fight?">
@@ -1065,6 +1109,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaCurtTribalTag" />
       </tags>
     </string>
+    <!-- EARNEST TRIBAL -->
     <string id="str_context_line.first_meeting_et" text="{=TjrwrSH9}Peace to you, stranger. What is your name?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -1078,10 +1123,17 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaEarnestTribalTag" />
       </tags>
     </string>
-    <string id="str_context_line.attacking_et" text="{=8i2Z7jJa}Halt there. So, tell me who I fight?">
+    <string id="str_context_line.attacking_unmet_et" text="{=8i2Z7jJa}Halt there. So, tell me who I fight?">
       <tags>
         <tag tag_name="AttackingTag" weight="2" />
         <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaEarnestTribalTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_et" text="{=aGP9qTGp}{STR_SALUTATION}... I offer you my loyalty.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
         <tag tag_name="VoiceGroupPersonaEarnestTribalTag" />
       </tags>
     </string>
@@ -1152,25 +1204,33 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaEarnestTribalTag" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting" text="{=oqSF8Ueu}Well now, stranger. Peace to you. What is your name?">
+    <!-- IRONIC TRIBAL -->
+    <string id="str_context_line.first_meeting_it" text="{=oqSF8Ueu}Well now, stranger. Peace to you. What is your name?">
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="VoiceGroupPersonaIronicTribalTag" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting_et" text="{=ZBjXh6cA}Stop there, stranger. I bid you peace. At least until I find out who you are, anyway.">
+    <string id="str_context_line.first_meeting_it" text="{=ZBjXh6cA}Stop there, stranger. I bid you peace. At least until I find out who you are, anyway.">
       <tags>
         <tag tag_name="FirstMeetingTag" />
         <tag tag_name="WaryTag" />
         <tag tag_name="VoiceGroupPersonaIronicTribalTag" />
       </tags>
     </string>
-    <string id="str_context_line.first_meeting_tavern_et" text="{=wAAdnzKD}Peace to you, stranger, though if you come any closer I may stick a knife in your belly, as one cannot be too careful these days.">
+    <string id="str_context_line.first_meeting_tavern_it" text="{=wAAdnzKD}Peace to you, stranger, though if you come any closer I may stick a knife in your belly, as one cannot be too careful these days.">
       <tags>
         <tag tag_name="CombatantTag" />
         <tag tag_name="AmoralTag" />
         <tag tag_name="DrinkingInTavernTag" weight="+1" />
         <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="VoiceGroupPersonaIronicTribalTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_it" text="{=WACwhm8r}{STR_SALUTATION}! I am honored to meet you. Let me introduce myself.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
         <tag tag_name="VoiceGroupPersonaIronicTribalTag" />
       </tags>
     </string>
@@ -1232,6 +1292,7 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="VoiceGroupPersonaIronicTribalTag" />
       </tags>
     </string>
+    <!-- SOFTSPOKEN TRIBAL -->
     <string id="str_context_line.firstmeeting_st" text="{=mcNlccCF}Aye? I don't think I know you. Peace to you, stranger.">
       <tags>
         <tag tag_name="FirstMeetingTag" />
@@ -1251,6 +1312,13 @@ attacking (common variations - attacking_gloating) -->
         <tag tag_name="AttackingTag" />
         <tag tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
         <tag tag_name="AmoralTag" />
+      </tags>
+    </string>
+    <string id="str_context_line.first_meeting_under_command_st" text="{=pff33rZl}{STR_SALUTATION}. I am at your service.">
+      <tags>
+        <tag tag_name="FirstMeetingTag" />
+        <tag tag_name="UnderCommandTag" weight="15" />
+        <tag tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
       </tags>
     </string>
     <string id="str_context_line.metbefore_st" text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">

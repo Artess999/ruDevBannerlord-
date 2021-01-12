@@ -62,6 +62,7 @@
       <Entry Text="Hakan Soyözen" />
       <Entry Text="Oğuzhan Şirin" />
       <Entry Text="Halil Şahiner" />
+      <Entry Text="Furkan Çağlayan" />
     </Section>
     <EmptyLine />
     <Section Text="{=xLkrk2SX}UI &amp; Backend Team Lead">
@@ -73,6 +74,7 @@
       <Entry Text="Ahmet Alperen Akçay" />
       <Entry Text="Ömer Sarı" />
       <Entry Text="Yasir Nacak" />
+      <Entry Text="Bahadır Coşkun" />
     </Section>
     <EmptyLine />
     <Section Text="{=FPdGPPtD}Backend Programmers">
@@ -126,6 +128,7 @@
       <Entry Text="Gökalp Doğan" />
       <Entry Text="Erdem Yeni" />
       <Entry Text="Fatih Başar Yüzer" />
+      <Entry Text="Erkan Güler" />
     </Section>
     <EmptyLine />
     <Section Text="{=pU9xe3hJ}Lighting &amp; Particles">
@@ -178,6 +181,7 @@
       <Entry Text="Ali Sezgin" />
       <Entry Text="Ahmet Terzioğlu" />
       <Entry Text="Meriç Neşeli" />
+      <Entry Text="Mert Can Doğan" />
     </Section>
     <EmptyLine />
     <Section Text="{=Lmi0RnrQ}Assistant Producers">
@@ -248,6 +252,10 @@
       <Entry Text="Kubilay Çıtır " />
       <Entry Text="Mehmet Yaşar Altunsoy" />
       <Entry Text="Ali Can Eren Çelik" />
+      <Entry Text="İbrahim Yağız Bayazit" />
+      <Entry Text="Özgün Toprak" />
+      <Entry Text="Bilal Doğuş Tedikoğlu" />
+      <Entry Text="Teoman Cem Katoğlu" />
     </Section>
     <EmptyLine />
   </Category>
@@ -426,6 +434,7 @@
     <Section Text="{=QA5PTOVx}Community Management">
       <Entry Text="Callum Patrick George McGlinchey" />
       <Entry Text="Mehmet Arda Gündüz" />
+      <Entry Text="Dejan Miladinović" />
     </Section>
     <EmptyLine />
     <Section Text="{=N63XYX2r}Support">
@@ -434,6 +443,7 @@
       <Entry Text="Mehmet Arda Gündüz" />
       <Entry Text="Kadir Fatih Sözbir" />
       <Entry Text="Neslişah Gökçe" />
+      <Entry Text="Ecem Tasalı" />
     </Section>
     <EmptyLine />
     <Section Text="{=FbvKfN2j}Forum Programming">
@@ -702,12 +712,27 @@
     </Section>
     <EmptyLine />
     <Section Text="{=c4uLbAk2}Simplified Chinese &amp; Traditional Chinese:">
+      <Entry Text="{=leJXYMYH}Mount &amp; Blade Chinese Localization Team (Qi Kan ZhongWenZhan)" />
       <Entry Text="Netease Fever Team" />
-      <Entry Text="Wiitrans Team" />
-      <Entry Text="Yang Jinglin" />
+      <Entry Text="Muyiboy" />
       <Entry Text="Li Kai" />
-      <Entry Text="Qiu ZhiHong" />
-      <Entry Text="Tan Liang" />
+      <Entry Text="Tailor Tam" />
+      <Entry Text="Rubik" />
+      <Entry Text="Yu Junyang" />
+      <Entry Text="Po-Han Lu" />
+      <Entry Text="Xu Hao" />
+      <Entry Text="Haximodor He" />
+      <Entry Text="Zhu Xi" />
+      <Entry Text="Sun Xutong" />
+      <Entry Text="HoloNesan" />
+      <Entry Text="Tatsheoth" />
+      <Entry Text="Chinming Chan" />
+      <Entry Text="Lu Jiahui" />
+      <Entry Text="Wu Tingwang" />
+      <Entry Text="Pan Xiuze" />
+      <Entry Text="Aomine Daiki" />
+      <Entry Text="Xiao Hei" />
+      <Entry Text="Eci" />
     </Section>
     <EmptyLine />
     <Section Text="{=bvbTt1C3}Japanese, Korean, Polish and Russian">

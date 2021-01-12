@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+  <SkillSet id="spc_notable_khuzait_0b">
+    <skill id="OneHanded"
+      value="100" />
+  </SkillSet>
+</SkillSets>

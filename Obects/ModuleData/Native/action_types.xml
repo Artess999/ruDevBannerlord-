@@ -4174,6 +4174,8 @@
     <action name="act_horse_fall_slow_left" type="actt_fall" />
     <action name="act_horse_fall_slow_left_continue" type="actt_fall" />
 
+	
+
 
     <!--
     <action name="act_horse_background_story_1" type="actt_idle" />
@@ -4880,6 +4882,51 @@
     <action name="act_childhood_clever" />
     <action name="act_childhood_book" />
 
+      <action name="act_childhood_arms" />	  
+      <action name="act_childhood_artisan"  />	 
+      <action name="act_childhood_polearm"  />		  
+      <action name="act_childhood_roguery"  />
+      <action name="act_childhood_spotting"  />
+      <action name="act_childhood_clever_2" />	
+	  
+      <action name="act_childhood_manners_2"  />
+      <action name="act_childhood_manners_3"  />	  
+      <action name="act_childhood_arms_2"  />	
+      <action name="act_childhood_spoiled"  />
+      <action name="act_childhood_explorer"  />
+      <action name="act_childhood_explorer2"  />	  
+      <action name="act_childhood_play"  />
+	  
+      <action name="act_childhood_play_2"  />
+      <action name="act_childhood_genius"  />	  
+      <action name="act_childhood_ready_bow" />
+      <action name="act_childhood_guard_up_staff" />
+	  	  
+      <action name="act_childhood_honor" />		  
+      <action name="act_childhood_hardened" />		  
+      <action name="act_childhood_grit" />		  
+      <action name="act_childhood_defend" />		  		  
+      <action name="act_childhood_focus" />				  
+      <action name="act_childhood_strenght" />	
+      <action name="act_childhood_leader_2" />		  
+
+      <action name="act_childhood_contemplate" />		  		  
+      <action name="act_childhood_tactician" />				  
+      <action name="act_childhood_appearances" />	
+      <action name="act_childhood_sceptic" />		  
+      <action name="act_childhood_ready_throw" />			
+     <action name="act_childhood_riding_2" />			
+      <action name="act_childhood_toddler_vigor" />		  		  
+      <action name="act_childhood_toddler_social" />				  
+      <action name="act_childhood_toddler_endurance" />	
+      <action name="act_childhood_toddler_intelligence"/>				  
+      <action name="act_childhood_toddler_control" />		 
+      <action name="act_childhood_toddler_cunning"  />		
+      <action name="act_childhood_toddler_sleep"  />		  
+      <action name="act_childhood_toddler_tantrum"  />		  
+
+	  	  	 	  
+	  
     <action name="act_visual_test_morph_animation" />
 
     <!-- Action types of attack and raid scenarios for campaign map sets  -->

@@ -2394,7 +2394,7 @@
     <flag name="priority" value="80" />
   </flags>
     </animation>-->
-    <animation id="horse_death_slow_right" param1="0.89" duration="1.35" anim_data_name="horse_death_slow_right" source1="20" source2="65" blend_in_period="0.1" blend_out_period="0.0" continue_to_action="act_horse_fall_slow_right_continue">
+    <animation id="horse_death_slow_right" param1="0.89" duration="1.3" anim_data_name="horse_death_slow_right" source1="20" source2="65" blend_in_period="0.1" blend_out_period="0.0" continue_to_action="act_horse_fall_slow_right_continue">
       <flags>
         <flag name="update_bounding_volume" />
         <flag name="client_prediction" />
@@ -2425,7 +2425,7 @@
       <clip_usage_data type="displacement_data" displacement_vector="2.3,0.55,0" />
       <clip_usage_data type="mount_change_data" scale_blend_start_progress="0.85" scale_blend_end_progress="0.5" />
     </animation>
-    <animation id="rider_fall_slow_right_continue" duration="2.1" anim_data_name="anim_rider_death_right" source1="66" source2="115" blend_in_period="0.0" blend_out_period="0.3">
+    <animation id="rider_fall_slow_right_continue" param1="0.60" duration="1.6" anim_data_name="anim_rider_death_right" source1="66" source2="115" blend_in_period="0.0" blend_out_period="0.3">
       <flags>
         <flag name="update_bounding_volume" />
         <flag name="client_prediction" />

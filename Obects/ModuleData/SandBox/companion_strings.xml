@@ -224,7 +224,7 @@
     <string id="str_npc_backstory_b.12" text="{=wd4BBrTY}Because I've drunk my way through all the silver in my pocket, and I'm thirsty again. Because it's been a too long since I swung a sword, and my arm's a bit itchy. Because if you don't kill a man every few weeks, people forget what you're about. There. You need only one reason, and I just give you three." />
     <string id="str_npc_interrupt_1.12" text="{=TnVIWrof}You sound like you have the right attitude. Tell me more about yourself." />
     <string id="str_npc_interrupt_2.12" text="{=teLnMBXG}I like my men to be aggressive, but there are limits. Good-day, sir." />
-    <string id="str_npc_backstory_d.12" text="{=2pv2fc22}If you want to know more about me, I'll tell you this: I come from up north of here. I came down here to make my name, and to fight. I fought a bit for the skolderbrotva, but I grew tired of them, because they fight more than most but they don't fight enough for me. " />
+    <string id="str_npc_backstory_d.12" text="{=2pv2fc22}If you want to know more about me, I'll tell you this: I come from up north of here. I came down here to make my name, and to fight. I fought a bit for the skolderbroda, but I grew tired of them, because they fight more than most but they don't fight enough for me. " />
     <string id="str_npc_backstory_d.12" text="{=XHCxDciV}I hope I've made it clear to you what I'm about. " />
     <string id="str_npc_backstory_response_1.12" text="{=ovC1Sdix}Very well. One thing I can promise you is a lot of fighting." />
     <string id="str_npc_backstory_response_2.12" text="{=v2664Qeo}..." />

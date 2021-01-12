@@ -73,7 +73,7 @@
   <!-- Empire north 9 - Serapides-->
   <Hero id="lord_NE9_l" is_noble="true" faction="Faction.clan_empire_north_9" />
   <Hero id="lord_NE9_s" is_noble="true" father="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9" />
-  <Hero id="lord_NE9_d" is_noble="true" father="Hero.lord_NE9_l"  faction="Faction.clan_empire_north_9" />
+  <Hero id="lord_NE9_d" is_noble="true" father="Hero.lord_NE9_l" faction="Faction.clan_empire_north_9" />
   <!-- Empire west 1 -->
   <Hero id="lord_1_7" is_noble="true" spouse="Hero.lord_1_8" faction="Faction.clan_empire_west_1" text="{=niI9dpuu}The western third of the Empire is ruled by Garios, a charismatic general who represents a longstanding populist trend in imperial politics. He is deeply loved by his soldiers, both for his solid record in winning battles and for his insistence that his veterans be compensated in land afterwards. He often demands that the 'people' should settle key issues, but in practice this usually means an assembly of his soldiers, where his veterans can be counted on to shut down opposition." />
   <Hero id="lord_1_75" is_noble="true" father="Hero.lord_1_7" faction="Faction.clan_empire_west_1" />

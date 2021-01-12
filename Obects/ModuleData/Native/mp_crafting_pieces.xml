@@ -548,7 +548,7 @@
   </CraftingPiece>
   <CraftingPiece id="mp_vlandia_fast_sword_grip" name="{=Kx7mFZb9}MP Vlandia Fast Sword Grip" tier="2" piece_type="Handle" mesh="vlandian_noble_grip_1" culture="Culture.vlandia" length="17.5" weight="0.1">
     <PieceUsages unavailable_usages="TwoHandedSword" />
-    <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
+    <BuildData piece_offset="0" previous_piece_offset="0.358" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_long_sword_grip" name="{=2hdrpGgi}MP Aserai Long Sword Grip" tier="2" piece_type="Handle" mesh="khuzait_grip_15" length="25.5" weight="0.150">
     <PieceUsages unavailable_usages="" />
@@ -1593,10 +1593,16 @@
       <Thrust damage_type="Pierce" damage_factor="1.75" />
     </BladeData>
   </CraftingPiece>
-  <CraftingPiece id="mp_sturgia_lance_blade" name="{=DuBal349}Mp Sturgia Lance" tier="2" piece_type="Blade" mesh="spear_blade_42" length="42" weight="1.0456" excluded_item_usage_features="swing">
+  <CraftingPiece id="mp_sturgia_lance_blade" name="{=?}Mp Sturgia Lance Blade" tier="2" piece_type="Blade" mesh="spear_blade_42" length="42" weight="1.0456" excluded_item_usage_features="swing">
     <PieceUsages unavailable_usages="Javelin" />
     <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_4_1" holster_body_name="bo_throwing_spear_quiver_4_1">
       <Thrust damage_type="Pierce" damage_factor="2.35" />
+    </BladeData>
+  </CraftingPiece>
+  <CraftingPiece id="mp_sturgia_heavy_lance_blade" name="{=?}Mp Sturgia Heavy Lance Blade" tier="5" piece_type="Blade" mesh="spear_blade_13" length="50.864" weight="1.1" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="2.4" />
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_battania_spear_blade" name="{=z9BrfJT3}Mp Battania Spear Blade" tier="2" piece_type="Blade" mesh="spear_blade_42" length="42" weight="0.2" excluded_item_usage_features="swing">
@@ -1854,11 +1860,11 @@
     <PieceUsages unavailable_usages="TwoHandedPolearm_Pike:Javelin" />
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
-  <CraftingPiece id="mp_empire_lance_handle" name="{=O6TtFPHo}Mp Empire Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="229" weight="1.8">
+  <CraftingPiece id="mp_empire_lance_handle" name="{=O6TtFPHo}Mp Empire Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="0.9">
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
-    <BuildData piece_offset="22.9" />
+    <BuildData piece_offset="24.9" />
   </CraftingPiece>
-  <CraftingPiece id="mp_empire_heavy_lance_handle" name="{=f0RONOLG}Mp Empire Heavy Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="2.2">
+  <CraftingPiece id="mp_empire_heavy_lance_handle" name="{=f0RONOLG}Mp Empire Heavy Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.7">
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
     <BuildData piece_offset="24.9" />
   </CraftingPiece>

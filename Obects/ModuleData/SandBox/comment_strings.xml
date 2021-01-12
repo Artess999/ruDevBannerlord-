@@ -3212,30 +3212,26 @@ political_strings
     </string>
     <string id="str_salutation.undercommand" text="{=oIrz5050}Your highness">
       <tags>
-        <tag tag_name="MetBeforeTag" />
-        <tag tag_name="UnderCommandTag" />
+        <tag tag_name="UnderCommandTag" weight="+2" />
         <tag tag_name="PlayerIsLiegeTag" weight="+2" />
       </tags>
     </string>
     <string id="str_salutation.lordship" text="{=aagGt8pX}Your lordship">
       <tags>
-        <tag tag_name="MetBeforeTag" />
-        <tag tag_name="UnderCommandTag" />
+        <tag tag_name="UnderCommandTag" weight="+2" />
         <tag tag_name="PlayerIsNobleTag" />
       </tags>
     </string>
     <string id="str_salutation.ladyship" text="{=iepWkkfA}Your ladyship">
       <tags>
-        <tag tag_name="MetBeforeTag" />
         <tag tag_name="PlayerIsFemaleTag" />
-        <tag tag_name="UnderCommandTag" />
+        <tag tag_name="UnderCommandTag" weight="+2" />
         <tag tag_name="PlayerIsNobleTag" />
       </tags>
     </string>
     <string id="str_salutation.captain" text="{=captainasleader}Captain">
       <tags>
-        <tag tag_name="MetBeforeTag" />
-        <tag tag_name="UnderCommandTag" />
+        <tag tag_name="UnderCommandTag" weight="+2" />
       </tags>
     </string>
     <string id="str_salutation.my_lady" text="{=4Jo8JMZm}My lady">
@@ -3549,7 +3545,7 @@ political_strings
       </tags>
     </string>
     <!-- minor faction comments - sects -->
-    <string id="str_comment_special_clan_intro_beni_zilal.default" text="{=caKCwoPM}The Bani Zilal are the keepers of the secret. We watch from the shadows. Make foes of us at your peril.">
+    <string id="str_comment_special_clan_intro_beni_zilal.default" text="{=caKCwoPM}The Beni Zilal are the keepers of the secret. We watch from the shadows. Make foes of us at your peril.">
       <tags>
         <tag tag_name="DefaultTag" />
       </tags>

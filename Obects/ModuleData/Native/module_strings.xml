@@ -212,7 +212,6 @@
     <string id="str_production_in_village" text="{=z7vSaa7L}Production in Village" />
     <string id="str_primary_production" text="{=jtN3ayKE}Primary Production" />
     <string id="str_militia" text="{=gsVtO9A7}Militia" />
-    <string id="str_annex" text="{=4smaJqhw}Annex" />
     <string id="str_wall" text="{=6pNrNj93}Wall" />
     <string id="str_walls" text="{=LsZEdD2z}Walls" />
     <string id="str_wall_breached" text="{=83Yt9rbK}Breached" />
@@ -284,6 +283,7 @@
     <string id="str_hero_description" text="{=!}Heroes are niceTODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO" />
     <string id="str_unit_description" text="{=!}Units are niceTODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO" />
     <string id="str_settlements" text="{=jpBpwgAs}Settlements" />
+    <string id="str_towns" text="{=ebbyLN2i}Towns" />
     <string id="str_castles" text="{=jpBpwgAs}Castles" />
     <string id="str_dwellings" text="{=pgd7Dp78}Dwellings" />
     <string id="str_settlement_description" text="{=!}Settlements are niceTODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO_TODO" />
@@ -319,6 +319,8 @@
     <string id="str_troop_group_name.5" text="{=JSokBXER}Heavy Infantry" />
     <string id="str_troop_group_name.6" text="{=ZR2bAa1p}Light Cavalry" />
     <string id="str_troop_group_name.7" text="{=MLmHSSg0}Heavy Cavalry" />
+    <string id="str_troop_group_name.8" text="{=8byRf9zO}General" />
+    <string id="str_troop_group_name.9" text="{=Z8LeI4ho}Bodyguard" />
     <string id="str_ok" text="{=oHaWR73d}Ok" />
     <string id="str_info" text="{=cJmI2poS}Info" />
     <string id="str_facegen_error_on_paste" text="{=1XVvU23F}Unable to use the clipboard text as body properties key!" />
@@ -1236,6 +1238,7 @@
     <string id="str_cannot_open_character" text="{=G95mB3b3}Can't access character window right now!" />
     <string id="str_cannot_open_banner" text="{=BkB9aOhw}Can't access banner window right now!" />
     <string id="str_skills" text="{=bz7Glmsm}Skills" />
+    <string id="str_attributes" text="{=NqtTPVzn}Attributes" />
     <string id="str_perk_already_have" text="{=rzsRQkXw}{CHAR_NAME} already have {PERK_NAME} perk." />
     <string id="str_battle_end" text="{=gY8kkujq}Battle ended! Press tab key to leave... " />
     <string id="str_sneak_mission_end" text="{=PEKxMxal}You can now escape." />
@@ -1281,7 +1284,7 @@
     <string id="str_number_of_less_member_parties" text="{=NaorUInI}Understrength Parties" />
     <string id="str_assuring_presence_perk_bonus" text="{=dyLYsWPf}Assuring Presence Perk Bonus" />
     <string id="str_loyalty" text="{=YO0x7ZAo}Loyalty" />
-    <string id="str_loyalty_drift" text="{=*}Loyalty Drift" />
+    <string id="str_loyalty_drift" text="{=fEJQcb4U}Loyalty Drift" />
     <string id="str_being_at_army" text="{=5bqmaciE}{ARMY_MEMBER} to be at army" />
     <string id="str_party_wage" text="{=cQWCp9F1}Daily Party Wage" />
     <string id="str_workshop_profits" text="{=BE1scex6}Daily Workshop Profits" />
@@ -1325,7 +1328,7 @@
     <string id="str_last_seen_4" text="{=a3uKkLez}{LORD.LINK} is in the field nearby {SETTLEMENT_NAME}" />
     <string id="str_last_seen_5" text="{=KWXEMsHC}{LORD.LINK} is at {SETTLEMENT_NAME}" />
     <string id="str_security" text="{=MqCH7R4A}Security" />
-    <string id="str_security_drift" text="{=*}Security Drift" />
+    <string id="str_security_drift" text="{=ljcHO6PW}Security Drift" />
     <string id="str_issues" text="{=D7KllIPI}Issues" />
     <string id="str_offer_rejected" text="{=CZqZGAVB}Barter Offer is rejected!" />
     <string id="str_offer_accepted" text="{=5ZPp8btH}Barter Offer is accepted!" />
@@ -1770,7 +1773,7 @@
     <string id="str_formation_ai_soldier_instruction_text" text="{=Vap6ahft}Men! {BEHAVIOUR_NAME_BEGIN}!" />
     <string id="str_formation_soldier_join_text" text="{=3vT6TQmF}{PLAYER.LINK}, you are in {SIDE_STRING} {CLASS_NAME}." />
     <string id="str_formation_ai_side_change_string" text="{=3vT6TQmF}{PLAYER.LINK}, you are in {SIDE_STRING} {CLASS_NAME}." />
-    <string id="str_formation_ai_sergeant_instruction_text" text="{=C9pxqWY8}Your unit is expected to: {BEHAVIOUR_NAME_BEGIN}{?IS_PLURAL} and {?}{\?}{BEHAVIOUR_NAME_END}{?IS_GENERAL_SIDE} from {SIDE_STRING}{?}{\?}" />
+    <string id="str_formation_ai_sergeant_instruction_text" text="{=!}Your unit is expected to: {BEHAVIOUR_NAME_BEGIN}{?IS_PLURAL} and {?}{\?}{BEHAVIOUR_NAME_END}{?IS_GENERAL_SIDE} from {SIDE_STRING}{?}{\?}" />
     <string id="str_formation_ai_side_strings.Left" text="{=7zUWqY3O}Left" />
     <string id="str_formation_ai_side_strings.Middle" text="{=qIvDX0JR}Center" />
     <string id="str_formation_ai_side_strings.Right" text="{=25MeMNbP}Right" />
@@ -1862,6 +1865,9 @@
     <string id="str_faction_noble_name_with_title.aserai" text="{=jM9KGCIa}{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
     <string id="str_faction_ruler_name_with_title.sturgia" text="{=nojcK4ia}{?RULER.GENDER}Grand Princess{?}Grand Prince{\?} {RULER.NAME}" />
     <string id="str_faction_noble_name_with_title.sturgia" text="{=lqm9PfF1}{?RULER.GENDER}Knyaginya{?}Knyaz{\?} {RULER.NAME}" />
+    <string id="str_education" text="{=If65Vm9h}Child Education" />
+    <string id="str_education_notification_middle" text="{=Nfm5lLWv}{CHILD.NAME} needs your immediate attention!" />
+    <string id="str_education_notification_right" text="{=7MSuWxaY}{CHILD.NAME} has reached the age of {CHILD.AGE} and {?CHILD.GENDER}she{?}he{\?} needs your guidance." />
     <string id="str_faction_ruler_term_in_speech.vlandia" text="{=pcy8IXDf}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
     <string id="str_faction_official.aserai" text="{=owg6SqHF}an emir" />
     <string id="str_faction_official.aserai_f" text="{=G4XXubLg}an emira" />
@@ -1989,6 +1995,7 @@
     <string id="str_building_effect_explanation.LoyaltyDaily" text="{=vqHDX6hf}+{BONUS_AMOUNT} increase to settlement loyalty" />
     <string id="str_building_effect_explanation.MilitiaDaily" text="{=a6zaA9Um}+{BONUS_AMOUNT} increase to settlement militia." />
     <string id="str_building_effect_explanation.ProsperityDaily" text="{=ki5DqTtC}+{BONUS_AMOUNT} increase to settlement prosperity." />
+    <string id="str_building_effect_explanation.GarrisonWageReduce" text="{=kVLfRWjE}+{BONUS_AMOUNT}% reduce at garrison wages." />
     <string id="str_comment_common_area_fight_other.default" text="{=uUlO8l6M}Heard you got into a fight with some of the people working for {COMMON_AREA_OWNER}. Well, that's no business of mine.">
       <tags>
         <tag tag_name="DefaultTag" weight="1" />
