@@ -56,7 +56,7 @@
     <string id="brGfaXyo" text="Я даже не знаю, как с вами поступить. Вы либо {?PLAYER.GENDER}храбрая{?}храбрый{\?}, либо {?PLAYER.GENDER}глупая{?}глупый{\?}... или и то, и другое."/>
     <string id="BRMngn5i" text="Хватит! Я {?NPC.GENDER}ваша пленница{?}ваш пленник{\?}. Я могу заплатить выкуп. Я стою дороже {?NPC.GENDER}живой{?}живым{\?}, чем {?NPC.GENDER}мёртвой{?}мёртвым{\?}.[rf:angry][rb:trivial]"/>
     <string id="C5JaFsDZ" text="{FIRST_NAME} мой сюзерен. Вот и всё, что можно сказать."/>
-    <string id="caKCwoPM" text="Бани Зилал - хранители тайн. Мы наблюдаем из тени. Опасно быть нашим врагом."/>
+    <string id="caKCwoPM" text="Бени Зилал - хранители тайн. Мы наблюдаем из тени. Опасно быть нашим врагом."/>
     <string id="cFiSjbf4" text="Ха! Но я хочу битвы с вами"/>
     <string id="cGuzIVlk" text="Говорят, вы много путешествовали. Расскажите мне немного о ваших странствиях..."/>
     <string id="cMO9JXvk" text="Я {CONVERSATION_CHARACTER.LINK}, из клана {CLAN_NAME}. Мы вассалы {LIEGE_TITLE}, и чтим наши клятвы верности."/>

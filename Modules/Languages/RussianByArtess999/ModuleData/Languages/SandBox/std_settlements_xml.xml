@@ -378,7 +378,7 @@
     <string id="Settlements.Settlement.name.village_A6_2" text="Хамошават"/>
     <string id="Settlements.Settlement.name.village_A6_3" text="Джахасим"/>
     <string id="Settlements.Settlement.name.village_A6_4" text="Нахлан"/>
-    <string id="Settlements.Settlement.name.village_A7_2" text="Кафр Хатиф"/>
+    <string id="Settlements.Settlement.name.village_A7_2" text="Байт Хатиф"/>
     <string id="Settlements.Settlement.name.village_A7_3" text="Мабваз"/>
     <string id="Settlements.Settlement.name.village_A7_4" text="Залм"/>
     <string id="Settlements.Settlement.name.village_A8_1" text="Эзбет Нахул"/>
@@ -613,7 +613,7 @@
     <string id="Settlements.Settlement.text.village_A6_3" text="Джахасим лежит на сухом восточном берегу Бахр Эль Йешм, Нефритового моря, где степи сменяются пустынями юга. Местные жители собирают соль из солоноватого озера"/>
     <string id="Settlements.Settlement.text.village_A6_4" text="Нахлан находится под Выжженными вратами, разломом, образованным скалой Джеджара, разделённой рекой Дамар. Сельские жители используют речную воду и ручьи, текущие с холмов для орошения своих финиковых садов."/>
     <string id="Settlements.Settlement.text.village_A7_1" text="Вадар расположен в сухой каменистой долине на краю скалы Джеджара, между озером Бахр Эль Йешм и пустыней Нахасаа. Сельские жители используют воду, скапливающуюся между камнями, для полива своих полей, а лошадей пасут на близлежащих склонах."/>
-    <string id="Settlements.Settlement.text.village_A7_2" text="Кафр Хатиф находится в оазисе среди холмов, у реки Дамар. Местные жители выращивают пшеницу чтобы прокормиться и разводят лошадей на склонах холмов около своей деревни."/>
+    <string id="Settlements.Settlement.text.village_A7_2" text="Байт Хатиф находится в оазисе среди холмов, у реки Дамар. Местные жители выращивают пшеницу чтобы прокормиться и разводят лошадей на склонах холмов около своей деревни."/>
     <string id="Settlements.Settlement.text.village_A7_3" text="Мабваз расположен у реки Дамар, которая пересекает пустыню Нахасаа. Вода поддерживает рост финиковых пальм, которые процветают в жарком воздухе пустыни."/>
     <string id="Settlements.Settlement.text.village_A7_4" text="Залм расположен в верховьях реки Дамар, недалеко от ее истока в горах Таир. Это важный источник специй и первый источник воды, который путешественник сможет встретить после пересечения пустыни."/>
     <string id="Settlements.Settlement.text.village_A8_1" text="Эзбет Нахул расположен у небольшого залива в Ретана, землях асераев. Жители деревни ловят тунец, сардины, а иногда и акул."/>
