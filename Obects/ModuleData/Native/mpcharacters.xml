@@ -5135,9 +5135,7 @@
              value="100" />
     </skills>
     <Equipments>
-     <EquipmentRoster>
-	  <equipmentSet>
-			  
+     <EquipmentRoster>			  
  	   <equipment slot="Item0"
  		            id="Item.mp_sturgia_spear" />
  	   <equipment slot="Item1"
@@ -5154,8 +5152,8 @@
  		            id="Item.mp_sturgia_horse" />
  	   <equipment slot="HorseHarness"
                     id="Item.mp_northern_light_harness" />
-    </equipmentSet>
-    <equipmentSet>
+	 </EquipmentRoster>
+    <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_spear" />
       <equipment slot="Item1"
@@ -5171,10 +5169,9 @@
       <equipment slot="Horse"
                  id="Item.mp_sturgia_horse" />
       <equipment slot="HorseHarness"
-                   id="Item.mp_northern_light_harness" />
-	  </equipmentSet>
+                 id="Item.mp_northern_light_harness" />
       </EquipmentRoster>
-      <EquipmentRoster>
+     <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.mp_sturgia_spear" />
       <equipment slot="Item1"

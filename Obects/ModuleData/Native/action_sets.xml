@@ -5312,8 +5312,8 @@
     <action type="act_horse_backward_walk" animation="horse_walkbackfast" />
     <action type="act_horse_backward_walk_strafe_right" animation="horse_walkback_strafe_fast_r" />
     <action type="act_horse_backward_walk_strafe_left" animation="horse_walkback_strafe_fast_l" />
-    <action type="act_horse_rear" animation="horse_rearup_2" />
-    <action type="act_horse_rear_damaged" animation="horse_rearup" />
+    <action type="act_horse_rear" animation="horse_rear" />
+    <action type="act_horse_rear_damaged" animation="horse_rear_damaged" />
     <action type="act_horse_kick" animation="horse_kick" />
     <action type="act_horse_jump_start" animation="horse_jump_start" />
     <action type="act_horse_dash" animation="horse_dash" />
@@ -5443,8 +5443,8 @@
     <action type="act_camel_backward_walk_strafe_right" animation="camel_walk_backwards" />
     <action type="act_camel_backward_walk_strafe_left" animation="camel_walk_backwards" />
 
-    <action type="act_camel_rear" animation="camel_rearup" />
-    <action type="act_camel_rear_damaged" animation="camel_rearup_2" />
+    <action type="act_camel_rear" animation="camel_rear" />
+    <action type="act_camel_rear_damaged" animation="camel_rear_damaged" />
 
     <action type="act_camel_kick" animation="camel_walk_forward" />
 

@@ -1414,7 +1414,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES6" name="{=Settlements.Settlement.name.castle_ES6}Sestadai Castle" owner="Faction.clan_empire_south_1" posX="493.22" posY="346.296" culture="Culture.empire" prosperity="670" gate_posX="490.7934" gate_posY="346.133">
+  <Settlement id="castle_ES6" name="{=Settlements.Settlement.name.castle_ES6}Sestadaim Castle" owner="Faction.clan_empire_south_1" posX="493.22" posY="346.296" culture="Culture.empire" prosperity="670" gate_posX="490.7934" gate_posY="346.133">
     <Components>
       <Town id="castle_comp_ES6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1424,7 +1424,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_ES6_1" name="{=Settlements.Settlement.name.castle_village_ES6_1}Sestadai" posX="503.654" posY="349.408" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ES6_1}Sestadae sits on the western side of the great Ornian rock, an outcrop in the center of the Lycarea valley. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.">
+  <Settlement id="castle_village_ES6_1" name="{=Settlements.Settlement.name.castle_village_ES6_1}Sestadaim" posX="503.654" posY="349.408" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ES6_1}Sestadae sits on the western side of the great Ornian rock, an outcrop in the center of the Lycarea valley. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.">
     <Components>
       <Village id="castle_village_comp_ES6_1" village_type="VillageType.silver_mine" hearth="158" gate_rotation="0.008" trade_bound="Settlement.castle_ES6" bound="Settlement.castle_ES6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>

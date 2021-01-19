@@ -71,6 +71,7 @@
     <string id="str_order_name.ToggleAI" text="{=8vXHhxPr}Toggle AI" />
     <string id="str_order_name.ToggleTransfer" text="{=AmbKQ7LT}Transfer" />
     <string id="str_order_name.Return" text="{=EmVbbIUc}Return" />
+    <string id="str_order_name.ActivationFaceDirection" text="{=EZRnvPJS}Face This Direction" />
     <string id="str_order_name_off.ToggleFire" text="{=Q2yjFlC9}Hold Fire" />
     <string id="str_order_name_on.ToggleFire" text="{=CjPiabbn}Fire At Will" />
     <string id="str_order_name_off.ToggleMount" text="{=wk4bgkCt}Dismount" />
