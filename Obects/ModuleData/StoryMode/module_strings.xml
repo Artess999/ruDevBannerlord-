@@ -111,7 +111,7 @@
     <string id="str_campaign_tutorial_title.TalkToNotableTutorialStep1" text="{=axnDLcDA}Talk to the headman" />
     <string id="str_campaign_tutorial_description.TalkToNotableTutorialStep1" text="{=LS1whiyj}The menu on the top right shows the important people in your current location.{newline}{newline}Click on the headman's portrait to talk to him." />
     <string id="str_campaign_tutorial_title.TalkToNotableTutorialStep2" text="{=axnDLcDA}Talk to the headman" />
-    <string id="str_campaign_tutorial_description.TalkToNotableTutorialStep2" text="{=xCHBC7S9}Click on the &quot;Talk&quot; button to return to the notable and learn more about the task ahead." />
+    <string id="str_campaign_tutorial_description.TalkToNotableTutorialStep2" text="{=xCHBC7S9}Click on the &quot;Visit&quot; button to return to the notable and learn more about the task ahead." />
     <string id="str_campaign_tutorial_title.OrderTutorial1TutorialStep1" text="{=x4xx1Zd6}Battle Commands" />
     <string id="str_campaign_tutorial_description.OrderTutorial1TutorialStep1" text="{=FFP17aSl}At the beginning of a battle your soldiers will be holding their position. You can tell them to charge by opening the movement orders with &quot;F1&quot; and choosing &quot;Follow Me&quot; with &quot;F2&quot;." />
     <string id="str_campaign_tutorial_title.OrderTutorial1TutorialStep2" text="{=x4xx1Zd6}Battle Commands" />

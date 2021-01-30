@@ -1785,27 +1785,27 @@
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_western_spear_handle" name="{=KAfgaeml}Mp Western Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="0.85" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_western_long_spear_handle" name="{=0liWHlr2}MP Western Long Spar Handle" tier="2" piece_type="Handle" mesh="spear_handle_13" length="228" weight="1.15" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_western_pitchfork_handle" name="{=8Uaowe4p}Mp Short Western Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_8" length="230" weight="1.2" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" next_piece_offset="2.0" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_spear_handle" name="{=bQcNtpAX}Mp Aserai Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="1.292" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_spear_handle" name="{=Kre0mzBE}Mp Battnia Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="1.25" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_khuzait_short_spear_handle" name="{=x5G0ZPcc}Khuzait Short Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="0.98" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_khuzait_glaive_handle" name="{=X5HJVXl7}Mp Khuzait Glaive Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="1.4" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
@@ -1865,7 +1865,7 @@
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_empire_heavy_lance_handle" name="{=f0RONOLG}Mp Empire Heavy Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.7">
-    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_khuzait_lance_handle" name="{=M8YcaYHe}Mp Khuzait Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.8">
@@ -1873,7 +1873,7 @@
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_khuzait_long_spear_handle" name="{=2yXhM9nB}Mp Khuzait Long Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="228" weight="0.90" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Pike:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Pike:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturgia_spear_handle" name="{=GRCbgDyG}Mp Sturgia Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.0" excluded_item_usage_features="long">
@@ -1881,7 +1881,7 @@
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturgia_short_spear_handle" name="{=lXoFQF3m}Mp Sturgia Short Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="0.9" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturgia_long_spear_handle" name="{=t9SpURbP}Mp Sturgia Long Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.10" excluded_item_usage_features="long">
@@ -1897,15 +1897,15 @@
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_bamboo_spear_handle" name="{=2kVh9T07}Mp Aserai Bamboo Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_3" length="180" weight="1" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="17.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_long_spear_handle" name="{=OA8ZfESw}MP Aserai Long Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="228" weight="1.2" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_khuzait_spear_handle" name="{=TfJJA5kb}Mp Khuzait Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="1" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="19.4" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_bamboo_lance_handle" name="{=8aUvwAbY}Mp Aserai Bamboo Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_3" length="180" weight="1.6">
@@ -1917,7 +1917,7 @@
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_long_spear_handle" name="{=72NbJctE}Mp Long Spear Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="228" weight="1.0" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Pike:Javelin:TwoHandedPolearm_Bracing:TwoHandedPolearm_Couchable" />
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Pike:Javelin:TwoHandedPolearm_Couchable" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_lance_handle" name="{=LLnshS2R}Mp Battania Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="228" weight="1.85">
