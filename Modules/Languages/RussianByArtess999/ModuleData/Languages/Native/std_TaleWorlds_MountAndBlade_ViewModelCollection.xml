@@ -15,7 +15,6 @@
     <string id="5baU17n0" text="Функция подбора игроков в настоящее время отключена"/>
     <string id="5k4dxUEJ" text="Войска"/>
     <string id="5Pea977J" text="Фракция: "/>
-    <string id="5UJJLzaL" text="Игроков, которые ищут по вашим критериям: "/>
     <string id="5Z0pvuNL" text="Уровень {LEVEL}"/>
     <string id="61isYVW0" text="Игрок {USER_NAME} не найден"/>
     <string id="6GSXsdeX" text="Скорость"/>
@@ -103,7 +102,6 @@
     <string id="macpKFaG" text="Голос"/>
     <string id="mAxXKaXp" text="сброс"/>
     <string id="meFS5F4V" text="-{DAMAGE}"/>
-    <string id="Met1U45t" text="Мышь и клавиатура"/>
     <string id="MsAb6hed" text="{TEAM} команда была уничтожена"/>
     <string id="NaZ6xg33" text="Не удалось найти подходящий сервер для присоединения."/>
     <string id="nFvVw68B" text="Пригласить в отряд"/>
@@ -150,7 +148,6 @@
     <string id="TxphX8Uk" text="Развёртывание"/>
     <string id="TzYWE9tA" text="Последние игры не найдены"/>
     <string id="U4dzbzNb" text="Пожалуйста, подождите, пока вы будете подключены к серверу"/>
-    <string id="uNBpT3vs" text="Всего игроков ищет: "/>
     <string id="uUoSmCBS" text="В Bannerlord"/>
     <string id="uvwLriAX" text="Нажмите [{KEY_NAME}] чтобы открыть сводку битвы"/>
     <string id="UYnLfaCY" text="Покупка"/>
@@ -314,5 +311,21 @@
     <string id="overall_option" text="Overall"/>
     <string id="photomodefocus" text="Focus"/>
     <string id="Pwi1YCjH" text="Copy Bannerlord ID"/>
+    <string id="18yFEEIL" text="Estimated wait time"/>
+    <string id="4PrfimcK" text="Badge"/>
+    <string id="8OkPHu4f" text="No"/>
+    <string id="aeouhelq" text="Yes"/>
+    <string id="BXI1ObU8" text="Promote To Clan Officer"/>
+    <string id="DXczLzml" text="Status"/>
+    <string id="gowlLS2b" text="Demote From Clan Officer"/>
+    <string id="mFMPj9zg" text="Searching for matches"/>
+    <string id="MS4Ng2iw" text="Are you sure want to promote {MEMBER_NAME} as clan officer?"/>
+    <string id="oeSrXaKt" text="You need to demote one of the officers"/>
+    <string id="peUP9ZZj" text="Are you sure? You made some changes and they will be lost."/>
+    <string id="pSb1P6ZA" text="Are you sure want to demote {MEMBER_NAME} from clan officers?"/>
+    <string id="qmNeO8FG" text="Keybindings"/>
+    <string id="QvDxB57o" text="{STR1} | {STR2}"/>
+    <string id="SrfYbg3x" text="Leader"/>
+    <string id="ZYF2t1VI" text="Officer"/>
   </strings>
 </base>

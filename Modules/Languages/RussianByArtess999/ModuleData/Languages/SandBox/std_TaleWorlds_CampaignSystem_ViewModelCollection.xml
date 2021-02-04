@@ -48,7 +48,6 @@
     <string id="9slDj5wr" text="Изменить продукцию"/>
     <string id="a241aacb1780599430c79fd9f667b67f" text="Боевой дух отряда: "/>
     <string id="a8nRxITn" text="Пленники {PARTY_NAME}"/>
-    <string id="aadiCuDe" text="{COMPLETION_PERCENT} (Примерно {DAYS} дней до завершения)"/>
     <string id="AcMayd1p" text="Бежит от {TARGET_PARTY}."/>
     <string id="aE4ZRbB6" text=" {HEALTH}%"/>
     <string id="aFYwbosi" text="Этот герой уже возглавляет какой-либо отряд."/>
@@ -103,7 +102,6 @@
     <string id="fI7a7RoE" text="Емкость Инвентаря"/>
     <string id="FjJi1DJb" text="Этот персонаж уже является частью другого отряда."/>
     <string id="fOSGakix" text="Вы не можете управлять войском, пока находитесь в плену."/>
-    <string id="G6cCjixe" text="{COMPLETION_PERCENT} (Примерно {DAYS} дней до завершения)"/>
     <string id="g9VIbA9s" text="Сержант"/>
     <string id="GCaYjA5W" text="Вы должны быть лидером клана, чтобы изменить его название."/>
     <string id="gduqxfck" text="У вас нет всех необходимых материалов!"/>
@@ -366,5 +364,10 @@
     <string id="NxEy5Nbt" text="High risk of rebellion"/>
     <string id="Rvr1bcu8" text="Next"/>
     <string id="WXAaWZVf" text="Previous"/>
+    <string id="0TauthlH" text="Never (%{PERCENTAGE})"/>
+    <string id="GwA9oUBC" text="Your skill focus determines the rate your skill increases with practice"/>
+    <string id="lkJfq1ap" text="Owned settlements remain under your control but nobles will dislike this dishonorable act and the kingdom will declare war on you."/>
+    <string id="wMiLUTNY" text="Are you sure you want to smelt this weapon? It is locked in the inventory."/>
+    <string id="ZjaSde0X" text="Owned settlements are returned to the kingdom. This will avert a war and nobles will dislike you less for abandoning your fealty."/>
   </strings>
 </base>

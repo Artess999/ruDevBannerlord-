@@ -9,7 +9,7 @@ import { DIRECTORIES, folders, convertToJsOptions, convertToXmlOptions } from ".
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const prevVersion = '1.5.6';
+const prevVersion = '1.5.7';
 
 const CURRENT_EN_PATH = path.resolve(__dirname, DIRECTORIES.EN);
 const PREV_EN_PATH = path.resolve(__dirname, `../Obects/Languages/prev-versions/${prevVersion}`);

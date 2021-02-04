@@ -17,5 +17,7 @@
     <string id="RamV6yLM" text="Выход в Главное меню"/>
     <string id="VHjIJGja" text="Вы должны быть членом королевства"/>
     <string id="XzZFhRwr" text="Вернуться в игру"/>
+    <string id="0tJ1oarX" text="Continue Campaign"/>
+    <string id="u24Jy4At" text="There is no campaign to continue"/>
   </strings>
 </base>

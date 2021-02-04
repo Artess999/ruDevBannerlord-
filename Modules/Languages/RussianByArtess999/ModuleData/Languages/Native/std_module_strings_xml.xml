@@ -1676,5 +1676,57 @@
     <string id="Nfm5lLWv" text="{CHILD.NAME} требует вашего немедленного внимания!"/>
     <string id="NqtTPVzn" text="Атрибуты"/>
     <string id="Z8LeI4ho" text="Телохранители"/>
+    <string id="1SAFluHl" text="Nahasawis"/>
+    <string id="2wGBBTxT" text="bolts of silk"/>
+    <string id="6taBfzMK" text="Asaligats"/>
+    <string id="6Yna8whI" text="purebloods"/>
+    <string id="7NjjTDud" text="Battanian warmounts"/>
+    <string id="8LJGt1bg" text="Battanian thoroughbreds"/>
+    <string id="AMzpSK7F" text="barrels of olives"/>
+    <string id="bnDZqSxC" text="loads of silver ore"/>
+    <string id="cDCU9RnR" text="Destriers"/>
+    <string id="D124K5KE" text="crates of pottery"/>
+    <string id="DCms1bJb" text="sacks of flax"/>
+    <string id="DEwpjLCB" text="crates of leather"/>
+    <string id="E7DLnBbA" text="desert warhorses"/>
+    <string id="ElMVvrip" text="casks of beer"/>
+    <string id="fRCQyBKt" text="Vlandian coursers"/>
+    <string id="FSo6tf7x" text="barrels of cheese"/>
+    <string id="GEyL9Z8b" text="amphorae of wine"/>
+    <string id="GGuCcMvk" text="chargers"/>
+    <string id="ip5xbG4t" text="Midlands palfreys"/>
+    <string id="IXCjqxr9" text="Sturgian hunters"/>
+    <string id="jtqfplDk" text="rolls of linen"/>
+    <string id="kVTJbB7k" text="desert horses"/>
+    <string id="KZdUZcQC" text="packs of fur"/>
+    <string id="LAo4HM0z" text="rolls of velvet"/>
+    <string id="LcrlI57W" text="Sturgian trotters"/>
+    <string id="lFlDCKLW" text="imperial chargers"/>
+    <string id="LGa98fMQ" text="head of cattle"/>
+    <string id="liiohtmi" text="war camels"/>
+    <string id="m355tCEk" text="sheep"/>
+    <string id="mOlsoKGK" text="casks of butter"/>
+    <string id="nKJAalNl" text="sacks of datefruit"/>
+    <string id="Nqac5TV3" text="sacks of salt"/>
+    <string id="nysBXpEO" text="camels"/>
+    <string id="oxbRTiw4" text="saddle horses"/>
+    <string id="p5YIwIes" text="Husnphrees"/>
+    <string id="q1qpwXpb" text="sacks of grapes"/>
+    <string id="QOlM6RqO" text="items of jewelry"/>
+    <string id="QStqxKHz" text="warhorses"/>
+    <string id="QvnCL5bl" text="hardwood logs"/>
+    <string id="r6Plal93" text="Tyal horses"/>
+    <string id="R78JkIhb" text="loads of clay"/>
+    <string id="scSkbXLi" text="loads of iron ore"/>
+    <string id="sstlloLa" text="steppe horses"/>
+    <string id="T64UWv9A" text="Cossians"/>
+    <string id="uGqyPg7g" text="loads of {ITEM_NAME}"/>
+    <string id="wwFsxms3" text="Storm Chargers"/>
+    <string id="xalBJD7W" text="sacks of spice"/>
+    <string id="Xclm7FK4" text="hogs"/>
+    <string id="xWrzG8EA" text="barrels of fish"/>
+    <string id="YYkWBkAu" text="Battanian ponies"/>
+    <string id="zcpXCagL" text="amphorae of oil"/>
+    <string id="ZekwaxIg" text="steppe warhorses"/>
   </strings>
 </base>
