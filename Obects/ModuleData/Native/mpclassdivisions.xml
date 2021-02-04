@@ -155,7 +155,7 @@
       <Perk game_mode="all"
             name="{=C9ufRSsL}Sword and Shield"
             description="{=FfpqIuV8}Replaces Voulge with a Sword and Shield combination. Grants versatility and protection."
-			hero_idle_anim="act_vlandia_mp_voulgier_swordandshieldperk_idle"
+            hero_idle_anim="act_vlandia_mp_voulgier_swordandshieldperk_idle"
             icon="PerkLargerShields"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -378,10 +378,10 @@
                        item="mp_tall_heater_shield" />
       </Perk>
       <Perk game_mode="all"
-           name="{=7MkoLtWC}Axe"
-           description="{=meWoLxtc}Replaces Sword with Axe, effective against shields."
-           icon="PerkBetterAxes"
-           perk_list="2">
+            name="{=7MkoLtWC}Axe"
+            description="{=meWoLxtc}Replaces Sword with Axe, effective against shields."
+            icon="PerkBetterAxes"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_vlandian_axe" />
@@ -489,8 +489,8 @@
       <Perk game_mode="all"
             name="{=3DRu8Oy5}Faster Release"
             description="{=HV6gfTmh}Grants further travelling projectiles, increasing effective range."
-          icon="PerkHeavyCrossbows"
-          perk_list="1">
+            icon="PerkHeavyCrossbows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_crossbow_faster_bolts" />
@@ -560,10 +560,10 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-             name="{=oWv0kvwj}Strong Bolts"
-             description="{=KKWkfc2n}Grants Stronger Bolts."
-             icon="PerkWellSupplied"
-             perk_list="2">
+            name="{=oWv0kvwj}Strong Bolts"
+            description="{=KKWkfc2n}Grants Stronger Bolts."
+            icon="PerkWellSupplied"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_bolts_strong" />
@@ -605,9 +605,9 @@
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-                       name="{=7sWKjye0}Faster Horse"
-                       description="{=?}Replaces mount with a faster horse."
-                       icon="PerkFasterHorses"
+            name="{=7sWKjye0}Faster Horse"
+            description="{=OjaeHZVO}Replaces mount with a faster horse."
+            icon="PerkFasterHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Horse"
@@ -615,7 +615,7 @@
       </Perk>
       <Perk game_mode="all"
             name="{=cfSgK0nk}Agile Horse"
-            description="{=?}Replaces mount with a more maneuverable horse."
+            description="{=5aZNQczb}Replaces mount with a more maneuverable horse."
             icon="PerkAgileHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -735,10 +735,10 @@
                        item="mp_vlandia_horse_war_tougher" />
       </Perk>
       <Perk game_mode="all"
-                 name="{=7sWKjye0}Faster Horse"
-                 description="{=?}Replaces mount with a faster horse."
-                 icon="PerkFasterHorses"
-                 perk_list="1">
+            name="{=7sWKjye0}Faster Horse"
+            description="{=OjaeHZVO}Replaces mount with a faster horse."
+            icon="PerkFasterHorses"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Horse"
                        item="mp_vlandia_horse_war_faster" />
@@ -866,10 +866,10 @@
                        item="mp_empire_spatha" />
       </Perk>
       <Perk game_mode="all"
-           name="{=XSjXLikf}Extra Javelins"
-           description="{=uKOn4IE6}Grants an additional quiver of Javelins."
-           icon="PerkMoreThrowingSpears"
-           perk_list="1">
+            name="{=XSjXLikf}Extra Javelins"
+            description="{=uKOn4IE6}Grants an additional quiver of Javelins."
+            icon="PerkMoreThrowingSpears"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item1"
                        item="mp_javelin" />
@@ -1034,8 +1034,8 @@
       <Perk game_mode="all"
             name="{=l2j9CAQn}Bastard Sword"
             description="{=pxOUXM6q}Replaces Long Sword with Bastard Sword, longer and deals more damage. Can be used two handed."
-           icon="PerkTwoHandedSwords"
-           perk_list="1">
+            icon="PerkTwoHandedSwords"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_western_bastard_sword" />
@@ -1125,10 +1125,10 @@
                        item="mp_western_long_spear" />
       </Perk>
       <Perk game_mode="all"
-           name="{=uNyHSwaL}Heavy Axe"
-           description="{=gQtU8qqy}Grants Axe, effective against shields."
-           icon="PerkBetterAxes"
-           perk_list="2">
+            name="{=uNyHSwaL}Heavy Axe"
+            description="{=gQtU8qqy}Grants Axe, effective against shields."
+            icon="PerkBetterAxes"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item3"
                        item="mp_empire_heavy_axe" />
@@ -1172,8 +1172,8 @@
       <Perk game_mode="all"
             name="{=wv9g9Kyr}Faster Bow"
             description="{=lu45Qgzm}Replaces Hunting Bow with Fast Hunting Bow, much faster, but deals less damage."
-             icon="PerkShortBows"
-             perk_list="1">
+            icon="PerkShortBows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_fast_hunting_bow" />
@@ -1181,27 +1181,27 @@
       <Perk game_mode="all"
             name="{=3DRu8Oy5}Faster Release"
             description="{=HV6gfTmh}Grants further travelling projectiles, increasing effective range."
-           icon="PerkRecurveBows"
-           perk_list="1">
+            icon="PerkRecurveBows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_hunting_bow_faster_arrows" />
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-             name="{=5pLEUc4t}Strong Arrows"
-             description="{=EdLIa9Ds}Replaces Arrows with Stronger Arrows, deals more damage."
-             icon="PerkWellSupplied"
-             perk_list="2">
+            name="{=5pLEUc4t}Strong Arrows"
+            description="{=EdLIa9Ds}Replaces Arrows with Stronger Arrows, deals more damage."
+            icon="PerkWellSupplied"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_arrows_strong_extraammo" />
       </Perk>
       <Perk game_mode="all"
-           name="{=eQLORdgE}Extra Arrows"
-           description="{=0yGhTKey}Grants Extra Arrows."
-           icon="PerkWellSupplied"
-           perk_list="2">
+            name="{=eQLORdgE}Extra Arrows"
+            description="{=0yGhTKey}Grants Extra Arrows."
+            icon="PerkWellSupplied"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_arrows_barbed_extra" />
@@ -1236,9 +1236,9 @@
       <Perk game_mode="all"
             name="{=TTWL7RLe}Crossbow"
             description="{=jPX5Uhwn}Replaces Recurve Bow with Crossbow, deals much more damage, low fire rate."
-           hero_idle_anim="act_empire_mp_archer_crossbowperk_militia_idle"
-           icon="PerkLightCrossbows"
-           perk_list="1">
+            hero_idle_anim="act_empire_mp_archer_crossbowperk_militia_idle"
+            icon="PerkLightCrossbows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_crossbow" />
@@ -1324,8 +1324,8 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=}Polearm"
-            description="{=zCqpSDcF}Grants Empire Polearm, long and high damage."
+            name="{=haax8kMa}Polearm"
+            description="{=UoaUwLl0}Grants Empire Polearm, long and high damage."
             icon="PerkPolearms"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1371,7 +1371,7 @@
       <!-- First perks-->
       <Perk game_mode="all"
             name="{=cfSgK0nk}Agile Horse"
-            description="{=?}Replaces mount with a more maneuverable horse."
+            description="{=5aZNQczb}Replaces mount with a more maneuverable horse."
             icon="PerkAgileHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1380,7 +1380,7 @@
       </Perk>
       <Perk game_mode="all"
             name="{=7sWKjye0}Faster Horse"
-            description="{=?}Replaces mount with a faster horse."
+            description="{=OjaeHZVO}Replaces mount with a faster horse."
             icon="PerkFasterHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1511,7 +1511,7 @@
       </Perk>
       <Perk game_mode="all"
             name="{=V2SKzX1e}Charger Horse"
-            description="{=?}Replaces mount with a horse that deals more charge damage."
+            description="{=FqHvkh44}Replaces mount with a horse that deals more charge damage."
             icon="PerkCharger"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1519,8 +1519,8 @@
                        item="mp_empire_horse_war_charger" />
       </Perk>
       <Perk game_mode="all"
-      name="{=ZJweh5Oh}Bastard Axe"
-      description="{=SpTtirzT}Grants Axe, effective against shields, two handed."
+            name="{=ZJweh5Oh}Bastard Axe"
+            description="{=SpTtirzT}Grants Axe, effective against shields, two handed."
             icon="PerkBetterAxes"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1529,8 +1529,8 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=?}Heavy Kontos"
-            description="{=?}Heavy Kontos, deals more damage but is slow. Cant be used with shields."
+            name="{=AO5LPmQf}Heavy Kontos"
+            description="{=AClsYZ14}Heavy Kontos, deals more damage but is slow. Cant be used with shields."
             icon="PerkHeavyLances"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1538,8 +1538,8 @@
                        item="mp_empire_heavy_lance" />
       </Perk>
       <Perk game_mode="all"
-            name="{=?}Fast Kontos"
-            description="{=?}Fast Kontos, is longer than the Spear but cant be used with shields"
+            name="{=H6xJYE4M}Fast Kontos"
+            description="{=urJEb6Dm}Fast Kontos, is longer than the Spear but cant be used with shields"
             icon="PerkLongerLances"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1669,9 +1669,9 @@
                        item="mp_sling_stone" />
       </Perk>
       <Perk game_mode="all"
-           name="{=h60wQVVX}Pike"
-           description="{=kYbMMbzD}Grants Pike, very effective against cavalry, longer than spears, can't be used with shields."
-           icon="PerkPikes"
+            name="{=h60wQVVX}Pike"
+            description="{=kYbMMbzD}Grants Pike, very effective against cavalry, longer than spears, can't be used with shields."
+            icon="PerkPikes"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item1"
@@ -1705,10 +1705,10 @@
                        item="mp_khuzait_long_spear" />
       </Perk>
       <Perk game_mode="all"
-           name="{=i7OWTiQc}Stronger Shield"
-           description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
-           icon="PerkHardened"
-           perk_list="1">
+            name="{=i7OWTiQc}Stronger Shield"
+            description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
+            icon="PerkHardened"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item1"
                        item="mp_footmans_wicker_shield" />
@@ -1785,10 +1785,10 @@
                        item="mp_khuzait_heavy_sabre" />
       </Perk>
       <Perk game_mode="all"
-           name="{=pE1plFCL}Heavy Mace"
-           description="{=pblXb1ae}Grants Mace, effective against armored opponents."
-           icon="PerkMaces"
-           perk_list="2">
+            name="{=pE1plFCL}Heavy Mace"
+            description="{=pblXb1ae}Grants Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_khuzait_heavy_mace" />
@@ -1841,8 +1841,8 @@
       <Perk game_mode="all"
             name="{=3DRu8Oy5}Faster Release"
             description="{=HV6gfTmh}Grants further travelling projectiles, increasing effective range."
-           icon="PerkRecurveBow"
-           perk_list="1">
+            icon="PerkRecurveBow"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_hunting_bow_faster_arrows" />
@@ -1968,7 +1968,7 @@
       <!-- First perks-->
       <Perk game_mode="all"
             name="{=cfSgK0nk}Agile Horse"
-            description="{=?}Replaces mount with a more maneuverable horse."
+            description="{=5aZNQczb}Replaces mount with a more maneuverable horse."
             icon="PerkAgileHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -1985,10 +1985,10 @@
                        item="mp_khuzait_horse_charger" />
       </Perk>
       <Perk game_mode="all"
-      name="{=DlKYZgA3}Improved Armor"
-      description="{=IUsT27oV}Provides +9 armor."
-      icon="PerkToughness"
-      perk_list="1">
+            name="{=DlKYZgA3}Improved Armor"
+            description="{=IUsT27oV}Provides +9 armor."
+            icon="PerkToughness"
+            perk_list="1">
         <OnSpawnEffect type="ArmorOnSpawn"
                        value="9" />
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -2058,10 +2058,10 @@
                        item="mp_steppe_guardian_shield" />
       </Perk>
       <Perk game_mode="all"
-           name="{=GsGJgGDE}Lance"
-           description="{=AAiawU42}Grants Lance, longer than spears, couchable."
-           icon="PerkLongerLances"
-           perk_list="2">
+            name="{=GsGJgGDE}Lance"
+            description="{=AAiawU42}Grants Lance, longer than spears, couchable."
+            icon="PerkLongerLances"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_khuzait_lance" />
@@ -2159,9 +2159,9 @@
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-           name="{=?}Long Lance"
-           description="{=bDCbhzoh}Replaces Lance with Longer Lance."
-           icon="PerkLongerLances"
+            name="{=zpv74Q1d}Long Lance"
+            description="{=bDCbhzoh}Replaces Lance with Longer Lance."
+            icon="PerkLongerLances"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
@@ -2279,19 +2279,19 @@
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-           name="{=FLBYsvxp}Long Sword"
-           description="{=BHXqTA0N}Replaces Flyssa with Kaskara, longer and deals more damage."
-           icon="PerkBetterSwords"
-           perk_list="1">
+            name="{=FLBYsvxp}Long Sword"
+            description="{=BHXqTA0N}Replaces Flyssa with Kaskara, longer and deals more damage."
+            icon="PerkBetterSwords"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_aserai_ranger_sword" />
       </Perk>
       <Perk game_mode="all"
-           name="{=VI4gQt8Q}Mace"
-           description="{=pblXb1ae}Grants Mace, effective against armored opponents."
-           icon="PerkMaces"
-           perk_list="1">
+            name="{=VI4gQt8Q}Mace"
+            description="{=pblXb1ae}Grants Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_aserai_mace" />
@@ -2372,10 +2372,10 @@
                        item="mp_desert_oval_shield" />
       </Perk>
       <Perk game_mode="all"
-           name="{=Qs4VOXgE}Short Spear"
-           description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
-           icon="PerkSpears"
-           perk_list="2">
+            name="{=Qs4VOXgE}Short Spear"
+            description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
+            icon="PerkSpears"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_aserai_spear" />
@@ -2448,10 +2448,10 @@
                        item="mp_desert_oval_shield" />
       </Perk>
       <Perk game_mode="all"
-           name="{=h60wQVVX}Pike"
-           description="{=kYbMMbzD}Grants Pike, very effective against cavalry, longer than spears, can't be used with shields."
-           icon="PerkPikes"
-           perk_list="2">
+            name="{=h60wQVVX}Pike"
+            description="{=kYbMMbzD}Grants Pike, very effective against cavalry, longer than spears, can't be used with shields."
+            icon="PerkPikes"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item3"
                        item="mp_aserai_pike" />
@@ -2615,8 +2615,8 @@
       <Perk game_mode="all"
             name="{=wv9g9Kyr}Faster Bow"
             description="{=lu45Qgzm}Replaces Hunting Bow with Fast Hunting Bow, much faster, but deals less damage."
-              icon="PerkShortBows"
-              perk_list="1">
+            icon="PerkShortBows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_fast_hunting_bow" />
@@ -2624,8 +2624,8 @@
       <Perk game_mode="all"
             name="{=3DRu8Oy5}Faster Release"
             description="{=HV6gfTmh}Grants further travelling projectiles, increasing effective range."
-             icon="PerkRecurveBows"
-             perk_list="1">
+            icon="PerkRecurveBows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_hunting_bow_faster_arrows" />
@@ -2802,7 +2802,7 @@
       <!-- First perks-->
       <Perk game_mode="all"
             name="{=cfSgK0nk}Agile Horse"
-            description="{=?}Replaces mount with a more maneuverable horse."
+            description="{=5aZNQczb}Replaces mount with a more maneuverable horse."
             icon="PerkAgileHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -2810,12 +2810,12 @@
                        item="mp_aserai_horse_agile" />
       </Perk>
       <Perk game_mode="all"
-           name="{=CQBiJLgv}Camel"
-           description="{=tFWBFpji}Replaces mount with a Camel, deals more charge damage, more maneuverable and durable but slower and can't jump."
-           icon="PerkBornInTheSaddle"
-           hero_mount_idle_anim="act_hero_mount_idle_camel"
-           troop_mount_idle_anim="act_camel_idle_1"
-           perk_list="1">
+            name="{=CQBiJLgv}Camel"
+            description="{=tFWBFpji}Replaces mount with a Camel, deals more charge damage, more maneuverable and durable but slower and can't jump."
+            icon="PerkBornInTheSaddle"
+            hero_mount_idle_anim="act_hero_mount_idle_camel"
+            troop_mount_idle_anim="act_camel_idle_1"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Horse"
                        item="mp_aserai_camel" />
@@ -2909,7 +2909,7 @@
             name="{=dQEa2hZa}Long Spear"
             description="{=bDCbhzoh}Replaces Spear with Longer Spear."
             icon="PerkLongerLances"
-         perk_list="2">
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_aserai_long_spear" />
@@ -2934,7 +2934,7 @@
       <!-- First perks-->
       <Perk game_mode="all"
             name="{=7sWKjye0}Faster Horse"
-            description="{=?}Replaces mount with a faster horse."
+            description="{=OjaeHZVO}Replaces mount with a faster horse."
             icon="PerkFasterHorses"
             perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -2973,10 +2973,10 @@
                        item="mp_arrows_barbed" />
       </Perk>
       <Perk game_mode="all"
-           name="{=R7TAImaC}Larger Shield"
-           description="{=xqlMIG4I}Replaces Shield with a larger shield, increases durability."
-           icon="PerkHardened"
-           hero_idle_anim="act_sturgia_mp_brigand_idle_largershieldperk"
+            name="{=R7TAImaC}Larger Shield"
+            description="{=xqlMIG4I}Replaces Shield with a larger shield, increases durability."
+            icon="PerkHardened"
+            hero_idle_anim="act_sturgia_mp_brigand_idle_largershieldperk"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item1"
@@ -3373,19 +3373,19 @@
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-           name="{=VI4gQt8Q}Mace"
-           description="{=o6eKX9h0}Replaces Axe with Mace, effective against armored opponents."
-           icon="PerkMaces"
-           perk_list="1">
+            name="{=VI4gQt8Q}Mace"
+            description="{=o6eKX9h0}Replaces Axe with Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_sturgia_mace" />
       </Perk>
       <Perk game_mode="all"
-          name="{=ZJweh5Oh}Bastard Axe"
+            name="{=ZJweh5Oh}Bastard Axe"
             description="{=dd1bLkp4}Replaces Axe with Bastard Axe, longer, can be used two handed."
-          icon="PerkBetterAxes"
-          perk_list="1">
+            icon="PerkBetterAxes"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_vlandian_bastard_axe" />
@@ -3462,10 +3462,10 @@
                        item="mp_sturgia_long_spear" />
       </Perk>
       <Perk game_mode="all"
-           name="{=FLBYsvxp}Long Sword"
-           description="{=hEEebqIY}Replaces Axe with Sword, faster, effective at dueling and thrusting."
-           icon="PerkFasterSwords"
-           perk_list="2">
+            name="{=FLBYsvxp}Long Sword"
+            description="{=hEEebqIY}Replaces Axe with Sword, faster, effective at dueling and thrusting."
+            icon="PerkFasterSwords"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_sturgia_northern_sword" />
@@ -3580,80 +3580,80 @@
                        item="mp_sturgia_horse_war" />
       </Perk>
       <Perk game_mode="all"
-            name="{=?}Looted Horse"
-            description="{=?}Replaces your horse with a random one."
+            name="{=tN6LRGbm}Looted Horse"
+            description="{=PhvYB5Jh}Replaces your horse with a random one."
             icon="PerkHorseHunters"
             perk_list="1">
         <RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
-            <Group>
-              <Item slot="Horse"
-                    item="mp_vlandia_horse"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_vlandia_horse_agile"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_vlandia_horse_war"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_khuzait_horse_saddle"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_khuzait_horse_saddle_thougher"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_khuzait_horse"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_khuzait_horse_war"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_khuzait_horse_charger"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_battania_pony"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_empire_horse"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_empire_horse_faster"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_empire_horse_war"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_empire_horse_war_agile"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_empire_horse_agile"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_aserai_horse"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_aserai_horse_war"/>
-            </Group>
-            <Group>
-              <Item slot="Horse"
-                    item="mp_aserai_horse_war_agile"/>
-            </Group>
-          </RandomOnSpawnEffect>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_vlandia_horse" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_vlandia_horse_agile" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_vlandia_horse_war" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_khuzait_horse_saddle" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_khuzait_horse_saddle_thougher" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_khuzait_horse" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_khuzait_horse_war" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_khuzait_horse_charger" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_battania_pony" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_empire_horse" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_empire_horse_faster" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_empire_horse_war" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_empire_horse_war_agile" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_empire_horse_agile" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_aserai_horse" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_aserai_horse_war" />
+          </Group>
+          <Group>
+            <Item slot="Horse"
+                  item="mp_aserai_horse_war_agile" />
+          </Group>
+        </RandomOnSpawnEffect>
       </Perk>
       <Perk game_mode="all"
             name="{=DlKYZgA3}Improved Armor"
@@ -3747,8 +3747,8 @@
                        item="mp_northern_scouts_shield" />
       </Perk>
       <Perk game_mode="all"
-            name="{=?}Throwing Spears"
-            description="{=?}Throwing spears, effective in melee and against other cavalry."
+            name="{=y4YWp1f1}Throwing Spear"
+            description="{=iYauUX6r}Grants Throwing Spears, longer than spears, throwable, can be used in melee, low in quantity."
             icon="PerkPilums"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -3788,9 +3788,9 @@
             description="{=5JQFx3EW}Replaces mount with a faster and more maneuverable horse."
             icon="PerkAgileHorses"
             perk_list="1">
-      <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
-                     slot="Horse"
-                     item="mp_sturgia_horse_agile" />
+        <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+                       slot="Horse"
+                       item="mp_sturgia_horse_agile" />
       </Perk>
       <Perk game_mode="all"
             name="{=n3q8k0lB}Barding"
@@ -3803,8 +3803,8 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=?}Long Lance"
-            description="{=?}Grants Long Lance, longer than spears, couchable."
+            name="{=zpv74Q1d}Long Lance"
+            description="{=qzJ2Sab1}Grants Long Lance, longer than spears, couchable."
             icon="PerkLongerLances"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -3812,8 +3812,8 @@
                        item="mp_sturgia_long_lance" />
       </Perk>
       <Perk game_mode="all"
-            name="{=?}Heavy Lance"
-            description="{=?}Grants Heavy Lance, more damage than spears, couchable."
+            name="{=eyCVSK43}Heavy Lance"
+            description="{=9GQN5tTF}Grants Heavy Lance, more damage than spears, couchable."
             icon="PerkLongerLances"
             perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
@@ -4148,7 +4148,7 @@
                        slot="Item0"
                        item="mp_javelin_extraammo" />
       </Perk>
-       <Perk game_mode="all"
+      <Perk game_mode="all"
             name="{=y4YWp1f1}Throwing Spear"
             description="{=iYauUX6r}Grants Throwing Spears, longer than spears, throwable, can be used in melee, low in quantity."
             icon="PerkPilums"
@@ -4195,10 +4195,10 @@
                        item="mp_battania_bastard_sword" />
       </Perk>
       <Perk game_mode="all"
-           name="{=pE1plFCL}Heavy Mace"
-           description="{=pblXb1ae}Grants Mace, effective against armored opponents."
-           icon="PerkMaces"
-           perk_list="1">
+            name="{=pE1plFCL}Heavy Mace"
+            description="{=pblXb1ae}Grants Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_empire_heavy_mace" />
@@ -4266,10 +4266,10 @@
                        item="mp_battania_long_spear" />
       </Perk>
       <Perk game_mode="all"
-           name="{=7MkoLtWC}Axe"
-           description="{=gQtU8qqy}Grants Axe, effective against shields."
-           icon="PerkBetterAxes"
-           perk_list="2">
+            name="{=7MkoLtWC}Axe"
+            description="{=gQtU8qqy}Grants Axe, effective against shields."
+            icon="PerkBetterAxes"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_battania_axe" />
@@ -4340,9 +4340,9 @@
       </Perk>
       <Perk game_mode="all"
             name="{=VI4gQt8Q}Mace"
-           description="{=SpTtirzT}Grants Mace, effective against armored opponents."
-           icon="PerkMaces"
-           perk_list="2">
+            description="{=SpTtirzT}Grants Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item3"
                        item="mp_battania_mace" />
@@ -4377,8 +4377,8 @@
       <Perk game_mode="all"
             name="{=3DRu8Oy5}Faster Release"
             description="{=HV6gfTmh}Grants further travelling projectiles, increasing effective range."
-       icon="PerkLongBows"
-       perk_list="1">
+            icon="PerkLongBows"
+            perk_list="1">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item0"
                        item="mp_long_bow_fast_arrows" />
@@ -4470,10 +4470,10 @@
                        item="mp_arrows_strong_extraammo" />
       </Perk>
       <Perk game_mode="all"
-           name="{=*}Better Sword"
-           description="{=bfyqpwbJ}Replaces Two Handed Sword with Noble Two Handed Sword, faster and deals more damage."
-           icon="PerkLongerSwords"
-           perk_list="2">
+            name="{=Z5sbkF6d}Better Sword"
+            description="{=TGuQw3ma}Replaces Two Handed Sword with Noble Two Handed Sword, faster and deals more damage."
+            icon="PerkLongerSwords"
+            perk_list="2">
         <OnSpawnEffect type="AlternativeEquipmentOnSpawn"
                        slot="Item2"
                        item="mp_battania_noble_two_handed_sword" />

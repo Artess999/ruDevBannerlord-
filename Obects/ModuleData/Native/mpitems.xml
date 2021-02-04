@@ -113,7 +113,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_wrapped_desert_cap"
-        name="{=0bE9MxK4}Wrapped Southern Cap"
+        name="{=3UxfT9Bu}Wrapped Leather Cap"
         mesh="aserai_helmet_o"
         culture="Culture.aserai"
         value="999"
@@ -133,7 +133,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_desert_helmet"
-        name="{=ITvet7CV}Southern Helmet"
+        name="{=BryUh6yQ}Steel Cap"
         mesh="aserai_helmet_n"
         culture="Culture.aserai"
         value="999"
@@ -242,7 +242,7 @@
   <!-- #region Aserai Body Armors -->
   <Item multiplayer_item="true"
         id="mp_southern_lamellar_armor"
-        name="{=2K0o7NK9}Southern Lamellar Armor"
+        name="{=3lauB1HH}Bronze Lamellar Vest Over Gambeson"
         subtype="body_armor"
         mesh="sturgia_costume_i_yellow"
         culture="Culture.aserai"
@@ -264,7 +264,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_tassled_southern_robes"
-        name="{=Hm61IBcT}Tassled Southern Robes"
+        name="{=cMdtLfGB}Tassled Robes"
         mesh="aserai_thobe"
         culture="Culture.aserai"
         is_merchandise="false"
@@ -398,7 +398,7 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="mp_nordic_fur_cap"
-        name="{=wEJAab0A}Northern Cap"
+        name="{=cjH1WFwy}Fur Rimmed Cap"
         mesh="sturgia_helmet_m"
         culture="Culture.sturgia"
         weight="0.3"
@@ -416,7 +416,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_lamellar_armor"
-        name="{=12PL4971}Northern Lamellar Armor"
+        name="{=hXB6gvD2}Cured Leather Lamellar Shirt "
         subtype="body_armor"
         mesh="sturgia_costume_h"
         culture="Culture.sturgia"
@@ -441,7 +441,7 @@
   <!-- #region Khuzait Body Armors -->
   <Item multiplayer_item="true"
         id="mp_khuzait_civil_coat_b"
-        name="{=YMtHkAUj}Eastern Thick Coat"
+        name="{=S1XL4KJh}Luxury Thick Coat"
         mesh="khuzait_civil_coat_b"
         culture="Culture.khuzait"
         value="999"
@@ -639,7 +639,7 @@
   <!-- #region Sturgia Body Armors -->
   <Item multiplayer_item="true"
         id="mp_northern_brass_lamellar_over_mail"
-        name="{=ojhEwC8M}Northern Brass Lamellar Over Mail"
+        name="{=ROlomxau}Heavy Brass Lamellar Over Mail"
         mesh="brass_lamellar_white"
         culture="Culture.sturgia"
         value="999"
@@ -721,7 +721,7 @@
   <!-- #region Empire Body Armors -->
   <Item multiplayer_item="true"
         id="mp_imperial_mail_vest"
-        name="{=i4CfsNGd}Imperial Mail Vest"
+        name="{=Kr8b1bxY}Infantrymans Mail Vest"
         mesh="empire_armor_e"
         culture="Culture.empire"
         value="999"
@@ -765,7 +765,7 @@
   <!-- #endregion -->
   <Item multiplayer_item="true"
         id="mp_heavy_nasalhelm_over_imperial_leather"
-        name="{=FSGtJ7eX}Heavy Nasalhelm Over Imperial Leather"
+        name="{=vimhFdZp}Heavy Nasalhelm Over Leather"
         mesh="empire_helmet_g_d"
         culture="Culture.empire"
         value="999"
@@ -873,7 +873,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_tunic"
-        name="{=7yGwvnUA}Northern Tunic"
+        name="{=W58TN2g5}Varyag Tunic"
         subtype="body_armor"
         mesh="sturgia_costume_j"
         culture="Culture.sturgia"
@@ -958,7 +958,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_buckled_wildsman_armor"
-        name="{=Mc6IC6UM}Buckled Wildsman Armor"
+        name="{=8oKVhtth}Buckled Brigandine Armor"
         mesh="bandit_2"
         subtype="body_armor"
         culture="Culture.looters"
@@ -988,7 +988,7 @@
   <!-- #region NeutralCulture Light Head Armors -->
   <Item multiplayer_item="true"
         id="mp_battania_civil_hood"
-        name="{=xYUHruEl}Highland Hood"
+        name="{=UC2XfY7V}Cloth Hood"
         subtype="head_armor"
         mesh="battania_civil_hood"
         culture="Culture.battania"
@@ -1086,7 +1086,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_leather_coif"
-        name="{=aPa3Cp4l}Imperial Leather Coif"
+        name="{=mlJKNbbn}Leather Coif"
         subtype="head_armor"
         mesh="empire_helmet_d"
         culture="Culture.neutral_culture"
@@ -1184,7 +1184,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_trailed_desert_helmet"
-        name="{=aq8lbNZo}Trailed Southern Helmet"
+        name="{=2N0ZP2GB}Helmet With Turban And Coif"
         subtype="head_armor"
         mesh="aserai_helmet_g"
         culture="Culture.aserai"
@@ -1362,7 +1362,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_leather_cap"
-        name="{=2VYmGLC6}Northern Leather Cap"
+        name="{=ByxdPJzA}Fur Cap With Ear Flaps"
         subtype="head_armor"
         mesh="sturgia_leather_cap_a"
         culture="Culture.neutral_culture"
@@ -1400,7 +1400,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_fur_cap"
-        name="{=mFbFEOVz}Northern Fur Cap"
+        name="{=TwuAVsCn}Fur Cap"
         mesh="sturgia_helmet_j"
         culture="Culture.neutral_culture"
         value="999"
@@ -1554,7 +1554,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_cloth_coif"
-        name="{=Qazvdg1P}Imperial Cloth Coif"
+        name="{=g5BPd0Oc}Cloth Coif"
         subtype="head_armor"
         mesh="empire_helmet_e"
         culture="Culture.neutral_culture"
@@ -1592,7 +1592,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_cap"
-        name="{=UvJDlhMq}Eastern Cap"
+        name="{=h9PP7EWc}Cap With Neck Flap"
         subtype="head_armor"
         mesh="khuzait_helmet_n"
         culture="Culture.neutral_culture"
@@ -1965,7 +1965,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_roundkettle_over_imperial_leather"
-        name="{=9Hr4oEvw}Roundkettle Over Imperial Leather"
+        name="{=aOwcs7Un}Roundkettle Over Leather"
         subtype="head_armor"
         mesh="empire_helmet_j_d"
         culture="Culture.neutral_culture"
@@ -2002,7 +2002,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_nasal_helm"
-        name="{=XazcYatD}Imperial Nasal Helm"
+        name="{=rSEXAMUx}Legionary Helm"
         subtype="head_armor"
         mesh="empire_helmet_h"
         culture="Culture.neutral_culture"
@@ -3148,7 +3148,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_feathered_spangenhelm_over_imperial_coif"
-        name="{=1Fdtj39w}Feathered Spangenhelm Over Imperial Coif"
+        name="{=QtuZSbG9}Feathered Spangenhelm Over Coif"
         subtype="head_armor"
         mesh="empire_helmet_i_a"
         culture="Culture.neutral_culture"
@@ -3826,7 +3826,7 @@
   </Item>
   <Item id="mp_brass_lamellar_shoulder_white"
         name="{=28KBiS2H}Northern Lamellar Shoulders"
-        mesh="mp_brass_lamellar_shoulder_white"
+        mesh="brass_lamellar_shoulder_white"
         culture="Culture.sturgia"
         weight="5.0"
         appearance="2"
@@ -3899,7 +3899,7 @@
   <!-- #region NeutralCulture Light Body Armors -->
   <Item multiplayer_item="true"
         id="mp_battania_civil_a"
-        name="{=KaZY0Ixp}Highland Tunic"
+        name="{=l5JDrvbW}Tartan Tunic"
         mesh="battania_civil_a"
         value="999"
         culture="Culture.battania"
@@ -3918,7 +3918,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_civil_b"
-        name="{=kanUXCLc}Highland Villager Tunic"
+        name="{=qH5VV8In}Leather Villagers Tunic"
         mesh="battania_civil_b"
         culture="Culture.battania"
         value="999"
@@ -4141,7 +4141,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_leather_vest"
-        name="{=JK7uQLqb}Northern Leather Vest"
+        name="{=C8bVbM65}Tunic With Leather Vest"
         mesh="sturgia_costume_m"
         culture="Culture.neutral_culture"
         value="999"
@@ -4161,7 +4161,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_f"
-        name="{=av4ncLDl}Imperial Auxiliary Armor"
+        name="{=GTaxqBcv}Auxiliary Armor"
         mesh="empire_warrior_padded_armor_f"
         culture="Culture.empire"
         weight="1.9"
@@ -4179,7 +4179,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battanian_savage_armor"
-        name="{=DJjCCQ59}battanian_savage_armor"
+        name="{=Jt0Mcn4D}Savage Armor"
         subtype="body_armor"
         mesh="battanian_savage_armor"
         culture="Culture.battania"
@@ -4202,7 +4202,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_g"
-        name="{=FlikwkEx}Imperial Auxiliary Armor With Straps"
+        name="{=T2POVRtg}Auxiliary Armor With Straps"
         mesh="empire_warrior_padded_armor_g"
         culture="Culture.empire"
         weight="2.0"
@@ -4220,7 +4220,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_padded_cloth"
-        name="{=ybpZdt9S}Northern Layered Cloth"
+        name="{=WLJOnehi}Reinforced Thick Tunic"
         mesh="sturgia_costume_l"
         culture="Culture.neutral_culture"
         value="999"
@@ -4283,7 +4283,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_khuzait_fortified_armor"
-        name="{=vU1ibFrY}Eastern Reinforced Armor"
+        name="{=KVG0Tzaa}Reinforced Mirror Armor"
         mesh="khuzait_fortified_armor"
         culture="Culture.khuzait"
         is_merchandise="false"
@@ -4345,7 +4345,7 @@
            DoesNotHideChest="true" />
   </Item>
   <Item id="mp_aserai_civil_b"
-        name="{=hhprIQti}Southern Robe with Leather Belt"
+        name="{=v4THTk5O}Kaftan With Leather Belt"
         mesh="aserai_civil_b"
         culture="Culture.aserai"
         weight="1.1"
@@ -4383,7 +4383,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_civil_c"
-        name="{=8r0Z9Hyb}Colored Southern Robe"
+        name="{=CBUdkmIw}Colored Kaftan"
         mesh="aserai_civil_c"
         culture="Culture.aserai"
         is_merchandise="false"
@@ -4446,7 +4446,7 @@
            Civilian="true" />
   </Item>
   <Item id="mp_khuzait_belt_leather"
-        name="{=DuLFJbXJ}Eastern Leather With Belt"
+        name="{=4B2i8oxo}Coat With Mirrored Belt"
         mesh="khuzait_belt_leather"
         culture="Culture.khuzait"
         is_merchandise="false"
@@ -4522,7 +4522,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_cloth_tunic"
-        name="{=uDrT6v7a}Western Cloth Tunic"
+        name="{=OJIRIm4j}Simple Cloth Tunic"
         mesh="clothing_a"
         culture="Culture.vlandia"
         subtype="body_armor"
@@ -4648,7 +4648,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_heavy_nordic_tunic"
-        name="{=KHFQdxvL}Heavy Northern Tunic"
+        name="{=CAO0bycV}Heavy Tunic"
         mesh="sturgia_costume_e"
         culture="Culture.neutral_culture"
         value="999"
@@ -4668,7 +4668,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_tunic"
-        name="{=8cM840mh}Northern Luxery Tunic"
+        name="{=9aehD627}Luxury Tunic"
         subtype="body_armor"
         mesh="sturgia_costume_a"
         culture="Culture.neutral_culture"
@@ -4709,7 +4709,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_highland_cloth"
-        name="{=Isioqvt9}Highland Cloth"
+        name="{=j1pFE61w}Woodland Cloth Armor"
         subtype="body_armor"
         mesh="battania_cloth_armor_a"
         culture="Culture.neutral_culture"
@@ -4751,7 +4751,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_desert_robe"
-        name="{=VyOsYv8J}Long Southern Robe"
+        name="{=bKBa7ahF}Long Simple Robe"
         subtype="body_armor"
         mesh="aserai_tunic_long"
         culture="Culture.neutral_culture"
@@ -4939,7 +4939,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_steppe_armor"
-        name="{=oGVGhYeP}Eastern Steppe Armor"
+        name="{=xQUi0F0k}Striped Coat"
         mesh="armor_hun_a"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -4979,7 +4979,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_steppe_robe"
-        name="{=C7oo0zAY}Eastern Steppe Robe"
+        name="{=HVJ9ax8Z}Steppe Robe"
         mesh="mongol_cloth_a"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -5000,7 +5000,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_padded_cloth"
-        name="{=3BGHFFsL}Northern Padded Cloth"
+        name="{=vCywYDmp}Light Padded Armor"
         subtype="body_armor"
         mesh="sturgia_costume_g"
         culture="Culture.neutral_culture"
@@ -5022,7 +5022,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_padded_gambeson"
-        name="{=EXasg15J}Northern Padded Gambeson"
+        name="{=fwxHsC1h}Short Gambeson Over Tunic"
         mesh="sturgia_costume_c"
         culture="Culture.neutral_culture"
         value="999"
@@ -5105,7 +5105,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_padded_coat"
-        name="{=WH7bbK6G}Western Padded Coat"
+        name="{=iOmTEMNm}Footmans Padded Coat"
         subtype="body_armor"
         mesh="padded_coat_a"
         culture="Culture.vlandia"
@@ -5167,7 +5167,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_civil_a"
-        name="{=HG2emvr7}Southern Robe with Waistband"
+        name="{=HXNb6Cqz}Luxury Kaftan With Waistband"
         mesh="aserai_civil_a"
         culture="Culture.neutral_culture"
         is_merchandise="false"
@@ -5189,7 +5189,7 @@
   <!-- #region NeutralCulture Medium Body Armors -->
   <Item multiplayer_item="true"
         id="mp_imperial_mail_over_leather"
-        name="{=LaKFAU1V}Imperial Mail Over Leather"
+        name="{=l5PPS5lG}Infantrymans Mail Over Leather"
         mesh="empire_armor_c"
         culture="Culture.neutral_culture"
         weight="8.6"
@@ -5208,7 +5208,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_e"
-        name="{=1UZGbygw}Imperial Long Gambeson"
+        name="{=1BXuUR3s}Infantryman's Long Gambeson"
         mesh="empire_warrior_padded_armor_e"
         culture="Culture.empire"
         is_merchandise="false"
@@ -5227,7 +5227,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_plated_leather_coat"
-        name="{=8ulJswRY}Plated Leather Coat"
+        name="{=OvlG2Vu1}Rough Brigandine"
         subtype="body_armor"
         mesh="cop_a"
         culture="Culture.neutral_culture"
@@ -5309,7 +5309,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_gambeson_b"
-        name="{=NVV1j1E4}Western Gambeson"
+        name="{=aQN4Dlx2}Heavy Aketon"
         mesh="gambeson_b"
         culture="Culture.neutral_culture"
         value="999"
@@ -5453,7 +5453,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_crude_leather_armor"
-        name="{=JslRu3rX}Crude Eastern Leather Armor"
+        name="{=j2IVY6G6}Crude Hide Armor"
         mesh="bandit_5"
         culture="Culture.neutral_culture"
         value="999"
@@ -5472,7 +5472,7 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="mp_khuzait_lamellar_strapped"
-        name="{=VMqzvfDO}Eastern Strapped Lamellar Armor"
+        name="{=jimBaHvz}Reinforced Leather Armor"
         mesh="khuzait_lamellar_strap"
         culture="Culture.khuzait"
         is_merchandise="false"
@@ -5513,7 +5513,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_silk_clothing"
-        name="{=1blLtbDf}Southern Silk Clothing"
+        name="{=XiwTesky}Silk Kaftan"
         mesh="aserai_crowd_costume"
         culture="Culture.neutral_culture"
         value="999"
@@ -5532,7 +5532,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_studded_leather_coat"
-        name="{=qOfuxNxR}Southern Studded Leather Coat"
+        name="{=XkL1Re8b}Studded Leather Coat"
         mesh="bandit_leather_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -5574,7 +5574,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_mercenary_armor"
-        name="{=ZOoxd36t}Highland Mercenary Armor"
+        name="{=sAml91Z3}Luxury Brigandine"
         subtype="body_armor"
         mesh="battania_mercenary_armor"
         culture="Culture.neutral_culture"
@@ -5615,7 +5615,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_short_padded_robe"
-        name="{=u6c9yIXF}Southern Short Padded Robe"
+        name="{=QzAvlan7}Short Padded Robe"
         subtype="body_armor"
         mesh="sarranid_gambeson_v3"
         culture="Culture.neutral_culture"
@@ -5658,7 +5658,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_desert_padded_cloth"
-        name="{=aufKSKLa}Southern Padded Cloth"
+        name="{=wWqavjat}Light Long Padded Armor"
         mesh="aserai_fabric_armor"
         culture="Culture.neutral_culture"
         value="999"
@@ -5678,7 +5678,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_ringed_desert_armor"
-        name="{=VRP5Q4mU}Southern Ring Mail"
+        name="{=7EAEIUIY}Heavy Ring Mail"
         mesh="aserai_bigchain_armor"
         culture="Culture.aserai"
         is_merchandise="false"
@@ -5697,7 +5697,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_woodland_chainmail"
-        name="{=qw2oyv1j}Woodland Chainmail"
+        name="{=CcWpkREW}Heavy Mail Shirt With Wide Belt"
         subtype="body_armor"
         mesh="battania_woodland_chainmail"
         culture="Culture.neutral_culture"
@@ -5776,7 +5776,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_scale_armor"
-        name="{=EELLBAbX}Highland Scale Armor"
+        name="{=4eOHPops}Rugged Scale Armor"
         subtype="body_armor"
         mesh="battania_scale_armor_a"
         culture="Culture.battania"
@@ -5817,7 +5817,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_b"
-        name="{=3hOPlGlS}Imperial Gambeson Over Leather Jacket"
+        name="{=XNQPPIaA}Infantryman's Gambeson Over Leather Jacket"
         mesh="empire_warrior_padded_armor_b"
         culture="Culture.neutral_culture"
         value="999"
@@ -5836,7 +5836,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_sloven_leather"
-        name="{=ln6ZboT7}Northern Sloven Leather"
+        name="{=Csfcw8G7}Sloven Leatherr"
         mesh="nordic_sloven_c"
         culture="Culture.sturgia"
         is_merchandise="false"
@@ -5856,7 +5856,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_sloven_over_mail"
-        name="{=yFjmkALW}Northern Leather Tabard Over Mail"
+        name="{=6XxiMU52}Leather Tabard Over Mail"
         mesh="nordic_sloven_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -5876,7 +5876,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_decorated_nordic_hauberk"
-        name="{=sfPB9ro3}Decorated Northern Hauberk"
+        name="{=bAidg8fV}Huscarls Decorated Mail Shirt"
         subtype="body_armor"
         mesh="sturgia_costume_f"
         culture="Culture.neutral_culture"
@@ -5897,7 +5897,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_d"
-        name="{=5h1qpdoa}Imperial Gambeson With Straps"
+        name="{=CLTk2CMs}Infantryman's Gambeson With Straps"
         mesh="empire_warrior_padded_armor_d"
         culture="Culture.neutral_culture"
         value="999"
@@ -5935,7 +5935,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_plated_leather"
-        name="{=S0IkfoDo}Eastern Plated Leather"
+        name="{=FDEIHpIN}Mirrored Brigandine Armor"
         mesh="plated_leather_armor_b"
         culture="Culture.neutral_culture"
         value="999"
@@ -5954,7 +5954,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_leather_lamellar_armor"
-        name="{=rOpxDHXL}Eastern Leather Lamellar Armor"
+        name="{=cjhhuTZD}Cured Leather Lamellar Armor"
         mesh="leather_lamellar_armor"
         culture="Culture.neutral_culture"
         value="999"
@@ -5972,7 +5972,7 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="mp_empire_short_dress"
-        name="{=XZAAz7NX}Empire Short Tunic"
+        name="{=KdbHrcQx}Short Tunic"
         mesh="empire_short_dress"
         culture="Culture.empire"
         weight="1.0"
@@ -6016,7 +6016,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_studded_steppe_leather"
-        name="{=o24Fpzvu}Studded Steppe Leather"
+        name="{=Qd0tQLpA}Studded Leather Armor"
         subtype="body_armor"
         mesh="khuzait_leather_armor"
         culture="Culture.neutral_culture"
@@ -6095,7 +6095,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_stitched_leather_coat"
-        name="{=Mr06Juj5}Eastern Stitched Leather Coat"
+        name="{=PeozdF9h}Stitched Cured Leather Coat"
         mesh="khuzait_leather_plate"
         culture="Culture.neutral_culture"
         value="999"
@@ -6114,7 +6114,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_leather_tabard"
-        name="{=h3vqV5Qy}Northern Leather Tabard"
+        name="{=0a6Vz7wi}Leather Tabard"
         mesh="sturgia_leather_brass"
         culture="Culture.neutral_culture"
         value="999"
@@ -6152,7 +6152,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_white_coat_over_mail"
-        name="{=YfB0SJqY}White Tabard Over Mail"
+        name="{=YxglkaXU}White Tabard Over Mail Hauberk"
         subtype="body_armor"
         mesh="templar_a_white"
         culture="Culture.neutral_culture"
@@ -6173,7 +6173,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_leather_coat"
-        name="{=o0ZuY9Ux}Western Leather Coat"
+        name="{=ZqTFQeai}Leather Tunic"
         subtype="body_armor"
         mesh="leather_coat"
         culture="Culture.neutral_culture"
@@ -6235,7 +6235,7 @@
   <!-- #endregion -->
   <!-- #region NeutralCulture Heavy Body Armors -->
   <Item id="mp_desert_scale_armor"
-        name="{=TsGFHbqp}Southern Scale Armor"
+        name="{=VkRIefyW}Luxury Scale Armor"
         lod_atlas_index="3"
         mesh="aserai_scale_armor_b"
         culture="Culture.aserai"
@@ -6313,7 +6313,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_mail_shirt"
-        name="{=aGkXbDlr}Western Mail Shirt"
+        name="{=GzgUzrFY}Mail Shirt"
         mesh="armor_roman_mail_shirt"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -6568,7 +6568,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_coat_of_plates_over_mail"
-        name="{=p949oNWk}Coat of Plates Over Mail"
+        name="{=PtfbqMeg}Brigandine Over Mail"
         mesh="tunic_ironplate_armor"
         subtype="body_armor"
         culture="Culture.neutral_culture"
@@ -6630,7 +6630,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_warrior_padded_armor_c"
-        name="{=QX2pp6jX}Imperial Gambeson With Skirts"
+        name="{=cEhDJAQp}Infantryman's Gambeson With Skirts"
         mesh="empire_warrior_padded_armor_c"
         culture="Culture.neutral_culture"
         value="999"
@@ -6668,7 +6668,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_lamellar_over_leather"
-        name="{=ekTny86c}Imperial Lamellar Over Leather"
+        name="{=x3lcf2Do}Luxury Lamellar Vest Over Leather"
         mesh="empire_plate_armor"
         culture="Culture.neutral_culture"
         value="999"
@@ -6687,7 +6687,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_hauberk"
-        name="{=XTqplCsv}Northern Hauberk"
+        name="{=1jX7yxSW}Huscarls Mail Shirt"
         subtype="body_armor"
         mesh="sturgia_costume_b"
         culture="Culture.neutral_culture"
@@ -6708,7 +6708,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_coat_of_plates"
-        name="{=WST7ftTa}Northern Coat Of Plates"
+        name="{=w4RuDABQ}Coat Of Plates"
         mesh="sturgia_plate_armor"
         culture="Culture.neutral_culture"
         value="999"
@@ -6727,7 +6727,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_woven_leather_coat"
-        name="{=Nqa2maO2}Woven Leather Coat"
+        name="{=wE7RWmIF}Boarskin Leather Coat"
         mesh="vlandia_leather_stripes"
         culture="Culture.neutral_culture"
         value="999"
@@ -6746,7 +6746,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_mail_over_stripped_leather"
-        name="{=QaKohN0V}Imperial Mail Over Stripped Leather"
+        name="{=7566s7pt}Infantrymans Mail Over Stripped Leather"
         mesh="empire_armor_d"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -6785,7 +6785,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_lamellar"
-        name="{=a71fiml4}Imperial Lamellar"
+        name="{=LMo6MaQS}Cataphracts Lamellar Armor"
         mesh="imperial_lamellar_a"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -6805,7 +6805,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_lamellar_armor"
-        name="{=6qaNQAND}Eastern Lamellar Armor"
+        name="{=tG1Q8r2u}Lancer Lamellar Armor"
         mesh="metal_lamellar_armor"
         culture="Culture.neutral_culture"
         value="999"
@@ -6824,7 +6824,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_plated_leather_vest"
-        name="{=uZ1sIlSQ}Eastern Plated Leather Vest"
+        name="{=BbhGL8XT}Brigandine Vest"
         mesh="plated_leather_armor_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -6843,7 +6843,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_brass_lamellar_over_mail"
-        name="{=ItZt3amR}Eastern Brass Lamellar Over Mail"
+        name="{=PHNZn23Q}Brass Lamellar Over Mail"
         mesh="brass_lamellar"
         culture="Culture.neutral_culture"
         value="999"
@@ -6883,7 +6883,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_archer_armor"
-        name="{=XOvg9rbg}Southern Archer Armor"
+        name="{=2cSOn9qb}Gambeson Over Mail Armor"
         subtype="body_armor"
         mesh="aserai_archer_armor"
         culture="Culture.neutral_culture"
@@ -6904,7 +6904,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_horseman_armor"
-        name="{=B8eDrNXG}Southern Horseman Armor"
+        name="{=NTaol1uQ}Ring Mail"
         subtype="body_armor"
         mesh="aserai_horseman"
         culture="Culture.neutral_culture"
@@ -6943,7 +6943,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_desert_robe_over_mail"
-        name="{=8R6kpH2J}Southern Robe Over Mail"
+        name="{=k71X3WNK}Robe Over Mail Hauberk"
         mesh="aserai_chain_tunic_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -6982,7 +6982,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_medium_skirt"
-        name="{=dRLIr22v}Imperial Stitched Leather"
+        name="{=z7oMeRl3}Thick Brigandine Vest"
         mesh="khuzait_leather_stitch_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -7002,7 +7002,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_lamellar_vest"
-        name="{=Cp5aIHqR}Northern Lamellar Vest"
+        name="{=luoXhz19}Heavy Lamellar Vest"
         mesh="sturgia_costume_k"
         culture="Culture.neutral_culture"
         value="999"
@@ -7022,7 +7022,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_nordic_lamellar_armor"
-        name="{=12PL4971}Northern Lamellar Armor"
+        name="{=qPOqj2u0}Lamellar Armor"
         subtype="body_armor"
         mesh="sturgia_costume_i"
         culture="Culture.neutral_culture"
@@ -7043,7 +7043,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_noble_armor"
-        name="{=mMGfhc3M}Highland Noble Armor"
+        name="{=p9cQARqf}Highborn Mail Armor"
         subtype="body_armor"
         mesh="battania_noble_armor"
         culture="Culture.neutral_culture"
@@ -7064,7 +7064,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_warlord_armor"
-        name="{=Auwoehal}Highland Warlord Armor"
+        name="{=XNW3zyfZ}Warlords Scale Armor"
         subtype="body_armor"
         mesh="battania_warlord_armor"
         culture="Culture.neutral_culture"
@@ -7085,7 +7085,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_scale_armor"
-        name="{=ho4bsI3Q}Imperial Scale Armor"
+        name="{=VQSdhQE3}Heavy Scale Armor Over Mail Hauberk"
         mesh="imperial_lamellar_b"
         subtype="body_armor"
         culture="Culture.neutral_culture"
@@ -7317,7 +7317,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_wrapped_armguards"
-        name="{=OEyuUWji}Eastern Wrapped Armguards"
+        name="{=b2EDkbhD}Wrapped Armguards"
         mesh="plated_leather_armor_glove_a"
         culture="Culture.neutral_culture"
         value="999"
@@ -7418,7 +7418,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_highland_gloves"
-        name="{=i8S2PJB4}Highland Gloves"
+        name="{=4HcrY0S2}Fur Rimmed Leather Gloves"
         mesh="pict_armor_glove"
         culture="Culture.neutral_culture"
         value="999"
@@ -7520,7 +7520,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_brass_bracers"
-        name="{=UWPEu577}Northern Brass Bracers"
+        name="{=bDWgG7Jc}Brass Bracers"
         mesh="sturgia_leather_brass_bracer"
         culture="Culture.neutral_culture"
         value="999"
@@ -7537,7 +7537,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_plated_gloves"
-        name="{=vNNMGllv}Northern Plated Gloves"
+        name="{=G8FQ2exX}Plate Reinforced Gloves"
         mesh="sturgia_plate_gauntlet"
         culture="Culture.neutral_culture"
         value="999"
@@ -7571,7 +7571,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_plated_leather_vambraces"
-        name="{=jLkVVTJh}Eastern Plated Leather Vambraces"
+        name="{=mvTueU1y}Plated Leather Vambraces"
         mesh="plated_leather_armor_glove_b"
         culture="Culture.neutral_culture"
         value="999"
@@ -7588,7 +7588,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_warlord_bracers"
-        name="{=brLFIN46}Highland Warlord Bracers"
+        name="{=I0vRCZ7U}Scale Warlord Bracers"
         mesh="battania_warlord_bracers"
         culture="Culture.neutral_culture"
         value="999"
@@ -7765,7 +7765,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_eastern_leather_boots"
-        name="{=ukQCN90m}Eastern Leather Boots"
+        name="{=D9JrTpwU}Curved Boots"
         mesh="plated_leather_armor_boot"
         culture="Culture.neutral_culture"
         value="999"
@@ -7799,7 +7799,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_khuzait_curved_boots"
-        name="{=RWKafLdU}Eastern Curved Boots"
+        name="{=ZOa7p47T}Stapped Curved Boots"
         mesh="khuzait_leather_boots"
         culture="Culture.neutral_culture"
         value="999"
@@ -9150,7 +9150,7 @@
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
              id="mp_khuzait_lance_long"
-             name="{=?}Long Eastern Lance"
+               name="{=nsBhTk5h}Long Eastern Lance"
              crafting_template="TwoHandedPolearm"
              culture="Culture.neutral_culture"
              value="999"
@@ -9207,7 +9207,7 @@
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
                id="mp_sturgia_long_lance"
-               name="{=?}Northern Long Lance"
+               name="{=CgIRDDbe}Northern Long Lance"
                crafting_template="TwoHandedPolearm"
                value="999"
                is_merchandise="false"
@@ -9224,7 +9224,7 @@
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
              id="mp_sturgia_heavy_lance"
-             name="{=?}Northern Heavy Lance"
+               name="{=NeZZLy5y}Northern Heavy Lance"
              crafting_template="TwoHandedPolearm"
              value="999"
              is_merchandise="false"
@@ -10783,16 +10783,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_hunting_bow_faster_arrows"
-       name="{=wltdyF2j}Hunting Bow"
-       body_name="bo_composite_shotbow_h"
-       mesh="shortbow_h"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="1.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+        name="{=wltdyF2j}Hunting Bow"
+        body_name="bo_composite_shotbow_h"
+        mesh="shortbow_h"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="1.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -10819,16 +10819,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_fast_hunting_bow"
-       name="{=wltdyF2j}Fast Hunting Bow"
-       body_name="bo_composite_shotbow_h"
-       mesh="shortbow_h"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="1.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
+        name="{=wltdyF2j}Fast Hunting Bow"
+        body_name="bo_composite_shotbow_h"
+        mesh="shortbow_h"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="1.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2:bow_back:bow_back_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -11106,16 +11106,16 @@
     <Flags ForceAttachOffHandPrimaryItemBone="true" />
   </Item>
   <Item id="mp_long_bow_fast_arrows"
-       name="{=KBrDpNxO}Long Bow"
-       body_name="bo_composite_longbow_a"
-       mesh="longbow_b"
-       culture="Culture.neutral_culture"
-       value="999"
-       is_merchandise="false"
-       weight="2.0"
-       difficulty="0"
-       Type="Bow"
-       item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+        name="{=KBrDpNxO}Long Bow"
+        body_name="bo_composite_longbow_a"
+        mesh="longbow_b"
+        culture="Culture.neutral_culture"
+        value="999"
+        is_merchandise="false"
+        weight="2.0"
+        difficulty="0"
+        Type="Bow"
+        item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
     <ItemComponent>
       <Weapon weapon_class="Bow"
               ammo_class="Arrow"
@@ -13914,7 +13914,7 @@
   <!-- #region Horses -->
   <Item multiplayer_item="true"
         id="mp_vlandia_horse"
-        name="{=?}Saddle Horse"
+        name="{=AIu3kKvz}Saddle Horse"
         mesh="horse_brown"
         subtype="horse"
         item_category="sumpter_horse"
@@ -14820,7 +14820,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_horse_agile"
-        name="{=?}Midlands Palfrey"
+        name="{=IOt4KTHs}Midlands Palfrey"
         mesh="horse_brown"
         subtype="horse"
         item_category="horse"
@@ -15018,7 +15018,7 @@
   </Item>
   <Item multiplayer_item="true"
       id="mp_empire_horse_war_charger"
-      name="{=?}Imperial Charger"
+        name="{=mVAaWp5U}Imperial Charger"
       mesh="horse_brown"
       subtype="horse"
       item_category="horse"
@@ -15063,7 +15063,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_horse"
-        name="{=?}Desert horse"
+        name="{=84gnexLb}Desert horse"
         mesh="horse_brown"
         subtype="horse"
         item_category="horse"
@@ -15217,7 +15217,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_aserai_horse_war_faster"
-        name="{=?}Tough Nahasan"
+        name="{=3WdXljdt}Tough Nahasan"
         mesh="horse_brown"
         subtype="horse"
         item_category="war_horse"
@@ -15358,7 +15358,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_pony_agile"
-        name="{=?}Agile Dale Pony"
+        name="{=veB9S1OI}Agile Dale Pony"
         mesh="horse_brown"
         subtype="horse"
         item_category="horse"
@@ -15493,8 +15493,7 @@
         weight="10" 
         Type="HorseHarness">
     <ItemComponent>
-      <Armor 
-        body_armor="15" 
+      <Armor body_armor="15"
         mane_cover_type="none" 
         family_type="1" 
         modifier_group="leather" 
@@ -15505,7 +15504,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_steppe_fur_harness"
-        name="{=EfRKaKs0}Steppe Fur Harness"
+        name="{=ilLE877K}Steppe Fur Saddle "
         mesh="horse_harness_khuzait_a_clotest"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -15781,7 +15780,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_northern_noble_harness"
-        name="{=LWbJKKK1}Northern Noble Harness"
+        name="{=lZZOQsxc}Rough Cavalry Saddle"
         mesh="horse_harness_sturgia_b_clotest"
         value="999"
         is_merchandise="false"

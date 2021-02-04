@@ -235,7 +235,7 @@
     </Flags>
   </CraftingPiece>
   <CraftingPiece id="mp_battania_long_falx_blade" name="{=Cb8OaPt2}Mp Battania Long Falx Blade" tier="2" piece_type="Blade" mesh="battania_blade_6" length="95.6" weight="1.15" excluded_item_usage_features="thrust">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
       <Swing damage_type="Cut" damage_factor="4.3" />
     </BladeData>
@@ -293,7 +293,7 @@
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_test_2hsword_blade" name="{=S0PdnaiE}Mp Test 2H Sword Blade" tier="2" piece_type="Blade" mesh="aserai_blade_1" length="102.3" weight="1.05">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="aserai_blade_1_scabbard_1">
       <Thrust damage_type="Pierce" damage_factor="3.3" />
       <Swing damage_type="Cut" damage_factor="3.2" />
@@ -479,7 +479,7 @@
     <BuildData piece_offset="-0.09" previous_piece_offset="0" />
   </CraftingPiece>
   <CraftingPiece id="mp_vlandian_2hsword_grip" name="{=mDDlJyrT}MP Vlandian Twohander Grip " tier="2" piece_type="Handle" mesh="vlandian_grip_7" length="30.3" weight="0.7" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
   </CraftingPiece>
   <CraftingPiece id="mp_empire_gladius_grip" name="{=Dvs8lykJ}MP Empire Gladius Grip" tier="2" piece_type="Handle" mesh="empire_grip_1" length="15.4" weight="0.20">
@@ -571,7 +571,7 @@
     <BuildData piece_offset="0" previous_piece_offset="0.3" next_piece_offset="0.1" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_polearm_falx_handle" name="{=kLYMPyIL}Mp Battania Polearm Falx Handle" tier="2" piece_type="Handle" mesh="sturgian_grip_16" length="50" weight="0.5" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-2.0" previous_piece_offset="0.2" next_piece_offset="0.3" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_long_sword_grip" name="{=CvmCZnbF}MP Battania Long Sword Grip" tier="2" piece_type="Handle" mesh="sturgian_grip_8" length="15" weight="0.1">
@@ -591,7 +591,7 @@
     <BuildData piece_offset="-0.52" previous_piece_offset="0.4" next_piece_offset="-0.3" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_2h_sword_grip" name="{=vPgagp5z}MP Battania 2hander Grip" tier="2" piece_type="Handle" mesh="sturgian_grip_25" length="25" weight="0.13">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-5.04" next_piece_offset="0.1" previous_piece_offset="0.3" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_2h_long_sword_grip" name="{=Q2KvYakB}MP Battania Long 2hander Grip" tier="2" piece_type="Handle" mesh="battania_grip_6" culture="Culture.battania" length="25.6" weight="0.2">
@@ -599,7 +599,7 @@
     <BuildData piece_offset="-8.28" previous_piece_offset="0.3" next_piece_offset="0.1" />
   </CraftingPiece>
   <CraftingPiece id="mp_vlandian_noble_two_handed_sword_grip" name="{=SebavWxK}MP Vlandian Noble Twohander Handle" tier="2" piece_type="Handle" mesh="vlandian_grip_8" length="33.2" weight="0.4" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
   </CraftingPiece>
   <CraftingPiece id="mp_vlandian_bastard_sword_handle" name="{=9bop4WTJ}MP Vlandian Bastard Sword Handle" tier="2" piece_type="Handle" mesh="cleaver_grip_7" length="25" weight="0.4">
@@ -607,7 +607,7 @@
     <BuildData piece_offset="-1.06" previous_piece_offset="0.3" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_two_handed_sword_grip" name="{=Wn6VOT8O}MP Aserai Twohander Handle" tier="2" piece_type="Handle" mesh="aserai_grip_19" culture="Culture.aserai" length="31" weight="0.4">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-5.41" previous_piece_offset="0.2" next_piece_offset="-0.2" />
   </CraftingPiece>
   <CraftingPiece id="mp_vlandian_noble_bastard_sword_handle" name="{=fq283v03}MP Vlandian Noble Bastard Sword Handle" tier="2" piece_type="Handle" mesh="vlandian_grip_10" length="25.2" weight="0.3" item_holster_pos_shift="0,0,-0.02">
@@ -759,7 +759,7 @@
   <!-- #region Axe Pieces -->
   <!-- #region Axe Blade Pieces -->
   <CraftingPiece id="mp_vlandian_billhook_head" name="{=GdFVWxCI}Mp Valndian Billhook Head" tier="2" piece_type="Blade" mesh="spear_blade_33" length="35.5" weight="0.55" excluded_item_usage_features="shield:thrust">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_axe_longer_b">
       <Swing damage_type="Cut" damage_factor="1.9" />
     </BladeData>
@@ -871,7 +871,7 @@
     </Flags>
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_throwing_axe_head" name="{=DoAIeIsC}Mp Aserai Throwing Axe Head" tier="2" piece_type="Blade" mesh="axe_craft_13_head" distance_to_next_piece="2.7" distance_to_previous_piece="1.6" weight="0.581">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="-3.2" />
     <BladeData stack_amount="2" blade_length="8.707" blade_width="16.898" physics_material="metal_weapon" body_name="bo_axe_longer_b" holster_mesh="throwing_axe_quiver_1">
       <Thrust damage_type="Cut" damage_factor="0.6" />
@@ -1086,7 +1086,7 @@
   <!-- #endregion -->
   <!-- #region Axe Handle Pieces -->
   <CraftingPiece id="mp_vlandian_billhook_handle" name="{=wttwyxlp}MP Vlandia Billhok Handle" tier="2" piece_type="Handle" mesh="spear_handle_14" length="160" weight="0.5">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_hatchet_axe_handle" name="{=EjCVS3Lm}MP Hatchet Axe Handle" tier="2" piece_type="Handle" mesh="mace_handle_6" length="56.2" weight="0.7">
@@ -1111,11 +1111,11 @@
     <BuildData piece_offset="17.2" next_piece_offset="4" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_2haxe_handle" name="{=XkgyqfoL}MP Aserai 2h Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_8_handle" length="116" weight="0.5">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="25.86" next_piece_offset="1" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_strong_2haxe_handle" name="{=MF97EnkL}MP Aserai Strong 2h Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_4_handle" length="157.5" weight="0.35" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="26.879" next_piece_offset="1.6" />
   </CraftingPiece>
   <CraftingPiece id="mp_empire_axe_handle" name="{=Do0aFmkb}MP Empire Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_20_handle" length="90" weight="0.2">
@@ -1154,7 +1154,7 @@
     <BuildData piece_offset="8.175" next_piece_offset="4" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_throwing_axe_handle" name="{=Vd03j6Hl}MP Aserai Throwing Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_12_handle" length="70" weight="0.234">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="8.175" next_piece_offset="4" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_axe_handle" name="{=FPsFCxGI}MP Battania Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_21_handle" length="94" weight="0.35">
@@ -1174,15 +1174,15 @@
     <BuildData piece_offset="33" next_piece_offset="1.835" />
   </CraftingPiece>
   <CraftingPiece id="mp_battania_woodcutters_axe_handle" name="{=8q3gtnaK}MP Battania Woodcutters Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_7_handle" length="124.3" weight="0.5" excluded_item_usage_features="widegrip">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="23.87" next_piece_offset="1.5" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturgia_2haxe_handle" name="{=wMSrKBoj}MP Strugia Twohanded Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_4_handle" length="157.5" weight="0.5" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="36.879" next_piece_offset="1.6" />
   </CraftingPiece>
   <CraftingPiece id="mp_vlandia_halberd_handle" name="{=wMSrKBoj}MP Strugia Twohanded Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_4_handle" length="157.5" weight="0.5" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="36.879" next_piece_offset="1.6" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturiga_woodsplitter_axe_handle" name="{=QHpug0k5}MP Sturgia Woodsplitters Axe Handle" tier="2" piece_type="Handle" mesh="spear_handle_2" length="87.1" weight="0.5" excluded_item_usage_features="long">
@@ -1194,7 +1194,7 @@
     <BuildData piece_offset="22" next_piece_offset="2.29" />
   </CraftingPiece>
   <CraftingPiece id="mp_sturgia_long_2haxe_handle" name="{=IXtXShWZ}MP Strugia Long Twohanded Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_6_handle" length="157.3" weight="0.5" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="36.87" next_piece_offset="1.122" />
   </CraftingPiece>
   <CraftingPiece id="mp_test_axe_handle" name="{=ohtc304B}MP Test Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_2_handle" length="84" weight="0.4">
@@ -1593,13 +1593,13 @@
       <Thrust damage_type="Pierce" damage_factor="1.75" />
     </BladeData>
   </CraftingPiece>
-  <CraftingPiece id="mp_sturgia_lance_blade" name="{=?}Mp Sturgia Lance Blade" tier="2" piece_type="Blade" mesh="spear_blade_42" length="42" weight="1.0456" excluded_item_usage_features="swing">
+  <CraftingPiece id="mp_sturgia_lance_blade" name="{=*}Mp Sturgia Lance Blade" tier="2" piece_type="Blade" mesh="spear_blade_42" length="42" weight="1.0456" excluded_item_usage_features="swing">
     <PieceUsages unavailable_usages="Javelin" />
     <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_4_1" holster_body_name="bo_throwing_spear_quiver_4_1">
       <Thrust damage_type="Pierce" damage_factor="2.35" />
     </BladeData>
   </CraftingPiece>
-  <CraftingPiece id="mp_sturgia_heavy_lance_blade" name="{=?}Mp Sturgia Heavy Lance Blade" tier="5" piece_type="Blade" mesh="spear_blade_13" length="50.864" weight="1.1" excluded_item_usage_features="swing">
+  <CraftingPiece id="mp_sturgia_heavy_lance_blade" name="{=*}Mp Sturgia Heavy Lance Blade" tier="5" piece_type="Blade" mesh="spear_blade_13" length="50.864" weight="1.1" excluded_item_usage_features="swing">
     <PieceUsages unavailable_usages="" />
     <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="2.4" />
@@ -1624,7 +1624,7 @@
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_battania_polearm_falx_blade" name="{=E6ESMnZt}Mp Battania Polearm Falx Blade" tier="2" piece_type="Blade" mesh="battania_blade_6" length="95.6" weight="1.1" excluded_item_usage_features="thrust">
-    <PieceUsages unavailable_usages="OneHandedSword:Javelin" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword:Javelin" />
     <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
       <Swing damage_type="Cut" damage_factor="3.5" />
     </BladeData>
@@ -1861,7 +1861,7 @@
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_empire_lance_handle" name="{=O6TtFPHo}Mp Empire Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="0.9">
-    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin" />
+    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="24.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_empire_heavy_lance_handle" name="{=f0RONOLG}Mp Empire Heavy Lance Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="1.7">

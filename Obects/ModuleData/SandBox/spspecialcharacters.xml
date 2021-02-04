@@ -6736,6 +6736,542 @@ FEMALE:
     </Equipments>
   </NPCCharacter>
   <!-- ***No Beard Guy** -->
+  <NPCCharacter id="hardy_contender_easy" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.empire" name="{=mtBA7sfk}Hardy Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_easy_template_skills">
+    <face>
+      <BodyProperties version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.legionary_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="broad_arming_sword_t4" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="hardy_contender_normal" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.empire" name="{=mtBA7sfk}Hardy Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_normal_template_skills">
+    <face>
+      <BodyProperties version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.legionary_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="broad_arming_sword_t4" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="hardy_contender_hard" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.empire" name="{=mtBA7sfk}Hardy Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.legionary_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="broad_arming_sword_t4" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="hardy_contender_very_hard" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.empire" name="{=mtBA7sfk}Hardy Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_very_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.legionary_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="broad_arming_sword_t4" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- ***Guy with Markings*** -->
+  <NPCCharacter id="dignified_contender_easy" default_group="Infantry" is_hero="false" is_female="false" age="40" culture="Culture.vlandia" name="{=sk64gxdw}Dignified Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_easy_template_skills">
+    <face>
+      <BodyProperties version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+      <BodyPropertiesMax version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.banded_leather_over_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="vlandia_sword_4_t4" />
+        <equipment slot="Body" id="Item.white_coat_over_mail" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="dignified_contender_normal" default_group="Infantry" is_hero="false" is_female="false" age="40" culture="Culture.vlandia" name="{=sk64gxdw}Dignified Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_normal_template_skills">
+    <face>
+      <BodyProperties version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+      <BodyPropertiesMax version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.banded_leather_over_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="vlandia_sword_4_t4" />
+        <equipment slot="Body" id="Item.white_coat_over_mail" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="dignified_contender_hard" default_group="Infantry" is_hero="false" is_female="false" age="40" culture="Culture.vlandia" name="{=sk64gxdw}Dignified Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+      <BodyPropertiesMax version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.banded_leather_over_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="vlandia_sword_4_t4" />
+        <equipment slot="Body" id="Item.white_coat_over_mail" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="dignified_contender_very_hard" default_group="Infantry" is_hero="false" is_female="false" age="40" culture="Culture.vlandia" name="{=sk64gxdw}Dignified Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_very_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+      <BodyPropertiesMax version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item2" id="Item.western_spear_3_t3" />
+        <equipment slot="Body" id="Item.banded_leather_over_mail" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="vlandia_sword_4_t4" />
+        <equipment slot="Body" id="Item.white_coat_over_mail" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!--***Guy with axe***-->
+  <NPCCharacter id="confident_contender_easy" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.aserai" name="{=jepZ0btT}Confident Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_easy_template_skills">
+    <face>
+      <BodyProperties version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+      <BodyPropertiesMax version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item1" id="Item.woodland_axe_t3" />
+        <equipment slot="Item2" id="Item.wide_leaf_spear_t4" />
+        <equipment slot="Body" id="Item.desert_lamellar" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="woodland_axe_t3" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="confident_contender_normal" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.aserai" name="{=jepZ0btT}Confident Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_normal_template_skills">
+    <face>
+      <BodyProperties version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+      <BodyPropertiesMax version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item1" id="Item.woodland_axe_t3" />
+        <equipment slot="Item2" id="Item.wide_leaf_spear_t4" />
+        <equipment slot="Body" id="Item.desert_lamellar" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="woodland_axe_t3" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="confident_contender_hard" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.aserai" name="{=jepZ0btT}Confident Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+      <BodyPropertiesMax version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item1" id="Item.woodland_axe_t3" />
+        <equipment slot="Item2" id="Item.wide_leaf_spear_t4" />
+        <equipment slot="Body" id="Item.desert_lamellar" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="woodland_axe_t3" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="confident_contender_very_hard" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.aserai" name="{=jepZ0btT}Confident Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_very_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+      <BodyPropertiesMax version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.chivalric_kite_shield" />
+        <equipment slot="Item1" id="Item.woodland_axe_t3" />
+        <equipment slot="Item2" id="Item.wide_leaf_spear_t4" />
+        <equipment slot="Body" id="Item.desert_lamellar" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="woodland_axe_t3" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- ***Bald Guy***** -->
+  <NPCCharacter id="bold_contender_easy" default_group="Infantry" is_hero="false" is_female="false" age="30" culture="Culture.sturgia" name="{=KphYbafC}Bold Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_easy_template_skills">
+    <face>
+      <BodyProperties version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="sturgia_sword_4_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="bold_contender_normal" default_group="Infantry" is_hero="false" is_female="false" age="30" culture="Culture.sturgia" name="{=KphYbafC}Bold Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_normal_template_skills">
+    <face>
+      <BodyProperties version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Bow" value="90" />
+      <skill id="OneHanded" value="90" />
+      <skill id="Polearm" value="90" />
+      <skill id="Riding" value="90" />
+      <skill id="Throwing" value="90" />
+      <skill id="TwoHanded" value="90" />
+    </skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="sturgia_sword_4_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="bold_contender_hard" default_group="Infantry" is_hero="false" is_female="false" age="30" culture="Culture.sturgia" name="{=KphYbafC}Bold Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Bow" value="90" />
+      <skill id="OneHanded" value="90" />
+      <skill id="Polearm" value="90" />
+      <skill id="Riding" value="90" />
+      <skill id="Throwing" value="90" />
+      <skill id="TwoHanded" value="90" />
+    </skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="sturgia_sword_4_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="bold_contender_very_hard" default_group="Infantry" is_hero="false" is_female="false" age="30" culture="Culture.sturgia" name="{=KphYbafC}Bold Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true" skill_template="SkillSet.spy_among_us_quest_very_hard_template_skills">
+    <face>
+      <BodyProperties version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+      <BodyPropertiesMax version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Bow" value="90" />
+      <skill id="OneHanded" value="90" />
+      <skill id="Polearm" value="90" />
+      <skill id="Riding" value="90" />
+      <skill id="Throwing" value="90" />
+      <skill id="TwoHanded" value="90" />
+    </skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="sturgia_sword_4_t4" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- Old spy among us quest characters -->
   <NPCCharacter id="hardy_contender" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.empire" name="{=mtBA7sfk}Hardy Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true">
     <face>
       <BodyProperties version="4" age="32" weight="0.2415" build="0.2948" key="0005C00FC000000F5D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
@@ -6776,7 +7312,6 @@ FEMALE:
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <!-- ***Guy with Markings*** -->
   <NPCCharacter id="dignified_contender" default_group="Infantry" is_hero="false" is_female="false" age="40" culture="Culture.vlandia" name="{=sk64gxdw}Dignified Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true">
     <face>
       <BodyProperties version="4" age="50" weight="0.2016" build="0.5" key="0016B40A06FC244396755869794078B38322A5A7B9676A787D8EAA688B99B36401A00614FA3CC2A5000000000000000000000000000000000000000001543145" />
@@ -6817,7 +7352,6 @@ FEMALE:
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <!--***Guy with axe***-->
   <NPCCharacter id="confident_contender" default_group="Infantry" is_hero="false" is_female="false" culture="Culture.aserai" name="{=jepZ0btT}Confident Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true">
     <face>
       <BodyProperties version="4" age="30.87" weight="0" build="0" key="002D000FC0FC359997B7BD8BA820B77798D95B7AA827F9787D8EAA686777579A01400614043CC2A50000000000000000000000000000000000000000007C2145" />
@@ -6858,7 +7392,6 @@ FEMALE:
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <!-- ***Bald Guy***** -->
   <NPCCharacter id="bold_contender" default_group="Infantry" is_hero="false" is_female="false" age="30" culture="Culture.sturgia" name="{=KphYbafC}Bold Contender" banner_symbol_mesh_name="test_symbol_a" occupation="Soldier" banner_symbol_color="FF000000" level="16" is_hidden_encyclopedia="true">
     <face>
       <BodyProperties version="4" age="30" weight="0.2016" build="0.5" key="0005C002C00009005D1EECC2AC8071348894884B1977499893998C797E69979501B006140BEB54490000000000000000000000000000000000000000017C8045" />
@@ -6898,5 +7431,6 @@ FEMALE:
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
+  <!-- Old spy among us quest characters END -->
   <!--Quest related characters END-->
 </NPCCharacters>

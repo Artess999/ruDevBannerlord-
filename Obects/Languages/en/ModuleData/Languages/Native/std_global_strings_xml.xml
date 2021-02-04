@@ -9,6 +9,7 @@
     <string id="08oulGov" text="Drop your equipped weapon." />
     <string id="0EDGnl1C" text="Ranged Only" />
     <string id="0fLpwDzk" text="Sets the window mode.{newline}Windowed: Runs the game on a window.{newline}Fullscreen: Runs the game in full screen.{newline}Borderless Fullscreen: Runs the game on a borderless maximized window." />
+    <string id="0HNrwVGG" text="By Movement" />
     <string id="0MvDMsEl" text="Occlusion Method" />
     <string id="0ot0eBzv" text="Turn Camera With Horse In First Person" />
     <string id="0YV6wbsq" text="Pause time in campaign map." />
@@ -16,6 +17,7 @@
     <string id="1awQTVqN" text="Number Of Ragdolls" />
     <string id="1dQFNvhQ" text="Numpad +" />
     <string id="1ebaa1Wf" text="Toggle Walk/Run Mode" />
+    <string id="1JlzQIXE" text="Disabled" />
     <string id="1uCaibsd" text="Full" />
     <string id="1WsmBXkN" text="Frame Limiter" />
     <string id="25MeMNbP" text="Right" />
@@ -28,6 +30,7 @@
     <string id="2h2148cq" text="Send Message To Everyone" />
     <string id="2ZJQylWo" text="Switch between run and walk modes." />
     <string id="3awgWrma" text="Benchmark" />
+    <string id="3CN7LUCf" text="Toggle Cursor Visibility" />
     <string id="3Dngsvya" text="Move Forward" />
     <string id="3Gb7tKgJ" text="{LEFT} and {RIGHT}" />
     <string id="3nTeojbI" text="=" />
@@ -60,6 +63,7 @@
     <string id="6d56kv7p" text="Vertical Movement Scale for Direction Gestures" />
     <string id="6g0y182U" text="Environment Detail" />
     <string id="6HJxnF3G" text="Save Failed!" />
+    <string id="6Jcchu9g" text="Enable cursor while scoreboard is open." />
     <string id="6QiPm27r" text="Move your party upward in campaign map." />
     <string id="6sIFj7K9" text="Fast-Forward Time" />
     <string id="6Uh76bYG" text="Map Time Stop" />
@@ -110,6 +114,7 @@
     <string id="amdYLZ6o" text="Quests Window" />
     <string id="aombIn07" text="Set the exposure amount." />
     <string id="ap1wEfdW" text="V" />
+    <string id="AP9bKYTb" text="Toggle Cursor" />
     <string id="ar2Y8Xs9" text="{LEFT}: " />
     <string id="asrbFBbn" text="Order Menu" />
     <string id="au7tXcD1" text="Stereo" />
@@ -117,21 +122,19 @@
     <string id="avDb6Y66" text="Middle Mouse Button" />
     <string id="aWDfG0RO" text="F3" />
     <string id="aydCb7WA" text="Medium" />
-    <string id="AyqxxMbu" text="Toggle Mouse" />
     <string id="ayYYRfPP" text="Report Personal Damage" />
     <string id="Az084VJK" text="Defend" />
     <string id="b00385oX" text="Map Open Encyclopedia" />
     <string id="b1OtYhnF" text="Texture Filtering" />
     <string id="b9rDOY21" text="SelectOrder2" />
-    <string id="BbqPaoAF" text="Decrease FocusEnd" />
     <string id="bdJv9dcm" text="Character Zoom In" />
     <string id="BDSEgN41" text="Sets the overall graphics quality preset." />
     <string id="bEJsGiBK" text="Foliage Quality" />
+    <string id="bfis1Rqj" text="Enable death location indicators that show where your teammates die." />
     <string id="bGbIRSmD" text="." />
     <string id="BgjaAUNf" text="Sets the quality of water. A higher value means more detailed water simulation." />
     <string id="bgwA4Pd8" text="2" />
     <string id="bGZeJJAH" text="Roll the Camera Left (Counterclockwise)" />
-    <string id="bJsEMBk9" text="Increase FocusEnd" />
     <string id="Bl8cKwhL" text="Display Calibration" />
     <string id="bmpagYCb" text="Equip your shield or change to the next one." />
     <string id="BmSzvXlZ" text="Up" />
@@ -145,6 +148,7 @@
     <string id="c49AY7yF" text="Low (128)" />
     <string id="C7zwur4k" text="Escape" />
     <string id="cAkgnVr5" text="Num Lock" />
+    <string id="CBwEl28t" text="Enable Death Location Indicator" />
     <string id="CbwmI1JY" text="Enables the depth of field." />
     <string id="CfjTvLNl" text="Finalize Chat" />
     <string id="Co9aqFIB" text="Toggle Camera Follow Mode" />
@@ -159,7 +163,6 @@
     <string id="Cvdaadvs" text="Very High" />
     <string id="cvhQOE38" text="Show Attack Direction" />
     <string id="cWRA5VVr" text="Left Alt" />
-    <string id="CyMFuiHx" text="Decrease FocusStart" />
     <string id="czYbd1vo" text="H" />
     <string id="D008gyKC" text="Select Order 1" />
     <string id="D0Ps9ddi" text="Hide UI" />
@@ -173,8 +176,10 @@
     <string id="deletekey" text="Delete" />
     <string id="Dg0SKmCS" text="Combat Speed DESC" />
     <string id="dg6yQU6z" text="Send Message To Team" />
+    <string id="DGRmXCg4" text="Only Icons (Only in SP)" />
     <string id="DiK2cKUi" text="Sound Device" />
     <string id="dkLG4JC4" text="Enter" />
+    <string id="dkYmFAk2" text="Track Attacked Settlements" />
     <string id="DqFxOjTp" text="Screen Resolution" />
     <string id="drbgOAqx" text="Enable reports for experience gain." />
     <string id="drG1OL8d" text="Mouse Scroll Up" />
@@ -186,6 +191,7 @@
     <string id="E5xbXlLB" text="Enables the sun shafts." />
     <string id="ea8kNj32" text="Your preferred sound output device." />
     <string id="EaOcWkH3" text="Open Encyclopedia." />
+    <string id="eDRzvYz5" text="Enable auto tracking settlements when attacked." />
     <string id="EkzORIiZ" text="Open all chat." />
     <string id="evc8yBIy" text="M" />
     <string id="EvOLbiqM" text="Select Group 3" />
@@ -196,6 +202,7 @@
     <string id="FEDEsbCx" text="Move your party downward in campaign map." />
     <string id="ffHX9L80" text="Numpad 0" />
     <string id="FHBoO2sp" text="6" />
+    <string id="FJbTiPsa" text="Disable Sound in Background" />
     <string id="fJnqJx8m" text="Character Window" />
     <string id="fldPHfP6" text="Sets the refresh rate of the game." />
     <string id="FLLnblfP" text="Report Casualties" />
@@ -239,6 +246,7 @@
     <string id="IahiWHHW" text="K" />
     <string id="Iam02fhz" text="Low (300)" />
     <string id="IaoVYeZi" text="Enables the tesselation." />
+    <string id="Ib0N4LoW" text="Mute game sounds while game is out of focus." />
     <string id="iblHebbT" text="F1" />
     <string id="IcEPmXxM" text="Sets the ambient occlusion technique." />
     <string id="ICgda8Is" text="Up Double Press: Charge Forward" />
@@ -251,6 +259,7 @@
     <string id="IjRHUbbN" text="Tesselation" />
     <string id="IKjxVh2N" text="Motion Blur" />
     <string id="ikoUJQyl" text="Enables the bloom effect." />
+    <string id="invalidkey" text="-" />
     <string id="IOZ4aWVp" text="Select Group 8" />
     <string id="IPbh2TvZ" text="Initiate Team Chat" />
     <string id="iPx4jep6" text="Exposure" />
@@ -283,8 +292,7 @@
     <string id="JZFXI1LK" text="UI Scale" />
     <string id="jZs8I1Uq" text="Enables the film grain." />
     <string id="JZYQGUF3" text="Down Double Press: Sudden Break" />
-    <string id="k3CLKsrz" text="By Mouse Movement" />
-    <string id="k3LajvfJ" text="Open Banner Editor screen." />
+    <string id="k3LajvfJ" text="Banner Editor" />
     <string id="k4E1gylQ" text="Sets the amount of sharpen effect." />
     <string id="k7gJYLLj" text="Numpad 8" />
     <string id="K80z5onY" text="Determines how far will the camera be in third-person." />
@@ -323,6 +331,7 @@
     <string id="M1ZFZR5I" text="Terrain Quality" />
     <string id="M2LCpC4Z" text="Invert Mouse Y Axis" />
     <string id="m7B471Hw" text="Sets the lighting quality." />
+    <string id="m7IunCRL" text="Open Banner Editor screen." />
     <string id="mAxXKaXp" text="Reset" />
     <string id="Mf5qVgAv" text="Equip Item 3" />
     <string id="MFbBFDqx" text="Map Fast Move" />
@@ -334,7 +343,6 @@
     <string id="MkKL3Y4P" text="Numpad 7" />
     <string id="mLtHlKzD" text="Right Alt" />
     <string id="MNsKxGzK" text="Texture Streaming Budget" />
-    <string id="mS1cpD6w" text="Enable mouse while scoreboard is open." />
     <string id="mueocuFG" text="Show Indicators" />
     <string id="mWnA4X5D" text="Select Order 6" />
     <string id="MXHkvySm" text="F7" />
@@ -345,7 +353,6 @@
     <string id="nDjFBDvE" text="Sets the maximum number of units on battles. A higher value requires better CPU and GPU." />
     <string id="NN7DHB1A" text="Group 1 Hear" />
     <string id="o0QPZODk" text="Move Party Left" />
-    <string id="O5j0ChFf" text="Increase FocusStart" />
     <string id="o8WjGqS4" text="Z" />
     <string id="O9ed2AWr" text="Finalize message if chat box is active. Otherwise, activate chat box." />
     <string id="ocNVbyPJ" text="Borderless Fullscreen" />
@@ -361,7 +368,6 @@
     <string id="otHjiYlN" text="Particle Quality" />
     <string id="OtS4DYD1" text="T" />
     <string id="OYaqdNAI" text="Select Order 2" />
-    <string id="P2zN2brG" text="Increase Focus" />
     <string id="P4rblFQN" text="Map Zoom Out" />
     <string id="P5x1HU1u" text="Anti-aliasing" />
     <string id="P7E3rS3m" text="Music volume level." />
@@ -369,6 +375,7 @@
     <string id="PACe9VHN" text="&lt;" />
     <string id="PADeKaAu" text="Map Context Menu" />
     <string id="PBzbWfGF" text="Lock Target" />
+    <string id="PC77pnRB" text="Leader Only" />
     <string id="pialOblr" text="Order Hold" />
     <string id="PksJtzwJ" text="Space" />
     <string id="Pkw17hO0" text="Combat Speed" />
@@ -408,12 +415,12 @@
     <string id="RaijrIxP" text="Interact" />
     <string id="rbz1Bwbv" text="Inventory" />
     <string id="Rh7aDJ3n" text="Banner Window" />
+    <string id="rHeu8Ndg" text="Open Face Generation." />
     <string id="Rhl5E2ut" text="Sets the type of shadows." />
     <string id="rNiESgEo" text="]" />
     <string id="ro0NhUnJ" text="Set field of view for first person camera." />
     <string id="roJLc9oH" text="Half" />
     <string id="rP058aIm" text="Equip the item in your first slot." />
-    <string id="RqDlastU" text="Decrease Focus" />
     <string id="rs0wImmD" text="Cannot create save data." />
     <string id="rS6nO0wb" text="Toggle Vignette" />
     <string id="RSmsn6mb" text="Resume/Pause Time" />
@@ -452,6 +459,7 @@
     <string id="tkCbjgfx" text="Numpad -" />
     <string id="TOebahlA" text="Map Time Fast Forward" />
     <string id="TRmaxjal" text="Enable vertical aim correction while in third person mode." />
+    <string id="tsPjK1Ke" text="Enabled" />
     <string id="ttCcMbwO" text="Up Arrow" />
     <string id="TtWjblNo" text="Toggle Show" />
     <string id="TUWeNFOv" text="Take Screenshot" />
@@ -472,7 +480,6 @@
     <string id="UFHqkvah" text="Interactive Grass" />
     <string id="uGEcLaqw" text="Roll Camera Right" />
     <string id="UixNc11t" text="Defend attacks with your weapon or shield." />
-    <string id="UjX1E56u" text="By Inverse Mouse Movement" />
     <string id="ukw0Zi1X" text="[" />
     <string id="UNmUcizM" text="Select Order 3" />
     <string id="Uojm77jP" text="Lighting Quality" />
@@ -482,7 +489,6 @@
     <string id="urbLiiQJ" text="Configure Exposure" />
     <string id="uRXlSUVh" text="N" />
     <string id="uSGPBRFS" text="Zoom" />
-    <string id="USKys6FV" text="Show Mouse" />
     <string id="UTU6yVsp" text="Resume time in campaign map." />
     <string id="uUHUfeQr" text="Select Group 6" />
     <string id="UwJIMaRi" text="Shader Quality" />
@@ -501,7 +507,6 @@
     <string id="vJ41v8zh" text="Friendly Troops Banner Opacity" />
     <string id="vJDxgaOZ" text="These modules' versions are different:" />
     <string id="VklN5Wm6" text="Photo Mode" />
-    <string id="Vpy2qEcN" text="By Movement Keys" />
     <string id="vT3yIxmO" text="Numpad 4" />
     <string id="vXvmeGhm" text="Shadow Type" />
     <string id="VzSerzva" text="Right Shift" />
@@ -522,6 +527,7 @@
     <string id="wWDHH5FK" text="Depth of Field" />
     <string id="wYicqUa9" text="Map Time Normal" />
     <string id="X1nFnomy" text="Medium (400)" />
+    <string id="X2CbgcZ9" text="By Look Direction" />
     <string id="X5cSNxHf" text="5" />
     <string id="x7kYOUfi" text="Effects Volume" />
     <string id="x7qfk550" text="Q" />
@@ -550,15 +556,16 @@
     <string id="xboxXbutton" text="X Button" />
     <string id="xboxYbutton" text="Y Button" />
     <string id="XCB1SGxZ" text="Start Benchmark" />
-    <string id="xDuL9yQH" text="Toggle Mouse Visibility" />
     <string id="xEquRfRF" text="10" />
     <string id="xJpOH8DU" text="Open Encyclopedia" />
     <string id="XldS0fkN" text="Change Camera Follow Mode" />
+    <string id="xMoqTFkZ" text="By Inverse Look Direction" />
     <string id="xnGGas4h" text="Invert y-axis of the mouse for camera control." />
     <string id="XnhBdHnS" text="Surround" />
     <string id="xNprkuJl" text="Drop Weapon" />
     <string id="xnulLUFX" text="Save your game quickly with a shortcut." />
     <string id="XrUGC7H4" text="Backspace" />
+    <string id="XtiGbj0W" text="Show Cursor" />
     <string id="xuOz73hl" text="Choose whether blood is visible in battles." />
     <string id="xZ84ujuu" text="How many sounds could be played at once. Lower values will lower your CPU usage while higher values delivers better atmosphere." />
     <string id="y7dx24ih" text="Turn camera as you change direction on a horse in first person view." />
@@ -583,7 +590,7 @@
     <string id="ZIKuUbUG" text="Sets the number of simultaneous ragdoll simulations." />
     <string id="ZKg3DqbQ" text="Determines the opacity of the banners shown on top of the friendly troops." />
     <string id="znSZmZvV" text="Map Move Right" />
-    <string id="Zo2ngsUk" text="Open Face Generation." />
+    <string id="Zo2ngsUk" text="Face Generation" />
     <string id="ZoDugJHP" text="Select Previous Group" />
     <string id="zofULNb8" text="Equip Secondary Weapon" />
     <string id="ZP1tLaa1" text="Numpad 9" />

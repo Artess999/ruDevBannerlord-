@@ -3978,6 +3978,27 @@
     <action name="act_cheer_2" />
     <action name="act_cheer_3" />
     <action name="act_cheer_4" />
+	
+    <action name="act_cheering_high_01" />
+    <action name="act_cheering_high_02" />
+    <action name="act_cheering_high_03" />
+    <action name="act_cheering_high_04" />
+    <action name="act_cheering_high_05" />
+    <action name="act_cheering_high_06" />
+    <action name="act_cheering_high_07" />
+    <action name="act_cheering_high_08" />
+	
+    <action name="act_cheering_low_01" />
+    <action name="act_cheering_low_02" />
+    <action name="act_cheering_low_03" />
+    <action name="act_cheering_low_04" />
+    <action name="act_cheering_low_05" />
+    <action name="act_cheering_low_06" />
+    <action name="act_cheering_low_07" />
+    <action name="act_cheering_low_08" />
+    <action name="act_cheering_low_09" />
+    <action name="act_cheering_low_10" />
+
 
     <action name="act_taunt_cheer_1" />
     <action name="act_taunt_cheer_2" />

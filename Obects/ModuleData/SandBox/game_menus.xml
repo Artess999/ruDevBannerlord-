@@ -46,9 +46,6 @@
     <game_menu id="menu_castle_entry_denied" flags="0x1000" color="0x0" on_init="menu_castle_entry_denied_on_init" default_text="{=QpQQJjD6}The lord of this castle has forbidden you from coming inside these walls, and the guard sergeant informs you that his men will fire if you attempt to come any closer." mesh_name="none">
       <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_request_entry_to_castle_rejected_continue_on_consequence" />
     </game_menu>
-    <game_menu id="menu_settlement_taken" flags="0x200" color="0x0" on_init="menu_settlement_taken_on_init" default_text="{=!}{SETTLEMENT_TAKEN_TEXT}" mesh_name="none">
-      <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="menu_requested_settlement_granted_continue_on_consequence" />
-    </game_menu>
     <game_menu id="village_loot_defeat" on_init="game_menu_village_menu_on_init" flags="0x1000" color="0x0" default_text="{=F3Bi3R6J}Fighting with courage and determination, the villagers manage to hold together and drive off your forces." mesh_name="none">
       <menu_option id="str_continue" text="{=veWOovVv}Continue..." on_consequence="game_menu_village_loot_defeat_mno_continue_on_consequence" />
     </game_menu>

@@ -501,6 +501,9 @@
         <input index="13" type="node" mrt_index="0" source="half_res_velocity_and_depth" />
         <input index="7" type="node" mrt_index="1" source="half_res_velocity_and_depth" />
         <input index="14" type="node" mrt_index="2" source="half_res_velocity_and_depth" />
+        <preconditions>
+          <config name="motionblur" />
+        </preconditions>
       </postfx_node>
 
       <postfx_node id="bloom_up4" shader="postfx_bloom_up" format="R11G11B10F" size="relative" width="0.50" height="0.50">

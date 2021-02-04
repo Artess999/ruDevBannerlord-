@@ -4,6 +4,7 @@
     <tag language="English" />
   </tags>
   <strings>
+    <string id="0tJ1oarX" text="Continue Campaign" />
     <string id="171fTtIN" text="SandBox" />
     <string id="6mN03uTP" text="Saved Games" />
     <string id="9NuttOBC" text="Load" />
@@ -15,6 +16,7 @@
     <string id="NqarFr4P" text="Options" />
     <string id="PXT6aA4J" text="Campaign Options" />
     <string id="RamV6yLM" text="Exit to Main Menu" />
+    <string id="u24Jy4At" text="There is no campaign to continue" />
     <string id="VHjIJGja" text="You need to be in a kingdom" />
     <string id="XzZFhRwr" text="Return To The Game" />
   </strings>

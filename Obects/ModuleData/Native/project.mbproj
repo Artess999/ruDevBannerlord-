@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="solution">
-  <outputDirectory>..\MBModule\MBModule\</outputDirectory>
-  <XMLDirectory>..\WOTS\Modules\Native\</XMLDirectory>
-  <ModuleAssemblyDirectory>..\WOTS\bin\</ModuleAssemblyDirectory>
+  <outputDirectory>../MBModule/MBModule/</outputDirectory>
+  <XMLDirectory>../WOTS/Modules/Native/</XMLDirectory>
+  <ModuleAssemblyDirectory>../WOTS/bin/</ModuleAssemblyDirectory>
   <file id="soln_strings" name="ModuleData/strings.xml" type="string" />
   <file id="soln_postfx" name="ModuleData/postfx_graphs.xml" type="postfx" />
   <file id="soln_before_transparents_postfx" name="ModuleData/before_transparents_graph.xml" type="postfx" />

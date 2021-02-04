@@ -16,6 +16,7 @@
     <string id="3DRu8Oy5" text="Faster Release" />
     <string id="4eFFdbbh" text="Replaces Voulge with Two Handed Sword, effective at dueling and thrusting, two handed." />
     <string id="4wdgiTta" text="Sickle" />
+    <string id="5aZNQczb" text="Replaces mount with a more maneuverable horse." />
     <string id="5JQFx3EW" text="Replaces mount with a faster and more maneuverable horse." />
     <string id="5pLEUc4t" text="Strong Arrows" />
     <string id="6bdcoGI1" text="Replaces mount with a faster and more maneuverable horse." />
@@ -29,23 +30,24 @@
     <string id="8nObGQqW" text="Rhomphaia" />
     <string id="943pNa16" text="Light Shield" />
     <string id="9aFg4Cb4" text="Grants Throwing Axes, provides ranged damage, effective against shields, low in quantity." />
+    <string id="9GQN5tTF" text="Grants Heavy Lance, more damage than spears, couchable." />
     <string id="9vYPOPbF" text="Replaces Higland Spear with Highland Long Spear, longer but deals less damage." />
     <string id="a4Y00Bxz" text="Grants Lance, longer than spears but slower, couchable." />
     <string id="a8ycVmwU" text="Bardiche" />
     <string id="AAiawU42" text="Grants Lance, longer than spears, couchable." />
+    <string id="AClsYZ14" text="Heavy Kontos, deals more damage but is slow. Cant be used with shields." />
     <string id="aJ3pbDTg" text="Replaces Hunting Bow with Imperial Superior Bow, faster but less accurate." />
+    <string id="AO5LPmQf" text="Heavy Kontos" />
     <string id="aVGSZhCN" text="Pavise Shield" />
     <string id="azkl5CZk" text="Replaces Recurve Bow with Composite Bow, deals more damage and accurate but slower." />
     <string id="bDCbhzoh" text="Replaces Spear with Longer Spear." />
     <string id="bDfKz5SZ" text="Sling" />
-    <string id="bfyqpwbJ" text="Replaces Two Handed Sword with Falx, longer and deals more damage but can't be thrusted." />
     <string id="bGQ83Jtr" text="Longer Spear" />
     <string id="BHXqTA0N" text="Replaces Flyssa with Kaskara, longer and deals more damage." />
     <string id="bKDoNDhC" text="Replaces Sword with Heavy Mace, effective against armored opponents." />
     <string id="bsabIdYm" text="Two Handed Axe" />
     <string id="bwLknWjn" text="Replaces Javelins with Imperial Javelins, deals more damage, can be used in melee." />
     <string id="bY9U7w1Q" text="Sword" />
-    <string id="bzdCMVuG" text="Cavalry Mace" />
     <string id="bzr6vtXi" text="Heavy Menavlion" />
     <string id="C2XqmIAQ" text="Replaces Recurve Bow with Composite Bow, more accurate, deals more damage but slower." />
     <string id="C9ufRSsL" text="Sword and Shield" />
@@ -67,18 +69,19 @@
     <string id="EEEFVPLP" text="Replaces Axe with Sword, effective at dueling and thrusting." />
     <string id="eQLORdgE" text="Extra Arrows" />
     <string id="eyCVSK43" text="Heavy Lance" />
-    <string id="F49w1uD0" text="Replaces Axe with Heavy Axe, deals more damage but shorter." />
     <string id="FfpqIuV8" text="Replaces Voulge with a Sword and Shield combination. Grants versatility and protection." />
     <string id="FLBYsvxp" text="Long Sword" />
+    <string id="FqHvkh44" text="Replaces mount with a horse that deals more charge damage." />
     <string id="g3EFq1ld" text="Better Javelins" />
-    <string id="g7DvxQYg" text="Grants Heavy Scimitar, deals more damage, longer but slower." />
     <string id="GN3IoRlp" text="Grants Javelins that deal more damage." />
     <string id="gnb4493C" text="Replaces Sword with Club, effective against armored opponents." />
     <string id="gPGjvzuU" text="Grants Light Javelins, good for harrassing, can be used in melee." />
     <string id="gQtU8qqy" text="Grants Axe, effective against shields." />
     <string id="GsGJgGDE" text="Lance" />
     <string id="h60wQVVX" text="Pike" />
+    <string id="H6xJYE4M" text="Fast Kontos" />
     <string id="H8MYgA6i" text="Longer Menavlion" />
+    <string id="haax8kMa" text="Polearm" />
     <string id="HE8lvLcm" text="Replaces Sword with Glaive, a Khuzait polearm." />
     <string id="hEEebqIY" text="Replaces Axe with Sword, faster, effective at dueling and thrusting." />
     <string id="hGYfXIWN" text="Light Javelins" />
@@ -103,7 +106,6 @@
     <string id="KBrDpNxO" text="Long Bow" />
     <string id="KKWkfc2n" text="Grants Stronger Bolts." />
     <string id="kS0LMJix" text="Grants Javelins, good for harrassing, can be used in melee." />
-    <string id="KWCsD0vW" text="Grants Cavalry Sword, good for harrassing, can be used in melee." />
     <string id="KXwN1PW4" text="Great Axe" />
     <string id="kYbMMbzD" text="Grants Pike, very effective against cavalry, longer than spears, can't used with shields." />
     <string id="L01yAZlu" text="Replaces Sword with Hammer, effective against armored opponents, two handed." />
@@ -117,6 +119,7 @@
     <string id="NiaLmb1S" text="Replaces Hunting Bow with Short Bow, deals more damage but slower." />
     <string id="nSSxEIvF" text="(TEMPORARY) Grants a light shield, good for faster movement." />
     <string id="o6eKX9h0" text="Replaces Axe with Mace, effective against armored opponents." />
+    <string id="OjaeHZVO" text="Replaces mount with a faster horse." />
     <string id="okGD2Dbu" text="Replaces Hunting Bow with Recurve Bow, deals more damage but slower." />
     <string id="OPcPYoHu" text="Throwing Axes" />
     <string id="Oweratvx" text="Grants Spear, effective against cavalry and crowd control." />
@@ -125,21 +128,21 @@
     <string id="pE1plFCL" text="Heavy Mace" />
     <string id="PF7sPCYq" text="Javelins" />
     <string id="PFTzVdJg" text="Provides +9 armor." />
+    <string id="PhvYB5Jh" text="Replaces your horse with a random one." />
     <string id="PNZmPprx" text="Two Handed Sword" />
     <string id="pxOUXM6q" text="Replaces Long Sword with Bastard Sword, longer and deals more damage. Can be used two handed." />
     <string id="pyupZxJK" text="Kontos" />
     <string id="q8n63o4y" text="Grants Awl Pike, very effective against cavalry, longer than spears, two handed." />
     <string id="qENFMPqP" text="Grants Throwing Spear, longer than spears, throwable, can be used in melee." />
-    <string id="QLcP8bIs" text="Falx" />
     <string id="QojyuDln" text="Grants Kontos, longer, deals more damage but slower." />
     <string id="QR4bNj8H" text="Grants Cavalry version of Menavlion." />
     <string id="Qs4VOXgE" text="Short Spear" />
+    <string id="qzJ2Sab1" text="Grants Long Lance, longer than spears, couchable." />
     <string id="r1Jp5c72" text="Grants a Pilum, longer, good for harrassing, can be used in melee." />
     <string id="R7TAImaC" text="Larger Shield" />
     <string id="rkqaCud5" text="Pilum" />
     <string id="RV6BCPvg" text="Replaces Axe with a longer and heavier axe. Extra effective against shields." />
     <string id="rzP3J3Kb" text="Replaces Falx with Rhomphaia, longer but deals less damage and slower." />
-    <string id="sagHGCh7" text="Replaces Long Spear with Kontos, longer, deals more damage but slower." />
     <string id="sFJfF1Gb" text="Replaces Gladius with Spatha, longer and deals more damage." />
     <string id="SjiFP0za" text="Replaces Club with Sword, effective at dueling and thrusting." />
     <string id="SMws1ws6" text="Large Shield" />
@@ -149,22 +152,24 @@
     <string id="sVOdabQr" text="Grants Pitchfork, effective against cavalry." />
     <string id="t68bkisr" text="Hammer" />
     <string id="tFWBFpji" text="Replaces mount with a Camel, deals more charge damage, more maneuverable and durable but slower and can't jump." />
+    <string id="TGuQw3ma" text="Replaces Two Handed Sword with Noble Two Handed Sword, faster and deals more damage." />
     <string id="TK0GvrJR" text="Replaces Sword with Highland Longsword, deals more damage, longer but slower." />
+    <string id="tN6LRGbm" text="Looted Horse" />
     <string id="tPtEhPzU" text="Replaces Crossbow with Arbalest, best in Calradia." />
     <string id="TTWL7RLe" text="Crossbow" />
     <string id="tvIibabU" text="Grants Extra Bolts." />
     <string id="tZgHdSOX" text="Half Barding" />
     <string id="uKOn4IE6" text="Grants an additional quiver of Javelins." />
     <string id="uNyHSwaL" text="Heavy Axe" />
+    <string id="UoaUwLl0" text="Grants Empire Polearm, long and high damage." />
+    <string id="urJEb6Dm" text="Fast Kontos, is longer than the Spear but cant be used with shields" />
     <string id="uTfm0blH" text="Grants Short Bow, enables to shoot from horseback." />
     <string id="UtJlbDuv" text="Replaces Recurve Bow with Imperial Superior Bow, faster." />
     <string id="uw9m5hav" text="Better Axe" />
-    <string id="Uwe3VHaN" text="Heavy Cavalry Sword" />
     <string id="V2SKzX1e" text="Charger Horse" />
     <string id="v61Qq3SH" text="Replaces Light Crossbow with a heavier Crossbow, better damage." />
     <string id="vBvDZCtw" text="Replaces Tabar with Two Handed Sword, effective at dueling and thrusting." />
     <string id="VI4gQt8Q" text="Mace" />
-    <string id="VL4olxdA" text="Grants Hunting Bow, enables to shoot from horseback." />
     <string id="VR2SwarS" text="Tougher Horse" />
     <string id="W4iKIM2s" text="Small Shield" />
     <string id="wAFiQYpt" text="Replaces Short Bow with Fast Short Bow, faster to shoot but with less damage." />
@@ -178,19 +183,17 @@
     <string id="XSjXLikf" text="Extra Javelins" />
     <string id="xSz6m21N" text="Club" />
     <string id="xuad1OP3" text="Replaces mount with the most durable horse in the steppes." />
-    <string id="xUSR6O0X" text="Grants Cavalry Sword, longer and heavier." />
-    <string id="xWFW8jXw" text="Battle Axe" />
     <string id="y4YWp1f1" text="Throwing Spear" />
-    <string id="YaakrC1m" text="Cavalry Sword" />
     <string id="yDU7JFH4" text="(TEMPORARY)Grants Sling, provides ranged blunt damage, high in quantity low in damage with good accuracy." />
     <string id="YF8DQVUT" text="Replaces your axe with Northern Two Handed Axe, stronger, extra effective against shields." />
     <string id="ykaaB5gw" text="Stronger Long Bow" />
     <string id="YoNYyLba" text="Spear" />
     <string id="YqqhxGwH" text="Replaces Club with Sickle, capable of dealing decent damage and effective against shields." />
+    <string id="Z5sbkF6d" text="Better Sword" />
     <string id="ZATaNNCu" text="Replaces mount with a more durable horse that deals more charge damage." />
-    <string id="zCqpSDcF" text="Grants Shorter version of Menavlion." />
     <string id="Zh4upm1u" text="Replaces Mace with Sword, effective at dueling and thrusting." />
     <string id="ZJweh5Oh" text="Bastard Axe" />
+    <string id="zpv74Q1d" text="Long Lance" />
     <string id="ZtKJgiRv" text="Grants Javelins, good for harrassing, can be used in melee." />
     <string id="zv9NXIZR" text="Provides armor for your mount." />
     <string id="ZvMcHde3" text="Pickaxe" />

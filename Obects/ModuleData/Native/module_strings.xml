@@ -563,10 +563,6 @@
     <string id="str_remaining_opponent" text="{=OJmC1Ckc}Remaining opponent: {REMAINING_OPPONENT_COUNT}" />
     <string id="str_earned_denar" text="{=pm0yiOmv}Earned: {DENAR_AMOUNT}{GOLD_ICON}" />
     <string id="str_party_loses_moral_due_to_insufficent_funds" text="{=QmaVRAkx}You could not pay all wages, your party loses {reg1} morale." />
-    <!--<string id="str_persuasion_summary_bad" text="You try to persuade {s50}, but {reg51?she:he} outmanoeuvres you from the very start. Even your best arguments sound hollow to your own ears. {s50}, likewise, has not formed a very high opinion of what you had to say." />-->
-    <!--<string id="str_persuasion_summary_average" text="{s50} turns out to be a skilled speaker with a keen mind, and you can't seem to bring forth anything concrete that {reg51?she:he} cannot counter with a rational point. In the end, neither of you manage to gain any ground in this discussion." />-->
-    <!--<string id="str_persuasion_summary_good" text="Through quick thinking and smooth argumentation, you manage to state your case well, forcing {s50} to concede on several points. However, {reg51?she:he} still expresses doubts about your request." />-->
-    <!--<string id="str_persuasion_summary_very_good" text="You deliver an impassioned speech that echoes through all listening ears like poetry. The world itself seems to quiet down in order to hear you better . The inspiring words have moved {s50} deeply, and {reg51?she:he} looks much more well-disposed towards helping you." />-->
     <string id="str_board_game_title.Konane_0" text="{=dgaf7Jpb}Setup" />
     <string id="str_board_game_title.Konane_1" text="{=bPXvukDs}Moving and Capturing" />
     <string id="str_board_game_title.Konane_2" text="{=R4Gqskgq}Victory" />
@@ -619,8 +615,6 @@
     <string id="str_battle_lost" text="{=eMwbzp49}Battle lost..." />
     <string id="str_battle_lost_press_tab_to_view_results" text="{=J3L0MuEU}Battle lost. Press {leave_key} to view results." />
     <string id="str_enemies_are_fleeing_you_won" text="{=VeqwXwYc}Enemies are fleeing. You won the battle." />
-    <!--<string id="str_retirement_text.4" text="The silver you've saved doesn't last long, but you manage to put together enough to buy some land near the village of {s7}. There you become a free farmer, and you soon begin to attract potential {wives/husbands}. In time the villagers come to treat you as their local hero. You always receive a place of honour at feasts, and your exploits are told and retold in the pubs and taverns so that the children may keep a memory of you for ever and ever." />-->
-    <!--<string id="str_retirement_text.10" text="Though you started from humble beginnings, your liege lord holds you in high esteem, and a ripple of shock passes through the realm when he names you to the hereditary title of {count/countess} of {s9}. Vast fiefs and fortunes are now yours to rule. You quickly become your liege's most trusted advisor, almost his equal and charged with much of the running of his realm, and you sit a throne in your own splendourous palace as one of the most powerful figures in Calradia." />-->
     <string id="str_battle_fate.0" text="{=tQDbRfMs}We were separated in the heat of battle" />
     <string id="str_battle_fate.1" text="{=fRu5Y4OT}I was wounded and left for dead" />
     <string id="str_battle_fate.2" text="{=gT5zJaD7}I was knocked senseless by the enemy" />
@@ -1548,10 +1542,12 @@
     <string id="str_crafting_template.Mace" text="{=VI4gQt8Q}Mace" />
     <string id="str_crafting_template.TwoHandedMace" text="{=ajZTZoXQ}Two Handed Mace" />
     <string id="str_weapon_usage.OneHandedSword" text="{=PiHpR4QL}One Handed" />
+    <string id="str_weapon_usage.OneHandedBastardSword" text="{=PiHpR4QL}One Handed" />
     <string id="str_weapon_usage.TwoHandedSword" text="{=t78atYqH}Two Handed" />
     <string id="str_weapon_usage.Dagger" text="{=PiHpR4QL}One Handed" />
     <string id="str_weapon_usage.ThrowingKnife" text="{=MW8rlyfL}Thrown" />
     <string id="str_weapon_usage.OneHandedAxe" text="{=PiHpR4QL}One Handed" />
+    <string id="str_weapon_usage.OneHandedBastardAxe" text="{=PiHpR4QL}One Handed" />
     <string id="str_weapon_usage.TwoHandedAxe" text="{=t78atYqH}Two Handed" />
     <string id="str_weapon_usage.ThrowingAxe" text="{=MW8rlyfL}Thrown" />
     <string id="str_weapon_usage.OneHandedPolearm" text="{=PiHpR4QL}One Handed" />
@@ -1945,8 +1941,6 @@
     <string id="str_settlement_morale_rebellious_average" text="{=6bex2HUl}Though it seems most people are managing to get by, many seem angry, and you overhear a few passers-by muttering that their patience is giving out. You sense something may be stirring." />
     <string id="str_settlement_morale_rebellious_adversity" text="{=bzrOHiS8}People openly curse the authorities, as though they feel they have nothing to lose." />
     <string id="str_encyclopedia_empty_list_error" text="{=VSZGbSEO}No matching items." />
-    <!--<string id="str_encyclopedia_unit_description.vlandian_knight" text="vlandian_knight vlandian_knight vlandian_knight vlandian_knight vlandian_knight vlandian_knight vlandian_knight vlandian_knight" />-->
-    <!--<string id="str_encyclopedia_unit_description.imperial_recruit" text="imperial_recruit imperial_recruit imperial_recruit imperial_recruit imperial_recruit imperial_recruit imperial_recruit imperial_recruit" />-->
     <string id="str_trade_rumors_text_buy" text="{=z3AvJZMt}Can buy at {SETTLEMENT_NAME} for: {BUY_PRICE}" />
     <string id="str_trade_rumors_text_sell" text="{=KcQiDE6b}Can sell at {SETTLEMENT_NAME} for: {SELL_PRICE}" />
     <string id="str_party_gained_renown" text="{=HNBAw1uO}{PARTY} has gained {AMOUNT_TO_ADD} renown. {CLAN}'s new renown is {NEW_RENOWN}." />
@@ -2164,5 +2158,59 @@
     <string id="str_campaign_tutorial_description.BombardmentStep2" text="{=zb9fiIP6}You can choose to build siege machines by using the squares for ranged engines and the circles for rams and siege towers." />
     <string id="str_game_tip_title" text="{=ur8kO8iM}Game Tips" />
     <string id="str_game_tip.battle_0" text="{=MrtzlaYt}During battles, holding down the Alt key shows markers on enemy and allied formations." />
+    <!-- Item plural strings -->
+    <string id="str_item_plural_default" text="{=uGqyPg7g}loads of {ITEM_NAME}" />
+    <string id="str_item_plural.cotton" text="{=2wGBBTxT}bolts of silk" />
+    <string id="str_item_plural.silver" text="{=bnDZqSxC}loads of silver ore" />
+    <string id="str_item_plural.jewelry" text="{=QOlM6RqO}items of jewelry" />
+    <string id="str_item_plural.salt" text="{=Nqac5TV3}sacks of salt" />
+    <string id="str_item_plural.spice" text="{=xalBJD7W}sacks of spice" />
+    <string id="str_item_plural.flax" text="{=DCms1bJb}sacks of flax" />
+    <string id="str_item_plural.clay" text="{=R78JkIhb}loads of clay" />
+    <string id="str_item_plural.pottery" text="{=D124K5KE}crates of pottery" />
+    <string id="str_item_plural.linen" text="{=jtqfplDk}rolls of linen" />
+    <string id="str_item_plural.leather" text="{=DEwpjLCB}crates of leather" />
+    <string id="str_item_plural.velvet" text="{=LAo4HM0z}rolls of velvet" />
+    <string id="str_item_plural.cheese" text="{=FSo6tf7x}barrels of cheese" />
+    <string id="str_item_plural.butter" text="{=mOlsoKGK}casks of butter" />
+    <string id="str_item_plural.fish" text="{=xWrzG8EA}barrels of fish" />
+    <string id="str_item_plural.grapes" text="{=q1qpwXpb}sacks of grapes" />
+    <string id="str_item_plural.date_fruit" text="{=nKJAalNl}sacks of datefruit" />
+    <string id="str_item_plural.olives" text="{=AMzpSK7F}barrels of olives" />
+    <string id="str_item_plural.beer" text="{=ElMVvrip}casks of beer" />
+    <string id="str_item_plural.wine" text="{=GEyL9Z8b}amphorae of wine" />
+    <string id="str_item_plural.oil" text="{=zcpXCagL}amphorae of oil" />
+    <string id="str_item_plural.fur" text="{=KZdUZcQC}packs of fur" />
+    <string id="str_item_plural.iron_ore" text="{=scSkbXLi}loads of iron ore" />
+    <string id="str_item_plural.hardwood" text="{=QvnCL5bl}hardwood logs" />
+    <string id="str_item_plural.sheep" text="{=m355tCEk}sheep" />
+    <string id="str_item_plural.cow" text="{=LGa98fMQ}head of cattle" />
+    <string id="str_item_plural.hog" text="{=Xclm7FK4}hogs" />
+    <string id="str_item_plural.aserai_horse" text="{=kVTJbB7k}desert horses" />
+    <string id="str_item_plural.battania_horse" text="{=YYkWBkAu}Battanian ponies" />
+    <string id="str_item_plural.empire_horse" text="{=ip5xbG4t}Midlands palfreys" />
+    <string id="str_item_plural.khuzait_horse" text="{=sstlloLa}steppe horses" />
+    <string id="str_item_plural.sturgia_horse" text="{=LcrlI57W}Sturgian trotters" />
+    <string id="str_item_plural.vlandia_horse" text="{=oxbRTiw4}saddle horses" />
+    <string id="str_item_plural.camel" text="{=nysBXpEO}camels" />
+    <string id="str_item_plural.t2_battania_horse" text="{=7NjjTDud}Battanian warmounts" />
+    <string id="str_item_plural.t2_empire_horse" text="{=lFlDCKLW}imperial chargers" />
+    <string id="str_item_plural.t2_khuzait_horse" text="{=ZekwaxIg}steppe warhorses" />
+    <string id="str_item_plural.t2_sturgia_horse" text="{=IXCjqxr9}Sturgian hunters" />
+    <string id="str_item_plural.t2_vlandia_horse" text="{=fRCQyBKt}Vlandian coursers" />
+    <string id="str_item_plural.war_camel" text="{=liiohtmi}war camels" />
+    <string id="str_item_plural.charger" text="{=GGuCcMvk}chargers" />
+    <string id="str_item_plural.noble_horse_southern" text="{=1SAFluHl}Nahasawis" />
+    <string id="str_item_plural.noble_horse_imperial" text="{=T64UWv9A}Cossians" />
+    <string id="str_item_plural.noble_horse_eastern" text="{=6taBfzMK}Asaligats" />
+    <string id="str_item_plural.noble_horse_northern" text="{=r6Plal93}Tyal horses" />
+    <string id="str_item_plural.noble_horse_western" text="{=cDCU9RnR}Destriers" />
+    <string id="str_item_plural.special_camel" text="{=p5YIwIes}Husnphrees" />
+    <string id="str_item_plural.noble_horse_battania" text="{=8LJGt1bg}Battanian thoroughbreds" />
+    <string id="str_item_plural.noble_horse" text="{=6Yna8whI}purebloods" />
+    <string id="str_item_plural.storm_charger" text="{=wwFsxms3}Storm Chargers" />
+    <string id="str_item_plural.war_horse" text="{=QStqxKHz}warhorses" />
+    <string id="str_item_plural.steppe_war_horse" text="{=ZekwaxIg}steppe warhorses" />
+    <string id="str_item_plural.desert_war_horse" text="{=E7DLnBbA}desert warhorses" />
   </strings>
 </base>

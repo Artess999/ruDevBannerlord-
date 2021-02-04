@@ -2152,7 +2152,7 @@
     <action type="act_ready_direct_fist_horseback" animation="ready_direct_fist_horseback" />
 
     <action type="act_quick_release_direct_fist" animation="quick_release_direct_fist" />
-    <action type="act_quick_release_direct_fist_balanced" animation="quick_release_direct_fist_balanced" />
+    <action type="act_quick_release_direct_fist_balanced" animation="quick_release_direct_fist" />
     <action type="act_quick_release_direct_fist_left_stance" animation="quick_release_direct_fist_left_stance" />
     <action type="act_quick_release_direct_fist_balanced_left_stance" animation="quick_release_direct_fist_balanced_left_stance" />
     <action type="act_quick_release_direct_fist_shield" animation="quick_release_direct_fist_shield" />
@@ -4589,10 +4589,31 @@
     <action type="act_usage_ladder_pick_up_fork_begin" animation="usage_ladder_pick_up_fork_begin" />
     <action type="act_usage_ladder_pick_up_fork_end" animation="usage_ladder_pick_up_fork_end" />
     <action type="act_usage_attach_flag_to_pole_begin_placeholder" animation="usage_attach_flag_to_pole_placeholder" />
-    <action type="act_cheer_1" animation="cheer_1" />
-    <action type="act_cheer_2" animation="cheer_2" />
-    <action type="act_cheer_3" animation="cheer_3" />
-    <action type="act_cheer_4" animation="cheer_4" />
+    <action type="act_cheer_1" animation="cheer_1" alternative_group="cheering_mid" />
+    <action type="act_cheer_2" animation="cheer_2" alternative_group="cheering_mid" />
+    <action type="act_cheer_3" animation="cheer_3" alternative_group="cheering_mid" />
+    <action type="act_cheer_4" animation="cheer_4" alternative_group="cheering_mid" />
+	
+    <action type="act_cheering_high_01" animation="cheering_high_01" alternative_group="cheering_high" />
+    <action type="act_cheering_high_02" animation="cheering_high_02" alternative_group="cheering_high" />
+    <action type="act_cheering_high_03" animation="cheering_high_03" alternative_group="cheering_high" />
+    <action type="act_cheering_high_04" animation="cheering_high_04" alternative_group="cheering_high" />
+    <action type="act_cheering_high_05" animation="cheering_high_05" alternative_group="cheering_high" />
+    <action type="act_cheering_high_06" animation="cheering_high_06" alternative_group="cheering_high" />
+    <action type="act_cheering_high_07" animation="cheering_high_07" alternative_group="cheering_high" />
+    <action type="act_cheering_high_08" animation="cheering_high_08" alternative_group="cheering_high" />
+	
+    <action type="act_cheering_low_01" animation="cheering_low_01" alternative_group="cheering_low" />
+    <action type="act_cheering_low_02" animation="cheering_low_02" alternative_group="cheering_low" />
+    <action type="act_cheering_low_03" animation="cheering_low_03" alternative_group="cheering_low" />
+    <action type="act_cheering_low_04" animation="cheering_low_04" alternative_group="cheering_low" />
+    <action type="act_cheering_low_05" animation="cheering_low_05" alternative_group="cheering_low" />
+    <action type="act_cheering_low_06" animation="cheering_low_06" alternative_group="cheering_low" />
+    <action type="act_cheering_low_07" animation="cheering_low_07" alternative_group="cheering_low" />
+    <action type="act_cheering_low_08" animation="cheering_low_08" alternative_group="cheering_low" />
+    <action type="act_cheering_low_09" animation="cheering_low_09" alternative_group="cheering_low" />
+    <action type="act_cheering_low_10" animation="cheering_low_10" alternative_group="cheering_low" />
+	
     <action type="act_taunt_cheer_1" animation="taunt_cheer_1" />
     <action type="act_taunt_cheer_2" animation="taunt_cheer_2" />
     <action type="act_taunt_cheer_3" animation="taunt_cheer_3" />
@@ -4905,7 +4926,7 @@
     <action type="act_horse_stand_for_movement_data" animation="sheep_stand_for_movement_data" />
     <action type="act_horse_stand_1" animation="anim_sheep_idle" alternative_group="sheep_stand_alternative_group" />
     <action type="act_horse_stand_2" animation="anim_sheep_idle_2" alternative_group="sheep_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="anim_sheep_idle" alternative_group="sheep_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="anim_sheep_idle" alternative_group="sheep_idle_alternative_group"/>
     <action type="act_horse_idle_2" animation="anim_sheep_idle_2" alternative_group="sheep_idle_alternative_group"/>
     <action type="act_horse_forward_walk_stand" animation="sheep_walkforward_stand" />
     <action type="act_horse_forward_walk" animation="sheep_walkforward" />
@@ -4954,7 +4975,7 @@
     <action type="act_horse_stand_3" animation="cat_idle_3" alternative_group="cat_stand_alternative_group" />
     <action type="act_horse_stand_4" animation="cat_idle_4" alternative_group="cat_stand_alternative_group" />
     <action type="act_horse_stand_5" animation="cat_idle_5" alternative_group="cat_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="cat_idle_1" alternative_group="cat_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="cat_idle_1" alternative_group="cat_idle_alternative_group"/> 
     <action type="act_horse_idle_2" animation="cat_idle_2" alternative_group="cat_idle_alternative_group"/>
     <action type="act_horse_idle_3" animation="cat_idle_3" alternative_group="cat_idle_alternative_group"/>
     <action type="act_horse_idle_4" animation="cat_idle_4" alternative_group="cat_idle_alternative_group"/>
@@ -5013,7 +5034,7 @@
   <action_set id="as_cow" skeleton="cow_skeleton" movement_system="quadrupedal">
     <action type="act_horse_stand_for_movement_data" animation="cow_stand_for_movement_data" />
     <action type="act_horse_stand_1" animation="cow_stand" />
-	<action type="act_horse_idle_1" animation="cow_stand" /> 
+    <action type="act_horse_idle_1" animation="cow_stand" />
     <action type="act_horse_forward_walk_stand" animation="cow_walk_gait" />
     <action type="act_horse_forward_walk" animation="cow_walk" />
     <action type="act_horse_forward_walk_strafe_left" animation="cow_walk_strafe_left" />
@@ -5062,7 +5083,7 @@
     <action type="act_horse_stand_for_movement_data" animation="dog_stand_for_movement_data" />
     <action type="act_horse_stand_1" animation="dog_idle" alternative_group="dog_stand_alternative_group" />
     <action type="act_horse_stand_2" animation="dog_idle_a" alternative_group="dog_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="dog_idle" alternative_group="dog_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="dog_idle" alternative_group="dog_idle_alternative_group"/>
     <action type="act_horse_idle_2" animation="dog_idle_a" alternative_group="dog_idle_alternative_group"/>
     <action type="act_horse_forward_walk_stand" animation="dog_walk_forward_gait" />
     <action type="act_horse_forward_walk" animation="dog_walk_forward" />
@@ -5121,7 +5142,7 @@
     <action type="act_horse_stand_1" animation="goose_idle" alternative_group="goose_stand_alternative_group" />
     <action type="act_horse_stand_2" animation="goose_idle_1" alternative_group="goose_stand_alternative_group" />
     <action type="act_horse_stand_3" animation="goose_idle_2" alternative_group="goose_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="goose_idle" alternative_group="goose_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="goose_idle" alternative_group="goose_idle_alternative_group"/>
     <action type="act_horse_idle_2" animation="goose_idle_1" alternative_group="goose_idle_alternative_group"/>
     <action type="act_horse_idle_3" animation="goose_idle_2" alternative_group="goose_idle_alternative_group"/>
     <action type="act_horse_forward_walk_stand" animation="goose_walk_gait" />
@@ -5166,7 +5187,7 @@
     <action type="act_horse_stand_1" animation="chicken_idle" alternative_group="chicken_stand_alternative_group" />
     <action type="act_horse_stand_2" animation="chicken_idle_1" alternative_group="chicken_stand_alternative_group" />
     <action type="act_horse_stand_3" animation="chicken_idle_2" alternative_group="chicken_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="chicken_idle" alternative_group="chicken_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="chicken_idle" alternative_group="chicken_idle_alternative_group"/>
     <action type="act_horse_idle_2" animation="chicken_idle_1" alternative_group="chicken_idle_alternative_group"/>
     <action type="act_horse_idle_3" animation="chicken_idle_2" alternative_group="chicken_idle_alternative_group"/>
     <action type="act_horse_forward_walk_stand" animation="chicken_walk_gait" />
@@ -5210,7 +5231,7 @@
     <action type="act_horse_stand_for_movement_data" animation="hog_stand_for_movement_data" />
     <action type="act_horse_stand_1" animation="hog_idle_graze" alternative_group="hog_stand_alternative_group" />
     <action type="act_horse_stand_2" animation="hog_idle_look_around" alternative_group="hog_stand_alternative_group" />
-	<action type="act_horse_idle_1" animation="hog_idle_graze" alternative_group="hog_idle_alternative_group"/> 
+    <action type="act_horse_idle_1" animation="hog_idle_graze" alternative_group="hog_idle_alternative_group"/>
     <action type="act_horse_idle_2" animation="hog_idle_look_around" alternative_group="hog_idle_alternative_group"/>
     <action type="act_horse_forward_walk_stand" animation="hog_gait_walk_forward" />
     <action type="act_horse_forward_walk" animation="hog_walk_forward" />
@@ -5397,8 +5418,8 @@
     <action type="act_sturgia_mp_druzhina_mount_idle" animation="sturgia_mp_druzhina_mount_idle" />
     <action type="act_sturgia_mp_druzhina_idle_largeshieldperk" animation="sturgia_mp_druzhina_mount_idle" />
   </action_set>
-  <action_set id="as_camel" skeleton="camel_skeleton" movement_system="quadrupedal">
 
+  <action_set id="as_camel" skeleton="camel_skeleton" movement_system="quadrupedal">
     <action type="act_camel_stand_for_movement_data" animation="camel_stand_for_movement_data" />
 
     <action type="act_hero_mount_idle_camel" animation="hero_mount_idle_camel" />
@@ -5511,6 +5532,7 @@
     <action type="act_inventory_idle_start" animation="camel_inventory_start" />
     <action type="act_inventory_idle" animation="camel_inventory_idle" />
   </action_set>
+
   <action_set id="as_horse_2" skeleton="horse_skeleton" base_set="as_horse">
     <action type="act_horse_forward_trot" animation="horse_trotfast_artistic" />
     <action type="act_horse_forward_trot_strafe_right" animation="horse_trot_cross_r_fast" />
@@ -6520,24 +6542,7 @@
 
   <action_set id="as_player_male" skeleton="human_skeleton" base_set="as_human_warrior"></action_set>
   <action_set id="as_player_biped" skeleton="human_skeleton" base_set="as_human_warrior"></action_set>
-  <action_set id="dog" skeleton="skel_horse" base_set="as_horse">
-    <action type="act_ready_swingright_fist" animation="anim_horse_ready_fist" />
-    <action type="act_release_swingright_fist" animation="anim_horse_release_fist" />
-    <action type="act_blocked_swingright_fist" animation="anim_horse_blocked_fist" />
-    <action type="act_blocked_swingright_fist_balanced" animation="anim_horse_parried_fist" />
-    <action type="act_ready_swingleft_fist" animation="anim_horse_ready_fist" />
-    <action type="act_release_swingleft_fist" animation="anim_horse_release_fist" />
-    <action type="act_blocked_swingleft_fist" animation="anim_horse_blocked_fist" />
-    <action type="act_blocked_swingleft_fist_balanced" animation="anim_horse_parried_fist" />
-    <action type="act_ready_direct_fist" animation="anim_horse_ready_fist" />
-    <action type="act_release_direct_fist" animation="anim_horse_release_fist" />
-    <action type="act_blocked_direct_fist" animation="anim_horse_blocked_fist" />
-    <action type="act_blocked_direct_fist_balanced" animation="anim_horse_parried_fist" />
-    <action type="act_ready_uppercut_fist" animation="anim_horse_ready_fist" />
-    <action type="act_release_uppercut_fist" animation="anim_horse_release_fist" />
-    <action type="act_blocked_uppercut_fist" animation="anim_horse_blocked_fist" />
-    <action type="act_blocked_uppercut_fist_balanced" animation="anim_horse_parried_fist" />
-  </action_set>
+
   <!--
   <action_set id="hare" skeleton="hare_skeleton" movement_system="quadrupedal">
     <action type="act_horse_stand_1" animation="hare_idle_1" alternative_group="hare_stand_alternative_group" />
@@ -7630,20 +7635,18 @@
     <action type="act_sit_talk_to_left_1" animation="anim_hangout_tavern_facingleft_drink" />
     <action type="act_jump_end_hard" animation="jump_end_hard" />
 
-      <action type="act_guard_idle_spear" animation="guard_idle_1" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_1" animation="guard_idle_1" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_2" animation="guard_idle_2" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_3" animation="guard_idle_3" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_4" animation="guard_idle_4" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_5" animation="guard_idle_5" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_6" animation="guard_idle_6" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_7" animation="guard_idle_7" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_8" animation="guard_idle_8" alternative_group="guard_idle_group" />
-      <action type="act_guard_stand_9" animation="guard_idle_9" alternative_group="guard_idle_group" />
-	  
-  
-	  
-    </action_set>
+    <action type="act_guard_idle_spear" animation="guard_idle_1" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_1" animation="guard_idle_1" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_2" animation="guard_idle_2" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_3" animation="guard_idle_3" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_4" animation="guard_idle_4" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_5" animation="guard_idle_5" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_6" animation="guard_idle_6" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_7" animation="guard_idle_7" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_8" animation="guard_idle_8" alternative_group="guard_idle_group" />
+    <action type="act_guard_stand_9" animation="guard_idle_9" alternative_group="guard_idle_group" />
+
+  </action_set>
 
   <action_set id="as_human_unarmed_guard" skeleton="human_skeleton" base_set="as_human_guard">
     <action type="act_stand_1" animation="stand_1" alternative_group="stand_alt" />
@@ -7656,7 +7659,6 @@
     <action type="act_stand_8" animation="stand_8" alternative_group="stand_alt" />
     <action type="act_stand_9" animation="stand_9" alternative_group="stand_alt" />
     <action type="act_stand_10" animation="stand_10" alternative_group="stand_alt" />
-
 
 
     <action type="act_talk_to_1" animation="anim_hangout_idle_7" alternative_group="talk_to_alt" />

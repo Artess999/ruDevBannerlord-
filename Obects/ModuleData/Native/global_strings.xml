@@ -29,6 +29,7 @@
     <string id="str_options_type.SoundVolume" text="{=x7kYOUfi}Effects Volume" />
     <string id="str_options_type.SoundDevice" text="{=DiK2cKUi}Sound Device" />
     <string id="str_options_type.MaxSimultaneousSoundEventCount" text="{=ZtxvyzjY}Sound Channels" />
+    <string id="str_options_type.SoundInBackground" text="{=FJbTiPsa}Disable Sound in Background" />
     <string id="str_options_type.SoundOutput" text="{=qggjceRq}Sound Output" />
     <string id="str_options_type.MouseSensitivity" text="{=Kk0hMffJ}Mouse Sensitivity" />
     <string id="str_options_type.InvertMouseYAxis" text="{=M2LCpC4Z}Invert Mouse Y Axis" />
@@ -47,7 +48,10 @@
     <string id="str_options_type.FriendlyTroopsBannerOpacity" text="{=vJ41v8zh}Friendly Troops Banner Opacity" />
     <string id="str_options_type.ReportDamage" text="{=sbUBtOTb}Report Damage" />
     <string id="str_options_type.ReportPersonalDamage" text="{=ayYYRfPP}Report Personal Damage" />
-    <string id="str_options_type.ReportCasualties" text="{=FLLnblfP}Report Casualties" />
+    <string id="str_options_type.ReportCasualtiesType" text="{=FLLnblfP}Report Casualties" />
+    <string id="str_options_type_ReportCasualtiesType_0" text="{=tsPjK1Ke}Enabled" />
+    <string id="str_options_type_ReportCasualtiesType_1" text="{=DGRmXCg4}Only Icons (Only in SP)" />
+    <string id="str_options_type_ReportCasualtiesType_2" text="{=1JlzQIXE}Disabled" />
     <string id="str_options_type.ReportExperience" text="{=WOubRnjm}Report Experience" />
     <string id="str_options_type.ClothSimulation" text="{=Ve99pCSo}Cloth Simulation" />
     <string id="str_options_type.InteractiveGrass" text="{=UFHqkvah}Interactive Grass" />
@@ -186,6 +190,11 @@
     <string id="str_options_type.OrderType" text="{=Mja6xKiX}Order Visuals Type" />
     <string id="str_options_type_OrderType_0" text="{=DYcLYL6E}Bar" />
     <string id="str_options_type_OrderType_1" text="{=KL8cGTao}Radial" />
+    <string id="str_options_type.EnableDeathIcon" text="{=CBwEl28t}Enable Death Location Indicator" />
+    <string id="str_options_type.AutoTrackAttackedSettlements" text="{=dkYmFAk2}Track Attacked Settlements" />
+    <string id="str_options_type_AutoTrackAttackedSettlements_0" text="{=tsPjK1Ke}Enabled" />
+    <string id="str_options_type_AutoTrackAttackedSettlements_1" text="{=PC77pnRB}Leader Only" />
+    <string id="str_options_type_AutoTrackAttackedSettlements_2" text="{=1JlzQIXE}Disabled" />
     <string id="str_options_type_MaxSimultaneousSoundEventCount_0" text="{=TybJcG0A}Very Low (64) " />
     <string id="str_options_type_MaxSimultaneousSoundEventCount_1" text="{=c49AY7yF}Low (128)" />
     <string id="str_options_type_MaxSimultaneousSoundEventCount_2" text="{=iUFgqwkA}Medium (256)" />
@@ -193,12 +202,12 @@
     <string id="str_options_type_SoundOutput_0" text="{=au7tXcD1}Stereo" />
     <string id="str_options_type_SoundOutput_1" text="{=XnhBdHnS}Surround" />
     <string id="str_options_type_SoundOutput_2" text="{=jbLwdd6z}Headphones" />
-    <string id="str_options_type_ControlBlockDirection_0" text="{=k3CLKsrz}By Mouse Movement" />
-    <string id="str_options_type_ControlBlockDirection_1" text="{=Vpy2qEcN}By Movement Keys" />
+    <string id="str_options_type_ControlBlockDirection_0" text="{=X2CbgcZ9}By Look Direction" />
+    <string id="str_options_type_ControlBlockDirection_1" text="{=0HNrwVGG}By Movement" />
     <string id="str_options_type_ControlBlockDirection_2" text="{=MhralfPz}Auto" />
-    <string id="str_options_type_ControlAttackDirection_0" text="{=UjX1E56u}By Inverse Mouse Movement" />
-    <string id="str_options_type_ControlAttackDirection_1" text="{=k3CLKsrz}By Mouse Movement" />
-    <string id="str_options_type_ControlAttackDirection_2" text="{=Vpy2qEcN}By Movement Keys" />
+    <string id="str_options_type_ControlAttackDirection_0" text="{=xMoqTFkZ}By Inverse Look Direction" />
+    <string id="str_options_type_ControlAttackDirection_1" text="{=X2CbgcZ9}By Look Direction" />
+    <string id="str_options_type_ControlAttackDirection_2" text="{=0HNrwVGG}By Movement" />
     <string id="str_options_type_TextureBudget_0" text="{=FqvJUBRn}Low" />
     <string id="str_options_type_TextureBudget_1" text="{=4aAvY4yO}Medium" />
     <string id="str_options_type_TextureBudget_2" text="{=aydCb7WA}High" />
@@ -328,6 +337,7 @@
     <string id="str_options_description.SoundVolume" text="{=oI1gktYa}Sound effects volume level." />
     <string id="str_options_description.SoundDevice" text="{=ea8kNj32}Your preferred sound output device." />
     <string id="str_options_description.MaxSimultaneousSoundEventCount" text="{=xZ84ujuu}How many sounds could be played at once. Lower values will lower your CPU usage while higher values delivers better atmosphere." />
+    <string id="str_options_description.SoundInBackground" text="{=Ib0N4LoW}Mute game sounds while game is out of focus." />
     <string id="str_options_description.SoundOutput" text="{=sAa2SIgO}You can switch between different mix modes better suited to your speaker configuration." />
     <string id="str_options_description.MouseSensitivity" text="{=s6qTeIw1}Set sensitivity for mouse movement and camera control." />
     <string id="str_options_description.InvertMouseYAxis" text="{=xnGGas4h}Invert y-axis of the mouse for camera control." />
@@ -346,7 +356,7 @@
     <string id="str_options_description.FriendlyTroopsBannerOpacity" text="{=ZKg3DqbQ}Determines the opacity of the banners shown on top of the friendly troops." />
     <string id="str_options_description.ReportDamage" text="{=JAzv5xYY}Enable text reports for damage dealt." />
     <string id="str_options_description.ReportPersonalDamage" text="{=Vea6bRUO}Enable interface elements that report players damage and casualities in center bottom." />
-    <string id="str_options_description.ReportCasualties" text="{=TvGJqPGp}Enable reports for deaths and knock outs." />
+    <string id="str_options_description.ReportCasualtiesType" text="{=TvGJqPGp}Enable reports for deaths and knock outs." />
     <string id="str_options_description.CombatCameraDistance" text="{=K80z5onY}Determines how far will the camera be in third-person." />
     <string id="str_options_description.ReportExperience" text="{=drbgOAqx}Enable reports for experience gain." />
     <string id="str_options_description.ClothSimulation" text="{=OgXnrvcA}Enables the cloth simulation. Uses GPU resources." />
@@ -479,6 +489,8 @@
     <string id="str_options_description.EnableVerticalAimCorrection" text="{=TRmaxjal}Enable vertical aim correction while in third person mode." />
     <string id="str_options_description.CrosshairType" text="{=9bHr3oNj}Crosshair that shows when using a ranged weapon." />
     <string id="str_options_description.OrderType" text="{=cryvNnsO}Order visuals that are visible while giving orders in battles." />
+    <string id="str_options_description.EnableDeathIcon" text="{=bfis1Rqj}Enable death location indicators that show where your teammates die." />
+    <string id="str_options_description.AutoTrackAttackedSettlements" text="{=eDRzvYz5}Enable auto tracking settlements when attacked." />
     <string id="str_brightness_option_title" text="{=Bl8cKwhL}Display Calibration" />
     <string id="str_brightness_option_explainer" text="{=G2e8xucc}If the checkered patterns are not visible inside the frames, try moving the sliders.{newline}Adjust the sliders to the point where patterns are barely visible." />
     <string id="str_exposure_option_title" text="{=AJFpx99v}Exposure Adjustment" />
@@ -506,7 +518,7 @@
     <string id="str_key_name.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomOut" text="{=uQfDuGem}Character Zoom Out" />
     <string id="str_key_name.CombatHotKeyCategory_ToggleWalkMode" text="{=1ebaa1Wf}Toggle Walk/Run Mode" />
     <string id="str_key_name.CombatHotKeyCategory_Cheer" text="{=PmbKYDON}Cheer" />
-    <string id="str_key_name.ScoreboardHotKeyCategory_ShowMouse" text="{=USKys6FV}Show Mouse" />
+    <string id="str_key_name.ScoreboardHotKeyCategory_ShowMouse" text="{=XtiGbj0W}Show Cursor" />
     <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_BannerWindow" text="{=k3LajvfJ}Banner Editor" />
     <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_CharacterWindow" text="{=5B3ptxje}Character Developer" />
     <string id="str_key_name.GenericCampaignPanelsGameKeyCategory_InventoryWindow" text="{=rbz1Bwbv}Inventory" />
@@ -570,14 +582,14 @@
     <string id="str_key_name.PhotoModeHotKeyCategory_CameraRollRight" text="{=uGEcLaqw}Roll Camera Right" />
     <string id="str_key_name.PhotoModeHotKeyCategory_ToggleCameraFollowMode" text="{=Co9aqFIB}Toggle Camera Follow Mode" />
     <string id="str_key_name.PhotoModeHotKeyCategory_TakePicture" text="{=ajKnHI1s}Take Picture" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_ToggleMouse" text="{=AyqxxMbu}Toggle Mouse" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_ToggleMouse" text="{=AP9bKYTb}Toggle Cursor" />
     <string id="str_key_name.PhotoModeHotKeyCategory_ToggleVignette" text="{=rS6nO0wb}Toggle Vignette" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocus" text="{=P2zN2brG}Increase Focus" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocus" text="{=RqDlastU}Decrease Focus" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusStart" text="{=O5j0ChFf}Increase FocusStart" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusStart" text="{=CyMFuiHx}Decrease FocusStart" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusEnd" text="{=bJsEMBk9}Increase FocusEnd" />
-    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusEnd" text="{=BbqPaoAF}Decrease FocusEnd" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocus" text="{=!}Increase Focus" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocus" text="{=!}Decrease Focus" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusStart" text="{=!}Increase FocusStart" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusStart" text="{=!}Decrease FocusStart" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_IncreaseFocusEnd" text="{=!}Increase FocusEnd" />
+    <string id="str_key_name.PhotoModeHotKeyCategory_DecreaseFocusEnd" text="{=!}Decrease FocusEnd" />
     <string id="str_key_name.PhotoModeHotKeyCategory_Reset" text="{=mAxXKaXp}Reset" />
     <string id="str_key_description.CombatHotKeyCategory_Attack" text="{=ps103cxD}Perform an attack with your weapon." />
     <string id="str_key_description.CombatHotKeyCategory_Defend" text="{=UixNc11t}Defend attacks with your weapon or shield." />
@@ -602,8 +614,8 @@
     <string id="str_key_description.CombatHotKeyCategory_MissionScreenHotkeyCameraZoomOut" text="{=IjhCSwNn}Move camera further from your character in third person view." />
     <string id="str_key_description.CombatHotKeyCategory_ToggleWalkMode" text="{=2ZJQylWo}Switch between run and walk modes." />
     <string id="str_key_description.CombatHotKeyCategory_Cheer" text="{=s5EnYLUp}Cheer on click. Open Cheer wheel on hold." />
-    <string id="str_key_description.ScoreboardHotKeyCategory_ShowMouse" text="{=mS1cpD6w}Enable mouse while scoreboard is open." />
-    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_BannerWindow" text="{=k3LajvfJ}Open Banner Editor screen." />
+    <string id="str_key_description.ScoreboardHotKeyCategory_ShowMouse" text="{=6Jcchu9g}Enable cursor while scoreboard is open." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_BannerWindow" text="{=m7IunCRL}Open Banner Editor screen." />
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_CharacterWindow" text="{=LsX8rTwl}Open Character Development screen." />
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_InventoryWindow" text="{=odsVjkbO}Open Inventory." />
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_EncyclopediaWindow" text="{=EaOcWkH3}Open Encyclopedia." />
@@ -611,7 +623,7 @@
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_KingdomWindow" text="{=tifiQGTa}Open Kingdom Screen." />
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_ClanWindow" text="{=Tdf5AbRp}Open Clan Screen." />
     <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_QuestsWindow" text="{=nD11hOsQ}Open Quest Log." />
-    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_FacegenWindow" text="{=Zo2ngsUk}Open Face Generation." />
+    <string id="str_key_description.GenericCampaignPanelsGameKeyCategory_FacegenWindow" text="{=rHeu8Ndg}Open Face Generation." />
     <string id="str_key_description.Generic_Up" text="{=ICgda8Is}Up Double Press: Charge Forward" />
     <string id="str_key_description.Generic_Down" text="{=JZYQGUF3}Down Double Press: Sudden Break" />
     <string id="str_key_description.Generic_Left" text="{=ZvtKqPt3}Left Double Press: Sudden Left" />
@@ -664,7 +676,7 @@
     <string id="str_key_description.PhotoModeHotKeyCategory_CameraRollRight" text="{=02Qqpama}Roll the Camera Right (Clockwise)" />
     <string id="str_key_description.PhotoModeHotKeyCategory_ToggleCameraFollowMode" text="{=L992LXVF}Toggle Camera Follow Mode. Toggle between &quot;Focus on player&quot; or &quot;Free cam&quot;" />
     <string id="str_key_description.PhotoModeHotKeyCategory_TakePicture" text="{=ajKnHI1s}Take Picture" />
-    <string id="str_key_description.PhotoModeHotKeyCategory_ToggleMouse" text="{=xDuL9yQH}Toggle Mouse Visibility" />
+    <string id="str_key_description.PhotoModeHotKeyCategory_ToggleMouse" text="{=3CN7LUCf}Toggle Cursor Visibility" />
     <string id="str_key_description.PhotoModeHotKeyCategory_ToggleVignette" text="{=rS6nO0wb}Toggle Vignette" />
     <string id="str_key_description.PhotoModeHotKeyCategory_IncreaseFocus" text="{=IjLcnwpz}Increase Camera Focus" />
     <string id="str_key_description.PhotoModeHotKeyCategory_DecreaseFocus" text="{=YirOUaIV}Decrease Camera Focus" />
@@ -821,6 +833,6 @@
     <string id="str_game_key_text.anyshift" text="{=z6ezjlkX}Shift" />
     <string id="str_game_key_text.anycontrol" text="{=controlgamekey}Control" />
     <string id="str_game_key_text.anyalt" text="{=altgamekey}Alt" />
-    <string id="str_game_key_text.invalid" text="{=invaidkey}-" />
+    <string id="str_game_key_text.invalid" text="{=invalidkey}-" />
   </strings>
 </base>

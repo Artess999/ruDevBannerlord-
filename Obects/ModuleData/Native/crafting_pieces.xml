@@ -1976,14 +1976,14 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_27" name="{=wgWSJzGD}Bevelled Leather Grip Two Handed" tier="2" piece_type="Handle" mesh="sturgian_grip_27" culture="Culture.sturgia" length="29.4" weight="0.1">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-9.9" next_piece_offset="0.1" previous_piece_offset="0.3" />
     <Materials>
       <Material id="Iron2" count="2" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="battania_grip_2" name="{=jzzZDEw7}Long Wire Grip" tier="5" piece_type="Handle" mesh="battania_grip_2" culture="Culture.battania" length="30.5" weight="0.270" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" next_piece_offset="0.133" previous_piece_offset="0.417" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -2166,7 +2166,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="vlandian_grip_7" name="{=aVBGVt7N}Tapered Horn Grip" tier="4" piece_type="Handle" mesh="vlandian_grip_7" culture="Culture.vlandia" length="30.3" weight="0.2" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
     <Materials>
       <Material id="Iron2" count="1" />
@@ -2203,21 +2203,21 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_7" name="{=il1M66Z8}Leather Wrapped One Handed Grip" tier="2" piece_type="Handle" mesh="empire_grip_7" culture="Culture.empire" length="30.7" weight="0.22" is_default="true">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" next_piece_offset="0.4" previous_piece_offset="0.5" />
     <Materials>
       <Material id="Iron1" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_8" name="{=R8hEAwUZ}Rough Wrapped Grip" tier="3" piece_type="Handle" mesh="empire_grip_8" culture="Culture.empire" length="30.1" weight="0.20" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" next_piece_offset="0" previous_piece_offset="0.5" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_9" name="{=dnd2hafw}Rough Wrapped Simple Grip" tier="2" piece_type="Handle" mesh="empire_grip_9" culture="Culture.empire" length="34.7" weight="0.23" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" next_piece_offset="0.3" previous_piece_offset="0.5" />
     <Materials>
       <Material id="Iron2" count="1" />
@@ -2238,21 +2238,21 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_13" name="{=03YrcAtx}Wrapped Leather Grip Two Handed" tier="2" piece_type="Handle" mesh="empire_grip_13" culture="Culture.empire" length="32" weight="0.1">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.18" next_piece_offset="-0.15" previous_piece_offset="0.4" />
     <Materials>
       <Material id="Iron1" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_14" name="{=uLqEw8LB}Studded Imperial Long Grip" tier="3" piece_type="Handle" mesh="empire_grip_14" culture="Culture.empire" length="27.8" weight="0.12">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0.8" />
     <Materials>
       <Material id="Iron3" count="2" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="empire_grip_15" name="{=fo040lyg}Simple Wrapped Grip" tier="2" piece_type="Handle" mesh="empire_grip_15" culture="Culture.empire" length="27.6" weight="0.10">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="0" next_piece_offset="0.6" previous_piece_offset="0.5" />
     <Materials>
       <Material id="Iron2" count="1" />
@@ -2353,21 +2353,21 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_15" name="{=uQsJQLJH}Short Northern Hide Grip" tier="2" piece_type="Handle" mesh="sturgian_grip_15" culture="Culture.sturgia" length="43.346" weight="0.370" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.3" />
     <Materials>
       <Material id="Iron2" count="2" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_16" name="{=khO8Li1D}Extra Long Hide Grip" tier="2" piece_type="Handle" mesh="sturgian_grip_16" culture="Culture.sturgia" length="50" weight="0.370" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.3" />
     <Materials>
       <Material id="Iron2" count="3" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_17" name="{=LYSMiV6V}Long Hide Grip" tier="2" piece_type="Handle" mesh="sturgian_grip_17" culture="Culture.sturgia" length="50" weight="0.370" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.3" />
     <StatContributions handling_bonus="1" swing_damage_bonus="1" swing_speed_bonus="1" thrust_damage_bonus="1" thrust_speed_bonus="1" />
     <Materials>
@@ -2375,14 +2375,14 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_18" name="{=mm24JNyb}Northern Hourglass Grip" tier="3" piece_type="Handle" mesh="sturgian_grip_18" culture="Culture.sturgia" length="30" weight="0.270" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.3" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_19" name="{=2XBuTBru}Northern Long Hourglass Grip" tier="4" piece_type="Handle" mesh="sturgian_grip_19" culture="Culture.sturgia" length="37.5" weight="0.30" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.3" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -2396,14 +2396,14 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_23" name="{=2Fq1t169}Northern Bound Two Handed Grip" tier="3" piece_type="Handle" mesh="sturgian_grip_23" culture="Culture.sturgia" length="30.2" weight="0.1">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.04" previous_piece_offset="0.2" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_24" name="{=9JMatUNQ}Rough Northern Grip Two Handed" tier="2" piece_type="Handle" mesh="sturgian_grip_24" culture="Culture.sturgia" length="30.2" weight="0.12">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.07" next_piece_offset="0.1" previous_piece_offset="0.3" />
     <Materials>
       <Material id="Iron2" count="1" />
@@ -2435,7 +2435,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="sturgian_grip_31" name="{=Ac4kblsm}Northern Hide Grip Two Handed" tier="2" piece_type="Handle" mesh="sturgian_grip_31" culture="Culture.sturgia" length="30.5" weight="0.12">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.14" previous_piece_offset="0.3" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron1" count="1" />
@@ -2512,21 +2512,21 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="khuzait_grip_9" name="{=mTDuVvVN}Tall Plated Grip" tier="2" piece_type="Handle" mesh="khuzait_grip_9" culture="Culture.khuzait" length="30.1" weight="0.230" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.35" next_piece_offset="0" />
     <Materials>
       <Material id="Iron2" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="khuzait_grip_10" name="{=mTDuVvVN}Tall Plated Grip" tier="3" piece_type="Handle" mesh="khuzait_grip_10" culture="Culture.khuzait" length="31.2" weight="0.200" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.35" next_piece_offset="0" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="khuzait_grip_11" name="{=mTDuVvVN}Tall Plated Grip" tier="4" piece_type="Handle" mesh="khuzait_grip_11" culture="Culture.khuzait" length="30.51" weight="0.200" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.35" next_piece_offset="0.5" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -2540,7 +2540,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="khuzait_grip_13" name="{=35tXR29a}Plain Eastern Grip Two Handed" tier="3" piece_type="Handle" mesh="khuzait_grip_13" culture="Culture.khuzait" length="29.1" weight="0.1">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.09" previous_piece_offset="0.2" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="1" />
@@ -2610,14 +2610,14 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="vlandian_grip_8" name="{=aVBGVt7N}Tapered Horn Grip" tier="5" piece_type="Handle" mesh="vlandian_grip_8" culture="Culture.vlandia" length="33.2" weight="0.21" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
     <Materials>
       <Material id="Iron5" count="2" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="vlandian_grip_9" name="{=aVBGVt7N}Tapered Horn Grip" tier="4" piece_type="Handle" mesh="vlandian_grip_9" culture="Culture.vlandia" length="30.2" weight="0.2" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.358" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -2702,7 +2702,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="cleaver_grip_4" name="{=jqiXcEyD}Long Bound Grip" tier="4" piece_type="Handle" mesh="cleaver_grip_4" culture="Culture.aserai" length="44.8" weight="0.325" item_holster_pos_shift="0,0,-0.04">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.2" next_piece_offset="0.2" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -2752,42 +2752,42 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_10" name="{=bCCYhnbY}Green Leather Grip" tier="3" piece_type="Handle" mesh="aserai_grip_10" culture="Culture.aserai" length="30.9" weight="0.225" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_11" name="{=bCCYhnbY}Green Leather Grip" tier="3" piece_type="Handle" mesh="aserai_grip_11" culture="Culture.aserai" length="33.23" weight="0.225" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_12" name="{=bCCYhnbY}Green Leather Grip" tier="5" piece_type="Handle" mesh="aserai_grip_12" culture="Culture.aserai" length="31.5" weight="0.225" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron5" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_13" name="{=bCCYhnbY}Green Leather Grip" tier="5" piece_type="Handle" mesh="aserai_grip_13" culture="Culture.aserai" length="31.9" weight="0.225" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron5" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_14" name="{=bCCYhnbY}Green Leather Grip" tier="3" piece_type="Handle" mesh="aserai_grip_14" culture="Culture.aserai" length="30" weight="0.225" item_holster_pos_shift="0,0,-0.02">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="2" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_15" name="{=bCCYhnbY}Green Leather Grip" tier="3" piece_type="Handle" mesh="aserai_grip_15" culture="Culture.aserai" length="30" weight="0.225" item_holster_pos_shift="0,0,-0.03">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron3" count="1" />
@@ -2815,7 +2815,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="aserai_grip_19" name="{=nazL7Z3e}Bolted Southern Grip Two Handed" tier="5" piece_type="Handle" mesh="aserai_grip_19" culture="Culture.aserai" length="31" weight="0.105">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-0.41" previous_piece_offset="0.2" next_piece_offset="-0.2" />
     <Materials>
       <Material id="Iron5" count="1" />
@@ -2871,7 +2871,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="battania_grip_5" name="{=2FLWuksh}Battania Grip" tier="4" piece_type="Handle" mesh="battania_grip_5" culture="Culture.battania" length="31" weight="0.225">
-    <PieceUsages unavailable_usages="OneHandedSword" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardSword" />
     <BuildData piece_offset="-6.75" previous_piece_offset="0.1" next_piece_offset="0.1" />
     <Materials>
       <Material id="Iron4" count="1" />
@@ -4676,14 +4676,14 @@
   <!-- #endregion -->
   <!-- #region Used 2h Axe Handle Pieces -->
   <CraftingPiece id="axe_craft_8_handle" name="{=XxhFx0yw}Short Leather Wrapped Great Axe Handle" tier="3" piece_type="Handle" mesh="axe_craft_8_handle" length="116" weight="0.503" excluded_item_usage_features="widegrip">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="23.86" next_piece_offset="1" />
     <Materials>
       <Material id="Wood" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_10_handle" name="{=l13RibeF}Steel Reinforced Great Axe Handle" tier="4" piece_type="Handle" mesh="axe_craft_10_handle" length="132" weight="0.793" excluded_item_usage_features="widegrip">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="28.87" next_piece_offset="2.5" />
     <Materials>
       <Material id="Wood" count="1" />
@@ -4691,7 +4691,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_1_handle" name="{=1T0XBYlc}Hardened Oaken Two Handed Axe Handle" tier="5" piece_type="Handle" mesh="axe_craft_1_handle" length="157.6" weight="0.590" item_holster_pos_shift="0,0,-0.1" CraftingCost="75">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="37.408" next_piece_offset="1.42" />
     <Materials>
       <Material id="Wood" count="1" />
@@ -4699,7 +4699,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_6_handle" name="{=OJ7iPw5M}Reinforced Hardened Ash Great Axe Handle" tier="4" piece_type="Handle" mesh="axe_craft_6_handle" length="157.3" weight="0.644" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="36.87" next_piece_offset="1.122" />
     <Materials>
       <Material id="Wood" count="1" />
@@ -4707,7 +4707,7 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_4_handle" name="{=bfueDx6s}Heavily Reinforced Oaken Great Axe Handle" tier="5" piece_type="Handle" mesh="axe_craft_4_handle" length="157.5" weight="0.677" item_holster_pos_shift="0,0,-0.1">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="36.879" next_piece_offset="1.6" />
     <Materials>
       <Material id="Wood" count="1" />
@@ -4715,28 +4715,28 @@
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_30_handle" name="{=KeTioaJE}Leather Wrapped Mahogany Great Axe Handle" tier="2" piece_type="Handle" mesh="axe_craft_30_handle" length="130" weight="0.516">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="35" next_piece_offset="1.835" />
     <Materials>
       <Material id="Wood" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_14_handle" name="{=22f2NR2N}Long Gnarled Ash Shaft" tier="1" piece_type="Handle" mesh="axe_craft_14_handle" length="115" weight="0.433" item_holster_pos_shift="0,0,0.15" excluded_item_usage_features="widegrip" is_default="true">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="20.1" next_piece_offset="1.1" />
     <Materials>
       <Material id="Wood" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_29_handle" name="{=Qqb0VZ1a}Leather Wrapped Two Handed Ash Shaft" tier="3" piece_type="Handle" mesh="axe_craft_29_handle" length="120" weight="0.516">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="35" next_piece_offset="1.835" />
     <Materials>
       <Material id="Wood" count="1" />
     </Materials>
   </CraftingPiece>
   <CraftingPiece id="axe_craft_31_handle" name="{=J3ADekEw}Oaken Great Axe Shaft" tier="4" piece_type="Handle" mesh="axe_craft_31_handle" length="140" weight="0.516">
-    <PieceUsages unavailable_usages="OneHandedAxe" />
+    <PieceUsages unavailable_usages="OneHandedSword:OneHandedBastardAxe" />
     <BuildData piece_offset="20" next_piece_offset="1.835" />
     <Materials>
       <Material id="Wood" count="1" />

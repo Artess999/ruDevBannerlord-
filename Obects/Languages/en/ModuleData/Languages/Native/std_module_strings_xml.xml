@@ -43,6 +43,7 @@
     <string id="1o1TyPib" text="Additional Companion Limit" />
     <string id="1PwQxaOu" text="Preparations seem to be under way for a tournament. Prize is {ITEM}." />
     <string id="1pxLpZ4r" text="Calculating:" />
+    <string id="1SAFluHl" text="Nahasawis" />
     <string id="1wHTYnxh" text="You've supported the conspiracy against the Empire!" />
     <string id="1wkANMRC" text="Our plan is to try and hold this narrow pass." />
     <string id="1XVvU23F" text="Unable to use the clipboard text as body properties key!" />
@@ -70,6 +71,7 @@
     <string id="2u3dRUlE" text="{SETTLEMENT_NAME} (tax)" />
     <string id="2W2l9Kym" text="Ultimate Leader Perk Bonus" />
     <string id="2wclahIJ" text="Throwing" />
+    <string id="2wGBBTxT" text="bolts of silk" />
     <string id="2WpbTaVJ" text="+{BONUS_AMOUNT}% bonus to taxes" />
     <string id="2X1rBrdC" text="{?IS_UNDER_A_DAY}{?}{DAY_VALUE} {?IS_MORE_THAN_ONE_DAY}days {?}day {\?}{\?}{?IS_UNDER_ONE_HOUR}{?}{HOUR_VALUE} {?IS_MORE_THAN_AN_HOUR}hours{?}hour{\?}{\?}" />
     <string id="300TAI7u" text="Sell All" />
@@ -171,8 +173,10 @@
     <string id="6PLqUB34" text="noble" />
     <string id="6pNrNj93" text="Wall" />
     <string id="6SFktFH3" text="Medium Armor" />
+    <string id="6taBfzMK" text="Asaligats" />
     <string id="6Xl9F8Oa" text="Shops in Town" />
     <string id="6XYG7bux" text="You're going to spend {AMOUNT}{INFLUENCE_ICON}" />
+    <string id="6Yna8whI" text="purebloods" />
     <string id="72Rasm5f" text="We have nothing - no silver, no wares." />
     <string id="77aNVVE0" text="Renown Bonus" />
     <string id="77SdNt8C" text="Your opponent constructed a barrier against you, and you have fewer pawns left. You lost the game!" />
@@ -195,6 +199,7 @@
     <string id="7mRN2br0" text="Leadership of the formation has been given to {HERO_NAME}." />
     <string id="7MSuWxaY" text="{CHILD.NAME} has reached the age of {CHILD.AGE} and {?CHILD.GENDER}she{?}he{\?} needs your guidance." />
     <string id="7MWaMaez" text="Here's what we've got: {ITEM_LIST}. Take them, but let us live." />
+    <string id="7NjjTDud" text="Battanian warmounts" />
     <string id="7oJ9gIeT" text="Trader does not have enough money." />
     <string id="7pAZatbz" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
     <string id="7sUhWG0E" text="Thrust Damage: " />
@@ -221,6 +226,7 @@
     <string id="8kVhiTmu" text="Next Tier:" />
     <string id="8l8xEu64" text="Buy and Equip" />
     <string id="8LhfzIQE" text="w" />
+    <string id="8LJGt1bg" text="Battanian thoroughbreds" />
     <string id="8mBT44QK" text="Noble of {FACTION}" />
     <string id="8oaVYIlk" text="You are outside the {SETTLEMENT_NAME}. You cannot enter because the castle belongs to the enemy." />
     <string id="8OkPHu4f" text="No" />
@@ -304,6 +310,7 @@
     <string id="alMmQrhK" text="Party Morale" />
     <string id="AmbKQ7LT" text="Transfer" />
     <string id="AMhvD9om" text="Army Commander" />
+    <string id="AMzpSK7F" text="barrels of olives" />
     <string id="anHqaNK0" text="queen" />
     <string id="anrHk7ea" text="{PARTY} is leading the attack on the enemy. You'll be joining {?ARMY_COMMANDER_GENDER}her{?}him{\?} with your troops." />
     <string id="aNSAaHk9" text="Bagh Chal is a game of Sheep (white) versus Wolves (black).{newline}The wolves have four pawns that start on the four corners of the board. Every turn, one sheep is placed on the board, and one wolf makes a move or capture until all sheep have been placed on the board.{newline}After all sheep have been placed, the sheep can now also move on the board." />
@@ -382,6 +389,7 @@
     <string id="BMQ5SHOH" text="Horse Equipment I" />
     <string id="bN8gqxtB" text="End Battle" />
     <string id="BNAHlS9P" text="Are you sure? You won't be able to undo this action." />
+    <string id="bnDZqSxC" text="loads of silver ore" />
     <string id="bNnQt4jN" text="Blacksmith" />
     <string id="bNoCJyi9" text="Honorable" />
     <string id="bO5kjF3G" text="Honor:" />
@@ -433,6 +441,7 @@
     <string id="cBZ6OlKW" text="Javelin" />
     <string id="CcAG3D8Q" text="NotAssigned" />
     <string id="ccUEYdrU" text="Join Army" />
+    <string id="cDCU9RnR" text="Destriers" />
     <string id="cDjq52h2" text="Sergant" />
     <string id="ChmM5tjf" text="The game is a draw!" />
     <string id="cJmI2poS" text="Info" />
@@ -460,6 +469,7 @@
     <string id="cyPGadJ6" text="Auto-Deploy" />
     <string id="CyTa1Z5d" text="{TEXT} [{HOTKEY}]" />
     <string id="CZqZGAVB" text="Barter Offer is rejected!" />
+    <string id="D124K5KE" text="crates of pottery" />
     <string id="D5QlXOV0" text="Critical Fail and Fail Whole Persuasion Chance" />
     <string id="d5RAufbd" text="Role" />
     <string id="d68pZq4j" text="Required Skill Level" />
@@ -473,9 +483,11 @@
     <string id="dbdliaP3" text="my wife {REFERING_HERO.LINK}" />
     <string id="DBU4VaIl" text="Bandit Faction" />
     <string id="dc24lBcV" text="Melee Weapons IV" />
+    <string id="DCms1bJb" text="sacks of flax" />
     <string id="dd7Owiys" text="Make Peace with {FACTION}" />
     <string id="DdXZHifm" text="Increasing {ATTRIBUTE_NAME} makes it easier to learn bound skills and also raises their learning limit." />
     <string id="depxBZNO" text="Leadership Skill Level Bonus" />
+    <string id="DEwpjLCB" text="crates of leather" />
     <string id="dgaf7Jpb" text="Setup" />
     <string id="di4MlBRx" text="{NUMBER_OF} {ITEM}" />
     <string id="DItheHi7" text="Stay behind in reserve" />
@@ -517,6 +529,7 @@
     <string id="e1tZ4kEY" text="All Stuff" />
     <string id="e4OPfBqt" text="Abstain" />
     <string id="e54212r1" text="In towns, you can find talented individuals that can aid you.{newline}{newline}These potential companions can be found hanging out in taverns.{newline}{newline}Go to tavern district now to find a potential companion." />
+    <string id="E7DLnBbA" text="desert warhorses" />
     <string id="E9f8YUbO" text="You gain a level every time your total skill points total reaches a target value. Leveling up grants focus points to spend.{newline}{newline}If you have free focus points you will see it by a small indicator over the character screen button. Click on the button to review different skills and choose one to increase focus." />
     <string id="eAGeVRjI" text="You received {GOLD_AMOUNT}{GOLD_ICON}." />
     <string id="EAicirVE" text="Fearless" />
@@ -534,6 +547,7 @@
     <string id="ejhFyhyx" text="&lt;b&gt;Siege Tower&lt;/b&gt;&lt;br&gt;{NEWLINE}Brings the attackers to the same height as the wall and evens the odds against defenders." />
     <string id="eKwhGmbI" text="After this troop gains {XP_AMOUNT} xp, one more troop will be available for upgrade" />
     <string id="elhSbQfW" text="my kinsman {REFERING_HERO.LINK}" />
+    <string id="ElMVvrip" text="casks of beer" />
     <string id="ELsDFwAD" text="Wine" />
     <string id="EMCISbYJ" text="Battle Outfit" />
     <string id="empiremembers" text="Empire" />
@@ -613,12 +627,14 @@
     <string id="fQAGU9GW" text="Generosity:" />
     <string id="FqwHAxuM" text="Two Handed Polearm" />
     <string id="frBQ9mbP" text="Southern Empire" />
+    <string id="fRCQyBKt" text="Vlandian coursers" />
     <string id="FRepQsmO" text="The tournament will be a joust." />
     <string id="frt7AmX0" text="Garrison of {MAJOR_PARTY_LEADER}" />
     <string id="fRu5Y4OT" text="I was wounded and left for dead" />
     <string id="FRuzuVyO" text="No Clan Selected" />
     <string id="FRZfpryn" text="Bring forward the proposal to give this settlement to someone else" />
     <string id="FS78CuPs" text="The skills that are bound to {ATTRIBUTE_NAME} attribute are:" />
+    <string id="FSo6tf7x" text="barrels of cheese" />
     <string id="FVEvjlis" text="Party Size Limit Exceeded" />
     <string id="FvYhaE3z" text="Banner" />
     <string id="fwbD1Jqo" text="Buy" />
@@ -644,12 +660,14 @@
     <string id="GD4aQgl7" text="Sheep" />
     <string id="gdraqMso" text="You are outside of {SETTLEMENT_NAME}. You are not allowed inside." />
     <string id="GDugjWao" text="Here is {MONEY}{GOLD_ICON}. Just take it and let us go." />
+    <string id="GEyL9Z8b" text="amphorae of wine" />
     <string id="gflnRhhe" text="({PRIMARY_ROLE}/{SECONDARY_ROLE})" />
     <string id="gfQmYDRq" text="As you attempt to force the notables to give you recruits, some of the residents gather to resist you." />
     <string id="gFtu0j4T" text="Arrows" />
     <string id="ggMmjk31" text="Invalid" />
     <string id="ggpRTQQl" text="Party Leader" />
     <string id="ggrqoGnE" text="Spend {AMOUNT}" />
+    <string id="GGuCcMvk" text="chargers" />
     <string id="ggzCiYkk" text="{VALUE}{GOLD_ICON} is needed for upgrade." />
     <string id="gHnfFi1s" text="Retired" />
     <string id="GhVXQrYF" text="Upgrading Troops" />
@@ -771,6 +789,7 @@
     <string id="IoLK7Lec" text="Base size" />
     <string id="iORENG5d" text="Mercenaries cannot propose policies." />
     <string id="IOtAJCVw" text="Total Influence: {TOTAL_INFLUENCE}" />
+    <string id="ip5xbG4t" text="Midlands palfreys" />
     <string id="IPjqLEdQ" text="{DAY} days ago" />
     <string id="IQ4bSdf5" text="Sister-in-law" />
     <string id="iQao7Ct6" text="Starving Parties" />
@@ -787,6 +806,7 @@
     <string id="iVEZrZzs" text="Ride in vanguard" />
     <string id="IvrBQHRp" text="Melee Weapons" />
     <string id="IwpFM2CJ" text="The tournament will be a horse race." />
+    <string id="IXCjqxr9" text="Sturgian hunters" />
     <string id="IXwOaa98" text="Party Size" />
     <string id="iYCR3xuQ" text="Principality of Sturgia" />
     <string id="iyob7aH3" text="Defend your position" />
@@ -838,6 +858,7 @@
     <string id="JSokBXER" text="Heavy Infantry" />
     <string id="jSXE0Gbj" text="The villagers here are few and frightened, and they quickly scatter and run before you. The village is at your mercy." />
     <string id="jtN3ayKE" text="Primary Production" />
+    <string id="jtqfplDk" text="rolls of linen" />
     <string id="JTyC3Xra" text="Closefisted" />
     <string id="Ju9ZiFT2" text="Melee Weapons V" />
     <string id="jx8ohENz" text="Armorer" />
@@ -896,6 +917,7 @@
     <string id="kuKad3dj" text="{MISSION_MODE}" />
     <string id="kuLjsNgz" text="Rural Notable" />
     <string id="kVLfRWjE" text="+{BONUS_AMOUNT}% reduce at garrison wages." />
+    <string id="kVTJbB7k" text="desert horses" />
     <string id="kvykuTJS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} attacking siege weapons." />
     <string id="kwKT6zKq" text="Your unit is expected to: {BEHAVIOUR_NAME_BEGIN}{?IS_PLURAL} and {?}{\?}{BEHAVIOUR_NAME_END}" />
     <string id="KWXEMsHC" text="{LORD.LINK} is at {SETTLEMENT_NAME}" />
@@ -905,11 +927,13 @@
     <string id="kXno6ZuU" text="Battle finished..." />
     <string id="kyiibFu2" text="You have won the battle!" />
     <string id="KZAQHSa2" text="Yet the prosperity is clearly not benefiting everyone equally. People seem angry, complaining endlessly about new rural migrants, rising prices, and those who are profiting more than others." />
+    <string id="KZdUZcQC" text="packs of fur" />
     <string id="l4uTnJct" text="You need to select an outcome and how much you want to support that outcome." />
     <string id="l6a3grfK" text="your party" />
     <string id="L7teSXvq" text="You need to be the leader of an army to manage it" />
     <string id="L7wn49Uz" text="Diplomacy" />
     <string id="lAgfGeXJ" text="Kingdom Faction" />
+    <string id="LAo4HM0z" text="rolls of velvet" />
     <string id="LApMSsnb" text="Focus Points" />
     <string id="laV5aNhK" text="Unique" />
     <string id="lAWwcO6b" text="Kingdom of Vlandia" />
@@ -919,11 +943,15 @@
     <string id="LBNzsqyb" text="Fiefs" />
     <string id="LBy6YDMV" text="Regroup" />
     <string id="Lc1vIEnM" text="Wolves and sheep move in the same way by sliding along the lines on the board, one tile per turn." />
+    <string id="LcrlI57W" text="Sturgian trotters" />
     <string id="LEC8NhCV" text="Policies" />
+    <string id="lFlDCKLW" text="imperial chargers" />
     <string id="lfMgaBiJ" text="Make it worth our while not to kill you." />
     <string id="Lg3zeoYi" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} protecting {#IS_LEFT}{#}left{#}multiple{\#}{?IS_MIDDLE}middle{?}{\?}{?IS_RIGHT}right{?}{\?} flank{#IS_LEFT}{#}{#}s{\#}." />
+    <string id="LGa98fMQ" text="head of cattle" />
     <string id="lh1yhgXw" text="Horse Equipment V" />
     <string id="lihYjOSc" text="pcs." />
+    <string id="liiohtmi" text="war camels" />
     <string id="LJ6Krlbr" text="Scouting" />
     <string id="lj8XH6O7" text="Can't access kingdom window right now!" />
     <string id="ljcHO6PW" text="Security Drift" />
@@ -954,6 +982,7 @@
     <string id="lznqF0oO" text="Disbanding" />
     <string id="M2b5mtAE" text="Companion of" />
     <string id="m2YKBbdI" text="Hello there, little lost sheep. We are wolves of the mountains, and we would like a moment of your time..." />
+    <string id="m355tCEk" text="sheep" />
     <string id="m6A7RLby" text="Devious" />
     <string id="M6tfHhq7" text="You have voted and the ruler has decided on the outcome." />
     <string id="m6uSOtE4" text="You don't have enough money." />
@@ -981,6 +1010,7 @@
     <string id="MmNF7sW7" text="Moving pawns is only possible by capturing pawns from your opponent.{newline}Capturing is done by orthoginally jumping over 1 or more opposing pawns." />
     <string id="Mms9bbhY" text="{DAY_NUM} {?DAY_NUM==1}day{?}days{\?}" />
     <string id="mNr84Xm1" text="Can't access clan window right now!" />
+    <string id="mOlsoKGK" text="casks of butter" />
     <string id="mountnoun" text="Mount" />
     <string id="mPaQzgS0" text="Good to see you here, {PLAYER.LINK}." />
     <string id="MpDMaBE9" text="Defy us, will you? We'll drink from your skull!" />
@@ -1029,6 +1059,7 @@
     <string id="NiyNgXMe" text="This party is already disbanding" />
     <string id="njnMk5P1" text="Disavow a Policy" />
     <string id="nk0bADtq" text="You have rejected a challenge to a duel. Your army is disheartened by this display of cowardice. Your party loses morale." />
+    <string id="nKJAalNl" text="sacks of datefruit" />
     <string id="nkzKgspT" text="Manage Garrison" />
     <string id="NLKmdNbt" text="Search" />
     <string id="nMcvafHY" text="Active" />
@@ -1037,6 +1068,7 @@
     <string id="nNRKCYpR" text="Lands around settlement" />
     <string id="NnZ5w9zm" text="{NUM1} ({NUM2})" />
     <string id="nojcK4ia" text="{?RULER.GENDER}Grand Princess{?}Grand Prince{\?} {RULER.NAME}" />
+    <string id="Nqac5TV3" text="sacks of salt" />
     <string id="NqarFr4P" text="Options" />
     <string id="NQbqtEqP" text="Cost: {COUNT}" />
     <string id="NqSLYe6b" text="Renown:" />
@@ -1050,6 +1082,7 @@
     <string id="ny32aoLJ" text="Horse Equipment II" />
     <string id="nyGRpJT3" text="Queue" />
     <string id="NYHinaEh" text="Can't access inventory in a battle!" />
+    <string id="nysBXpEO" text="camels" />
     <string id="o0OQ5omY" text="Our plan is to remain on the defensive." />
     <string id="o1MtbgEi" text="Unsolved Issue" />
     <string id="o2ce7bhY" text="That is wise of you." />
@@ -1100,6 +1133,7 @@
     <string id="OWCoBElc" text="You are taken captive by {PARTY_NAME}." />
     <string id="owg6SqHF" text="an emir" />
     <string id="owTlJjJc" text="Brother-in-law" />
+    <string id="oxbRTiw4" text="saddle horses" />
     <string id="OxiaKT0G" text="Sturgian" />
     <string id="ozYRUrum" text=" Help wounded soldiers heal in settlements." />
     <string id="P2CRzfV7" text="Shops in Settlement" />
@@ -1107,6 +1141,7 @@
     <string id="P3SJla9F" text="Looted Villages" />
     <string id="p4PIzGTP" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} holding high ground." />
     <string id="p5Rad7i2" text="War Party" />
+    <string id="p5YIwIes" text="Husnphrees" />
     <string id="p8amfQyz" text="Mercenaries cannot expel clans." />
     <string id="P8BxiiKd" text="Despite the poverty, you hear few words of complaint, as though people are too beaten down to expect any change." />
     <string id="P8Z3zQyy" text="Safe" />
@@ -1166,6 +1201,7 @@
     <string id="PylbJEe5" text="Men #" />
     <string id="pzfbPbWW" text="Boulder" />
     <string id="Q0qrw7F5" text="Add Focus" />
+    <string id="q1qpwXpb" text="sacks of grapes" />
     <string id="Q2alNolf" text="my kinswoman {REFERING_HERO.LINK}" />
     <string id="Q2JYjFQl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} and {?}{\?}{TROOP_NAMES_END} {?IS_PLURAL}are{?}is{\?} retreating." />
     <string id="q2Y2DHiA" text="Horse Archers" />
@@ -1208,6 +1244,7 @@
     <string id="Qn3DCH3d" text="Landowner" />
     <string id="QndVFTbx" text="Unequip" />
     <string id="qnxJYAs7" text="Party" />
+    <string id="QOlM6RqO" text="items of jewelry" />
     <string id="qpmpTdla" text="Notable" />
     <string id="QPoA6vvx" text="Income" />
     <string id="qQLh6S2w" text="SP {CURRENTAMOUNT}/{TARGETAMOUNT}" />
@@ -1216,18 +1253,22 @@
     <string id="qRqnrtdX" text="Owner" />
     <string id="qsh0I4Rm" text="Your opponent rolls a {DICE_ROLL}." />
     <string id="qSi4DlT4" text="Food" />
+    <string id="QStqxKHz" text="warhorses" />
     <string id="qt7WSK15" text="{SETTLEMENT_NAME} (Raided)" />
     <string id="QTbZPyha" text="Accompanying" />
     <string id="qtII2HbK" text="Wealth" />
     <string id="qtmj7h2r" text="  0" />
     <string id="qUtYks66" text="Army of {ARMY_LEADER.LINK} is gathering near {SETTLEMENT_NAME}." />
     <string id="QVChn4mG" text="Food items are also trade goods. You can find trade goods easily with the &quot;Miscellaneous&quot; filter." />
+    <string id="QvnCL5bl" text="hardwood logs" />
     <string id="QWqvGa1P" text="Cow" />
     <string id="r312jCKr" text="Propose Peace" />
     <string id="R4eS65oX" text="Some of the angry villagers grab their tools and prepare to resist you. It looks like you'll have a fight on your hands if you continue." />
     <string id="R4Gqskgq" text="Victory" />
     <string id="R5IOmwN1" text="Building Siege Camp" />
     <string id="R6oKMaZ5" text="{MARRIED_HERO.LINK} married {MARRIED_TO.LINK}." />
+    <string id="r6Plal93" text="Tyal horses" />
+    <string id="R78JkIhb" text="loads of clay" />
     <string id="R7v2UD8b" text="You move a pawn." />
     <string id="R9DiQfax" text="Battle" />
     <string id="RaAnj4On" text="Defenders" />
@@ -1277,6 +1318,7 @@
     <string id="s9oED1IR" text="Skirmisher" />
     <string id="SBp4Ja1u" text="You can use free focus points for increasing your learning limit in individual skills. Characters earn {FOCUS_PER_LEVEL} focus point every time they level up." />
     <string id="sbricRaZ" text="Earnings from Bets: {BET}" />
+    <string id="scSkbXLi" text="loads of iron ore" />
     <string id="SdcpdfaV" text="Hey - you. What you got in your bags? What are you carrying?" />
     <string id="SdXS4lxN" text="Faction Leader Bonus" />
     <string id="SEBZa2Lh" text="Boost Cohesion" />
@@ -1301,6 +1343,7 @@
     <string id="spIe8wd8" text="One Handed Polearm" />
     <string id="SrfYbg3x" text="Leader" />
     <string id="SRYuaoh1" text="This region is gripped by civil disorder, yet people must still go about their daily chores. For the most part, they not linger long in the markets or make eye contact. But you overhear hushed conversations about the rebels in the countryside. Some seem to be afraid of the rebels, others secretly thrilled that the tables have turned, even for a little while, on the rich and powerful." />
+    <string id="sstlloLa" text="steppe horses" />
     <string id="stS5PBIr" text="Preacher" />
     <string id="svArZT0G" text="Details" />
     <string id="Svem1NiV" text="Your opponent has been knocked unconscious and you are the winner!" />
@@ -1314,6 +1357,7 @@
     <string id="T592iYI4" text="You roll a {DICE_ROLL}." />
     <string id="T5VsEnNE" text="Men Count" />
     <string id="t5X1TNBq" text="Use siege machines{?IS_GENERAL_SIDE}{?} on {SIDE_STRING} side{\?}" />
+    <string id="T64UWv9A" text="Cossians" />
     <string id="t6DiaDQ3" text="a begum" />
     <string id="t6NXmyoF" text="{.a} {STR}" />
     <string id="t6xdCj43" text="Oh, indeed we can, indeed we can. Provided you have a fat purse and are ready to lighten it, of course.[ib:hip][rb:trivial]" />
@@ -1381,6 +1425,7 @@
     <string id="ug4LiPbb" text="Ranged Weapons IV" />
     <string id="ugJfuabA" text="Horse Archer" />
     <string id="UgMbCUMO" text="my father {REFERING_HERO.LINK}" />
+    <string id="uGqyPg7g" text="loads of {ITEM_NAME}" />
     <string id="ugX2RRDY" text="I was taken and held for ransom" />
     <string id="Uh057UUb" text="Puluc" />
     <string id="uhcIXeba" text="You are discarding items. Are you sure?" />
@@ -1505,6 +1550,7 @@
     <string id="WVAUoXMY" text="{CURRENT_XP} / {LEVEL_MAX_XP} xp" />
     <string id="WvKKats6" text="Tracking Settlement" />
     <string id="WVqaRKUm" text="Wool" />
+    <string id="wwFsxms3" text="Storm Chargers" />
     <string id="wWwoTzpG" text="Brother" />
     <string id="wx6DZJ0W" text="+{BONUS_AMOUNT} bonus to  wall hit points" />
     <string id="wXNYoJqw" text="Escape Menu" />
@@ -1519,10 +1565,12 @@
     <string id="XAbeeOQo" text="You can weaken the enemy by raiding its villages. This looks like a good target to raid." />
     <string id="XaFXqGhz" text="Bullets" />
     <string id="xaHELVnx" text="Siege Tower (Level 1)" />
+    <string id="xalBJD7W" text="sacks of spice" />
     <string id="XbdX2AHF" text="soldier" />
     <string id="xbh6Bmhf" text="Current support in kingdom" />
     <string id="XBIPqxA2" text="Empty" />
     <string id="xCaFvB69" text="Tier II" />
+    <string id="Xclm7FK4" text="hogs" />
     <string id="XCz81XYm" text="Inputs" />
     <string id="xD9xlbXt" text="prince" />
     <string id="xEWwbGVK" text="Accuracy: " />
@@ -1548,6 +1596,7 @@
     <string id="XTubeiTb" text="Shield III" />
     <string id="Xv6knZP8" text="-{PRISONERS_AMOUNT} Prisoner{?ISPLURAL}s{?} {\?}" />
     <string id="xv8T0Il8" text="The starting player and the amount of tiles you can move each turn are decided by throwing four two-coloured sticks." />
+    <string id="xWrzG8EA" text="barrels of fish" />
     <string id="xwWUDia6" text="Wager" />
     <string id="Xx9EbSwG" text="Boot" />
     <string id="XxLCJb0W" text="Honest" />
@@ -1609,6 +1658,7 @@
     <string id="YvwQL9aa" text="Weight: " />
     <string id="YxKHEUEX" text="The tournament has ended. {TOURNAMENT_FINAL_PARTICIPANT_A} wins by beating {TOURNAMENT_FINAL_PARTICIPANT_B} in the final round. You were eliminated at round {TOURNAMENT_ELIMINATED_ROUND}." />
     <string id="YYdPfXEP" text="Tablut is a game of attackers (black) versus defenders (white).{newline}The attackers outnumber the defenders, but the defenders don't have to capture to win. Their main objective is to secure their king (center pawn).{newline}The king follows the same movement and capturing rules as the other pawns." />
+    <string id="YYkWBkAu" text="Battanian ponies" />
     <string id="YYvzM5Dh" text="Discard All" />
     <string id="yzIOcJoK" text="A player wins if his opponent has been blocked and can no longer make any moves." />
     <string id="yZzlItBW" text="this party" />
@@ -1626,6 +1676,7 @@
     <string id="ZaseErqk" text="Can't retreat, there are enemies nearby!" />
     <string id="zb9fiIP6" text="You can choose to build siege machines by using the squares for ranged engines and the circles for rams and siege towers." />
     <string id="ZbsGBv10" text="Hog" />
+    <string id="zcpXCagL" text="amphorae of oil" />
     <string id="zCQaPTOK" text="Mercenary" />
     <string id="ZdeswYbM" text="Trader doesn't have enough money! Are you sure?" />
     <string id="zDHbQtm9" text="You've been killed by a stray horse!" />
@@ -1633,6 +1684,7 @@
     <string id="zE6OFPRu" text="Settlement Tax" />
     <string id="zEbvDH7V" text="You cannot support your own clan." />
     <string id="zeGAw2IE" text="Killed by" />
+    <string id="ZekwaxIg" text="steppe warhorses" />
     <string id="ZEzxHLaH" text="Cannot recruit prisoner heroes" />
     <string id="zfCoeglY" text="Musician" />
     <string id="zg0q1aqD" text="You cannot disband a garrison party" />

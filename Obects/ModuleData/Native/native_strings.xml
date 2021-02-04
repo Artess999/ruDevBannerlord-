@@ -112,7 +112,7 @@
     <string id="combat_log_detail_distance" text="{=Ph6PhUwX}Distance: {DISTANCE} m" />
     <string id="combat_log_detail_body_part" text="{=obB483C5}Body part hit: {BODY_PART}" />
     <string id="combat_log_detail_absorbed_damage" text="{=PbLuHcJg}Absorbed damage: {ABSORBED_DAMAGE}" />
-    <string id="combat_log_detail_extra_damage" text="{=RDsOaEtS}Extra damage from perks and effects: {MODIFIED_DAMAGE}" />
+    <string id="combat_log_detail_extra_damage" text="{=RDsOaEtS}Extra damage from skills, perks and effects: {MODIFIED_DAMAGE}" />
     <string id="combat_log_detail_reduced_damage" text="{=Lz6ggWch}Damage reduction from perks and effects: {MODIFIED_DAMAGE}" />
     <string id="body_part_type.0" text="{=g6cHDWJF}Head" />
     <string id="body_part_type.1" text="{=ZMmrpMPk}Neck" />
@@ -402,10 +402,10 @@
     <string id="str_multiplayer_official_game_type_objective_info.Siege" text="{=PiLml6Nl}Attackers hold the keep flag for 90 seconds before morale or time runs out. Capturing flags will increase morale.{newline}Defenders defend the castle until enemy morale runs out." />
     <string id="str_multiplayer_official_game_type_objective_info.Captain" text="{=Zc2f5bhh}Kill all enemies or deplete the enemy team's morale or have the most morale when the round time expires." />
     <string id="str_multiplayer_official_game_type_objective_info.Skirmish" text="{=Zc2f5bhh}Kill all enemies or deplete the enemy team's morale or have the most morale when the round time expires." />
-    <string id="str_multiplayer_official_game_type_troops_info.TeamDeathmatch" text="{=zpNSyauI}Spawn with better troops by using gold depending on your kills on the battlefield." />
-    <string id="str_multiplayer_official_game_type_troops_info.Siege" text="{=uPLRkTZr}Spawn with better troops by using gold depending on the success at the siege." />
+    <string id="str_multiplayer_official_game_type_troops_info.TeamDeathmatch" text="{=4daqsVWG}Earn gold to buy higher tier respawns by assisting teammates and killing enemy troops." />
+    <string id="str_multiplayer_official_game_type_troops_info.Siege" text="{=n6N21Shz}Earn gold to buy higher tier respawns by assisting teammates, killing enemy troops and destroying siege engines." />
     <string id="str_multiplayer_official_game_type_troops_info.Captain" text="{=74tYdiOb}Select your troops wisely according to your team's needs. Troop counts are determined by troop strength." />
-    <string id="str_multiplayer_official_game_type_troops_info.Skirmish" text="{=umhwsoqb}Choose your desired troop at the start of the round and for the further respawns by using gold." />
+    <string id="str_multiplayer_official_game_type_troops_info.Skirmish" text="{=YtSQB7rg}Choose your desired class at the start of the round and for the further respawns by using gold." />
     <string id="str_multiplayer_official_game_type_explainer.TeamDeathmatch" text="{=xuo8gmaL}·   Buy respawns using gold{newline}·   Earn gold by killing enemies and assisting teammates{newline}·   Outkill the enemy team to win the game" />
     <string id="str_multiplayer_official_game_type_explainer.Captain" text="{=NdQZWHIy}·   Lead your own detachment of troops{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win" />
     <string id="str_multiplayer_official_game_type_explainer.Siege" text="{=xoXWGYVI}·   Use various siege engines to attack or defend control points{newline}·   Spawn points advance as control points are captured{newline}·   Successfully assault and hold the keep flag or repel the enemy to win" />

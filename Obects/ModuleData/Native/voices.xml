@@ -325,6 +325,7 @@
 
     <face_animation_record id="hard_laugh" animation_name="hard_laugh">
       <flags>
+	  
       </flags>
     </face_animation_record>
     <face_animation_record id="laugh" animation_name="laugh">
@@ -432,7 +433,13 @@
       <flags>
       </flags>
     </face_animation_record>
-
+	
+    <face_animation_record id="idle_flirty" animation_name="idle_flirty">
+      <flags>
+        <flag name="do_blink" />	  
+      </flags>
+    </face_animation_record>
+	
     <face_animation_record id="idle_concentration" animation_name="idle_concentration">
       <flags>
         <flag name="look_at_player" />
@@ -549,6 +556,10 @@
 	
 	
 	
+    <face_animation_record id="idle_cheering3" animation_name="idle_cheering3">
+      <flags>
+      </flags>
+    </face_animation_record>
     <face_animation_record id="drink" animation_name="drink">
       <flags>
         <flag name="do_blink" />

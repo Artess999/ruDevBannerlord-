@@ -1042,7 +1042,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="desert_bandits_chief" default_group="Cavalry" name="{=cdbSCr6G}Harami" level="21" occupation="Bandit" culture="Culture.desert_bandits">
+  <NPCCharacter id="desert_bandits_chief" default_group="Cavalry" name="{=cdbSCr6G}Harami" upgrade_requires="ItemCategory.war_horse" level="21" occupation="Bandit" culture="Culture.desert_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_aserai" />
     </face>
@@ -1056,7 +1056,7 @@
       <skill id="TwoHanded" value="80" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.aserai_faris" />
+      <upgrade_target id="NPCCharacter.aserai_veteran_faris" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">

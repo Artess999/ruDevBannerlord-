@@ -1424,7 +1424,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_ES6_1" name="{=Settlements.Settlement.name.castle_village_ES6_1}Sestadaim" posX="503.654" posY="349.408" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ES6_1}Sestadae sits on the western side of the great Ornian rock, an outcrop in the center of the Lycarea valley. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.">
+  <Settlement id="castle_village_ES6_1" name="{=Settlements.Settlement.name.castle_village_ES6_1}Sestadaim" posX="503.654" posY="349.408" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ES6_1}Sestadaim sits on the western side of the great Ornian rock, an outcrop in the center of the Lycarea valley. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.">
     <Components>
       <Village id="castle_village_comp_ES6_1" village_type="VillageType.silver_mine" hearth="158" gate_rotation="0.008" trade_bound="Settlement.castle_ES6" bound="Settlement.castle_ES6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2283,7 +2283,7 @@
       <Town id="town_comp_S3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.008" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
-      <Location id="center" scene_name="sturgia_town_c" scene_name_1="sturgia_town_c" scene_name_2="sturgia_town_c" scene_name_3="sturgia_town_c" />
+      <Location id="center" scene_name="sturgia_town_b" scene_name_1="sturgia_town_b" scene_name_2="sturgia_town_b" scene_name_3="sturgia_town_b" />
       <Location id="arena" scene_name="arena_sturgia_a" />
       <Location id="tavern" scene_name="sturgia_house_b_interior_tavern" />
       <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l2_interior" scene_name_2="sturgia_castle_keep_a_l2_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
@@ -2328,12 +2328,12 @@
   <!-- Akon's place -->
   <!-- Olek's Faction -->
   <!-- Ravenfield -->
-  <Settlement id="town_S4" name="{=Settlements.Settlement.name.town_S4}Varnovapol" owner="Faction.clan_sturgia_4" posX="540.416" posY="548.273" culture="Culture.sturgia" prosperity="3300" gate_posX="537.884" gate_posY="549.716" text="{=aTMypBiY}Varnovopol, which sits beneath the Chertyg mountains on the crystal waters of Lake Laconis, has the dubious honor of being perhaps the most-often conquered city in Calradia. Originally it was a colony of the Empire, infamous as a place of exile for dissident senators, before it was seized by Nords as a base to expand their influence into the Sturgian fur trade. It was taken by the Alkit tribe from the eastern steppe and briefly served as the capital of a small khanate, before finally falling to the fierce Ormidoving clan.">
+  <Settlement id="town_S4" name="{=Settlements.Settlement.name.town_S4}Varnovapol" owner="Faction.clan_sturgia_4" posX="540.416" posY="548.273" culture="Culture.sturgia" prosperity="3300" gate_posX="537.884" gate_posY="549.716" text="{=aTMypBiY}Varnovapol, which sits beneath the Chertyg mountains on the crystal waters of Lake Laconis, has the dubious honor of being perhaps the most-often conquered city in Calradia. Originally it was a colony of the Empire, infamous as a place of exile for dissident senators, before it was seized by Nords as a base to expand their influence into the Sturgian fur trade. It was taken by the Alkit tribe from the eastern steppe and briefly served as the capital of a small khanate, before finally falling to the fierce Ormidoving clan.">
     <Components>
       <Town id="town_comp_S4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.808" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.town_complex">
-      <Location id="center" scene_name="sturgia_town_c" scene_name_1="sturgia_town_c" scene_name_2="sturgia_town_c" scene_name_3="sturgia_town_c" />
+      <Location id="center" scene_name="sturgia_town_b" scene_name_1="sturgia_town_b" scene_name_2="sturgia_town_b" scene_name_3="sturgia_town_b" />
       <Location id="arena" scene_name="arena_sturgia_a" />
       <Location id="tavern" scene_name="sturgia_house_b_interior_tavern" />
       <Location id="lordshall" scene_name_1="sturgia_castle_keep_a_l2_interior" scene_name_2="sturgia_castle_keep_a_l2_interior" scene_name_3="sturgia_castle_keep_a_l3_interior" />
@@ -2465,7 +2465,7 @@
     </CommonAreas>
   </Settlement>
   <!-- Name of a local clan hero-->
-  <Settlement id="town_S6" name="{=Settlements.Settlement.name.town_S6}Sibir" owner="Faction.clan_sturgia_6" posX="549.77" posY="586.259" culture="Culture.sturgia" prosperity="1900" gate_posX="554.0275" gate_posY="584.1961" text="{=PPadNxa6}Sibir was founded in a dark valley amid the Chernyg mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the ambitious Isyaroving family governs this region, but they must always balance their hunger for wealth and men to fight their wars with their subjects' reluctance to provide it.">
+  <Settlement id="town_S6" name="{=Settlements.Settlement.name.town_S6}Sibir" owner="Faction.clan_sturgia_6" posX="549.77" posY="586.259" culture="Culture.sturgia" prosperity="2100" gate_posX="554.0275" gate_posY="584.1961" text="{=PPadNxa6}Sibir was founded in a dark valley amid the Chernyg mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the ambitious Isyaroving family governs this region, but they must always balance their hunger for wealth and men to fight their wars with their subjects' reluctance to provide it.">
     <Components>
       <Town id="town_comp_S6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" />
     </Components>
@@ -2525,7 +2525,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_S7" name="{=Settlements.Settlement.name.town_S7}Revyl" owner="Faction.clan_sturgia_5" posX="296.82" posY="580.832" culture="Culture.sturgia" prosperity="2200" gate_posX="300.3447" gate_posY="583.3356" text="{=T2E4xKVn}Revyl, chief town of the rocky Kachyar peninsula, was a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the ascent of the Balgardian Gundaroving dynasty.">
+  <Settlement id="town_S7" name="{=Settlements.Settlement.name.town_S7}Revyl" owner="Faction.clan_sturgia_5" posX="296.82" posY="580.832" culture="Culture.sturgia" prosperity="3100" gate_posX="300.3447" gate_posY="583.3356" text="{=T2E4xKVn}Revyl, chief town of the rocky Kachyar peninsula, was a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the ascent of the Balgardian Gundaroving dynasty.">
     <Components>
       <Town id="town_comp_S7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" />
     </Components>

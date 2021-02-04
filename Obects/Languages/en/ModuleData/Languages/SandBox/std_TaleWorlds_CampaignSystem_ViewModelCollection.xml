@@ -9,6 +9,7 @@
     <string id="0mqdFC2x" text="Weapon Crafted!" />
     <string id="0Q4Xo2BQ" text="Select the Leader of the New Party" />
     <string id="0rBsbw1T" text="No effect" />
+    <string id="0TauthlH" text="Never (%{PERCENTAGE})" />
     <string id="13wo3QQB" text="Secondary" />
     <string id="154a34f8caccfc833238cc89d38861e8" text="Requires: " />
     <string id="1CXlqb2U" text="Pick:" />
@@ -57,7 +58,6 @@
     <string id="a241aacb1780599430c79fd9f667b67f" text="Party Morale: " />
     <string id="a4GDfSel" text="Reset Tutorials" />
     <string id="a8nRxITn" text="Prisoner of {PARTY_NAME}" />
-    <string id="aadiCuDe" text="{COMPLETION_PERCENT} (Approximately {DAYS} day to complete)" />
     <string id="AcMayd1p" text="Running from {TARGET_PARTY}." />
     <string id="aE4ZRbB6" text=" {HEALTH}%" />
     <string id="aFYwbosi" text="This hero is already leading a party." />
@@ -131,12 +131,12 @@
     <string id="fOSGakix" text="You cannot manage an army while you're a prisoner." />
     <string id="G2h0V10w" text="Gift this settlement to a clan in your kingdom." />
     <string id="g4XqKGUr" text="Party already has a member with this role." />
-    <string id="G6cCjixe" text="{COMPLETION_PERCENT} (Approximately {DAYS} days to complete)" />
     <string id="g9VIbA9s" text="Sergeant" />
     <string id="GCaYjA5W" text="You need to be the leader of the clan to change it's name." />
     <string id="gduqxfck" text="You don't have all required materials!" />
     <string id="ggpRTQQl" text="Party Leader" />
     <string id="gsVtO9A7" text="Militia" />
+    <string id="GwA9oUBC" text="Your skill focus determines the rate your skill increases with practice" />
     <string id="HAaElX8X" text="{PARTY_OWNERS_FACTION}" />
     <string id="HcAV8x7p" text="Party Member" />
     <string id="HFZdseH9" text="Only the ruler of the kingdom can change it's name." />
@@ -193,6 +193,7 @@
     <string id="lc9s4rLZ" text="Create Army" />
     <string id="LEiZWuZm" text="{SKILL_NAME}: {SKILL_VALUE}" />
     <string id="lGWb26Lj" text="This hero is busy with a quest." />
+    <string id="lkJfq1ap" text="Owned settlements remain under your control but nobles will dislike this dishonorable act and the kingdom will declare war on you." />
     <string id="LpsoPtOo" text="Projects" />
     <string id="LsZEdD2z" text="Walls" />
     <string id="LVmkE2Ow" text="Battle Ready Troops" />
@@ -332,6 +333,7 @@
     <string id="weaponTier" text="Weapon Tier: " />
     <string id="WiNRdfsm" text="Done" />
     <string id="Wir2xZIg" text="You haven't unlocked some of the selected pieces." />
+    <string id="wMiLUTNY" text="Are you sure you want to smelt this weapon? It is locked in the inventory." />
     <string id="WN7cYIXM" text="You need to be a part of a kingdom" />
     <string id="WttsvMTW" text="{SETTLEMENT}'s Rebellion" />
     <string id="WXAaWZVf" text="Previous" />
@@ -358,6 +360,7 @@
     <string id="z8h0BRAb" text="Keep all holdings" />
     <string id="zawBaxl5" text="Distance : {DISTANCE}" />
     <string id="ZcybPatO" text="Weapon Length" />
+    <string id="ZjaSde0X" text="Owned settlements are returned to the kingdom. This will avert a war and nobles will dislike you less for abandoning your fealty." />
     <string id="zMMqgxb1" text="Type" />
     <string id="zrhr4rDA" text="Are you sure you want to disband this army? This will result in relation loss." />
     <string id="ZUgoQ1Ws" text="Horse Type" />

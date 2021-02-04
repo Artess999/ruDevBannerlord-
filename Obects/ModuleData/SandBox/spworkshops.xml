@@ -307,7 +307,7 @@
       </Outputs>
     </Production>
   </WorkshopType>
-  <WorkshopType id="velvet_weavery" name="{=EBCKXbTa}Velvet Weavery" frequency="3" equipment_cost="2000" jobname="{=HXuAkbcU}Velvet Weaver" description="{=QChaCM2g}Fine cotton is weaved into even finer velvet in this workshop. Velvet is one the most luxirious good in Calradia.">
+  <WorkshopType id="velvet_weavery" name="{=EBCKXbTa}Velvet Weavery" frequency="3" equipment_cost="2000" jobname="{=HXuAkbcU}Velvet Weaver" description="{=QChaCM2g}Fine raw silk is weaved into even finer velvet in this workshop. Velvet is one the most luxurious good in Calradia.">
     <Meshes sign_mesh_name="shop_sign_merchantweaveryvelvet" shop_prop_mesh_name_1="shop_prop_merchantweavery_velvet_a" shop_prop_mesh_name_2="shop_prop_merchantweavery_velvet_b" shop_prop_mesh_name_3_1="shop_prop_merchantweavery_velvet_c" shop_prop_mesh_name_4="shop_prop_merchantweavery_velvet_d" shop_prop_mesh_name_5="shop_prop_merchantweavery_velvet_e" shop_prop_mesh_name_6="shop_prop_merchantweavery_velvet_f" />
     <Production conversion_speed="2">
       <Inputs>

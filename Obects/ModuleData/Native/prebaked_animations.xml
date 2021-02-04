@@ -1,11 +1,11 @@
 <!--
-While opening the game we are baking entitial transforms of these bones into a cache
+While generating the run time data caches (.rdc files) for animations we are baking entitial transforms of these bones into a cache
 to reduce run-time allocations and memory fragmentations.
 
 use memory.dump_animation_cache_memory console command to dump the detailed usage.
 
 -->
-<?xml version="1.0" encoding="utf-8"?>
+
 <base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema" type="prebaked_animation">
 <prebaked_animations>
 	<animation id="horse_rider_stand_1" skeleton_name="human_skeleton" >

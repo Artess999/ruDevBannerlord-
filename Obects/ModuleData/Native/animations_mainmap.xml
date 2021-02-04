@@ -406,7 +406,7 @@
       </flags>
       <clip_usage_data type="bipedal_movement_and_ik_data" loop_displacement="3.0" snapping_duration_right="0.19" snapping_duration_left="0.17" snapping_period_right="0.1" snapping_period_left="0.63" adjusting_period_right="0.74" adjusting_period_left="0.24" />
     </animation>
-    <animation id="stand_mainmap" param1="0" duration="6.1" anim_data_name="anim_stand_mainmap" source1="1" source2="155" blend_in_period="0.5" left_hand_pose="0" right_hand_pose="0" facial_anim_id="idle_normal">
+    <animation id="stand_mainmap" param1="0" duration="6.1" anim_data_name="anim_stand_mainmap" source1="1" source2="155" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="idle_normal">
       <flags>
         <flag name="cyclic" />
         <flag name="allow_head_movement" />

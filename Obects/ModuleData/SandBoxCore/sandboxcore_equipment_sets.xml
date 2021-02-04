@@ -5710,6 +5710,8 @@
     <EquipmentSet>
       <Equipment slot="Item0"
         id="Item.sturgia_noble_sword_1_t5" />
+      <Equipment slot="Body"
+        id="Item.nordic_lamellar_vest" />
       <Equipment slot="Leg"
         id="Item.plated_strip_boots" />
       <Equipment slot="Gloves"
@@ -6347,7 +6349,7 @@
   <EquipmentRoster id="stu_civ_template_heavy">
     <EquipmentSet civilian="true">
       <Equipment slot="Item0"
-        id="Item.sturgia_axe_5_t5" />
+        id="Item.sturgia_sword_5_t4" />
       <Equipment slot="Body"
         id="Item.northern_tunic" />
       <Equipment slot="Cape"

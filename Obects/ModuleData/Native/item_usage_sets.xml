@@ -1358,6 +1358,12 @@
              is_left_stance="True" />
     </usages>
   </item_usage_set>
+  <item_usage_set id="onehanded_block_rshield_swing_thrust"
+                  base_set="onehanded_block_shield_swing_thrust" >
+    <flags>
+      <flag name="requires_shield"/>
+    </flags>
+  </item_usage_set>
   <item_usage_set id="onehanded_block_shield_swing"
                   switch_to_alternate_action="act_switch_back_alternate_knife"
                   switch_to_alternate_action_left_stance="act_switch_back_alternate_knife_left_stance"
@@ -1440,6 +1446,12 @@
              require_free_left_hand="False"
              is_left_stance="True" />
     </usages>
+  </item_usage_set>
+  <item_usage_set id="onehanded_block_rshield_swing"
+                  base_set="onehanded_block_shield_swing" >
+    <flags>
+      <flag name="requires_shield"/>
+    </flags>
   </item_usage_set>
   <item_usage_set id="onehanded_block_shield_tipdraw_swing_thrust"
                   switch_to_alternate_action="act_switch_back_alternate_knife"
@@ -1618,6 +1630,12 @@
         <usage style="defend_down" defend_action="act_defend_shield_downswing_1h_passive_down" is_mounted="False" require_free_left_hand="False" require_left_hand_usage_root_set="shield" />
         <usage style="defend_down" defend_action="act_defend_shield_downswing_1h_passive_down_left_stance" is_mounted="False" require_free_left_hand="False" require_left_hand_usage_root_set="shield" is_left_stance="True" />-->
     </usages>
+  </item_usage_set>
+  <item_usage_set id="onehanded_rshield_axe"
+                  base_set="onehanded_axe">
+    <flags>
+      <flag name="requires_shield"/>
+    </flags>
   </item_usage_set>
   <item_usage_set id="twohanded_block_swing_thrust"
                   equip_sound="event:/mission/combat/equip/sword_equip"

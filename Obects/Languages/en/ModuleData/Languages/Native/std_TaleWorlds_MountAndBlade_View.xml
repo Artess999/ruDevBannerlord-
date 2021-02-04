@@ -5,10 +5,15 @@
   </tags>
   <strings>
     <string id="2ZarUUbw" text="{KILLERPLAYERNAME} has killed {KILLEDPLAYERNAME}!" />
+    <string id="5VIbo2Cb" text="No connection could be established to the lobby server. Check your internet connection and try again." />
     <string id="9CnRKZOb" text="{KILLEDPLAYERNAME} has died!" />
     <string id="bUh0x6rA" text="Editor" />
+    <string id="cNELF924" text="Multiplayer not available." />
+    <string id="ksq1IBh3" text="No connection" />
     <string id="NqarFr4P" text="Options" />
     <string id="ODQmOrIw" text="Credits" />
+    <string id="pwoSPHEU" text="Multiplayer is not available for your account." />
+    <string id="XnsAbUE3" text="Dismiss" />
     <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
     <string id="YbpzLHzk" text="Exit Game" />
     <string id="YDYnuBmC" text="Multiplayer" />

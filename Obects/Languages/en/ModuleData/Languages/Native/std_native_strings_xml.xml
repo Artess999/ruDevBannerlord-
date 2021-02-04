@@ -37,6 +37,7 @@
     <string id="3ydKbDmI" text="{PLAY_TIME} minutes" />
     <string id="3ZzxddkE" text="Game Password" />
     <string id="43L45sjx" text="Number of Bots Per Formation" />
+    <string id="4daqsVWG" text="Earn gold to buy higher tier respawns by assisting teammates and killing enemy troops." />
     <string id="4DcNDein" text="Map Time Limit (minutes)" />
     <string id="4Dd2xgPm" text="Weight" />
     <string id="4jv2sW4U" text="Trading Post" />
@@ -224,6 +225,7 @@
     <string id="mountverb" text="Mount" />
     <string id="MS795wWa" text="First Assist" />
     <string id="MW8rlyfL" text="Thrown" />
+    <string id="n6N21Shz" text="Earn gold to buy higher tier respawns by assisting teammates, killing enemy troops and destroying siege engines." />
     <string id="NdQZWHIy" text="·   Lead your own detachment of troops{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win" />
     <string id="NE7PmH7n" text="Conditions" />
     <string id="NqarFr4P" text="Options" />
@@ -276,7 +278,7 @@
     <string id="R4Gqskgq" text="Victory" />
     <string id="rbYITcao" text="Mouth" />
     <string id="rbz1Bwbv" text="Inventory" />
-    <string id="RDsOaEtS" text="Extra damage from perks and effects: {MODIFIED_DAMAGE}" />
+    <string id="RDsOaEtS" text="Extra damage from skills, perks and effects: {MODIFIED_DAMAGE}" />
     <string id="RJEHDWmu" text="·   Buy limited respawns using gold{newline}·   Hold control points on the map to deplete enemy morale{newline}·   Kill the entire enemy team or exhaust their morale to win" />
     <string id="RlDVtPpB" text="Eye Depth" />
     <string id="rLozutts" text="Request Friendship" />
@@ -327,8 +329,6 @@
     <string id="UHIZLFBn" text="Killed {TROOP_NAME}" />
     <string id="UJaQuEpD" text="Toggle Mount" />
     <string id="Umb8XsZH" text="Pierce" />
-    <string id="umhwsoqb" text="Choose your desired troop at the start of the round and for the further respawns by using gold." />
-    <string id="uPLRkTZr" text="Spawn with better troops by using gold depending on the success at the siege." />
     <string id="UQabkhbG" text="Mount charged for {DAMAGE} {DAMAGE_TYPE} damage." />
     <string id="uqzA4Q4a" text="Imperial Villa" />
     <string id="UrZvjCfE" text="Your mount received {DAMAGE} {DAMAGE_TYPE} damage." />
@@ -388,6 +388,7 @@
     <string id="yQtzabbe" text="Close" />
     <string id="YRabuUqx" text="Baravenos Encirclement" />
     <string id="YRymCbaa" text="Got crushed through!" />
+    <string id="YtSQB7rg" text="Choose your desired class at the start of the round and for the further respawns by using gold." />
     <string id="Yvjap05b" text="Movement Speed" />
     <string id="YvK6gI6q" text="Town Outskirts" />
     <string id="yyJejJbO" text="Chin Shape" />
@@ -396,7 +397,6 @@
     <string id="zHKHwHMr" text="Rural Area" />
     <string id="zmlCRb1M" text="Max Number Of Players" />
     <string id="ZMmrpMPk" text="Neck" />
-    <string id="zpNSyauI" text="Spawn with better troops by using gold depending on your kills on the battlefield." />
     <string id="ztGHtRNf" text="Cheating" />
     <string id="ZYChhMrO" text="Draw" />
     <string id="ZZMbAjSU" text="Crushed through!" />
