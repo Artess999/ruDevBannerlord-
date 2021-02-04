@@ -90,7 +90,7 @@
     <string id="4mwSvCgG" text="Да. Идём со мной к {TARGET_NOTABLE.NAME}, попробуем решить всё мирным путём."/>
     <string id="4P4HQqCf" text="Я {?PLAYER.GENDER}рада{?}рад{\?}, что {?PLAYER.GENDER}нашла{?}нашёл{\?} тебя. Присоединяйся к отряду."/>
     <string id="4ry48jbg" text="У меня есть поручение для тебя..."/>
-    <string id="4Slck7UB" text="{RANDOM_RELATIVE} рассказывал, что можно взять целую кучу {ITEM_NAME} в {TOWN_NAME}, и получить неплохую прибыль, где-то {PRICE_DIFF}{GOLD_ICON}"/>
+    <string id="4Slck7UB" text="{RANDOM_RELATIVE} рассказывал, что можно взять немного {ITEM_PLURAL} в {TOWN_NAME}, и получить неплохую прибыль, где-то {PRICE_DIFF}{GOLD_ICON}"/>
     <string id="4vAbAIqi" text="Хорошо. Думаю, мне всё понятно."/>
     <string id="4xtBNkjN" text="К вашему сожалению, на деньги я играю только в полную силу. Вам будет тяжко."/>
     <string id="4y8WakX7" text="Прости, сегодня судьба благоволит мне, и я не могу упустить этот шанс."/>
@@ -164,7 +164,7 @@
     <string id="8hNYr2VX" text="Да так, я просто мимо прохожу."/>
     <string id="8lOCOcXw" text="Твое слово направит удар моего меча и полёт моей стрелы..."/>
     <string id="8N3cs42a" text="Говорят, что {NOTABLE.LINK} пытается сократить расходы на {?NOTABLE.GENDER}её{?}его{\?} {SHOP_TYPE}. Они говорят, что {?NOTABLE.GENDER}она{?}он{\?} повсеместно урезает жалованье людям."/>
-    <string id="8NDuezga" text="{RANDOM_RELATIVE} недавно рассказывал, что, оказывается, можно почти задаром купить {ITEM_NAME} где-то здесь, а потом продать в {TOWN_NAME}. И получить {PRICE_DIFF}{GOLD_ICON} прибыли за каждую единицу товара"/>
+    <string id="8NDuezga" text="{RANDOM_RELATIVE} недавно рассказывал, что, оказывается, можно почти задаром купить {ITEM_PLURAL} где-то здесь, а потом продать в {TOWN_NAME}. И получить {PRICE_DIFF}{GOLD_ICON} прибыли за каждую единицу товара"/>
     <string id="8OkPHu4f" text="Нет"/>
     <string id="8UBfIenN" text="Обычный"/>
     <string id="8UyOJNhU" text="Примите мою благодарность. Приятно быть {?PLAYER.GENDER}свободной{?}свободным{\?} вновь."/>
@@ -938,7 +938,7 @@
     <string id="U79CXBbj" text="Бог присматривает за нами. Бог даёт нам силы"/>
     <string id="U8iyCXmF" text="вот есть молодцы, которым совсем не свезло в жизни - мы с ребятами всегда подмочь пытаемся. Серебра отсыпаем, делимся. Под процентики конечно, но все равно ведь дело хорошее."/>
     <string id="UBd0dEPp" text="Поединок окончен"/>
-    <string id="ubnVca4L" text="{RANDOM_RELATIVE} обмолвился, что взял целую кучу {ITEM_NAME} в {TOWN_NAME}, и заработал с этого {PRICE_DIFF}{GOLD_ICON} Конечно, он может и врать..."/>
+    <string id="ubnVca4L" text="{RANDOM_RELATIVE} обмолвился, что взял немного {ITEM_PLURAL} в {TOWN_NAME}, и заработал с этого {PRICE_DIFF}{GOLD_ICON} Конечно, он может и врать..."/>
     <string id="UesQ8a2B" text="Какую мастерскую вы хотите открыть здесь?"/>
     <string id="UfpmWfbG" text="{PLAYER.NAME}, ты же {?PLAYER.GENDER}леди{?}лорд{\?} без хозяина, владеющего землями от вашего имени, с самыми незначительными претензиями на законность, боюсь ни один король Кальрадии не согласится на прочный мир с вами."/>
     <string id="UGTCe2qP" text="Расслабься. Меня прислали тебе помочь, {QUEST_GIVER.NAME}. Я знаю все о твоей ситуации. Я здесь, чтобы помочь."/>
@@ -1103,7 +1103,7 @@
     <string id="Za6Du9Kf" text="Тогда ты заплатишь своей кровью!"/>
     <string id="za78F8gO" text="Стойте! Мы сдаёмся."/>
     <string id="zbWsjfbn" text="Я {CONVERSATION_HERO.FIRSTNAME}. Спроси обо мне. Скажем так, у меня есть талант к решению проблем людей.[rb:trivial]"/>
-    <string id="ZCbQvqqv" text="Лицо без шрамов чаще всего у фермеров или торговцев, но точно не у воинов."/>
+    <string id="ZCbQvqqv" text="Лицо без шрамов и отметин чаще всего у фермеров или торговцев, но точно не у воинов."/>
     <string id="zcf9M1Qh" text="Очень хорошо... Вы можете идти."/>
     <string id="zFAkHQRH" text="Теперь я могу оплатить свой долг."/>
     <string id="zG5jo0bJ" text="Да, вы достигли прогресса?"/>
