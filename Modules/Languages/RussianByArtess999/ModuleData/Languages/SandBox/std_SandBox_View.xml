@@ -5,7 +5,7 @@
   </tags>
   <strings>
     <string id="171fTtIN" text="Песочница"/>
-    <string id="6mN03uTP" text="Продолжить игру"/>
+    <string id="6mN03uTP" text="Загрузить игру"/>
     <string id="9NuttOBC" text="Загрузить"/>
     <string id="A7349NHy" text="Важное решение"/>
     <string id="AbEh2y8o" text="Сохранить и выйти"/>
@@ -17,7 +17,7 @@
     <string id="RamV6yLM" text="Выход в Главное меню"/>
     <string id="VHjIJGja" text="Вы должны быть членом королевства"/>
     <string id="XzZFhRwr" text="Вернуться в игру"/>
-    <string id="0tJ1oarX" text="Continue Campaign"/>
-    <string id="u24Jy4At" text="There is no campaign to continue"/>
+    <string id="0tJ1oarX" text="Продолжать кампанию"/>
+    <string id="u24Jy4At" text="Кампания для продолжения отсутствует"/>
   </strings>
 </base>

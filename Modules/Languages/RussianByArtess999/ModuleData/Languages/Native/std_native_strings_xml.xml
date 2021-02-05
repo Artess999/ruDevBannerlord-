@@ -378,7 +378,7 @@
     <!--TODO-->
     <string id="pMmmfvkN" text="Inappropriate Play"/>
     <string id="Pzvtcbk6" text="Ксауна"/>
-    <string id="RDsOaEtS" text="Дополнительный урон от навыков и эффектов: {MODIFIED_DAMAGE}"/>
+    <string id="RDsOaEtS" text="Дополнительный урон от навыков, умений и эффектов: {MODIFIED_DAMAGE}"/>
     <string id="RJEHDWmu" text="·   Покупайте ограниченное возрождение за золото{newline}·   Удерживайте контрольные точки на карте, чтобы подорвать боевой дух врага{newline}·   Убейте всю вражескую команду или истощите их боевой дух, чтобы победить"/>
     <string id="rLozutts" text="Запрос на дружбу"/>
     <!--TODO-->

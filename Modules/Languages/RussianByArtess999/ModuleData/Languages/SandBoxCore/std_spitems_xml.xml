@@ -760,7 +760,6 @@
     <string id="EbWA5mcO" text="Тренировочный Билль"/>
     <string id="HfdMRTdk" text="Южные тренировочные метательные кинжалы"/>
     <string id="kE0b93nV" text="Имперское тренировочное копье"/>
-    <!--TODO-->
     <string id="OduQaxEX" text="Тренировочная железная спата"/>
     <!--TODO-->
     <string id="oJKXjRJ3" text="Чешуйчатая броня горцев поверх ткани (Cloth)"/>
@@ -773,7 +772,8 @@
     <string id="wIot5ohD" text="Железная тренировочная флисса"/>
     <string id="yiQrbOuJ" text="Простой тренировочный джавелин"/>
     <string id="YNabqvLK" text="Северное тренировочное копье"/>
-    <string id="0a6Vz7wi" text="Leather Tabard"/>
+    <string id="0a6Vz7wi" text="Кожаный табард"/>
+    <!--TODO-->
     <string id="0qQPRzKm" text="Decorated Lamellar Leather Shoulders"/>
     <string id="18ZFPXsO" text="Huscarl Plated Boots"/>
     <string id="1BXuUR3s" text="Infantryman's Long Gambeson"/>
@@ -800,7 +800,7 @@
     <string id="6XxiMU52" text="Leather Tabard Over Mail"/>
     <string id="7566s7pt" text="Infantrymans Mail Over Stripped Leather"/>
     <string id="79bPUaOK" text="Beduin Common Saddle"/>
-    <string id="7b8Cwogx" text="Aketon"/>
+    <string id="7b8Cwogx" text="Акетон"/>
     <string id="7CPMZKVY" text="Tartan Dress"/>
     <string id="7EAEIUIY" text="Heavy Ring Mail"/>
     <string id="7uJkrHeg" text="Aproned Feminine Coat"/>
@@ -948,7 +948,7 @@
     <string id="NMSEAA4A" text="Dress with Fur"/>
     <string id="NRB3V6yP" text="Reinforced Half Plate Barding"/>
     <string id="NTaol1uQ" text="Ring Mail"/>
-    <string id="nZ2MJWhM" text="Tribal Turban"/>
+    <string id="nZ2MJWhM" text="Племенной тюрбан"/>
     <string id="NZjbiEXg" text="Tartan Cloak"/>
     <string id="oa2XYnHC" text="Female Rural Scarf"/>
     <string id="OaQE1Frx" text="Steppe Saddle"/>

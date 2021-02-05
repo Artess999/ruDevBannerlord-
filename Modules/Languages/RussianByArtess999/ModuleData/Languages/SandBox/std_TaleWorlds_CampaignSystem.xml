@@ -785,7 +785,7 @@
     <string id="eibt105C" text="Правитель поддерживает престижную гвардию. Он призывает воинов, которые в противном случае могли бы служить своему местному лорду."/>
     <string id="eJuvk4om" text="Мудрое решение.[ib:closed][rb:positive]"/>
     <string id="EkkNQb5N" text="Мне нравится воин, который вселяет страх в сердца своих врагов. Вы такой человек?"/>
-    <string id="emH1yQAs" text="+30 XP ежедневный бонус для войск ранга 1-2-3."/>
+    <string id="emH1yQAs" text="+4 XP ежедневный бонус для войск ранга 1-2."/>
     <string id="emLBsWj6" text="Мне очень жаль. Свадьба между нами практически невозможна."/>
     <string id="EMVLtu5L" text="{HERO.LINK} повышает навык {SKILL_NAME} на {?PLURAL}{GAINED_POINTS} очков{?}1 очко{\?} и сейчас он равен {UPDATED_SKILL_LEVEL}"/>
     <string id="EmXai6dm" text="обесценивание валюты"/>
@@ -1546,7 +1546,8 @@
     <string id="PFNXodyo" text="Какого рода инструменты?"/>
     <string id="pfxG5Ubu" text="Ладно, успокойтесь. Забирайте наше оружие!"/>
     <string id="pFzj52dE" text="Вы проводите многие часы в тёмной камере. Неожиданно, один из ваших пленителей входит в вашу камеру с одним предложением; он отпустит вас взамен {MONEY_AMOUNT}{GOLD_ICON}. Вы решаете..."/>
-    <string id="PG8anNca" text="Верность поселений увеличивается на 1 ежедневно&#10;Рекрутирование ополченцев возрастает на 1"/>
+    <!--TODO-->
+    <string id="PG8anNca" text="Верность поселений увеличивается на 0.5 ежедневно&#10;Daily hearth production в деревнях уменьшается на 0.25 ежедневно"/>
     <string id="pgbC8UkU" text="Восстание"/>
     <string id="PGkFvo77" text="{CURRENT_LIEGE.LINK} является моим дорогим другом. Я не могу позволить себе предать {?CURRENT_LIEGE.GENDER}ее{?}его{\?}."/>
     <string id="PH7pkve4" text="{ISSUE_NAME}: Ваши люди разбираются с этим"/>
@@ -2566,7 +2567,7 @@
     <string id="850DaOJR" text="Cavalry troops in the formation you are leading have their damage increased by 2%."/>
     <string id="864bKdc6" text="Sprint"/>
     <string id="86zulKBF" text="Foreseeable Future"/>
-    <string id="886Q6KjF" text="Moving while party morale is higher than 75 gives +1 passive xp to all troops daily."/>
+    <string id="886Q6KjF" text="Moving while party morale is higher than 75 gives +2 passive xp to all troops daily."/>
     <string id="8avwit9N" text="{QUEST_GIVER.LINK}, the army commander of {FACTION} has told you that they need detailed information about enemy fortifications and troop numbers of the enemy. {?QUEST_GIVER.GENDER}She{?}He{\?} wanted you to scout {SETTLEMENT_1}, {SETTLEMENT_2} and {SETTLEMENT_3}."/>
     <string id="8BdJ2MZj" text="I don't want to hurt your people. I'll forget my deal with {ISSUE_GIVER.LINK}."/>
     <string id="8coU5Ff5" text="Increase security of your settlement by 1."/>
@@ -2690,7 +2691,7 @@
     <string id="BbaidhT4" text="Equipped crossbows do not slow you down."/>
     <string id="bbsN6hOo" text="Have you already sold that {SELECTED_ITEM}? If so, that seems awfully quick."/>
     <string id="BC1vxpPb" text="All troops in party gain additional +1 xp per day."/>
-    <string id="bcONdncG" text="+2 daily xp gain to governed settlements."/>
+    <string id="bcONdncG" text="+2 daily xp gain to all troops in garrison to governed settlements."/>
     <string id="BCoQgZvG" text="Perfect Technique"/>
     <string id="bcpYibrF" text="10% more damage bonus in simulations against bandit parties."/>
     <string id="BCy1KpvR" text="Лакалион"/>
@@ -2948,7 +2949,7 @@
     <string id="GzNVqogG" text="Infantry troops in the the party you are leading have their hitpoints increased by 10."/>
     <string id="GzodT3vS" text="You have failed to scout the enemy settlements in time."/>
     <string id="h1juSIZx" text="Troops under your command have +30 throwing skill."/>
-    <string id="H2zjWQLk" text="Bow equipped troops in your party gain small amount of xp everyday."/>
+    <string id="HM60zpIf" text="Your ranged troops gain +2 xp everyday."/>
     <string id="h7zHLPX5" text="Increase visual range in campaign  by 10%."/>
     <string id="h83ZU95t" text="Deep Quivers"/>
     <string id="HabvheWJ" text="Hero prisoners gain a 25% better deal from ransom broker."/>
@@ -3153,7 +3154,7 @@
     <string id="mchBqAXt" text="Increase party morale by 4 if number of mounts is greater than non-cavalry troops."/>
     <string id="mcWYveN4" text="Once per day, when you enter a village you have a 50% chance to increase clan's relation with a notable by 1."/>
     <string id="MhRF64eR" text="Fervent Attacker"/>
-    <string id="mhUmO65C" text="Moving while overburdened gives +1 passive xp to all troops to all troops daily."/>
+    <string id="mhUmO65C" text="Moving while overburdened gives +2 xp to all troops to all troops daily."/>
     <string id="mIfHAazB" text="Project boosting is more 20% effective."/>
     <string id="miMZavW3" text="Baptised in Blood"/>
     <string id="MISEi5Bh" text="Increase maximum track spotting distance by 20%"/>
@@ -3281,7 +3282,7 @@
     <string id="PR4IqkTW" text="Темеон"/>
     <string id="pRbKbPK3" text="Вадриос"/>
     <string id="PrzguaEq" text="Thank you. I appreciate your people's help."/>
-    <string id="PSmDvbGM" text="Gain 0.1% interest per day on gold you have."/>
+    <string id="PSmDvbGM" text="Gain 0.1% interest per day on gold you have. It's capped at maximum 1000 per day."/>
     <string id="PTYKFbqf" text="Governed settlement gains +0.5 prosperity per day."/>
     <string id="pV7DLTAu" text="I am sorry my {?QUEST_GIVER.GENDER}lady{?}lord{\?}. I cannot deliver the {MOUNT_TYPE} you have requested."/>
     <string id="pwnqk0Nj" text="Gathered denars from {SELECTED_ITEM}"/>
@@ -3306,7 +3307,7 @@
     <string id="QGIAbglw" text="Оброн"/>
     <string id="QGigAhFW" text="You have married with {YOUNG_HERO.LINK} who is the young noble you agreed to be his tutor. {QUEST_GIVER.LINK} has canceled your tutor agreement and wished you a long lasting marriage."/>
     <string id="qgIMB69a" text="Double relationship gain by resolved issues with merchants."/>
-    <string id="QGX317PD" text="+15 xp per day to party."/>
+    <string id="QGX317PD" text="+2 xp per day to all troops in party."/>
     <string id="QH3shVzb" text="My people can bring you your laborers."/>
     <string id="QH77Weyq" text="Bulls Eye"/>
     <string id="qi0wKvPX" text="You failed to catch up to the caravan before it was overwhelmed. {QUEST_GIVER.LINK} will be very upset about this."/>
@@ -3517,7 +3518,7 @@
     <string id="VtTMWJja" text="Reduces reload time by 25%."/>
     <string id="VUxFbEiW" text="Saddlebags"/>
     <string id="Vv2ednFa" text="Education"/>
-    <string id="vvb8UG8i" text="+2 passive experience gain for all troops."/>
+    <string id="vvb8UG8i" text="All troops gain +2 daily xp."/>
     <string id="VWPbNJrY" text="2x zoom in with crossbows."/>
     <string id="Vxt0xTvV" text="Мавея"/>
     <string id="VzhbUL60" text="Венделия"/>
@@ -3631,13 +3632,13 @@
     <string id="YrywEzSc" text="Influence gain from donating troops are increased by 25%."/>
     <string id="YsGSgaba" text="Number of towns or castles you own should be at least {SETTLEMENT_COUNT}"/>
     <string id="yTUfzVaR" text="Towns you govern give 2.5% more tax."/>
-    <string id="ytvDsThh" text="Also, all melee infantry troops in your party gain 5 % more xp after battle."/>
+    <string id="ytvDsThh" text="Also, all melee infantry troops in your party gain 5% more xp after battle."/>
     <string id="yxg91L0a" text="We’ll tell everyone what you did. Please take some of these goods in compensation. We have no intention to sell them anyway. Safe travels, {?PLAYER.GENDER}milady{?}sir{\?}."/>
     <string id="yY5iDvAb" text="Fleet Footed"/>
     <string id="YZ6UmX5o" text="Certainly. Here is your payment as I promised. Thank you."/>
     <string id="z2U0ChBQ" text="25% attrition against besieger personnel."/>
     <string id="z47GjqTZ" text="Yes, of course. This is the {REMAINING_DENARS}{GOLD_ICON} denars that I owe you."/>
-    <string id="z4lWVbHy" text="+4 passive experience gain for tier 4+ troops."/>
+    <string id="z4lWVbHy" text="Tier 4+ troops gain +4 daily xp."/>
     <string id="z7b7s4cN" text="10% sight range bonus while in steppes and plains."/>
     <string id="z7eyVsPQ" text="Troops in your formation gain 4% damage against bandit troops."/>
     <string id="zalLawWA" text="Troops in your formation gain 5% more experience from battles."/>
@@ -3673,7 +3674,7 @@
     <string id="ZyeIno52" text="Increase escape chance by 30% from mobile parties."/>
     <string id="zYKeYZAo" text="All right. Don't rush this but also don't wait too long."/>
     <string id="ZZ7Q3VOG" text="Thank you my {?PLAYER.GENDER}lady{?}lord{\?}. I am indeed honored."/>
-    <string id="zzOxYsv1" text="Each troop in the garrison gains +5 xp per day."/>
+    <string id="zzOxYsv1" text="Each troop in the garrison gains +3 xp per day."/>
     <string id="ZZvdmmn4" text="Your troops receive 25% less morale penalty from casualties when using Shield Wall, Square, Skein or Column formations."/>
     <string id="zZvU1ANu" text="Increase speed bonus effect to damage by 50% while on foot."/>
     <string id="0B6HlgnN" text="{HERO.FIRSTNAME} Ящер"/>
@@ -3839,7 +3840,7 @@
     <string id="xudfzjgJ" text="{?HERO.GENDER}Маленькая{?}Маленький{\?} {HERO.FIRSTNAME}"/>
     <string id="xWbSbNqy" text="Infantry in your party increase melee weapon skills by 30 while in shield wall formation."/>
     <string id="y4vyNZxg" text="{HERO.FIRSTNAME} {?HERO.GENDER}Кислая{?}Кислый{\?}"/>
-    <string id="Y7tozytM" text="Hello, {?PLAYER.GENDER}madam{?}sir{\?}. You have the bearing of a warrior .Do have a minute? We may have interests in common."/>
+    <string id="Y7tozytM" text="Hello, {?PLAYER.GENDER}madam{?}sir{\?}. You have the bearing of a warrior. Do have a minute? We may have interests in common."/>
     <string id="yF3cBat5" text="Thank you {?PLAYER.GENDER}madame{?}sir{\?}. Here is what we promised."/>
     <string id="yG0JIiaS" text="{HERO.FIRSTNAME} Шакал"/>
     <string id="ynwbmuoG" text="{HERO.FIRSTNAME} Гадюка"/>
@@ -3943,7 +3944,7 @@
     <string id="bCZbgrLU" text="The smith came down sick and the young {?CHILD.GENDER}woman{?}man{\?} had to quickly learn how to craft horseshoes and nails."/>
     <string id="bdYtcgyB" text="never back down from a challenge."/>
     <string id="biqBLGwa" text="You told the artisan to make sure that {?PLAYER_CHILD}your{?}the{\?} child works hard, and that {?CHILD.GENDER}she{?}he{\?} swings the hammer for hours in the blazing heat of the forge. It tempers the soul, you believe."/>
-    <string id="bIS4kqmf" text="Dreadful Sieger"/>
+    <string id="bIS4kqmf" text="Dreadful Besieger"/>
     <string id="bnPgkPv2" text="Towers, domes and gates are wonders that we must never take for granted."/>
     <string id="brixvCjC" text="guided the caravan."/>
     <string id="bTj16PqR" text="Every well-born youth wants to see the center of it all, where the lords and ladies gather in splendor to converse and connive. You invited the child to see the spectacle first hand, and provided the elegant clothes {?CHILD.GENDER}she{?}he{\?}'d need to be part of it. "/>
@@ -4064,7 +4065,7 @@
     <string id="JHMHcZEp" text="You have seen many marvels on your travels and heard of many more, and one day, you believe, the philosophers of science will rule the world."/>
     <string id="jL8ntljn" text="procures supplies."/>
     <string id="jNBVoObj" text="Choose a Request"/>
-    <string id="JqaKRXNo" text="Eraftiness"/>
+    <string id="JqaKRXNo" text="Craftiness"/>
     <string id="jqstr7ZL" text="Learn to fire men's pride, stoke their anger and dispel their fears, and they will turn from men into lions who will do anything for you."/>
     <string id="jukOfT2Z" text="Outside events also intruded on {CHILD.NAME}'s adolescence. You believe {?CHILD.GENDER}she{?}he{\?} was particularly shaped by {RANDOM_OUTCOME}. This event increased {?CHILD.GENDER}her{?}his{\?} skills in {SKILL_1} and {SKILL_2}."/>
     <string id="JX13Wd65" text="managing the logistics of travel."/>
@@ -4258,23 +4259,23 @@
     <string id="ZkkHPpT7" text="Your child excels at any task that requires {?CHILD.GENDER}her{?}him{\?} to use {?CHILD.GENDER}her{?}his{\?} hands."/>
     <string id="Zoes3ojA" text="{?CHILD.GENDER}Her{?}His{\?} tutors continue to remark on {CHILD.NAME}'s progress, commending {?CHILD.GENDER}her{?}his{\?} {ATR}."/>
     <string id="zulqIQQw" text="Children play rough, and this child is usually the one who winds up on top in any tussle."/>
-    <string id="0FxtNPvV" text="You cannot devastate a settlement that has your faction culture.\n"/>
+    <string id="0FxtNPvV" text="You cannot devastate a settlement that has your faction culture.{newline}"/>
     <string id="112qk7bb" text="Fear not. I will find the right market for your {SELECTED_ITEM} myself."/>
     <string id="1RBxhh4W" text="{QUEST_GIVER.LINK} is not avaliable for this quest anymore."/>
     <string id="2diuD0rT" text="Your clan/faction is now at war with {QUEST_GIVER.LINK}'s faction. Your agreement with {QUEST_GIVER.LINK} has been canceled."/>
-    <string id="2wwAyZdL" text="\nArmy Gold Gain : {ARMY_GOLD_GAIN}"/>
-    <string id="38dcXWzq" text="\nNotable Powers: {NOTABLE_POWER_LOST_AMOUNT}%"/>
+    <string id="2wwAyZdL" text="{newline}Army Gold Gain : {ARMY_GOLD_GAIN}"/>
+    <string id="38dcXWzq" text="{newline}Notable Powers: {NOTABLE_POWER_LOST_AMOUNT}%"/>
     <string id="3BvfOe1y" text="Very well then. You catch some more and you want me to take them off of your hands, you know where to find me..."/>
-    <string id="5JTEvvaO" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE} and {SKILL_TWO}\n{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
+    <string id="5JTEvvaO" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE} and {SKILL_TWO}{newline}{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
     <string id="65BTaOl8" text="{QUEST_GIVER.LINK} died and your mission is canceled."/>
     <string id="6VtZJPSb" text="Javelins you throw penetrate shields like ballista bolts."/>
     <string id="a1EDzSY7" text="You have failed to raid required number of enemy villages. {QUEST_GIVER.LINK} is disappointed."/>
     <string id="aRfMtTUT" text="Good. See if you can hit {NUMBER_OF_TARGET_VILLAGE} villages. They won't be able to ignore that kind of damage. I'll give you {BASE_REWARD}{GOLD_ICON} for doing that, and {EXTRA_REWARD}{GOLD_ICON} more for every extra one that you raid. Agreed?"/>
-    <string id="aXFYyBEQ" text="Showing mercy to a settlement that shares your faction’s culture requires no influence.\n"/>
+    <string id="aXFYyBEQ" text="Showing mercy to a settlement that shares your faction’s culture requires no influence.{newline}"/>
     <string id="AXsbnTBb" text="{QUEST_GIVER.LINK} has made peace with the {ENEMYFACTION_INFORMALNAME}. Your agreement with {QUEST_GIVER.LINK} has been canceled."/>
     <string id="bIDvq6wA" text="The enemy no longer holds any villages. {QUEST_GIVER.LINK} has canceled your mission."/>
     <string id="bLfXzCyc" text="I'm at your service my {?ISSUE_OWNER.GENDER}lady{?}lord{\?}. Just tell me the details."/>
-    <string id="bn5fpYx3" text="{HERO.NAME} must use {INFLUENCE_AMOUNT} influence to convince {CRUEL_LORD_COUNT} non-merciful leaders of this action.\n"/>
+    <string id="bn5fpYx3" text="{HERO.NAME} must use {INFLUENCE_AMOUNT} influence to convince {CRUEL_LORD_COUNT} non-merciful leaders of this action.{newline}"/>
     <string id="Bp0ZQbfp" text="{DEFAULT_TEXT}{ARMY_LEADER.LINK} has decided to show mercy to the people of {SETTLEMENT}."/>
     <string id="bRdjTD7Q" text="Throwing weapon projectile speed increased by 25%."/>
     <string id="BXw5MwX7" text="{DEFAULT_TEXT}{ARMY_LEADER.LINK} grants {?ARMY_LEADER.GENDER}her{?}his{\?} men their customary right of pillage after a successful siege. {?ARMY_LEADER.GENDER}She{?}He{\?} tells them they may take property but must spare the townsfolk’s lives."/>
@@ -4282,45 +4283,45 @@
     <string id="cfjTtxWv" text="Maximum"/>
     <string id="CrzFdo2H" text="Yes. It's about the war with the {ENEMYFACTION_INFORMALNAME}. We need to tie up some of their forces. A relatively small force moving quickly through their lands and raiding their villages should be a good distraction. Their lords will need to chase the raiders and won't be able to threaten us elsewhere. You seem to be the right {?PLAYER.GENDER}warrior{?}man{\?} for the job. What do you say? You'll have my gratitude and you'll be well rewarded if you succeed."/>
     <string id="DSlhMswt" text="Raid an Enemy Teritory"/>
-    <string id="DuQvj7zd" text="\n+{VALUE} to {TRAIT_NAME}"/>
+    <string id="DuQvj7zd" text="{newline}+{VALUE} to {TRAIT_NAME}"/>
     <string id="ERh2DVEa" text="Prosperity Lost: {PROSPERITY_LOST_AMOUNT}"/>
     <string id="EuwtMZGZ" text="Show Mercy {SHOW_MERCY_INFLUENCE_COST_TEXT}"/>
-    <string id="EVxxKXmW" text="\nLoyalty in {SETTLEMENT} : {LOYALTY_LOST_AMOUNT}"/>
-    <string id="F1syZDs4" text="\n+{VALUE} to {TRAIT_NAME_ONE} and {TRAIT_NAME_TWO}"/>
+    <string id="EVxxKXmW" text="{newline}Loyalty in {SETTLEMENT} : {LOYALTY_LOST_AMOUNT}"/>
+    <string id="F1syZDs4" text="{newline}+{VALUE} to {TRAIT_NAME_ONE} and {TRAIT_NAME_TWO}"/>
     <string id="FPPb7ur6" text="({INFLUENCE_AMOUNT}{INFLUENCE_ICON})"/>
     <string id="fQaPv0Xl" text="I will be staying here for a few days. Let me know if you need my services."/>
     <string id="gMvDCnlx" text="You have successfully raided enemy villages and distracted enemy forces as promised"/>
     <string id="GNalaRaN" text="Minimum"/>
-    <string id="HDNedIxl" text="\n        {BUILDING_NAME}: {LEVEL_LOST}"/>
-    <string id="HtHcEv7N" text="\nParty Morale Change : {MORALE_CHANGE}"/>
+    <string id="HDNedIxl" text="{newline}        {BUILDING_NAME}: {LEVEL_LOST}"/>
+    <string id="HtHcEv7N" text="{newline}Party Morale Change : {MORALE_CHANGE}"/>
     <string id="hvQUqRSb" text="{SETTLEMENT} has been taken by an army of which you are a member. "/>
-    <string id="i20baAus" text="\n+{VALUE} to {TRAIT_NAME_ONE}, {TRAIT_NAME_TWO} and {TRAIT_NAME_THREE}"/>
+    <string id="i20baAus" text="{newline}+{VALUE} to {TRAIT_NAME_ONE}, {TRAIT_NAME_TWO} and {TRAIT_NAME_THREE}"/>
     <string id="JEuZoV1E" text="{ISSUE_OWNER.LINK} asks you to raid enemy villages to distract enemy war parties."/>
-    <string id="jeWV2uV3" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE}, {SKILL_TWO} and {SKILL_THREE}\n{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
-    <string id="jZmBbA5M" text="\n        {BUILDING_NAME}"/>
-    <string id="KXtaJNo4" text="\n+{VALUE} renown"/>
-    <string id="n1bQHmCk" text="\n    Projects Destroyed: {BUILDINGS_DESTROYED}"/>
+    <string id="jeWV2uV3" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE}, {SKILL_TWO} and {SKILL_THREE}{newline}{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
+    <string id="jZmBbA5M" text="{newline}        {BUILDING_NAME}"/>
+    <string id="KXtaJNo4" text="{newline}+{VALUE} renown"/>
+    <string id="n1bQHmCk" text="{newline}    Projects Destroyed: {BUILDINGS_DESTROYED}"/>
     <string id="nrRvyKgL" text="I'll strike into their territory as you command, my {?ISSUE_OWNER.GENDER}lady{?}lord{\?}."/>
     <string id="PE97ZWvX" text="Not just anybody. If you have a companion that has your complete trust, then I'll agree... Just make sure he is well guarded. Goods attract bandits, as I'm sure you know. I suppose {ALTERNATIVE_TROOP_AMOUNT} well-armed man would be enough."/>
     <string id="peHCARhM" text="{DEFAULT_TEXT}{ARMY_LEADER.LINK} has ordered that {SETTLEMENT} to be laid waste. {?ARMY_LEADER.GENDER}Her{?}His{\?} troops sweep through the city taking whatever loot they like and setting fire to the rest."/>
-    <string id="Q9RXyDBz" text="{HERO.NAME} must use {INFLUENCE_AMOUNT} influence to convince {MERCIFUL_LORD_COUNT} merciful leaders of this action.\n"/>
+    <string id="Q9RXyDBz" text="{HERO.NAME} must use {INFLUENCE_AMOUNT} influence to convince {MERCIFUL_LORD_COUNT} merciful leaders of this action.{newline}"/>
     <string id="R21SLyGK" text="Excellent. You are a brave and loyal warrior. You have my thanks."/>
     <string id="RFH1lDMj" text="Raided Village Count"/>
-    <string id="RmW8Wf83" text="\nParty Gold Gain : {PARTY_GOLD_GAIN}"/>
-    <string id="RO3Zv0K4" text="\nRelation with Settlement Owner : {OWNER.LINK} : {RELATION_CHANGE}"/>
+    <string id="RmW8Wf83" text="{newline}Party Gold Gain : {PARTY_GOLD_GAIN}"/>
+    <string id="RO3Zv0K4" text="{newline}Relation with Settlement Owner : {OWNER.LINK} : {RELATION_CHANGE}"/>
     <string id="sYfvsMwN" text="{QUEST_GIVER.LINK} asked you to raid {NUMBER_OF_TARGET_VILLAGE} {ENEMYFACTION_INFORMALNAME} villages to distract their lords and weaken their armies. {?QUEST_GIVER.GENDER}She{?}He{\?} also offered you {EXTRA_REWARD}{GOLD_ICON} for every extra villages that you raid."/>
-    <string id="tF1G5YLe" text="\nTotal Building Levels Reduced: {LEVELS_LOST}"/>
+    <string id="tF1G5YLe" text="{newline}Total Building Levels Reduced: {LEVELS_LOST}"/>
     <string id="tZCLAkGZ" text="Pillage"/>
-    <string id="uw2kKrQk" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE}\n{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
-    <string id="uwmHjy7z" text="You cannot pillage a settlement that has your faction culture.\n"/>
+    <string id="uw2kKrQk" text="{EXP_VALUE} Skill Level and {FOCUS_VALUE} Focus Point to {SKILL_ONE}{newline}{ATTR_VALUE} attribute point to {ATTR_NAME}{TRAIT_DESC}{RENOWN_DESC}{GOLD_DESC}"/>
+    <string id="uwmHjy7z" text="You cannot pillage a settlement that has your faction culture.{newline}"/>
     <string id="v0mZi3Zd" text="Devastate {DEVASTATE_INFLUENCE_COST_TEXT}"/>
     <string id="VbU8Ue0O" text="After waiting for a while you find a good opportunity to close in undetected beneath the shroud of the night."/>
     <string id="vvabqi2w" text="Caravan"/>
-    <string id="W1KJEvit" text="\n    Levels Lost: {BUILDINGS_LOST_LEVEL}"/>
+    <string id="W1KJEvit" text="{newline}    Levels Lost: {BUILDINGS_LOST_LEVEL}"/>
     <string id="w1rVTUIs" text="This seems like a simple errand. Would your offer still stand if I get someone else to do it for me?"/>
-    <string id="WDRTZ8se" text="\nTown Projects Razed: {LEVELS_LOST}{PROJECTS_DESTROYED}"/>
+    <string id="WDRTZ8se" text="{newline}Town Projects Razed: {LEVELS_LOST}{PROJECTS_DESTROYED}"/>
     <string id="Wmq47pvL" text="{DEFAULT_TEXT}{ARMY_LEADER.LINK} had to show mercy to the people of {SETTLEMENT} who were originally descendants of {FACTION}. You can hear disgruntled murmuring among the troops, who have been denied their customary right of pillage."/>
     <string id="xFmYRCHs" text="Let me see what you have..."/>
-    <string id="YBqmnNGv" text="\n+{VALUE} gold"/>
+    <string id="YBqmnNGv" text="{newline}+{VALUE} gold"/>
   </strings>
 </base>
