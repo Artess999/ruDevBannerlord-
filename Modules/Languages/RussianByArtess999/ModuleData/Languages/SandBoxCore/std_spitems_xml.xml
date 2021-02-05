@@ -773,67 +773,80 @@
     <string id="yiQrbOuJ" text="Простой тренировочный джавелин"/>
     <string id="YNabqvLK" text="Северное тренировочное копье"/>
     <string id="0a6Vz7wi" text="Кожаный табард"/>
+    <string id="0qQPRzKm" text="Узорчатые ламеллярные кожаные наплечники"/>
+    <string id="18ZFPXsO" text="Пластинчатые ботинки хускарла"/>
+    <string id="1BXuUR3s" text="Длинный гамбезон пехотинца"/>
     <!--TODO-->
-    <string id="0qQPRzKm" text="Decorated Lamellar Leather Shoulders"/>
-    <string id="18ZFPXsO" text="Huscarl Plated Boots"/>
-    <string id="1BXuUR3s" text="Infantryman's Long Gambeson"/>
     <string id="1EhlbySK" text="ShortCloak"/>
-    <string id="1jX7yxSW" text="Huscarls Mail Shirt"/>
-    <string id="1WLiLoL5" text="Mirrored Leather Armor"/>
+    <string id="1jX7yxSW" text="Кольчужная рубашка хускарла"/>
+    <string id="1WLiLoL5" text="Зерцальный кожаный доспех"/>
+    <!--TODO-->
     <string id="1zFYpSSY" text="Fringed Decorated Steel Cap With Cheek Guards"/>
-    <string id="27GO9o9K" text="Iron Plate Pouldrons"/>
-    <string id="2cSOn9qb" text="Gambeson Over Mail Armor"/>
+    <string id="27GO9o9K" text="Железные пластинчатые наплечники"/>
+    <string id="2cSOn9qb" text="Гамбенезон поверх кольчужной брони"/>
+    <!--TODO-->
     <string id="2N0ZP2GB" text="Helmet With Turban And Coif"/>
-    <string id="2U17pNiY" text="Rural Headdress"/>
-    <string id="3jRX9u5M" text="Neckguard With Bronze Plate Pouldrons"/>
-    <string id="3lauB1HH" text="Bronze Lamellar Vest Over Gambeson"/>
-    <string id="3Q2F2BKD" text="Lightweight Padded Coif"/>
+    <string id="2U17pNiY" text="Деревенский головной убор"/>
+    <string id="3jRX9u5M" text="Защитный ворот с бронзовыми пластинчатыми наплечниками"/>
+    <string id="3lauB1HH" text="Бронзовый ламеллярный жилет поверх гамбезона"/>
+    <string id="3Q2F2BKD" text="Легкий стёганый койф"/>
+    <!--TODO-->
     <string id="3UxfT9Bu" text="Wrapped Leather Cap"/>
     <string id="4B2i8oxo" text="Coat With Mirrored Belt"/>
-    <string id="4cHMe6H2" text="Decorated Hauberk"/>
-    <string id="4eOHPops" text="Rugged Scale Armor"/>
+    <string id="4cHMe6H2" text="Узорчатый хауберк"/>
+    <!--TODO-->
+    <string id="4eOHPops" text="Прочная (Rugged) чешуйчатая броня"/>
+    <!--TODO-->
     <string id="4HcrY0S2" text="Fur Rimmed Leather Gloves"/>
     <string id="4ryhrb9p" text="Reinforced Harness With Cape"/>
-    <string id="4vB2SPZa" text="Royal Cataphract Helmet"/>
-    <string id="6fA31IxF" text="Heavy Mail Vest"/>
+    <!--TODO-->
+    <string id="4vB2SPZa" text="Шлем знатного (Royal) катафракта"/>
+    <string id="6fA31IxF" text="Тяжелый кольчужный жилет"/>
     <string id="6VW6zVa3" text="Luxury Coat"/>
-    <string id="6XxiMU52" text="Leather Tabard Over Mail"/>
-    <string id="7566s7pt" text="Infantrymans Mail Over Stripped Leather"/>
-    <string id="79bPUaOK" text="Beduin Common Saddle"/>
+    <!--TODO-->
+    <string id="6XxiMU52" text="Кожаный табард поверх кольчуги"/>
+    <string id="7566s7pt" text="Кольчуга пехотинца поверх дублёной кожи"/>
+    <string id="79bPUaOK" text="Обычное седло бедуина"/>
     <string id="7b8Cwogx" text="Акетон"/>
+    <!--TODO-->
     <string id="7CPMZKVY" text="Tartan Dress"/>
-    <string id="7EAEIUIY" text="Heavy Ring Mail"/>
+    <string id="7EAEIUIY" text="Тяжелая кольчуга"/>
+    <!--TODO-->
     <string id="7uJkrHeg" text="Aproned Feminine Coat"/>
-    <string id="83qyvGkN" text="Warlords Helmet "/>
+    <string id="83qyvGkN" text="Шлем вождя"/>
+    <!--TODO-->
     <string id="8kpNb6Lg" text="Closed Decorated Mail Googled Helmet"/>
     <string id="8oKVhtth" text="Buckled Brigandine Armor"/>
-    <string id="8PXbyI2r" text="Rugged Beduin Saddle"/>
-    <string id="9aehD627" text="Luxury Tunic"/>
+    <string id="8PXbyI2r" text="Крепкое седло бедуина"/>
+    <string id="9aehD627" text="Роскошная туника"/>
+    <!--TODO-->
     <string id="9efOcFRL" text="Loose Head Scarf"/>
-    <string id="9UJfJrZR" text="Spiked Kettle Over Padding"/>
-    <string id="9w40yGlZ" text="Leather Shoulderguard"/>
-    <string id="abBMKRAj" text="Decorated Closed Warlord Helmet"/>
-    <string id="ac9xJt2X" text="Heavy Nasalhelm Over Padding"/>
-    <string id="aJLikenm" text="Infantryman's Gambeson"/>
-    <string id="ALbtxxyC" text="Cavalry Lamellar Armor"/>
-    <string id="aM2EPdXj" text="Red Tabard Over Mail Hauberk"/>
+    <string id="9UJfJrZR" text="Заострённая шапель поверх подшлемника"/>
+    <string id="9w40yGlZ" text="Кожаный наплечный щиток"/>
+    <string id="abBMKRAj" text="Узорчатый закрытый шлем вождя"/>
+    <string id="ac9xJt2X" text="Тяжёлый шлем с наносником поверх подшлемника"/>
+    <string id="aJLikenm" text="Гамбезон пехотинца"/>
+    <string id="ALbtxxyC" text="Кавалерийская ламелярная броня"/>
+    <string id="aM2EPdXj" text="Красный табард поверх кольчужного хауберка"/>
+    <!--TODO-->
     <string id="Am7LeZzy" text="Cured Leather Shoulders"/>
     <string id="amqJbdDV" text="Scale Barding"/>
-    <string id="AoJ4Ztl2" text="Bandit Leather Hood"/>
-    <string id="aOwcs7Un" text="Roundkettle Over Leather"/>
-    <string id="AQIH729X" text="Bronze Nasalhelm Over Leather"/>
-    <string id="aQN4Dlx2" text="Heavy Aketon"/>
-    <string id="atSRQkCE" text="Heavy Mail Hauberk"/>
+    <string id="AoJ4Ztl2" text="Кожаный капюшон бандита"/>
+    <string id="aOwcs7Un" text="Круглая шапель поверх кожи"/>
+    <string id="AQIH729X" text="Бронзовый шлем с наносником поверх кожи"/>
+    <string id="aQN4Dlx2" text="Тяжелый акетон"/>
+    <string id="atSRQkCE" text="Тяжелый кольчужный хауберк"/>
+    <!--TODO-->
     <string id="atu9tCq8" text="Tailored Dress"/>
     <string id="b2EDkbhD" text="Wrapped Armguards"/>
     <string id="B58Ocaxw" text="Chained Fur Cloak"/>
-    <string id="b7TdIRac" text="Roundkettle Over Mail"/>
+    <string id="b7TdIRac" text="Круглая шапель поверх кольчуги"/>
     <string id="bAidg8fV" text="Huscarls Decorated Mail Shirt"/>
     <string id="BbhGL8XT" text="Brigandine Vest"/>
     <string id="bdLyEOEu" text="Furred Noble Lancer Helmet With Neckguard"/>
-    <string id="bDWgG7Jc" text="Brass Bracers"/>
-    <string id="bKBa7ahF" text="Long Simple Robe"/>
-    <string id="bLgnonyc" text="Simple Peasant Robe"/>
+    <string id="bDWgG7Jc" text="Латунные наручи"/>
+    <string id="bKBa7ahF" text="Длинный простой халат"/>
+    <string id="bLgnonyc" text="Простой халат крестьянина"/>
     <string id="BryUh6yQ" text="Steel Cap"/>
     <string id="bXVSSptk" text="Heavy Cavalry Helmet"/>
     <string id="ByxdPJzA" text="Fur Cap With Ear Flaps"/>
@@ -876,7 +889,7 @@
     <string id="FRWm800F" text="Sloven Leather"/>
     <string id="fwxHsC1h" text="Short Gambeson Over Tunic"/>
     <string id="g5BPd0Oc" text="Cloth Coif"/>
-    <string id="G8FQ2exX" text="Plate Reinforced Gloves"/>
+    <string id="G8FQ2exX" text="Пластинчатые усиленные перчатки"/>
     <string id="gA8mOXrC" text="Plate Pauldrons"/>
     <string id="GkKQH2Uy" text="Nomad Fur Hat"/>
     <string id="gSWtpl8a" text="Robe Over Mail Shirt"/>
@@ -892,9 +905,9 @@
     <string id="HVJ9ax8Z" text="Steppe Robe"/>
     <string id="HvjviTTW" text="Steel Cap With Cheek Guards"/>
     <string id="hXB6gvD2" text="Cured Leather Lamellar Shirt "/>
-    <string id="HXNb6Cqz" text="Luxury Kaftan With Waistband"/>
-    <string id="I0vRCZ7U" text="Scale Warlord Bracers"/>
-    <string id="i6QMSiut" text="Kaftan With Waistband"/>
+    <string id="HXNb6Cqz" text="Роскошный кафтан с пояском"/>
+    <string id="I0vRCZ7U" text="Чешуйчатые наручи вождя"/>
+    <string id="i6QMSiut" text="Кафтан с пояском"/>
     <string id="Ie0EazLn" text="Heavy Lamellar Pouldrons"/>
     <string id="IgIMK0vG" text="Southern Crowned Lord Helmet"/>
     <string id="iOmTEMNm" text="Footmans Padded Coat"/>
@@ -910,7 +923,7 @@
     <string id="jOjXdwcM" text="Horsemans Boots"/>
     <string id="jQKVnVNR" text="Bronze Pauldrons "/>
     <string id="jVK5B86k" text="Fur Boots"/>
-    <string id="K2JbjKLG" text="Simple Kaftan"/>
+    <string id="K2JbjKLG" text="Простой кафтан"/>
     <string id="k4kivaf5" text="Steel Cap With Nose Guard"/>
     <string id="k71X3WNK" text="Robe Over Mail Hauberk"/>
     <string id="KdbHrcQx" text="Short Tunic"/>
@@ -924,7 +937,7 @@
     <string id="lbVB6KPl" text="Hood"/>
     <string id="LhUhcbzI" text="Beduin Cloth Saddle"/>
     <string id="LMo6MaQS" text="Cataphracts Lamellar Armor"/>
-    <string id="LoUxaFeE" text="Leather Vambraces"/>
+    <string id="LoUxaFeE" text="Кожаные наручи"/>
     <string id="loZ2snKg" text="Decorated Steel Lamellar Shoulders"/>
     <string id="LRbGXEw2" text="Plumed Decorated Mailed Nasal Helmet"/>
     <string id="LSaIs3DB" text="Leather Armor"/>
@@ -936,7 +949,7 @@
     <string id="MI65uuKB" text="Ring Mail Barding"/>
     <string id="mT1bvZxM" text="Luxury Townsmans Coat"/>
     <string id="mU5CY4bz" text="Closed Huscarl Helmet"/>
-    <string id="mvTueU1y" text="Plated Leather Vambraces"/>
+    <string id="mvTueU1y" text="Пластинчатые кожаные наручи"/>
     <string id="MXpeQ7jp" text="Thick Villager Dress"/>
     <string id="mzc6SKeH" text="Frilled Dress"/>
     <string id="n1A47HcZ" text="Noble Lancer Helmet"/>
@@ -988,7 +1001,8 @@
     <string id="qxExIHbx" text="Leather Studdedhelm"/>
     <string id="Qyg2bJLX" text="Rural Head Wrap"/>
     <string id="Qywm0F8B" text="Mail Coif With Helmet Padding"/>
-    <string id="QzAvlan7" text="Short Padded Robe"/>
+    <!--TODO-->
+    <string id="QzAvlan7" text="Короткий стеганый халат (Robe)"/>
     <string id="R45H8quo" text="Toga"/>
     <string id="RDbqA36B" text="Ridged Decorated Bronze Cap With Cheek Guards"/>
     <string id="RmUJJelp" text="Huscarls Hauberk"/>
@@ -1012,7 +1026,7 @@
     <string id="TeIcf3Cd" text="Heavy Lamellar Over Mail Armor"/>
     <string id="tG1Q8r2u" text="Lancer Lamellar Armor"/>
     <string id="TS7NjgyH" text="Legionary Studded Harness"/>
-    <string id="tuEQnm2r" text="Villager Short Dress"/>
+    <string id="tuEQnm2r" text="Деревенское короткое платье"/>
     <string id="twbUeZph" text="Iron Legionary Helm Over Cloth"/>
     <string id="TwuAVsCn" text="Fur Cap"/>
     <string id="U0bVXSVs" text="Wrapped Cap"/>
@@ -1026,7 +1040,7 @@
     <string id="UuWPfE1x" text="Scaled Boots"/>
     <string id="UVdYqQGj" text="Fringed Decorated Copper Cap With Cheek Guards"/>
     <string id="uz24W7s4" text="Crowned Plate Helmet"/>
-    <string id="v4THTk5O" text="Kaftan With Leather Belt"/>
+    <string id="v4THTk5O" text="Кафтан с кожаным ремнём"/>
     <string id="V5qbVfWF" text="Palatine Guard Helmet"/>
     <string id="vCywYDmp" text="Light Padded Armor"/>
     <string id="vi4Be5a9" text="Reinforced Closed Mail Googled Helmet"/>
@@ -1045,20 +1059,20 @@
     <string id="WDNKhjca" text="Legionary Padded Straps"/>
     <string id="wE7RWmIF" text="Boarskin Leather Coat"/>
     <string id="wf1uKfnI" text="Reinforced Brass Scale Shoulders"/>
-    <string id="whiQg21b" text="Luxury Kaftan"/>
+    <string id="whiQg21b" text="Роскошный кафтан"/>
     <string id="wJ4Y9IFc" text="Cavalrymans Mail Shirt"/>
     <string id="WkYsiU1c" text="Cap With Fur Coif"/>
-    <string id="wLAL9NRB" text="Fian Bracers"/>
+    <string id="wLAL9NRB" text="Наручи фиана"/>
     <string id="WLJOnehi" text="Reinforced Thick Tunic"/>
     <string id="wQY1oqdK" text="Ridged Decorated Steel Cap With Cheek Guards"/>
     <string id="wRZ3LExm" text="Bronze Scale Vest Over Gambeson"/>
     <string id="wvnJzwbU" text="Plated Warlord Helmet"/>
-    <string id="wWqavjat" text="Light Long Padded Armor"/>
+    <string id="wWqavjat" text="Легкая длинная стеганая броня"/>
     <string id="x1kf94SW" text="Ridged Helm"/>
     <string id="x3lcf2Do" text="Luxury Lamellar Vest Over Leather"/>
     <string id="XCnUaINR" text="Bronze Nasalhelm Over Mail"/>
-    <string id="XiwTesky" text="Silk Kaftan"/>
-    <string id="XkL1Re8b" text="Studded Leather Coat"/>
+    <string id="XiwTesky" text="Шёлковый кафтан"/>
+    <string id="XkL1Re8b" text="Клёпаная кожаная куртка"/>
     <string id="xlLoyxXT" text="Light Lamellar Armor"/>
     <string id="XNQPPIaA" text="Infantryman's Gambeson Over Leather Jacket"/>
     <string id="XNW3zyfZ" text="Warlords Scale Armor"/>
